@@ -1,0 +1,213 @@
+
+
+#+LATEX_HEADER:  \DeclareExerciseCollection{Nano}
+
+
+* Nanotecnologia 
+A ciência e tecnologia em nanoescala têm atraído considerável atenção nos últimos anos, pela expectativa do impacto que os materiais nanoestruturados podem causar na melhoria da qualidade de vida e na preservação do meio ambiente. Espera-se que o avanço da nanociência e da nanotecnologia estimule não apenas a exploração de novos fenômenos e novas teorias, mas também conduza a uma revolução industrial, se tornando a nova força motora do crescimento econômico neste século.
+
+A pesquisa e o desenvolvimento, em nanotecnologia, visam a manipular estruturas em nanoescala e integrá-las para formar componentes e sistemas maiores. As possibilidades são quase infinitas e se prevê que a nanotecnologia exerça um efeito mais profundo, na sociedade do futuro, que o impacto causado pelos automóveis, aviões, televisões e computadores no século XX. Espera-se que muitos dos importantes impactos devam vir do aumento das velocidades das reações, através do uso de nanocatalisadores e da integração da eletrônica molecular com a tecnologia avançada do silício.
+
+Os investimentos em nanociência e nanotecnologia marcam presença em todas as áreas do conhecimento e representam um investimento da ordem de bilhões de dólares, por parte dos órgãos e agências de fomento em pesquisa e desenvolvimento em todo o mundo. O desenvolvimento de nanopartículas movimenta recursos da ordem de US$ 40 bilhões anuais. Os Estados Unidos da América, o Japão, a China e a Coréia do Sul são os países que mais investem em programas e patentes em nanotecnologia. No Brasil, o Programa Nacional de Desenvolvimento em Nanociência e Nanotecnologia investiu U$ 30 milhões, no período de 2005 a 2006. Com relação à produção científica mundial, estudos preliminares indicaram um crescimento com cerca de 130 mil artigos publicados, a partir de 1994, relacionados a eixos temáticos em nanociência e nanotecnologia.
+
+Em 2008, apenas no mês de fevereiro, o termo nanotecnologia apareceu na Web of Science e no Science Direct com 14.951 e 1.730 artigos científicos, respectivamente; por sua vez, o termo nanomaterial foi citado em 615 e 255 artigos, respectivamente. Isto significa que está ocorrendo uma extraordinária divulgação de conhecimento científico, importante para o desenvolvimento da sociedade. Entretanto, alguns desafios em nanociência e nanotecnologia ainda devem ser superados através de parcerias e estratégias, por parte dos setores acadêmico e industrial, de forma que a nanotecnologia possa realmente cumprir seu papel no contexto sócio-econômico e tecnológico mundial.
+
+Espera-se que a nanotecnologia possa proporcionar a geração de novos produtos e novas oportunidades de mercado, através da integração da ciência e tecnologia. A maioria das indústrias atuais irá se beneficiar com as inovações da nanotecnologia. As colaborações e interações entre indústria, academia e instituições governamentais, em escala mundial, irão acelerar o desenvolvimento de novos produtos. O tradicional modelo de negócio de larga escala deverá ser revisto de modo a considerar o elevado valor agregado dos nanomateriais e o valor social deverá incluir um menor impacto ambiental na manufatura dos produtos. Os processos deverão ser mais limpos e com maior eficiência no uso da energia e, possivelmente, de novas fontes renováveis. O consumidor irá se beneficiar pela diversidade de produtos baseados na nanotecnologia, que irão melhorar a qualidade de vida das pessoas em todo o mundo.
+
+Alguns produtos em nanoescala já estão sendo comercializados, tais como dióxido de titânio, ouro, prata e cobre que, adicionados aos plásticos, tintas e outros materiais, melhoraram o seu desempenho. Outros produtos estão próximos da comercialização, como veículos de transportes de drogas no corpo humano e nanotubos de carbono.6 Para permitir a ampla comercialização dos produtos baseados na nanotecnologia, deve-se procurar atender às seguintes demandas: nanossíntese: construção de blocos em nanoescala incluindo nanopartículas, nanotubos e materiais nanoestruturados; nanofabricação e nanoprocessamento: manipulação e processamento em nanoescala dos blocos construídos para uma dada finalidade; nanoincorporação: incorporação em nanoescala dos blocos até obter a forma do produto final, incluindo compósitos, materiais eletrônicos e dispositivos biomédicos e nanocaracterização - medida e caracterização das propriedades básicas dos blocos em nanoescala ou das formas dos produtos finais, assim como de processos de manufatura.
+
+* ASPECTOS GERAIS DA NANOCIÊNCIA E NANOTECNOLOGIA
+
+O termo nanotecnologia foi introduzido pelo engenheiro japonês Norio Taniguchi, para designar uma nova tecnologia que ia além do controle de materiais e da engenharia em microescala. Entretanto, o significado do termo atualmente se aproxima mais da formulação de Eric Drexler, que corresponde à metodologia de processamento envolvendo a manipulação átomo a átomo. Por outro lado, a nanociência se refere ao estudo do fenômeno e da manipulação de sistemas físicos que produzam informações significativas (isto é, diferenças perceptíveis), em uma escala conhecida como nano (\num{e-9} m= 1 nm) com comprimentos típicos que não excedam 100 nm em comprimento em pelo menos uma direção. Portanto, a nanotecnologia foca o projeto, caracterização, produção e aplicação de sistemas e componentes em nanoescala.
+
+Considerando-se os processos químicos, físicos e biológicos que ocorrem na natureza, é possível identificar a presença da nanotecnologia em períodos remotos da história da humanidade. Há aproximadamente 4000 anos A.C., os alquimistas egípcios utilizavam o "elixir de ouro" para estimular a mente e restaurar a juventude. O famoso "elixir da longa vida", era constituído na realidade por partículas de ouro em suspensão com tamanho da ordem de 1-100 nm.
+
+Os chineses, embora sem ter consciência disso, já aplicavam a nanotecnologia, ao empregarem nanopartículas de carvão em solução aquosa para produzir a tinta nanquim. Na Europa, o colorido dos vitrais das igrejas medievais, tão ricamente trabalhados pelos artesões, era o resultado da formulação do vidro com nanopartículas de ouro. A famosa Taça de Licurgus, do século IV d.C, que exibe uma cor verde quando a luz é refletida, mas é vermelha sob luz transmitida, é na realidade constituída por nanopartículas de ouro e prata. No século XIX, Michael Faraday mostrou a relação entre as propriedades e o tamanho de partículas de ouro, observando que esse tamanho influenciava na absorção de luz. Dessa forma, é possível obter materiais baseados em ouro em diferentes cores, dependendo do tamanho das partículas. Em sua forma natural, o ouro exibe uma coloração amarela porém, dependendo do tamanho das partículas, ele pode se mostrar negro, rubi ou arroxeado.
+
+Apesar da nanotecnologia estar presente na natureza há milhares de anos, foi na década de 50 que o físico americano Richard Feynman, em conferência na Reunião da Sociedade Americana de Física, sugeriu a construção e a manipulação, átomo a átomo, de objetos em escala nanométrica. Intitulada "Há mais espaços lá embaixo", a conferência de Feynman representou uma nova concepção em nanociência e nanotecnologia. Somente mais tarde, na década de 80, com a descoberta dos fulerenos, por Kroto e, posteriormente, a síntese dos nanotubos de carbono por Iijima, os temas em nanociência e nanotecnologia, antes vistos como ficção, passaram a ser tratados com maior seriedade.
+
+Por definição, os materiais nanoestruturados apresentam, pelo menos, uma de suas dimensões em tamanho nanométrico, ou seja, em escala 1/1.000.000.000, ou um bilionésimo do metro (1 nm = \num{e-9} m). Nessa escala de tamanho, os materiais apresentam novas propriedades, antes não observadas quando em tamanho micro ou macroscópico, por exemplo, a tolerância à temperatura, a variedade de cores, as alterações da reatividade química e a condutividade elétrica.
+
+Devido ao aumento da razão entre a área e o volume do nanomaterial, os efeitos de superfície se tornam mais importantes conferindo, a esses materiais, características especificas para determinadas aplicações; por exemplo, um material magnético tal como o ferro pode não se comportar como um ímã ao ser preparado sob a forma de nanopartículas, com tamanho da ordem de 10 nm. Por outro lado, as nanopartículas esféricas de sílica presentes em um material, apesar de incolores, ao assumirem arranjos cristalinos bem empacotados podem difratar a luz visível tornando-se um material colorido.
+
+A essência da nanotecnologia consiste na habilidade de se trabalhar em nível atômico, molecular e macromolecular a fim de criar materiais, dispositivos e sistemas com propriedades e aplicações fundamentalmente novas. Os blocos de construção são os átomos e moléculas, ou um conjunto deles tais como nanopartículas, nanocamadas, nanofios ou nanotubos. Dessa forma, a nanotecnologia permite ao homem alcançar escalas além da sua limitação natural de tamanho e trabalhar diretamente na construção dos blocos de matéria. Esta escala está situada entre o comportamento de um átomo e o comportamento do volume do sólido, isto é, entre uma fração de nanômetro e cerca de 100 nm, na qual são construídos os blocos básicos e em que as propriedades fundamentais são definidas e ajustadas em função do tamanho, forma e padrão do nanomaterial. O modo pelo qual a matéria é organizada, em estruturas maiores, também desempenha um papel essencial nas características e propriedades do sólido final. Dessa forma, se objetiva alcançar o controle em nível de nanoescala e na integração para obter escalas maiores.
+
+A habilidade para rearrumar a matéria em nanoescala é potencialmente um método econômico para obter funcionalidade, visando a um produto com alto valor agregado. A matéria pode ser rearrumada nessa escala através de interações fracas, tais como dipolo eletrostático, ligações de hidrogênio, forças de van der Waals, interações hidrofóbicas ou hidrofílicas, aglomeração fluídica e outras formas de agregação. Um exemplo dessa arrumação é a auto-agregação induzida, em que o arranjo das moléculas é conduzido sob controle, através de um campo magnético externo, um campo elétrico, um agente direcionador ou outros meios.
+
+A funcionalidade, uma das características mais importantes dos nanomateriais que permite sua extensa faixa de aplicações, é a sua capacidade de executar funções específicas. O termo funcionalização, comum em nanotecnologia, refere-se à execução de algumas funções químicas ou biológicas, através da projeção e manipulação desses materiais, de forma controlada e pré-determinada. A funcionalização de nanopartículas de ouro com biopolímeros, por exemplo, é empregada na construção de biossensores para a detecção de ácidos nucléicos e proteínas. Outro exemplo é a funcionalização dessas partículas com alcanotióis e amidoferrocenilalcanotiol, que permite a identificação de grupos tais como as espécies \ch{H2PO4^-} e \ch{HSO4^-}, em solução.
+
+Nos últimos anos, foram obtidas nanopartículas e nanocamadas com diferentes funções, tubos e fios de vários materiais, dispositivos moleculares tridimensionais, materiais para a substituição de tecidos vivos e novas ferramentas tais como pinças nanomecânicas. Também foram fabricados dispositivos ultra-pequenos, incluindo dispositivos eletrônicos moleculares, nanobiomotores e sistemas nanoeletromecânicos. Além disso, foram preparados compósitos nanoestruturados, produtos químicos e bioestruturas e foram desenvolvidas novas rotas de síntese de drogas e novos métodos de transporte através do corpo humano. Foram, ainda, desenvolvidos novos processos de preparação dos nanomateriais, incluindo a auto-aglomeração induzida e a fabricação de materiais com precisão atômica. Os principais aspectos científicos se referem à descoberta de novos fenômenos em nanoescala; de novos métodos de medidas e modelagem de um grande número de nano-objetos; do entendimento da relação entre a nanoestrutura e a aplicação do material; da manipulação com precisão atômica e molecular, da agregação e conexão em nanoescala; do entendimento da moderna biologia e do sinergismo com a informação tecnológica. Além disso, foi demonstrado o comportamento quântico à temperatura ambiente e o confinamento quântico dos nanomateriais.
+
+
+Texto extraido em: Hadma Sousa Ferreira & /Nanotecnologia: aspectos gerais e potencial de aplicação em catálise/, disponível em: Revisão • Quím. Nova 32 (7) • 2009 • https://doi.org/10.1590/S0100-40422009000700033 
+
+
+* Questões
+
+\collectexercises{Nano}
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise 
+Qual é o principal objetivo da nanotecnologia?
+#+begin_choice 
+\choice Produzir automóveis mais eficientes.
+\choice Melhorar a qualidade de vida.
+\choice Desenvolver televisões mais avançadas.
+\choice Reduzir a poluição do meio ambiente.
+#+end_choice
+#+end_exercise
+#+begin_solution
+B
+#+end_solution
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise 
+Quais países são os maiores investidores em nanotecnologia?
+
+#+begin_choice 
+\choice Brasil e Índia.
+\choice Estados Unidos, Japão, China e Coréia do Sul.
+\choice Rússia e Alemanha.
+\choice França e Canadá.
+#+end_choice
+#+end_exercise
+#+begin_solution
+B
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+O que são nanocatalisadores?
+#+begin_choice
+\choice Veículos de transporte de drogas.
+\choice Estruturas em nanoescala.
+\choice Materiais que melhoram o desempenho de plásticos e tintas.
+\choice Nanotubos de carbono.
+#+end_choice
+#+end_exercise
+#+begin_solution
+C
+#+end_solution
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+Qual é o valor social que deve ser considerado na manufatura de produtos baseados em nanotecnologia?
+#+begin_choice 
+\choice Impacto ambiental reduzido.
+\choice Maior eficiência no uso da energia.
+\choice Novas fontes renováveis.
+\choice Todos os anteriores.
+#+end_choice
+#+end_exercise
+#+begin_solution
+B
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+Quais produtos em nanoescala já estão sendo comercializados?
+#+begin_choice
+\choice Automóveis.
+\choice Nanotubos de carbono.
+\choice Dióxido de titânio, ouro, prata e cobre.
+\choice Televisões avançadas.
+#+end_choice
+#+end_exercise
+#+begin_solution
+B
+#+end_solution
+
+
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+O que se espera que a nanotecnologia proporcione?
+#+begin_choice    
+\choice Novas oportunidades de mercado.
+\choice Integração da ciência e tecnologia.
+\choice Melhoria da qualidade de vida.
+\choice Todas as anteriores.
+#+end_choice
+#+end_exercise
+#+begin_solution
+C
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+Qual é o papel da nanotecnologia na sociedade do futuro?
+#+begin_choice 
+\choice Substituir os automóveis.
+\choice Revolucionar a indústria.
+\choice Reduzir a poluição do ar.
+\choice Melhorar a qualidade de vida.
+#+end_choice
+#+end_exercise
+#+begin_solution
+B
+#+end_solution
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise 
+O que são nanomateriais?
+#+begin_choice
+\choice Estruturas em nanoescala.
+\choice Veículos de transporte de drogas.
+\choice Materiais que melhoram o desempenho de plásticos e tintas.
+\choice Nanotubos de carbono.
+#+end_choice
+#+end_exercise
+#+begin_solution
+D
+#+end_solution
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise 
+Quais setores devem colaborar para acelerar o desenvolvimento de novos produtos baseados em nanotecnologia?
+#+begin_choice 
+\choice Indústria e academia.
+\choice Governo e indústria.
+\choice Academia e governo.
+\choice Todos os anteriores.
+#+end_choice
+#+end_exercise
+#+begin_solution
+D
+#+end_solution
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise 
+Como os processos de manufatura de produtos baseados em nanotecnologia *não* devem ser?
+#+begin_choice 
+\choice Menos poluentes.
+\choice Mais eficientes no uso da energia.
+\choice Baseados em fontes não renováveis.
+\choice Mais limpos e com menor impacto ambiental.
+#+end_choice
+#+end_exercise
+#+begin_solution
+B
+#+end_solution
+
+
+
+\collectexercisesstop{Nano}
+
+
+\printcollection{Nano}

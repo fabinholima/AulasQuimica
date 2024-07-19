@@ -1,0 +1,241 @@
+
+#+begin_comment
+%%% ===================== CONSTANTE DE IONIZAÇÃO ==================== %%%%%%%%
+
+%%%% ===================== Grau de IONIZAÇÃO ======================== %%%%%%
+
+
+%%%%% ==================== LEI DE DILUIÇÃO DE OSTWAKD =================== %%%%%%
+
+
+#+end_comment
+
+
+#+LATEX_HEADER: \DeclareExerciseCollection{EquilibrioIonicoII}
+
+
+
+\collectexercises{EquilibrioIonicoII}
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A constante de ionização dos ácidos em água (K_a) indica a força relativa dos ácidos.
+
+#+begin_export latex
+\begin{tblr}{
+colspec = {cc}, colsep = 8mm, hlines = {1.5pt, white},
+row{1} = {2em,azure2,fg=white,font=\bfseries\sffamily},
+} \hline 
+Ácidos & K$_a$ (a \SI{25}{\degreeCelsius}) \\
+\hline 
+\ch{H2S} &   \num{1,0d-7} \\
+\ch{HNO2} &  \num{6.0d-6} \\
+\ch{H2CO3} &  \num{4.4d-7} \\
+\ch{CH3COOH} &  \num{1.8d-5} \\
+\ch{C6H5COOH} &  \num{6.6d-5} \\
+\hline
+\end{tblr}
+#+end_export
+
+Na comparação entre as forças de ácidos, é correto afirmar que o ácido mais forte tem maior:
+#+begin_choice
+\choice massa molecular.
+\choice densidade.
+\choice temperatura de ebulição.
+\choice temperatura de fusão.
+\choice constante de ionização
+#+end_choice
+#+end_exercise 
+#+begin_solution
+E
+#+end_solution
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Considere soluções aquosas de mesma concentração molar dos ácidos relacionados na tabela
+
+
+#+begin_export latex
+\begin{tblr}{
+colspec = {cc}, colsep = 8mm, hlines = {1.5pt, white},
+row{1} = {2em,azure2,fg=white,font=\bfseries\sffamily},
+} \hline 
+Ácidos & K$_a$ (a \SI{25}{\degreeCelsius}) \\
+\hline 
+Ácido Nitroso \ch{HNO2} &   \num{5,0d-4} \\
+Ácido acético \ch{CH3COOH} &  \num{1.8d-5} \\
+Ácido hipocloroso \ch{HC$\ell$O} &  \num{3.2d-8} \\
+Ácido cianídrico \ch{HCN} &  \num{2.3d-10} \\
+\hline
+\end{tblr}
+#+end_export
+
+Podemos concluir que:
+#+begin_choice 
+\choice  o ácido que apresenta maior acidez é o ácido cianídrico.
+\choice o ácido que apresenta menor acidez é o ácido acético.
+\choice o ácido que apresenta menor acidez é o ácido hipocloroso.
+\choice  o ácido que apresenta maior acidez é o ácido nitroso.
+\choice todos os ácidos apresentam a mesma acidez.
+#+end_choice
+#+end_exercise 
+#+begin_solution
+D
+#+end_solution
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Considere a tabela de valores de Ka das substâncias abaixo.
+
+#+begin_export latex
+\begin{tblr}{
+colspec = {cc}, colsep = 8mm, hlines = {1.5pt, white},
+row{1} = {2em,azure2,fg=white,font=\bfseries\sffamily},
+} \hline 
+Ácidos & K$_a$ (a \SI{25}{\degreeCelsius}) \\
+\hline 
+{Ácido Caboxílico \\ \ch{CH3-COOH}} &  \num{1.8d-5} \\
+{ Fenol \\ \chemfig{OH-[:180,,1]-[:240]=_[:180]-[:120]=_[:60]-(=_[:300])}} &  \num{1.3d-10} \\
+{Água \\ \ch{H2O}} &  \num{1.0d-14} \\
+{Etanol \\ \chemfig{CH_3-CH_2OH}} &  \num{1.0d-16} \\
+\hline
+\end{tblr}
+#+end_export
+
+Com base nesses valores, a ordem correta de acidez é:
+#+begin_choice 
+\choice  água < álcool < fenol < ácido carboxílico.
+\choice álcool < ácido carboxílico < água < fenol.
+\choice álcool < água < fenol < ácido carboxílico.
+\choice fenol > ácido carboxílico > água > álcool.
+\choice fenol > álcool > água > ácido carboxílico.
+#+end_choice
+#+end_exercise 
+#+begin_solution
+C
+#+end_solution
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Temos o equilíbrio:
+
+#+begin_export latex
+\begin{reaction*}
+HF + H2O <=> H3O^+ + F^-
+\end{reaction*}
+#+end_export
+
+A adição de fluoreto de sódio provocará todas as alterações abaixo, *exceto*:
+
+#+begin_choice 
+\choice A diminuição da concentração de \ch{H3O^+}.
+\choice O aumento da concentração de íons fluoreto.
+\choice A diminuição da concentração de HF (não-dissociado).
+\choice A diminuição do grau de ionização.
+\choice A inalteração da constante de ionização
+#+end_choice
+#+end_exercise 
+#+begin_solution
+C
+#+end_solution
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A constante de equilíbrio K_a para a reação:@@latex: \ch{HCN\aq{} + H2O\lqd{} <=> H3O^+\aq{} + CN^-\aq{}}@@ é \num{7.2d-10}, a \SI{25}{\degreeCelsius}. Calcular a concentração em de \ch{H3O^+} em uma solução de HCN 1,0 \unit{\mol\per\litre} a \SI{25}{\degreeCelsius}.
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice \num{7.2d-10}
+\choice @@latex:\num[parse-numbers = false]{\sqrt{7.2}}\times\num{e-4}@@
+\choice \num{7.2e-9}
+\choice \num{3.6e-10}
+\choice \num{6e-5}
+#+end_choice
+#+end_exercise 
+#+begin_solution
+
+#+end_solution
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Para aumentar efetivamente a concentração de íons carbonato no equilíbrio:
+#+begin_export latex
+\begin{reaction*}
+HCO3^- + OH^- <=> H2O + CO3^{-2} 
+\end{reaction*}
+#+end_export
+
+dever-se-ia adicionar:
+#+begin_choice
+\choice HC$\ell$
+\choice \ch{H2SO4}
+\choice NaOH
+\choice \ch{H2O}
+\choice \ch{CH3COOH}
+#+end_choice
+#+end_exercise 
+#+begin_solution
+C
+#+end_solution
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Para deslocar o equilíbrio: @@latex: \ch{2 CrO4^2- + 2 H^+ <=> Cr2O7^{2-} + H2O}@@, a fim de se produzir dicromato,
+
+#+begin_choice
+\choice acrescenta-se base, ficando com \ch{[H3O+]} > \num{e-7}
+\choice acrescenta-se ácido, ficando com [\ch{H3O^+}] > \num{e-7}
+\choice retira-se ácido, ficando com [\ch{H3O^+}] < \num{e-7}
+\choice adiciona-se base, ficando com [\ch{H3O^+}] < \num{e-7}
+\choice adiciona-se ácido, ficando com [\ch{H3O^+}] = \num{e-7}
+#+end_choice
+#+end_exercise 
+#+begin_solution
+B
+#+end_solution
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Soluções básicas têm a relação @@latex: $\displaystyle \frac{[\ch{H^+}]}{[\ch{OH^-}]}$ @@
+
+#+begin_choice
+\choice sempre maior que 1.
+\choice sempre menor que 1.
+\choice sempre igual a 1.
+\choice sempre maior que 7.
+\choice sempre menor que \num{e-14}
+#+end_choice
+#+end_exercise 
+#+begin_solution
+B
+#+end_solution
+
+
+
+
+\collectexercisesstop{EquilibrioIonicoII}

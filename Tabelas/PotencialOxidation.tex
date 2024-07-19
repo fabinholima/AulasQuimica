@@ -1,0 +1,107 @@
+\documentclass[10pt]{scrartcl}
+\KOMAoptions{
+	%headings=chapterprefix,
+	%twocolumn=true,
+	%toc=indenttextentries,
+	%toc=flat,
+	twoside=true,
+	headinclude=true,
+	footinclude=true
+	%  captions=topbeside
+}
+
+\usepackage{fontspec}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+\usepackage[x11names,svgnames,table]{xcolor}
+\defaultfontfeatures{Ligatures=TeX}
+%\setmainfont{Lato}
+\setmainfont{Charis SIL}
+%\setmainfont{Alegreya}
+
+\usepackage{typearea}
+\usepackage{lscape}
+\usepackage[a4paper]{geometry}
+\geometry{a4paper,total={170mm,257mm},left=10mm,right=10mm, top=15mm, bottom=20mm}
+\usepackage[portuguese, american]{babel}
+\usepackage{amsmath,amsfonts,amsthm,bm}
+
+\usepackage{xcolor}
+\usepackage{tabularray}
+\usepackage{chemmacros}
+\usepackage{chemfig}
+ 
+ 
+\begin{document}
+	\NewTblrTheme{fancy}{
+		\SetTblrStyle{caption-tag}{font=\bfseries}
+	}
+	
+\selectlanguage{portuguese}
+ %\UseTblrTemplate{caption-tag}{default}{\bfseries}
+\begin{longtblr}[theme=fancy,
+caption = {Potenciais padrão de redução, semi reação de redução.},
+%note{a} = {It is the first footnote.},
+]{
+colspec = {l c}, colsep = 7mm, hlines = {2pt, white},
+%row{odd} = {azure8}, row{even} = {gray8},
+row{1} = {2em,azure3,fg=white,font=\bfseries\sffamily},
+row{30} = {bg=gray8, font=\bfseries},
+}
+
+\hline
+Reação de redução &  E$_0$ / V \\ \hline
+\ch{F2\gas{} + 2 e^- <-> 2 F^-\aq{}} 							    	  				&+2,87  \\ \hline
+\ch{O3\gas{} + 2 H^+\aq{} + 2 e^-  -> O2\gas{} + H2O\lqd{}}         					& +2,07    \\ \hline
+\ch{S2O8^{2-}\aq{} + 2 e- ->2 SO4^{2-}\aq{}}           			        				& +2,01    \\ \hline
+\ch{Co^{3+}\aq{} + e^- -> Co^{2+}\aq{}}                				    				& +1,82    \\ \hline
+\ch{H2O2\aq{} + 2 H^+\aq{} + 2 e^- -> 2 H2O\lqd{}}          							& +1,77    \\ \hline
+\ch{PbSO2\sld{} + 4 H^+\aq{} + SO4^{2-}\aq{} + 2 e^-  -> PbSO4\sld{} + 2 H2O\lqd{}}     & +1,70    \\ \hline
+\ch{Ce^{4+}\aq{} + e^- -> Ce^{3+}\aq{}}                			& +1,61    \\ \hline
+\ch{MnO4^-\aq{} + 8 H^+\aq{} + 5 e- -> Mn^{2+}\aq{} + 4 H2O\lqd{}}    					& +1,51    \\ \hline
+\ch{Au^{3+}\aq{} + 3 e^- -> Au\sld{}} 	& +1,50    \\ \hline
+\ch{C$\ell$2\gas{} + 2 e^- -> 2 C$\ell$- (aq)}       & +1,36    \\ \hline
+\ch{Cr2O7^{2-} \aq{} + 14 H^+\aq{} + 6 e^-   -> 2 Cr^{3+}\aq{} + 7 H2O\lqd{}}  & +1,33    \\ \hline
+\ch{MnO2\sld{} + 4 H^{+}\aq{} + 2 e^- -> Mn^{2+}\aq{} + 2 H2O\lqd{}}    & +1,229   \\ \hline
+\ch{O2\gas{} + 4 H^{+}\aq{} + 4 e^- -> 2 H2O\lqd{}}                & +1,23    \\ \hline
+\ch{Br2\lqd{} + 2 e^- -> 2 Br^-\aq{}}		    & +1,065   \\ \hline
+\ch{NO3^{-}\aq{} + 4 H^{+}\aq{} + 3 e^- -> NO\gas{} + 2 H2O\lqd{}}       & +0,96    \\ \hline
+\ch{H2O2\lqd{} + 2 e^- -> 2 OH^-\aq{}}               & +0,95    \\ \hline
+\ch{Hg2^{2+}\aq{} + 2 e^- -> 2 Hg\lqd{}}                 & +0,85    \\ \hline
+\ch{Ag^+\aq{} + e^- -> Ag\sld{}}                   & +0,799   \\ \hline
+\ch{Fe^{3+}\aq + e^- -> Fe^{2+} \aq{}}                & +0,770   \\ \hline
+\ch{O2\gas{} + 2 H^+\aq{} + 2 e^- -> H2O2\aq{}}                & +0,68    \\ \hline
+\ch{MnO4^-\aq{} + 2 H2O\lqd{} + 3 e^-  -> MnO2\sld{} + 4 OH^-\aq{}}    & +0,59    \\ \hline
+\ch{I2\sld{} + 2 e^- -> 2 I^-\aq{}}              & +0,536   \\ \hline
+\ch{O2\gas{} + 2 H2O\lqd{} + 4 e^- -> 4 OH^-\aq{}}               & +0,40    \\ \hline
+\ch{Cu^{2+}\aq{} + 2 e^- -> Cu\sld{}}                   & +0,327   \\ \hline
+\ch{AgC$\ell$\sld{} + 2 e^- -> Ag\sld{} + C$\ell$^-\aq{}}        & +0,22    \\ \hline
+\ch{SO4^{2-}\aq{} + 4 H^+\aq{} + 2 e-  -> SO2\gas{} + 2 H2O\lqd{}}      & +0,20    \\ \hline
+\ch{Cu^{2+}\aq{} + 2 e^- -> Cu^+\sld{}}                  & +0,15    \\ \hline
+\ch{Sn^{4+}\aq{} + 2 e^- -> Sn^{2+} (aq)}                & +0,13    \\ \hline
+\ch{2 H^+\aq{} + 2 e^- -> H2\gas{}}                   & +0,00    \\ \hline
+\ch{CrO4^{2-}\aq{} + 4 H2O\lqd{} + 3 e^- -> Cr(OH)3\sld{} + 5 OH^-\aq{}} & -0,12    \\ \hline
+\ch{Pb^{2+}\aq{} + 2 e^- -> Pb\sld{}}                   & -0,126   \\ \hline
+\ch{Sn^{2+}\aq{} + 2 e^- -> Sn\sld{}}                   & -0,136   \\ \hline
+\ch{Ni^{2+}\aq{} + 2 e^- -> Ni\sld{} }                  & -0,25    \\ \hline
+\ch{Co^{2+}\aq{} + 2 e^- -> Co\sld{}}                   & -0,28    \\ \hline
+\ch{PbSO4\sld{} + 2 e^-   -> Pb\sld{} + SO4^{2-}\aq{}}      & -0,31    \\ \hline
+\ch{Cd^{2+}\aq{} + 2 e^- -> Cd\sld{}}                   & -0,40    \\ \hline
+\ch{Fe^{2+}\aq{} + 2 e^-  -> Fe\sld{}}                   & -0,44    \\ \hline
+\ch{Ni(OH)2\sld{} + 2 e^- -> Ni\sld{} + 2 OH^-}      & -0,72    \\ \hline
+\ch{Cr^{3+}\aq{} + 3 e^- -> Cr\sld{}}                   & -0,74    \\ \hline
+\ch{Zn^{2+}\aq{} + 2 e^- -> Zn\sld{}}                  & -0,763   \\ \hline
+\ch{2 H2O\lqd{} + 2 e^- -> H2\gas{} + 2 OH^-\aq{}}      & -0,83    \\ \hline
+\ch{Mn^{2+}\aq{} + 2 e^- -> Mn\sld{}}                   & -1,18    \\ \hline
+\ch{A$\ell$^{3+}\aq{} + 3 e^- -> A$\ell$\sld{}}                  & -1,66    \\ \hline
+\ch{Be^{2+}\aq{} + 2 e^- -> Be\sld{}}                 & -1,85    \\ \hline
+\ch{H2\gas{} + 2 e^- -> 2 H^-\gas{}}                & -2,25    \\ \hline
+\ch{Mg^{2+}\aq{} + 2 e^- -> Mg\sld{}}               & -2,37    \\ \hline
+\ch{Na^+\aq{} + e^- -> Na\sld{}}              & -2,714   \\ \hline
+\ch{Ca^{2+}\aq{}  + 2 e^- -> Ca\sld{}}                  & -2,87    \\ \hline
+\ch{Sr^{2+}\aq{} + 2 e^- -> Sr\sld{}}                 & -2,89    \\ \hline
+\ch{Ba^{2+}\aq{}  + 2 e^- -> Ba\sld{}}                & -2,90    \\ \hline
+\ch{K^+\aq{} + e^- -> K\sld{}}                    & -2,93    \\ \hline
+\ch{Li^+\aq{} + e^- -> Li\sld{}}                   & -3,05    \\ \hline
+\end{longtblr}
+\end{document}

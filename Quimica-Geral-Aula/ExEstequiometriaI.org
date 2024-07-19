@@ -1,0 +1,98 @@
+
+#+begin_questions
+#+begin_exercise
+O metal de estanho reage com o fluoreto de hidrogênio para produzir fluoreto de estanho (II) e gás hidrogênio, de acordo com a seguinte equação balanceada.
+#+begin_export latex
+\begin{reaction*}
+Sn_{\sld} + 2 HF_{\gas} -> SnF2_{\sld}  + H2_{\gas}
+\end{reaction*}
+#+end_export
+Quantos mols de fluoreto de hidrogênio são necessários para reagir completamente com  75,0g  de estanho?
+#+end_exercise
+\bigskip
+#+begin_exercise
+O gás sulfureto de hidrogênio queima no oxigênio para produzir dióxido de enxofre e vapor de água:
+#+begin_export latex
+\begin{reaction*}
+2 H2S_{\gas} + 3 O2_{\gas} -> 2 SO2_{\gas} + 2 H2O_{\gas}
+\end{reaction*}
+#+end_export
+Que massa de gás oxigênio é consumida em uma reação que produz 4,60 de @@latex: \ch{SO2_{\gas}}@@ ?
+#+end_exercise
+
+
+#+begin_exercise
+O peróxido de hidrogênio é comumente utilizado como antisséptico e alvejante. Também pode ser empregado em trabalhos de restauração de quadros enegrecidos e no clareamento de dentes. Na presença de soluções ácidas de oxidantes, como o permanganato de potássio, este óxido decompõe-se, conforme a equação a seguir:
+#+begin_export latex
+\begin{reaction*}
+2 KMnO4_{\aq} + H2O2_{\aq} + 3 H2SO4_{\aq} -> 2 MnSO4_{\aq} + K2SO4_{\aq} + 8 H2O_{\lqdd} + 5 O2_{\gas}
+\end{reaction*}
+#+end_export
+#+end_exercise
+
+
+De acordo com a estequiometria da reação descrita, a quantidade de permanganato de potássio necessária para reagir completamente com 20,0 mL de uma solução 0,1 mol/L de peróxido de hidrogênio é igual a 
+
+
+\bigskip
+
+#+begin_exercise
+
+Num recipiente foram colocados 15g de ferro e 4,8g de oxigênio. Qual a massa de @@latex: \ch{Fe2O3}@@ formada após um deles ser completamente consumido? (Fe = 56; O = 16).
+
+#+end_exercise
+
+
+\bigskip
+
+#+begin_exercise
+A pirolusita é um minério do qual se obtém o metal manganês (Mn), muito utilizado em diversos tipos de aços resistentes. O principal componente da pirolusita é o dióxido de manganês (MnO2). Para se obter o manganês metálico com elevada pureza, utiliza-se a aluminotermia, processo no qual o óxido reage com o alumínio metálico, segundo a equação:
+
+#+begin_reaction*
+3 MnO2_{\sld} + 4 Al_{\sld} -> 2 Al2O3_{\sld} + 3 Mn_{\sld} 
+#+end_reaction*
+
+#+end_exercise
+
+
+
+\bigskip
+
+
+#+begin_exercise
+A prata mancha na presença de sulfeto de hidrogênio e oxigênio devido à seguinte reação
+
+#+begin_export latex
+\begin{reaction*}
+4 Ag + 2 H2S + O2 -> 2 Ag2S + 2 H2O
+\end{reaction*}
+#+end_export
+
+
+Qual é o reagente limitante e o rendimento teórico do @@latex: \ch{Ag2S}@@ se 2,4 g de Ag, 0,48 g de @@latex: \ch{H_2S}@@ e 0,16 g de O_2 reagem?
+#+end_exercise
+
+\bigskip
+
+#+begin_exercise
+
+Amônia gasosa pode ser preparada pela seguinte reação balanceada
+
+#+begin_export latex
+\begin{reaction*}
+CaO_{\sld} + 2 NH4C$\ell$_{\sld} ->  2 NH3_{\gas} + H2O_{\gas} + CaC$\ell$2_{\sld} 
+\end{reaction*}
+#+end_export
+
+Se 112,0 g de óxido de cálcio e 224,0 g de cloreto de amônia forem misturados, então a quantidade 
+máxima, em gramas, de amônia produzida será, aproximadamente: 
+Dados: massas moleculares - CaO = 56 g/mol; NH_4Cℓ = 53 g/mol; NH_3 = 17 g /mol
+
+
+#+end_exercise
+
+
+#+end_questions
+
+
+

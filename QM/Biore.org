@@ -1,0 +1,118 @@
+
+* Biorremediação de solos contaminados
+
+A biorremediação de solos é o processo que utiliza organismos vivos para fazer a descontaminação do ambiente.
+
+No qual, os microrganismos quebram as substâncias tóxicas com a ajuda de enzimas. E essa função é usada para recuperar e descontaminar solos.
+
+A contaminação do solo e da água é problema atual. Seja por contaminações pelos agrotóxico, metais pesados e petróleo.
+
+O país é o maior produtor de alimentos do mundo e um dos maiores consumidores de agrotóxicos. Logo, é preciso investir em práticas para remediar os impactos ambientais.
+
+Como por exemplo, o uso de bactérias que fazem a degradação de compostos tóxicos como pesticidas ou até fazer a acumulação de metal pesado presente no solo ou na água.
+
+Neste caso, diversos organismos são utilizados para degradar esses poluentes.
+
+* Biorremediação do solo
+
+
+O solo tem sido utilizado para disposição final de resíduos, o que agrava problemas como erosão e o esgotamento de minerais.
+
+#+ATTR_LATEX: :scale 0.7 :environment t*
+#+CAPTION: Técnicas utilizadas na biorremediação
+[[./Figs/01.jpg]]
+
+
+
+Os principais contaminantes do solo são os compostos agroquímicos, como os defensivos agrícolas. Essas moléculas são adsorvidas nas partículas do solo, são levados para águas superficiais ou atingem os lençóis subterrâneos.
+
+
+
+A biorremediação acontece naturalmente por meio de processos metabólicos de plantas, bactérias e fungos que transformam os materiais contaminantes em fontes de energia e carbono.
+
+Dessa forma, é a técnica que acelera os processos biológicos de descontaminação. E assim, torna-se a alternativa para diminuir os danos causados pelos poluentes na água e no solo.
+
+É realizada de duas formas: aonde ocorreu a contaminação ou quando a água e o solo contaminados são tratados em outro local. Pelo uso de biorreatores e compostagem.
+
+O material contaminado é colocado em grandes tanques fechados, denominados de biorreatores. No qual se adiciona água e microrganismos que serão responsáveis pela degradação do poluente. Além de realizar o controle das condições de temperatura, aeração e pH.
+
+Já na compostagem, o solo contaminado é levado para o local de tratamento e empilhado. De forma, a controlar as condições de aeração, umidade do solo e nutrientes para melhorar o processo de degradação pelos microrganismos.
+
+As diferentes formas de implementar a biorremediação na agricultura são:
+
+** Fitorremediação
+
+Fitorremediação lida com a limpeza de poluentes orgânicos e contaminantes de metais pesados ​​usando plantas e microorganismos rizosféricos. É barato, ecologicamente correto e um meio eficiente de restauração de ambientes poluídos, especialmente aqueles de metais pesados. No entanto, o nível de contaminação do solo, a quantidade de contaminantes metálicos no solo, bem como a capacidade das plantas de absorver agressivamente os metais do solo, determinam o sucesso da fitorremediação em qualquer local poluído. As plantas utilizadas na fitorremediação são os hiperacumuladores com potencial de acúmulo de metais pesados ​​muito alto e pouca eficiência de biomassa, e não hiperacumuladores que possuem menor capacidade de extração que os hiperacumuladores, mas cujo rendimento total de biomassa é substancialmente maior e são espécies de rápido crescimento. Vários processos são usados ​​para remover metais pesados ​​de solos contaminados por algumas plantas, conforme ilustrado na Figura [[Figrem]].
+
+
+
+#+ATTR_LATEX: :scale 0.15
+#+CAPTION:Processos utilizados na fitorremediação de metais pesados.
+#+NAME:Figrem
+[[./Figs/01.png]]
+
+
+
+
+** Bioestimulação
+
+O objetivo é aumentar a atividade dos microrganismos presentes no solo. Isso é possível com a adição de nutrientes como o fósforo e o nitrogênio. Ou o uso de tensoativos e surfactantes, substâncias essas que aumentam a biodisponibilidade do material contaminante para que assim os microrganismos possam degrada-los. A bioestimulação também consiste em melhorar os parâmetros e corrigir a umidade, aeração e o pH do solo.
+
+** Bioaumentação
+
+São introduzidos microrganismos cultivados dentro do ecossistema contaminado. Dessa forma, ocorre a degradação do material contaminante e os microrganismos o transforma em fonte de carbono ao longo do tempo.
+  
+** Bioventilação
+
+É acrescentado oxigênio no solo contaminado, e assim estimula o crescimento dos microrganismos. Essa técnica de biorremediação apresenta a vantagem de ser implementada facilmente. Mas, possui eficácia limitada em solos com baixa umidade.
+
+** Landfarming
+
+Aplica resíduos na superfície do solo para a biodegradação microbiana, com aeração do ambiente, adição de fertilizantes, corretivos e microrganismos selecionados.
+
+
+
+#+ATTR_LATEX: :scale 0.56 
+#+CAPTION: Operação típica de landfarming
+[[./Figs/02.jpg]]
+
+
+
+Dentre as vantagens da biorremediação se destaca a degradação das substâncias contaminantes, e assim resolve de fato o problema.
+
+O sucesso da técnica depende das condições regionais e locais, como o tipo de solo, clima, concentração de matéria orgânica, pH, presença de microrganismos e aeração.
+
+
+
+* Biorremediação usando técnicas moleculares avançadas e organismos geneticamente modificados
+
+Microrganismos são utilizados na biorremediação devido à sua capacidade de degradar poluentes ambientais devido ao seu metabolismo através de vias bioquímicas relacionadas à atividade e crescimento dos organismos. Através do processo de co-metabolismo, os microrganismos são capazes de degradar a produtos finais inofensivos substâncias perigosas encontradas em ambientes poluídos. A despoluição de ambientes poluídos com micro-organismos autóctones não trouxe resultados muito positivos. Por exemplo, bactérias nativas não podem remover metais pesados ​​como Hg do meio ambiente. No entanto, a tecnologia de DNA recombinante tem um papel importante a desempenhar na biorremediação da contaminação por metais pesados, pois melhora o processo de remediação. O advento da tecnologia do DNA recombinante na década de 1970 com a descoberta das enzimas de restrição e das DNA ligases possibilitou a alteração do genoma dos organismos vivos. Desde então, os potenciais metabólicos dos microrganismos vêm sendo estudados e os micróbios modificados geneticamente para fins específicos. O objetivo da engenharia genética para biorremediação é modificar plantas, microrganismos e enzimas para que sejam ferramentas úteis para a degradação de substâncias nocivas. A engenharia genética tornou possível a engenharia de bactérias para a remoção de metais pesados ​​como As, Cd, Cu, Fe, Hg e Ni. No entanto, a taxa de degradação depende da eficiência catalítica das enzimas que residem nas células ou aquelas induzidas a um determinado substrato.
+
+
+#+ATTR_LATEX: :scale 0.25 :environment figure
+#+CAPTION: Produção de plantas transgênicas pelo uso de plasmídeos de Ti co-integrados
+[[./Figs/03.jpg]]
+
+ A bactéria do solo /Agrobacterium tumefaciens/ causa a doença da galha da coroa em plantas transferindo a região T-DNA de um plasmídeo indutor de tumor (Ti) para as células hospedeiras (Top).
+
+A região T-DNA do plasmídeo Ti pode ser geneticamente modificada para conter um gene de resistência a antibióticos ( kan^R), bem como um gene estranho de interesse (diagrama inserido). A infecção de células vegetais em cultura com bactérias contendo este plasmídeo Ti co-integrado permite que o DNA estranho para ser transferido para a célula hospedeira. A integração do DNA estranho interrompe a formação do tumor, e apenas as células vegetais com o gene kan^R crescerão em cultura contendo antibiótico. As plantas são facilmente regeneradas a partir de células cultivadas (calos): a planta transgênica adulta expressa o gene estranho.
+
+* Referências
+  :PROPERTIES:
+  :UNNUMBERED: t
+  :END:
+
+BENJAMIN, Stephen Rathinaraj; DE LIMA, Fabio; RATHOURE, Ashok K.; BENJAMIN, Stephen Rathinaraj; DE LIMA, Fabio; RATHOURE, Ashok K. *Genetically Engineered Microorganisms for Bioremediation Processes*: GEMs for Bioremediaton. 1 jan. 2001.
+
+
+GUNARATHNE, Viraj; MAYAKADUWA, Sonia; ASHIQ, Ahamed; WEERAKOON, Shyama Ranjani; BISWAS, Jayanta Kumar; VITHANAGE, Meththika. *Transgenic Plants. Transgenic Plant Technology for Remediation of Toxic Metals and Metalloids*. Elsevier, 2019. p. 89–102. DOI 10.1016/B978-0-12-814389-6.00005-5.
+
+
+* Exercício
+
+#+begin_exercise
+Sabendo que uma área foi contaminada com pesticidas e cobre, esse solo contaminado necessita ser recurado proponha um método para a recuperação desse solo por biorremediação.
+
+\blank[width=2.8\linewidth,linespread=1.5]{}
+
+#+end_exercise

@@ -1,0 +1,137 @@
+#+LATEX_HEADER: \DeclareExerciseCollection{AvaDiagn1}
+
+
+\collectexercises{AvaDiagn1}
+
+
+#+ATTR_LATEX: :options [points=1.001]
+#+begin_exercise
+O cobre e outros metais são utilizados na confecção de fios elétricos, pois possuem a propriedade de:
+#+begin_choice
+\choice \answer{serem bons condutores de eletricidade}
+\choice não se misturarem com a água 
+\choice serem formados de matéria orgânica 
+\choice serem formados por carbono
+#+end_choice
+#+end_exercise
+
+#+ATTR_LATEX: :options [points=1.001]
+#+begin_exercise
+Pode ser considerado um fenômeno físico:
+#+begin_choice
+\choice a queima de um papel
+\choice a formação do gelo
+\choice a formação da ferrugem
+\choice a fotossíntese
+#+end_choice
+#+end_exercise
+
+
+#+ATTR_LATEX: :options [points=1.001]
+#+begin_exercise
+Pode ser considerada  forma “limpa” e sustentável de produção de energia:
+#+begin_choice
+\choice hidrelétrica
+\choice eólica
+\choice petróleo
+\choice nuclear
+#+end_choice
+#+end_exercise
+
+
+#+ATTR_LATEX: :options [points=1.001]
+#+begin_exercise
+Qual do elemento abaixo pode ser encontrado no estado líquido em temperatura ambiente
+
+#+begin_choice
+\choice Na
+\choice \ch{CaCO3}
+\choice Hg
+\choice \ch{H2O}
+#+end_choice 
+#+end_exercise 
+
+
+
+
+#+ATTR_LATEX: :options [points=1.001]
+#+begin_exercise
+Para um organismo ser saudável, é importante ter uma dieta equilibrada. No caso dos carboidratos, o principal substrato energético do nosso organismo, eles devem constituir de 60% a 70% da nossa alimentação diária. Para isso devemos ingerir, como fonte de carboidratos, alimentos como
+#+begin_choice
+\choice frutas e legumes.
+\choice carnes e ovos
+\choice  laticínios e óleos vegetais.
+\choice pães e massas
+#+end_choice
+#+end_exercise
+
+
+#+ATTR_LATEX: :options [points=1.001]
+#+begin_exercise
+ Na atualidade, as usinas hidrelétricas constituem a mais importante fonte de energia elétrica no Brasil. 
+Embora essa fonte energética apresente diversas vantagens ambientais, também se caracteriza por algumas desvantagens, como por exemplo:
+#+begin_choice
+\choice É não renovável, por isso se esgotará em poucos anos e deve ser substituída.
+\choice  Causa impactos ambientais, principalmente devido ao alagamento de grandes áreas.
+\choice As turbinas usadas para gerar energia a partir do movimento da água liberam dióxido de carbono.
+\choice  Só podem ser instaladas na região Norte, pois nas outras regiões há poucos cursos de água.
+#+end_choice
+#+end_exercise 
+
+#+ATTR_LATEX: :options [points=1.001]
+#+begin_exercise
+Desde tempos remotos, o ser humano vem desenvolvendo técnicas para conservar seus alimentos.
+Atualmente, várias dessas técnicas são conhecidas, algumas realizadas exclusivamente pela indústria alimentícia, enquanto outras são utilizadas nas casas. Nas cozinhas domésticas, os dois processos de conservação de alimentos mais utilizados são:
+
+#+begin_choice
+\choice a liofilização e a desidratação.
+\choice a refrigeração e o congelamento.
+\choice a fervura e a pasteurização.
+\choice a defumação e a irradiação.
+#+end_choice 
+#+end_exercise
+
+#+ATTR_LATEX: :options [points=1.001]
+#+begin_exercise
+/O átomo é a menor partícula que identifica um elemento químico. Ele possui duas partes, a saber: uma delas é o núcleo, constituído por prótons e nêutrons, e a outra é a região externa – a eletrosfera-, por onde circulam os elétrons. Alguns experimentos permitiram a descoberta das características das partículas constituintes do átomo./
+
+ Em relação a essas características, indique a alternativa correta.
+ 
+#+begin_choice
+\choice prótons e elétrons possuem massas iguais e cargas elétricas de sinais opostos.
+\choice entre as partículas atômicas, os elétrons têm maior massa e ocupam maior volume no átomo.
+\choice entre as partículas atômicas, os prótons e os nêutrons têm maior massa e ocupam maior volume no átomo.
+\choice entre as partículas atômicas, os prótons e os nêutrons têm mais massa, mas ocupam um volume muito pequeno em relação ao volume total do átomo.
+#+end_choice
+#+end_exercise
+
+
+#+ATTR_LATEX: :options [points=1.001]
+#+begin_exercise
+Qual a galáxia mais próxima da nossa?
+#+begin_choice
+\choice Terra
+\choice Ômega
+\choice Triangulo
+\choice Andrômeda
+#+end_choice
+#+end_exercise
+
+
+#+ATTR_LATEX: :options [points=1.001]
+#+begin_exercise
+Com a adição de uma solução aquosa de açúcar a uma mistura contendo querosene e areia, são vistas claramente três fases. Para separar cada componente da mistura final, a melhor sequência é:
+#+begin_choice
+\choice filtração, decantação e destilação.
+\choice cristalização, decantação e destilação.
+\choice filtração, cristalização e destilação.
+\choice centrifugação, filtração e decantação.
+#+end_choice
+#+end_exercise
+
+
+\collectexercisesstop{AvaDiagn1}
+
+
+
+

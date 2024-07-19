@@ -1,0 +1,92 @@
+
+#+LATEX_HEADER: \DeclareExerciseCollection{ListaTeoriaAtomica}
+
+\collectexercises{ListaTeoriaAtomica}
+
+#+begin_exercise 
+Quais são os principais modelos atômicos propostos ao longo da história? Descreva brevemente cada um deles.
+#+end_exercise
+
+#+begin_exercise
+Segundo o modelo de Thomson, como é a estrutura do átomo? Quais são suas principais características?
+#+end_exercise
+
+
+#+begin_exercise
+Explique como o experimento da dispersão de partículas alfa por Rutherford contribuiu para o desenvolvimento do modelo atômico atual.
+#+end_exercise
+
+#+begin_exercise
+Quais são as principais conclusões do experimento de Rutherford? Como essas conclusões desafiaram o modelo atômico de Thomson?
+#+end_exercise
+
+#+begin_exercise
+Descreva o modelo atômico de Rutherford e suas principais características.
+#+end_exercise
+
+#+begin_exercise
+Quais foram as contribuições de Niels Bohr para o modelo atômico? Como o modelo de Bohr resolveu as deficiências do modelo de Rutherford?
+#+end_exercise
+
+   
+#+begin_exercise   
+Quais são os postulados do modelo atômico de Bohr? Explique cada um deles.
+#+end_exercise
+
+
+#+begin_exercise
+Como o modelo de Bohr explica a estabilidade dos átomos?
+#+end_exercise
+
+#+begin_exercise
+Quais são as principais limitações do modelo de Bohr?
+#+end_exercise
+
+#+begin_exercise
+Explique como o modelo atual do átomo (modelo quântico) difere dos modelos anteriores (Thomson, Rutherford e Bohr).
+#+end_exercise
+    
+#+begin_exercise
+Descreva o modelo quântico do átomo e como ele se relaciona com o princípio da dualidade onda-partícula.
+#+end_exercise
+
+
+#+begin_exercise
+O que são orbitais atômicos? Como eles estão relacionados ao modelo quântico?
+#+end_exercise
+
+
+#+begin_exercise
+Qual é a diferença entre uma órbita e um orbital em um átomo?
+#+end_exercise
+    
+#+begin_exercise
+Explique o conceito de números quânticos e como eles são usados para descrever a distribuição eletrônica nos átomos.
+#+end_exercise
+
+#+begin_exercise
+Como os orbitais atômicos estão relacionados aos níveis de energia do átomo?
+#+end_exercise
+    
+#+begin_exercise
+Descreva o princípio da exclusão de Pauli e sua importância no modelo quântico do átomo.
+#+end_exercise
+
+#+begin_exercise
+Qual é a relação entre os números quânticos n, l, m e s?
+#+end_exercise
+    
+#+begin_exercise
+Como o modelo quântico explica a formação de subníveis de energia e os diferentes tipos de orbitais?
+#+end_exercise
+    
+#+begin_exercise    
+Explique como os elétrons são distribuídos nos orbitais atômicos de acordo com o princípio de Aufbau.
+#+end_exercise
+
+#+begin_exercise
+Descreva o conceito de spin de elétron e sua importância na estrutura dos átomos.
+#+end_exercise
+
+
+\collectexercisesstop{ListaTeoriaAtomica}

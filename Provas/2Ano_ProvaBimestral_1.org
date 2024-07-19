@@ -1,0 +1,392 @@
+@@latex: \section*{Avaliação Bimestral -  1\textsuperscript{0} Bimestre - 2 Ano} @@
+
+#+ATTR_LATEX: :options {2}
+#+begin_multicols
+
+#+begin_exercise
+As  massas  moleculares  do  álcool  etílico  @@latex:(\ch{C2H5OH})@@  e  do  ácido  acético  @@latex: (\ch{C2H4O2})@@  são respectivamente:
+
+Dados: H = 1 u; C = 12 u; O =16 u
+#+begin_choice
+\choice 60 u e 46 u
+\choice 66 u e 40 u
+\choice 46 u e 66 u
+\choice 40 u e 66 u
+\choice 46 u e 60 u
+#+end_choice
+#+end_exercise
+
+#+begin_exercise 
+O  ácido oxálico @@latex: (\ch{H2C2O4})@@ é utilizado  para  tirar  manchas  de  ferrugem em tecidos.  A  massa molecular do ácido oxálico é:
+Dados: H = 1 u; C = 12 u; O = 16 u
+#+begin_choice
+\choice 30 u
+\choice 60 u
+\choice 90 u
+\choice 120 u
+\choice 150 u
+#+end_choice 
+#+end_exercise 
+
+
+#+begin_exercise
+ Hidreto de sódio reage com água, dando hidrogênio, segundo a reação: @@latex: \ch{NaH + H2O -> NaOH + H2}@@ Para obter 10 mols de H_2, são necessários quantos mols de água?
+#+begin_choice 
+\choice  40 mols
+\choice  20 mols
+\choice  10 mols
+\choice  15 mols
+\choice 2 mols
+#+end_choice 
+#+end_exercise 
+
+#+begin_exercise
+Para a reação de síntese da amônia (@@latex: \ch{NH3}@@) ao utilizar 10 g de nitrogênio (@@latex: \ch{N2}@@) reagindo com hidrogênio (@@latex: \ch{H2}@@), qual massa, em gramas, do composto é produzida?
+
+#+begin_export latex
+\begin{reaction*}
+N2_{\gas} + 3 H2_{\gas} <=> 2 NH3_{\gas}
+\end{reaction*}
+#+end_export
+
+Dados:
+
+N: 14 g/mol;  H: 1 g/mol
+#+begin_choice
+\choice  12 g
+\choice  8,12 g
+\choice \answer{12,14 g}
+\choice  14,16 g
+\choice 16,0 g
+#+end_choice 
+#+end_exercise
+
+
+#+begin_exercise
+Quantas vezes a massa da molécula de glicose, @@latex: \ch{C6H12O6}@@, é maior que a da molécula de água,@@latex: \ch{H2O}@@?
+
+Dados: H = 1 u; C = 12 u; O = 16 u
+#+begin_choice
+ \choice 2
+ \choice 4
+ \choice 6
+ \choice 8
+ \choice \answer{10} 
+ #+end_choice
+#+end_exercise 
+
+
+#+begin_exercise
+ A equação química a seguir
+#+begin_reaction*
+Ca(OH)2 + H3PO4 -> Ca3(PO4)2 + H2O
+#+end_reaction*
+
+não está balanceada. Balanceando-a com os menores números possíveis, a soma dos coeficientes estequiométricos será:
+
+#+begin_choice
+\choice 4;
+\choice 7;
+\choice 10;
+\choice 11;
+\choice 12.
+#+end_choice
+#+end_exercise
+
+
+#+begin_exercise
+Em relação à equação abaixo:
+#+begin_reaction*
+H2SO4 + A$\ell$(OH)3 -> A\ell2(SO4)3 + H2O
+#+end_reaction*
+Marque a opção que apresenta a soma dos coeficientes que satisfazem o balanceamento da equação anterior:
+#+begin_choice
+\choice 6;
+\choice 8;
+\choice 12;
+\choice  15;
+\choice 18;
+#+end_choice 
+
+#+end_exercise 
+
+
+#+begin_exercise
+Os calcários são materiais compostos por carbonato de cálcio, que podem atuar como sorventes do dióxido de enxofre (@@latex: \ch{SO2}@@), um importante poluente atmosférico. As reações envolvidas no processo são a ativação do calcário, por meio de calcinação, e a fixação do @@latex: \ch{SO2}@@ com a formação de um sal de cálcio, como ilustrado pelas equações químicas simplificadas.
+
+#+begin_export latex
+\begin{reactions*}
+CaCO3 ->[calor] CaO + CO3 \\
+CaO + SO2 + 1/2 O2 -> Sal~ de~ cálcio
+\end{reactions*}
+#+end_export
+
+Considerando-se as reações envolvidas nesse processo de dessulfurização, a fórmula química do sal de cálcio corresponde a
+#+begin_choice
+\choice \ch{CaSO3}.
+\choice \ch{CaSO4}.
+\choice \ch{CaS2O8}.
+\choice \ch{CaSO2}.
+\choice \ch{CaS2O7}. 
+#+end_choice 
+#+end_exercise
+
+#+begin_exercise
+A equação corretamente balanceada é:
+#+begin_choice
+\choice  \ch{2 Fe + O2 -> Fe2O3}
+
+\choice \ch{2 Fe + 3 O2 -> 2 Fe2O3}
+
+\choice \ch{4 Fe + O2 -> Fe2O3}
+
+\choice \ch{Fe + 3 O2 -> Fe2O3}
+
+\choice \ch{4 Fe + 3 O2 -> 2 Fe2O3}
+#+end_choice 
+#+end_exercise 
+
+
+#+end_multicols 
+
+#+begin_exercise
+Relacione abaixo os coeficientes (coluna B) que tornam as equações químicas de combustão completa (coluna A) corretamente balanceadas:
+|--------------------------------------------------------------------------+----------------|
+| @@latex: {\bfseries Coluna A:}@@                                         | @@latex: {\bfseries Coluna B:}@@ |
+|--------------------------------------------------------------------------+----------------|
+| I. @@latex: \ch{C3H8_{\gas} + O2_{\gas} -> CO2_{\gas} + H2O_{(v)}} @@    | A- 2, 3, 2, 4  |
+| II. @@latex: \ch{C2H6O_{\gas} + O2_{\gas} -> CO2_{\gas} + H2O_{\gas}}@@  | B- 1, 3, 2, 3  |
+| III. @@latex: \ch{CH4O_{(v)} + O2_{\gas} -> CO2_{\gas} + H2O_{\gas}} @@  | C- 1, 5, 3, 4  |
+| IV. @@latex: \ch{C4H8O_{(v)} + O2_{\gas} -> CO2_{\gas} + H2O_{\gas}}  @@ | D- 2, 11, 8, 8 |
+|--------------------------------------------------------------------------+----------------|
+
+A relação correta é dada por:
+
+#+begin_choice
+\choice I-B, II-A, III-D, IV-C
+
+\choice I-A, II-C, III-C, IV-D
+
+\choice  I-C, II-D, III-A, IV-B
+
+\choice I-D, II-B, III-D, IV-C
+
+\choice  I-C, II-B, III-A, IV-D
+#+end_choice 
+
+#+end_exercise
+
+
+
+
+
+#+begin_exercise
+(*3,0*) Considere a seguinte reação para produzir ferro, Fe(s): *Reação não balanceada*
+#+begin_export latex
+\begin{reaction*}
+Fe2O3_{\sld} +  CO_{\gas} ->  Fe_{\sld} +  CO2_{\gas}
+\end{reaction*}
+#+end_export
+
+Dados: \ch{Fe2O3}=160 g/mol; CO=28 g/mol ; Fe=56 g/mol; CO_2=44 g/mol
+
+#+begin_choice
+\choice  Calcule a massa de CO necessária para reagir completamente com 25,0 g de \ch{Fe2O3}
+
+  \blank[width=5\linewidth,linespread=1.5]{}
+
+
+\choice Calcule a massa de ferro produzida quando 300 g de CO reagem completamente.
+
+
+  \blank[width=5\linewidth,linespread=1.5]{}
+
+\choice Calcule a massa de \ch{CO2} produzida quando 150,0 g de ferro são produzidos.
+
+
+  \blank[width=5\linewidth,linespread=1.5]{}
+
+#+end_choice 
+
+#+end_exercise 
+
+\newpage
+#+begin_exercise
+(*4,0*) 25,0 cm^3 de um ácido  tribásico (\ch{H3PO4}) requer 40,0 cm^3 de solução de hidróxido de potássio (NaOH) 0,20 mol/L para neutralização completa. A molaridade do ácido é. *Reação não balanceada*.
+Dados: NaOH=40g/mol; \ch{H3PO4} = 98 g/mol.
+#+begin_export latex
+\begin{reaction*}
+H3PO4 + NaOH -> Na3PO4 + H2O
+\end{reaction*}
+#+end_export
+
+
+  \blank[width=5\linewidth,linespread=1.5]{}
+
+#+end_exercise
+
+
+
+#+begin_exercise
+(*3,0*) Qual a concentração em mol/L de uma solução de NaOH, cuja a concentração com é 4 g/L. Dados: NaOH=40 g/mol
+
+\blank[width=5\linewidth,linespread=1.5]{}
+
+#+end_exercise 
+
+
+
+
+
+
+#+begin_exercise
+(*3,0*) Considere a seguinte reação para produzir iodeto de chumbo, \ch{PbI2}: *Reação não balanceada*
+#+begin_export latex
+\begin{reaction*}
+ KI + Pb(NO3)2 -> PbI2 + KNO3
+\end{reaction*}
+#+end_export
+
+Dados: \ch{KI}=166 g/mol; \ch{Pb(NO3)2}=331 g/mol ; \ch{PbI2}=461 g/mol; \ch{KNO3}=101 g/mol
+
+#+begin_choice
+\choice  Calcule a massa de \ch{Pb(NO3)2}  necessária para reagir completamente com 860 g de \ch{KI}
+
+  \blank[width=5\linewidth,linespread=1.5]{}
+
+
+\choice Calcule a massa de \ch{PbI2} produzida quando 300 g de \ch{Pb(NO3)2} reagem completamente.
+
+
+  \blank[width=5\linewidth,linespread=1.5]{}
+
+\choice Calcule a massa de \ch{KNO3} produzida quando 500,0 g de \ch{PbI2} são produzidos.
+
+
+  \blank[width=5\linewidth,linespread=1.5]{}
+
+#+end_choice 
+
+#+end_exercise 
+
+\newpage
+#+begin_exercise
+(*4,0*) 25,0 mL de um ácido   (\ch{H2SO4}) requer 40,0 mL de solução de hidróxido de potássio (NaOH) 0,05 mol/L para neutralização completa. A molaridade do ácido é. *Reação não balanceada*.
+Dados: NaOH=40g/mol; \ch{H2SO4} = 98 g/mol.
+#+begin_export latex
+\begin{reaction*}
+H2SO4 + NaOH -> Na2SO4 + H2O
+\end{reaction*}
+#+end_export
+
+
+  \blank[width=5\linewidth,linespread=1.5]{}
+
+#+end_exercise
+
+
+
+#+begin_exercise
+(*3,0*) Qual a concentração em g/L de uma solução de NaOH, cuja a concentração molar  é 0,5 mol/L. Dados: NaOH=40 g/mol
+
+\blank[width=5\linewidth,linespread=1.5]{}
+
+#+end_exercise 
+
+
+
+
+#+begin_comment
+
+#########################
+
+Prova de Solucoes
+
+########################
+
+#+end_comment
+
+
+
+
+#+ATTR_LATEX: :options [points=2]
+#+begin_exercise
+Para uma solução de \ch{CaCO3} cuja a concentração seja de 0,5 mol/L, qual seria a massa para preparar uma solução cujo o volume seria de 2000 cm^3. Dados: \ch{CaCO3}=100 g/mol.
+
+
+#+begin_choice
+\choice 100 kg
+\choice 100 g
+\choice 50 mg
+\choice 50 g
+\choice 100 mg
+#+end_choice 
+#+end_exercise 
+
+
+#+ATTR_LATEX: :options [points=2]
+#+begin_exercise
+Deseja-se tomar um volume de solução contendo 0,10 mol de sulfato de ferro (\ch{FeSO4}) que é dissolvido em uma solução a 5,0 mol/L. Determine o volume de solução a ser tomado com uma pipeta.
+
+#+begin_choice
+\choice 0,02 g
+\choice 0,045 L 
+\choice 0,5 mL
+\choice 20 L
+\choice 20 mL
+#+end_choice
+
+#+end_exercise 
+
+
+
+
+
+#+ATTR_LATEX: :options [points=2]
+#+begin_exercise
+Que volume de água deve ser adicionado a 400 ml de uma solução de NaOH 0,1 mol/L para alterar a concentração para NaOH 0,075 mol/L.
+
+#+begin_choice
+\choice 0,5 L
+\choice 535 L 
+\choice 0,535 mL
+\choice 135 mL
+\choice 0,135 mL
+#+end_choice
+
+#+end_exercise 
+
+#+ATTR_LATEX: :options [points=2]
+#+begin_exercise
+Preparou-se uma solução com 30 g de açúcar dissolvido em água até obter 200 ml de solução. Qual é a sua concentração em massa de açúcar em g/L.
+
+#+begin_choice
+\choice 150 g/L
+\choice 0,15 g/L  
+\choice 6 g/L
+\choice 0,6 g/L
+\choice 0,30 g/L 
+#+end_choice
+
+#+end_exercise
+
+
+#+ATTR_LATEX: :options [points=2]
+#+begin_exercise
+Considere a seguinte reação para produzir iodeto de chumbo, \ch{PbI2}: *Reação não balanceada*
+#+begin_export latex
+\begin{reaction*}
+ KI + Pb(NO3)2 -> PbI2 + KNO3
+\end{reaction*}
+#+end_export
+
+Calcule a massa de \ch{Pb(NO3)2}  necessária para reagir completamente com 860 g de \ch{KI}
+
+Dados: \ch{KI}=166 g/mol; \ch{Pb(NO3)2}=331 g/mol ; \ch{PbI2}=461 g/mol; \ch{KNO3}=101 g/mol
+
+
+  \blank[width=5\linewidth,linespread=1.5]{}
+
+#+end_exercise 
+
+

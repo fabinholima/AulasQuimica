@@ -1,0 +1,76 @@
+
+#+BEGIN_COMMENT
+######## =======  2 Ano ########## ========
+#+END_COMMENT
+#+LATEX_HEADER: \DeclareExerciseCollection{Adaptadas-Estequiometria}
+
+
+
+#+BEGIN_COMMENT
+
+============= ESTEQUIOMETRIA ================= 
+
+
+#+END_COMMENT
+
+\collectexercises{Adaptadas-Estequiometria}
+
+#+begin_exercise
+As reações químicas envolve uma lei de conservação das massas onde as quantidades de massas devem mater o equílibrio conforme a imagem abaixo. 
+
+
+#+begin_export latex
+
+
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,300); %set diagram left start at 0, and has height of 300
+
+%Shape: Rectangle [id:dp1922856828849877] 
+\draw   (100,108) -- (170,108) -- (170,148) -- (100,148) -- cycle ;
+%Shape: Rectangle [id:dp21830586730200763] 
+\draw   (443,109) -- (513,109) -- (513,149) -- (443,149) -- cycle ;
+%Straight Lines [id:da679579580856064] 
+\draw    (172,129) -- (441,130) ;
+%Shape: Triangle [id:dp34048765196571873] 
+\draw   (302,131) -- (337,171) -- (267,171) -- cycle ;
+
+% Text Node
+\draw (111,115) node [anchor=north west][inner sep=0.75pt]  [font=\large] [align=left] {\textbf{10 Kg}};
+% Text Node
+\draw (452,118) node [anchor=north west][inner sep=0.75pt]  [font=\large] [align=left] {\textbf{10 Kg}};
+% Text Node
+\draw (119,62) node [anchor=north west][inner sep=0.75pt]   [align=left] {\textbf{{\large A}}};
+% Text Node
+\draw (467,63) node [anchor=north west][inner sep=0.75pt]   [align=left] {{\textbf{{\large B}}}};
+
+
+\end{tikzpicture}
+
+
+#+end_export
+
+Baseado nesse conceito desenhe nas questões abaixo.
+
+
+#+begin_export latex 
+\begin{choice}
+
+\choice  Desenhe a imagem quando {\bfseries A} for removido 5 kg.
+
+\blank[blank-style={\phantom{#1}},width=20\linewidth]{}
+
+
+\choice Desenhe a imagem quando {\bfseries A} for adicionado 10 kg.
+
+
+\blank[blank-style={\phantom{#1}},width=5\linewidth]{}
+
+\end{choice}
+
+#+end_export
+
+#+end_exercise 
+
+

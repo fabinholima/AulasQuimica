@@ -1,0 +1,191 @@
+
+#+LATEX_HEADER: \DeclareExerciseCollection{EstequiometriaI}
+#+LATEX_HEADER: \DeclareExerciseCollection{EstequiometriaIOpen}
+
+
+#+begin_comment
+===================== ESTEQUIOMETRIA ============================
+
+            Relação Balanceamento vs mol 
+
+#+end_comment
+
+
+
+\collectexercises{EstequiometriaI}
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Hidreto de sódio reage com água, dando hidrogênio, segundo a reação: @@latex: \ch{NaH + H2O -> NaOH + H2}@@ Para obter 10 mols de H_2, são necessários quantos mols de água?
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice 
+\choice 40 mols
+\choice 20 mols
+\choice 10 mols
+\choice 15 mols
+\choice 2 mols
+#+end_choice 
+#+end_exercise 
+#+begin_solution
+C
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+No motor de um carro a álcool, o vapor do combustível é misturado com o ar e se queima à custa de faísca elétrica produzida pela vela no interior do cilindro, reação *BALANCEADA* 
+
+#+begin_export latex
+\begin{reaction*}
+C2H6O + 3 O2_{\gas} -> 2 CO2_{\gas} + 3 H2O_{\lqdd}
+\end{reaction*}
+#+end_export
+
+A quantidade, em mols, de água formada na combustão completa de 138 gramas de etanol é igual a: (Dado massa molar em g/mol: H=1, C=12, O=16)
+
+#+begin_choice
+\choice 1 mol 
+\choice 3 mol 
+\choice 6 mol 
+\choice 9 mol 
+\choice 10 mol 
+#+end_choice
+#+end_exercise
+#+begin_solution
+D
+#+end_solution
+
+
+
+
+#+ATTR_LATEX: :options [points= 1.0]
+#+begin_exercise
+Hidreto de sódio reage com água, dando hidrogênio, segundo a reação:
+#+begin_export latex
+\begin{reaction*}
+NaH + H2O -> NaOH + H2
+\end{reaction*}
+#+end_export
+
+Para obter 10 mols de \ch{H2}, são necessários quantos mols de água?
+
+#+ATTR_LATEX: :options (2) 
+#+begin_choice 
+\choice 40 mols
+\choice 20 mols
+\choice 10 mols
+\choice 15 mols
+\choice 2 mols
+#+end_choice 
+#+end_exercise 
+#+begin_solution
+C
+#+end_solution
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Na reação:
+#+begin_export latex
+\begin{reaction*}
+3 Fe + 4 H2O -> Fe3O4 + 4 H2
+\end{reaction*}
+#+end_export
+o número de mols de hidrogênio, produzidos pela reação de 4,76 mols de ferro, é:
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 6,35 mols
+\choice 63,5 mols
+\choice 12,7 mols
+\choice 1,27 mols
+\choice 3,17 mols
+#+end_choice
+#+end_exercise
+#+begin_solution
+A
+#+end_solution
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+O método mais usado em laboratório para a obtenção do cloro é através da oxidação do ácido clorídrico com permanganato de potássio. A equação abaixo representa a reação que ocorre nesse método
+#+begin_export latex
+\begin{reaction*}
+2 KMnO4 + 16 HC$\ell$ -> 5 C$\ell$2 + 2 KC$\ell$ + 2 MnC$\ell$2 + 8 H2O
+\end{reaction*}
+#+end_export
+Para se obter 10 mols de cloro são necessários:
+#+begin_choice
+\choice 5 mols de \ch{KMnO4} e 5 mols de HCℓ.
+\choice 1 mol de \ch{KMnO4} e 16 mols de HCℓ.
+\choice  8 mols de \ch{KMnO4} e 28 mols de HCℓ.
+\choice  2 mols de \ch{KMnO4} e 30 mols de HCℓ.
+\choice  4 mols de \ch{KMnO4} e 32 mols de HCℓ.
+#+end_choice
+#+end_exercise
+#+begin_solution
+E
+#+end_solution 
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+Dada a equação:
+#+begin_export latex
+\begin{reaction*}
+3 PbC$\ell$2 + A$\ell$2(SO4)3 ->  3 PbSO4 + 2 A$\ell$C$\ell$3
+\end{reaction*}
+#+end_export
+
+o número de mols de \ch{PbSO4} , que serão formados a partir de 3 mols de \ch{A$\ell$2(SO4)3}, é igual a:
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 1
+\choice 2
+\choice 3
+\choice 6
+\choice 9
+#+end_choice
+
+#+end_exercise
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0] 
+#+begin_exercise
+O \ch{H2S} reage com o \ch{SO2} segundo a reação:
+
+#+begin_export latex
+\begin{reaction*}
+2 H2S + SO2 -> 3 S + 2 H2O
+\end{reaction*}
+#+end_export
+
+Dentre as opções abaixo, qual indica o número máximo de mols de S
+que pode ser formado quando se faz reagirem 5 mols de \ch{H2S} com 2
+mols de \ch{SO2}?
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 3
+\choice 4
+\choice 6
+\choice 7,5
+\choice 15
+#+end_choice
+
+#+end_exercise 
+
+
+
+\collectexercisesstop{EstequiometriaI}
+
+
+\collectexercises{EstequiometriaIOpen}
+\collectexercisesstop{EstequiometriaIOpen}

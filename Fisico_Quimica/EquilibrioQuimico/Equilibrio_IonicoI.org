@@ -1,0 +1,26 @@
+
+
+#+begin_comment
+================ Equilibrio Ionico   ==================
+#+end_comment
+
+
+
+#+LATEX_HEADER: \DeclareExerciseCollection{EquilibrioIonicoI}
+
+
+
+
+\collectexercises{EquilibrioIonico}
+
+
+
+#+begin_exercise
+A reação
+#+end_exercise 
+
+
+
+
+
+\collectexercisesstop{EquilibrioIonicoI}

@@ -1,0 +1,99 @@
+
+#+begin_comment
+
+* Tópicos Exame de Química - 1 Ano
+
+#+begin_export latex
+\begin{tblr}{
+ colspec = {rX}, colsep = 8mm, hlines = {2pt, white},
+ row{odd} = {azure8}, row{even} = {gray8},
+ row{1} = {6em,azure2,fg=white,font=\Large\bfseries\sffamily},
+ row{2-Z} = {3em,font=\Large},
+}
+Conteúdo & Download Aula \\
+Teoria Atômica & \qrcode{https://www.youtube.com/watch?v=U9hupeUww6Y}\\
+Tabela Periódica & \qrcode {https://www.youtube.com/watch?v=ohxjIjRJHfQ&t=25s}\\
+Ligações Química & \qrcode{https://www.youtube.com/watch?v=UjXlHX3EEi0}\\
+{Balanceamento \\ reações químicas } & \qrcode{https://www.youtube.com/watch?v=UjXlHX3EEi0}\\
+\end{tblr}
+#+end_export
+
+
+
+*Material de consulta para exame*:
+
+Tabela periodica
+
+Download
+
+@@latex: \qrcode{https://mark.nl.tab.digital/s/4G8SGmPk8L256nc} @@
+
+
+
+\newpage
+
+
+* Tópicos Exame de Química- 2Ano 
+
+
+
+#+begin_export latex
+\begin{tblr}{
+ colspec = {rX}, colsep = 8mm, hlines = {2pt, white},
+ row{odd} = {azure8}, row{even} = {gray8},
+ row{1} = {6em,azure2,fg=white,font=\Large\bfseries\sffamily},
+ row{2-Z} = {3em,font=\Large},
+}
+Conteúdo & Download Aula \\
+Termoquimica e Lei de Hess & \qrcode{https://www.youtube.com/watch?v=cJwHbZUJiAA}\\
+Equilíbrio Químico & \qrcode{https://www.youtube.com/watch?v=s8oXpMcQWSY}\\
+Óxido-Redução (nox) & \qrcode{https://www.youtube.com/watch?v=mpANREWS3xA}\\
+{Balanceamento \\ reações redox } & \qrcode{https://www.youtube.com/watch?v=Qf5jR8--LJA}\\
+\end{tblr}
+#+end_export
+
+
+
+*Material de consulta para exame*:
+
+Tabela de Nox
+
+Download
+
+@@latex: \qrcode{https://mark.nl.tab.digital/s/s4KSgPRr8edkgFM} @@
+
+
+
+
+\newpage
+
+* Tópicos Exame de Química 3 Ano
+
+
+
+
+#+begin_export latex
+\begin{tblr}{
+ colspec = {rX}, colsep = 8mm, hlines = {2pt, white},
+ row{odd} = {azure8}, row{even} = {gray8},
+ row{1} = {6em,azure2,fg=white,font=\Large\bfseries\sffamily},
+ row{2-Z} = {3em,font=\Large},
+}
+Conteúdo & Download Aula \\
+Hidrocarbonetos e Nomenclatura & \qrcode{https://www.youtube.com/watch?v=XDCV1tqBOgU&t=2s}\\
+Funções Oxigenadas & \qrcode {https://www.youtube.com/watch?v=XDCV1tqBOgU&t=2s}\\
+Funções Nitrogenadas & \qrcode{https://www.youtube.com/watch?v=yg7vVuYbGTA&t=187s}\\
+\end{tblr}
+#+end_export
+
+
+
+*Material de consulta para exame*:
+
+Tabela de radicais orgânicos
+
+Download
+
+@@latex: \qrcode{https://mark.nl.tab.digital/s/sM2mC3CGfweLwwj} @@
+
+

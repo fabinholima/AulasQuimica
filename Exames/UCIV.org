@@ -1,0 +1,80 @@
+
+
+* Exame de Química  
+  :PROPERTIES:  
+  :UNNUMBERED: t  
+  :END:
+
+  
+#+begin_questions
+
+#+begin_exercise
+
+*(2,5)* Qual galáxia é o lar do sistema solar?
+
+#+begin_choice
+\choice Andrômeda
+\choice Hidromassagem
+\choice \answer{via Láctea}
+\choice Messier 81
+#+end_choice
+
+#+end_exercise
+
+
+
+#+begin_exercise 
+*(2,5)* Qual objeto perdeu seu status de planeta em 2006?
+
+#+begin_choice
+\choice Eris
+\choice \answer{Plutão}
+\choice Haumea
+\choice Ceres
+#+end_choice
+#+end_exercise
+
+#+begin_exercise
+
+*(2,5)* Quantas luas tem marte?
+
+#+begin_choice
+\choice 1
+\choice \answer{2} 
+\choice 3
+\choice 4
+#+end_choice
+
+#+end_exercise
+
+#+begin_exercise
+*(2,5)* Qual planeta tem a maior lua do sistema solar?
+
+#+begin_choice
+\choice Saturno
+\choice Urano
+\choice Netuno
+\choice \answer{Júpiter}
+#+end_choice
+
+#+end_exercise
+
+#+begin_exercise
+*(2,5)* O que é uma supernova?
+#+begin_choice
+\choice Estágio de um planeta em que possui a maior massa e o maior diâmetro.
+\choice Uma explosão de uma nuvem interestelar, onde emite átomos de hidrogênio.
+\choice \answer{Uma poderosa explosão de uma estrela.}
+\choice O desenvolvimento de um buraco negro.
+#+end_choice
+
+#+end_exercise
+#+end_questions
+
+* Gabarito
+  :PROPERTIES:  
+  :UNNUMBERED: t  
+  :END:
+
+
+\getanswers

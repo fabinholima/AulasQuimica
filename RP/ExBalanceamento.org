@@ -1,0 +1,34 @@
+
+
+#+BEGIN_exercise
+Balanceie as reações químicas 
+
+
+#+begin_export latex
+
+
+\begin{choice}
+\choice \ch{\lh HNO3 ~\  ​+  \lh Ca(OH)2​ -> \lh Ca(NO3​)2 \  ​+  \lh H2​O} \bigskip \bigskip
+
+\choice \ch{\lh NaOH + \lh H2​SO4 ​-> \lh Na2​SO4 ​+ \lh H2​O} \bigskip \bigskip
+
+\choice \ch{\lh NaC$\ell$ + \lh AgNO3 ​-> AgC$\ell$ + \lh NaNO3} ​\bigskip \bigskip
+
+\choice \ch{\lh BaC$\ell$2 ​+ \lh H2​SO4​ -> \lh BaSO4​ + HC$\ell$} \bigskip \bigskip
+
+\choice \ch{\lh Be2C   +   \lh H2O   -> \lh Be(OH)2     + \lh  CH4} \bigskip \bigskip
+
+\choice \ch{\lh S + \lh  HNO3 ->  \lh  H2SO4   +  \lh  NO2   + \lh  H2O} \bigskip \bigskip
+
+\choice \ch{\lh P4O10 + \lh   H2O  ->   \lh   H3PO4} \bigskip \bigskip
+
+\choice \ch{\lh Fe + \lh HC2H3O2 -> \lh Fe(C2H3O2)3 +  \lh H2} \bigskip \bigskip
+
+\choice \ch{\lh NH4OH + \lh KA$\ell$(SO4)2. 12 H2O -> \lh A$\ell$(OH)3 + \lh (NH4)2SO4  +  \lh KOH + \lh H2O }
+
+\end{choice}
+
+#+end_export
+
+#+END_exercise
+

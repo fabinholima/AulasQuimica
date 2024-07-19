@@ -1,0 +1,77 @@
+* Reações Redox
+
+** Número de Oxidação (NOx)
+
+O NOx é a carga elétrica que um átomo de um elemento adquire quando participa de uma ligação. Se a ligação for iônica, será a sua carga real, mas se for uma ligação covalente (molecular), corresponderá ao caráter parcial que o elemento adquiriria se a ligação fosse rompida e o par de elétrons ficasse com o elemento mais eletronegativo.
+
+A eletronegatividade é a tendência que um elemento tem de atrair elétrons, e o NOx está intimamente ligado a esse conceito.
+
+
+#+ATTR_LATEX:  :environment  tabular  :align |p{5cm}|c|c|
+|-------------------------------------------------------+----------------------------------------------------------------+-------|
+| Elementos                                             | Situação                                                       |   Nox |
+|-------------------------------------------------------+----------------------------------------------------------------+-------|
+| Metais Alcalinos  (Li, Na, K, Rb, Cs e Fr)            | Em substâncias compostas                                       |   + 1 |
+|-------------------------------------------------------+----------------------------------------------------------------+-------|
+| Metais Alcalinos- Terrosos (Be, Mg, Ca, Sr, Ba, e Ra) | Em substâncias compostas                                       |   + 2 |
+|-------------------------------------------------------+----------------------------------------------------------------+-------|
+| Prata: Ag                                             | Em substâncias compostas                                       |    +1 |
+|-------------------------------------------------------+----------------------------------------------------------------+-------|
+| Zinco:                                                | Em substâncias compostas                                       |    +2 |
+|-------------------------------------------------------+----------------------------------------------------------------+-------|
+| Alumínio: @@latex: \ch{A$\ell$}@@                     | Em substâncias compostas                                       |    +3 |
+|-------------------------------------------------------+----------------------------------------------------------------+-------|
+| Enxofre: S                                            | Em sulfetos (quando  S for mais eletronegativo)                |    -2 |
+|-------------------------------------------------------+----------------------------------------------------------------+-------|
+| Halogênio (F, Cl, Br, I)                              | Ligado a ametais (quando o haleto for mais eletronegativo)     |    -1 |
+|-------------------------------------------------------+----------------------------------------------------------------+-------|
+| Hidrogenio: H                                         | Ligado a ametais (quando o hidrogênio for mais eletronegativo) |    +1 |
+|-------------------------------------------------------+----------------------------------------------------------------+-------|
+| Oxigenio: O                                           | Na maioria da substâncias compostas                            |    -2 |
+|-------------------------------------------------------+----------------------------------------------------------------+-------|
+| Peróxido                                              | Alguns compostos                                               |    -1 |
+|-------------------------------------------------------+----------------------------------------------------------------+-------|
+| Superóxido                                            | Alguns compostos                                               | - 1/2 |
+|-------------------------------------------------------+----------------------------------------------------------------+-------|
+
+
+
+- Para calcularmos o nox dos elementos de uma substância devemos igualar a soma das cargas à 0. 
+- Caso seja um íon devemos igualar a soma dos nox a carga do íon.
+- E em substâncias simples o nox é sempre igual a 0. @@latex: \ch{F2}, \ch{O2}, \ch{H2}@@   
+
+
+
+#+begin_export latex
+\begin{tabular}{|c|c|c|}
+\hline
+\ch{H3}&P&\ch{O4} \\ \hline
++1 & \(x\) & -2 \\ \hline
+\(3\cdot(+1)\) & \(x\) & \(4 \cdot (-2)\) \\ \hline 
++3 & \(x\) & -8 \\ \hline
+\end{tabular}
+\begin{align*}
+3 + x -8 & =0 \\
+x & = +8 - 3 \\
+x & = +5 \\
+\end{align*}
+#+end_export
+
+#+begin_export latex
+\begin{center}
+	\begin{tabular}{|c|c|}
+		\hline
+		\ch{Cr2}&\ch{O7^{2-}} \\ \hline
+		 \(x\) & 7 \\ \hline
+		  \(2 \cdot x\) & \(7 \cdot (-2)\) \\ \hline 
+		 \(2x\) & -14 \\ \hline
+	\end{tabular}
+	\begin{align*}
+	2x -14 & = - 2 \\
+	2x & = -2 + 14 \\
+	x & =+12/2 \\
+	x & = +6
+	\end{align*}
+\end{center}
+#+end_export
+

@@ -1,0 +1,90 @@
+#+LATEX_HEADER: \DeclareExerciseCollection{Polimeros}
+
+
+\collectexercises{Polimeros}
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Os polímeros sintéticos estão presentes em nossa sociedade de forma bastante intensa. Atualmente, os polímeros de adição dominam a economia das indústrias químicas. Cinco deles, cujos monômeros estão listados na tabela abaixo, estão envolvidos em mais da metade da produção mundial de plásticos.
+
+
+#+begin_export latex
+\vspace{.2cm}
+\centerline{
+\begin{tblr}{colspec={lc},rowspec={|[2pt,green7]Q|[2pt,teal7]Q|[green7]Q|[green7]Q|[green7]Q|[green7]Q|[green7]Q|[3pt,teal7]}}
+\SetCell[c=2]{c}{\bfseries Monomêros}\\
+{\bfseries Nome} & {\bfseries F\'ormula}\\
+Eteno &  \chemfig{H_2C=CH_2}\\
+Cloreto de Vinila &  \chemfig{H_2C=CHC}$\ell$\\
+Estireno &  \chemfig[atom style={scale=.5}]{=[:150]-[:210]-[:270]=_[:210]-[:150]=_[:90]-[:30](=_[:330])}\\
+Acrilonitrila &  \chemfig{CH_3-C~N}\\
+Tetrafluoretano &  \chemfig{F_2C=CF_2}\\
+\end{tblr}
+}
+\vspace{.2cm}
+#+end_export
+
+Assinale a alternativa *INCORRETA*.
+
+#+begin_choice 
+\choice O eteno é o monômero do polietileno.
+\choice O teflon é um polímero de tetrafluoreteno.
+\choice A fórmula do Orlon, polímero resultante da adição do acrilonitrila, é \ch{(-CH(CN)-CH2-)_n}.
+\choice O cloreto de vinila produz o polímero cloreto de polivinila(PVC), cuja fórmula é \ch{(-CHC$\ell$ -CH2-)_n}.
+\choice A fórmula do poliestireno, polímero do estireno, é \ch{(CH(C6H5)C$\ell$–CH2)_n}.
+#+end_choice 
+
+#+end_exercise
+#+begin_solution
+E
+#+end_solution
+
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+
+#+begin_export latex
+\centerline{
+
+}
+#+end_export
+
+#+ATTR_LATEX: :options (1)
+#+begin_choice
+#+end_choice 
+#+end_exercise
+#+begin_solution
+#+end_solution
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+
+#+begin_export latex
+\centerline{
+
+}
+#+end_export
+
+#+ATTR_LATEX: :options (1)
+#+begin_choice
+#+end_choice 
+#+end_exercise
+#+begin_solution
+#+end_solution
+
+
+
+
+\collectexercisesstop{Polimeros}
+

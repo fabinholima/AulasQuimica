@@ -1,0 +1,150 @@
+#+begin_comment
+=======================  SOLUCOES ================
+#+end_comment
+
+
+
+#+LATEX_HEADER: \DeclareExerciseCollection{Solucoes}
+
+ 
+\collectexercises{Solucoes}
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Foram preparadas três soluções de sulfato de cobre, \ch{CuSO4}, um soluto de coloração azul, em frascos iguais de mesmo diâmetro interno. As quantidades de soluto e solução são mostradas na tabela a seguir. Dados: massa molar \ch{CuSO4} =$1,6 \cdot 10^2$ g/mol
+
+|----------+----------------------+------------------|
+| Soluções | Quantidade de CuSO_4 | Volume de CuSO_4 |
+|----------+----------------------+------------------|
+| X        | 4g                   | 500 mL           |
+| Y        | $1\cdot 10^{-2}$ mol | 100 mL           |
+| Z        | $3\cdot 10^{-2}$ mol | 300 mL           |
+|----------+----------------------+------------------|
+
+
+Relacionando a cor da solução com suas concentrações e comparando-as entre si, observou-se que a
+intensidade da cor azul da solução:
+
+#+begin_choice
+\choice X era maior do que a de Y e Z.
+\choice Y era maior do que a de X e Z.
+\choice Z era maior do que a de X e Y.
+\choice X da solução Z era igual à de Y.
+\choice Y era igual à de Z.
+#+end_choice
+
+#+end_exercise 
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Soro fisiológico contém 0,900 gramas de \ch{NaC$\ell$}, massa molar=58,5g/mol, em 100mL de solução
+aquosa. A concentração do soro fisiológico, expressa em mol/L, é igual a
+
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 0,009.
+\choice 0,015.
+\choice 0,100.
+\choice 0,154.
+\choice 0,900
+#+end_choice
+
+#+end_exercise
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Dissolveram-se 2,48 g de tiossulfato de sódio pentaidratado (\ch{Na2S2O3.5 H2O}) em água para se
+obter 100 cm^3 de solução. A concentração molar dessa solução é. Dados: \ch{Na2S2O3. 5 H2O}=248 g/mol
+
+#+begin_choice
+\choice 0,157
+\choice 0,100
+\choice 0,000100
+\choice 1,00
+\choice 0,000157
+#+end_choice
+
+
+#+end_exercise
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Uma solução 0,8 mol/L de NaOH possui 32g desta base dissolvida em água. O volume da solução assim
+preparada é igual a: Dados: H = 1 u; O = 16 u; Na = 23 u
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 100 mL.
+\choice 10 L.
+\choice 10 mL.
+\choice 1,0 L.
+\choice 250 mL.
+#+end_choice
+#+end_exercise 
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+No preparo de solução alvejante de tinturaria, 521,5g de hipoclorito de sódio são dissolvidos em água
+suficiente para 10,0 litros de solução. A concentração, em mols/litro, da solução é: Dado: massa molar do \ch{NaC$\ell$O} = 74,5 g/mol
+
+#+ATTR_LATEX: :options (2)
+
+#+begin_choice
+\choice 7,0 mol/L.
+\choice 3,5 mol/L.
+\choice 0,70 mol/L.
+\choice 0,35 mol/L.
+\choice  0,22 mol/L.
+#+end_choice
+#+end_exercise
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A cafeína é a alcaloíde, identificado como 1,3,7-trimetilxantina (massa molar igual a 194 g/mol), cuja estrutura química contém uma unidade de purina, conforme representado. Esse alcaloide é encontrado em grande quantidade nas sementes de café e nas folhas de chá-verde. Uma xícara de café contém, em média, 80 mg de cafeína.
+
+#+begin_center
+#+begin_export latex
+\chemfig{CH_3-[:222,,1]N-[:276]=_[:204]N-[:132]=_[:60](-[:348]\phantom{N})-[:120](=[:60]O)-[:180]N(-[:120,,,2]H_3C)-[:240](=[:180]O)-[:300]N(-)-[:240,,,2]H_3C}
+#+end_export
+
+\scriptsize 
+MARIA, C. A. B., MOREIRA, R. F. A Cafeína: revisão sobre métodos de análise, *Química Nova* 30 (1) Fev 2007
+#+end_center
+
+
+Considerando que a xícara descrita contém um volume de 200 mL de café, a concentração, em mol/L, de cafeína nessa xícara é mais próxima de:
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 0,0004.
+\choice 0,002.
+\choice 0,4.
+\choice 2.
+\choice 4.
+#+end_choice 
+
+#+end_exercise 
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Uma solução de hidróxido de magnésio, utilizada no combate à acidez estomacal, apresenta uma concentração igual a 2,9 g/L. A concentração, em \unit{\mole\per\liter}, dessa solução é igual a: Dado: \ch{Mg(OH)2} = 58.
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 0,01 \unit{\mole\per\liter}
+\choice 0,05 \unit{\mole\per\liter}
+\choice 0,10 \unit{\mole\per\liter}
+\choice 0,50 \unit{\mole\per\liter}
+\choice 20 \unit{\mole\per\liter}
+#+end_choice
+
+#+end_exercise 
+
+
+\collectexercisesstop{Solucoes}
+

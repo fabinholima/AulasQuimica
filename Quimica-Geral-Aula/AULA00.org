@@ -1,0 +1,28 @@
+
+* Leis Ponderais 
+
+As principais leis ponderais introduzidas no século XVIII que geraram um grande avanço no estudo da Química, foram as leis de Lavoisier e a de Proust. Ambas serão explicadas mais detalhadamente a seguir.
+
+
+* Lei das Conservação das Massas
+
+A lei de Lavoisier, também conhecida como lei da conservação das massas, foi proposta por Antoine Laurent Lavoisier por volta de 1775 e afirma o seguinte:
+
+#+LATEX: \begin{Box2}{}
+“Na natureza, nada se cria, nada se perde, tudo se transforma”.
+#+LATEX: \end{Box2}
+Esta lei foi formulada após Lavoisier realizar um experimento usando uma certa massa de óxido de mercúrio como reagente, o qual foi aquecido dentro de um sistema fechado. O produto desta reação química foi mercúrio e oxigênio, cujas massas somadas foram idênticas ao número da massa do reagente. A equação química da reação descrita acima está mostrada abaixo:
+
+#+begin_export latex
+%\begin{reactions*}
+\underbracket{  \'Oxido\ de\  merc\'urio}_{massa\ do\ reagente }  -> [aquecimento] & Merc\'urio + Oxig\^enio \\
+ & = & \\
+%\end{reactions*}
+#+end_export
+
+
+
+* Lei  de Proust ou Lei das Proporções Constantes
+
+
+

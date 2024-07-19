@@ -1,0 +1,323 @@
+#+begin_comment
+========= CADEIAS CARBÔNICAS ============
+#+end_comment
+
+
+
+
+#+LATEX_HEADER: \DeclareExerciseCollection{Cadeias}
+
+
+\collectexercises{Cadeias}
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Alcinos são hidrocarbonetos:
+#+begin_choice
+\choice alifáticos saturados.
+\choice alicíclicos saturados.
+\choice alifáticos insaturados com dupla ligação.
+\choice alicíclicos insaturados com tripla ligação.
+\choice alifáticos insaturados com tripla ligação.
+#+end_choice 
+#+end_exercise 
+#+begin_solution
+Letra E
+#+end_solution
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Considere as afirmações seguintes sobre hidrocarbonetos.
+
+#+ATTR_LATEX: :options [label=\Roman*)]
+1. Hidrocarbonetos são compostos orgânicos constituídos somente de carbono e hidrogênio.
+2. São chamados de alcenos somente os hidrocarbonetos insaturados de cadeia linear.
+3. Cicloalcanos são hidrocarbonetos alifáticos saturados de fórmula geral @@latex: C$_{n}$H$_{2n}$ @@.
+4. São hidrocarbonetos aromáticos: bromobenzeno, @@latex: $p$@@-nitrotolueno e naftaleno.
+
+São corretas as afirmações:
+#+begin_choice
+\choice I e III, apenas.
+\choice I, III e IV, apenas.
+\choice II e III, apenas.
+\choice III e IV, apenas.
+\choice I, II e IV, apenas.
+#+end_choice   
+#+end_exercise 
+#+begin_solution
+LETRA A
+#+end_solution
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A classificação quanto à cadeia carbônica, da molécula é
+#+begin_center
+\chemfig{CH_3-CH=CH-CH_2-NO_2}
+#+end_center
+#+begin_choice
+\choice alifática, saturada, homogênea , normal.
+\choice cíclica, insatura, homogênea, ramificada.
+\choice alifática, insaturada, homogêna, normal.
+\choice alicíclica, saturada, heterogênea, normal.
+\choice aberta, insaturada, heterogênea, ramificada.
+#+end_choice
+#+end_exercise 
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A OGX energia, braço de exploração de petróleo no Maranhão do grupo EBX, do empresário Eike Batista, descobriu uma reserva gigante de gás natural, uma mistura de hidrocarbonetos leves, constituído principalmente por etano, propano, isobutano, butano, pentano, isopentano, dentre outros, na cidade de Capinzal do Norte, localizada a 260 km de São Luís. As reservas, segundo a OGX, têm de 10 trilhões a 15 trilhões de pés cúbicos de gás, o equivalente a 15 milhões de metros cúbicos por dia – metade do que a Bolívia manda ao Brasil diariamente.
+#+begin_flushright
+@@latex: {\small Fonte: Disponível em: Acesso em: 01 jul. 2013. (adaptado)}@@ 
+#+end_flushright
+
+A nomenclatura desses hidrocarbonetos leves, constituintes do gás natural é baseada, dentre alguns critérios, na quantidade de carbonos presentes no composto. O número correto de carbonos nos seis primeiros compostos citados no texto, são, respectivamente:
+
+#+begin_choice
+\choice 2, 5, 5, 3, 4, 4.
+\choice 2, 4, 4, 3, 5, 5.
+\choice 2, 4, 4, 5, 5, 3.
+\choice 2, 3, 5, 5, 4, 4.
+\choice 2, 3, 4, 4, 5, 5.
+#+end_choice
+#+end_exercise 
+#+begin_solution
+LETRA E
+#+end_solution
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+O propanoato de metila, representado a seguir, apresenta cadeia carbônica:
+#+begin_center
+\chemfig{CH_3-CH_2-C([:90]=O)-O-CH_3}
+#+end_center
+#+begin_choice
+\choice alifática, normal, saturada e heterogênea.
+\choice alicíclica, normal, saturada e heterogênea.
+\choice aberta, normal, insaturada e heterogênea.
+\choice acíclica, normal, saturada e homogênea.
+\choice alifática, ramificada, insaturada e homogênea.
+#+end_choice 
+#+end_exercise
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A caprolactama, matéria-prima para fabricação do nylon 6, apresenta a fórmula estrutural:
+#+begin_center
+\chemfig{*7(----N(-H)-(=O)--)}
+#+end_center
+A cadeia carbônica da caprolactama pode ser classificada, corretamente, como:
+#+begin_choice
+\choice cíclica, aromática e homogênea.
+\choice acíclica, aromática e homogênea.
+\choice cíclica, saturada e heterogênea.
+\choice acíclica, alifática e heterogênea.
+\choice cíclica, aromática e heterogênea.
+#+end_choice
+#+end_exercise
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+O linalol, substância isolada do óleo de alfazema, apresenta a seguinte fórmula estrutural:
+#+begin_center
+\chemfig{=[:90]-[:150](-[:150])(-[:30,,,1]OH)-[:210]-[:270]-[:330]=[:270](-[:210])-[:330]}
+#+end_center
+Essa cadeia carbônica é classificada como:
+#+begin_choice
+\choice acíclica, normal, insaturada e homogênea.
+\choice acíclica, ramificada, insaturada e homogênea.
+\choice alicíclica, ramificada, insaturada e homogênea.
+\choice alicíclica, normal, saturada e heterogênea.
+\choice acíclica, ramificada, saturada, e heterogênea.
+#+end_choice 
+#+end_exercise 
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A prednisona é um glicocorticóide sintético de potente ação antireumática, antiflamatória e antialérgica, cujo
+uso, como de qualquer outro derivado da cortisona, requer uma série de precauções em função dos efeitos
+colaterais que pode causar. Os pacientes submetidos a esse tratamento devem ser periodicamente
+monitorados, e a relação entre o benefício e reações adversas deve ser um fator preponderante na sua
+indicação.
+#+begin_center
+\chemfig[cram width=2.5pt,cram dash width=1.pt]{>[:234]-[:120]-[:180](=[:120]O)>[:240]-[:300](-(<[:312]-[:24]-[:96](-(-[:300]-[,,,1]OH)=[:60]O)(<:[:74,,,1]OH)-[:168])-[:60])<:[:240]-[:180]-[:120]=_[:180]-[:120](=[:180]O)-[:60]=_-[:300](-)(-[:240])<[:60]}
+#+end_center
+Com base na fórmula estrutural apresentada acima, qual o número de átomos de carbono terciários que
+ocorrem em cada molécula da prednisona?
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 3
+\choice 4
+\choice 5
+\choice 6
+\choice 7
+#+end_choice
+#+end_exercise
+#+begin_solution
+4
+#+end_solution 
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Qual deve ser classificado, em Química Orgânica, como composto quaternário?
+
+#+begin_choice
+\choice \chemfig{H_3C-COOH}
+\choice \chemfig{H_3C-CH_2-NH_2}
+\choice \chemfig{*5(-=--O-)}
+\choice \chemfig{NH_2-[:210,,1]=_[:270]-[:210]=_[:150]-[:90]=_[:30](-[:330])}
+\choice \chemfig{O=[:270](-[:330,,,1]OH)-[:210]=_[:270](-[:330,,,1]OH)-[:210]=_[:150]-[:90]=_[:30](-[:330])}
+#+end_choice
+#+end_exercise
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Uma cadeia carbônica alifática, homogênea, saturada, apresenta um átomo de carbono
+secundário, dois átomos de carbono quaternário e um átomo de carbono terciário. Esta cadeia apresenta:
+
+#+begin_choice
+\choice 7 átomos de C.
+\choice 8 átomos de C.
+\choice 9 átomos de C.
+\choice 10 átomos de C.
+\choice 11 átomos de C.
+#+end_choice
+#+end_exercise 
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+O pau-rosa, típico da região amazônica, é uma rica fonte natural do óleo essencial conhecido por linalol, o qual também pode ser isolado do óleo de alfazema. Esse óleo apresenta a seguinte fórmula estrutural:
+
+#+begin_export latex
+\begin{center}
+\chemfig{H_3C-C([:-90]-CH_3)=CH-CH_2-CH_2-C([:90]-OH)([:-90]-CH_3)-CH=CH_2}
+\end{center}
+#+end_export
+
+Sua cadeia carbônica deve ser classificada como:
+#+begin_choice
+\choice alicíclica, ramificada, insaturada e homogênea.
+\choice acíclica, ramificada, saturada e heterogênea.
+\choice acíclica, ramificada, insaturada e homogênea.
+\choice alicíclica, normal, saturada e heterogênea.
+\choice alicíclica, ramificada, saturada e heterogênea.
+#+end_choice
+#+end_exercise 
+#+begin_solution
+LETRA C
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+No composto
+#+begin_export latex
+\begin{center}
+\chemfig{H_3C-CH_2-CH([:-90]-CH_3)-CH([:90]-CH_2-CH_3)-CH([:-90]-CH_3)-CH([:-90]-CH_2-CH_2-CH_3)-CH_3}
+\end{center}
+#+end_export
+ As quantidades totais de átomos de carbono primário, secundário e terciário são, respectivamente:
+
+#+begin_choice
+\choice 5, 2 e 3 
+\choice 3, 5 e 2 
+\choice 4, 3 e 5
+\choice 6, 4 e 4
+\choice 3, 4 e 5
+#+end_choice 
+#+end_exercise
+#+begin_solution
+LETRA D
+#+end_solution
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A fórmula molecular do 2,3 - dimetil butano, é:
+
+#+begin_export latex
+\begin{choice} (2)
+\choice \ch{C6H14}
+\choice \ch{C6H12}
+\choice \ch{C6H10}
+\choice \ch{C4H10}
+\choice \ch{C4H8}
+\end{choice} 
+#+end_export
+#+end_exercise
+#+begin_solution
+LETRA A
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+O gás liquefeito de petróleo, GLP, é uma mistura de propano,  @@latex: \ch{C3H8}@@, e butano, @@latex: \ch{C4H10}@@. Logo, esse gás é uma mistura de hidrocarbonetos da classe dos:
+
+#+ATTR_LATEX: :options (2) 
+#+begin_choice 
+\choice alcanos.
+\choice  alcenos.
+\choice  alcinos.
+\choice  cicloalcanos.
+\choice  cicloalcenos.
+#+end_choice 
+#+end_exercise 
+#+begin_solution
+LETRA A
+#+end_solution
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Uma alternativa para os catalisadores de células a combustíveis são os polímeros condutores, que pertencem a uma classe de novos materiais com propriedades elétricas,magnéticas e ópticas. Esses polímeros são compostos formados por cadeias contendo ligações duplas conjugadas (ligações duplas conjugadas, é quando temos duas ligações duplas separadas por uma simples) que permitem o fluxo de elétrons.
+Assinale a alternativa na qual ambas as substâncias químicas apresentam ligações duplas conjugadas.
+
+#+begin_choice
+\choice Propanodieno e metil-but-1,3-dieno.
+\choice Propanodieno e ciclo-penteno.
+\choice Ciclopenteno e metil-but-1,3-dieno.
+\choice  Benzeno e ciclopenteno.
+\choice Benzeno e metil-but-1,3-dieno
+#+end_choice
+#+end_exercise
+#+begin_solution
+LETRA E
+#+end_solution
+
+
+
+
+
+\collectexercisesstop{Cadeias}
+
+
+

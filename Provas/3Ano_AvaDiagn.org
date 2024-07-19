@@ -1,0 +1,207 @@
+#+LATEX_HEADER: \DeclareExerciseCollection{AvaDiagn3}
+
+
+
+\collectexercises{AvaDiagn3}
+
+#+ATTR_LATEX: :options [points=1.001]
+#+begin_exercise
+Observe o gráfico de entalpia abaixo, obtido por meio de experimentos realizados no estado padrão:
+
+#+begin_export latex
+\begin{tikzpicture}[scale=0.7]
+	%% horizontal axis
+	\draw[->] (0,0) -- (6,0);
+	\draw(4,-0.35) node {Caminho da reação};
+	%% labels
+	%% vertical axis
+	\draw[->] (0,0) -- (0,6) ;
+	\draw(0,6.5) node {\(\Delta\) H (kJ/mol)};
+	%% nominal speed
+	\draw[thick,dashed] (0,5) -- (5.5,5);
+	\draw[thick,dashed] (0,3) -- (5.5,3);
+	\draw[thick,dashed] (0,1) -- (5.5,1);
+	%% Us
+	\draw (-.58,1) node {-394};
+	\draw(2.5,1.3) node {\ch{C_{\gr} + O2_{\gas}}};
+	\draw (-.58,3) node {-110};
+	\draw(2.5,3.6) node {\ch{CO_{\gas} + 1/2 O2_{\gas}}};
+	\draw (-.5,5) node {0};
+	\draw(2,5.5) node {\ch{CO2_{\gas}}};
+\end{tikzpicture}	
+#+end_export
+
+
+
+Com base em seus conhecimentos de termoquímica e nas informações do gráfico acima, a equação termoquímica *INCORRETAMENTE* representada é
+
+#+begin_export latex
+\begin{choice}(1)
+\scriptsize
+\choice \ch{CO2_{\gas} -> C_{\gr} + O2_{\gas}}  \(\enthalpy{394}\)
+\choice \ch{CO_{\gas}  +  1/2 O2_{\gas} -> CO2_{\gas}}   \(\enthalpy{-284}\)
+\choice \ch{C_{\gr}  +  1/2 O2_{\gas} -> CO_{\gas}}  \(\enthalpy{110}\)
+\choice \ch{CO2_{\gas} ->  CO_{\gas}  +  1/2 O2_{\gas}}  \(\enthalpy{284}\)
+\choice \ch{C_{\gr}  +   O2_{\gas} -> CO2_{\gas}}  \(\enthalpy{-394}\)
+\end{choice}
+#+end_export
+#+end_exercise
+
+#+ATTR_LATEX: :options [points=1.001]
+#+begin_exercise
+Nos municípios onde foi detectada a resistência do Aedes aegypti, o larvicida tradicional será substituído por outro com concentração de 10% (v/v) de um novo princípio ativo. A vantagem desse segundo larvicida é que uma pequena quantidade da emulsão apresenta alta capacidade de atuação, o que permitirá a condução de baixo volume de larvicida pelo agente de combate às endemias. Para evitar erros de manipulação, esse novo larvicida será fornecido em frascos plásticos e, para uso em campo, todo o seu conteúdo deve ser diluído em água até o volume final de um litro. O objetivo é obter uma concentração final de 2% em volume do princípio ativo.
+Que volume de larvicida deve conter o frasco plástico?
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 10 mL
+\choice 50 mL
+\choice 100 mL
+\choice \answer{200 mL}
+\choice 500 mL
+#+end_choice 
+#+end_exercise
+
+
+
+#+ATTR_LATEX: :options [points=1.001]
+#+begin_exercise
+Com a descoberta de emissões de energia do rádio-226, por Marie Curie e Pierre Curie, o fenômeno foi denominado radiação α (alfa) ou emissão α. Posteriormente, verificou-se que a emissão α na verdade são partículas correspondentes a núcleos de hélio formados por dois prótons e dois nêutrons. Assim, no decaimento α, um núcleo instável emite partículas α, tornando-se um núcleo mais estável (núcleo filho).
+Se um núcleo de rádio-226 emitir duas partículas α, o número de massa do núcleo filho será
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 226.
+\choice 224.
+\choice 222.
+\choice 220.
+\choice \answer{218.}
+#+end_choice 
+
+#+end_exercise
+
+
+#+ATTR_LATEX: :options [points=1.001]
+#+begin_exercise
+Embora a energia nuclear possa ser utilizada para fins pacíficos, recentes conflitos geopolíticos têm trazido preocupações em várias partes do planeta e estimulado discussões visando o combate ao uso de armas de destruição em massa. Além do potencial destrutivo da bomba atômica, uma grande preocupação associada ao emprego desse artefato bélico é a poeira radioativa deixada após a bomba ser detonada.
+Qual é o processo envolvido na detonação dessa bomba?
+
+#+begin_choice
+\choice \answer{Fissão nuclear do urânio, provocada por nêutrons.}
+\choice Fusão nuclear do hidrogênio, provocada por prótons.
+\choice Desintegração nuclear do plutônio, provocada por elétrons.
+\choice Associação em cadeia de chumbo, provocada por pósitrons.
+\choice Decaimento radioativo do carbono, provocado por partículas beta.
+#+end_choice
+#+end_exercise
+
+
+#+ATTR_LATEX: :options [points=1.001]
+#+begin_exercise
+A cafeína é a alcaloíde, identificado como 1,3,7-trimetilxantina (massa molar igual a 194 g/mol), cuja estrutura química contém uma unidade de purina, conforme representado. Esse alcaloide é encontrado em grande quantidade nas sementes de café e nas folhas de chá-verde. Uma xícara de café contém, em média, 80 mg de cafeína.
+
+[[../Provas/cafeine.png]]
+
+
+Considerando que a xícara descrita contém um volume de 200 mL de café, a concentração, em mol/L, de cafeína nessa xícara é mais próxima de:
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 0,0004.
+\choice \answer{0,002}.
+\choice 0,4.
+\choice 2.
+\choice 4.
+#+end_choice 
+
+#+end_exercise 
+
+#+ATTR_LATEX: :options [points=1.001]
+#+begin_exercise
+O elemento radioativo tório (Th) pode substituir os combustíveis fósseis e baterias. Pequenas quantidades desse elemento seriam suficientes para gerar grande quantidade de energia. A partícula liberada em seu decaimento poderia ser bloqueada utilizando-se uma caixa de aço inoxidável. A equação nuclear para o decaimento do \isotope{230,Th} associada para resolução da questão é: 
+
+
+#+begin_export latex
+\begin{reactions}
+\isotope{230,Th} -> \isotope{226,Ra} + part\'icula + energia
+\end{reactions}
+#+end_export
+Considerando a equação de decaimento nuclear, a partícula que fica bloqueada na caixa de aço inoxidável é o(a)
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice \answer{alfa.}
+\choice beta.
+\choice próton.
+\choice nêutron.
+\choice pósitron.
+#+end_choice 
+#+end_exercise 
+
+#+ATTR_LATEX: :options [points=1.001]
+#+begin_exercise
+Grande parte da atual frota brasileira de veículos de passeio tem tecnologia capaz de identificar e processar tanto o etanol quanto a gasolina. Quando queimados, no interior do motor, esses combustíveis são transformados Progresso da reação Progresso da reação Progresso da reação em produtos gasosos, num processo com variação de entalpia menor que zero (∆H < 0). Esse processo necessita de uma energia de ativação, a qual é fornecida por uma centelha elétrica.
+O gráfico que esboça a variação da energia potencial no progresso da reação é representado por: 
+#+begin_export latex
+\begin{choice}(1)
+\choice \includegraphics{Provas/A1.png}
+\choice \includegraphics{Provas/A2.png}
+\choice \includegraphics{Provas/A3.png}
+\choice \includegraphics{Provas/A4.png}
+\choice \includegraphics{Provas/A5.png}
+\end{choice}
+#+end_export
+
+#+end_exercise 
+
+
+#+ATTR_LATEX: :options [points=1.001]
+#+begin_exercise
+A usina termelétrica a carvão é um dos tipos de unidades geradoras de energia elétrica no Brasil. Essas usinas transformam a energia contida no combustível (carvão mineral) em energia elétrica.
+Em que sequência ocorrem os processos para realizar essa transformação?
+
+#+begin_choice
+\choice  A usina transforma diretamente toda a energia química contida no carvão em energia elétrica, usando reações de fissão em uma célula combustível.
+\choice A usina queima o carvão, produzindo energia térmica, que é transformada em energia elétrica por dispositivos denominados transformadores.
+\choice \answer{A queima do carvão produz energia térmica, que é usada para transformar água em vapor. A energia contida no vapor é transformada em energia mecânica na turbina e, então, transformada em energia elétrica no gerador.}
+\choice A queima do carvão produz energia térmica, que é transformada em energia potencial na torre da usina. Essa energia é então transformada em energia elétrica nas células eletrolíticas.
+\choice A queima do carvão produz energia térmica, que é usada para aquecer água, transformando-se novamente em energia química, quando a água é decomposta em hidrogênio e oxigênio, gerando energia elétrica. 
+#+end_choice 
+#+end_exercise
+
+#+ATTR_LATEX: :options [points=1.001]
+#+begin_exercise
+A técnica do carbono-14 permite a datação de fósseis pela medição dos valores de emissão beta desse isótopo presente no fóssil. Para um ser em vida, o máximo são 15 emissões beta/(min g). Após a morte, a quantidade de \isotope{14,C} se reduz pela metade a cada 5 730 anos.
+
+*A prova do carbono 14.* Disponível em: http://noticias.terra.com.br. Acesso em: 9 nov. 2013 (adaptado). 
+
+Considere que um fragmento fóssil de massa igual a 30 g foi encontrado em um sítio arqueológico, e a medição de radiação apresentou 6 750 emissões beta por hora. A idade desse fóssil, em anos, é 
+#+ATTR_LATEX: :options (2)
+#+begin_choice 
+\choice 450.
+\choice 1433.
+\choice \answer{11 460}.
+\choice 17 190.
+\choice 27 000.
+#+end_choice 
+#+end_exercise 
+
+
+#+ATTR_LATEX: :options [points=1.001]
+#+begin_exercise
+A nanotecnologia pode ser caracterizada quando os compostos estão na ordem de milionésimos de milímetros, como na utilização de nanomateriais catalíticos nos processos industriais. O uso desses materiais aumenta a eficiência da produção, consome menos energia e gera menores quantidades de resíduos. O sucesso dessa aplicação tecnológica muitas vezes está relacionado ao aumento da velocidade da reação química envolvida. 
+#+begin_choice
+\choice alta pressão.
+\choice alta temperatura.
+\choice excesso de reagentes.
+\choice \answer{maior superfície de contato.}
+\choice elevada energia de ativação. 
+#+end_choice 
+
+#+end_exercise 
+
+
+\collectexercisesstop{AvaDiagn3}
+
+
+

@@ -1,0 +1,135 @@
+* Ligações Químicas
+
+  
+
+As ligações químicas são nada mais, nada menos, do que o fenômeno que une os átomos! Assim, eles podem formar *compostos iônicos* (como sais, óxidos e bases), *moléculas* (água, gás carbônico, oxigênio), *ligas metálicas* (ferro, alumínio, ouro) – e toda a matéria que existe no universo.
+
+Primeiramente, é preciso entender que as ligações químicas acontecem na eletrosfera: a região em torno do núcleo onde se concentram os elétrons. Mais especificamente, acontecem na *camada de valência* de um átomo – que é a camada mais externa.
+
+[[./atomos.png]]
+
+Assim, são os elétrons dessa camada de valência que vão participar das ligações químicas.
+
+
+As  ligações  químicas  dependem  da  força  de atração  eletrostática  existente  entre  cargas de 
+sinais  opostas  a  da  tendência  que  os  elétrons apresentam de formar pares.
+
+Deste modo para ocorrer uma ligação química é  necessário  que  os  átomos  percam  ou  ganhem 
+elétrons,  ou,  então,  compartilhem  seus  elétrons de sua última camada.
+
+Na  maioria  das  ligações,  os  átomos  ligantes possuem distribuição eletrônica semelhante à 
+de  um  gás  nobre,  isto  é,  apenas  o  nível  K, completo, ou, 8 elétrons em uma outra 
+camada.
+
+      Esta  idéia  foi  desenvolvida  pelos  cientistas  Kossel e Lewis e ficou conhecida como teoria do 
+octeto
+
+Existem muitas exceções a esta regra, porém ela continua sendo usada por se tratar de 
+uma introdução a ligação química.
+
+O  número  de  elétrons  que  um  átomo  deve perder, ganhar ou associar para se tornar estável 
+recebe o nome de valência ou poder de combinação do átomo. 
+
+
+** Regra do Octeto
+
+A regra do octeto dita que o elemento terá estabilidade quando tiver oito elétrons na camada de valência, ou seja, o oxigênio, por exemplo, que tem seis elétrons na camada de valência (1s^2 2s^2 2p^4), precisa receber ou compartilhar outros dois elétrons. Como cada elétron simboliza uma ligação simples, o oxigênio, portanto, faz duas ligações.
+
+- Expansão do octeto: :: ocorre principalmente com fósforo (F) e enxofre (S), átomos grandes com subnível /d/ desocupado, podendo comportar mais de oito elétrons na camada de valência.
+
+- Contração do octeto: :: é quando o átomo alcança estabilidade com menos de oito elétrons na camada de valência. Acontece, principalmente, com elementos do segundo período da Tabela Periódica, como berílio (Be) e boro (B).
+
+
+** Ligação Iônica
+
+*Ligação Iônica:* Entendemos a ligação iônica como uma atração eletrostática entre dois íons. Geralmente são formadas pela ligação entre um metal e um ametal.
+
+
+O exemplo mais tradicional da ligação iônica é  a  interação  entre  o  sódio  (Z  =  11)  e  o  cloro (Z  =  17)  para  a  formação  do  cloreto  de  sódio (NaCl). 
+
+O sódio tem configuração eletrônica:
+
+1s^2, 2s^2, 2p^6, *3s^1*
+
+A  tendência  normal  dele  é  perder  *1  elétron*  ficando com uma configuração eletrônica semelhante à do neônio e, se tornando um *cátion monovalente.*
+
+*(1s^2, 2s^2, 2p^6)^{1+}*
+
+O cloro tem configuração eletrônica:
+1s²  2s²  2p6  *3s²  3p5*
+
+A  tendência  normal  dele  é  ganhar  1  elétron  ficando com uma configuração eletrônica semelhante à do argônio e, se tornando um *ânion monovalente*.
+
+[[./ionica.png]]
+
+
+** Ligações Covalentes
+
+
+Uma outra maneira pela qual os átomos podem tornar-se mais estáveis é por compartilhamento de elétrons (em vez de ganhá-los ou perdê-los totalmente), formando assim ligações covalentes. Ligações covalentes são mais comuns do que ligações iônicas nas moléculas de organismos vivos.
+
+Por exemplo, as ligações covalentes são fundamentais para a estrutura de moléculas orgânicas com base em carbono tais como o DNA e as proteínas. As ligações covalentes são também encontradas em moléculas inorgânicas menores como @@latex: \ch{H2O}, \ch{CO2} e \ch{O2}@@. Um, dois ou três pares de elétrons podem ser compartilhados entre os átomos, resultando em ligações simples, duplas ou triplas, respectivamente. Quanto maior o número de elétrons compartilhados entre dois átomos, mais forte será a ligação entre eles.
+
+Como um exemplo de ligação covalente, vamos ver a água. Uma única molécula de água,  \ch{H_2O}, consiste de dois átomos de hidrogênio ligados a um átomo de oxigênio. Cada hidrogênio compartilha um elétron com o oxigênio, e o oxigênio compartilha um dos seus elétrons, com cada hidrogênio:
+
+[[./covalente.png]]
+
+
+A ligação covalente geralmente é realizada entre:
+
+- Ametais + ametais
+- Hidrogênio + hidrogênio
+- Hidrogênio + ametais
+
+Os ametais é uma classificação dentro da tabela periódica, que engloba aos elementos químicos que possuem quatro ou mais elétrons na camada de valência. Tais elementos pertencem às famílias 14, 15, 16, e 17, que possuem nessa ordem, quatro, cinco, seis e sete elétrons na última camada. 
+
+O hidrogênio é uma exceção, pois ele tem apenas um elétron na camada de valência e para atingir a estabilidade, assim como o gás hélio, precisa adquirir mais um elétron. É importante reforçar que o hidrogênio não irá perder seu único elétron, mas sim compartilhar com um ametal.
+
+Observe o quadro abaixo que mostra o máximo de ligações covalentes que os ametais podem realizar:
+
+
+Existem quatro tipos de ligações covalentes: simples, dupla, tripla e dativa. Confira abaixo a descrição de cada uma:
+
+*** Ligação covalente simples
+
+Os átomos dividem um elétron de cada elemento, buscando a estabilidade de ambos. Por exemplo, na formação do gás cloro (@@latex: C$\ell_2$ @@), cada átomo de cloro compartilha um elétron:
+[[./cloro.jpg]]
+
+*** Ligação covalente dupla
+
+Os átomos agora dividem dois elétrons de cada elemento, buscando a estabilidade de ambos. Por exemplo, na formação do gás oxigênio (O_2), cada átomo de oxigênio compartilha entre si dois pares de elétrons.
+
+[[./oxigenio.jpg]]
+
+
+*** Ligação covalente tripla
+
+Segue os preceitos das ligações anteriores e os átomos dividem três elétrons de cada elemento, buscando a estabilidade. No exemplo do gás nitrogênio (N_2) há o compartilhamento de três elétrons de cada átomo de nitrogênio entre si:
+
+[[./nitrogenio.jpg]]
+
+
+
+** Ligação dativa
+
+A *ligação dativa*, também conhecida como *ligação coordenada*, é um tipo de ligação que se caracteriza por ser uma ligação covalente em que um dos átomos “doa” pares de elétrons  para um outro átomo qualquer, apesar de já estar estável.
+
+Esse tipo de ligação é muito comum para os elementos cloro (Cl), enxofre (S) e fósforo (P).
+
+Nesse tipo de ligação, para fins didáticos, costuma-se representar o par de elétrons a ser doado com uma seta, para diferenciar de ligações covalentes normais que podem ser representadas pela estrutura de Lewis ou ainda por traços que ligam dois elétrons.
+
+Exemplo: Dióxido de Enxofre (\ch{SO2}):
+
+[[./SO2.png]]
+
+
+** Ligação metálica
+
+A ligação metálica acontece entre átomos de um único elemento metálico.
+
+Os metais puros são formados por aglomerados de átomos de um mesmo elemento chamados de retículos cristalinos. Esses retículos são um aglomerado iônico formado por cátions do metal, uma vez que os elétrons da camada de valência dos átomos do metal se deslocam, saindo da camada de valência, tornando o átomo um cátion. Quando deslocados, os elétrons começam a rodear os cátions formando um grande fluxo de elétrons, sendo que cada um desses tem capacidade de se mover livremente pelo retículo cristalino.
+
+Esse tipo de ligação química acontece entre metais da mesma espécie e metais de espécies diferentes (ligas metálicas). Nela haverá a movimentação dos elétrons entre um átomo e outro da molécula (mar de elétrons livres), os quais ficam presos à estrutura por atração eletrostática.
+
+[[./ligacao-metalica.jpg]]
+

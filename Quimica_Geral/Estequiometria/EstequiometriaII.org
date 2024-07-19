@@ -1,0 +1,169 @@
+#+begin_comment
+Estequiometria II Relacao Massa x Massa 
+#+end_comment
+
+
+
+#+LATEX_HEADER: \DeclareExerciseCollection{EstequiometriaII}
+#+LATEX_HEADER: \DeclareExerciseCollection{EstequiometriaIIOpen}
+
+
+
+\collectexercises{EstequiometriaII}
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Para a reação de síntese da amônia (@@latex: \ch{NH3}@@) ao utilizar 280 g de nitrogênio (@@latex: \ch{N2}@@) reagindo com hidrogênio (@@latex: \ch{H2}@@), qual massa, em gramas, do composto NH_3 produzida?
+
+#+begin_export latex
+\begin{reaction*}
+N2_{\gas} + 3 H2_{\gas} <=> 2 NH3_{\gas}
+\end{reaction*}
+#+end_export
+
+Dados: N: 14 g/mol;  H: 1 g/mol
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice  10 g
+\choice  60 g
+\choice  340 g
+\choice  120 g
+\choice  560 g
+#+end_choice 
+#+end_exercise
+#+begin_solution
+#+begin_export latex
+\begin{align*}
+	280~\text{\cancel{g \ch{N2}}} \cdot \frac{1\text{\cancel{mol \ch{N2}}}}{28~\text{\cancel{g \ch{N2}}}} \cdot \frac{2~\text{\cancel{mol \ch{NH3}}}}{1~\text{\cancel{mol \ch{N2}}}}\cdot \frac{17~\text{g \ch{NH3}}}{1~\text{\cancel{mol \ch{NH3}}}} = 340 ~\text{g \ch{NH3}}
+\end{align*}
+#+end_export
+#+end_solution
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise 
+O carboneto de cálcio, \ch{CaC2} , é um importante produto químico preliminar para indústrias que produzem tecidos sintéticos e plásticos. \ch{CaC2} pode ser produzido por aquecimento de óxido de cálcio com coque:
+
+
+#+begin_export latex
+\begin{reaction*}
+CaO + 3 C -> CaC2 + CO
+\end{reaction*}
+#+end_export
+
+Qual é a quantidade de \ch{CaC2} que pode ser produzida a partir da reação do excesso de óxido de cálcio e 144 g de carbono? (Assuma 100% de eficiência da reação para os propósitos deste problema.)
+
+Dados: C=12 g/mol; \ch{CaC2}=64 g/mol 
+
+#+ATTR_LATEX: :options (1)
+#+begin_choice
+\choice 288 g
+\choice 256 g
+\choice 192 g
+\choice 188 g
+\choice 92 g
+#+end_choice 
+
+#+end_exercise 
+
+#+ATTR_LATEX: :options [points=1.0] 
+#+begin_exercise
+Qual das seguintes afirmações é *FALSA* para a equação química dada abaixo, na qual o gás nitrogênio reage com o gás hidrogênio para formar o gás amônia, assumindo que a reação vai até o fim?
+
+#+begin_export latex
+\begin{reaction*}
+N2_{\gas} + 3 H2_{\gas} -> 2 NH3_{\gas}
+\end{reaction*}
+#+end_export
+
+DADOS: \ch{N2}=28 g/mol; \ch{H2}=2 g/mol; \ch{NH3}=17 g/mol
+
+#+begin_choice
+\choice A reação de um mol de \ch{H2} produzirá 2/3 mols de \ch{NH3} .
+\choice Um mol de \ch{N2} produzirá dois moles de \ch{NH3} .
+\choice Uma molécula de nitrogênio requer três moléculas de hidrogênio para uma reação completa.
+\choice A reação de 14 g de nitrogênio produz 17 g de amônia.
+\choice A reação de três moles de gás hidrogênio produzirá 17 g de amônia.
+#+end_choice 
+#+end_exercise 
+
+
+#+ATTR_LATEX: :options [points=1.0] 
+#+begin_exercise 
+Calcule a massa de hidrogênio formada quando 270 gramas de alumínio reagem com o excesso de ácido clorídrico.
+
+#+begin_export latex
+\begin{reaction*}
+2 A$\ell$_{\sld} + 6 HC$\ell$_{\lqdd} ->  A$\ell$2C$\ell$6_{\sld} + 3 H2_{\gas}
+\end{reaction*}
+
+Dados: \ch{A$\ell$}=27 g/mol; \ch{HC$\ell$}=36 g/mol; \ch{A$\ell$2C$\ell$6}=266 g/mol; \ch{H2}=2 g/mol 
+#+end_export
+
+
+#+begin_choice 
+\choice 40 g
+\choice 30 g
+\choice 75 g
+\choice 100 g
+\choice 25 g
+#+end_choice 
+
+#+end_exercise 
+
+
+#+ATTR_LATEX: :options [points=1.0] 
+#+begin_exercise
+Calcule a massa molar da \ch{H2O2} sabendo que os respectivos pesos molares são:
+Dados: H=1 u; O=16 u
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 18
+\choice 32
+\choice 34
+\choice 31
+\choice 24
+#+end_choice
+#+end_exercise 
+
+
+
+\collectexercisesstop{EstequiometriaII}
+
+
+\collectexercises{EstequiometriaIIOpen}
+
+#+ATTR_LATEX: :options [points=3]
+#+begin_exercise
+O fósforo elementar é, industrialmente, obtido pelo aquecimento de rochas fosfáticas com coque, na presença de sílica.
+Considere a reação:
+#+begin_export latex
+\begin{reaction*}
+2 Ca3(PO4)2 + 6 SiO2 + 10 C -> P4 + 6 CaSiO3 + 10 CO
+\end{reaction*}
+#+end_export
+foram produzidos 3.10 kg de P. (Dados massas molares (g/mol) P = 31,0 g/mol; \ch{Ca3(PO4)2} = 310,0 g/mol; C=12 g/mol ; \ch{SiO2}=60 g/mol)
+
+#+begin_choice
+\choice Qual a massa de \ch{Ca3(PO4)2} necessária para produzir 3,10  Kg de P?
+
+\vspace{4cm}
+
+\choice Qual a massa de \ch{SiO2} necessária para produzir 3,10  Kg de P?
+
+\vspace{4cm}
+
+\choice Qual a massa de \ch{C} necessária para produzir 3,10  Kg de P?
+
+#+end_choice
+
+#+end_exercise 
+
+
+\collectexercisesstop{EstequiometriaIIOpen}

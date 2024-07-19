@@ -1,0 +1,76 @@
+#+OPTIONS: H:2 toc:nil num:0
+#+LATEX_CLASS:koma-article
+#+LATEX_CLASS_OPTIONS: [10pt]
+#+INCLUDE: "packages2.org"
+#+LATEX_HEADER: \usepackage{lineno} 
+
+
+
+
+#+LATEX_HEADER: \newcommand{\lh}{\underline{\hspace{1cm}}}
+#+LATEX_HEADER: %%\onehalfspacing
+#+LATEX_HEADER: \def\professor{Fábio Lima}
+#+LATEX_HEADER: \def\aluno{}
+#+LATEX_HEADER: \def\numerochamada{}
+#+LATEX_HEADER: \def\disciplina{Química}
+#+LATEX_HEADER: %%\def\disciplina{UCIII}
+#+LATEX_HEADER: %%\def\disciplina{R.A.}
+#+LATEX_HEADER: \def\turma{3 Ano }
+#+LATEX_HEADER: %%\def\tipo{{\bfseries Avaliação Bimestral}}
+#+LATEX_HEADER: \def\tipo{\bfseries RECUPERAÇÃO }
+#+LATEX_HEADER: %%\def\tipo{\bfseries Exame Final}
+#+LATEX_HEADER: \def\bimestre{2 Bimestre}
+#+LATEX_HEADER: \def\escola{E.E. 26 de Agosto}
+#+LATEX_HEADER: %%\def\escola{E.E. José Mamede de Aquino}
+#+LATEX_HEADER: %\def\escola{E.E. Amelio Carvalho de Bais}
+#+LATEX_HEADER: %5\def\escola{}
+#+LATEX_HEADER: \def\dataprova{}
+
+
+
+
+
+#+begin_export latex
+\pagebreak 
+%%\input{../Modelos/geral}
+%%\input{../Modelos/cabenovo}
+%%\input{../Modelos/26agosto}
+\input{../Modelos/CabeOficial}
+%\section*{Tópicos RPP de Química}
+\smallbreak
+\medbreak
+\vspace{-9cm}
+#+end_export
+
+
+#+INCLUDE: "Lista/Eletroquimica/BalanceamentoRedox.org"
+
+
+
+#+begin_export latex
+\section{Realize o balanceamento das reações redox}
+#+end_export
+
+\printcollection{BalanceamentoRedoxI}
+
+\newpage
+
+#+begin_export latex
+\section{Equilibre cada reação redox em solução ácida.}
+#+end_export
+
+
+\printcollection{BalanceamentoRedoxII}
+
+\newpage
+
+#+begin_export latex
+
+\section{Equilibre cada reação redox em solução básica.}
+#+end_export
+
+
+\printcollection{BalanceamentoRedoxIII}
+
+
+

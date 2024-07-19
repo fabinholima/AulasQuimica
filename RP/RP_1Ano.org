@@ -1,0 +1,251 @@
+#+LATEX_HEADER: \DeclareExerciseCollection{RP1Ano}
+
+#+BEGIN_COMMENT
+APC 1 Ano 
+#+end_comment
+
+ \collectexercises{RP1Ano}
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Qual método de separação é mais eficaz para separar uma mistura de areia e ferro em pó?
+#+begin_choice
+    \choice Decantação
+    \choice Filtração
+    \choice Centrifugação
+    \choice Imantação
+#+end_choice     
+#+end_exercise 
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise    
+Qual método de separação é mais adequado para separar uma mistura de sal e água?
+#+begin_choice 
+    \choice  Destilação
+    \choice Decantação
+    \choice Filtração
+    \choice Cromatografia
+#+end_choice     
+#+end_exercise 
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise    
+Qual método de separação é adequado para separar uma mistura de água e óleo?
+
+#+begin_choice 
+\choice Decantação
+\choice Filtração
+\choice Destilação
+\choice Centrifugação
+#+end_exercise 
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise    
+Qual método de separação é utilizado para separar diferentes componentes de uma mistura com base em suas diferentes afinidades por uma fase estacionária?
+#+begin_choice
+\choice Decantação
+\choice Filtração
+\choice Destilação
+\choice Cromatografia
+#+end_choice
+#+end_exercise 
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Qual método de separação é utilizado para separar misturas de sólidos com diferentes densidades em líquidos?
+
+#+begin_choice
+\choice Decantação
+\choice Filtração
+\choice Destilação
+\choice Centrifugação
+#+end_choice 
+#+end_exercise 
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise    
+Qual método de separação é mais adequado para separar uma mistura de álcool e água?
+#+begin_choice
+\choice Decantação
+\choice Filtração
+\choice Destilação
+\choice Centrifugação
+#+end_choice
+#+end_exercise 
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise    
+Qual método de separação é mais apropriado para separar uma mistura de gases com diferentes pontos de ebulição?
+#+begin_choice
+\choice Decantação
+\choice Filtração
+\choice Destilação
+\choice Centrifugação
+#+end_choice 
+#+end_exercise 
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise    
+Qual método de separação é utilizado para separar componentes de uma mistura com base em suas diferentes solubilidades em um solvente?
+
+#+begin_choice
+\choice Decantação
+\choice Filtração
+\choice Destilação
+\choice Extração
+#+end_choice    
+#+end_exercise 
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Qual método de separação é utilizado para separar partículas sólidas de um líquido por meio de um material poroso?
+#+begin_choice
+\choice  Decantação
+\choice  Filtração
+\choice Destilação
+\choice Adsorção
+ #+end_choice   
+#+end_exercise 
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Qual método de separação é utilizado para separar partículas sólidas de diferentes tamanhos em uma suspensão?
+#+begin_choice
+\choice Decantação
+\choice Filtração
+\choice Destilação
+\choice Sedimentação
+#+end_choice
+#+end_exercise 
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Qual cientista propôs o modelo atômico com um núcleo denso e uma eletrosfera com elétrons ao seu redor?
+#+begin_choice
+\choice Ernest Rutherford
+\choice J.J. Thomson
+\choice Niels Bohr
+\choice  John Dalton
+#+end_choice
+#+end_exercise 
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Qual partícula subatômica possui carga elétrica positiva?
+
+#+begin_choice
+\choice  Elétron
+\choice Próton
+\choice Nêutron
+\choice Íon
+#+end_choice
+#+end_exercise
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Qual é a carga elétrica de um elétron?
+#+begin_choice
+\choice Positiva
+\choice Negativa
+\choice Neutra
+\choice Variável
+#+end_choice
+#+end_exercise 
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Segundo o modelo atômico de Bohr, os elétrons estão dispostos em:
+#+begin_choice
+\choice Uma eletrosfera contínua e indefinida.
+\choice Órbitas circulares e bem definidas.
+\choice Uma nuvem eletrônica dispersa ao redor do núcleo.
+\choice Uma rede cristalina.
+#+end_choice
+#+end_exercise
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Quais partículas subatômicas têm aproximadamente a mesma massa?
+#+begin_choice
+\choice Elétrons e prótons.
+\choice Elétrons e nêutrons.
+\choice Prótons e nêutrons.
+\choice Elétrons, prótons e nêutrons.
+#+end_choice
+#+end_exercise
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+O número atômico de um elemento é determinado pela quantidade de:
+#+begin_choice
+\choice Prótons no núcleo.
+\choice Elétrons no núcleo.
+\choice Elétrons na eletrosfera.
+\choice Nêutrons no núcleo.
+#+end_choice
+#+end_exercise
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise    
+O que diferencia um isótopo de outro do mesmo elemento?
+
+#+begin_choice
+\choice Número de prótons.
+\choice Número de elétrons.
+\choice Número de nêutrons.
+\choice Número de íons.
+#+end_choice
+#+end_exercise 
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Segundo o modelo atômico atual, qual é a distribuição eletrônica correta do oxigênio (O)?
+#+begin_choice
+\choice 1s^2, 2s^2, 2p^4
+\choice 1s^2, 2s^2, 2p^6
+\choice 1s^2, 2s^2, 2p^2
+\choice 1s^2, 2s^2, 2p^8
+#+end_choice
+#+end_exercise
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Quem propôs o modelo atômico conhecido como "pudim de passas"?
+
+#+begin_choice
+\choice Ernest Rutherford
+\choice J.J. Thomson
+\choice Niels Bohr
+\choice John Dalton
+#+end_choice
+#+end_exercise 
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Qual é a massa aproximada de um elétron em comparação com a massa de um próton?
+
+#+begin_choice
+\choice A massa de um elétron é maior que a de um próton.
+\choice A massa de um elétron é igual à de um próton.
+\choice A massa de um elétron é menor que a de um próton.
+\choice A massa de um elétron é variável.
+#+end_choice
+#+end_exercise
+
+ \collectexercisesstop{RP1Ano}

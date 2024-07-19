@@ -1,0 +1,191 @@
+#+LATEX_HEADER: \DeclareExerciseCollection{EstequiometriaI}
+
+
+#+begin_exercise
+Balanceie as reações a seguir 
+#+begin_choice 
+\choice \ch{\lh N2 + \lh F2 -> \lh NF3}\bigskip
+\choice \ch{\lh C6H10 + \lh O2 -> \lh CO2 + \lh H2O} \bigskip
+\choice \ch{\lh HBr + \lh KHCO3 -> \lh H2O + \lh KBr + \lh CO2} \bigskip
+\choice \ch{\lh GaBr3 + \lh Na2SO3 -> \lh  Ga2(SO3)3 + \lh NaBr} \bigskip 
+\choice \ch{\lh SnO + \lh NF3 -> \lh SnF2 + \lh N2O3} \bigskip
+\choice \ch{\lh FeO3  + \lh CO -> \lh Fe  + \lh CO2} \bigskip \bigskip
+#+end_choice
+#+end_exercise
+
+
+
+\collectexercises{EstequiometriaI}
+
+
+
+
+
+#+begin_exercise
+As máscaras de oxigênio utilizadas em aviões contêm superóxido de potássio (\ch{KO2}) sólido. Quando a máscara é usada, o superóxido reage com o gás carbônico (\ch{CO2}) exalado pela pessoa e libera gás oxigênio (\ch{O2}), necessário à respiração,segundo a equação balanceada:
+
+#+begin_export latex
+\begin{reaction*}
+4 KO2_{\sld} + 2 CO2_{\gas} ->  2 K2CO3{\sld} + 3 O2_{\sld}
+\end{reaction*}
+#+end_export
+Qual a massa de superóxido de potássio necessária, em gramas, para reagir totalmente com 0,2 mol de gás carbônico. Dados: K=39; C=12; O=16.
+#+end_exercise
+#+begin_solution
+28,4 g 
+#+end_solution 
+
+
+
+
+
+
+#+begin_exercise
+O cromo é um metal empregado na produção do aço inox e no revestimento (cromação) de algumas peças metálicas.Esse metal é produzido por meio da reação a seguir: Dados: Massas Molares: O =16; Cr = 52
+#+begin_export latex
+\begin{reaction*}
+Cr2O3_{\sld} + 2 A$\ell$_{\sld} -> 2 Cr_{\sld} + A$\ell$2O3_{\sld}
+\end{reaction*}
+#+end_export
+Partindo-se de 15,2 gramas de \ch{Cr2O3} e admitindo-se que este processo tem um rendimento de 75%, a massa produzida de cromo é igual a:
+#+end_exercise
+#+begin_solution
+
+#+end_solution 
+
+
+
+
+
+#+begin_exercise
+Nas usinas siderúrgicas, a obtenção do ferro metálico, Fe (MM = 56 \unit{\gram\per\mol}), a partir da hematita, \ch{Fe2O3} (MM = 160  \unit{\gram\per\mol}), envolve a seguinte equação, *não* balanceada:
+
+#+begin_export latex
+\begin{reaction*}
+Fe2O3_{\sld} +  CO_{\gas} ->  Fe_{\sld} +  CO2_{\sld}
+\end{reaction*}
+#+end_export
+Qual a massa de ferro metálico, em gramas, obtida quando se faz reagir 200 kg de hematita, que apresenta 20 % de impurezas. 
+#+end_exercise
+#+begin_solution
+1,12\unit{e5a} 
+#+end_solution 
+
+
+
+
+#+begin_exercise
+@@latex:\ch{Mg_{\sld} + 2 Ag^+_{\aq} -> Mg^{2+} + 2 Ag_{\sld}}@@ Que quantidade de\ch{Mg_{\sld}}, em mols, reage com 4,0 mols de \ch{Ag^+_{\aq}}?
+#+end_exercise
+#+begin_solution
+2,0 mols
+#+end_solution 
+
+
+
+
+#+begin_exercise
+A "morte" de lagos e rios deve-se à presença, na água, de substâncias orgânicas que, sob a ação de bactérias, degradam-se, consumindo o oxigênio dissolvido. Considere amostra de água poluída contendo 0,01g de matéria orgânica, na forma de uréia (\ch{CO(NH2)2} ), que se degrada como representa a
+equação:
+#+begin_export latex
+\begin{reaction*}
+CO(NH2)2_{\aq} + 4 O2_{\aq} -> CO2_{\aq} + 2 HNO3_{\aq} + H2O_{\aq}
+\end{reaction*}
+#+end_export
+Para degradar 0,01 g de ureia, a massa de \ch{O2} consumida, expressa em "mg" é Dados:Massas molares: ureia = 60 g/mol e \ch{O2} = 32 g/mol
+#+end_exercise
+#+begin_solution
+21,3 g
+#+end_solution 
+
+
+
+
+#+begin_exercise
+Considere a equação representativa da fotossíntese
+#+begin_export latex
+\begin{reaction*}
+Energia + 6 CO2_{\gas} + 6 H2O_{\lqdd} -> C6H12O6 + 6 O2_{\gas}
+\end{reaction*}
+#+end_export
+
+Dados: massa molar da glicose = 180 g/mol A quantidade de matéria, em mols, de \ch{CO2}, removida da atmosfera, na obtenção de 18 kg de glicose é:
+
+#+end_exercise
+#+begin_solution
+\unit{6e2}
+#+end_solution 
+
+
+
+
+#+begin_exercise
+A metanfetamina, uma substância usada como medicamento, é eliminada do organismo por meio de uma série de reações. O processo global pode ser representado pela reação com \ch{O2}, conforme mostra a equação:
+
+#+begin_export latex
+\begin{exercise}
+4 C10H15N + 55 O2 ->  40 CO2 + 30 H2O + 2 N2
+\end{exercise}
+#+end_export
+
+A quantidade de oxigênio, em miligramas, necessária para reagir completamente com 12 mg desse medicamento é, aproximadamente,
+Massas molares (g/mol): \ch{C10H15N} = 149 O2 = 32
+
+#+end_exercise
+#+begin_solution
+#+begin_export latex
+\begin{align*}
+m_{O2}= 12 \cdot 10^{-3}  \cancel{\text{g \ch{C10H15N}}} \cdot  \frac{1 \cancel{\text{1 mol}}}{w}
+\end{align*}
+#+end_export
+#+end_solution 
+
+
+
+
+#+begin_exercise
+
+#+end_exercise
+#+begin_solution
+
+#+end_solution 
+
+
+
+
+
+
+#+begin_exercise
+Usando a equação abaixo
+
+#+begin_reaction*
+2 NaOH + H2SO4 -> 2 H2O + Na2SO4
+#+end_reaction*
+
+Quantos gramas de sulfato de sódio \ch{Na2SO4} serão formados se você começar com 200 gramas de hidróxido de sódio (NaOH) e você tem excesso de ácido sulfúrico \ch{H2SO4}? Dados: \ch{Na2SO4}= 142 u; \ch{H2SO4}= 98 u; \ch{NaOH}= 40 u
+
+#+end_exercise
+
+
+
+
+
+#+begin_exercise
+Usando a equação abaixo:
+
+#+begin_export latex
+\begin{reaction*}
+Pb(SO4)2 + 4 LiNO3 -> Pb(NO3)4 + 2 Li2SO4
+\end{reaction*}
+#+end_export
+
+Quantos gramas de nitrato de lítio (\ch{LiNO3}) serão necessários para fazer 250 gramas de sulfato de lítio (\ch{Li2SO4}), supondo que você tenha uma quantidade adequada de sulfato de chumbo (IV) (\ch{Pb(SO4)2}) para fazer a reação? Dados: \ch{LiNO3} = 69 g/mol; \ch{Li2SO4} = 110 g/mol; \ch{Pb(SO4)2} = 400 g/mol
+
+#+end_exercise
+
+
+
+
+
+
+\collectexercisesstop{EstequiometriaI}

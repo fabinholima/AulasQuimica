@@ -1,0 +1,467 @@
+
+* Termoquímica
+
+*Termoquímica:* É o estudo das quantidades de calor liberadas e absorvidas durante as transformações de estado físico, reações químicas etc...
+
+*Entalpia (H):* Entalpia é o conteúdo de calor de um sistema, à pressão constante. Não é possível medir a entalpia absoluta de um sistema por isso, mede-se a variação de entalpia (\(\Delta\)H) da reação
+
+*UNIDADES DA ENTALPIA:* cal,    kcal,    J,    kJ
+
+O Sistema Internacional de unidades recomenda que se utilize a unidade *joule (J)* nos processos que envolvem troca de calor.
+1 caloria (cal) = quantidade de calor necessária para elevar em 1 ºC a temperatura de 1,0 grama de água.
+
+#+ATTR_LATEX: :options [logo=\bcinfo]{Unidades}
+#+begin_bclogo
+1 kcal  =  1000 cal       1 kJ   =  1000 J    1 cal  =   4,18 J
+#+end_bclogo
+
+*Entalpia de padrão (\(\Delta\)Hº )* devido à impossibilidade de determinarmos diretamente a entalpia das substâncias, trabalhamos com a variação de entalpia (\(\Delta\)H). Porém, a variação de entalpia de uma reação depende da temperatura, da pressão, do estado físico, do número de mols e da variedade alotrópica das substâncias envolvidas. Por esse motivo foi criado um referencial para fazermos comparações: a entalpia padrão. Dessa maneira, as entalpias serão sempre avaliadas em relação a uma mesma condição (condição padrão ou estado padrão).
+
+
+O estado padrão de uma substância corresponde à sua forma mais estável, a 1 atm, a 25 °C. A entalpia padrão de uma substância é indicada por \(\Delta\)H\(^0\).
+
+Por convenção foi estabelecido que:
+
+#+ATTR_LATEX: :options [logo=\bcinfo]{Definição}
+#+begin_bclogo
+/*“Toda substância simples, no estado padrão e na sua forma alotrópica mais estável (mais comum), tem entalpia (H) igual a zero.”*/
+#+end_bclogo
+
+
+
+
+*Lembrando:* Substâncias alotrópicas são duas ou mais substâncias simples diferentes formadas pelo mesmo tipo de átomo.
+
+
+O carbono pode ser encontrado sobre a forma de grafite ou diamante.
+
+
+#+begin_export latex
+\begin{Box2}{Exemplo}
+\begin{reactions*}
+C_{(grafite)} -> &    H^0 = 0  \\
+ C_{(diamante)}  -> & H^0 \(\neq\){0}
+\end{reactions*}
+\end{Box2}
+#+end_export
+
+O enxofre pode ser encontrado sobre a forma de enxofre rômbico  ou enxofre monoclínico .
+
+#+begin_export latex
+\begin{Box2}{Exemplo}
+\begin{reactions*}
+S_{(rômbico)}   -> &   H^0 =  0 \\
+S_{(monoclínico)} -> &  H^0 \(\neq\) {0}
+\end{reactions*}
+\end{Box2}
+#+end_export
+
+O oxigênio pode ser encontrado sobre a forma de gás oxigênio  ou ozônio .
+
+#+begin_export latex
+\begin{Box2}{Exemplo}
+\begin{reactions*}
+O2_{(gás\ oxigênio)} -> &  H^0 =  0 \\
+O3_{(ozônio)} -> &  H^0 \(\neq\) {0}
+\end{reactions*}
+\end{Box2}
+#+end_export
+
+Todas as demais substâncias simples no estado padrão (25 ºC a 1 atm), apresentam entalpia H\(^0\) = 0.
+
+#+begin_export latex
+\begin{Box2}{Exemplo}
+\begin{reactions*}
+H2_{\gas} -> & H^0 =  0  \\
+N2_{\gas} -> &  H^0 =  0 \\
+Hg_{\lqdd,(metal)} ->  &  H^0 =  0
+\end{reactions*}
+\end{Box2}
+#+end_export
+
+* Entalpia de padrão de formação (\(\Delta\)H\(_f^0\)) 
+
+*Entalpia Padrão de Formação:* é a variação de entalpia que ocorre na formação de 1 mol de uma substância composta a partir de substâncias simples no estado padrão. 
+
+#+begin_export latex
+\begin{Box2}{Exemplo \ch{H2O} (a \SI{25}{\celsius} e 1 atm)}
+\small
+\begin{reactions*}
+H2_{\gas} + {1/2} O2_{\gas} -> H2O_{\lqdd} & \; \(\enthalpy[unit=\kilo\cal\per\mole]{-285}\) % \(\Delta\)H_f^0 = - 68,4 Kcal/mol 
+\end{reactions*}
+\end{Box2}
+#+end_export
+
+
+Observe que todos os reagentes são substâncias simples no estado padrão
+#+begin_export latex
+\begin{reactions*}
+H2_{\gas} ->     H^0 =  0 & O2 ->  H^0 =  0
+\end{reactions*}
+#+end_export
+
+
+
+E que o produto \ch{H2O_{\lqdd}} é uma substância composta e que \(\Delta\)H\(_f^0\) é diferente de zero, portanto a variação da entalpia é função da energia interna das substâncias.
+
+#+begin_export latex
+\begin{Box2}{\ch{H2SO4_{\lqdd}} (a \SI{25}{\celsius} e 1 atm)}
+\begin{reactions*}
+H2_{\gas} + S_{(rômbico)} + & 2 O2_{\gas} ->1 H2SO4_{\lqdd} \\
+\(\enthalpy(f){813.8}\)
+\end{reactions*}
+\end{Box2}
+#+end_export
+
+
+
+
+* Entalpia de reação (\(\Delta\)H\(_{r}\) )
+
+Sendo uma reação química representada de forma genérica por: 
+
+#+begin_export latex
+\begin{reactions*}
+a A   +  b B   -> &      c C + d D \\
+\; (Reagentes)     & \; \;         (Produtos)
+\end{reactions*}
+#+end_export
+
+é a variação de entalpia de reação  \(\Delta\)H\(_r\) é a diferença entre a entalpia final (soma das entalpias padrão de formação dos produtos) e a entalpia inicial (soma das entalpias padrão de formação dos reagentes).
+
+
+#+begin_export latex
+\begin{equation}
+\Delta \mathrm{H}_{reac} = \sum \mathrm{H_{(produtos)}} – \sum \mathrm{H_{(reagentes)}}
+\end{equation}
+#+end_export
+
+#+begin_export latex
+\begin{Box2}{Exemplo}
+Dada  a reação química balanceada
+\begin{reactions*}
+C2H2_{\gas} + 5/2 O2_{\gas} ->  2CO2_{\gas} + H2O_{\lqdd}
+\end{reactions*}
+E sabendo-se as entalpias padrão de formação das substâncias.
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+\rowcolor[HTML]{C0C0C0} 
+Substâncias & \(\Delta\)H\(_f^0\) (kcal/mol) \\ \hline
+\ch{CO2_{\gas}}      & -94,10          \\ \hline
+\ch{H2O_{\lqdd}}      & -68,30          \\ \hline
+\ch{C2H2_{\gas}}     & +54,20          \\ \hline
+\end{tabular}
+\end{center}
+Calcule o a variação da entalpia da reação.
+\begin{align*}
+\small
+\Delta \mathrm{H_r} = &  \mathrm{H_{(produtos)} – H_{(reagentes)}} & \\
+\Delta \mathrm{H_r} = & [2 \cdot \Delta H^0_{f\ch{CO2\gas}}   +   1 \cdot \Delta H^0_{f\ch{H2O}} ) ] \\
+& – (1 \cdot \Delta H^0_{f\ch{C2H2\gas}} )\\
+\Delta \mathrm{H_r} = &  ( 2 \cdot - 94,10  + 1 \cdot  - 68,30)  -  (1 \cdot + 54,20) & \\
+\Delta \mathrm{H_r} = &  ( -188,20 - 68,30)  -  (+54,20) \\
+\Delta \mathrm{H_r} =&  - 188,20  -  68,30 -  54,20 \\ 
+\Delta \mathrm{H_r}  = & -  310,7\  \text{kcal}
+\end{align*}
+
+\end{Box2}
+#+end_export
+
+
+* Exercícios
+
+
+#+begin_exercise
+O benzeno sofre reação de combustão segundo a equação balanceada
+
+#+begin_export latex
+\begin{reaction*}
+C6H6_{\lqdd} + 15/2 O2_{\gas} -> 6 CO2_{\gas} + 3 H2O_{\lqdd}
+\end{reaction*}
+#+end_export
+
+#+ATTR_LATEX: :environment tabular :align |c|c|
+|------------------------------+------------------------------|
+| Substâncias                  | \(\Delta\)H\(^0_f\) (KJ/mol) |
+|------------------------------+------------------------------|
+| @@latex: \ch{C6H6_{\lqdd}}@@ |                          +50 |
+|------------------------------+------------------------------|
+| @@latex: \ch{CO2_{\gas}} @@  |                         -394 |
+|------------------------------+------------------------------|
+| @@latex: \ch{H2O_{\lqdd}}@@  |                         -286 |
+|------------------------------+------------------------------|
+
+A tabela apresenta os valores de entalpia de formação de algumas substâncias nas condições padrão. A entalpia de combustão completa do benzeno, em k J/mol é?
+#+end_exercise
+
+
+#+begin_exercise
+Sendo o \(\Delta\)H de formação do óxido de cobre II igual a –37,6 kcal/mol e o \(\Delta\)H de formação do óxido de cobre I igual a – 40,4 kcal/mol, o \(\Delta\) H da reação:
+
+#+LATEX: \ch{Cu2O_{\sld} +  1/2 O2_{\gas} -> 2 CuO_{\sld}}
+
+será:
+
+#+begin_export latex
+\begin{choice}(2)
+    \choice \(-34,8\) kcal
+    \choice \(-115,6\) kcal
+   \choice \(-5,6\) kcal 
+   \choice \(+115,6\) kcal
+   \choice \(+34,8\) kcal
+\end{choice}
+#+end_export
+
+#+end_exercise
+
+
+
+
+* Classificação das reações
+
+  As reações e transformações quanto a entalpia são classificadas em *endotérmicas* e *exotérmicas*.
+
+** Reações  Exotérmicas 
+Nas reações exotérmicas, ocorre liberação de calor (o sistema esquenta), a entalpia dos produtos (\(\mathrm{H_P}\)) é menor do que a entalpia dos reagentes (\(\mathrm{H_R}\)) e o  *\(\Delta\)H=(–)*. De outra forma podemos concluir que a reação caminha de um estado de maior de energia a para um de menor energia, logo, o excesso é liberado.
+
+Genericamente, temos:
+Sendo a reação química representada de forma por: 
+#+begin_export latex
+\begin{reactions*}
+a A   +  b B   -> &      c C + d D \\
+ (Reagentes)     & \; \;         (Produtos)
+\end{reactions*}
+
+\begin{tikzpicture}[scale=.8]
+		%% 
+		% horizontal axis
+		\draw[->] (0,0) -- (6,0) node[anchor=north] {Caminho da reação};
+		% labels
+		% vertical axis
+		\draw[->] (0,0) -- (0,5) node[anchor=east] {Entalpia (H)};
+		% nominal speed
+		\draw[thick,dashed] (2,3) -- (5.5,3);
+		\draw[thick,dashed] (0,1) -- (3,1);
+		% Us
+		%\draw[thick] (0,1) -- (2,1) -- (3,3)--(5.5,3);
+		\draw (-.45,1) node {$\mathrm{H_{prod.}}$};
+		\draw (-.45,3) node {$\mathrm{H_{reag.}}$};
+		% Psis
+		\draw[thick] (0,3) -- (2,3) -- (3,1)--(5.5,1);
+		\draw[blue] (0.95,3.3) node {aA + bB}; %label
+		\draw[blue] (4,1.3) node {cC + dD}; %label
+		\draw[->,red] (1.7,3)--(1.7,1); 
+		\draw[red](0.9,2) node {$\Delta$H < 0};
+		\draw[blue](3,4.5) node {\ch{aA + bB ->cC + dD} $\Delta$H < 0};	
+\end{tikzpicture}
+#+end_export
+
+
+** Reações  Endotérmicas
+Nas reações endotérmicas, ocorre *absorção* de calor (o sistema *esfria*), a entalpia dos produtos (\(\mathrm{H_p}\)) é *maior* do que a entalpia dos reagentes (\(\mathrm{H_r}\)) e o  *\(\Delta\)H = ( + )*. De outra forma podemos concluir que a reação caminha de um estado de menor de energia a para um de maior energia, logo, a diferença que falta de energia é absorvido.
+
+#+begin_export latex
+\begin{tikzpicture}[scale=.8]
+	%% 
+	% horizontal axis
+	\draw[->] (0,0) -- (6,0) node[anchor=north] {Caminho da reação};
+	% labels
+	% vertical axis
+	\draw[->] (0,0) -- (0,5) node[anchor=east] {Entalpia (H)};
+	% nominal speed
+	\draw[thick,dashed] (0,3) -- (3,3);
+	\draw[thick,dashed] (2,1) -- (5.5,1);
+	% Us
+	\draw[thick] (0,1) -- (2,1) -- (3,3)--(5.5,3);
+	\draw (-.45,1) node {$\mathrm{H_{reag.}}$};
+	\draw (-.45,3) node {$\mathrm{H_{prod.}}$};
+	% Psis
+%	\draw[thick] (0,3) -- (2,3) -- (3,1)--(5.5,1);
+	\draw[blue] (0.95,1.3) node {aA + bB}; %label
+	\draw[blue] (4,3.3) node {cC + dD}; %label
+	\draw[->,red] (4,1)--(4,3);
+	\draw[red](4.6,2) node {$\Delta$H > 0};
+	\draw[blue](3,4.5) node {\ch{aA + bB  ->cC + dD} $\Delta$H > 0};	
+\end{tikzpicture}
+
+\begin{Box2}{Exemplo}
+A combustão do álcool etílico \ch{C2H6O_{\lqdd}}
+\begin{reactions*}\small
+C2H6O_{\lqdd} + 3 O2_{\gas} → 2 CO2_{\gas} + 3 H2O_{\lqdd} \\
+\; \; \;  \(\Delta\)H = – 1368 kJ/mol
+\end{reactions*}
+O  \(\Delta\)H = -, logo, esta reação é uma {\bfseries reação exotérmica}, ou seja, libera calor.
+
+Na reação de decomposição do \ch{CaCO3_{\sld}}
+\begin{reactions*}
+\small
+CaCO3_{\sld} -> CaO_{\sld} + CO2_{\gas} \; \(\Delta\)H= + 177,5 kJ/mol
+\end{reactions*}
+O  {\bfseries \(\Delta\)H = +}, logo, esta reação é uma {\bfseries reação endotérmica}, ou seja, absorve calor.
+\end{Box2}
+#+end_export
+
+
+
+* Exercícios
+
+
+#+begin_exercise
+Reação exotérmica é aquela na qual:
+
+1 - há liberação de calor;
+2 - há diminuição de energia;
+3 - a entalpia dos reagentes é maior que a dos produtos;
+4 - a variação de entalpia é negativa.
+
+Estão corretos os seguintes complementos:
+
+#+begin_export latex
+\begin{choice}(2)
+    \choice somente 1
+    \choice somente 2 e 4
+   \choice somente 1 e 3
+   \choice somente 1 e 4
+   \choice 1, 2, 3 e 4
+\end{choice}
+#+end_export
+
+
+#+end_exercise
+
+#+begin_exercise
+O metano é um poluente atmosférico e sua combustão completa é descrita pela equação química balanceada e pode ser esquematizada pelo diagrama abaixo.
+
+#+begin_export latex
+\begin{endiagram}[
+tikz         = {xscale=2.0}, scale        = 0.8,
+y-label-offset=25pt,
+y-label-text = Entalpia (kJ/mol),
+x-label      = below,        x-label-text = progresso da reação,]
+\ENcurve{5,8,0}
+\AddAxisLabel{(N1-1)[965];(N1-2)[1215];(N1-3)[75]}
+\ShowNiveaus[niveau=N1-1,shift=-0.5]
+\ShowNiveaus[niveau=N1-3,shift=.5]
+\draw[above left] (N1-1) ++ (0.3,0) node {\scriptsize \ch{CH4 + 2 O2} } ;
+\draw[above] (N1-3) ++ (.8,0) node {\scriptsize\ch{CO2 + 2 H2O} } ;
+\end{endiagram}
+#+end_export
+
+Sobre este processo químico, podemos afirmar que:
+
+#+begin_export latex
+
+\begin{choice}(1)
+\choice a variação de entalpia é – 890 kJ/mol, e portanto é exotérmico.
+\choice a entalpia de ativação é – 1140 kJ/mol.
+\choice a variação de entalpia é – 1140 kJ/mol, e portanto é endotérmico.
+\choice a entalpia de ativação é 890 kJ/mol.
+\choice a entalpia de ativação é – 890 kJ/mol.
+\end{choice}
+#+end_export
+#+end_exercise 
+
+
+
+* Lei de Hess
+
+Em 1849, o químico Germain Henri Hess, efetuando inúmeras medidas dos calores de reação, verificou que: O calor liberado ou absorvido numa reação química independe dos estados intermediários pelos quais a reação passa, depende somente do estado inicial e final. Esta é a lei da atividade dos calores de reação ou lei de Hess. De acordo com essa lei é possível calcular a variação de entalpia de uma reação através da soma algébrica de equações químicas que possuam variação de entalpia conhecida. 
+
+Antes de iniciarmos com exemplos de aplicação, devemos lembrar de alguns fundamentos:
+
+*1º - INVERSÃO*
+
+inverter uma reação termoquímica é passar os reagentes para o lugar dos produtos e os produtos para o lugar dos reagentes. A conseqüência é a inversão do sinal da entalpia
+
+
+#+begin_export latex
+\begin{Box2}{Exemplo}
+\begin{reactions*}\small
+CH4_{\gas} + 2 O2_{\gas} -> CO2_{\gas} + 2 H2O_{\lqdd} \\
+\(\Delta\) H = - 212,9 kcal/mol\intertext{Invertida}
+CO2_{\gas} + 2 H2O_{\lqdd}  -> CH4_{\gas} + 2 O2_{\gas} \\   \(\Delta\) H = + 212,9 kcal/mol
+\end{reactions*}
+\end{Box2}
+#+end_export
+
+Por exemplo, a partir das equações:
+
+*2º - PRODUTO E DIVISÃO*
+
+Quando uma reação é multiplicada ou dividida por um determinado valor, a variação de entalpia também será multiplicada ou dividida por este valor
+
+#+begin_export latex
+\begin{Box2}{Exemplo}
+\begin{reactions*}
+CO2_{\gas} + 2 H2O_{\lqdd}  -> CH4_{\gas} + 2O2_{\gas}  \\
+∆H = + 212,9 kcal/mol \intertext{Multiplicada por 2.}
+2 CO2_{\gas} + 4 H2O_{\lqdd} -> 2 CH4_{\gas} + 4O2_{\gas} \\
+\(\Delta\)H = + 425,8 kcal/mol
+\end{reactions*}
+\end{Box2}
+#+end_export
+
+*3º - SOMA*
+
+Duas ou mais equações químicas podem ser somadas, para tal devemos observar a posição das substâncias em relação aos produtos e reagentes. Quando as substancias estão do mesmo lado da reação, elas serão somadas. Quando em lados oposto serão subtraídas. 
+
+#+begin_export latex
+\begin{Box2}{Exemplo}
+\small
+\begin{align*}
+\mathbf{Eq~1} &\quad \ch{NaOH + H3PO4 -> \cancel{NaH2PO4} + H2O} \\
+\mathbf{Eq~2} &\quad  \ch{\cancel{NaH2PO4} + 2 NaOH -> Na3PO4 + H2O} \\ \cline{2-2}
+\mathbf{Soma} & \quad \ch{3 NaOH + H3PO4 -> Na3PO4 + 3 H2O}
+\end{align*}
+\end{Box2}
+#+end_export
+
+observe que o NaOH aparece tanto na equação 1 quanto na equação 2 nos reagentes, portanto será somado. observe que a @@latex: \ch{H2O}@@ aparece tanto na equação 1 quanto na equação 2 nos produtos, portanto será somado. observe que o @@latex: \ch{NaH2PO4}@@ aparece na equação 1 como produto e na equação 2 como reagente, portanto será subtraído
+
+#+begin_export latex
+\begin{figure*}
+%\begin{Box2}{Exemplo de aplicação}
+%\scriptsize
+Considere a equação:
+\begin{reactions*}
+2 C_{\gr} + 3 H2_{\gas} + 1/2 O2_{\gas} -> C2H6O_{\lqdd} & \;\; \(\Delta\)H = ?
+\end{reactions*}
+
+Determine o valor do \(\Delta\)H dessa reação a partir de outras três equações:
+
+\begin{reactions}
+ 1 C_{\gr} + 1 O2_{\gas} -> 1 CO2_{\gas}&\;\; \(\enthalpy{-394}\) \\
+ H2_{\gas} + 1/2 O2_{\gas}-> 1 H2O_{\lqdd} & \;\; \(\enthalpy{-286}\)\\
+ 1 C2H6O_{\lqdd} + 3 O2_{\gas} -> 2 CO2_{\gas} + 3 H2O_{\lqdd} & \;\; \(\enthalpy{-1368}\)
+\end{reactions}
+
+Vamos trabalhar com as equações 1, 2 e 3, de modo que a soma delas nos permita obter a equação termoquímica de formação do álcool comum. Para isso devemos:
+
+\begin{enumerate}[label=\bfseries\alph*)]
+\item ter 2 mol de \ch{C_{\gr}} no lado dos reagentes, o que se obtém multiplicando-se a Eq 1 por 2:
+\begin{reactions*}
+2 C_{\gr} + 2 O2_{\gas} -> 2 CO2_{\gas} &\;\; \(\enthalpy{-788}\)
+\end{reactions*}
+\item ter 3 mol de \ch{H2_{\gas}} no lado dos reagentes, o que se obtém multiplicando-se a Eq 2 por 3:
+\begin{reactions*}
+2 H2_{\gas} + 3/2 O2_{\gas} -> 3 H2O_{\lqdd} &\;\; \(\enthalpy{-858}\)
+\end{reactions*}
+\item  ter 1 mol de álcool comum [1 \ch{C2H6O_{\lqdd}}] no lado dos produtos, o que se obtém invertendo-se a equação 3:
+\begin{reactions*}
+2 CO2_{\gas} + 3 H2O_{\lqdd} -> 1 C2H6O_{\lqdd} + 3 O2_{\gas} & \;\; \(\enthalpy{1368}\)
+\end{reactions*}
+\end{enumerate}
+
+Somando essas três equações, agora devidamente adaptadas, obteremos a equação desejada e, também, o valor de \(\Delta\)H para a formação do  \ch{C2H6O}
+
+\begin{align*}
+\mathbf{Eq 1} & \quad \ch{2 C_{\gr} + 2 O2_{\gas} ->} \cancel{\ch{2 CO2_{\gas}}}  & \quad \enthalpy{-788}\\
+\mathbf{Eq 2} & \quad \ch{3 H2_{\gas} + 3/2 O2_{\gas} ->} \cancel{\ch{3 H2O_{\lqdd}}}  & \quad \enthalpy{-858}\\
+\mathbf{Eq 3} & \quad \cancel{\ch{2 CO2_{\gas}}} + \cancel{\ch{3 H2O_{\lqdd}}} \ch{-> 1 C2H6O_{\lqdd} + 3 O2_{\gas}}  & \quad \enthalpy{1368} \\ \cline{2-3}
+\mathbf{soma} &\quad  \ch{2 C_{\gr} + 3 H2_{\gas} +} 1/2 \ch{O2_{\gas} -> C2H6O_{\lqdd}} & \quad \enthalpy{-278}
+\end{align*}
+
+
+\end{figure*}
+#+end_export

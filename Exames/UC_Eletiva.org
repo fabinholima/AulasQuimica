@@ -1,0 +1,122 @@
+
+* Exame de Química
+  :PROPERTIES:  
+  :UNNUMBERED: t  
+  :END:
+
+
+#+begin_questions
+#+begin_exercise
+*(2,5)* No trecho da canção *Patriota Comunista* do compositor /Gabriel O Pensador/
+
+#+begin_verse
+/Sou só mais um dos milhões de indivíduos
+Tão divididos na morte e na vida/
+/Somos devotos dos santos bandidos
+Briga de votos, parece torcida/
+ 
+/Gritos de mito e de genocida
+Almoço grátis com merda no prato/
+/Toda verdade será distorcida
+Todo poder pro capitão do mato/
+#+end_verse
+
+No trecho da primeiro verso ser refere ao qual evento ocorrido na humanidade
+
+#+begin_choice
+\choice Primeira gerra mundial
+\choice Guerra do Golfo
+\choice \answer{Pandemia COVID-19}
+\choice Queda do ditador Maduro na Venezuela
+#+end_choice
+
+#+end_exercise
+
+#+begin_exercise
+*(2,5)* Em relação aos versos da questão anterior no segundo verso podemos analisar que a referência ao genocida é?
+
+#+begin_choice
+\choice \answer{Jair Bolsonaro}
+\choice Maduro
+\choice Donald Trump
+\choice Sadam Hussein
+#+end_choice
+
+#+end_exercise
+
+
+#+begin_exercise
+
+*(2,5)* Leia o texto a seguir da composição da banda *Iron Maiden* /Alexander the Great/ 
+
+#+begin_verse
+/At the age of nineteen, he became the Macedon king/
+/And he swore to free all of Asia Minor/
+/By the Aegian Sea in 334 BC/
+/He utterly beat the armies of Persia/
+
+[...]
+
+/The battle weary marching side by side/
+/Alexander's army line by line
+/They wouldn't follow him to India/
+/Tired of the combat, pain and the glory/
+
+/Alexander the Great
+/His name struck fear into hearts of men/
+/Alexander the Great
+He died of fever in Babylon/
+#+end_verse
+
+De acordo com o texto Alexander the Great foi rei de qual nação?
+
+#+begin_choice
+\choice Brasil
+\choice China
+\choice Mongol
+\choice \answer{Macedônia}
+#+end_choice
+
+#+end_exercise
+
+#+begin_exercise
+
+*(2,5)* No versos da questão anterior qual foi a causa da morte de *Alexander the Great*?
+
+#+begin_choice
+\choice Morto em batalha
+\choice Assassinado
+\choice \answer{Febre}
+\choice Morte natural 
+#+end_choice
+
+#+end_exercise
+
+#+begin_exercise
+
+*(2,5)* /Rubin Carter, conhecido como Hurricane foi um boxeador peso médio norte-americano no período entre 1961 e 1966, conhecido por travar uma longa disputa judicial após ser preso por assassinato. Em junho de 1966, Rubin "Hurricane" Carter (Denzel Washington) era um forte candidato ao título mundial de boxe. Entretanto, os sonhos de Carter vão por água abaixo quando três pessoas são assassinadas num bar em Nova Jersey. Indo para casa em seu carro e passando perto do local do crime, Carter é erroneamente preso como um dos assassinos e condenado à prisão perpétua. Anos mais tarde, Carter publica um memorial, chamado "The 16th round", em que conta todo o caso. O livro inspira um adolescente do Brooklyn e três ativistas canadenses a juntarem forças com Carter para lutar por sua inocência./
+
+
+Baseado nessa descrição a  composição *Hurricane* foi composta baseada nessa história real  por?
+
+#+begin_choice
+\choice James Ronie Dio
+\choice \answer{Bob Dylan}
+\choice Renato Russo
+\choice João Gomes
+#+end_choice
+
+#+end_exercise
+
+#+end_questions
+
+
+
+
+#+BEGIN_COMMENT
+#+begin_export latex
+\section*{Gabarito}
+\getanswers
+#+end_export
+#+END_COMMENT
+ 

@@ -1,0 +1,134 @@
+#+LATEX_HEADER: \DeclareExerciseCollection{RP3Ano}
+
+
+\collectexercises{RP3Ano}
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Os hidrocarbonetos são compostos químicos formados por átomos de:
+
+#+begin_choice
+\choice Carbono e hidrogênio.
+\choice Carbono e oxigênio.
+\choice Carbono e nitrogênio.
+\choice Carbono e enxofre.
+#+end_choice 
+#+end_exercise 
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise    
+Qual é o tipo mais simples de hidrocarboneto, composto por apenas um átomo de carbono e dois átomos de hidrogênio?
+
+#+begin_choice
+\choice Alcano
+\choice Alceno
+\choice Alcino
+\choice Metano
+#+end_choice 
+#+end_exercise 
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise    
+Qual é o nome do hidrocarboneto de fórmula molecular @@latex: \ch{C6H6}@@?
+
+#+begin_choice
+\choice Metano
+\choice Etano
+\choice Benzeno
+\choice Propeno
+#+end_choice 
+#+end_exercise 
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise    
+Qual é o nome do hidrocarboneto de fórmula @@latex: \ch{C2H6}@@?
+
+#+begin_choice
+\choice Propano
+\choice Etano
+\choice Metano
+\choice Butano
+#+end_choice 
+#+end_exercise 
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise    
+Qual é a fórmula geral dos alcanos?
+
+#+begin_export latex
+\begin{choice}
+\choice \ch{C_nH_{2n+2}}
+\choice \ch{C_nH_{2n}}
+\choice \ch{C_nH_{2n-2}}
+\choice \ch{C_nH_{2n-4}}
+\end{choice}
+#+end_export
+#+end_exercise 
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise    
+Os alcanos são caracterizados por apresentarem:
+#+begin_choice
+\choice Pelo menos uma ligação dupla entre átomos de carbono.
+\choice Pelo menos uma ligação tripla entre átomos de carbono.
+\choice Apenas ligações simples entre átomos de carbono.
+\choice Apenas ligações aromáticas entre átomos de carbono.
+ #+end_choice    
+#+end_exercise 
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise    
+Qual é o nome do hidrocarboneto de fórmula @@latex: \ch{C2H4} @@?
+#+begin_choice
+\choice Propeno
+\choice Metano
+\choice Etano
+\choice Butano
+#+end_choice     
+#+end_exercise 
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise    
+Os hidrocarbonetos aromáticos são caracterizados por conterem:
+
+#+begin_choice
+\choice Uma cadeia carbônica ramificada.
+\choice Uma ligação tripla entre átomos de carbono.
+\choice Anéis de átomos de carbono ligados por ligações duplas alternadas.
+\choice Uma ligação dupla entre átomos de carbono.
+#+end_choice 
+    
+#+end_exercise 
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise    
+Qual é o nome do hidrocarboneto de fórmula @@latex: \ch{C4H10} @@?
+#+begin_choice
+\choice Propano
+\choice Etano
+\choice Metano
+\choice Butano
+#+end_choice     
+#+end_exercise 
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise    
+Qual é o nome do hidrocarboneto de fórmula @@latex: \ch{C3H8}@@?
+#+begin_choice
+\choice Propano
+\choice Etano
+\choice Metano
+\choice Butano
+#+end_choice    
+#+end_exercise 
+
+ \collectexercisesstop{RP3Ano}

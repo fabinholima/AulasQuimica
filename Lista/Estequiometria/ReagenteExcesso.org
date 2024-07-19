@@ -1,0 +1,87 @@
+#+begin_comment
+Reagente Excesso 
+#+end_comment
+
+
+#+begin_exercise
+O processo a seguir é um dos que ocorrem nos catalisadores dos carros:
+#+begin_export latex
+\begin{reaction*}
+ CO (tóxico) + 1/2 O2 -> CO2 (não-tóxico)
+ \end{reaction*}
+#+end_export
+Determine o número de moléculas de \ch{CO2} formadas na reação entre 2 mol de CO e 2 mol de \ch{O2}.
+
+
+#+end_exercise
+
+
+#+begin_exercise
+No processo \ch{SO2 + 1/2 O2 -> SO3} determine o excesso de reagente na reação entre 4 mol de \ch{SO2} e 4 mol de \ch{O2}
+#+end_exercise
+
+
+
+
+#+begin_exercise
+Na combustão incompleta da grafita, ocorre:
+#+begin_export latex
+\begin{reaction*}
+C + 1/2 O2 -> CO
+\end{reaction*}
+#+end_export
+Determine o excesso de reagente na reação entre 32 g de carbono e 32 g de oxigênio.
+(Dadas as massas molares em g/mol: C = 12; O2 = 32).
+#+end_exercise
+
+
+
+
+#+begin_exercise
+Na neutralização entre hidróxido de sódio e ácido clorídrico pode ocorrer o processo:
+#+begin_export latex
+\begin{reaction*}
+NaOH + HC$\ell$ -> NaC$\ell$ + H2O
+\end{reaction*}
+#+end_export
+No caso de uma mistura de 5 mol de cada reagente:
+
+#+begin_choice
+\choice haverá excesso de reagente?
+
+\choice Determine a massa de NaC$\ell$ produzida.
+(Dada a massa molar do NaC$\ell$ = 58,5 g/mol).
+#+end_choice
+#+end_exercise
+
+
+
+
+#+begin_exercise
+A amônia, largamente utilizada na indústria de adubos, pode ser produzida pelo método Haber:
+
+#+begin_export latex
+\begin{reaction*}
+N2 + 3 H2 -> 2 NH3
+\end{reaction*}
+#+end_export
+Caso sejam utilizados $6 \cdot  10^4$ mol de cada reagente, determine: a) o reagente limitante. b) a quantidade, em mol, de amônia obtida.
+#+end_exercise
+
+
+
+
+#+begin_exercise
+A reação de fotossíntese pode ser assim equacionada:
+
+#+begin_export latex
+\begin{reaction*}
+6 CO2 + 6 H2O -> C6H12O6 + 6 O2
+\end{reaction*}
+#+end_export
+
+Determine a massa de glicose obtida a partir de 13,2 g de \ch{CO2} e 10,0 g de água.
+(Dadas as massas molares em g/mol: \ch{CO2} = 44; H2O = 18; \ch{C6H12O6} = 180).
+#+end_exercise
+#+begin_solution
+#+end_solution 

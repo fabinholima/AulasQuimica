@@ -1,0 +1,315 @@
+#+LATEX_HEADER: \DeclareExerciseCollection{Nox}
+#+LATEX_HEADER: \DeclareExerciseCollection{OxidoReducao}
+
+
+
+#+BEGIN_COMMENT
+================= Nox Exercicios ===================
+
+#+END_COMMENT
+
+
+
+
+\collectexercises{Nox}
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise 
+O nitrogênio pode existir na natureza em vários estados de oxidação. Em sistemas aquáticos, os compostos que predominam e que são importantes para a qualidade da água apresentam o nitrogênio com números de oxidação -3, 0, +3 ou +5. Assinale a alternativa que apresenta as espécies contendo nitrogênio com os respectivos números de oxidação, na ordem descrita no texto.
+#+begin_export latex
+\begin{choice}
+\choice \ch{NH3}, \ch{N2}, \ch{NO2^-} ,\ch{NO3^-} .
+\choice \ch{NO^2-} , \ch{NO3^–} , \ch{NH3}, \ch{N2}.
+\choice \ch{NO^3-} , \ch{NH3}, \ch{N2}, \ch{NO2^-} .
+\choice \ch{NO^2-} , \ch{NH3}, \ch{N2}, \ch{NO3^-} .
+\choice \ch{NH3}, \ch{N2}, \ch{NO3^-} , \ch{NO3^–} .
+\end{choice}
+#+end_export
+#+end_exercise
+#+begin_solution
+E
+#+end_solution
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+O número de oxidação do átomo de carbono nas estruturas \ch{CH4}, HCHO e \ch{CO3^2-} é, respectivamente,
+#+ATTR_LATEX: :options (2)
+#+begin_choice 
+\choice +4 0 -4
+\choice -4 0 +4
+\choice 0 +4 -4
+\choice -4 -4 0
+\choice +4 +4 -4
+#+end_choice 
+#+end_exercise
+#+begin_solution
+B
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+Um anti-séptico bucal contendo peróxido de zinco – \ch{ZnO2}, suspenso em água é efetivo no tratamento de infecções orais causadas por microorganismos. Indique o número de oxidação do zinco nesta substância.
+
+
+#+ATTR_LATEX: :options (2) 
+#+begin_choice 
+\choice -2
+\choice -1
+\choice +1
+\choice +2
+\choice +4
+#+end_choice
+#+end_exercise
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise 
+Nas substâncias \ch{CO2}, \ch{KMnO4}, \ch{H2SO4}, os números de oxidação do carbono, manganês e enxofre são, respectivamente,
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice 
+\choice  +4, +7, +6.
+\choice +3, +7, +6.
+\choice  +4, +6, +6.
+\choice +3, +7, +4.
+\choice +4, +7, +5.
+#+end_choice
+#+end_exercise
+#+begin_solution
+A
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+No ânion tetraborato, \ch{B4O7^2-}, o número de oxidação do boro é igual a
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 2.
+\choice 3.
+\choice 4.
+\choice 5.
+\choice 7.
+#+end_choice 
+#+end_exercise 
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Os números de oxidação do Boro, Iodo e Enxofre nas espécies químicas \ch{H2BO3}, \ch{IO4} e \ch{HSO4^–}  são, respectivamente:
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice  +4, +8, +7
+\choice  +3, +7, +8
+\choice  +3, +7, +6
+\choice  +4, +8, +6
+\choice  +2, +6, +5
+#+end_choice
+#+end_exercise
+#+begin_solution
+D
+#+end_solution
+
+
+\collectexercisesstop{Nox}
+
+
+
+#+begin_comment
+=============== REACAO REDOX ======================
+#+end_comment
+
+
+ \collectexercises{OxidoReducao}
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+O bafômetro é um aparelho utilizado para medir a quantidade de álcool etílico na corrente sanguínea. A quantidade de álcool presente no ar expirado é proporcional  à quantidade de álcool presente no sangue. Os bafômetros mais modernos funcionam com pilhas de combustível, e a corrente elétrica é proporcional à quantidade de álcool que reage. As reações estão representadas pelas equações:
+
+#+begin_export latex
+\begin{reactions}
+C2H6O + 4 OH^- -> C2H4O2 + 3 H2O + 4 e^-\\
+O2 + 2 H2O + 4 e^- -> 4 OH–
+\end{reactions}
+#+end_export
+
+Em relação às reações que ocorrem no bafômetro, é correto afirmar que:
+#+begin_choice 
+\choice o oxigênio reage no ânodo.
+\choice o álcool é o agente redutor.
+\choice o álcool reage no polo positivo.
+\choice a redução ocorre no polo negativo.
+\choice o ﬂuxo de elétrons é do cátodo para o ânodo.
+#+end_choice 
+#+end_exercise 
+#+begin_solution
+B
+#+end_solution
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Considere as reações químicas representadas pelas equações a seguir:
+
+#+ATTR_LATEX: :options [label=\Roman*]
+1. \ch{H3CCHCH2 + HI ->  H3CCHICH3}
+2. \ch{H3CCOOH + NaOH -> H3CCOONa + H2O}
+3. \ch{LiA$\ell$H4 + 4 (H3C)2CO + 4 H2O -> 4 (H3C)2CHOH + LiOH + A$\ell$(OH)3}
+4. \ch{C6H6ONa + CH3CH2C$\ell$ -> C6H6OCH2CH3 + NaC$\ell$}
+5. \ch{H3CCH2OH + HC$\ell$  ->  H3CCH2C$\ell$ + H2O}
+
+Assinale a opção que apresenta as equações químicas que configuram reações de oxidorredução.
+
+#+begin_choice
+\choice  Apenas I e II.
+\choice  Apenas I e III.
+\choice Apenas II e IV.
+\choice Apenas III e IV.
+\choice Apenas V.
+#+end_choice
+#+end_exercise
+#+begin_solution
+B
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+A cebola, por conter derivados de enxofre, pode escurecer talheres de prata. Este fenômeno pode ser representado pela equação:
+
+#+begin_export latex
+\begin{reaction*}
+4 Ag_{\sld} + 2 H2S_{\gas} + O2_{\gas} -> 2 Ag2S_{\sld} + 2 H2O_{\lqdd}
+\end{reaction*}
+#+end_export
+
+A respeito deste fato, pode-se afirmar que:
+#+begin_choice 
+\choice A prata sofre redução.
+\choice A prata é o agente redutor.
+\choice O oxigênio sofre oxidação.
+\choice O \ch{H2S} é o agente oxidante.
+\choice O enxofre sofre redução.
+#+end_choice 
+#+end_exercise
+#+begin_solution
+B
+#+end_solution
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Em relação à equação de oxidação-redução balanceada:
+
+#+begin_export latex
+\begin{reaction*}
+2 Fe + 3 CuSO4 -> Fe2(SO4)3 + 3 Cu
+\end{reaction*}
+#+end_export
+
+
+Pode-se afirmar que o:
+#+begin_choice
+\choice Número de oxidação do cobre no sulfato cúprico é + 1.
+\choice Átomo de ferro perde dois elétrons.
+\choice Cobre sofre oxidação.
+\choice Ferro é o agente oxidante.
+\choice Ferro sofre oxidação.
+#+end_choice
+#+end_exercise
+#+begin_solution
+E
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+Na reação iônica:
+
+#+begin_export latex
+\begin{reaction*}
+Ni_{\sld} + Cu^{2+}_{\aq} -> Ni^{2+}_{\aq} + Cu_{\sld}
+\end{reaction*}
+#+end_export
+
+#+begin_choice 
+\choice O níquel é o oxidante porque ele é oxidado.
+\choice O níquel é o redutor porque ele é oxidado.
+\choice O íon cúprico é o oxidante porque ele é oxidado.
+\choice O íon cúprico é o redutor porque ele é reduzido.
+\choice Não se trata de uma reação de redox, logo não há oxidante e nem redutor.
+#+end_choice
+#+end_exercise
+#+begin_solution
+B
+#+end_solution
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+ Observe a reação:
+ #+begin_export latex
+ \begin{reaction*}
+SnC$\ell$2 +  2 HC$\ell$ + H2O2 -> SnC$\ell$ +  2H2O
+\end{reaction*}
+ #+end_export 
+
+A partir dela, podemos afirmar corretamente que o:
+
+#+ATTR_LATEX: :options (1)
+#+begin_choice
+\choice  Sn e o C$\ell$ sofrem oxidação.
+\choice Sn sofre oxidação, e o O, redução.
+\choice  Sn sofre oxidação, e o HC$\ell$ redução.
+\choice \ch{H2O2} sofre redução, e o C$\ell$ oxidação.
+\choice  \ch{H2O2} sofre oxidação, e o Sn, redução.
+#+end_choice 
+#+end_exercise
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+Assinale a alternativa que apresenta uma reação que pode ser caracterizada como
+processo de oxidação-redução.
+#+begin_export latex
+\begin{choice}
+\choice  \ch{Ba^2+ + SO4^{2-} -> BaSO4}
+\choice \ch{H^+{}  + OH^- ->  H2O}
+\choice \ch{AgNO3 +  KC$\ell$ ->  AgC$\ell$ +  KNO3}
+\choice \ch{PC$\ell$5 -> PC$\ell$3 + C$\ell$2 }
+\choice \ch{2 NO2 -> N2O4}
+\end{choice}
+#+end_export
+#+end_exercise
+#+begin_solution
+D
+#+end_solution 
+
+
+
+
+
+
+
+
+
+ \collectexercisesstop{OxidoReducao}
+

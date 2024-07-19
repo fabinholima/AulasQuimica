@@ -1,0 +1,257 @@
+
+
+
+#+LATEX:
+
+*  Tipos de Dipersão
+
+Toda mistura é chamada de dispersão. Existem três tipos de dispersões: soluções (abaixo de 1 nm), dispersões colidais (entre 1 a 1000 nm) e suspensões (acima de 1000nm).
+
+#+begin_export latex
+\smartdiagram[constellation diagram]{Tipos de Dispersões, Solução,  
+		Dispersão Coloidal, Supensões} 
+#+end_export
+
+
+
+Porém, esses dois componentes podem apresentar diferentes quantidades e características. Como resultado, existem diversos tipos de soluções e cada uma delas baseia-se em uma determinada condição.
+
+
+#+begin_export latex
+	\tikzset{
+		basic/.style  = {draw, text width=2cm, drop shadow, font=\sffamily, rectangle},
+		root/.style   = {basic, rounded corners=2pt, thin, align=center,
+			fill=green!30},
+		level 2/.style = {basic, rounded corners=6pt, thin,align=center, fill=green!60,
+			text width=8em},
+		level 3/.style = {basic, thin, align=left, fill=pink!60, text width=6.5em}
+	}
+	
+	\begin{tikzpicture}[
+		level 1/.style={sibling distance=40mm},
+		edge from parent/.style={->,draw},
+		>=latex]
+		
+		% root of the the initial tree, level 1
+		\node[root] {Soluções}
+		% The first level, as children of the initial tree
+		child {node[level 2] (c1) {Estado físico da solução}}
+		child {node[level 2] (c2) {Estados físicos do soluto e solvente}}
+		child {node[level 2] (c3) {Natureza do soluto}};
+		
+		% The second level, relatively positioned nodes
+		\begin{scope}[every node/.style={level 3}]
+			\node [below of = c1, xshift=15pt] (c11) {Sólida };
+			\node [below of = c11] (c12) {Líquida};
+			\node [below of = c12] (c13) {Gasosa};
+			
+			\node [below of = c2, xshift=10pt] (c21) {Sólido-Sólido};
+			\node [below of = c21] (c22) {Líquido-Líquido};
+			\node [below of = c22] (c23) {Sólido-Líquido};
+			\node [below of = c23] (c24) {Gás-Líquido};
+			\node [below of = c24] (c25) {Gás-Gás};
+			
+			\node [below of = c3, xshift=20pt] (c31) {Molecular};
+			\node [below of = c31] (c32) {Iônica};
+		\end{scope}
+		
+		% lines from each level 1 node to every one of its "children"
+		\foreach \value in {1,2,3}
+		\draw[->] (c1.195) |- (c1\value.west);
+		
+		\foreach \value in {1,...,5}
+		\draw[->] (c2.195) |- (c2\value.west);
+		
+		\foreach \value in {1,...,2}
+		\draw[->] (c3.195) |- (c3\value.west);
+	\end{tikzpicture}
+#+end_export
+
+
+
+
+
+* Concentração de uma solução
+
+Essas soluções são formadas pelo soluto e pelo solvente. O soluto fica disperso no solvente, se espalha nele. Ele representa a substância que ocorre em menor quantidade, e é a substância a ser dissolvida na solução.
+
+Por outro lado, o solvente é responsável pela dissolução do soluto, e encontra-se em maior quantidade na solução.
+
+A mistura entre a água e o sal, por exemplo, é uma solução. Nessa solução, a água é o solvente e o sal é o soluto. Como o soluto se dispersa completamente, forma-se uma mistura homogênea, onde apenas observamos um único aspecto da solução.
+
+[[./molari.jpg]]
+De acordo com a quantidade de cada componente, podemos ter uma solução diluída, onde temos pouco soluto em relação à quantidade de solvente. Ou uma solução concentrada, onde há maior quantidade de soluto em relação ao solvente.
+
+** Concentração comum
+
+A concentração comum é a relação entre a massa do soluto, que está dissolvido, e o volume da solução. A fórmula da concentração comum é a seguinte:
+
+#+begin_export latex
+\begin{equation}
+\mathrm{C}= \frac{m}{V}
+\end{equation}
+#+end_export
+
+Normalmente a concentração é expressa em *g/L*.
+
+@@latex: \begin{Box2}{ Exemplo} @@
+ No rotúlo do leite intergral temos 9 g de carboidratos a cada 200 mL de leite, qual a concentração comum dos corboidratos?
+
+ 200 mL= 0,2 L
+
+#+begin_export latex
+\begin{equation*}
+\mathrm{C}= \frac{9}{0,2}
+\end{equation*}
+
+\begin{equation*}
+\mathrm{C}= 45\ \text{g/L}
+\end{equation*}
+#+end_export
+
+@@latex: \end{Box2} @@
+
+** Concentração Molar
+
+A concentração em quantidade de matéria é a relação entre a quantidade de matéria do soluto, medida em mol (n), e o volume da solução em litros (V). Essa concentração é medida em mol por litro (mol/L).
+
+#+begin_export latex
+\begin{equation}
+\mathcal{M}= \frac{n}{V}
+\end{equation}
+#+end_export
+Em muitos casos, não é fornecido o valor da quantidade de matéria do soluto, mas, sim, a sua massa expressa em gramas (m). Precisamos conhecer a massa molar (MM). Lembrando que m/MM é conhecido o número de mols.
+
+
+#+begin_export latex
+\begin{equation}
+\mathcal{M}= \frac{m}{MM \cdot V}
+\end{equation}
+#+end_export
+
+#+latex: \begin{Box2}{Exemplo}
+Qual será a concentração em quantidade de matéria de uma solução que foi preparada dissolvendo-se 120 g de hidróxido de sódio em 2 L de água e obteve-se uma solução com 2 L?
+
+*Resposta:* 
+
+$m$ = 120 g
+
+v = 2 L
+
+MM (NaOH) = 40 g/mol
+
+
+#+begin_export latex
+\begin{equation*}
+\mathcal{M}= \frac{120}{40 \cdot 2}
+\end{equation*}
+\begin{equation*}
+\mathcal{M}= 1,5\ \text{mol}
+\end{equation*}
+
+#+end_export
+
+
+#+latex: \end{Box2}
+
+* Diluição das soluções
+
+A diluição de soluções corresponde à adição mais solvente em uma solução.
+
+Como resultado, passamos de uma solução mais concentrada para uma solução mais diluída.
+[[./diluicao.jpg]]
+
+#+begin_export latex
+\begin{equation}
+\mathcal{M}_1\cdot V_1 = \mathcal{M}_2\cdot V_2 
+\end{equation}
+#+end_export
+
+
+#+latex: \begin{Box2}{Exemplo}
+Ao diluir 100 mL de uma solução de concentração igual a 15g/L ao volume final de 150 mL, a nova concentração será?
+*Resposta*
+
+#+begin_export latex
+\begin{equation*}
+\mathcal{M}_1\cdot V_1 = \mathcal{M}_2\cdot V_2 
+\end{equation*}
+\begin{equation*}
+15 \cdot 100 = \mathcal{M}_2\cdot 150 
+\end{equation*}
+\begin{equation*}
+ \mathcal{M}_2 = 10\ \text{g/L} 
+\end{equation*}
+#+end_export
+
+#+latex: \end{Box2}
+
+
+* Exercícios
+
+#+begin_questions
+
+
+#+begin_exercise
+A massa dos quatro principais sais que se encontram dissolvidos em 1 litro de água do mar é igual a 30 g. Num aquário marinho, contendo $2 \times 10^6$ cm^3 dessa água, a quantidade de sais nela dissolvidos é:
+#+begin_export latex
+\begin{choice}
+\choice  $6,0 \cdot 10^1$ kg
+\choice  $6,0 \cdot  10^4$ kg
+\choice  $1,8 \cdot  10^2$ kg
+\choice  $2,4 \cdot  10^8$ kg
+\choice $8,0 \cdot  10^6$ kg
+\end{choice}
+#+end_export
+#+end_exercise
+
+
+
+#+begin_exercise
+O soro caseiro consiste em uma solução aquosa de cloreto de sódio (3,5 g/L) e de sacarose (11 g/L). As massas de cloreto de sódio e de sacarose necessárias para se preparar 500 mL de soro caseiro são, respectivamente:
+\vspace{5cm}
+#+end_exercise
+
+
+
+#+begin_exercise
+
+Um técnico necessita preparar uma solução
+aquosa de hipoclorito de sódio, \ch{NaC$\ell$O}, 0,5 mol/L,
+para o branqueamento de um tecido de algodão.
+No laboratório foram encontrados apenas 10g do
+soluto, determine o volume, em litros, de solução
+obtida com a molaridade desejada. Dado: Massa
+molar: \ch{NaC$\ell$O} = 74,5 g/mol
+\vspace{9cm}
+#+end_exercise
+
+
+#+begin_exercise
+Calcule   a   concentração   mol/L   de   uma solução aquosa que contém 19,6 g de ácido
+sulfúrico por litro de solução. (Dado: massa molar \ch{H2SO4} = 98 g/mol)
+\vspace{5cm}
+#+end_exercise
+
+
+#+begin_exercise
+Em um balão volumétrico de 500 mL foram
+colocados   9,6   g   de   \ch{MgC$\ell$2},   sendo   o   volume
+completado com \ch{H2O} destilada. Sabendo que o
+\ch{MgC$\ell$2}  foi   totalmente   dissolvido,   calcule   a
+concentração aproximada nessa solução: (Dado:
+massa molar \ch{MgC$\ell$2}  = 95 g/mol).
+\vspace{6cm}
+
+
+#+end_exercise
+
+
+#+begin_exercise
+Foram adicionados 200 mL de uma solução aquosa de glicose de concentração 60 g/L a 300 mL de uma solução de glicose de concentração 120 g/L. A concentração da solução final será:
+\vspace{3cm}
+#+end_exercise
+#+begin_exercise
+
+#+end_exercise
+#+end_questions

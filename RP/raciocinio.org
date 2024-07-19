@@ -1,0 +1,270 @@
+#+LATEX_HEADER: \DeclareExerciseCollection{Raciocinio}
+#+LATEX_HEADER: \DeclareExerciseCollection{MatemaRegrade3}
+
+\collectexercises{Raciocinio}
+
+#+ATTR_LATEX: :options [points=1.0001]
+#+begin_exercise
+Joana tem 7 figurinhas e Mário tem 19 figurinhas. Para que Joana e Mário fiquem com a mesma quantidade de figurinhas, Mário tem que dar a Joana
+
+#+begin_choice
+\choice 13 figurinhas.
+\choice 12 figurinhas.
+\choice 9 figurinhas.
+\choice 6 figurinhas.
+\choice 5 figurinhas. 
+
+#+end_choice 
+
+#+end_exercise
+
+#+begin_solution
+
+7 + 19 = 26 /2 = 13 figuras no total.
+
+Como Joana tem 7 falta *6 figurinhas*.
+
+#+end_solution
+
+
+#+ATTR_LATEX: :options [points=1.001]
+#+begin_exercise
+Em uma classe de 20 estudantes, 12 são meninas. Além disso, dos 20 estudantes, 15 gostam de Matemática.
+
+ É correto concluir que
+
+#+begin_choice 
+\choice nenhuma menina gosta de Matemática.
+\choice todas as meninas gostam de Matemática.
+\choice no máximo 7 meninas gostam de Matemática.
+\choice no mínimo 7 meninas gostam de Matemática.
+\choice exatamente 7 meninas gostam de Matemática. 
+#+end_choice 
+#+end_exercise
+
+#+begin_solution
+no mínimo 7 meninas gostam de Matemática.
+#+end_solution
+
+#+ATTR_LATEX: :options [points=1.001]
+#+begin_exercise
+Se três pessoas fazem 72 peças de sushi a cada 2 horas, quantas pessoas são necessárias para fazer 252 peças de sushi a cada 1 hora e meia?
+
+#+ATTR_LATEX: :options (1)
+#+begin_choice
+\choice 12 
+\choice 13 
+\choice 14
+\choice 15 
+\choice 18
+#+end_choice 
+#+end_exercise
+
+#+begin_solution
+feito/pess.horas = a fazer/pess.horas
+
+72/3. 2 = 252/x. 1,5
+
+72/6 = 252/1,5x
+
+12 = 168/x
+
+x = 14 cabras
+
+#+end_solution 
+
+#+ATTR_LATEX: :options [points=1.001]
+#+begin_exercise
+Em uma determinada empresa, metade de seus funcionários vai para casa de ônibus, um quinto vai de carro, um oitavo vai de bicicleta e os demais vão a pé.
+
+A fração dos funcionários que vai para casa a pé equivale a:
+
+#+ATTR_LATEX: :options (1)
+#+begin_choice
+\choice 4/5;
+\choice 3/15;
+\choice 7/15;
+\choice 3/40;
+\choice 7/40;
+#+end_choice 
+#+begin_solution
+7/40
+#+end_solution 
+
+
+#+end_exercise
+
+#+ATTR_LATEX: :options [points=1.001]
+#+begin_exercise 
+Dois médicos atendem 24 pacientes em 6 horas. Mantidas as proporções, três médicos atendem 24 pacientes em:
+
+#+begin_choice
+\choice 9 horas.
+\choice  8 horas.
+\choice 6 horas.
+\choice 4 horas
+\choice 3 horas.
+#+end_choice 
+#+end_exercise 
+#+begin_solution
+Aplicando regra de três composta:
+
+2 --- 24 --- 6
+3 --- 24 --- x
+
+Como são mais médicos, ligeiramente identificamos que será menos tempo, sendo assim, é uma regra de três inversamente proporcional. A quantidade de pacientes é a mesma, então não altera a proporcionalidade. Vamos inverter apenas o 2 / 3.
+
+3 --- 24 --- 6
+2 --- 24 --- x
+
+Multiplicamos o 3 pelo 24 e o 2 pelo 24:
+3 * 24 = 72
+2 * 24 = 48
+72 --- 6
+48 --- x
+Agora vamos montar a equação:
+
+72x = 48.6
+72x = 288
+x = 288/72
+x = 4
+
+Sendo assim, os 24 pacientes serão atendidos em apenas 4 horas, por 3 médicos.
+Resposta: 4 horas
+#+end_solution 
+
+#+ATTR_LATEX: :options [points=1.001]
+#+begin_exercise
+Caminhando de manhã, uma senhora contou 20 casas em uma rua à sua direita. Na volta, ela contou 20 casas à sua esquerda. Quantas casas ela viu no total?
+#+begin_choice
+\choice 20
+\choice 40
+\choice 10
+\choice 5
+\choice 15
+#+end_choice
+#+end_exercise 
+#+begin_solution
+20
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1.001]
+#+begin_exercise
+Na kombi que entrei havia 8 passageiros. Pouco depois, 3 pessoas desceram e duas entraram. Quantas pessoas há na kombi?
+
+#+begin_choice
+\choice 7
+\choice 9
+\choice 6
+\choice 8
+\choice 10
+#+end_choice
+#+end_exercise
+
+#+begin_solution
+Há 9 pessoas: 8 passageiros (contando comigo) e 1 motorista.
+Quando eu entrei na kombi, a kombi ficou com 10 pessoas. Com a saída de 3, ficaram 7, mas 2 entraram, ou seja, ficaram 9.
+#+end_solution
+
+
+#+begin_exercise
+Veja esta série: 7, 10, 8, 11, 9, 12, ... Que número deve vir a seguir?
+
+#+begin_choice
+\choice 7
+\choice 10
+\choice 12
+\choice 13
+\choice 11
+#+end_choice 
+
+#+end_exercise
+
+#+begin_solution
+Esta é uma série alternada simples de adição e subtração. No primeiro padrão, 3 é adicionado; no segundo, 2 é subtraído.
+
+#+end_solution 
+
+
+
+
+
+\collectexercisesstop{Raciocinio}
+
+
+
+
+
+
+
+
+
+\collectexercises{MatemaRegrade3}
+
+#+ATTR_LATEX: :options [points=1.001]
+#+begin_exercise
+Cinco pedreiros fazem uma casa em 30 dias. Quantos dias levarão 15 pedreiros para
+fazer a mesma casa?
+
+#+ATTR_LATEX: :options (1)
+#+begin_choice
+\choice 10
+\choice 2,5
+\choice 5
+\choice 15
+\choice 3
+#+end_choice 
+
+#+end_exercise 
+
+#+begin_solution
+10 dias para fazer a casa
+#+end_solution 
+
+
+
+#+ATTR_LATEX: :options [points=1.001]
+#+begin_exercise
+O custo de 4 kg de arroz é 28 R$. Qual é o custo de 20 kg de arroz?
+
+#+ATTR_LATEX: :options (1)
+#+begin_choice
+\choice 120 R$
+\choice 140 R$
+\choice 280 R$
+\choice 240 R$
+\choice 80 R$
+#+end_choice 
+#+end_exercise 
+#+begin_solution
+140 R$
+#+end_solution
+
+
+
+
+#+ATTR_LATEX: :options [points=1.001]
+#+begin_exercise
+Mario pegou emprestado com um Eraldo uma quantia de R$ 3.000 para quitar uma dívida no banco. Entretanto Mario teve um gasto inesperado com seu carro e gastou a quantia de R$ 600. Quantos por Mario gastou do total?
+
+#+ATTR_LATEX: :options (1)
+#+begin_choice
+\choice 20 %
+\choice 40 %
+\choice 80 %
+\choice 24 %
+\choice 30 %
+#+end_choice 
+#+end_exercise 
+#+begin_solution
+20 %
+#+end_solution
+
+
+
+
+
+
+\collectexercisesstop{MatemaRegrade3}

@@ -1,0 +1,223 @@
+#+LATEX_HEADER: \DeclareExerciseCollection{ListaEquilibrioIonico}
+
+
+\collectexercises{ListaEquilibrioIonico}
+
+
+#+begin_exercise
+A constante de ionização do HCN é igual a \num{7.2e-10} \unit{\mol\per\litre}, a uma certa temperatura. Calcule o grau de ionização do
+HCN numa solução 0,2 \unit{\mol\per\litre}.
+#+end_exercise
+#+begin_solution
+\num{6e-5}
+#+end_solution
+
+
+
+
+
+#+begin_exercise
+O grau de ionização do ácido acético (HAc), numa solução 0,5 \unit{\mol\per\litre}, é de 0,6%. Calcule a constante de ionização desse ácido.
+#+end_exercise
+#+begin_solution
+\num{1.8e-5}
+#+end_solution
+
+
+
+
+
+#+begin_exercise
+Numa solução aquosa 0,1 \unit{\mol\per\litre} de um monoácido, a 25\unit{\degreeCelsius} , o ácido está 3,7% ionizado após o equilíbrio ter sido atingido. Assinale a opção que contém o valor correto da constante de ionização desse ácido nessa temperatura:
+
+#+ATTR_LATEX: :options (5)
+#+begin_choice
+\choice 1,4
+\choice \num{1,4e-3}
+\choice \num{1,4e-4}
+\choice \num{3,7e-2}
+\choice \num{3,7e-4}
+#+end_choice
+#+end_exercise
+#+begin_solution
+C
+#+end_solution
+
+#+begin_exercise
+A partir da constante de ionização do ácido acético, que é igual a \num{1.8e-5}, o grau de ionização de uma solução 0,045 \unit{\mol\per\litre} do referido ácido é:
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 2%
+\choice 4%
+\choice 8%
+\choice 20%
+\choice 50%
+#+end_choice
+#+end_exercise
+#+begin_solution
+A
+#+end_solution
+     
+
+#+begin_exercise
+Temos um sistema em que se estabelece o equilíbrio:
+
+#+begin_export latex
+\begin{reaction*}
+2 CrO4^{2-} + 2 H+ <->  Cr2O7^{2-} +  H2O
+\end{reaction*}
+#+end_export
+
+#+begin_choice
+\choice O que acontece a esse sistema se adicionarmos \ch{HC$\ell$}?
+\choice O que acontece a esse sistema se adicionarmos \ch{Na2Cr2O7}?
+\choice O que acontece a esse sistema se adicionarmos KOH?
+#+end_choice
+
+#+end_exercise
+#+begin_solution
+#+begin_export latex
+\begin{choice}(3)
+\choice direita;
+\choice esquerda;
+\choice esquerda;
+\end{choice}
+#+end_export
+ #+end_solution
+
+
+
+#+begin_exercise
+Qual é o pH de um meio cuja concentração hidroxiliônica é de 0,0001 \unit{\mol\per\litre}?
+
+#+end_exercise
+#+begin_solution
+10
+#+end_solution
+
+#+begin_exercise
+Determinar o pH de uma solução 0,1 \unit{\mol\per\litre} de ácido clorídrico, admitindo-se total ionização.
+#+end_exercise 
+#+begin_solution
+1
+#+end_solution 
+
+
+#+begin_exercise
+A concentração de íons \ch{H^+} de uma solução é de 0,02 \unit{\mol\per\litre}. Determine o seu pH e o pOH. ( $\log_2$ = 0,3 ).
+#+end_exercise 
+#+begin_solution
+pH=1,7 e pH=12,7
+#+end_solution 
+
+
+
+#+begin_exercise
+Temos uma solução 0,04 \unit{mol\per\litre} de HC$\ell$. Determine o pH e o pOH dessa solução. ($\log_2$ = 0,3 )
+#+end_exercise 
+#+begin_solution
+pH=1,4; pOH=12,6 
+#+end_solution 
+
+
+
+#+begin_exercise
+Uma solução de ácido acético (HAc) é preparada de tal modo que seja 0,04 \unit{\mol\per\litre}. Determine o pH e o pOH dessa solução, sabendo que o ácido se encontra 25% ionizado.
+
+#+end_exercise 
+#+begin_solution
+pH=2 e pOH=12;
+#+end_solution 
+
+
+
+#+begin_exercise
+Qual é o valor do pH de uma solução na qual a concentração de íons \ch{H^+} é igual a \num{8e-4}\unit{\mol\per\litre}? @@latex: ($\log_{2}$=0,3)@@
+#+end_exercise 
+#+begin_solution
+3,1
+#+end_solution 
+
+
+
+#+begin_exercise
+Uma solução possui $\mathrm{k_a}$ = \num{9e-7} e concentração molar igual a 0,1. Determine o valor da [\ch{H^+}], o valor do pH e do pOH. ($\log_3$ = 0,4)
+#+end_exercise
+#+begin_solution
+pH=3,6;pOH=10,4; [\ch{H}]=\num{3e-4}
+#+end_solution 
+
+
+
+#+begin_exercise
+Um suco de limão apresenta [\ch{H^+}] = \num{4e-3} \unit{\mol\per\litre} , um suco de laranja apresenta [\ch{H^+}] = \num{2e-4} \unit{mol\per\litre} e um suco de abacaxi apresenta [\ch{H^+}] = \num{8e-2} \unit{\mol\per\litre}. Determine o pH de cada suco e verifique qual suco é mais ácido. ($\log_2$ = 0,3)
+#+end_exercise 
+#+begin_solution
+Limão=2,4; Laranja=3,7; Abacaxi=1,4;
+#+end_solution 
+
+
+
+#+begin_exercise
+Uma solução de hidróxido de cálcio, \ch{Ca(OH)2}, possui constanteyn de ionização aproximadamente igual a \num{1.6e-3} \unit{\mol\per\litre} e grau de ionização igual a 4% na temperatura de \SI{25}{\degreeCelsius}.
+Em relação a essa solução:
+#+begin_choice 
+\choice forneça a equação global de dissociação da base;
+\choice  calcule a concentração molar da solução;
+\choice calcule o pH da solução. (dado : $\log_2$ = 0,3 )
+#+end_choice
+#+end_exercise 
+#+begin_solution
+
+#+begin_export latex
+\begin{choice}(3)
+\choice \ch{Ca(OH)2 -> Ca^{2+} + 2 OH^-} ;
+\choice 1 molar;
+\choice 12,3;
+\end{choice}
+#+end_export
+#+end_solution 
+
+
+
+#+begin_exercise
+O vinagre é uma solução de ácido acético que pode ser obtida pela oxidação do álcool etílico do vinho. Sabendo que a análise de uma amostra de vinagre revelou ter [\ch{H^+}] = \num{4.5e-3} \unit{\mol\per\litre}, pede-se o pH e o
+pOH desta amostra, respectivamente: Dado: log 4,5 = 0,65.
+
+#+ATTR_LATEX: :options (3)
+#+begin_choice
+\choice 2,35 e 11,65.
+\choice 11,65 e 2,35.
+\choice 3,00 e 11,00.
+\choice 11,00 e 3,00.
+\choice 4,50 e 9,50.
+#+end_choice
+#+end_exercise 
+#+begin_solution
+A
+#+end_solution 
+
+
+
+
+
+#+begin_exercise
+Uma solução de um monoácido fraco de concentração igual a 0,25 \unit{\mol\per\litre} apresenta grau de ionização igual a 0,4%. O pH desta solução é igual a:
+
+#+ATTR_LATEX: :options (5)
+#+begin_choice
+\choice 2.
+\choice 3.
+\choice 4.
+\choice 5.
+\choice 6.
+#+end_choice
+#+end_exercise 
+#+begin_solution
+B
+#+end_solution 
+
+
+
+\collectexercisesstop{ListaEquilibrioIonico}

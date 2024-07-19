@@ -1,0 +1,692 @@
+#+begin_comment
+=============== CINETICA QUIMICA ==================
+#+end_comment
+
+
+#+LATEX_HEADER: \DeclareExerciseCollection{CineticaQuimica}
+#+LATEX_HEADER: \DeclareExerciseCollection{CineticaQuimica2}
+
+
+
+
+
+
+
+#+BEGIN_COMMENT
+==============CINETICA QUIMICA  =========================
+#+END_COMMENT
+
+
+\collectexercises{CineticaQuimica}
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Assinale a alternativa incorreta :
+#+begin_export latex
+\begin{choice}(1)
+\choice A pulverização de um sólido influi na velocidade de suas reações.
+\choice Adicionando um catalisador específico para a reação, ele aumenta a velocidade dessa reação.
+\choice Uma reação química que apresenta energia de ativação extremamente pequena é muito lenta.
+\choice Se um reagente é gasoso, a variação de sua pressão influi na velocidade da reação da mesma maneira que a variação de sua concentração.
+\choice A elevação da tempertura aumenta a velocidade da reação química, porque aumenta o número de partículas com energia superior à energia de ativação da reação.
+\end{choice}
+#+end_export
+#+end_exercise
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A reação \ch{NO2 + CO -> NO + CO2} ocorre em duas etapas. Encontre a lei de velocidade.
+#+begin_export latex
+\begin{align*}
+\ch{2 NO2 -> NO + NO3} \; (k_1 ) & \text{– lento}\\
+\ch{NO3 + CO -> CO2 + NO2} \; (k_2 ) & \text{– rápido}
+\end{align*}
+#+end_export
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice \(\nu = k_1\cdot\ch{[NO3]^3}\)
+\choice \(\nu = k_2\cdot[\ch{NO3}]\cdot\ch{[CO]}\)
+\choice \(\nu = k_1\cdot[\ch{NO2}]\)
+\choice \(\nu = k_1\cdot\ch{[NO2]^2}\)
+\choice \(\nu = k_2\cdot\ch{[CO]}^2\)
+#+end_choice
+#+end_exercise 
+#+begin_solution
+*Resposta: d*
+Explicação: Em qualquer reação, a etapa mais lenta é a etapa determinante da velocidade, a velocidade da reação geral depende dessa etapa. Assim, \ch{2 NO2 -> NO + NO3} (\(k_1\)) é o passo determinante da velocidade. Portanto, a lei de velocidade *\(\nu= k_1[\ch{NO2}]^2\)* . 
+#+end_solution 
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Para a reação \ch{A + H2O -> C}, encontre a velocidade da reação quando [A] = 0,75 \(\unit{\mol\per\litre}\), \(k\) = 0,02.
+
+
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 0,077 \unit{\per\second}
+\choice 0,085 \unit{\per\second}
+\choice 0,015 \unit{\per\second}
+\choice 0,026 \unit{\per\second}
+\choice 0,033 \unit{\per\second}
+#+end_choice 
+#+end_exercise 
+
+#+begin_solution
+Explicação: Dado,
+[A] = 0,75 M, k= 0,02
+A reação pertence à pseudo reação de primeira ordem, portanto, a unidade é \unit{\per\second}
+\(\nu= k[A]= 0,02 \cdot 0,75= 0,015\) \unit{\per\second} . 
+#+end_solution
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Quantas vezes a velocidade da reação elementar \ch{3 X + Y -> X2Y} mudará se a concentração da substância X for dobrada e a de Y for reduzida pela metade?
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice 
+\choice \(\nu_2 = 4,5\cdot\nu_1\)
+\choice \(\nu_2 = 5\cdot\nu_1\)
+\choice \(\nu_2 = 2\cdot\nu_1\)
+\choice \(\nu_2 = 4\cdot\nu_1\)
+\choice \(\nu_2=\nu_1 \)
+#+end_choice
+#+end_exercise 
+#+begin_solution
+Resposta: d
+Explicação: Como é uma reação elementar, sua lei de velocidade r 1 = k [A] 3 [B]
+Quando as concentrações são alteradas a nova velocidade será r 2 = k (2[A]) 3 ([B ]/2) = 4k[A] 3 [B]
+Então, r 2 =4r 1 . 
+
+#+end_solution 
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Durante a manifestação das reações químicas, ocorrem variações de energia. A quantidade de energia envolvida está associada às características químicas dos reagentes consumidos e dos produtos que serão formados. O gráfico abaixo representa um diagrama de variação de energia de uma reação química hipotética em que a mistura dos reagentes A e B levam à formação dos produtos C e D.
+
+#+begin_export latex
+\begin{endiagram}[x-label-text=Progresso da reação,	y-label-text=$\Delta H$/\unit{\kilo\joule},y-label=above]
+	\ENcurve{2,2,6,-1,-1}
+	\ENcurve{2,2,4,-1,-1}
+		\AddAxisLabel*{2[20];4[35];6[60];-1[-10]}
+		\AddAxisLabel{(N1-1);(N1-2)} % 20
+		\AddAxisLabel{(N1-2);(N1-3)}
+		\AddAxisLabel{(N1-3);(N1-4)} % -10
+		\AddAxisLabel{(N2-2);(N2-3)}
+	\draw[above] (N1-1) ++ (1,0) node {A + B};
+	\draw[above] (N1-4) ++ (1,0) node {C + D};
+\end{endiagram}
+#+end_export
+
+Com base no diagrama, no sentido direto da reação, conclui-se que a: 
+
+
+#+begin_choice
+\choice energia de ativação da reação sem o catalisador é 15\unit{\kilo\joule}.
+\choice energia de ativação da reação com o catalisador é 40\unit{\kilo\joule}.
+\choice a reação é endotérmica
+\choice a variação de entalpia é -30 \unit{\kilo\joule}.
+\choice a variação de entalpia é -10 \unit{\kilo\joule}.
+#+end_choice
+#+end_exercise 
+#+begin_solution
+a variação de entalpia é -30 \unit{\kilo\joule}.
+#+end_solution 
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Existem vários fatores que podem influenciar na velocidade de uma reação química.
+Por exemplo, se um paciente quiser aumentar a velocidade de dissolução de um comprimido efervescente em água, quais das ações ele deve tomar?
+
+
+#+ATTR_LATEX:  :options [label=\Roman*.]
+1. Pulverizar o comprimido.
+2. Usar água gelada.
+3. Usar o comprimido inteiro.
+4. Usar um catalizador.
+
+Assinale a alternativa que indica as ações corretas que o paciente deve tomar com o intuito de atingir seu objetivo, diminuindo o tempo da reação.  
+
+
+#+begin_choice
+\choice I  e IV apenas
+\choice I, II e IV apenas
+\choice II, III e IV apenas
+\choice II e IV apenas
+\choice IV apenas
+#+end_choice
+
+#+end_exercise 
+#+begin_solution
+ I  e IV apenas
+#+end_solution 
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Ao abastecer um automóvel com gasolina, é norma do órgão controlador do governo que o abastecimento seja suspenso após o disparo automático da bomba de combustível. Um dos argumentos é a preservação da saúde do frentista e o outro uma questão de segurança, isso porque moléculas dos componentes da gasolina, que podem ser percebidas pelo olfato, podem sofrer combustão em contato com moléculas de oxigênio.
+À partir dessas informações, foram feitas três afirmações:
+
+#+ATTR_LATEX:  :options [label=\Roman*.]
+1. À temperatura ambiente, as moléculas dos componentes da gasolina e as do oxigênio não têm energia suficiente para iniciar a combustão.
+2. A reação de combustão entre as moléculas dos componentes da gasolina e as do oxigênio pode ser iniciada na presença de um cigarro aceso, provocando uma explosão.
+3. Entre as moléculas dos componentes da gasolina podemos encontrar compostos derivados do benzeno, que são compostos cancerígenos.
+
+Está(ão) correta(s) a(s) afirmativa(s):
+
+#+begin_choice
+\choice I apenas
+\choice III apenas
+\choice I e II apenas
+\choice I e III apenas
+\choice I, II e III
+#+end_choice 
+#+end_exercise 
+
+#+begin_solution
+Alternativa *e)  I, II e III*
+#+end_solution 
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Considerando-se o papel do catalisador numa reação reversível, é correto afirmar que:
+
+#+begin_choice
+\choice a velocidade da reação é independente da concentração do catalisador.
+\choice o catalisador é consumido e regenerado durante a reação.
+\choice o catalisador acelera apenas a reação direta
+\choice o catalisador desloca o equilíbrio no sentido de formar mais produtos.
+\choice O catalisador é consumido na reação.
+#+end_choice 
+
+#+end_exercise
+#+begin_solution
+ o catalisador é consumido e regenerado durante a reação.
+#+end_solution 
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Observe a seguir uma reação hipotética de decomposição.
+#+begin_reaction*
+A + B -> C
+#+end_reaction* 
+A variação de concentração do reagente em função do tempo está representada na tabela a seguir:
+
+|-----------+-------+-------+-------+-------+-------|
+| *[A] mol/L* | 0,244 | 0,200 | 0,180 | 0,175 | 0,162 |
+|-----------+-------+-------+-------+-------+-------|
+| *t/min*    |     0 |     3 |     5 |     9 |    12 |
+|-----------+-------+-------+-------+-------+-------|
+
+Com base nos dados, qual a velocidade média de decomposição entre 3 e 5 minutos?
+
+#+ATTR_LATEX: :options (2) 
+#+begin_choice
+\choice 0,01 mol/L.min
+\choice 0,02 mol/L.min
+\choice 0,10 mol/L.min
+\choice 0,12 mol/L.min
+\choice 0,15 mol/L.min
+#+end_choice
+#+end_exercise 
+#+begin_solution
+Alternativa correta: a) 0,01 mol/L.min.
+#+end_solution
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A decomposição da fosfina (PH_3) em tungstênio a baixa pressão é uma reação de primeira ordem. É porque o
+
+#+begin_choice
+\choice a taxa é proporcional à cobertura da superfície.
+\choice a taxa é inversamente proporcional à cobertura da superfície.
+\choice a taxa é independente da cobertura da superfície.
+\choice a taxa de decomposição é lenta.
+\choice a taxa é nula.
+#+end_choice
+#+end_exercise
+#+begin_solution
+LETRA A, a taxa é independente da cobertura da superfície.
+#+end_solution
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A adição de um catalisador durante uma reação química altera qual das seguintes quantidades?
+
+
+#+ATTR_LATEX: :options (2) 
+#+begin_choice
+\choice Entalpia
+\choice Energia de ativação
+\choice Entropia
+\choice Energia interna
+\choice Volume
+#+end_choice
+#+end_exercise 
+#+begin_solution
+Um catalisador fornece um novo caminho para a reação com baixa energia de ativação. ou seja, diminui a energia de ativação.
+#+end_solution
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A constante de velocidade de uma reação é \(5,8 \times 10^{-2}\) \unit{\per\second}. A ordem da reação é
+
+#+begin_choice
+\choice Primeira ordem
+\choice Ordem zero
+\choice Segunda ordem
+\choice Terceira ordem
+\choice Nenhuma das alternativas
+#+end_choice
+#+end_exercise 
+#+begin_solution
+A unidade da constante de velocidade é \unit{\per\second} e indica que a reação é de primeira ordem.
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Após 2 horas, uma substância radioativa torna-se (1/16) da quantidade original. Então a meia-vida (em min) é
+
+#+ATTR_LATEX: :options (2) 
+#+begin_choice
+\choice 60 min
+\choice 120 min
+\choice 30 min
+\choice 15 min
+\choice 5 min
+#+end_choice 
+#+end_exercise 
+#+begin_solution
+#+begin_export latex
+\begin{align}
+1\overset{t_{1/2}}{\rightarrow} \left ( \frac{1}{2} \right ) \overset{t_{1/2}}{\rightarrow} \left ( \frac{1}{4} \right ) \overset{t_{1/2}}{\rightarrow} \left ( \frac{1}{8} \right ) \overset{t_{1/2}}{\rightarrow} \left ( \frac{1}{16} \right ) \\
+4t_{1/2} = 2 \text{h}\\
+t_{1/2} = 30 \text{min}
+\end{align}
+#+end_export
+#+end_solution 
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A reação
+
+#+begin_export latex
+\begin{reaction*}
+NO_{\gas} + 03_{\gas} -> N02_{\gas} + 02_{\gas}
+\end{reaction*}
+#+end_export
+
+é uma reação elementar de segunda ordem. Se duplicarmos as concentrações do NO e do 0_3, mantendo constante a temperatura, a velocidade da reação: 
+
+#+begin_choice 
+\choice  será reduzida à metade.
+\choice permanecerá constante.
+\choice será duplicada.
+\choice será triplicada.
+\choice será quadruplicada.
+#+end_choice
+#+end_exercise 
+#+begin_solution
+LETRA E
+#+end_solution
+
+
+\collectexercisesstop{CineticaQuimica}
+
+
+
+#+begin_comment
+======= Cinetica Quimica Parte II =====================
+
+#+end_comment
+
+
+\collectexercises{CineticaQuimica2}
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+O gráfico representa a velocidade de uma reação química em função do tempo. Qual das afirmações a seguir é verdadeira?
+
+#+begin_export latex
+\begin{tikzpicture}
+	\begin{axis}[
+		axis lines = left,
+		xlabel = tempo (s),
+		ylabel = {velocidade \unit{\mol\per\litre\per\second}},
+		]
+		\addplot[
+		color=black,
+		mark=circle,
+		]
+		coordinates {
+			(0,0)(10,0.1)(20,0.2)(30, 0.3)
+		};
+	\end{axis}
+\end{tikzpicture}
+#+end_export
+
+#+begin_choice 
+\choice A reação é de primeira ordem.
+\choice  A reação é de segunda ordem.
+\choice  A reação é de terceira ordem.
+\choice  A velocidade da reação é constante.
+\choice  A velocidade da reação aumenta linearmente com o tempo.
+#+end_choice
+
+#+end_exercise 
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Antes da utilização de câmeras digitais ser tão comum, a revelação de uma imagem fotográfica em um filme dependia da cinética química da redução do halogeneto de prata por um revelador.
+Considere o gráfico a seguir 
+
+#+begin_export latex
+\begin{tikzpicture}
+	\begin{axis}[
+		%axis lines = left,
+		%line width=2,
+    	%enlargelimits=false,
+		xlabel = tempo (min),
+		ylabel = {Quantidade em mol},
+		label style={font=\bfseries\large},
+		legend style={at={( 0.8,0.2)}, anchor=north west, font=\small},
+    tick label style={font=\bfseries\large},grid=major
+		]
+		\addplot[color=black,smooth,mark=*,]
+		coordinates {
+			(6,24)(7,22)(8,21)(9,20)(10,18)
+		};
+	\end{axis}
+\end{tikzpicture}
+#+end_export
+
+A velocidade média de revelação no intervalo de tempo de 7 min a 10 min é, em mol/min:
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 2,62
+\choice 1,33
+\choice 0,70
+\choice 3,14
+\choice 1,80
+#+end_choice
+
+
+#+end_exercise
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Considere o diagrama de energia
+
+
+#+begin_export latex
+\begin{endiagram}[tikz = {yscale=1.5}, scale = 1.0, 
+	energy-step=10,
+	x-label-text=Progresso da reação,
+	y-label-text=$\Delta H$/\unit{\kilo\joule},
+	y-label=above]
+\ENcurve{1,1,5,2.5,4,2,2}
+\ShowEa[max=all]
+\AddAxisLabel*{0;1;2;3;4;5}
+\node[draw=none] at (3,9.5) {\small {\bfseries I}};
+\node[draw=none] at (8.3,4.5) {\small {\bfseries II}};
+\end{endiagram}
+#+end_export
+
+De acordo com as reações abaixo:
+#+begin_export latex
+\begin{reactions*}
+{\bfseries I} - \quad & 2 NO2_{\gas} -> NO3_{\gas} + NO_{\gas}\\
+{\bfseries II} - \quad  & NO3_{\gas} + CO_{\gas} -> NO2_{\gas} + CO2_{\gas}
+\end{reactions*}
+#+end_export
+
+Qual o valor da energia do complexo ativado para a reação lenta?
+
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 50 \unit{\kilo\joule}
+\choice 40 \unit{\kilo\joule}
+\choice 30 \unit{\kilo\joule}
+\choice 25 \unit{\kilo\joule}
+\choice 20 \unit{\kilo\joule}
+#+end_choice
+#+end_exercise
+#+begin_solution
+B
+#+end_solution
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Observe o diagrama a seguir
+
+#+begin_export latex
+\begin{endiagram}[tikz = {yscale=1.0}, scale = 1.3, 
+	energy-step=40,
+	x-label-text=Progresso da reação,
+	y-label-text=$\Delta H$/\unit{\kilo\joule},
+	y-label=above]
+\ENcurve{4,4,12,8,8}
+\AddAxisLabel[axis=x,connect=dotted]{(-1.5,8)(6,8)}
+\AddAxisLabel[axis=x,connect=dotted]{(-1.5,12)(4.0,12)}
+%%% Eixo X
+\AddAxisLabel*{3;4;5;6;7;8;9;10;11;12}
+\end{endiagram}
+#+end_export
+
+Qual o valor da entalpia de reação
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 160 \unit{\kilo\joule}
+\choice 240 \unit{\kilo\joule}
+\choice 80 \unit{\kilo\joule}
+\choice -80 \unit{\kilo\joule}
+\choice -160 \unit{\kilo\joule}
+#+end_choice
+#+end_exercise
+#+begin_solution
+C
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Qual dos seguintes fatores *NÃO* afeta a velocidade de uma reação química?
+#+begin_choice 
+\choice Concentração dos reagentes
+\choice Temperatura
+\choice Pressão atmosférica
+\choice Superfície de contato
+\choice Catalisador
+#+end_choice 
+#+end_exercise
+#+begin_solution
+C
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+O que é necessário para que uma reação química atinja o equilíbrio?
+#+begin_choice
+\choice Igualdade nas concentrações dos reagentes e produtos
+\choice Consumo total dos reagentes
+\choice Aumento da temperatura
+\choice Adição de um catalisador
+\choice Aumentar a pressão
+#+end_choice
+#+end_exercise
+#+begin_solution
+A
+#+end_solution
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+O que é um catalisador em uma reação química?
+#+begin_choice
+\choice Um reagente que é completamente consumido na reação
+\choice Uma substância que aumenta a energia de ativação da reação
+\choice Uma substância que acelera a reação sem ser consumida
+\choice Uma substância que diminui a concentração dos produtos
+\choice Uma substância que diminui a tempertura
+#+end_choice 
+#+end_exercise
+#+begin_solution
+#+end_solution
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+O gráfico representa a velocidade de uma reação química em função da temperatura. Qual das afirmações a seguir é verdadeira?
+
+#+begin_export latex
+\begin{tikzpicture}
+	\begin{axis}[
+		%axis lines = left,
+		%line width=2,
+    	%enlargelimits=false,
+		xlabel = Tempertura / K,
+		ylabel = {Velocidade / \unit{\mol\per\litre\per\second}},
+		label style={font=\bfseries\large},
+		legend style={at={( 0.8,0.2)}, anchor=north west, font=\small},
+    tick label style={font=\bfseries\large},grid=major
+		]
+		\addplot[color=black,smooth,mark=*,]
+		coordinates {
+			(298,0.1)(308,0.2)(318,0.4)(328,0.8)
+		};
+	\end{axis}
+\end{tikzpicture}
+#+end_export
+
+#+begin_choice
+\choice A reação é exotérmica.
+\choice A reação é endotérmica.
+\choice A reação é de primeira ordem.
+\choice A reação é de segunda ordem.
+\choice A velocidade da reação aumenta linearmente com a temperatura.
+#+end_choice 
+#+end_exercise
+#+begin_solution
+A
+#+end_solution
+
+
+
+#+begin_exercise
+O gráfico representa a velocidade de uma reação química em função da concentração de um dos reagentes, *A* e *B*. Qual das afirmações a seguir é verdadeira?
+
+#+begin_export latex
+
+\begin{tikzpicture}
+	\begin{axis}[
+	legend pos=north west,
+    %legend image post style={solid},
+%		axis lines = left,
+		ylabel = Concentração (\unit{\mol\per\litre\per\second}),
+		xlabel = {Velocidade (\unit{\mol\per\litre\per\minute}) },
+		label style={font=\bfseries\large},
+		legend style={at={( 0.8,0.2)}, anchor=north west, font=\small},
+    tick label style={font=\bfseries\large},grid=major
+		]
+		\addplot[
+		color=black,
+		mark=square,
+		]
+		coordinates {
+			(0.1,0.1)(0.2,0.2)(0.4,0.4)(0.8,0.8)
+		};
+		\addplot[
+		color=black,
+		mark=*,
+		]
+		coordinates {
+			(0.1,0.1)(0.2,0.4)(0.4,0.9)(0.8,1.6)
+		};
+		\addlegendentry{A}
+		\addlegendentry{B}
+	\end{axis}
+\end{tikzpicture}
+
+#+end_export
+#+begin_choice
+\choice A reação é de primeira ordem em *A* e de segunda ordem em *B*.
+\choice A reação é de segunda ordem em *A* e de primeira ordem em *B*.
+\choice A reação é de terceira ordem em *A* e de segunda ordem em *B*.
+\choice A velocidade da reação é constante.
+\choice A velocidade da reação diminui linearmente com a concentração de *A* e *B*.
+#+end_choice 
+#+end_exercise
+#+begin_solution
+B
+#+end_solution
+
+
+#+begin_exercise
+Qual é o valor da constante de velocidade da reação?
+
+#+begin_export latex
+
+\begin{tikzpicture}
+	\begin{axis}[
+		%axis lines = left,
+		%line width=2,
+    	%enlargelimits=false,
+		xlabel = {[A] (\unit{\mol\per\litre})},
+		ylabel = {Velocidade (\unit{\mol\per\litre\per\minute})},
+		label style={font=\bfseries\large},
+		legend style={at={( 0.8,0.2)}, anchor=north west, font=\small},
+    tick label style={font=\bfseries\large},grid=major
+		]
+		\addplot[color=black,mark=*,]
+		coordinates {
+			(1,5)(5,10)(10,15)
+		};
+	\end{axis}
+\end{tikzpicture}
+
+#+end_export
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 2,1
+\choice 4,2
+\choice 3,1
+\choice 0,5
+\choice 1,1
+#+end_choice
+#+end_exercise 
+#+begin_solution
+E
+#+end_solution
+
+
+\collectexercisesstop{CineticaQuimica2}
+
+
+
+
+

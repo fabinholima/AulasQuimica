@@ -1,0 +1,253 @@
+#+LATEX_HEADER: \DeclareExerciseCollection{ListaFormulaMinima}
+
+
+\collectexercises{ListaFormulaMinima}
+
+#+begin_exercise
+O valsartan, \ch{C33H34N6O6}, é uma substância utilizada como anti-hipertensivo no tratamento da hipertensão arterial,
+insolúvel em água e moderadamente solúvel em metanol. Os percentuais em massa, de carbono, hidrogênio, nitrogênio e oxigênio, nesse composto, são respectivamente:
+
+#+begin_choice
+\choice C = 32, 9%; H = 33,9%; N = 16,6% e O = 16,6%.
+\choice C = 43, 9%; H = 44,1%; N = 6,0% e O = 6,0%
+\choice C = 64, 9%; H = 5,6%; N = 29,5% e O = 29,5%
+\choice C = 35, 2%; H = 35,3%; N = 13,8% e O = 15,7%
+\choice C = 64, 9%; H = 5,6%; N = 13,8% e O = 15,7%
+#+end_choice 
+#+end_exercise
+#+begin_solution
+E
+#+end_solution 
+
+
+#+begin_exercise
+Considere as informações a seguir sobre a perfluorodecalina, substância utilizada no preparo de sangue artificial.
+Fórmula mínima: \ch{C5F9}.
+Massa molar: 462 g/mol.
+Sua fórmula molecular é representada por:
+
+#+ATTR_LATEX: :options (4)
+#+begin_choice
+\choice \ch{C25F45}
+\choice \ch{C20F36}
+\choice \ch{C15F27}
+\choice \ch{C10F18}
+\choice \ch{C2OF16}
+#+end_choice
+#+end_exercise
+#+begin_solution
+D
+#+end_solution
+
+
+
+
+#+begin_exercise
+Determine a fórmula molecular de um composto que apresenta 46,67% de silício e 53,33% de oxigênio em sua composição.
+
+#+ATTR_LATEX: :options(5)
+#+begin_choice 
+\choice \ch{Si3O2}
+\choice  SiO
+\choice \ch{Si2O3}
+\choice \ch{Si2O}
+\choice \ch{SiO2}
+#+end_choice 
+#+end_exercise
+#+begin_solution
+E
+#+end_solution
+
+
+
+
+
+
+#+begin_exercise
+Sabendo que a capsaicina possui fórmula molecular igual a \ch{C18H27O3N}, a porcentagem em massa de carbono na
+capsaicina é:
+
+#+ATTR_LATEX: :options (5)
+#+begin_choice
+\choice  12,00%
+\choice 18,00%
+\choice  59,00%
+\choice 70,81%
+#+end_choice
+#+end_exercise
+#+begin_solution
+
+#+end_solution
+
+
+
+
+
+
+#+begin_exercise
+A análise elementar de um composto organoclorado forneceu a seguinte composição centesimal: 37% de carbono, 8% de hidrogênio e 55% de cloro. Com base nessa informação, pode-se afirmar que a fórmula molecular do composto é:
+#+ATTR_LATEX: :options (2)
+#+begin_choice 
+\choice \ch{C2H5C$\ell$}.
+\choice \ch{C2H2C$\ell$2}.
+\choice \ch{C4H5C$\ell$}.
+\choice \ch{C6H5C$\ell$}.
+\choice \ch{C5H11C$\ell$}
+#+end_choice 
+#+end_exercise
+#+begin_solution
+
+#+end_solution
+
+
+
+
+
+#+begin_exercise
+ Reportagem veiculada em jornal local traz a seguinte manchete:“PB tem depósito de titânio mais importante do
+país”. A matéria trata da importância desse metal e suas diversas aplicações nas indústrias aeronáutica, química,
+naval, nuclear, bélica e metalúrgica. No detalhamento do texto, tem-se que “a ilmenita (\ch{FeTiO2}) teoricamente possui
+53% de titânio e 47% de ferro
+
+Considerando a composição da ilmenita, conclui-se que a informação apresentada está
+
+#+ATTR_LATEX: :options (1)
+#+begin_choice
+\choice  equivocada quanto ao teor de Fe que, na verdade, corresponde a 56,2%.\
+\choice equivocada quanto ao teor de Ti que, na verdade, corresponde a 48,1%.
+\choice  equivocada quanto ao teor de Ti que, na verdade, corresponde a 35,3%.
+\choice  correta quanto ao teor de Ti.
+\choice  correta quanto ao teor de Fe.
+#+end_choice
+#+end_exercise
+#+begin_solution
+C
+#+end_solution
+
+
+
+#+begin_exercise
+A fórmula mínima de um composto orgânico é \ch{(CH2O)n}. Sabendo-se que a massa molecular desse composto é
+180, qual o valor de n?
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 2
+\choice 4
+\choice 6
+\choice 8
+\choice 12
+#+end_choice
+#+end_exercise
+#+begin_solution
+C
+#+end_solution
+
+
+
+
+#+begin_exercise
+Sabe-se que, quando uma pessoa fuma um cigarro, pode inalar de 0,1 até 0,2mg de nicotina. Foi descoberto em laboratório que cada miligrama de nicotina contém 74,00% de carbono, 8,65% de hidrogênio e 17,355 de nitrogênio. A fórmula mínima da nicotina é:
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice 
+\choice \ch{C6H7N}
+\choice \ch{C5H7N}
+\choice \ch{C10H12N}
+\choice \ch{C5H6N2}
+\choice \ch{C4H3N2}
+#+end_choice 
+#+end_exercise
+
+#+begin_solution
+
+#+end_solution
+
+
+
+#+begin_exercise
+A fórmula mínima do composto com 16,09% de potássio, 40,15% de platina e 43,76% de cloro é (Dados: massas atômicas: K = 39,1; Pt = 195; \ch{C$\ell$} = 35,5):
+
+#+begin_choice
+\choice  \ch{K4Pt2C$\ell$}
+\choice \ch{K4PtC$\ell$4}
+\choice \ch{K2PtC$\ell$6}
+\choice \ch{K6PtC$\ell$2}
+\choice \ch{K2PtC$\ell$4}
+
+#+end_choice
+
+#+end_exercise
+#+begin_solution
+
+#+end_solution
+
+
+
+
+
+
+#+begin_exercise
+Um determinado metal forma dois óxidos distintos, nos quais as percentagens em massa de oxigênio são 32,0% e 44,0%. Determine a massa atômica do metal.
+
+#+end_exercise
+#+begin_solution
+Vamos considerar o óxido com 32% de oxigênio e o óxido  com 44%  de oxigênio.
+Temos que:
+
+100 g do óxido 1  é composto por  do metal (68g ) e 32 g  de oxigênio.
+100 g  do óxido 2 é composto por  do metal (56 g ) e 44 de oxigênio.
+
+
+Para a mesma massa do metal, temos:
+
+
+#+begin_export latex
+\begin{align*}
+& 68 \,\,\, \rightarrow \,\,\, 32  \\
+& 56 \,\,\, \rightarrow \,\,\, x \\
+& x \, = \, 26,35
+\end{align*}
+#+end_export
+
+Isso representa uma proporção de números inteiros de 5:3, respectivamente.
+
+Logo, teríamos para o 1º e 2º óxidos, respectivamente:
+1. \ch{M5Ox}
+2. \ch{M3Ox}
+
+
+Como o nox do oxigênio não admite estas fórmulas, inverte-se a proporção de massa, mantendo M fixo em vez de O:
+
+1. \ch{M3Ox}
+2. \ch{M5Ox}
+
+Sabendo que o nox do oxigênio é 2–, as fórmulas podem ser escritas como:
+
+1. \ch{M2O3}
+2. \ch{M2O5}
+
+Se em \ch{M2O3} a massa molecular é dada por 2(MA)_M + 48, MA temos:
+
+% oxigênio 
+#+begin_export latex
+\begin{equation*}
+\frac{32}{100} \, = \, \frac{48}{2 \cdot M \, + \, 48} \,\,\, \Rightarrow \,\,\, \boxed{\boxed{M \, = \, 51 \,\, u}}
+\end{equation*}
+#+end_export
+#+end_solution
+
+
+
+
+
+\collectexercisesstop{ListaFormulaMinima}
+
+
+
+#+begin_exercise
+
+#+end_exercise
+#+begin_solution
+
+#+end_solution
+

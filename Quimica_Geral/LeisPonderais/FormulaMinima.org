@@ -1,0 +1,154 @@
+
+#+LATEX_HEADER: \DeclareExerciseCollection{FormulaMinima}
+#+LATEX_HEADER: \DeclareExerciseCollection{FormulaMinima-Open}
+ 
+
+\collectexercises{FormulaMinima}
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+A análise de uma substância desconhecida revelou a seguinte composição centesimal: 62,1% de carbono, 10,3% de hidrogênio e 27,5% de oxigênio. Pela determinação experimental de sua massa molar, obteve-se o valor 58,0 \unit{g\per\mol}. É correto concluir que se trata de um composto orgânico de fórmula molecular: (Massas atômicas: C = 12, H = 1, O = 16).
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice \ch{C3H6O2}.
+\choice \ch{CH6O2}.
+\choice \ch{C2H2O2}
+\choice \ch{C2H4O2}.
+\choice \ch{C3H6O}.
+#+end_choice
+
+#+end_exercise
+#+begin_solution
+E
+#+end_solution
+
+
+ 
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+A fórmula mínima de um composto formado por nitrogênio e hidrogênio,
+cuja análise de 32 g de uma amostra revelou a presença de 87,5% (% em massa) de nitrogênio,
+é: [Dadas as massas molares (g/mol): N = 14 e H = 1]
+
+
+#+ATTR_LATEX: :options (2)
+
+#+begin_choice
+\choice \ch{N2H3}
+\choice \ch{N2H4}
+\choice \ch{NH3}
+\choice \ch{NH2}
+\choice \ch{NH}
+#+end_choice
+
+#+end_exercise 
+#+begin_solution
+D
+#+end_solution
+
+
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+Qual a porcentagem de enxofre existente na molécula de \ch{SO2}? Dados: O = 16; S = 32
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice 
+\choice 64%
+\choice 20,4%
+\choice 40%
+\choice 50%
+\choice 100%
+#+end_choice
+#+end_exercise
+#+begin_solution
+#+end_solution
+
+
+
+
+ 
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+86,8 g de X reagem completamente com 112,0 g de Y, formando um composto cuja fórmula mínima é: [Dadas as massas molares (g/mol): X = 31 e Y = 16]
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice \ch{X2Y11}
+\choice \ch{X2Y5}
+\choice  \ch{X2Y}
+\choice \ch{X3Y7}
+\choice \ch{X5Y2}
+#+end_choice
+
+#+end_exercise 
+#+begin_solution
+B
+#+end_solution
+
+
+
+
+
+ 
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+Eugenol, o componente ativo do óleo do cravo-da-índia,
+tem massa molar 164 g/mol e fórmula empírica \ch{C5H6O}.
+A porcentagem em massa de carbono no eugenol é,
+aproximadamente. Dados: H=1; C=12; O=16
+
+A porcentagem em massa de carbono no eugenol é, aproximadamente,
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 10,0 %
+\choice 36,5 %
+\choice 60,0 %
+\choice 73,0 %
+\choice 86,0 %
+#+end_choice
+
+#+end_exercise 
+#+begin_solution
+D
+#+end_solution
+
+\collectexercisesstop{FormulaMinima}
+
+
+#+begin_comment
+============ ABERTAS ==============
+#+end_comment
+
+
+\collectexercises{FormulaMinima-Open}
+
+
+ 
+#+ATTR_LATEX: :options [points=2]
+#+begin_exercise
+A celulose é um composto orgânico de grande importância econômica para o Estado de Santa Catarina. A celulose é um polímero de cadeia longa formado pela ligação de monômeros de glicose (\ch{C6H12O6}). Uma massa de 100 gramas de celulose foi submetida à análise elementar e os resultados mostraram que este composto era constituído de 44,45 gramas de carbono, 6,17 gramas de hidrogênio e 49,38 gramas de oxigênio.
+Massas atômicas: C = 12,0 u; H = 1,0 u; O = 16,0 u
+Pergunta-se:
+
+a) Qual a fórmula mínima da celulose?
+\vspace{5cm}
+
+b) Qual o peso molecular da molécula de glicose?
+
+
+
+#+end_exercise 
+#+begin_solution
+a) nC6H12O6 – nH2O = [C6H10O5]n (celulose).
+Fórmula mínima: C6H10O5
+
+b) C6H12O6 = 6 × 12u + 12 × 1u + 6 × 16u = 180 u
+#+end_solution
+
+
+ 
+\collectexercisesstop{FormulaMinima-Open}

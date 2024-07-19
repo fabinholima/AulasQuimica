@@ -1,0 +1,106 @@
+\documentclass[12pt]{scrartcl}
+\KOMAoptions{
+	%headings=chapterprefix,
+	%twocolumn=true,
+	%toc=indenttextentries,
+	%toc=flat,
+	twoside=true,
+	headinclude=true,
+	footinclude=true
+	%  captions=topbeside
+}
+
+\usepackage{fontspec}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+\usepackage[x11names,svgnames,table]{xcolor}
+\defaultfontfeatures{Ligatures=TeX}
+%\setmainfont{Lato}
+\setmainfont{Charis SIL}
+%\setmainfont{Alegreya}
+
+\usepackage{typearea}
+\usepackage{lscape}
+\usepackage[a4paper]{geometry}
+\geometry{a4paper,total={170mm,257mm},left=10mm,right=10mm, top=15mm, bottom=20mm}
+\usepackage[portuguese, american]{babel}
+\usepackage{amsmath,amsfonts,amsthm,bm}
+
+\usepackage{xcolor}
+\usepackage{tabularray}
+\usepackage{chemmacros}
+\usepackage{chemfig}
+\setchemfig{fixed length=false, atom sep=2.0em, arrow offset=6pt, scheme debug=false,angle increment=30}
+
+
+\begin{document}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	\NewTblrTheme{fancy}{
+		\SetTblrStyle{caption-tag}{font=\bfseries}
+		\SetTblrInner[tblr,longtblr]{rowsep=2.5pt}
+		\DefTblrTemplate{firsthead, middlehead,lasthead}{default}{} % <---
+		\DefTblrTemplate{contfoot-text}{normal}{\scriptsize\textit{Continued on the next page}}
+		\SetTblrTemplate{contfoot-text}{normal}
+	}
+	
+	\selectlanguage{portuguese}
+	%\UseTblrTemplate{caption-tag}{default}{\bfseries}
+	
+
+{
+	\centering
+%	\refstepcounter{table}
+	
+%\SetTblrInner{rowsep=3.5pt}
+
+%\begin{longtable}{NNBBB} 
+\begin{longtblr}[theme=fancy,
+	caption = {Grupos substituintes orgânicos formados por carbono e hidrogênio},
+	%note{a} = {It is the first footnote.},
+	]{
+		colspec = {c c c c }, colsep = 7mm, hlines = {2pt, white},
+		%row{odd} = {azure8}, row{even} = {gray8},
+		row{1} = {2em,azure3,fg=white,font=\bfseries\sffamily},
+		%row{12} = {bg=gray8, font=\bfseries},
+		rowsep=.5cm,		
+	}
+ \hline
+	Grupos Alquila  & Radical & Estrutura   \\
+	1 carbono & metil & \chemfig{-CH_3}
+	 \\ \hline
+	2 carbonos & etil & \chemfig{-CH_2-CH_3} \\
+	\hline 
+	3 carbonos & propril &  \chemfig{-CH_2-CH_2-CH_3} \\ \hline 
+	 & isopropil &  \chemfig{-CH([:-90]-CH_3)-CH_3}  \\
+	  \\ \hline
+	\SetCell[r=4]{m,2.5cm} 4 carbonos & butil &  \chemfig{-CH_2|{(CH_2)_2}CH_3} \\ \hline
+	 & isobutil &  \chemfig{-CH_2-CH([:-90]-CH_3)-CH_3} \\ \hline 
+	& \emph{s}-butil (\emph{sec}-butil) &  \chemfig{-CH([:-90]-CH_3)-CH_2CH_3} \\ \hline
+	& \emph{t}-butil (\emph{terc}-butil) & \chemfig{-C([:90]-CH_3)([:-90]-CH_3)-CH_3}
+	 \\ \hline 
+	5 carbonos & pentil &  \chemfig{-CH_2|{(CH_2)_3}CH_3} \\ \hline
+	  & isopentil &  \chemfig{-CH_2-CH_2-CH([:-90]-CH_3)-CH_3} \\  \hline
+	& neopentil & \chemfig{-CH_2-C([:-90]-CH_3)([:90]-CH_3)-CH_3}  \\ \hline
+	& \emph{t}-pentil (\emph{terc}-pentil) & \chemfig{-C([:90]-CH_3)([:-90]-CH_3)-CH_2-CH_3}\\  \hline 
+	\SetCell[r=4,]{m,2cm}Outros grupos &  vinil ou etenil & \chemfig{-CH=CH_2}  \\  \hline
+	& isopropenil & \chemfig{-C([:-90]-CH_3)=CH_2}\\ \hline
+	& propenil & \chemfig{-CH=CH-CH_3} \\ \hline
+	& ali ou propen-2-il & \chemfig{-CH_2-CH=CH_2}\\ \hline 
+	\SetCell[r=4,]{m,2cm} Aromáticos & fenil & \chemfig{-(*6(-=-=-=))}  \\ \hline
+	& naft-1-il & \chemfig{*6(-=(*6(-=-=(-)--))-=-=)}\\ \hline
+	& benzil & \chemfig{-CH_2-(*6(-=-=-=))} \\ \hline
+	& naft-2-il & \chemfig{*6(-=(*6(-=-(-)=--))-=-=)}\\
+	\hline 
+\end{longtblr}
+}
+
+\end{document}

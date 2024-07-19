@@ -1,0 +1,194 @@
+#+begin_export latex
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-.4,xscale=.4]
+%uncomment if require: \path (0,472); %set diagram left start at 0, and has height of 472
+
+%Shape: Rectangle [id:dp03461232451909013] 
+\draw   (19,30) -- (67,30) -- (67,71) -- (19,71) -- cycle ;
+%Shape: Rectangle [id:dp22674506002741335] 
+\draw   (19,71) -- (67,71) -- (67,112) -- (19,112) -- cycle ;
+%Shape: Rectangle [id:dp08939927851597329] 
+\draw   (19,112) -- (67,112) -- (67,153) -- (19,153) -- cycle ;
+%Shape: Rectangle [id:dp7155656083284089] 
+\draw   (19,153) -- (67,153) -- (67,194) -- (19,194) -- cycle ;
+%Shape: Rectangle [id:dp5980687198303147] 
+\draw   (19,194) -- (67,194) -- (67,235) -- (19,235) -- cycle ;
+%Shape: Rectangle [id:dp3516234373547882] 
+\draw   (19,234) -- (67,234) -- (67,275) -- (19,275) -- cycle ;
+%Shape: Rectangle [id:dp16187860715110647] 
+\draw   (19,275) -- (67,275) -- (67,316) -- (19,316) -- cycle ;
+%Shape: Rectangle [id:dp7477281896928566] 
+\draw   (743,112) -- (791,112) -- (791,153) -- (743,153) -- cycle ;
+%Shape: Rectangle [id:dp5610175560841315] 
+\draw   (791,112) -- (839,112) -- (839,153) -- (791,153) -- cycle ;
+%Shape: Rectangle [id:dp01584298517280247] 
+\draw   (839,112) -- (887,112) -- (887,153) -- (839,153) -- cycle ;
+%Shape: Rectangle [id:dp006900064503013614] 
+\draw   (66,153) -- (114,153) -- (114,194) -- (66,194) -- cycle ;
+%Shape: Rectangle [id:dp36997269133164723] 
+\draw   (114,153) -- (162,153) -- (162,194) -- (114,194) -- cycle ;
+%Shape: Rectangle [id:dp3049451207969277] 
+\draw   (163,153) -- (211,153) -- (211,194) -- (163,194) -- cycle ;
+%Shape: Rectangle [id:dp06940413538141099] 
+\draw   (211,153) -- (259,153) -- (259,194) -- (211,194) -- cycle ;
+%Shape: Rectangle [id:dp4371273426693161] 
+\draw   (259,153) -- (307,153) -- (307,194) -- (259,194) -- cycle ;
+%Shape: Rectangle [id:dp2779284626990626] 
+\draw   (308,153) -- (356,153) -- (356,194) -- (308,194) -- cycle ;
+%Shape: Rectangle [id:dp860988999186616] 
+\draw   (355,153) -- (403,153) -- (403,194) -- (355,194) -- cycle ;
+%Shape: Rectangle [id:dp43815847475403635] 
+\draw   (403,153) -- (451,153) -- (451,194) -- (403,194) -- cycle ;
+%Shape: Rectangle [id:dp50153040312434] 
+\draw   (452,153) -- (500,153) -- (500,194) -- (452,194) -- cycle ;
+%Shape: Rectangle [id:dp3790108380387669] 
+\draw   (500,153) -- (548,153) -- (548,194) -- (500,194) -- cycle ;
+%Shape: Rectangle [id:dp9195129686249605] 
+\draw   (548,153) -- (596,153) -- (596,194) -- (548,194) -- cycle ;
+%Shape: Rectangle [id:dp8846187697738883] 
+\draw   (597,153) -- (645,153) -- (645,194) -- (597,194) -- cycle ;
+%Shape: Rectangle [id:dp8825084984271375] 
+\draw   (646,153) -- (694,153) -- (694,194) -- (646,194) -- cycle ;
+%Shape: Rectangle [id:dp14111251880052877] 
+\draw   (694,153) -- (742,153) -- (742,194) -- (694,194) -- cycle ;
+%Shape: Rectangle [id:dp6135711886598997] 
+\draw   (743,153) -- (791,153) -- (791,194) -- (743,194) -- cycle ;
+%Shape: Rectangle [id:dp11832238710387366] 
+\draw   (791,153) -- (839,153) -- (839,194) -- (791,194) -- cycle ;
+%Shape: Rectangle [id:dp5576499683587002] 
+\draw   (839,153) -- (887,153) -- (887,194) -- (839,194) -- cycle ;
+%Shape: Rectangle [id:dp4375326912587282] 
+\draw   (66,195) -- (114,195) -- (114,236) -- (66,236) -- cycle ;
+%Shape: Rectangle [id:dp031675089638582565] 
+\draw   (114,195) -- (162,195) -- (162,236) -- (114,236) -- cycle ;
+%Shape: Rectangle [id:dp3570162254712742] 
+\draw   (163,195) -- (211,195) -- (211,236) -- (163,236) -- cycle ;
+%Shape: Rectangle [id:dp11273894955669883] 
+\draw   (211,195) -- (259,195) -- (259,236) -- (211,236) -- cycle ;
+%Shape: Rectangle [id:dp7745846067913614] 
+\draw   (259,195) -- (307,195) -- (307,236) -- (259,236) -- cycle ;
+%Shape: Rectangle [id:dp5164200783950887] 
+\draw   (308,195) -- (356,195) -- (356,236) -- (308,236) -- cycle ;
+%Shape: Rectangle [id:dp3651504925734925] 
+\draw   (355,195) -- (403,195) -- (403,236) -- (355,236) -- cycle ;
+%Shape: Rectangle [id:dp45659673032251624] 
+\draw   (403,195) -- (451,195) -- (451,236) -- (403,236) -- cycle ;
+%Shape: Rectangle [id:dp4439273010544309] 
+\draw   (452,195) -- (500,195) -- (500,236) -- (452,236) -- cycle ;
+%Shape: Rectangle [id:dp9982574511891594] 
+\draw   (500,195) -- (548,195) -- (548,236) -- (500,236) -- cycle ;
+%Shape: Rectangle [id:dp4522368762190486] 
+\draw   (548,195) -- (596,195) -- (596,236) -- (548,236) -- cycle ;
+%Shape: Rectangle [id:dp14683580202694668] 
+\draw   (597,195) -- (645,195) -- (645,236) -- (597,236) -- cycle ;
+%Shape: Rectangle [id:dp5610685799401063] 
+\draw   (646,195) -- (694,195) -- (694,236) -- (646,236) -- cycle ;
+%Shape: Rectangle [id:dp43115254944907133] 
+\draw   (694,195) -- (742,195) -- (742,236) -- (694,236) -- cycle ;
+%Shape: Rectangle [id:dp734220447085211] 
+\draw   (743,195) -- (791,195) -- (791,236) -- (743,236) -- cycle ;
+%Shape: Rectangle [id:dp08696001622540539] 
+\draw   (791,195) -- (839,195) -- (839,236) -- (791,236) -- cycle ;
+%Shape: Rectangle [id:dp8321126203642305] 
+\draw   (839,195) -- (887,195) -- (887,236) -- (839,236) -- cycle ;
+%Shape: Rectangle [id:dp12240437308189756] 
+\draw   (67,236) -- (115,236) -- (115,277) -- (67,277) -- cycle ;
+%Shape: Rectangle [id:dp4116064900442725] 
+\draw   (163,236) -- (211,236) -- (211,277) -- (163,277) -- cycle ;
+%Shape: Rectangle [id:dp7046336371901318] 
+\draw   (211,236) -- (259,236) -- (259,277) -- (211,277) -- cycle ;
+%Shape: Rectangle [id:dp807582618603391] 
+\draw   (259,236) -- (307,236) -- (307,277) -- (259,277) -- cycle ;
+%Shape: Rectangle [id:dp7356309365689747] 
+\draw   (308,236) -- (356,236) -- (356,277) -- (308,277) -- cycle ;
+%Shape: Rectangle [id:dp9329972879337137] 
+\draw   (355,236) -- (403,236) -- (403,277) -- (355,277) -- cycle ;
+%Shape: Rectangle [id:dp7561617400442912] 
+\draw   (403,236) -- (451,236) -- (451,277) -- (403,277) -- cycle ;
+%Shape: Rectangle [id:dp3299759395209688] 
+\draw   (452,236) -- (500,236) -- (500,277) -- (452,277) -- cycle ;
+%Shape: Rectangle [id:dp09061999345094507] 
+\draw   (500,236) -- (548,236) -- (548,277) -- (500,277) -- cycle ;
+%Shape: Rectangle [id:dp6397209177933341] 
+\draw   (548,236) -- (596,236) -- (596,277) -- (548,277) -- cycle ;
+%Shape: Rectangle [id:dp13684315547892512] 
+\draw   (597,236) -- (645,236) -- (645,277) -- (597,277) -- cycle ;
+%Shape: Rectangle [id:dp4947178767140842] 
+\draw   (646,236) -- (694,236) -- (694,277) -- (646,277) -- cycle ;
+%Shape: Rectangle [id:dp7818416308445638] 
+\draw   (694,236) -- (742,236) -- (742,277) -- (694,277) -- cycle ;
+%Shape: Rectangle [id:dp4657536363104363] 
+\draw   (743,236) -- (791,236) -- (791,277) -- (743,277) -- cycle ;
+%Shape: Rectangle [id:dp6243461059355153] 
+\draw   (791,236) -- (839,236) -- (839,277) -- (791,277) -- cycle ;
+%Shape: Rectangle [id:dp9825030681630135] 
+\draw   (839,236) -- (887,236) -- (887,277) -- (839,277) -- cycle ;
+%Shape: Rectangle [id:dp70442573437825] 
+\draw   (66,276) -- (114,276) -- (114,317) -- (66,317) -- cycle ;
+%Shape: Rectangle [id:dp9533594650768504] 
+\draw   (163,276) -- (211,276) -- (211,317) -- (163,317) -- cycle ;
+%Shape: Rectangle [id:dp26702818201476997] 
+\draw   (211,276) -- (259,276) -- (259,317) -- (211,317) -- cycle ;
+%Shape: Rectangle [id:dp024158447280267947] 
+\draw   (259,276) -- (307,276) -- (307,317) -- (259,317) -- cycle ;
+%Shape: Rectangle [id:dp04963051453491474] 
+\draw   (308,276) -- (356,276) -- (356,317) -- (308,317) -- cycle ;
+%Shape: Rectangle [id:dp2776518241681968] 
+\draw   (355,276) -- (403,276) -- (403,317) -- (355,317) -- cycle ;
+%Shape: Rectangle [id:dp798838402666958] 
+\draw   (403,276) -- (451,276) -- (451,317) -- (403,317) -- cycle ;
+%Shape: Rectangle [id:dp3424945260032174] 
+\draw   (452,276) -- (500,276) -- (500,317) -- (452,317) -- cycle ;
+%Shape: Rectangle [id:dp12758359611347692] 
+\draw   (500,276) -- (548,276) -- (548,317) -- (500,317) -- cycle ;
+%Shape: Rectangle [id:dp9599025598750984] 
+\draw   (548,276) -- (596,276) -- (596,317) -- (548,317) -- cycle ;
+%Shape: Rectangle [id:dp12293230187194104] 
+\draw   (597,276) -- (645,276) -- (645,317) -- (597,317) -- cycle ;
+%Shape: Rectangle [id:dp8612274594737795] 
+\draw   (646,276) -- (694,276) -- (694,317) -- (646,317) -- cycle ;
+%Shape: Rectangle [id:dp6229136382943214] 
+\draw   (694,276) -- (742,276) -- (742,317) -- (694,317) -- cycle ;
+%Shape: Rectangle [id:dp4674289854929974] 
+\draw   (743,276) -- (791,276) -- (791,317) -- (743,317) -- cycle ;
+%Shape: Rectangle [id:dp20911599987017637] 
+\draw   (791,276) -- (839,276) -- (839,317) -- (791,317) -- cycle ;
+%Shape: Rectangle [id:dp3374723105121622] 
+\draw   (839,276) -- (887,276) -- (887,317) -- (839,317) -- cycle ;
+%Shape: Rectangle [id:dp4051231142634194] 
+\draw   (694,112) -- (742,112) -- (742,153) -- (694,153) -- cycle ;
+%Shape: Rectangle [id:dp0882432912625335] 
+\draw   (645,112) -- (693,112) -- (693,153) -- (645,153) -- cycle ;
+%Shape: Rectangle [id:dp7892170007784535] 
+\draw   (645,72) -- (693,72) -- (693,113) -- (645,113) -- cycle ;
+%Shape: Rectangle [id:dp5078215521765425] 
+\draw   (694,72) -- (742,72) -- (742,113) -- (694,113) -- cycle ;
+%Shape: Rectangle [id:dp13682840191530288] 
+\draw   (743,72) -- (791,72) -- (791,113) -- (743,113) -- cycle ;
+%Shape: Rectangle [id:dp716638802917768] 
+\draw   (791,72) -- (839,72) -- (839,113) -- (791,113) -- cycle ;
+%Shape: Rectangle [id:dp022443513614121335] 
+\draw   (839,72) -- (887,72) -- (887,113) -- (839,113) -- cycle ;
+%Shape: Rectangle [id:dp8714992302452226] 
+\draw   (838,29) -- (886,29) -- (886,70) -- (838,70) -- cycle ;
+%Shape: Rectangle [id:dp3418002197604859] 
+\draw   (66,112) -- (114,112) -- (114,153) -- (66,153) -- cycle ;
+%Shape: Rectangle [id:dp42737731383602684] 
+\draw   (66,70) -- (114,70) -- (114,111) -- (66,111) -- cycle ;
+%Shape: Rectangle [id:dp32248284735679833] 
+\draw   (596,112) -- (644,112) -- (644,153) -- (596,153) -- cycle ;
+%Shape: Rectangle [id:dp7017186057035553] 
+\draw   (597,71) -- (645,71) -- (645,112) -- (597,112) -- cycle ;
+
+% Text Node
+\draw (82,161.33) node [anchor=north west][inner sep=0.75pt]   [align=left] {{\large X}};
+% Text Node
+\draw (658,81.33) node [anchor=north west][inner sep=0.75pt]   [align=left] {{\large Y}};
+% Text Node
+\draw (711.33,124) node [anchor=north west][inner sep=0.75pt]   [align=left] {{\large Z}};
+
+
+\end{tikzpicture}
+
+#+end_export

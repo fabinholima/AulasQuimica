@@ -1,0 +1,470 @@
+% Created 2024-05-31 Fri 15:56
+% Intended LaTeX compiler: lualatex
+\documentclass[10pt]{scrartcl}
+
+
+\KOMAoptions{
+%headings=chapterprefix,
+%%twocolumn=false,
+%toc=indenttextentries,
+%toc=flat,
+twoside=true,
+headinclude=true,
+footinclude=true
+%  captions=topbeside
+}
+%\usepackage[fontsize=12.3]{scrextend}
+\usepackage{fontspec}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+\usepackage[x11names,svgnames,table]{xcolor}
+\defaultfontfeatures{Ligatures=TeX}
+\setmainfont{Lato}
+\usepackage{typearea}
+\usepackage{lscape}
+\usepackage[a4paper]{geometry}
+\geometry{a4paper,total={170mm,257mm},left=30mm,right=30mm, top=15mm, bottom=20mm}
+\usepackage[english, portuguese, american]{babel}
+\usepackage{amsmath,amsfonts,amsthm,bm}
+\usepackage{graphicx}
+\usepackage{float,wrapfig}
+\usepackage{colortbl}
+\usepackage{tabularx}
+\usepackage{pst-labo}
+\usepackage{setspace}
+\usepackage{xfrac}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.3}
+%% Diagraman latex
+\usepackage{endiagram}
+\usepackage{smartdiagram}
+\usepackage[tikz]{bclogo}
+\usetikzlibrary{fit,patterns,shadows.blur,shapes,decorations.pathreplacing,decorations.markings,arrows.meta,arrows,positioning,shadows,trees}
+\usetikzlibrary{decorations.pathmorphing} %% to chemfig config bond
+\usepackage{upgreek}
+\usepackage{chemmacros}
+%%\chemsetup{modules={reactions,spectroscopy,thermodynamics,redox,isotopes}}
+\chemsetup{modules={all}}
+%\usepackage[version=4,arrows=pgf-filled]{mhchem}
+\usepackage{chemfig,elements,cancel,siunitx}
+\NewChemPhase\lqdd{\(\ell\)}
+\NewChemPhase\gr{grafite}
+\NewChemPhase\reac{reação}
+\setchemfig{fixed length=true, atom sep=2.0em, arrow offset=6pt, scheme debug=false,angle increment=30}
+\renewcommand{\CancelColor}{\color{red}}
+\usepackage{circuitikz}
+\usepackage{mol2chemfig}
+\usepackage{subfig,caption}
+\captionsetup{font=small, labelfont={bf,sf}}
+\usepackage{wrapfig,qrcode}
+\usepackage{array,longtable} % ajust colunm table
+\newcolumntype{J}{>{\centering\arraybackslash}m{7.5cm}}
+\newcolumntype{K}{>{\centering\arraybackslash}m{6.5cm}}
+\newcolumntype{L}{>{\centering\arraybackslash}m{5cm}}
+\newcolumntype{B}{>{\centering\arraybackslash}m{2.5cm}}
+\newcolumntype{N}{>{\centering\arraybackslash}m{1.4cm}}
+\usepackage[most]{tcolorbox}
+\newcounter{mycounter}
+%%% Colobor
+%%% Example colorbox
+\newtcolorbox{Box2}[2][]{
+lower separated=false,
+colback=white,
+colframe=black,fonttitle=\bfseries,
+colbacktitle=black,
+coltitle=white,
+enhanced, attach boxed title to top left={yshift=-0.1in,xshift=0.15in}, boxed title style={boxrule=0pt,colframe=white,}, title=#2,#1}
+%%%%%%%% Cabecalho
+\usepackage{framed,amsmath}
+\newtcolorbox{mybox}[2][]{
+enhanced,title=#2, fonttitle=\sffamily\small,
+top=2pt,
+bottom=1mm,
+boxrule=0.4pt,
+coltitle=black,
+colback=white,
+attach boxed title to top center={yshift=-\tcboxedtitleheight/2,
+yshifttext=-\tcboxedtitleheight/2},
+boxed title style={
+colframe=white,
+colback=white,
+left=0.2pt,
+right=0.2pt},
+#1}
+\usepackage{tabularray}
+%%%%%%
+\newtcolorbox{exercisebox}%
+{enhanced,breakable,colback=white, colframe=green!15!white,colbacktitle=white!15!pink, coltitle=pink!50!black,left=0pt,right=0mm,top=3mm,bottom=3mm,pad at break=0pt,bottomrule at break=0pt,toprule at break=0pt,borderline={0mm}{0mm}{green!50!white,dashed}, attach boxed title to top center={yshift=-2mm},boxed title style={boxrule=0.4pt},title=Exercícios,}
+\usepackage{eso-pic}
+\usepackage{etoolbox}
+\usepackage{enumitem}
+\newcommand\circitem[1]{%
+\tikz[baseline=(char.base)]{%https://tex.stackexchange.com/questions/204116/uniform-size-of-circles-around-enumitems
+\node[circle,draw=gray, fill=gray!30,
+minimum size=1.2em,inner sep=0] (char) {#1};}}
+\newcommand\boxitem[1]{%
+\tikz[baseline=(char.base)]{%https://tex.stackexchange.com/questions/204116/uniform-size-of-circles-around-enumitems
+\node[fill=orange!30,
+minimum size=1.2em,inner sep=0] (char) {#1};}}
+%\usepackage{widetext}% needs packages "flushend" & "cuted" of "sttools" % bundle, which perhaps must separately be installed
+\newcommand{\dd}[1]{\hspace{2pt}d#1}
+\definecolor{color1}{RGB}{0,0,90} % Color of the article title and sections
+\definecolor{color2}{RGB}{0,20,20} % Color of the boxes behind the abstract and
+\definecolor{cinza}{HTML}{C0C0C0}
+%%% Custom Exercios
+\usepackage{bohr}
+\usepackage{multicol}
+\setlength{\columnsep}{1.5cm}
+\setlength{\columnseprule}{0.2pt}
+\usepackage[no-files]{xsim}
+\usepackage{tasks}
+\xsimsetup{
+goal-print={\pgfmathprintnumber[fixed zerofill,precision=1]{#1}}
+}
+\newcommand*\circled[2]{\tikz[baseline=(char.base)]{
+\node[shape=circle,fill,inner sep=2pt, text=white] (char) {#1};}}
+%%%%%-Custom Xsim exercises %%%%%
+\DeclareExerciseEnvironmentTemplate{custom}
+{%\item[\GetExerciseProperty{counter}]
+\Needspace*{0\baselineskip}
+\noindent
+\circled{\XSIMmixedcase{\GetExerciseProperty{counter}}}~~~%
+\noindent
+\IfInsideSolutionF{%
+\GetExercisePropertyT{points}{ % notice the space
+(%
+\printgoal{\PropertyValue}
+\IfExerciseGoalSingularTF{points}
+{%\XSIMtranslate{point}
+}
+{% \XSIMtranslate{points}
+}%
+)%
+}
+}}
+{\vspace{\baselineskip}}
+
+%%%%%------- Custom  resposta -------%%%%%%%
+\DeclareExerciseEnvironmentTemplate{space}
+%{\textbf{\GetExerciseProperty{counter}} }
+{\noindent\circled{\XSIMmixedcase{\GetExerciseProperty{counter}}}~~~}
+% {\circled{\XSIMmixedcase{\GetExerciseProperty{counter}}}}~~~%
+{\qquad}
+\newcommand*\answer[1]{%
+\XSIMexpandcode{%
+\SetExerciseProperty{solution-body}
+{\noexpand{\Alph{task}}}}%
+#1%
+}
+%\sisetup{locale=DE}
+\xsimsetup{
+collect = true,
+exercise/within = section, %%% reset number xsim in
+exercise/template = custom,
+exercise/the-counter =  \arabic{exercise},
+solution/template=custom,
+%solution/print=true,
+%print-collection/print=both,
+%goal-print= {\pgfmathprintnumber[fixed zerofill,precision=1]\num{#1}}
+}
+\RenewDocumentCommand\printpoints{}{%
+\TotalExerciseTypeGoal{exercise}{points}{}{}%
+}
+\NewTasksEnvironment[label = (\emph{\alph*}), label-width = 12pt]{choice}[\choice]
+\newenvironment{questions}{\itemize}{\enditemize}
+\DeclareExerciseHeadingTemplate{solution}{%
+\section*{Gabarito}%
+}
+\everymath{\displaystyle}
+%\usepackage{filecontents}
+\usepackage{lineno}
+\newcommand{\lh}{\underline{\hspace{1cm}}}
+%%\onehalfspacing
+\def\professor{Fábio Lima}
+\def\aluno{}
+\def\numerochamada{}
+\def\disciplina{Química}
+%%\def\disciplina{UCIII}
+%%\def\disciplina{R.A.}
+\def\turma{3 Ano }
+%%\def\tipo{{\bfseries Avaliação Bimestral}}
+\def\tipo{\bfseries RECUPERAÇÃO }
+%%\def\tipo{\bfseries Exame Final}
+\def\bimestre{2 Bimestre}
+\def\escola{E.E. 26 de Agosto}
+%%\def\escola{E.E. José Mamede de Aquino}
+%\def\escola{E.E. Amelio Carvalho de Bais}
+%5\def\escola{}
+\def\dataprova{}
+\DeclareExerciseCollection{BalanceamentoRedoxI}
+\DeclareExerciseCollection{BalanceamentoRedoxII}
+\DeclareExerciseCollection{BalanceamentoRedoxIII}
+\setcounter{secnumdepth}{0}
+\date{\today}
+\title{}
+\hypersetup{
+ pdfauthor={},
+ pdftitle={},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 29.3 (Org mode 9.6.15)}, 
+ pdflang={English}}
+\begin{document}
+
+\pagebreak 
+%%\input{../Modelos/geral}
+%%\input{../Modelos/cabenovo}
+%%\input{../Modelos/26agosto}
+\input{../Modelos/CabeOficial}
+%\section*{Tópicos RPP de Química}
+\smallbreak
+\medbreak
+\vspace{-9cm}
+
+
+\collectexercises{BalanceamentoRedoxI}
+
+\begin{exercise}
+\ch{As2O3 + HNO3 + H2O ->  H3AsO4 + NO} \vspace{1cm} 
+\end{exercise}
+
+
+\begin{exercise}
+\ch{KI + KNO2 + H2SO4 ->  I2 + NO + K2SO4 + H2O}\vspace{1cm}
+\end{exercise}
+
+
+
+\begin{exercise}
+\ch{KI + H2SO4 -> K2SO4 + I2 + H2S + H2O}  \vspace{1cm}
+\end{exercise}
+
+
+\begin{exercise}
+\ch{C + H2SO4 -> CO2 + SO2 + H2O}  \vspace{1cm}
+\end{exercise}
+
+
+\begin{exercise}
+\ch{Cu + H2SO4 -> CuSO4 + SO2 + H2O}  \vspace{1cm}
+\end{exercise}
+
+
+\begin{exercise}
+\ch{KSCN + H2O + I2 -> KHSO4 + HI + ICN}  \vspace{1cm}
+\end{exercise}
+
+
+\begin{exercise}
+\ch{A$\ell$Br3 + KMnO4 + H2SO4 -> A$\ell$2(SO4)3 + K2SO4 + MnSO4 + Br2 + H2O}  \vspace{1cm}
+\end{exercise}
+
+\begin{exercise}
+\ch{FeSO4 + KMnO4 + H2SO4 -> Fe2(SO4)3 + K2SO4 + MnSO4 + H2O}  \vspace{1cm}
+\end{exercise}
+
+
+\begin{exercise}
+\ch{Na2C2O4 + KMnO4 + H2SO4 -> K2SO4 + Na2SO4 + MnSO4 + CO2 + H2O} \vspace{1cm}
+\end{exercise}
+
+
+
+\begin{exercise}
+\ch{KMnO4 + Na2SO3 + H2SO4 ->  MnSO4 + Na2SO4 + K2SO4 + H2O}
+\end{exercise}
+
+
+
+\collectexercisesstop{BalanceamentoRedoxI}
+
+
+
+
+\collectexercises{BalanceamentoRedoxII}
+
+\begin{exercise}
+ \ch{Mn^{2+} + BiO^{3-} ->  MnO4^- +  Bi^{3+}} 
+\end{exercise}
+\begin{solution}
+\ch{14 H^+ + 2 Mn^{2+} + 5 BiO3^- -> 2 MnO4^- + 5 Bi^{3+} + 7 H2O}
+\end{solution}
+\vspace{1cm}
+
+
+\begin{exercise}
+ \ch{MnO4^- + S2O3^2- -> S4O6^2- + Mn^2+}
+\end{exercise}
+\vspace{1cm}
+
+
+
+\begin{exercise}
+ \ch{C$\ell$O3^- + C$\ell$^- -> C$\ell$2 + C$\ell$O2} 
+\end{exercise}
+\vspace{1cm}
+
+
+\begin{exercise}
+ \ch{P + Cu^2+ -> Cu + H2PO4^-}
+\end{exercise}
+\vspace{1cm}
+
+
+
+\begin{exercise}
+ \ch{PH3 + I2 ->  H3PO2^- + I^-} 
+\end{exercise}
+\vspace{1cm}
+
+
+
+
+
+
+\begin{exercise}
+ \ch{NO2 ->  NO3^- + NO} 
+\end{exercise}
+\bigskip
+
+
+
+\begin{exercise}
+ \ch{H2O2 + Cr2O7^2- -> O2 + Cr^3+}
+\end{exercise}
+\begin{solution}
+ \ch{8 H^+ + 3 H2O2 + Cr2O7^2- -> 3 O2 + 2 Cr^3+ + 7 H2O }
+\end{solution}
+\bigskip
+
+
+
+
+\begin{exercise}
+ \ch{PbO2 + I2 -> Pb^2+ + IO3^-}
+\end{exercise}
+\begin{solution}
+ \ch{8H^+ + 5 PbO2 + I2 ->  5 Pb^2+ + 2 IO3^- + 4 H2O}
+\end{solution}
+\bigskip
+
+
+
+
+\begin{exercise}
+ \ch{ReO4^- + IO^- -> IO3^- + Re}
+\end{exercise}
+\begin{solution}
+ \ch{ReO4^- + IO^- -> IO3^- + Re} 
+\end{solution}
+\bigskip
+\bigskip
+
+
+
+
+\begin{exercise}
+ \ch{As -> H2AsO4- + AsH3}
+\end{exercise}
+\begin{solution}
+ \ch{12 H2O + 8 As -> 3 H2AsO4- + 5 AsH3 + 3 H^+}
+\end{solution}
+\bigskip
+\bigskip
+
+
+
+
+\collectexercisesstop{BalanceamentoRedoxII}
+
+
+
+
+\collectexercises{BalanceamentoRedoxIII}
+
+
+\begin{exercise}
+ \ch{MnO4^- +  C2O4^{2-} ->  MnO2 + CO2}
+\end{exercise}
+\bigskip
+
+
+\begin{exercise}
+ \ch{Cu(NH3)4^{2+} + S2O4^{2-} -> SO3^{2-} + Cu + NH3}
+\end{exercise}
+\begin{solution}
+\end{solution}
+\bigskip
+
+
+\begin{exercise}
+ \ch{Zn + NO3^- ->  Zn(OH)4^2- + NH3}
+\end{exercise}
+\begin{solution}
+\end{solution}
+\bigskip
+
+\begin{exercise}
+ \ch{A$\ell$  + OH^- -> A$\ell$O2^- + H2} 
+\end{exercise}
+\bigskip
+
+\begin{exercise}
+ \ch{Zn ->  Zn(OH)4^{2-} + H2} 
+\end{exercise}
+
+
+
+
+\begin{exercise}
+\end{exercise}
+\begin{solution}
+\end{solution}
+\bigskip
+\bigskip
+
+
+
+
+
+\begin{exercise}
+\end{exercise}
+\begin{solution}
+\end{solution}
+\bigskip
+\bigskip
+
+
+\begin{exercise}
+\end{exercise}
+\begin{solution}
+\end{solution}
+\bigskip
+\bigskip
+
+
+
+\collectexercisesstop{BalanceamentoRedoxIII}
+
+
+
+\section{Realize o balanceamento das reações redox}
+
+\printcollection{BalanceamentoRedoxI}
+
+\newpage
+
+\section{Equilibre cada reação redox em solução ácida.}
+
+
+\printcollection{BalanceamentoRedoxII}
+
+\newpage
+
+
+\section{Equilibre cada reação redox em solução básica.}
+
+
+\printcollection{BalanceamentoRedoxIII}
+\end{document}

@@ -1,0 +1,259 @@
+
+#+LATEX_HEADER: \DeclareExerciseCollection{LigacoesQuimica2}
+
+
+\collectexercises{LigacoesQuimica2}
+
+
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+Qual das seguintes partículas subatômicas está envolvida na formação de ligações químicas?
+#+begin_choice
+\choice Prótons
+\choice Elétrons
+\choice Nêutrons
+\choice Quarks
+#+end_choice
+#+end_exercise
+
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+Que tipo de ligação química ocorre quando os elétrons são compartilhados entre dois átomos?
+#+begin_choice
+\choice Ligação iônica
+\choice Ligação covalente
+\choice Ligação metálica
+\choice Ligação pi
+#+end_choice
+#+end_exercise
+
+
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+Quando um átomo ganha elétrons durante uma ligação química, ele se torna:
+
+#+begin_choice
+\choice Um ânion
+\choice Um cátion
+\choice Um isótopo
+\choice Um metal
+#+end_choice
+#+end_exercise
+
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+Qual dos seguintes compostos é formado por uma ligação iônica?
+#+begin_choice
+\choice \ch{H2O} (água)
+\choice \ch{CO2} (dióxido de carbono)
+\choice NaCl (cloreto de sódio)
+\choice \ch{CH4} (metano)
+#+end_choice
+#+end_exercise
+
+
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+Qual dos seguintes elementos é mais eletronegativo?
+
+#+begin_choice
+\choice Hidrogênio (H)
+\choice Carbono (C)
+\choice Oxigênio (O)
+\choice Sódio (Na)
+#+end_choice
+#+end_exercise
+
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+Qual é o número de ligações covalentes em uma molécula de oxigênio (\ch{O2})?
+#+begin_choice
+\choice 0
+\choice 1
+\choice 2
+\choice 3
+#+end_choice
+#+end_exercise
+
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+Em que tipo de ligação química os átomos compartilham elétrons de maneira desigual devido a diferenças de eletronegatividade?
+
+#+begin_choice
+\choice Ligação iônica
+\choice Ligação covalente não polar
+\choice Ligação covalente polar
+\choice Ligação metálica
+#+end_choice
+#+end_exercise
+
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+Qual é o nome da ligação química que ocorre entre um metal e um não metal?
+#+begin_choice
+\choice Ligação iônica
+\choice Ligação covalente
+\choice Ligação metálica
+\choice Ligação pi
+#+end_choice
+#+end_exercise
+
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+Qual dos seguintes compostos é uma substância molecular?
+
+#+begin_choice
+\choice NaC$\ell$ (cloreto de sódio)
+\choice \ch{H2O2} (peróxido de hidrogênio)
+\choice CaO (óxido de cálcio)
+\choice KBr (brometo de potássio)
+#+end_choice
+#+end_exercise
+
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+Qual é o tipo de ligação química que ocorre entre átomos de elementos metálicos?
+
+#+begin_choice
+\choice Ligação iônica
+\choice Ligação covalente
+\choice Ligação covalente dativa
+\choice Ligação metálica
+#+end_choice
+#+end_exercise
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+Qual é o tipo de ligação química que ocorre entre átomos de elementos não metálicos?
+
+#+begin_choice
+\choice Ligação iônica
+\choice Ligação covalente
+\choice Ligação covalente dativa
+\choice Ligação metálica
+#+end_choice
+#+end_exercise
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+Qual é o tipo de ligação química que ocorre entre um átomo metálico e um átomo não metálico?
+
+#+begin_choice
+\choice Ligação iônica
+\choice Ligação covalente
+\choice Ligação covalente dativa
+\choice Ligação metálica
+#+end_choice
+#+end_exercise
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+Qual é o tipo de ligação química que ocorre entre um átomo doador e um átomo receptor de elétrons?
+
+#+begin_choice
+\choice Ligação iônica
+\choice Ligação covalente
+\choice Ligação covalente dativa
+\choice Ligação metálica
+#+end_choice
+#+end_exercise
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+Qual é o tipo de ligação química que ocorre entre átomos de um mesmo elemento?
+
+
+#+begin_choice
+\choice Ligação iônica
+\choice Ligação covalente
+\choice Ligação covalente dativa
+\choice Ligação metálica
+#+end_choice
+#+end_exercise
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+Qual é o tipo de ligação química que ocorre entre átomos de elementos com diferença de eletronegatividade muito grande?
+
+#+begin_choice
+\choice Ligação iônica
+\choice Ligação covalente
+\choice Ligação covalente dativa
+\choice Ligação metálica
+#+end_choice
+#+end_exercise
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+Qual é o tipo de ligação química que ocorre entre átomos de elementos com diferença de eletronegatividade pequena?
+#+begin_choice
+\choice Ligação iônica
+\choice Ligação covalente
+\choice Ligação covalente apolar
+\choice Ligação metálica
+#+end_choice
+#+end_exercise
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+Qual é o tipo de ligação química que ocorre entre átomos de elementos com diferença de eletronegatividade intermediária?
+#+begin_choice
+\choice Ligação iônica
+\choice Ligação covalente
+\choice Ligação covalente dativa
+\choice Ligação metálica
+#+end_choice
+#+end_exercise
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+Qual é o tipo de ligação química que ocorre entre átomos de elementos com a mesma eletronegatividade?
+#+begin_choice
+\choice Ligação iônica
+\choice Ligação covalente
+\choice Ligação covalente dativa
+\choice Ligação metálica
+#+end_choice
+#+end_exercise
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+Qual é o tipo de ligação química que ocorre entre átomos de um metal e um ametal?
+#+begin_choice
+\choice Ligação iônica
+\choice Ligação covalente
+\choice Ligação covalente dativa
+\choice Ligação metálica
+#+end_choice
+#+end_exercise
+
+\collectexercisesstop{LigacoesQuimica2}

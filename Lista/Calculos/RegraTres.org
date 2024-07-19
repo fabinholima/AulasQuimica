@@ -1,0 +1,35 @@
+
+#+ATTR_LATEX: :options 
+#+begin_exercise
+Se 4 operários levam 6 dias para realizar um determinado trabalho, quantos dias serão necessários para 8 operários realizarem o mesmo trabalho, supondo que trabalhem com a mesma eficiência?
+#+ATTR_LATEX: :options (2)
+#+begin_choice 
+\choice 2 dias
+\choice 3 dias
+\choice 4 dias
+\choice 5 dias
+#+end_choice
+#+end_exercise
+#+begin_solution
+Resposta: b) 3 dias
+#+end_solution
+
+#+A
+2. Para encher um tanque, 5 torneiras iguais levam 6 horas. Quantas horas levarão 8 torneiras iguais para encher o mesmo tanque? a) 3 horasb) 4 horasc) 5 horasd) 7 horasResposta: a) 3 horas
+3. Se 12 máquinas fabricam 24 peças em 4 dias, quantas peças serão fabricadas por 8 máquinas em 6 dias? a) 18 peçasb) 32 peçasc) 36 peçasd) 48 peçasResposta: b) 32 peças
+4. Para construir um muro, 10 pedreiros levam 8 dias. Quantos dias levarão 15 pedreiros para construir o mesmo muro? a) 5 diasb) 6 diasc) 7 diasd) 9 diasResposta: c) 7 dias
+5. Se 8 operários, trabalhando 6 horas por dia, constroem uma estrada de 240 metros em 10 dias, quantos metros de estrada serão construídos por 12 operários, trabalhando 8 horas por dia, em 15 dias? a) 240 metrosb) 320 metrosc) 400 metrosd) 480 metrosResposta: d) 480 metros
+6. Se 15 operários, em 8 dias, produzem 240 peças, quantos operários serão necessários para produzir 400 peças em 6 dias? a) 12 operáriosb) 18 operáriosc) 20 operáriosd) 24 operáriosResposta: b) 18 operários
+ 
+1.	Um carro percorre 360 km em 6 horas. Qual a sua velocidade média em km/h? A) 60 km/h B) 50 km/h C) 70 km/h D) 40 km/h Resposta correta: A) 60 km/h
+2.	Se 4 operários constroem uma casa em 20 dias, em quantos dias 8 operários construirão uma casa igual? A) 10 dias B) 15 dias C) 5 dias D) 8 dias Resposta correta: C) 5 dias
+3.	Se 12 metros de um tecido custam R$ 36, qual será o custo de 8 metros desse mesmo tecido? A) R$ 12 B) R$ 24 C) R$ 18 D) R$ 30 Resposta correta: C) R$ 18
+4.	Se 5 máquinas produzem 500 peças em 4 horas, quantas máquinas serão necessárias para produzir 2000 peças no mesmo tempo? A) 10 máquinas B) 20 máquinas C) 15 máquinas D) 25 máquinas Resposta correta: B) 20 máquinas
+5.	Um reservatório cheio de água tem capacidade para 2400 litros. Se 8 torneiras desse reservatório enchem-no completamente em 6 horas, em quantas horas 6 torneiras encheriam o mesmo reservatório? A) 8 horas B) 10 horas C) 12 horas D) 9 horas Resposta correta: A) 8 horas
+1.	Um carro percorre 360 km em 6 horas. Qual a sua velocidade média em km/h? A) 60 km/h B) 50 km/h C) 70 km/h D) 40 km/h Resposta correta: A) 60 km/h
+2.	Se 4 operários constroem uma casa em 20 dias, em quantos dias 8 operários construirão uma casa igual? A) 10 dias B) 15 dias C) 5 dias D) 8 dias Resposta correta: C) 5 dias
+3.	Se 12 metros de um tecido custam R$ 36, qual será o custo de 8 metros desse mesmo tecido? A) R$ 12 B) R$ 24 C) R$ 18 D) R$ 30 Resposta correta: C) R$ 18
+4.	Se 5 máquinas produzem 500 peças em 4 horas, quantas máquinas serão necessárias para produzir 2000 peças no mesmo tempo? A) 10 máquinas B) 20 máquinas C) 15 máquinas D) 25 máquinas Resposta correta: B) 20 máquinas
+5.	Um reservatório cheio de água tem capacidade para 2400 litros. Se 8 torneiras desse reservatório enchem-no completamente em 6 horas, em quantas horas 6 torneiras encheriam o mesmo reservatório? A) 8 horas B) 10 horas C) 12 horas D) 9 horas Resposta correta: A) 8 horas
+
+

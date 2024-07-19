@@ -1,0 +1,805 @@
+
+
+#+LATEX_HEADER: \DeclareExerciseCollection{Substancias}
+#+LATEX_HEADER: \DeclareExerciseCollection{LeisProust}
+#+LATEX_HEADER: \DeclareExerciseCollection{TeoriaAtomica2}
+#+LATEX_HEADER: \DeclareExerciseCollection{BalanAberta}
+#+LATEX_HEADER: \DeclareExerciseCollection{BalanAberta2}
+#+LATEX_HEADER: \DeclareExerciseCollection{EsqueAberta}
+#+LATEX_HEADER: \DeclareExerciseCollection{EsqueAberta2}
+
+
+
+
+\collectexercises{Substancias}
+
+#+ATTR_LATEX: :options [points=1.0001]
+#+begin_exercise
+Um químico deseja separar todos os componentes que constituem um sistema heterogêneo formado pela mistura de um álcool, de uma base, areia e de um óleo. Determine o processo de separação adequado em *X*, *Y* e *Z*, sabendo que a base é um granulado solúvel no álcool.
+
+#+ATTR_LATEX: :scale 0.4
+[[../Questoes/diagram-20230422.png]]
+
+Quais são o metódos usados em *x*, *y* e *z* ?
+
+
+#+begin_export latex
+\blank[blank-style={\phantom{#1}},width=12\linewidth]{}
+#+end_export 
+
+
+#+end_exercise 
+
+
+
+#+ATTR_LATEX: :options [points=1.0001]
+#+begin_exercise
+Responder à questão numerando corretamente a coluna que contém exemplos de sistemas, de acordo com a que apresenta a classificação dos mesmos.
+
+| 1.  elemento    químico     | (\quad) fluoreto de sódio     |
+| 2.  substância  simples     | (\quad ) gás oxigênio         |
+| 3.  substância  composta    | (\quad ) água do mar filtrada |
+| 4.  mistura     homogênea   | (\quad ) limonada com gelo    |
+| 5.  mistura     heterogênea | (\quad ) Vinho                |
+
+#+end_exercise 
+
+
+#+ATTR_LATEX: :options [points=1.0001]
+#+begin_exercise
+Relacione o método de separação de misturas com a propriedade utilizada no processo de separação.
+#+ATTR_LATEX: :options [label=\Roman*.]
+1. Decantação
+2. Destilação
+3. Extração por solvente
+
+#+ATTR_LATEX: :options [label=\Alph*.]
+1. Solubilidade
+2. Densidade
+3. Temperatura de ebulição
+
+\blank[width=2.8\linewidth,linespread=1.5]{}
+
+#+end_exercise
+
+
+#+ATTR_LATEX: :options [points=1.0001]
+#+begin_exercise
+Separação de misturas é uma operação muito comum no setor de petróleo e combustíveis. Diversos métodos são aplicados para atender a essa necessidade. Sabendo-se que a água e o álcool são miscíveis e o óleo imiscível nestes e que o álcool tem o menor e o óleo o maior ponto de ebulição, quais os métodos adequados para separar essas três substâncias? Explique.
+
+\blank[width=9.\linewidth,linespread=1.5]{}
+
+#+end_exercise 
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0001]
+#+begin_exercise
+Descreva as etapas para separar a seguinte mistura
+
+*Gasolina + Água + Sal + Benzeno + areia + serragem*
+
+Dica: Benzeno é solúvel em solvente orgânicos(gasolina).
+
+\blank[width=9.\linewidth,linespread=1.5]{}
+
+#+end_exercise 
+
+
+
+\collectexercisesstop{Substancias}
+
+
+#+BEGIN_COMMENT
+----======  LEIS PONDERAIS ===== --------
+#+END_COMMENT
+
+
+
+\collectexercises{LeisProust}
+
+#+ATTR_LATEX: :options [points=1.0001]
+#+begin_exercise
+Aquecendo-se 21 g de ferro com 15 g de enxofre obtém-se 33 g de sulfeto ferroso,
+restando 3 g de enxofre. Aquecendo-se 30 g de ferro com 16 g de enxofre obtém-se 44 g de sulfeto ferroso, e restando 2 g de ferro.
+Demonstrar que esses dados obedecem às leis de Lavoisier (conservação da massa) e de Proust
+(proporções definidas).
+
+#+begin_export latex
+\blank[blank-style={\phantom{#1}},width=12\linewidth]{}
+#+end_export 
+
+#+end_exercise 
+
+
+
+#+ATTR_LATEX: :options [points=1.0001]
+#+begin_exercise
+Quando um objeto de ferro enferruja ao ar, sua massa aumenta. Quando um palito
+de fósforo é aceso, sua massa diminui. Estas observações violam a Lei da Conservação das Massas? Justifique sua resposta.
+
+#+begin_export latex
+\blank[blank-style={\phantom{#1}},width=12\linewidth]{}
+#+end_export 
+
+
+#+end_exercise 
+
+
+\collectexercisesstop{LeisProust}
+
+
+
+
+
+\collectexercises{TeoriaAtomica2}
+
+#+ATTR_LATEX: :options [points=1.5]
+#+begin_exercise
+Analise as proposições abaixo e diga se são verdadeiros ou falsos :
++
+( \quad ) Associar o átomo a uma esfera maciça está de acordo com a teoria atômica de Dalton.
+
+( \quad ) Para Thomson, o átomo era uma esfera positiva com cargas negativas.
+
+( \quad ) Rutherford introduziu o modelo nuclear para o átomo (núcleo com elétrons).
+
+(\quad  ) Para Bohr, os elétrons localizam-se ao redor do núcleo em órbitas específicas.
+
+( \quad  ) Segundo Rutherford, a carga do núcleo é positiva devido aos prótons.
+#+end_exercise
+
+
+
+#+ATTR_LATEX: :options [points=1.5]
+#+begin_exercise
+Represente (desenhe)  o modelo atômico de Rutherford
+#+end_exercise
+
+
+
+#+ATTR_LATEX: :options [points=1.5]
+#+begin_exercise
+Represente (desenhe) o modelo atômico de Dalton 
+#+end_exercise
+
+
+
+
+#+ATTR_LATEX: :options [points=1.5]
+#+begin_exercise
+Represente (desenhe) o modelo atômico de Thomson
+#+end_exercise
+
+\collectexercisesstop{TeoriaAtomica2}
+
+
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.25]
+#+begin_exercise
+O que significa dizer que uma equação está balanceada? Por que é importante que uma equação seja balanceada?
+\blank[width=7.9\linewidth,linespread=1.5]{}
+#+end_exercise 
+
+
+
+
+\collectexercises{BalanAberta}
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Balanceie a  reação a seguir:
+
+#+begin_export latex
+\begin{reactions*}
+\lh Pb(NO3)2 + \lh FeC$\ell$3 -> & \lh Fe(NO3)3 + \lh PbC$\ell$2
+\end{reactions*}
+#+end_export
+#+end_exercise 
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Balanceie a reação a seguir:
+#+begin_export latex
+\begin{reactions*}
+\lh C6H5COOH + \lh O2 -> \lh CO2 + \lh H2O
+\end{reactions*}
+#+end_export
+#+end_exercise
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Balanceie a reação a seguir
+#+begin_export latex
+\begin{reactions*}
+\lh AgNO3 + \lh NaBr ->  \lh AgBr  + \lh  NaNO3
+\end{reactions*}
+#+end_export
+#+end_exercise 
+
+
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Balanceie a reação a seguir 
+#+begin_export latex
+\begin{reaction*}
+\lh Ca(OH)2 + \lh H3PO4 -> \lh CaHPO4 + \lh H2O
+\end{reaction*}
+#+end_export
+#+end_exercise 
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Balanceie a reação a seguir 
+#+begin_export latex
+\begin{reaction*}
+\lh Na2CO3 + \lh HC$\ell$ ->  \lh NaC$\ell$ + \lh H2O + \lh CO2
+\end{reaction*}
+#+end_export
+#+end_exercise 
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Balanceie a reação a seguir
+
+#+begin_export latex
+\begin{reaction*}
+\lh S + \lh  HNO3 ->  \lh  H2SO4   +  \lh  NO2   + \lh  H2O
+\end{reaction*}
+#+end_export
+#+end_exercise 
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Balanceie a reação a seguir 
+#+begin_export latex
+\begin{reaction*}
+\lh Fe + \lh HC2H3O2 -> \lh Fe(C2H3O2)3 +  \lh H2
+\end{reaction*}
+#+end_export
+#+end_exercise 
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Balanceie a reação a seguir 
+
+#+begin_export latex
+\begin{reaction*}
+\lh NH4OH + \lh KA$\ell$(SO4)2. 12 H2O -> \lh A$\ell$(OH)3 + \lh (NH4)2SO4  +  \lh KOH + \lh H2O
+\end{reaction*}
+#+end_export
+#+end_exercise 
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Balanceie a reação a seguir 
+#+begin_export latex
+\begin{reaction*}
+\lh AgBr + \lh Na2S2O3 -> \lh  Na3Ag(S2O3)2 + \lh NaBr
+\end{reaction*}
+#+end_export
+#+end_exercise
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Balanceie a reação a seguir
+#+begin_export latex
+\begin{reaction*}
+\lh Pb(NO3)2 + \lh Na3PO4 -> \lh  Pb3(PO4)2 + \lh NaNO3
+\end{reaction*}
+#+end_export
+#+end_exercise 
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Balanceie a reação a seguir
+#+begin_export latex
+\begin{reaction*}
+\lh V2O5 + \lh A$\ell$ -> \lh A$\ell$2O3 + \lh V
+\end{reaction*}
+#+end_export
+#+end_exercise 
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Balanceie a reação a seguir
+#+begin_export latex
+\begin{reaction*}
+\lh FeS2 + \lh O2 -> \lh Fe2O3 + \lh SO2
+\end{reaction*}
+#+end_export
+#+end_exercise 
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Balanceie a reação a seguir
+#+begin_export latex
+\begin{reaction*}
+\lh Si2H3 + \lh O2 -> \lh SiO2 + \lh H2O
+\end{reaction*}
+#+end_export
+#+end_exercise 
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Balanceie a reação a seguir
+#+begin_export latex
+\begin{reaction*}
+\lh P4 + \lh H2O -> \lh H3PO4 + \lh H2
+\end{reaction*}
+#+end_export
+#+end_exercise 
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Balanceie a reação a seguir
+#+begin_export latex
+\begin{reaction*}
+\lh H2S + \lh C$\ell$2 -> \lh S8 + \lh HC$\ell$
+\end{reaction*}
+#+end_export
+#+end_exercise 
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Balanceie a reação a seguir
+#+begin_export latex
+\begin{reaction*}
+\lh C4H10 + \lh O2 -> \lh CO2 + \lh H2O
+\end{reaction*}
+#+end_export
+#+end_exercise 
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Balanceie a reação a seguir
+#+begin_export latex
+\begin{reaction*}
+\lh Ca3(PO4)2 + \lh SiO2 + \lh C -> \lh CaSiO3 + \lh P4 + \lh CO
+\end{reaction*}
+#+end_export
+#+end_exercise 
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Balanceie a reação a seguir
+#+begin_export latex
+\begin{reaction*}
+\lh C6H6 + \lh O2 -> \lh CO2 + \lh H2O
+\end{reaction*}
+#+end_export
+#+end_exercise 
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Balanceie a reação a seguir
+#+begin_export latex
+\begin{reaction*}
+\lh C10H16 + \lh C$\ell$2 -> \lh C + \lh HC$\ell$
+\end{reaction*}
+#+end_export
+#+end_exercise 
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Balanceie a reação a seguir
+#+begin_export latex
+\begin{reaction*}
+\lh C7H6O2 + \lh O2 -> \lh CO2 + \lh H2O
+\end{reaction*}
+#+end_export
+#+end_exercise 
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Balanceie a reação a seguir
+#+begin_export latex
+\begin{reaction*}
+\lh C7H16 + \lh O2 -> \lh CO2 + \lh H2O
+\end{reaction*}
+#+end_export
+#+end_exercise 
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Balanceie a reação a seguir
+#+begin_export latex
+\begin{reaction*}
+\lh C7H10N + \lh O2 -> \lh CO2 + \lh H2O + \lh NO2
+\end{reaction*}
+#+end_export
+#+end_exercise
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Balanceie a reação a seguir
+#+begin_export latex
+\begin{reaction*}
+\lh KNO3 + \lh C12H22O11 -> \lh N2 + \lh CO2 + \lh H2O + \lh K2CO3
+\end{reaction*}
+#+end_export
+#+end_exercise
+
+
+
+
+\collectexercisesstop{BalanAberta}
+
+
+
+
+
+
+
+
+
+#+BEGIN_COMMENT
+
+================  MOL ============================
+
+#+END_COMMENT
+
+
+#+begin_exercise
+A massa molecular da espécie @@latex: \ch{H4P2Ox}@@ é 146 u, logo o valor de "$x$" é:
+
+Dados: H = 1 u; O = 16 u; P = 31 u
+
+
+\blank[width=5.5\linewidth,linespread=1.5]{}
+
+#+end_exercise 
+
+
+
+
+
+
+
+
+
+
+
+\collectexercises{EsqueAberta}
+
+
+#+ATTR_LATEX: :options [points=3] 
+#+begin_exercise
+Para a reação balanceada de formação da glicose a partir da fotossintese
+#+begin_export latex
+\begin{reaction*}
+6 CO2_{\gas} + 6 H2O_{\lqdd} -> C6H12O6_{\sld} + 6 O2_{\gas}
+\end{reaction*}
+#+end_export
+
+Dados: \ch{CO2}=44 g/mol; \ch{C6H12O6}=180 g/mol; \ch{O2}=32 g/mol; \ch{H2O}=18 g/mol
+#+begin_export latex
+\begin{choice}
+\choice Qual a massa de \ch{CO2} necessária para produzir 2,16 kg de glicose \ch{C6H12O6}?
+
+\blank[blank-style={\phantom{#1}},width=7\linewidth]{}
+
+\choice Qual a massa de \ch{H2O} necessária para produzir 2,16 kg de glicose \ch{C6H12O6}?
+
+\blank[blank-style={\phantom{#1}},width=7\linewidth]{}
+
+\choice Qual o volume \ch{O2} necessário para produzir 2,16 kg de glicose \ch{C6H12O6}? Dados: 22,4 L/mol
+
+\blank[blank-style={\phantom{#1}},width=7\linewidth]{}
+\end{choice}
+#+end_export
+
+#+end_exercise 
+
+
+
+
+#+begin_exercise
+Para a reação abaixo *não balanceada*
+
+#+begin_export latex
+\begin{reaction*}
+CHC$\ell$3_{\lqdd} + Zn_{\sld} + H2O_{\lqdd} -> CH4_{\gas} + Zn(OH)C$\ell$_{\sld} 
+\end{reaction*}
+
+Dados: \ch{CHC$\ell$3} = 120 g/mol; Zn=65 g/mol; \ch{Zn(OH)C$\ell$= 118 g/mol}
+
+
+
+\begin{choice}
+\choice Qual a massa de \ch{CH4} obtida a partir de 400 g de Zn?
+
+\blank[blank-style={\phantom{#1}},width=6\linewidth]{}
+
+\choice Sabendo que partimos de 1,543 kg de \ch{Zn(OH)C$\ell$}, qual a massa necessária de Zn?
+\blank[blank-style={\phantom{#1}},width=6\linewidth]{}
+
+\end{choice}
+%\pagebreak
+#+end_export
+#+end_exercise
+
+
+
+#+begin_exercise
+Para a reação balanceada
+
+#+begin_export latex
+\begin{reaction*}
+ P4 + 16 H2O ->  4 H3PO4 +  10 H2
+\end{reaction*}
+#+end_export
+
+
+Dados: \ch{P4}=123 g/mol; \ch{H2O}=18 g/mol; \ch{H3PO4}=98 g/mol; \ch{H2}=2 g/mol
+
+#+begin_choice
+\choice Qual a massa de \ch{H3PO4} formada a partir de 2 Kg de \ch{P4}?
+
+#+begin_export latex
+\blank[blank-style={\phantom{#1}},width=6\linewidth]{}
+#+end_export
+
+
+\choice Qual a massa de \ch{H2O} para reagir com  2 Kg de \ch{P4}?
+
+#+begin_export latex
+\blank[blank-style={\phantom{#1}},width=6\linewidth]{}
+#+end_export
+
+
+
+\choice Qual o volume  \ch{H2} formado a partir de 2 Kg de \ch{P4}? Dados: CNTP = 22,4 L/mol
+
+#+begin_export latex
+\blank[blank-style={\phantom{#1}},width=6\linewidth]{}
+#+end_export
+
+
+
+#+end_choice 
+
+#+end_exercise 
+
+
+\collectexercisesstop{EsqueAberta}
+
+
+#+begin_exercise
+Para a reação balanceada temos:
+
+#+begin_export latex
+\begin{reaction*}
+4 FeS_{\sld} + 11 O2_{\gas} -> 2 Fe2O3_{\sld} + 8 SO2_{\gas}
+\end{reaction*}
+
+Dados \ch{FeS}= 88 g/mol; \ch{O2}=32 g/mol; \ch{Fe2O3}= 160 g/mol; \ch{SO2}=64 g/mol
+#+end_export
+
+#+begin_choice
+\choice Partindo de 12 kg de FeS qual a massa de \ch{Fe2O3} formada?
+
+
+
+#+begin_export latex
+\blank[blank-style={\phantom{#1}},width=20\linewidth]{}
+#+end_export 
+
+\choice De 12 kg de FeS qual a massa necessária de \ch{O2} para reagir por completo a reação?
+
+
+#+begin_export latex
+\blank[blank-style={\phantom{#1}},width=20\linewidth]{}
+#+end_export 
+
+
+\choice Para consumir 1344 L de \ch{O2}, qual a massa de FeS necessária?
+
+#+begin_export latex
+\blank[blank-style={\phantom{#1}},width=15\linewidth]{}
+#+end_export 
+
+
+\choice Para produzir 100 mol de \ch{SO2}, quantos mols de \ch{O2} é necessário para reagir?
+
+
+#+begin_export latex
+\blank[blank-style={\phantom{#1}},width=6\linewidth]{}
+#+end_export 
+
+
+
+
+#+end_choice 
+
+#+end_exercise 
+
+
+
+
+
+#+begin_exercise
+O metal de estanho reage com o fluoreto de hidrogênio para produzir fluoreto de estanho (II) e gás hidrogênio, de acordo com a seguinte equação balanceada.
+#+begin_export latex
+\begin{reaction*}
+Sn_{\sld} + 2 HF_{\gas} -> SnF2_{\sld}  + H2_{\gas}
+\end{reaction*}
+#+end_export
+
+Dados: Sn=118 g/mol; HF= 20 g/mol ; SnF_2=156 g/mol; H_2 = 2 g/mol
+
+#+begin_choice
+#+begin_export latex
+\blank[blank-style={\phantom{#1}},width=4\linewidth]{}
+#+end_export
+
+
+\choice Quantos mols de fluoreto de hidrogênio são necessários para reagir completamente com  944 g  de estanho, Sn?
+
+
+#+begin_export latex
+\blank[blank-style={\phantom{#1}},width=5\linewidth]{}
+#+end_export
+
+
+\choice Qual a massa de \ch{SnF2} partindo de 944 g de Sn?
+
+
+#+begin_export latex
+\blank[blank-style={\phantom{#1}},width=4\linewidth]{}
+#+end_export
+
+#+end_choice
+
+#+end_exercise
+
+
+
+
+#+begin_exercise
+Para a reação balanceada
+
+
+#+begin_export latex
+\begin{reaction*} 
+2 Ca3(PO4)2 + 6 SiO2 + 10 C -> 6 CaSiO3 + 10 CO +  P4
+\end{reaction*}
+#+end_export
+
+Dados: \ch{Ca3(PO4)2}=310 g/mol; \ch{SiO2}= 60 g/mol; C= 12g/mol; \ch{CaSiO3}=116 g/mol; CO= 30 g/mol  e \ch{P4} = 144 g/mol.
+
+
+#+begin_choice
+\choice Qual a massa de \ch{P4} formada a partir de 2 Kg de C?
+
+#+begin_export latex
+\blank[blank-style={\phantom{#1}},width=6\linewidth]{}
+#+end_export
+
+
+\choice Para produzir 4650 g de \ch{CaSiO3}, qual a massa necessária de \ch{SiO2}
+
+
+#+begin_export latex
+\blank[blank-style={\phantom{#1}},width=7\linewidth]{}
+#+end_export
+
+
+\choice Para produzir 4650 g de \ch{CaSiO3}, qual a massa necessária de \ch{Ca3(PO4)2}
+
+
+#+begin_export latex
+\blank[blank-style={\phantom{#1}},width=6\linewidth]{}
+#+end_export 
+
+#+end_choice 
+
+#+end_exercise 
+
+
+
+
+
+#+ATTR_LATEX: :options [points=3] 
+#+begin_exercise
+A nave estelar /Enterprise/, de Jornada nas estrelas, usou \ch{B5H9} e \ch{O2}
+como mistura combustível. As duas substâncias reagem de acordo com a seguinte equação balanceada:
+
+#+begin_export latex
+\begin{reaction*}
+2 B5H9_{\lqdd} + 12 O2_{\lqdd} -> 5 B2O3_{\sld} + 9 H2O_{\lqdd}
+\end{reaction*}
+#+end_export
+
+
+Dados: \ch{B5H9}=63 g/mol; \ch{O2}= 32 g/mol; \ch{B2O3}=70 g/mol; \ch{H2O} = 18 g/mol
+
+#+begin_choice
+\choice  Se um tanque contém 126 kg de \ch{B5H9} e o outro 240 kg de \ch{O2}
+líquido, qual tanque esvaziará primeiro? *Mostre com cálculos.*
+
+
+
+
+#+begin_export latex
+\blank[blank-style={\phantom{#1}},width=25\linewidth]{}
+#+end_export
+
+
+
+\choice Quanta água terá sido formada (em kg) quando um dos reagentes
+tiver sido completamente consumido?
+
+
+#+begin_export latex
+\blank[blank-style={\phantom{#1}},width=6\linewidth]{}
+#+end_export 
+
+
+
+#+end_choice 
+#+end_exercise 
+
+
+\collectexercises{EsqueAberta2}
+
+#+ATTR_LATEX: :options [points=1.001] 
+#+begin_exercise
+A reação entre a hidrazina e o gás oxigênio produz óxido nítrico e vapor d'água de acordo com a seguinte equação química balanceada.
+
+#+begin_export latex
+\begin{reaction*}
+N2H4_{\lqdd} + 3 O2_{\gas} -> 2 NO2_{\gas} + 2 H2O_{\gas}
+\end{reaction*}
+
+Dados: \ch{N2H4}=30 g/mol; \ch{O2}=32 g/mol; \ch{NO2}=46 g/mol; \ch{H2O}=18 g/mol
+
+#+end_export
+
+Qual a massa de \ch{N2H4} necessária para produzir 460 g de \ch{NO2}?
+
+#+begin_export latex
+\blank[blank-style={\phantom{#1}},width=12\linewidth]{}
+#+end_export 
+
+
+
+#+end_exercise 
+\collectexercisesstop{EsqueAberta2}
+
+
+
+

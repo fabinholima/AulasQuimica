@@ -1,0 +1,199 @@
+
+%\printsolutions[headings=true,headings-template=solution]
+
+
+
+
+
+#+BEGIN_COMMENT
+#+INCLUDE: "QM/QM01.org"
+#+INCLUDE: "FQ/AULA02.org"  
+#+INCLUDE: "FQ/AULA03.org"
+#+INCLUDE: "IC/cancelamento.org"
+#+INCLUDE: "FQ/AULA01.org"
+
+#+INCLUDE: "QG/AULA02.org"
+#+INCLUDE: "QG/AULA07.org"
+#+INCLUDE: "QG/AULA07.org"
+#+INCLUDE: "FQ/ExAULA05.org"
+
+#+INCLUDE: "QM/QM01.org"
+#+INCLUDE: "Provas/BalanceamentoI.org"
+#+INCLUDE: "QG/ExEstequiometriaI.org"
+
+#+INCLUDE: "QG/ExBalanceamento.org"
+
+#+INCLUDE: "Provas/3Ano_ProvaBimestral_1.org"
+
+
+
+#+INCLUDE: "QG/AULA01.org"
+
+
+
+
+#+INCLUDE: "Questoes/Quimica_Geral.org"
+#+LATEX: \printrandomexercises[collection=Misturas]{10}
+#+LATEX: %\printrandomexercises[collection=TeoriaAtomica,exclude=one]{10}
+
+
+#+INCLUDE: "Questoes/Fisico_Quimica.org"
+#+LATEX: \printrandomexercises[collection=Mol,exclude=three]{5}
+#+LATEX: \printrandomexercises[collection=Balan,exclude=two]{5}
+
+
+
+#+LATEX: \begin{multicols}{2}
+#+INCLUDE: "Questoes/Quimica_Organica.org"
+#+LATEX: \printrandomexercises[collection=Organica,exclude=two]{7}
+#+LATEX: \end{multicols}
+
+
+
+#+INCLUDE: "Listas/2Ano.org"
+#+LATEX: \printrandomexercises[collection=ListaMoleMassa]{5}
+#+LATEX: \printrandomexercises[collection=ListaBalan]{5}
+
+
+#+INCLUDE: "Listas/3Ano.org"
+
+
+
+#+LATEX: \printrandomexercises[collection=ListaOrganica,exclude=two]{6}
+
+
+
+#+ATTR_LATEX: :options {2}
+#+begin_multicols
+
+#+LATEX: \printcollection{ListaOrganica}
+#+end_multicols
+
+
+@@latex: \section*{Atividade -  1\textsuperscript{0} Bimestre - 1 Ano} @@
+
+
+#+INCLUDE: "QG/AULA02.org"
+
+
+
+#+INCLUDE: "QG/AULA02.org"
+
+#+LATEX: \begin{multicols}{2}
+@@latex: \section{Exercícios}@@
+
+#+INCLUDE: "Listas/Lista1-1Ano.org"
+#+LATEX: \printcollection{ListaTabela}
+#+LATEX: %\printrandomexercises[collection=,exclude=one]{8}
+
+#+LATEX: \end{multicols}
+
+
+#+END_COMMENT
+
+
+
+
+https://www.profpc.com.br/Exerc%C3%ADcios%20de%20Qu%C3%ADmica/Setor%20Gama/Gama%20-%20M%C3%B3dulo%2030.pdf
+
+
+
+
+#+INCLUDE: "Questoes/Quimica_Geral.org"
+\printrandomexercises[collection=TabelaPeriodica]{3}
+\printrandomexercises[collection=TeoriaAtomica]{1}
+
+
+
+#+INCLUDE: "Questoes/Quimica_Geral.org"
+\printrandomexercises[collection=Balan]{7}
+
+#+
+
+#+INCLUDE: "Questoes/Quimica_Geral.org"
+\printrandomexercises[collection=Balan]{3}
+
+
+
+#+INCLUDE: "Questoes/FQ-Aberta.org"
+\printrandomexercises[collection=EntalpiaForma]{1}
+
+
+#+INCLUDE: "Questoes/Quimica_Organica.org
+
+\printrandomexercises[collection=FuncoesOxigenadas]{10}
+
+#+INCLUDE: "FQ/AULA03.org"
+
+#+INCLUDE: "FQ/AULA04.org"
+
+
+
+
+
+
+
+
+#+INCLUDE: "Questoes/Fisico_Quimica.org"
+\printcollection{CineticaQuimica}
+
+\printcollection{Isomeria}
+
+
+
+#+INCLUDE: "Listas/Radioatividade.org"
+
+
+#+INCLUDE: "Questoes/Fisico_Quimica.org"
+\printrandomexercises[collection=CineticaQuimica]{5}
+\printrandomexercises[collection=EquilibrioQuimico]{2}
+
+
+#+INCLUDE: "Questoes/FQ-Aberta.org"
+
+\printrandomexercises[collection=CineticaQuimica-Aberta]{1}
+ 
+
+#+INCLUDE: "Questoes/Fisico_Quimica.org"
+\printrandomexercises[collection=Radioatividade]{10}
+
+
+
+#+INCLUDE: "Questoes/Quimica_Geral.org"
+\printcollection{Estequiometria2}
+
+
+#+INCLUDE: "Questoes/QG-Aberta.org"
+
+
+
+\printsolutions[collection=TeoriaAtomica]
+\printsolutions[collection=TabelaPeriodica]
+\printsolutions[collection=LigacaoQuimica]
+\printsolutions[collection=BalanAberta]
+
+
+
+#+INCLUDE: "Questoes/Fisico_Quimica.org"
+#+INCLUDE: "Questoes/FQ-Aberta.org"
+
+
+\printrandomexercises[collection=CineticaQuimica]{4}
+
+
+\printrandomexercises[collection=CineticaQuimica-Aberta]{1}
+
+
+
+
+#+INCLUDE: "Questoes/Quimica_Geral.org"
+#+INCLUDE: "Questoes/QG-Aberta.org"
+
+
+
+\printrandomexercises[collection=LigacaoQuimica]{5}
+\printrandomexercises[collection=Mol]{2}
+\printrandomexercises[collection=EsqueAberta2]{1}
+\printrandomexercises[collection=BalanAberta]{2}
+
+

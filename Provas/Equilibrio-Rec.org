@@ -1,0 +1,84 @@
+
+
+
+#+begin_questions
+
+#+begin_exercise
+Balancie a reação a seguir
+#+begin_export latex
+\begin{reaction*}
+NaBO3 + KI + H2SO4 ->  H3BO3 + I2 + Na2SO4 + K2SO4
+\end{reaction*}
+#+end_export
+#+end_exercise
+
+
+\vspace{9.5cm}
+
+
+#+begin_exercise
+Para as reações a seguir escreva a expressão de equilíbrio
+#+begin_export latex
+\begin{reactions}
+2 SO2_{\gas} + O2_{\gas} <=> 2 SO3_{\gas} \\
+2 NaHCO3_{\sld} <=> Na2CO3_{\sld} + H2O_{\gas} + CO2_{\gas}
+\end{reactions}
+#+end_export
+
+#+end_exercise
+
+\vspace{7cm}
+
+#+begin_exercise
+Às vezes, ao abrir um refrigerante, percebe-se que uma parte do produto vaza rapidamente pela extremidade do recipiente. A explicação para esse fato está relacionada à perturbação do equilíbrio químico existente entre alguns dos ingredientes do produto, de acordo com a equação:
+#+begin_export latex
+\begin{reaction*}
+CO2_{\gas} + H2O_{\lqdd} <=> H2CO3_{\aq}
+\end{reaction*}
+#+end_export
+A alteração do equilíbrio anterior, relacionada ao vazamento do refrigerante nas condições descritas, tem como consequência a: 
+#+begin_export latex
+\begin{choice}
+\choice Liberação de \ch{CO2} para o ambiente. 
+\choice Elevação da temperatura do recipiente. 
+\choice Elevação da pressão interna do recipiente. 
+\choice Elevação da concentração de \ch{CO2} no líquido. 
+\choice Formação de uma quantidade significativa de \ch{H2O}.
+\end{choice}
+#+end_export
+#+end_exercise
+#+begin_exercise
+Nas condições ambientes, é exemplo de sistema em estado de equilíbrio uma:
+#+begin_export latex
+\begin{choice}
+\choice xícara de café bem quente; 
+\choice garrafa de água mineral gasosa fechada; 
+\choice chama uniforme de bico de Bunsen; 
+\choice porção de água fervendo em temperatura constante; 
+\choice tigela contendo feijão cozido.
+\end{choice}
+#+end_export
+#+end_exercise
+#+begin_exercise
+Uma reação atinge o equilíbrio químico:
+#+ATTR_LATEX: :options [label=\Roman*.]
+1. Quando não há mais reagentes, somente produtos. 
+2. Quando as concentrações dos reagentes são iguais às concentrações dos produtos. 
+3. Quando a velocidade da reação direta é igual à velocidade da reação inversa. 
+4. Quando as concentrações de reagentes e produtos tornam-se constantes. 
+5. Quando não existe mais reação química.
+
+As afirmações corretas são:
+#+begin_export latex
+\begin{choice}
+\choice I e II 
+\choice II e III 
+\choice III e IV 
+\choice IV e V 
+\choice III e V
+\end{choice}
+#+end_export
+#+end_exercise
+
+
+#+end_questions

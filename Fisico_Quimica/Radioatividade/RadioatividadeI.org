@@ -1,0 +1,376 @@
+
+#+LATEX_HEADER: \DeclareExerciseCollection{RadioatividadeI}
+#+LATEX_HEADER: \DeclareExerciseCollection{RadioatividadeIOpen}
+
+
+#+BEGIN_COMMENT
+========================= RADIOATIVIDADE ===================================
+#+END_COMMENT
+
+
+\collectexercises{RadioatividadeI}
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Que mudanças ocorrem no número atômico e na massa de um núcleo durante cada um dos seguintes cenários de decaimento?
+#+begin_export latex
+\begin{choice}
+\choice uma partícula \(\alpha\) é emitida
+\choice uma partícula \(\beta\) é emitida
+\choice radiação \(\gamma\) é emitida
+\choice um pósitron é emitido
+\choice um elétron é capturado
+\end{choice}
+#+end_export
+#+end_exercise
+#+begin_solution
+LETRA A
+#+end_solution
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+O avanço científico e tecnológico da física nuclear permitiu conhecer, com maiores detalhes, o decaimento radioativo dos núcleos atômicos instáveis, desenvolvendo-se algumas aplicações para a radiação de grande penetração no corpo humano, utilizada, por exemplo, no tratamento do câncer. A aplicação citada no texto se refere a qual tipo de radiação?
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice Beta.
+\choice Alfa.
+\choice Gama.
+\choice Raios X.
+\choice Ultravioleta. 
+#+end_choice
+#+end_exercise 
+#+begin_solution
+LETRA C
+#+end_solution
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+ Glicose marcada com nuclídeos de carbono-11 é utilizada na medicina para se obter imagens tridimensionais do cérebro, por meio de tomografia de emissão de pósitrons. A desintegração do carbono-11 gera um pósitron, com tempo de meia-vida de 20,4 min, de acordo com a equação da reação nuclear:
+ #+begin_export latex
+\begin{reactions*}
+\isotope{11,C} -> \isotope{11,B} + e_{0}^1
+\end{reactions*}
+ #+end_export
+
+A partir da injeção de glicose marcada com esse nuclídeo, o tempo de aquisição de uma imagem de tomografia é de *cinco meias-vidas*. Considerando que o medicamento contém 1,00 g do carbono-11, a massa, em miligramas, do nuclídeo restante, após a aquisição da imagem, é mais próxima de
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 0,5.
+\choice 0,25.
+\choice 0,0625.
+\choice 200.
+\choice 31,3.
+#+end_choice
+
+#+end_exercise 
+#+begin_solution
+LETRA E
+#+end_solution
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Quem criou o primeiro reator nuclear?
+
+#+begin_choice
+\choice Albert Einstein
+\choice Thomas Alva Edison
+\choice Enrico Fermi
+\choice Michael Faraday
+\choice Enerst Rutherford
+#+end_choice 
+#+end_exercise 
+#+begin_solution
+LETRA C
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Alta energia de fotons emitidos são:
+
+#+begin_choice
+\choice Decaimento $\alpha$
+\choice Decaimento $\gamma$
+\choice Decaimento $\beta$
+\choice Decaimento atômico
+\choice Decaimento $\Delta$
+#+end_choice 
+#+end_exercise 
+#+begin_solution
+LETRA B
+#+end_solution
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A reação nuclear sofre o seguinte decaimento
+#+begin_export latex
+\begin{reaction*}
+\isotope{87,Br} +  2 $\alpha$ + 3 $\beta$ + X
+\end{reaction*}
+#+end_export
+
+Baseado nessa informação qual a configuração que o elemento X se apresenta
+
+#+begin_export latex
+\begin{choice} (2)
+\choice \ch{^{82}_{34}X}
+\choice \ch{^{79}_{34}X}
+\choice \ch{^{76}_{32}X}
+\choice \ch{^{74}_{28}X}
+\choice \ch{^{75}_{30}X}
+\end{choice}
+#+end_export
+
+#+end_exercise 
+
+#+begin_solution
+Letra B
+#+end_solution
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+No decaimento do \isotope{238,U} ocorrem as seguintes transformações nucleares
+#+begin_export latex
+\begin{reaction*}
+\isotope{225,Ra} -> \isotope{214,Bi}
+\end{reaction*}
+
+Partindo do átomo de rádio até formar o átomo de bismuto, a sequência de emissões radiativas é:
+#+end_export
+
+#+begin_choice
+\choice $\alpha$, $\alpha$, $\alpha$, $\upbeta$
+\choice $\alpha, \upbeta, \upbeta, \upbeta$
+\choice $\alpha, \upbeta, \alpha, \upbeta$
+\choice $\upbeta, \alpha, \alpha, \upbeta$
+\choice $\upbeta, \upbeta, \alpha, \alpha$
+#+end_choice
+#+end_exercise
+#+begin_solution
+LETRA A
+#+end_solution
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A partir da década de 40, quando McMillan e Seaborg obtiveram em laboratório os primeiros elementos transurânicos (NA > 92), o urânio natural foi usado algumas vezes
+para obter tais elementos. Para tanto, ele era bombardeado com núcleos de elementos leves. Na obtenção do Plutônio, do Califórnio e do Férmio as transmutações ocorreram da forma a seguir:
+
+#+begin_export latex
+\begin{align*}
+\isotope{U} + \isotope{He} \ch{->} \isotope{239,Pu} + A (\prescript{0}{1}{n})\\
+\isotope{U} + \isotope{C} \ch{->} \isotope{245,Cf} + B (\prescript{0}{1}{n})\\
+\isotope{U} + \isotope{12,O} \ch{->} \isotope{250,Fm} + C (\prescript{0}{1}{n})\\
+\end{align*}
+#+end_export
+
+Sendo assim, os valores de A, B e C que indicam as quantidades de nêutrons obtidas são, respectivamente:
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 1, 4 e 5.
+\choice 1, 5 e 4.
+\choice 2, 4 e 5.
+\choice 3, 4 e 5.
+\choice 3, 5 e 4.
+#+end_choice 
+#+end_exercise
+#+begin_solution
+E
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Um átomo X, de número atômico 92 e número de massa 238, emite uma partícula alfa, transformando-se num átomo Y, o qual emite uma partícula beta, produzindo um átomo Z. Então:
+
+#+ATTR_LATEX: :options (1)
+#+begin_choice
+\choice os átomos Y e X são isótopos.
+\choice os átomos X e Z são isótonos.
+\choice os átomos X e Y são isóbaros.
+\choice o átomo Z possui 143 nêutrons.
+\choice o átomo Y possui 92 prótons.
+#+end_choice 
+#+end_exercise
+#+begin_solution
+D
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A energia liberada durante a fissão nuclear pode ser utilizada para gerar eletricidade através da construção de usinas nucleares. Com base neste conhecimento, qual dos seguintes materiais é mais adequado para ser usado neste tipo de usina?
+
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice Ferro-56
+\choice Neutrônio-0
+\choice Uranio-235
+\choice Hidrogênio-2
+\choice Boro-10
+#+end_choice 
+
+#+end_exercise
+#+begin_solution
+C
+#+end_solution
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+O processo da fissão nuclear pode ser iniciado por meio da absorção de um nêutron por parte do núcleo atômico, que é então dividido em dois fragmentos menores e mais estáveis, acompanhados pela liberação de outros nêutrons. Qual dos seguintes elementos químicos normalmente sofre fissão nuclear?
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice Urânio
+\choice Hidrogênio
+\choice Ferro
+\choice Boro
+\choice Cobalto
+#+end_choice 
+#+end_exercise
+#+begin_solution
+A
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+As partículas alfa e beta possuem características físicas distintas e, por isso, apresentam comportamentos diferentes. A partícula alfa possui carga elétrica positiva, sendo formada por dois prótons e dois nêutrons. Já a partícula beta possui carga elétrica negativa ou positiva, dependendo do tipo de emissão. Qual dessas afirmativas está correta?
+
+#+ATTR_LATEX: :options (1)
+#+begin_choice
+\choice A partícula beta possui carga elétrica negativa e não possui massa.
+\choice A partícula alfa possui carga elétrica negativa e é formada por dois prótons e dois nêutrons.
+\choice A partícula alfa possui carga elétrica positiva e é formada por três prótons e três nêutrons.
+\choice A partícula beta possui carga elétrica positiva e é formada por três prótons e três nêutrons.
+\choice A partícula beta possui carga elétrica positiva e é formada por dois prótons e dois nêutrons.
+#+end_choice 
+
+#+end_exercise
+#+begin_solution
+A
+#+end_solution
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Atividade radioativa é o processo pelo qual um núcleo instável emite partículas e/ou radiação, em busca de estabilidade. Essa emissão de energia é conhecida como desintegração radioativa. O que acontece durante a desintegração radioativa?
+
+#+ATTR_LATEX: :options (1)
+#+begin_choice
+\choice O núcleo se desintegra totalmente.
+\choice O núcleo transmuta para um elemento mais estável.
+\choice O núcleo absorve energia.
+\choice O núcleo se separa em duas partes.
+\choice O núcleo se divide em três partes.
+#+end_choice 
+
+#+end_exercise
+#+begin_solution
+B
+#+end_solution
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Detectores de incêndio são dispositivos que disparam um alarme no início de um
+incêndio. Um tipo de detector contém uma quantidade mínima do elemento radioativo amerício-241.
+A radiação emitida ioniza o ar dentro e ao redor do detector, tornando-o condutor de eletricidade.
+Quando a fumaça entra no detector, o fluxo de corrente elétrica é bloqueado, disparando o alarme.
+Este elemento se desintegra de acordo com a equação a seguir:
+
+#+begin_export latex
+\begin{reaction*}
+\isotope{241,Am} -> \isotope{237,Np} + Z
+\end{reaction*}
+#+end_export
+
+#+ATTR_LATEX: :options (1)
+#+begin_choice
+\choice uma partícula alfa.
+\choice uma partícula beta.
+\choice radiação gama.
+\choice raios X.
+\choice dois prótons.
+#+end_choice 
+
+#+end_exercise
+#+begin_solution
+A
+#+end_solution
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Dadas as equações químicas:
+
+#+ATTR_LATEX: :options [label=\Roman*]
+1. @@latex: \ch{\isotope{239,Pu} -> $\upalpha$^4_{}2 + \isotope{235,U}} @@
+2. @@latex: \ch{\isotope{235,U} + {}^1_0n -> \isotope{91,Kr} + \isotope{142,Ba} + 3 ({}^1_0n)}@@
+3. @@latex: \ch{UF6_{\lqdd} -> UF6_{\gas}}@@   
+
+Pode-se afirmar que ocorre fissão nuclear somente em:
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice I
+\choice II
+\choice III
+\choice I e II
+\choice I e III
+#+end_choice 
+
+#+end_exercise
+#+begin_solution
+B
+#+end_solution
+
+
+
+\collectexercisesstop{RadioatividadeI}
+
+
+\collectexercises{RadioatividadeIOpen}
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+
+#+end_choice 
+
+#+end_exercise
+#+begin_solution
+#+end_solution
+
+
+\collectexercisesstop{RadioatividadeIOpen}

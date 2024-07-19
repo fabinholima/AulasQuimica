@@ -1,0 +1,75 @@
+* Balanceamento das reações químicas
+@@latex: \begin{multicols}{2} @@
+
+Ajustar ou Balancear uma equação química consiste em  igualar  o  número  total  de  átomos  de  cada  elemento  nos  dois membros da equação. Uma   das   maneiras   de   balancear   uma   equação   química é usar o Método das Tentativas, ao qual sugerimos a seguinte seqüência
+
+1.  Ajustar os átomos dos metais;
+2.  Ajustar os átomos dos ametais;
+3.  Ajustar os átomos de hidrogênio;
+4.  Ajustar os átomos de oxigênio.
+
+** Exemplos
+
+Balancear as equações químicas: 
+#+latex: \begin{Box2}{Exemplo 1}
+#+begin_export latex
+
+\begin{enumerate}
+\item \textbf{Passo}:  Ajustar o alumínio
+ \begin{reaction*}
+2 {\bfseries A $\ell$}(OH)3 +  H2S ->  {\bfseries A}$\ell$2S3 + H2O 
+\end{reaction*}
+\item \textbf{Passo}:  Ajustar o enxofre
+\begin{reaction*}
+2 A$\ell$(OH)3 + 3 H2 {\bfseries S} -> A$\ell$2{\bfseries S}3 + H2O
+\end{reaction*}
+\item \textbf{Passo}:  Ajustar o hidrogênio 
+\begin{reaction*}
+2 A$\ell$(OH)3 + 3 {\bfseries H}2S -> A$\ell$2S3 + 6 {\bfseries H}2O 
+\end{reaction*}
+\item \textbf{Passo}:  Observe  que  o  oxigênio  ficou  automaticamente  
+ajustado 
+\begin{reaction*}
+2 A$\ell$(OH)3 + 3 H2S ->  A$\ell$2S3 + 6 H2O
+\end{reaction*}
+\end{enumerate}
+#+end_export
+
+Os valores encontrados (2, 3, 1 e 6) são 
+denominados de coeficientes estequiométricos.
+#+latex: \end{Box2}
+
+
+
+* Exercícios
+#+begin_questions
+#+begin_exercise
+Faça o balanceamento das seguintes reações e dê a soma dos menores coeficientes 
+estequiométricos inteiros.
+#+begin_export latex
+\begin{choice}
+\choice \ch{CH4_{\gas}   +   O2_{\gas}   ->   CO2_{gas}   +   H2O_{\gas}}
+\choice \ch{Fe_{\sld}  +   O2_{\gas}  ->  Fe2O3_{\sld}}
+\choice \ch{Mg + H3PO4 -> Mg3(PO4)2 + H2}
+\choice \ch{Fe(OH)3 + H2SO3 -> Fe2(SO3)3 + H2O }
+\choice \ch{NH3   +   O2   ->   NO  +   H2O}
+\choice \ch{BC$\ell$3   +   H2O   →   B(OH)3  +   HC$\ell$ }
+\end{choice}
+#+end_export
+#+end_exercise
+#+begin_exercise
+Calcule a massa molar das substâncias a seguir.
+#+begin_export latex
+\begin{choice}(1)
+\choice Gás carbônico, \ch{CO2}
+\vspace{1.5cm}
+\choice Ácido clorídrico, \ch{HC$\ell$}
+\vspace{1.5cm}
+\choice Glicose, \ch{C6H12O6}
+\vspace{1.5cm}
+\end{choice}
+#+end_export
+#+end_exercise
+#+end_questions
+
+

@@ -1,0 +1,68 @@
+\documentclass[12pt]{scrartcl}
+\KOMAoptions{
+	%headings=chapterprefix,
+	%twocolumn=true,
+	%toc=indenttextentries,
+	%toc=flat,
+	twoside=true,
+	headinclude=true,
+	footinclude=true
+	%  captions=topbeside
+}
+
+\usepackage{fontspec}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+\usepackage[x11names,svgnames,table]{xcolor}
+\defaultfontfeatures{Ligatures=TeX}
+%\setmainfont{Lato}
+\setmainfont{Charis SIL}
+%\setmainfont{Alegreya}
+
+\usepackage{typearea}
+\usepackage{lscape}
+\usepackage[a4paper]{geometry}
+\geometry{a4paper,total={170mm,257mm},left=10mm,right=10mm, top=15mm, bottom=20mm}
+\usepackage[portuguese, american]{babel}
+\usepackage{amsmath,amsfonts,amsthm,bm}
+
+\usepackage{xcolor}
+\usepackage{tabularray}
+\usepackage{chemmacros}
+\usepackage{chemfig}
+\setchemfig{fixed length=false, atom sep=2.0em, arrow offset=6pt, scheme debug=false,angle increment=30}
+
+
+
+\begin{document}
+
+\newcommand*\CC[1]{\tikz[baseline=(char.base)]{
+            \node[shape=circle,draw,inner sep=2pt] (char) {#1};}}            
+            	
+	
+{\centering
+\begin{tblr}
+{
+hlines, vlines,
+		colspec = {c c c c c c c c c }, colsep = 4mm, hlines = {2pt, white},
+%        measure=vbox, % can't use lists in tblr without it
+%row{1}={c, font=\bfseries} % bold centred text for header
+row{2} = {c, 1em,DarkOrange1,fg=white,font=\bfseries\sffamily},
+} \hline
+\SetCell[c=10]{m,12.5cm} \begin{itemize}
+\item 	Leia os textos e as questões com muita
+				atenção;
+				\item	Assinale apenas uma alternativa em cada questão;
+				\item Marque as respostas no caderno de provas e depois preencha no espaço destinado no cartão- resposta;
+				\item	Entregue o caderno de prova ao professor, no término da avaliação. 
+ \end{itemize} & \\
+ \hline
+Q1 & Q2 & Q3 & Q4 & Q5 & Q6 & Q7 & Q8 & Q9 & Q10 \\ \hline
+\CC{A} & \CC{A} & \CC{A} & \CC{A} & \CC{A} & \CC{A} & \CC{A} & \CC{A} & \CC{A} & \CC{A} \\ \hline 
+\CC{B} & \CC{B} & \CC{B} & \CC{B} & \CC{B} & \CC{B} & \CC{B} & \CC{B} & \CC{B} & \CC{B} \\ \hline
+\CC{C} & \CC{C} & \CC{C} & \CC{C} & \CC{C} & \CC{C} & \CC{C} & \CC{C} & \CC{C} & \CC{C} \\ \hline
+\CC{D} & \CC{D} & \CC{D} & \CC{D} & \CC{D} & \CC{D} & \CC{D} & \CC{D} & \CC{D} & \CC{D} \\ \hline
+\CC{E} & \CC{E} & \CC{E} & \CC{E} & \CC{E} & \CC{E} & \CC{E} & \CC{E} & \CC{E} & \CC{E} \\ \hline
+\end{tblr}
+}
+\end{document}

@@ -1,0 +1,200 @@
+
+
+#+LATEX_HEADER: \KOMAoptions{
+#+LATEX_HEADER: %headings=chapterprefix,
+#+LATEX_HEADER: %%twocolumn=false,
+#+LATEX_HEADER:	%toc=indenttextentries,
+#+LATEX_HEADER:	%toc=flat,
+#+LATEX_HEADER:	twoside=true,
+#+LATEX_HEADER:	headinclude=true,
+#+LATEX_HEADER:	footinclude=true
+#+LATEX_HEADER:	%  captions=topbeside
+#+LATEX_HEADER:}
+#+LATEX_HEADER: %\usepackage[fontsize=12.3]{scrextend}
+#+LATEX_HEADER:\usepackage{fontspec}
+#+LATEX_HEADER:\usepackage[T1]{fontenc} 
+#+LATEX_HEADER: \usepackage{hyperref}
+#+LATEX_HEADER:\usepackage[x11names,svgnames,table]{xcolor}
+#+LATEX_HEADER: \defaultfontfeatures{Ligatures=TeX}
+#+LATEX_HEADER: \setmainfont{Lato}
+#+LATEX_HEADER: \usepackage{typearea}
+#+LATEX_HEADER: \usepackage{lscape}
+#+LATEX_HEADER: \usepackage[a4paper]{geometry}
+#+LATEX_HEADER: \geometry{a4paper,total={170mm,257mm},left=30mm,right=30mm, top=15mm, bottom=20mm}
+#+LATEX_HEADER: \usepackage[english,portuguese]{babel}
+#+LATEX_HEADER: \usepackage{amsmath,amsfonts,amsthm,bm}
+#+LATEX_HEADER: \usepackage{graphicx}
+#+LATEX_HEADER: \usepackage{float,wrapfig}
+#+LATEX_HEADER: \usepackage{colortbl}
+#+LATEX_HEADER: \usepackage{tabularx}
+#+LATEX_HEADER: \usepackage{pst-labo}
+#+LATEX_HEADER: \usepackage{setspace}
+#+LATEX_HEADER: \usepackage{xfrac}
+#+LATEX_HEADER: \usepackage{tikz}
+#+LATEX_HEADER: \usepackage{pgfplots}
+#+LATEX_HEADER: \pgfplotsset{compat=1.3}
+#+LATEX_HEADER: %% Diagraman latex
+#+LATEX_HEADER: \usepackage{endiagram}
+#+LATEX_HEADER: \usepackage{smartdiagram}
+#+LATEX_HEADER: \usepackage[tikz]{bclogo}
+#+LATEX_HEADER: \usetikzlibrary{fit,patterns,shadows.blur,shapes,decorations.pathreplacing,decorations.markings,arrows.meta,arrows,positioning,shadows,trees}
+#+LATEX_HEADER: \usetikzlibrary{decorations.pathmorphing} %% to chemfig config bond
+
+#+LATEX_HEADER: \usepackage{upgreek}
+#+LATEX_HEADER: \usepackage{chemmacros}
+#+LATEX_HEADER: %%\chemsetup{modules={reactions,spectroscopy,thermodynamics,redox,isotopes}}
+#+LATEX_HEADER: \chemsetup{modules={all}}
+#+LATEX_HEADER: %\usepackage[version=4,arrows=pgf-filled]{mhchem}
+#+LATEX_HEADER: \usepackage{chemfig,elements,cancel,siunitx}
+#+LATEX_HEADER: \NewChemPhase\lqdd{\(\ell\)}
+#+LATEX_HEADER: \NewChemPhase\gr{grafite}
+#+LATEX_HEADER: \NewChemPhase\reac{reação}
+#+LATEX_HEADER: \setchemfig{fixed length=true, atom sep=2.0em, arrow offset=6pt, scheme debug=false,angle increment=30}
+#+LATEX_HEADER: \renewcommand{\CancelColor}{\color{red}}
+#+LATEX_HEADER: \usepackage{circuitikz}
+#+LATEX_HEADER: \usepackage{mol2chemfig}
+#+LATEX_HEADER: \usepackage{subfig,caption}
+#+LATEX_HEADER: \captionsetup{font=small, labelfont={bf,sf}}
+#+LATEX_HEADER: \usepackage{wrapfig,qrcode}
+#+LATEX_HEADER: \usepackage{array,longtable} % ajust colunm table
+#+LATEX_HEADER: \newcolumntype{J}{>{\centering\arraybackslash}m{7.5cm}}
+#+LATEX_HEADER: \newcolumntype{K}{>{\centering\arraybackslash}m{6.5cm}}
+#+LATEX_HEADER: \newcolumntype{L}{>{\centering\arraybackslash}m{5cm}}
+#+LATEX_HEADER: \newcolumntype{B}{>{\centering\arraybackslash}m{2.5cm}}
+#+LATEX_HEADER: \newcolumntype{N}{>{\centering\arraybackslash}m{1.4cm}}
+#+LATEX_HEADER:\usepackage[most]{tcolorbox}
+#+LATEX_HEADER: \newcounter{mycounter}
+#+LATEX_HEADER: %%% Colobor
+#+LATEX_HEADER: %%% Example colorbox
+#+LATEX_HEADER:\newtcolorbox{Box2}[2][]{
+#+LATEX_HEADER:                lower separated=false,
+#+LATEX_HEADER:                colback=white,
+#+LATEX_HEADER: colframe=black,fonttitle=\bfseries,
+#+LATEX_HEADER: colbacktitle=black,
+#+LATEX_HEADER: coltitle=white,
+#+LATEX_HEADER: enhanced, attach boxed title to top left={yshift=-0.1in,xshift=0.15in}, boxed title style={boxrule=0pt,colframe=white,}, title=#2,#1}
+
+#+LATEX_HEADER: %%%%%%%% Cabecalho 
+
+#+LATEX_HEADER: \usepackage{framed,amsmath}
+#+LATEX_HEADER: \newtcolorbox{mybox}[2][]{
+#+LATEX_HEADER:    enhanced,title=#2, fonttitle=\sffamily\small,
+#+LATEX_HEADER:    top=2pt,
+#+LATEX_HEADER:    bottom=1mm,
+#+LATEX_HEADER:    boxrule=0.4pt,
+#+LATEX_HEADER:    coltitle=black,
+#+LATEX_HEADER:    colback=white,
+#+LATEX_HEADER:    attach boxed title to top center={yshift=-\tcboxedtitleheight/2,
+#+LATEX_HEADER:    yshifttext=-\tcboxedtitleheight/2},
+#+LATEX_HEADER:    boxed title style={
+#+LATEX_HEADER:        colframe=white,
+#+LATEX_HEADER:        colback=white,
+#+LATEX_HEADER:        left=0.2pt,
+#+LATEX_HEADER:        right=0.2pt},
+#+LATEX_HEADER:    #1}
+
+#+LATEX_HEADER: \usepackage{tabularray}
+
+#+LATEX_HEADER: %%%%%%
+
+
+
+#+LATEX_HEADER:\newtcolorbox{exercisebox}%
+#+LATEX_HEADER:{enhanced,breakable,colback=white, colframe=green!15!white,colbacktitle=white!15!pink, coltitle=pink!50!black,left=0pt,right=0mm,top=3mm,bottom=3mm,pad at break=0pt,bottomrule at break=0pt,toprule at break=0pt,borderline={0mm}{0mm}{green!50!white,dashed}, attach boxed title to top center={yshift=-2mm},boxed title style={boxrule=0.4pt},title=Exercícios,}
+#+LATEX_HEADER:\usepackage{eso-pic}
+#+LATEX_HEADER:\usepackage{etoolbox}
+#+LATEX_HEADER:\usepackage{enumitem}
+#+LATEX_HEADER: \newcommand\circitem[1]{%
+#+LATEX_HEADER: \tikz[baseline=(char.base)]{%https://tex.stackexchange.com/questions/204116/uniform-size-of-circles-around-enumitems
+#+LATEX_HEADER:		\node[circle,draw=gray, fill=gray!30,
+#+LATEX_HEADER:		minimum size=1.2em,inner sep=0] (char) {#1};}}
+#+LATEX_HEADER:\newcommand\boxitem[1]{%
+#+LATEX_HEADER: \tikz[baseline=(char.base)]{%https://tex.stackexchange.com/questions/204116/uniform-size-of-circles-around-enumitems
+#+LATEX_HEADER:		\node[fill=orange!30,
+#+LATEX_HEADER:		minimum size=1.2em,inner sep=0] (char) {#1};}}
+
+
+#+LATEX_HEADER: %\usepackage{widetext}% needs packages "flushend" & "cuted" of "sttools" % bundle, which perhaps must separately be installed
+#+LATEX_HEADER: \newcommand{\dd}[1]{\hspace{2pt}d#1}
+#+LATEX_HEADER: \definecolor{color1}{RGB}{0,0,90} % Color of the article title and sections
+#+LATEX_HEADER: \definecolor{color2}{RGB}{0,20,20} % Color of the boxes behind the abstract and
+#+LATEX_HEADER: \definecolor{cinza}{HTML}{C0C0C0} 
+#+LATEX_HEADER: %%% Custom Exercios
+
+#+LATEX_HEADER: \usepackage{bohr}
+#+LATEX_HEADER:\usepackage{multicol}
+#+LATEX_HEADER:\setlength{\columnsep}{1.5cm}
+#+LATEX_HEADER:\setlength{\columnseprule}{0.2pt}
+#+LATEX_HEADER:\usepackage[no-files]{xsim}
+#+LATEX_HEADER:\usepackage{tasks}
+#+LATEX_HEADER: \xsimsetup{
+#+LATEX_HEADER:  goal-print={\pgfmathprintnumber[fixed zerofill,precision=1]{#1}}
+#+LATEX_HEADER: }
+#+LATEX_HEADER: \newcommand*\circled[2]{\tikz[baseline=(char.base)]{
+#+LATEX_HEADER:    \node[shape=circle,fill,inner sep=2pt, text=white] (char) {#1};}}
+
+#+LATEX_HEADER: %%%%%-Custom Xsim exercises %%%%%
+#+LATEX_HEADER: \DeclareExerciseEnvironmentTemplate{custom}
+#+LATEX_HEADER:{%\item[\GetExerciseProperty{counter}]
+#+LATEX_HEADER:     \Needspace*{0\baselineskip}
+#+LATEX_HEADER:    \noindent
+#+LATEX_HEADER: \circled{\XSIMmixedcase{\GetExerciseProperty{counter}}}~~~%
+#+LATEX_HEADER:\noindent 
+#+LATEX_HEADER: \IfInsideSolutionF{%
+#+LATEX_HEADER:            \GetExercisePropertyT{points}{ % notice the space
+#+LATEX_HEADER:              (%
+#+LATEX_HEADER:                \printgoal{\PropertyValue}
+#+LATEX_HEADER:                \IfExerciseGoalSingularTF{points}
+#+LATEX_HEADER:                  {%\XSIMtranslate{point}
+#+LATEX_HEADER: }
+#+LATEX_HEADER:     {% \XSIMtranslate{points}
+#+LATEX_HEADER: }%
+#+LATEX_HEADER: )%
+#+LATEX_HEADER: }
+#+LATEX_HEADER:}}
+#+LATEX_HEADER:{\vspace{\baselineskip}}
+#+LATEX_HEADER:
+
+
+
+#+LATEX_HEADER: %%%%%------- Custom  resposta -------%%%%%%%
+#+LATEX_HEADER: \DeclareExerciseEnvironmentTemplate{space}
+#+LATEX_HEADER: %{\textbf{\GetExerciseProperty{counter}} }
+#+LATEX_HEADER: {\noindent\circled{\XSIMmixedcase{\GetExerciseProperty{counter}}}~~~}
+#+LATEX_HEADER: % {\circled{\XSIMmixedcase{\GetExerciseProperty{counter}}}}~~~%
+#+LATEX_HEADER: {\qquad}
+  
+#+LATEX_HEADER: \newcommand*\answer[1]{%
+#+LATEX_HEADER:  \XSIMexpandcode{%
+#+LATEX_HEADER:    \SetExerciseProperty{solution-body}
+#+LATEX_HEADER:      {\noexpand{\Alph{task}}}}%
+#+LATEX_HEADER:  #1%
+#+LATEX_HEADER: }
+
+
+
+
+#+LATEX_HEADER:%\sisetup{locale=DE}
+#+LATEX_HEADER:\xsimsetup{
+#+LATEX_HEADER:   collect = true,
+#+LATEX_HEADER:	exercise/within = section, %%% reset number xsim in 
+#+LATEX_HEADER:	exercise/template = custom,
+#+LATEX_HEADER:   exercise/the-counter =  \arabic{exercise},
+#+LATEX_HEADER:	solution/template=custom,
+#+LATEX_HEADER:	%solution/print=true,
+#+LATEX_HEADER:   %print-collection/print=both,
+#+LATEX_HEADER:   %goal-print= {\pgfmathprintnumber[fixed zerofill,precision=1]\num{#1}}
+#+LATEX_HEADER:}
+#+LATEX_HEADER: \RenewDocumentCommand\printpoints{}{%
+#+LATEX_HEADER:  \TotalExerciseTypeGoal{exercise}{points}{}{}%
+#+LATEX_HEADER: }
+#+LATEX_HEADER: \NewTasksEnvironment[label = (\emph{\alph*}), label-width = 12pt]{choice}[\choice]
+#+LATEX_HEADER: \newenvironment{questions}{\itemize}{\enditemize}
+
+#+LATEX_HEADER: \DeclareExerciseHeadingTemplate{solution}{%
+#+LATEX_HEADER:	\section*{Gabarito}%
+#+LATEX_HEADER:}
+
+
+#+LATEX_HEADER: \everymath{\displaystyle}
+#+LATEX_HEADER: %\usepackage{filecontents}

@@ -1,0 +1,200 @@
+
+* Radioatividade
+
+
+A radioatividade é definida como o fenômeno pelo qual um núcleo instável emite partículas e ondas para atingir a estabilidade.
+
+
+* Radiação
+
+A  radiação  é  a  propagação  de  energia  sob  várias  formas.  Dependendo  da  quantidade de energia, pode ser classificada em não ionizantes e ionizantes
+
+** Radiações não ionizantes
+
+
+    As radiações não ionizantes são caracterizadas por não possuírem energia suficiente para remover elétrons da eletrosfera do átomo, não ocasionando o processo de ionização da matéria. São classificadas de acordo com o compri-mento de onda: ultravioleta, luz visível, infravermelho, micro-ondas e ondas de rádio  (Figura  ref:espectro).  É  importante  ressaltar  que  quanto  menor  o  comprimento  de  onda, maior é a energia da radiação
+
+
+#+ATTR_LATEX: :scale 0.3 :placement [H]
+#+CAPTION: Espectro das ondas eletromagnéticas
+#+LABEL: espectro
+[[./../QM/espectro.png]]
+
+ 
+**  Radiações ionizantes
+
+
+    As radiações ionizantes possuem energia suficiente para provocar a ionização da matéria, ou seja, são capazes de promover a saída de elétrons da eletrosfera dos átomos, podendo causar modificações na estrutura de moléculas e do DNA (Figura ref:ionizado). Estas radiações podem ser corpusculares (partículas alfa e beta) ou ondas eletro-magnéticas (radiação gama).
+
+
+ #+ATTR_LATEX: :scale 0.3  :placement [H]
+ #+CAPTION: Processo de ionização.
+ #+LABEL:ionizado
+ [[./../QM/ionizado.png]]
+
+
+ 
+**  Radiação Alfa
+
+   A partícula alfa (\(\alpha\)) é composta por dois prótons e dois nêutrons (núcleo de hélio), é emitida com alta energia e possui baixo poder de penetração e alto poder ionizante. São emissões típicas de átomos com alto peso atômico. Esse tipo de radiação tem grande importância na medicina para o tratamento de doenças, como o câncer. Exemplos de radionuclídeos emissores de alfa: rádio-223 (\(^{223}\)Ra), urânio-238 (\(^{238}\)U), plutônio-239 (\(^{239}\)Pu).
+
+   
+** Radiação Beta
+
+   A radiação beta é subdividida em dois tipos, beta menos (\(\beta ^-\)) e pósitron (\(\beta ^+\)). As emissões do tipo \(\beta ^-\)- possuem a mesma característica dos elétrons atômicos, com a diferença que sua origem se dá no núcleo que possui um número excessivo de nêutrons sendo, portanto, instável. Neste decaimento o nêutron se “transforma” em um elétron (ejetado) e um próton (este permanece no núcleo). Assim como a  radiação  alfa,  elementos  emissores  de  beta  menos  (\(\beta ^-\))  podem  ser  usados  no  tratamento de doenças. Exemplos: lutécio-177 (@@latex: \ch{^{177}Lu}),  ítrio-90 (\ch{^{90}Y})@@.
+
+   Outro tipo de emissão beta é o pósitron (\(\beta ^+\)), que consiste na transformação de  um  próton  em  nêutron  e  pósitron  (antielétron),  uma  vez  que  o  núcleo  se  encontra  instável  devido  ao  número  elevado  de  prótons.  Após  sua  emissão  do  núcleo, os pósitrons são quase que instantaneamente aniquilados dando origem a dois fótons com mesma energia (511 keV) e direções opostas. Esse tipo de radiação é utilizado na medicina diagnóstica. Exemplo de radionuclídeos emissores de pósitrons: gálio-68 @@latex: (\ch{^{68}Ga}), flúor-18 (\ch{^{18}F})@@.
+
+
+** Radiação Gama
+
+   A radiação gama (\(\gamma\)) é conceituada como ondas eletromagnéticas emitidas do núcleo de um átomo. Apresenta energia superiores e alto poder de penetração, enquanto que os raios X são menos energéticos. Exemplo de radionuclídeos emissores de radiação gama: @@latex: \ch{^{99m}Tc}, cobalto-60 (\ch{^{60}Co})@@.
+
+
+* Poder de penetração da radiação
+As diferentes formas de radiação são emitidas do núcleo com energia e poder de penetração, específicos de cada radionuclídeo; assim são capazes de produzir diferentes efeitos nos seres vivos. A partícula alfa possui grande massa, por isso caminha pouco no meio e uma folha de papel é capaz de barrá-la; e no caso de irradiar o ser vivo, é capaz de penetrar apenas a camada superficial da pele. Por outro lado, a radiação beta, dependendo da energia, pode penetrar milímetros até centímetros, ou seja, é mais penetrante do que a radiação alfa. Por último, a radiação gama que possui a velocidade da luz, pode atravessar blocos de chumbo ou concreto, por possuir alto poder de penetração (Figura ref:poder). Com isso, os radio-nuclídeos emissores de alfa e beta podem ser utilizados na terapia de doenças e os emissores de gama, no diagnóstico.
+
+#+ATTR_LATEX: :scale 0.22  :placement [H]
+#+CAPTION:  Poder de penetração das radiações.
+#+LABEL:poder
+[[./../QM/poder.png]]
+
+
+
+* Radionuclídeos e suas origens
+
+
+
+Os radionuclídeos podem ser encontrados na natureza, como o @@latex: \ch{^238{U}} e o \ch{^{233}Ra}@@, ou podem ser produzidos artificialmente, de forma direta, em reatores nucleares e cíclotrons, ou de forma indireta, por geradores. O radionuclídeo é um átomo considerado instável em função de seu núcleo pos-suir energia “em excesso”. Essa energia será naturalmente liberada pela emissão de radiação gama, alfa ou beta (processo de desintegração ou decaimento radioativo – Figura ref:nucle), com o objetivo de assumir uma condição energética inferior e mais estável; dando origem a novos elementos que podem ser radioativos ou não.
+
+
+#+ATTR_LATEX: :scale 0.22  :placement [H]
+#+CAPTION: Processo de desintegração do radionuclídeo.
+#+LABEL: nucle
+[[./../QM/nucleo.png]]
+
+
+
+* Meia-vida física
+
+  Meia-vida física (\(t_{\frac{1}{2}}\)) corresponde ao tempo necessário para a atividade inicial de um elemento radioativo ser reduzida à metade por meio de seu decaimento e consequente emissão de radiação (Figura ref:meiavida). A meia-vida de um radionuclídeo pode variar de poucos segundos a vários anos.
+
+
+Tempo necessário para metade de uma população de átomos de um radionuclídeo decair para outra forma nuclear. A meia-vida é relacionada à constante de decaimento (\(k\)) pela equação:
+  
+  
+#+ATTR_LATEX: :scale 0.22  :placement [H]
+#+CAPTION: Decaimento do @@latex: \isotope{131,I} @@ pela sua meia-vida física de 8 dias.
+#+LABEL:meiavida
+[[./../QM/meia-vida.png]]
+
+  #+begin_export latex
+\begin{equation}
+t_{\frac{1}{2}}= \frac{0,693}{k}
+\end{equation}
+  #+end_export
+
+** Meia-vida biológica e efetiva
+
+A meia-vida biológica representa o tempo necessário para que o organismo excrete 50% do fármaco. Quando se trata de radiofármacos, é necessário levar em conta também a meia-vida efetiva, que é a soma da meia-vida física e a meia-vida biológica.
+
+A atividade de uma amostra é definida pelo número de desintegrações por segundo do núcleo instável de um radionuclídeo. Dessa forma, é possível mensurar a radioatividade de uma amostra. 
+
+
+
+* Decaimento Radioativo
+
+  Os decaimentos podem ser de três tipos: *alfa*, *beta* e *gama*. Cada um deles corresponde à uma partícula radioativa diferente, que altera o núcleo do átomo emissor de acordo com suas características.
+
+*Decaimento alfa:* nela, o núcleo instável emite uma partícula alfa, que é um núcleo de Hélio. Como sabemos da tabela periódica, o Hélio tem dois prótons e dois nêutrons. Assim, o elemento perde 4 de massa, tendo seu número atômico diminuído em 2.
+
+#+begin_center
+@@latex:  \ch{^A_Z X -> ^4_2\(\alpha\) + ^{A-4}_{Z-2}Y} @@
+#+end_center
+
+*Decaimento beta:* a partícula beta é um elétron ejetado de um nêutron. Como elétrons não têm massa, ela também não tem. O elemento radioativo tem um nêutron transformado em próton, então aumenta seu número atômico em 1.
+
+
+#+begin_center
+@@latex:  \ch{^A_Z Q -> ^0_{-1} \(\beta\) + ^{A-0}_{Z+1}R} @@
+#+end_center
+
+#+begin_export latex
+\subsection{Tempo de Meia Vida}
+#+end_export
+
+   O tempo de meia vida está relacionado à taxa de decaimento de determinada amostra. Ele é o tempo necessário para que metade da quantidade de átomos do elemento radioativo de uma amostra decaia.
+
+Por exemplo, se há 10 átomos radioativos em uma amostra, o tempo de meia vida será o tempo decorrido até que 5 átomos tenham decaído. Depois, dizemos que mais uma meia vida passou quando 2,5 átomos tenham decaído; depois, 1,25, e assim sucessivamente.
+
+#+CAPTION: Decaimento de uma amostra radioativa
+#+ATTR_LATEX: :scale 0.3 :placement [H]
+[[./../QM/tempo-vida.png]]
+
+
+À medida que o decaimento progride, a quantidade de átomos radioativos diminui pela metade, para cada período P. Assim, a relação matemática fica:
+
+#+begin_equation
+@@latex: \displaystyle n= \frac{n_0}{2^x} @@
+#+end_equation
+
+Onde \(n\) é a quantidade final de átomos na amostra. Já \(n_0\) é a quantidade inicial, e \(x\) é o número de períodos de meia vida decorridos. A quantidade de átomos pode ser dada em massa, em mol ou porcentagem sendo todos diretamente proporcionais.
+
+#+ATTR_LATEX: :options {Exemplo}
+#+begin_Box2
+Vinte gramas de um isótopo radioativo decrescem para cinco gramas em dezesseis anos. A meia-vida desse isótopo é:
+
+a) 4 anos.\\
+b) 16 anos.\\
+c) 32 anos.\\
+d) 10 anos.\\
+e) 8 anos.\\
+#+end_Box2
+
+#+ATTR_LATEX: :options {Solução}
+#+begin_Box2
+Os dados apresentados na questão são:
+
+1. Massa inicial do isótopo: 20 g.
+2. Massa final do isótopo: 5 g.
+3. Tempo decorrido: 16 anos.
+
+   
+Com base nesses dados, calcula-se quantas vezes a massa reduziu pela metade.
+
+|20g |\ch{->[P]} |@@latex: \(\mathrm\displaystyle\frac{20\ g}{2}\)@@=10g |\ch{->[P]} |@@latex:\(\mathrm\displaystyle\frac{10\ g}{2}\)@@=5 g
+
+P representa o período que levou para ocorrer essa redução.
+
+Já que a massa passou por duas reduções ao longo dos 16 anos, então quer dizer que a meia-vida desse isótipo é a metade desse tempo.
+
+#+begin_export latex
+\begin{align*}
+2P = & 16 \text{ anos}\\
+P= & \frac{16}{2}\\
+P= & \text{8 anos}
+\end{align*}
+#+end_export
+
+#+end_Box2
+
+
+Essa relação matemática produz um gráfico com o perfil mostrado abaixo, para o Césio-137. Com ele, podemos saber como o Césio-137 decai a 50% da amostra inicial ao longo de 35 anos. Assim, sabemos que esse é o tempo de meia vida do Césio-137.
+
+
+#+CAPTION: Gráfico sobre o decaimento do Célsio-137
+#+ATTR_LATEX: :scale 0.5 :placement [H]
+[[./../QM/decai-curva.png]]
+
+
+
+
+* Exercícios
+
+#+INCLUDE: "../Questoes/FQ-Aberta.org"
+\printcollection{Radioatividade}
+
+
+
+
+

@@ -1,0 +1,253 @@
+
+#+LATEX_HEADER: \DeclareExerciseCollection{NoxI}
+
+\collectexercises{NoxI}
+
+#+begin_exercise
+Determine o NOx do átomo de cloro nas seguintes substâncias:
+
+#+ATTR_LATEX: :options (3)
+#+begin_choice
+\choice \ch{HC$\ell$O4}
+\choice \ch{HC$\ell$O3}
+\choice \ch{HC$\ell$O2}
+\choice \ch{HC$\ell$O}
+\choice \ch{HC$\ell$}
+\choice \ch{C$\ell$2}
+#+end_choice 
+#+end_exercise
+#+begin_solution
+#+ATTR_LATEX: :options (3)
+#+begin_choice
+\choice +7
+\choice +5
+\choice +3
+\choice +1
+\choice -1
+\choice 0 
+#+end_choice
+#+end_solution
+
+
+#+begin_exercise
+Determine o NOx do átomo de enxofre nos seguintes substâncias:
+
+#+ATTR_LATEX: :options (3)
+#+begin_choice 
+\choice \ch{H2SO4}
+\choice \ch{H2SO3}
+\choice \ch{H2SO2}
+\choice \ch{H2S2O7}
+\choice \ch{H2S}
+\choice \ch{S8}
+#+end_choice
+#+end_exercise
+#+begin_solution
+#+ATTR_LATEX: :options (3)
+#+begin_choice 
+\choice +6
+\choice +4
+\choice +2
+\choice +6
+\choice -2
+\choice 0
+#+end_choice
+#+end_solution
+
+
+
+#+begin_exercise
+Determine o NOx do átomo de nitrogênio nas seguintes substâncias:
+
+#+ATTR_LATEX: :options (3)
+#+begin_choice
+\choice \ch{HNO3}
+\choice \ch{HNO2}
+\choice \ch{NO2}
+\choice \ch{N2O4}
+\choice \ch{N2O5}
+\choice \ch{NH3}
+#+end_choice
+#+end_exercise
+#+begin_solution
+#+ATTR_LATEX: :options (3)
+#+begin_choice
+\choice +5
+\choice +3
+\choice +4
+\choice +4
+\choice +5
+\choice -3
+#+end_choice 
+#+end_solution
+
+
+#+begin_exercise
+Determine o NOx do átomo de nitrogênio nas seguintes substâncias:
+
+#+ATTR_LATEX: :options (3)
+#+begin_choice
+\choice \ch{HBO3}
+\choice \ch{HPO2}
+\choice \ch{SO2}
+\choice \ch{S2O4^{-2}}
+\choice \ch{PH3}
+#+end_choice
+#+end_exercise
+#+begin_solution
+
+#+ATTR_LATEX: :options (3)
+#+begin_choice
+\choice +5
+\choice +3
+\choice +1
+\choice +5
+\choice +5
+\choice -3
+#+end_choice
+#+end_solution
+
+
+
+#+begin_exercise
+Dada a reação:
+#+begin_export latex
+\begin{reaction*}
+2 CO + O2 -> 2 CO2
+\end{reaction*}
+#+end_export
+
+Determine:
+#+begin_choice
+\choice o elemento que oxidou e o elemento que reduziu.
+\choice o agente oxidante e o agente redutor.
+#+end_choice 
+#+end_exercise
+#+begin_solution
+#+begin_choice
+\choice  O elemento que oxidou foi o carbono, de +2 a +4, e o elemento que reduziu foi o oxigênio, de 0 a -2.
+\choice agente oxidante é o \ch{O2} e o agente redutor é o CO. 
+#+end_choice
+#+end_solution
+
+
+
+#+begin_exercise
+Dada a reação:
+#+begin_export latex
+\begin{reaction*}
+H2S + 2 O2 -> H2SO4
+\end{reaction*}
+#+end_export
+
+Determine:
+#+begin_choice
+\choice o elemento que oxidou e o elemento que reduziu.
+\choice o agente oxidante e o agente redutor.
+#+end_choice 
+#+end_exercise
+
+#+begin_solution
+#+begin_choice
+\choice  O elemento que oxidou foi o enxofre, de -2 a +6, e o elemento que reduziu foi o oxigênio, de 0 a -2. 
+\choice agente oxidante é o \ch{O2} e o agente redutor é o \ch{H2S}. 
+#+end_choice
+#+end_solution
+
+
+#+begin_exercise
+Dada a reação:
+#+begin_export latex
+\begin{reaction*}
+3 P4 + 20 HNO3 + 8 H2O -> 20 NO + 12 H3PO4
+\end{reaction*}
+#+end_export
+
+Determine:
+#+begin_choice
+\choice o elemento que oxidou e o elemento que reduziu.
+\choice o agente oxidante e o agente redutor.
+#+end_choice 
+#+end_exercise
+#+begin_solution
+#+begin_choice
+\choice O elemento que oxidou foi o fósforo, de 0 a + 5, e o elemento que reduziu foi o nitrogênio, de +5 a +2
+\choice O agente oxidante é o \ch{HNO3} e o agente redutor é o \ch{P4}
+#+end_choice 
+#+end_solution
+
+
+#+begin_exercise
+Dada a reação:
+#+begin_export latex
+\begin{reaction*}
+4 Br2 + H2S + 4 H2O -> 8 HBr + H2SO4
+\end{reaction*}
+#+end_export
+
+Determine:
+#+begin_choice
+\choice o elemento que oxidou e o elemento que reduziu.
+\choice o agente oxidante e o agente redutor.
+#+end_choice 
+#+end_exercise
+#+begin_solution
+#+begin_choice
+\choice O elemento que oxidou foi o enxofre, de -2 a +6, e o elemento que reduziu foi o bromo, de
+0 a -1
+\choice  O agente oxidante é o \ch{Br2} e o agente redutor é o \ch{H2S}.
+#+end_choice
+#+end_solution
+
+
+
+
+
+#+begin_exercise
+Dada a reação:
+#+begin_export latex
+\begin{reaction*}
+HIO3 + 5 HI -> 3 I2 + 3 H2O
+\end{reaction*}
+#+end_export
+
+Determine:
+#+begin_choice
+\choice o elemento que oxidou e o elemento que reduziu.
+\choice o agente oxidante e o agente redutor.
+#+end_choice 
+#+end_exercise
+#+begin_solution
+#+begin_choice
+\choice O elemento que oxidou, de +5 a 0, e que reduziu, de -1 a 0, foi o iodo.
+\choice  O agente oxidante é o \ch{HIO3} e o agente redutor é o HI. 
+#+end_choice
+#+end_solution
+
+
+
+
+
+#+begin_exercise
+Dada a reação:
+#+begin_export latex
+\begin{reaction*}
+2 OH^- + Br2 -> H2O + Br^- + BrO^-
+\end{reaction*}
+#+end_export
+
+Determine:
+#+begin_choice
+\choice o elemento que oxidou e o elemento que reduziu.
+\choice o agente oxidante e o agente redutor.
+#+end_choice 
+#+end_exercise
+#+begin_solution
+#+begin_choice
+\choice O elemento que oxidou, de 0 a +1, e que reduziu, de 0 a -1, foi o bromo.
+\choice  O agente oxidante e o agente redutor é o \ch{Br2}, ou seja, o bromo sofreu desproporção
+#+end_choice
+#+end_solution
+
+
+\collectexercisesstop{NoxI}

@@ -1,0 +1,279 @@
+#+LATEX_HEADER: \DeclareExerciseCollection{Saneamento}
+
+\collectexercises{Saneamento}
+
+
+#+begin_exercise
+Qual é a definição de saneamento básico?
+
+#+begin_choice
+\choice Uso de produtos de limpeza
+\choice Conjunto de medidas que visam preservar ou modificar as condições do meio ambiente
+\choice Práticas de higiene pessoal
+\choice Uso de tecnologias avançadas
+#+end_choice 
+#+end_exercise
+#+begin_solution
+#+end_solution
+
+
+
+#+begin_exercise     
+Quais são os principais componentes do saneamento básico?
+
+#+begin_choice
+\choice Água potável e energia elétrica
+\choice Energia solar e reciclagem
+\choice Água, esgoto, resíduos sólidos e drenagem
+\choice Árvores e jardins
+#+end_choice
+#+end_exercise
+#+begin_solution
+#+end_solution
+
+
+#+begin_exercise 
+O que é o tratamento de esgoto?
+
+#+begin_choice
+\choice Descarte de resíduos no meio ambiente
+\choice  Processo de purificação da água contaminada por resíduos orgânicos e químicos
+\choice Armazenamento de água suja
+\choice Coleta seletiva de lixo
+#+end_choice 
+#+end_exercise
+#+begin_solution
+#+end_solution
+
+
+
+#+begin_exercise 
+Qual é a importância da coleta seletiva de resíduos sólidos?
+
+#+begin_choice
+\choice Reduzir a quantidade de lixeiras nas ruas
+\choice  Separar os resíduos recicláveis dos não recicláveis para reduzir o impacto ambiental
+\choice Aumentar a quantidade de lixo nos aterros sanitários
+\choice Aumentar a poluição do ar
+#+end_choice
+#+end_exercise
+#+begin_solution
+#+end_solution
+
+#+begin_exercise
+O que é uma estação de tratamento de água (ETA)?
+
+#+begin_choice
+\choice Local para armazenar água potável
+\choice Local para práticas de recreação aquática
+\choice Local para coletar esgoto
+\choice Local onde a água é tratada para se tornar potável
+#+end_choice
+#+end_exercise
+#+begin_solution
+#+end_solution
+
+#+begin_exercise 
+Qual é o principal objetivo da drenagem
+
+#+begin_choice
+\choice Acumular água da chuva nas ruas
+\choice Evitar inundações nas cidades
+\choice Armazenar água subterrânea
+\choice Aumentar a umidade do solo
+#+end_choice 
+#+end_exercise
+#+begin_solution
+#+end_solution
+
+
+#+begin_exercise 
+Quais doenças podem ser transmitidas devido à falta de saneamento básico?
+
+#+begin_choice 
+\choice Resfriado e gripe
+\choice Diabetes e hipertensão
+\choice Dengue e cólera
+\choice Enxaqueca e asma
+#+end_choice 
+#+end_exercise
+#+begin_solution
+#+end_solution
+
+
+#+begin_exercise 
+O que é o índice de saneamento básico?
+
+#+begin_choice
+\choice Quantidade de produtos de limpeza utilizados por pessoa
+\choice Medida da qualidade da água em rios
+\choice  Indicador que avalia as condições de abastecimento de água, coleta e tratamento de esgoto, drenagem urbana e coleta de resíduos sólidos
+\choice Nível de urbanização de uma cidade
+#+end_choice
+#+end_exercise
+#+begin_solution
+#+end_solution
+
+#+begin_exercise 
+Qual é a legislação brasileira que estabelece as diretrizes nacionais para o saneamento básico?
+#+begin_choice
+\choice Código de Saúde Nacional
+\choice Lei do Meio Ambiente
+\choice Constituição Brasileira
+\choice Lei do Saneamento Básico (Lei nº 11.445/2007)
+#+end_choice
+#+end_exercise
+#+begin_solution
+#+end_solution
+
+
+#+begin_exercise     
+O que é o aterro sanitário?
+
+#+begin_choice
+\choice Local para armazenar produtos químicos
+\choice Local para descarte irregular de resíduos
+\choice Local onde o lixo é depositado e compactado de forma controlada
+\choice Local para queimar resíduos a céu aberto
+#+end_choice
+#+end_exercise
+#+begin_solution
+#+end_solution
+
+
+
+#+begin_exercise
+Qual é a principal fonte de contaminação da água potável?
+
+#+begin_choice
+\choice Ar poluído
+\choice Lixo nas ruas
+\choice Produtos químicos
+\choice Esgoto não tratado
+#+end_choice
+#+end_exercise
+#+begin_solution
+#+end_solution
+
+
+#+begin_exercise 
+Qual é a importância da educação ambiental no contexto do saneamento básico?
+#+begin_choice
+\choice  Não tem relevância
+\choice Ajuda a aumentar o consumo de água
+\choice  Contribui para conscientizar a população sobre a importância do uso racional da água, coleta seletiva e descarte correto de resíduos
+\choice Causa mais problemas ambientais
+#+end_choice
+#+end_exercise
+#+begin_solution
+#+end_solution
+
+
+#+begin_exercise
+O que é uma fossa séptica?
+#+begin_choice
+\choice Um tipo de animal marinho
+\choice Um reservatório para armazenar água de chuva
+\choice Um sistema de tratamento de esgoto doméstico
+\choice Um dispositivo para medir a quantidade de água consumida
+#+end_choice
+#+end_exercise
+#+begin_solution
+#+end_solution
+
+
+#+begin_exercise 
+Quais são os impactos negativos da falta de saneamento básico nas comunidades?
+
+#+begin_choice
+\choice Redução da incidência de doenças
+\choice  Melhora na qualidade de vida
+\choice Propagação de doenças, degradação do meio ambiente e prejuízos econômicos
+\choice Maior quantidade de áreas verdes
+#+end_choice
+#+end_exercise
+#+begin_solution
+#+end_solution
+
+
+#+begin_exercise
+O que é o esgotamento sanitário?
+#+begin_choice
+\choice  Esgoto não tratado
+\choice Sistema de tratamento de água
+\choice Uso excessivo de produtos de limpeza
+\choice Coleta seletiva de resíduos
+#+end_choice
+#+end_exercise
+#+begin_solution
+#+end_solution
+
+
+#+begin_exercise 
+Qual é a importância da água tratada para a saúde pública?
+#+begin_choice 
+\choice Não tem relevância
+\choice A água tratada não influencia na saúde pública
+\choice A água tratada previne a propagação de doenças transmitidas pela água contaminada
+\choice A água tratada causa mais doenças
+#+end_choice
+#+end_exercise
+#+begin_solution
+#+end_solution
+
+
+#+begin_exercise
+O que é a balneabilidade de uma praia ou rio?
+#+begin_choice
+   \choice Capacidade de uma praia atrair turistas
+    \choice Nível de poluição do ar próximo a uma praia
+    \choice Qualidade da água para recreação, como banho e atividades aquáticas
+    \choice Quantidade de lixo nas areias de uma praia
+#+end_choice
+#+end_exercise
+#+begin_solution
+#+end_solution
+
+
+#+begin_exercise 
+Quais são os benefícios da coleta e tratamento adequados de resíduos sólidos?
+#+begin_choice 
+\choice Aumento da poluição ambiental
+\choice Redução do consumo de água
+\choice Diminuição da propagação de doenças e preservação do meio ambiente
+\choice Maior produção de resíduos
+#+end_choice
+#+end_exercise
+#+begin_solution
+#+end_solution
+
+#+begin_exercise 
+O que é a poluição difusa?
+#+begin_choice 
+\choice  Poluição causada por produtos químicos
+\choice Poluição gerada apenas por empresas industriais
+\choice Poluição proveniente de fontes fixas
+\choice  Poluição originada de múltiplas fontes, como escoamento superficial e difuso
+#+end_choice
+#+end_exercise
+#+begin_solution
+#+end_solution
+
+
+#+begin_exercise 
+Como a população pode contribuir para a melhoria do saneamento básico?
+#+begin_choice 
+\choice  Não é responsabilidade da população
+\choice Desperdiçar água e não se preocupar com a coleta seletiva
+\choice  Economizar água, fazer a coleta seletiva, denunciar descartes irregulares e apoiar políticas públicas relacionadas ao saneamento
+\choice  Ignorar os problemas ambientais
+#+end_choice
+#+end_exercise
+#+begin_solution
+C
+#+end_solution
+
+
+
+\collectexercisesstop{Saneamento}
+

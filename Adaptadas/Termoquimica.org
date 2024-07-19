@@ -1,0 +1,79 @@
+
+#+LATEX_HEADER: \DeclareExerciseCollection{Adaptadas-Termoquimica}
+
+\collectexercisesstop{Adaptadas-Estequiometria}
+
+
+
+
+
+
+#+BEGIN_COMMENT
+
+==================== 2 Ano ========================
+
+#+END_COMMENT
+
+
+
+\collectexercises{Adaptadas-Termoquimica}
+
+#+begin_exercise
+Observe a tirinha abaixo
+
+#+begin_export latex
+\begin{figure}[ht]
+\centering
+\includegraphics[scale=0.3]{Adaptadas/fogo2.png}
+\end{figure}
+#+end_export
+
+Considerando que a geladeira absorve calor qual seria o valor da entalpia (@@latex: $\Delta$H @@)
+
+#+begin_export latex
+\begin{choice}(3)
+\choice positivo
+\choice negativo
+\choice zero
+\end{choice}
+#+end_export
+#+end_exercise 
+
+#+begin_exercise
+Qual das imagens abaixo é uma reação *EXOTÉRMICA*
+
+#+begin_export latex
+\begin{choice}(3)
+\choice \includegraphics[scale=.4]{Adaptadas/gelo.png}
+\choice \includegraphics[scale=.3]{Adaptadas/carvao.png}
+\choice \includegraphics[scale=.5]{Adaptadas/fotosintesse.png}
+\end{choice}
+#+end_export
+
+
+#+end_exercise 
+
+
+
+#+begin_exercise
+Qual das imagens abaixo é uma reação *ENDOTÉRMICA*
+
+#+begin_export latex
+\begin{choice}(3)
+\choice \includegraphics[scale=.3]{Adaptadas/gas.png}
+\choice \includegraphics[scale=.3]{Adaptadas/carvao.png}
+\choice \includegraphics[scale=.5]{Adaptadas/fotosintesse.png}
+\end{choice}
+#+end_export
+
+
+#+end_exercise 
+
+
+
+
+\collectexercisesstop{Adaptadas-Termoquimica}
+
+
+
+

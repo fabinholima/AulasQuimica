@@ -1,0 +1,18 @@
+#+begin_questions
+#+begin_exercise
+Realize o balanceamento das reações redox
+#+begin_export latex
+\begin{choice}(1)
+\choice \ch{As2O3 + NO3^- ->  H3AsO4 + N2O3} \vspace{1cm} 
+\choice \ch{KI + KNO2 + H2SO4 ->  I2 + NO + K2SO4 + H2O}\vspace{1cm}
+\choice \ch{KI + H2SO4 -> K2SO4 + I2 + H2S + H2O}  \vspace{1cm}
+\choice \ch{C + H2SO4 -> CO2 + SO2 + H2O}  \vspace{1cm}
+\choice \ch{Cu + SO4^{2-} -> Cu^{2+} + SO2}  \vspace{1cm}
+\choice \ch{KSCN + H2O + I2 -> KHSO4 + HI + ICN}  \vspace{1cm}
+\choice \ch{A$\ell$Br3 + KMnO4 + H2SO4 -> A$\ell$2(SO4)3 + K2SO4 + MnSO4 + Br2 + H2O}  \vspace{1cm}
+\choice \ch{FeSO4 + KMnO4 + H2SO4 -> Fe2(SO4)3 + K2SO4 + MnSO4 + H2O}  \vspace{1cm}
+\choice \ch{Na2C2O4 + KMnO4 + H2SO4 -> K2SO4 + Na2SO4 + MnSO4 + CO2 + H2O}
+\end{choice}
+#+end_export
+#+end_exercise
+#+end_questions

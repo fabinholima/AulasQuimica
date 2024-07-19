@@ -1,0 +1,157 @@
+
+#+LATEX_HEADER: \DeclareExerciseCollection{AvaDiagn2}
+
+
+\collectexercises{AvaDiagn2}
+
+
+#+ATTR_LATEX: :options [points=1.001]
+#+begin_exercise
+No fim do século XIX começaram a aparecer evidências de que o átomo não era a menor partícula
+constituinte da matéria. Em 1897 tornou-se pública a demonstração da existência de partículas negativas, por
+um inglês de nome:
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice Dalton;
+\choice Rutherford;
+\choice Bohr;
+\choice Thomson;
+\choice Proust
+#+end_choice
+#+end_exercise
+
+#+ATTR_LATEX: :options [points=1.001]
+#+begin_exercise
+O átomo, na visão de Thomson, é constituído de
+#+begin_choice
+\choice níveis e subníveis de energia.
+\choice cargas positivas e negativas.
+\choice núcleo e eletrosfera.
+\choice grandes espaços vazios.
+\choice orbitais.
+#+end_choice
+#+end_exercise
+
+#+ATTR_LATEX: :options [points=1.001]
+#+begin_exercise
+O átomo de Rutherford (1911) foi comparado ao sistema planetário (o núcleo atômico representa o sol e a eletrosfera, os planetas): Eletrosfera é a região do átomo que:
+#+begin_choice
+\choice contém as partículas de carga elétrica negativa.
+\choice contém as partículas de carga elétrica positiva.
+\choice contém nêutrons.
+\choice concentra praticamente toda a massa do átomo.
+\choice contém prótons e nêutrons.
+#+end_choice
+#+end_exercise
+
+
+#+ATTR_LATEX: :options [points=1.001]
+#+begin_exercise
+Os compostos iônicos \ch{CaCO3} e \ch{NaC$\ell$} têm solubilidades muito diferentes em água. Enquanto o carbonato de cálcio, principal constituinte do mármore, é praticamente insolúvel em água, o sal de cozinha é muito solúvel. A solubilidade de qualquer sal é o resultado do balanço entre a energia de rede (energia necessária para separar completamente os íons do sólido cristalino) e a energia envolvida na hidratação dos íons dispersos em solução.
+Em relação à energia de rede, a menor solubilidade do primeiro composto é explicada pelo fato de ele apresentar maior
+
+#+begin_choice
+\choice atração entre seus íons.
+\choice densidade do sólido iônico. 
+\choice energia de ionização do cálcio.
+\choice eletronegatividade dos átomos. 
+\choice polarizabilidade do íon carbonato.
+#+end_choice
+#+end_exercise 
+
+#+ATTR_LATEX: :options [points=1.001]
+#+begin_exercise
+O carvão ativado é um material que possui elevado teor de carbono, sendo muito utilizado para a remoção de compostos orgânicos voláteis do meio, como o benzeno. Para a remoção desses compostos, utiliza-se a adsorção. Esse fenômeno ocorre por meio de interações do tipo intermoleculares entre a superfície do carvão (adsorvente) e o benzeno (adsorvato, substância adsorvida).
+ No caso apresentado, entre o adsorvente e a substância adsorvida ocorre a formação de: 
+#+begin_choice
+\choice Ligações dissulfeto.
+\choice Ligações covalentes.
+\choice Ligações de hidrogênio.
+\choice Interações dipolo induzido - dipolo induzido.
+\choice Interações dipolo permanente - dipolo permanente. 
+#+end_choice
+#+end_exercise
+
+#+ATTR_LATEX: :options [points=1.001]
+#+begin_exercise
+O ácido sulfúrico (\ch{H2SO4}) é um dos ácidos mais utilizados em indústrias e em laboratórios. O resíduo ácido gerado pelo seu uso pode provocar sérios danos ao meio ambiente. Em um laboratório, gerou-se uma grande quantidade de resíduo ácido a partir do ácido sulfúrico, o qual necessita ser neutralizado para o seu descarte. O técnico desse laboratório tem à sua disposição cinco substâncias: CaO, \ch{K2SO4}, \ch{NaHSO4} , \ch{CH3CH2OH} e \ch{C5H9CONH2}.
+
+Qual dessas substâncias é a adequada para realizar esse tratamento?
+#+begin_choice
+\choice CaO 
+\choice \ch{K2SO4} 
+\choice \ch{NaHSO4}
+\choice \ch{CH3CH2OH}
+\choice \ch{C5H9CONH2}
+#+end_choice
+#+end_exercise 
+
+
+#+ATTR_LATEX: :options [points=1.001]
+#+begin_exercise
+Considere a tirinha, na situação em que a temperatura do ambiente é inferior à temperatura corporal dos personagens.
+
+#+CAPTION: WATTERSON, B. Disponível em: https://novaescola.org.br. Acesso em: 11 ago. 2014.
+#+ATTR_LATEX: :scale=.33
+[[../QG/calvin.png]]
+
+ O incômodo mencionado pelo personagem da tirinha deve-se ao fato de que, em dias úmidos, 
+
+#+begin_choice
+\choice a temperatura do vapor-d’água presente no ar é alta.
+\choice \answer{o suor apresenta maior dificuldade para evaporar do corpo.}
+\choice a taxa de absorção de radiação pelo corpo torna-se maior.
+\choice o ar torna-se mau condutor e dificulta o processo de liberação de calor.
+\choice o vapor-d’água presente no ar condensa-se ao entrar em contato com a pele.
+#+end_choice 
+
+#+end_exercise
+
+
+#+ATTR_LATEX: :options [points=1.001]
+#+begin_exercise
+Antigamente, em lugares com invernos rigorosos, as pessoas acendiam fogueiras dentro de uma sala fechada para se aquecerem do frio. O risco no uso desse recurso ocorria quando as pessoas adormeciam antes de apagarem totalmente a fogueira, o que poderia levá-las a óbito, mesmo sem a ocorrência de incêndio.
+A causa principal desse risco era o(a)
+
+#+begin_choice
+\choice produção de fuligem pela fogueira.
+\choice liberação de calor intenso pela fogueira.
+\choice consumo de todo o oxigênio pelas pessoas.
+\choice geração de queimaduras pela emissão de faíscas da lenha.
+\choice \answer{geração de monóxido de carbono pela combustão incompleta}
+#+end_choice 
+#+end_exercise
+
+
+
+#+ATTR_LATEX: :options [points=1.001]
+#+begin_exercise
+O mármore, rocha metamórfica composta principalmente de carbonato de cálcio (CaCO_3), é muito utilizada como material de construção e também na produção de esculturas. Entretanto, se peças de mármore são expostas a ambientes externos, particularmente em grandes cidades e zonas industriais, elas sofrem ao longo do tempo um processo de desgaste, caracterizado pela perda de massa da peça.
+Esse processo de deterioração ocorre em função da.
+#+begin_choice
+\choice oxidação do mármore superficial pelo oxigênio.
+\choice decomposição do mármore pela radiação solar.
+\choice onda de choque provocada por ruídos externos.
+\choice abrasão por material particulado presente no ar.
+\choice acidez da chuva que cai sobre a superfície da peça.
+#+end_choice
+#+end_exercise
+
+
+#+ATTR_LATEX: :options [points=1.001]
+#+begin_exercise
+Em derramamentos de óleo no mar, os produtos conhecidos como “dispersantes” são usados para reduzir a tensão superficial do petróleo derramado, permitindo que o vento e as ondas “quebrem” a mancha em gotículas microscópicas. Estas são dispersadas pela água do mar antes que a mancha de petróleo atinja a costa. Na tentativa de fazer uma reprodução do efeito desse produto em casa, um estudante prepara um recipiente contendo água e gotas de óleo de soja. Há disponível apenas azeite, vinagre, detergente, água sanitária e sal de cozinha.
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice Azeite.
+\choice Vinagre.
+\choice Detergente.
+\choice Água sanitária.
+\choice Sal de cozinha
+#+end_choice 
+#+end_exercise 
+
+
+
+\collectexercisesstop{AvaDiagn2}

@@ -1,0 +1,111 @@
+
+#+LATEX_HEADER: \DeclareExerciseCollection{Adaptadas-Eletroquimica}
+
+#+begin_comment
+=============== ELETROQUIMICA =======================
+#+end_comment
+
+
+
+\collectexercises{Adaptadas-Eletroquimica}
+
+
+Observe a figura acima e responda as questões a seguir 
+
+
+
+#+begin_export latex
+\begin{center}
+\begin{tikzpicture}[line join=round, line cap= round]
+  % CELLS AND ELECTRODES
+  \begin{scope}
+    \draw[thick,fill=gray!50] (0.5,1) rectangle (1,5);    % Zn electrode
+    \draw[thick,rounded corners] (0,4) |- (4,0) -- (4,4); % left cell
+    \clip[rounded corners]       (0,4) |- (4,0) -- (4,4) -- cycle;
+    \fill[gray,opacity=0.3]   (0,0)   rectangle (4,3);    % ZnSO4 solution
+  \end{scope}
+  \begin{scope}
+    \draw[thick,fill=orange!50] (8,1) rectangle (8.5,5);  % Cu electrode
+    \draw[thick,rounded corners] (5,4) |- (9,0) -- (9,4); % right cell
+    \clip[rounded corners]       (5,4) |- (9,0) -- (9,4) -- cycle;
+    \fill[blue, opacity=0.2]    (5,0) rectangle (9,3);    % CuSO4 solution
+  \end{scope}
+  % SALINE BRIDGE
+  \draw[thick] (3,1)   --++ (0,2.5) arc (180:0:1.5) --++ (0,-2.5);
+  \draw[thick] (3.5,1) --++ (0,2.5) arc (180:0:1)   --++ (0,-2.5);
+  % WIRE AND VOLTMETER
+  \draw[thick, rounded corners=0.5 cm] (0.75,5) |- (8.25,7) -- (8.25,5);
+  \begin{scope}[shift={(4.5,7)}]
+  \draw[thick,fill=white] (0,0) circle (0.5);
+    \foreach\a in{30,60,...,150}
+    {%
+      \draw[blue,thin] (\a:0.35) -- (\a:0.45);
+    }
+  \fill[blue] (0,0) circle (1pt);
+  \draw[blue,thick,-latex] (0,0) -- (60:0.4);
+  \end{scope}
+  % ELECTRONS
+  \begin{scope}[shift={(1.5,6.25)}]
+    \draw[red,thick,rounded corners=0.3 cm,->] (-0.5,-0.5) |- (0.5,0.5);
+  \end{scope}
+  % SIGNS
+  \draw[red,thick] (-0.5,5.5) circle (0.25);
+  \draw[red,thick] (9.5,5.5)  circle (0.25);
+  \draw[red,thick] (-0.7,5.5) -- (-0.3,5.5);
+  \draw[red,thick] (9.3,5.5)  -- (9.7,5.5);
+  \draw[red,thick] (9.5,5.3)  -- (9.5,5.7);
+  % LABELS
+  \node at (4.5,8)    {Voltimetro};
+  \node at (4.5,5.5)  {Ponte Salina  (\ch{KC$\ell$})};
+  \node at (-0.5,5)   {Ânodo};
+  \node at (-0.5,4.5) {(Oxidação)};
+  \node at (9.5,5)    {Cátodo};
+  \node at (9.5,4.5)  {(Redução)};
+  \node[red] at (1.5,6.25) {\ch{e^-}};
+  % CHEMISTRY
+  \node at (2,-0.5) {\ch{ZnSO4}};
+  \node at (7,-0.5) {\ch{CuSO4}};
+  \node at (0.75,2) {\ch{Zn}};
+  \node at (8.25,2) {\ch{Cu}};
+  \node at (0.85,2) [right] {\small\ch{-> Zn^2+}};
+  \node at (8.15,2) [left]  {\small\ch{Cu^2+ ->}};
+\end{tikzpicture}
+\end{center}
+#+end_export
+
+
+#+begin_exercise
+Qual o nome do metal que está no cátodo?
+\vspace{3cm}
+#+end_exercise 
+
+
+#+begin_exercise
+O cátodo  é positivo ou negativo
+\vspace{3cm}
+#+end_exercise
+
+
+
+#+begin_exercise
+Qual o nome do metal que está no ânodo?
+\vspace{3cm}
+#+end_exercise 
+
+
+
+
+#+begin_exercise
+O ânodo  é positivo ou negativo?
+\vspace{3cm}
+#+end_exercise
+
+
+
+
+
+\collectexercisesstop{Adaptadas-Eletroquimica}
+
+
+
+

@@ -1,0 +1,749 @@
+#+LATEX_HEADER: \DeclareExerciseCollection{ListaMisturas}
+#+LATEX_HEADER:\DeclareExerciseCollection{LawProust}
+#+LATEX_HEADER: \DeclareExerciseCollection{ListaTeoriaAtomica}
+#+LATEX_HEADER:\DeclareExerciseCollection{ListaTabela}
+#+LATEX_HEADER: \DeclareExerciseCollection{ListaLigacao}
+#+LATEX_HEADER:\DeclareExerciseCollection{ListaBalanceamento}
+
+
+
+\collectexercises{ListaMisturas}
+
+#+begin_exercise 
+O ciclo da água na natureza, relativo à formação de nuvens, seguida de precipitação da água na forma de chuva, pode ser comparado, em termos das mudanças de estado físico que ocorrem e do processo de purificação envolvido, à seguinte operação de laboratório:
+
+#+begin_export latex
+\begin{choice}
+\choice (\; ) sublimação
+\choice (\; ) filtração
+\choice (\; ) decantação
+\choice (\; ) dissolução
+\choice (\; ) destilação
+\end{choice}
+#+end_export
+#+end_exercise
+#+begin_solution
+Letra E
+#+end_solution
+
+
+#+begin_exercise
+Algumas técnicas de separação acontecem sem nenhuma ajuda na vida cotidiana. Que técnica de separação acontece enquanto a cola seca?
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice 
+\choice Decantação
+\choice Derretendo
+\choice Peneirar
+\choice Evaporação
+\choice Congelando
+#+end_choice
+#+end_exercise
+#+begin_solution
+Letra D
+#+end_solution
+
+
+
+
+#+begin_exercise
+Qual das seguintes misturas pode ser separada usando um ímã?
+#+begin_choice
+\choice Etanol e água
+\choice Tinta vermelha e tinta azul
+\choice Água do mar e areia
+\choice talco e água
+\choice Limalhas de ferro e enxofre em pó
+#+end_choice
+#+end_exercise
+#+begin_solution
+LETRA E
+#+end_solution
+
+
+
+
+
+#+begin_exercise
+Qual técnica de separação poderia ser usada para descobrir se o repolho roxo contém ou não mais de uma substância colorida?
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice Destilação
+\choice Cromatografia
+\choice Evaporação
+\choice Decantação
+\choice Filtragem
+#+end_choice 
+#+end_exercise
+#+begin_solution
+Letra B
+#+end_solution
+
+
+
+
+
+
+#+begin_exercise
+Um sólido insolúvel pode ser separado de um líquido usando decantação; no entanto, que outra técnica de separação também poderia ser usada?
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice Derretendo
+\choice Evaporação
+\choice Cromatografia
+\choice Filtração
+\choice Destilação fraccionada
+#+end_choice 
+#+end_exercise
+#+begin_solution
+Letra D
+#+end_solution
+
+
+
+#+begin_exercise
+O sangue em nossos corpos é uma mistura feita de vários componentes. Qual é o nome do instrumento científico que pode ser usado para separar o sangue em seus diferentes componentes?
+
+#+begin_choice 
+\choice centrifugar
+\choice Ampola de decantação
+\choice frasco cônico
+\choice Peneira
+\choice medidor de pH
+#+end_choice 
+#+end_exercise
+#+begin_solution
+Letra A
+#+end_solution
+
+
+
+
+#+begin_exercise
+Misturas de líquidos miscíveis e misturas de líquidos imiscíveis devem ser separadas de maneiras diferentes. Quais são as duas técnicas de separação que podem ser usadas?
+
+#+begin_choice
+\choice A destilação fracionada pode ser usada para separar misturas de líquidos imiscíveis e um funil de separação pode ser usado para separar misturas de líquidos miscíveis.
+
+\choice A evaporação pode ser usada para separar misturas de líquidos imiscíveis e uma peneira pode ser usada para separar misturas de líquidos miscíveis.
+
+\choice A cromatografia pode ser usada para separar misturas de líquidos miscíveis e um funil de separação pode ser usado para separar misturas de líquidos imiscíveis.
+
+\choice A destilação pode ser usada para separar misturas de líquidos imiscíveis e a filtração pode ser usada para separar misturas de líquidos miscíveis.
+
+\choice A destilação fracionada pode ser usada para separar misturas de líquidos miscíveis e um funil de separação pode ser usado para separar misturas de líquidos imiscíveis.
+#+end_choice 
+#+end_exercise
+#+begin_solution
+Letra E
+#+end_solution
+
+
+
+
+#+begin_exercise
+Um estudante dissolve um pouco de sal em 100 mLde água.
+
+Se o aluno deseja separar essa mistura e quer apenas reaproveitar a água, que técnica de separação ele pode usar?
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice Peneirar
+\choice Evaporação
+\choice Derretendo
+\choice Destilação
+\choice Filtração
+#+end_choice
+#+end_exercise
+#+begin_solution
+Letra D
+#+end_solution
+
+
+
+#+begin_exercise
+O diagrama mostra três técnicas de separação diferentes. Qual é o nome correto de cada um desses diferentes processos?
+
+#+ATTR_LATEX: :scale 0.3 :placement [H]
+[[../Listas/destilador.png]]
+
+#+begin_choice 
+\choice A: Destilação B: Filtração C: Cromatografia
+\choice A: Peneiramento B: Filtração C: Cromatografia
+\choice A: Destilação B: Evaporação C: Cromatografia
+\choice A: Destilação Fracionada B: Evaporação C: Cromatografia
+\choice A: Destilação B: Filtração C: Decantação
+#+end_choice 
+#+end_exercise
+#+begin_solution
+Letra A
+#+end_solution
+
+
+#+begin_exercise
+Qual é o nome da técnica de separação que está sendo executada no diagrama?
+
+
+#+ATTR_LATEX: :scale 0.3 :placement [H]
+[[../Listas/decanta.png]]
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice 
+\choice Evaporação
+\choice Filtragem
+\choice Cromatografia
+\choice Destilação
+\choice Decantação
+#+end_choice 
+#+end_exercise
+#+begin_solution
+Letra E
+#+end_solution
+
+
+
+
+
+
+
+\collectexercisesstop{ListaMisturas}
+
+
+
+
+
+
+#+BEGIN_COMMENT
+==================== Law of Proust and Conservaçao da Massa
+#+END_COMMENT
+
+
+
+\collectexercises{LawProust}
+
+
+#+begin_exercise
+Uma das alternativas para diminuir a quantidade de dióxido de carbono liberada para a atmosfera consiste em borbulhar esse gás em solução aquosa de hidróxido de sódio. A reação que ocorre pode ser representada da seguinte forma:
+
+#+begin_export latex
+\begin{reactions*}
+\text{dióxido\; de\; carbono} + \text{hidróxido\; de\; sódio} -> &\\  \text{carbonato\; de\; sódio} + \text{água}
+\end{reactions*}
+#+end_export
+Sabendo que 44 g de dióxido de carbono reagem com o hidróxido de sódio, formando 106 g de carbonato de sódio e 18 g de água, qual é a massa de hidróxido de sódio necessária para que o gás carbônico seja totalmente consumido?
+
+#+ATTR_LATEX: :option (2)
+#+begin_choice
+\choice 62 g.
+\choice 112 g.
+\choice 20 g.
+\choice 80 g.
+\choice 106 g.
+#+end_choice
+#+end_exercise
+#+begin_solution
+Letra D
+#+end_solution
+
+
+
+#+begin_exercise
+Foram analisadas três amostras (I, II e III) de óxidos de enxofre, procedentes de fontes
+distintas, obtendo-se os seguintes resultados:
+
+
+|---------+---------------+----------------+-------------------|
+| Amostra | m (g) enxofre | m (g) oxigenio | massa amostra (g) |
+|---------+---------------+----------------+-------------------|
+| I       | 0,32          | 0,32           | 0,64              |
+| II      | 0,08          | 0,08           | 0,16              |
+| III     | 0,32          | 0,48           | 0,80              |
+|---------+---------------+----------------+-------------------|
+
+#+begin_choice 
+\choice apenas as amostras I e III são do mesmo óxido.
+\choice as amostras I, II e III são de óxidos diferentes.
+\choice apenas as amostras I e II são do mesmo óxido.
+\choice apenas as amostras II e III são do mesmo óxido.
+\choice as amostras I, II e III são do mesmo óxido.
+#+end_choice 
+#+end_exercise
+#+begin_solution
+Letra C
+#+end_solution 
+
+
+#+begin_exercise
+Um químico deseja separar todos os componentes que constituem um sistema heterogêneo formado pela mistura de um álcool, de uma base, areia e de um óleo. Determine o processo de separação adequado em *X*, *Y* e *Z*, sabendo que a base é um granulado solúvel no álcool.
+
+#+ATTR_LATEX: :scale 0.5
+[[../Listas/diagram-20230422.png]]
+
+Quais são o metódos usados em *x*, *y* e *z* ?
+
+
+#+begin_export latex
+\blank[blank-style={\phantom{#1}},width=12\linewidth]{}
+#+end_export 
+
+
+#+end_exercise 
+
+
+
+
+#+begin_exercise
+ Leia o texto.
+ 
+“ -- Tudo que você vê faz parte de um delicado equilíbrio; como rei, você precisa entender esse equilíbrio a respeitar todas as criaturas, desde a formiguinha até o maior dos antílopes.
+-- Mas, pais, nós não comemos os antílopes?
+-- Sim, Simba, mas deixe-me explicar: quando morremos nossos corpos tornam-se grama e o antílope come a grama. E, assim, estamos todos conectados pelo grande ciclo da vida.”
+#+begin_export latex
+{\small {\bfseries O REI LEÃO.} Walt Disney Productions, 1994.}
+
+Considerando o texto
+
+\begin{choice}
+\choice explique como animais e vegetais incorporam e eliminam carbono;
+
+\blank[blank-style={\phantom{#1}},width=12\linewidth]{}
+
+
+\choice explique, à luz da lei de Lavoisier, por que “estamos todos conectados”.
+
+
+\blank[blank-style={\phantom{#1}},width=12\linewidth]{}
+
+
+\end{choice}
+
+#+end_export
+
+#+end_exercise 
+
+
+
+
+\collectexercisesstop{LawProust}
+
+
+
+
+
+
+#+BEGIN_COMMENT
+               TEORIA ATOMICA
+#+END_COMMENT
+
+
+
+
+
+
+\collectexercises{ListaTeoriaAtomica}
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Quem introduziu pela primeira vez o princípio da incerteza?
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice 
+\choice Pauli
+\choice De Broglie
+\choice Dirac
+\choice Schrödinger
+\choice Heisenberg
+#+end_choice 
+#+end_exercise 
+#+begin_solution
+Letra E
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Qual das alternativas a seguir *NÃO* é uma limitação do modelo de Bohr do átomo?
+
+#+begin_choice 
+\choice Os elétrons se movem ao redor do núcleo em órbitas circulares e planas.
+\choice Os elétrons são considerados apenas como partículas e não como ondas.
+\choice É possível determinar com precisão a posição e o momento de um elétron simultaneamente.
+\choice Os elétrons dentro dos átomos só podem ocupar níveis de energia quantizados.
+\choice Ele explica apenas o espectro de emissão de linha do átomo de hidrogênio.
+#+end_choice
+#+end_exercise
+#+begin_solution
+C
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Qual das seguintes afirmações é *verdadeira* sobre um elétron?
+
+#+begin_choice 
+\choice Está localizado mais longe do núcleo quando absorve energia.
+\choice Absorve energia quando se move de um estado de maior energia para o estado fundamental.
+\choice Está localizado no núcleo quando absorve energia.
+\choice Está localizado mais perto do núcleo quando absorve energia.
+\choice Quando libera energia se move para um estado de maior energia
+#+end_choice
+#+end_exercise
+#+begin_solution
+E
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Qual das alternativas a seguir melhor descreve um *elétron*?
+#+begin_choice
+\choice Uma partícula carregada positivamente com uma massa muito menor que a do núcleo
+\choice Uma partícula carregada negativamente com uma massa muito menor que a do núcleo
+\choice Uma partícula carregada positivamente com uma massa muito maior que a do núcleo
+\choice Uma partícula carregada negativamente com uma massa muito maior que a do núcleo
+\choice Partícula neutra com massa igual à do núcleo.
+#+end_choice
+#+end_exercise
+#+begin_solution
+D
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Qual das alternativas a seguir melhor define o *número atômico* ?
+
+#+begin_choice
+\choice O número total de prótons e nêutrons no núcleo de um átomo
+\choice O número de prótons no núcleo de um átomo
+\choice O número de nêutrons no núcleo de um átomo
+\choice O número total de prótons, nêutrons e elétrons em um átomo
+\choice O número de elétrons no núcleo de um átomo
+#+end_choice 
+#+end_exercise
+#+begin_solution
+A
+#+end_solution
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Uma moda recente entre as crianças é colecionar figurinhas que brilham no escuro. As figuras apresentam em sua constituição, a substância sulfeto de zinco. O fenômeno ocorre porque alguns elétrons que compõem os átomos de zinco absorvem energia luminosa, saltando para níveis de energia mais externos. No escuro, esses elétrons retornam aos seus níveis de origem, liberando energia luminosa e fazendo a figurinha brilhar.
+
+Essa característica pode ser explicada considerando o modelo atômico proposto por:
+
+#+begin_choice
+\choice Bohr.
+\choice Rutherford.
+\choice Lavoisier.
+\choice Thomson.
+\choice Dalton.
+#+end_choice 
+
+#+end_exercise
+#+begin_solution
+A
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Qual das imagens a seguir representa melhor o modelo atômico do pudim de passas de Thomson?
+
+
+#+begin_export latex
+\begin{choice}(1)
+\choice \resizebox{.2\textwidth}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\LARGE]
+\draw  (2,12.25) circle (1.75cm);
+\draw  (1,13.25) circle (0.25cm);
+\draw  (2,13.25) circle (0.25cm);
+\draw  (1.5,12) circle (0.25cm);
+\draw  (2.75,12.25) circle (0.25cm);
+\draw  (2.25,11.25) circle (0.25cm);
+\node [font=\LARGE] at (1.5,11) {+};
+\node [font=\LARGE] at (3,13) {+};
+\node [font=\LARGE] at (2.5,11.5) {+};
+\node [font=\LARGE] at (0.75,12.25) {+};
+\node [font=\LARGE] at (2,12.5) {+};
+\node [font=\LARGE] at (2.25,11.25) {-};
+\node [font=\LARGE] at (2.75,12.25) {-};
+\node [font=\LARGE] at (2,13.25) {-};
+\node [font=\LARGE] at (1,13.25) {-};
+\node [font=\LARGE] at (1.5,12) {-};
+\end{circuitikz}
+}%
+
+
+\choice \resizebox{.2\textwidth}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\LARGE]
+\draw [fill={rgb, 255:red, 122; green, 119; blue, 119 }  ,fill opacity=1 ] (2,12.25) circle (1.75cm);
+\end{circuitikz}
+}%
+
+
+
+
+
+
+
+\choice 	\resizebox{0.2\textwidth}{!}{%
+		\begin{circuitikz}
+			\tikzstyle{every node}=[font=\LARGE]
+			\draw  (2,12.25) circle (1.75cm);
+			\draw  (0.75,12.25) circle (0.25cm) node {\LARGE -} ;
+			\draw  (1.5,13.25) circle (0.25cm);
+			\draw  (3,12.5) circle (0.25cm);
+			\draw  (2.25,11) circle (0.25cm) node {\LARGE -} ;
+			\draw  (2,12.25) circle (0.5cm);
+			\node [font=\huge] at (2,12.25) {+};
+			\node [font=\large] at (1.5,13.25) {-};
+			\node [font=\large] at (3,12.5) {-};
+		\end{circuitikz}
+	}%
+
+\choice \resizebox{.2\textwidth}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\LARGE]
+\draw  (2,12.25) circle (1.75cm);
+\draw [ fill={rgb,255:red,192; green,191; blue,188} ] (2,10.5) circle (0.25cm) node {\LARGE -} ;
+\draw [ fill={rgb,255:red,192; green,191; blue,188} ] (0.25,12) circle (0.25cm) node {\LARGE -} ;
+\draw [ fill={rgb,255:red,192; green,191; blue,188} ] (2,14) circle (0.25cm) node {\LARGE -} ;
+\draw [ fill={rgb,255:red,192; green,191; blue,188} ] (3.75,12) circle (0.25cm) node {\LARGE -} ;
+\draw  (2,12.25) circle (0.5cm) node {\LARGE +} ;
+\end{circuitikz}
+}%
+
+
+
+\choice \resizebox{.2\textwidth}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\LARGE]
+\draw  (2,12.25) circle (1.75cm);
+\draw  (2,12.25) circle (0.5cm) node {\LARGE +} ;
+\end{circuitikz}
+}%
+
+\end{choice}
+#+end_export
+#+end_exercise 
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Qual químico descobriu que os elétrons existem em níveis de energia fixos?
+#+begin_choice 
+\choice Bohr
+\choice Thomson
+\choice Dalton
+\choice Geiger e Marsden
+\choice Rutherford
+#+end_choice
+#+end_exercise 
+#+begin_solution
+A
+#+end_solution
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Na experiência de Geiger-Marsden supervisionada por Ernest Rutherford (conhecida como a experiência da folha de ouro de Rutherford), que tipo de partícula foi dispersada por uma folha de ouro, provando que os átomos contêm um núcleo denso?
+
+#+begin_choice
+\choice Raios gama
+\choice Nêutrons
+\choice Partículas $\beta^+$
+\choice Partículas $\beta^-$
+\choice Partículas $\alpha$
+#+end_choice
+#+end_exercise 
+
+#+begin_solution
+E
+#+end_solution
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Qual é a principal força atrativa entre partículas no núcleo de um átomo?
+
+#+begin_choice
+\choice Gravidade
+\choice Forca eletrostática
+\choice Força nuclear forte
+\choice Força nuclear fraca
+\choice Força eletromagnética
+#+end_choice 
+#+end_exercise 
+#+begin_solution
+C
+#+end_solution
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Que passo em frente, a partir do modelo atômico das orbitais de Bohr, foi dado por Schrödinger no seu modelo da nuvem eletrónica?
+
+#+begin_choice
+\choice O núcleo contém partículas com massa mas sem carga.
+\choice Os elétrons ocupam níveis de energia com raios fixos.
+\choice O núcleo contém partículas com massa e carga positiva.
+\choice Os elétrons movem-se dentro de uma esfera positivamente carregada.
+\choice Os elétrons estão dispersos no espaço.
+#+end_choice
+#+end_exercise 
+#+begin_solution
+E
+#+end_solution
+
+
+ #+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Em que é que o modelo atômico de Thomson é diferentes do modelo atômico de Dalton?
+
+#+begin_choice 
+\choice O modelo atômico de Thomson inclui partículas com carga negativa conhecidas como elétrons
+\choice O modelo atômico de Thomson mostra elétrons a ocupar os vértices de um cubo.
+\choice O modelo atômico de Thomson inclui partículas com carga positiva conhecidas como prótons
+\choice O modelo atômico de Thomson descreve elétrons a orbitar um núcleo central.
+\choice O modelo atômico de Thomson mostra elétrons a ocupar diferentes níveis de energia.
+#+end_choice 
+#+end_exercise 
+#+begin_solution
+A
+#+end_solution
+
+
+
+
+\collectexercisesstop{ListaTeoriaAtomica}
+
+
+
+
+#+BEGIN_COMMENT
+
+
+================= LIGACAO QUIMICA ===========================
+
+
+#+END_COMMENT
+
+
+
+\collectexercises{ListaLigacao}
+
+#+begin_exercise
+Qual das seguintes é a ligação mais fraca?
+#+begin_choice 
+\choice A ligação entre as moléculas de água
+\choice A ligação entre os íons sódio e brometo
+\choice A ligação entre os átomos de magnésio
+\choice A ligação entre dois átomos de carbono no etano
+#+end_choice
+#+end_exercise
+#+begin_solution
+A
+
+Explicação Os íons de sódio e brometo são atraídos eletrostaticamente por fortes ligações iônicas. O magnésio é um metal. Os átomos de metal são mantidos juntos por ligações metálicas, que são mais fracas que as ligações iônicas. A ligação entre dois átomos de carbono no etano é uma ligação covalente pura, que é mais fraca que uma ligação metálica. Na água, as moléculas são mantidas juntas por pontes de hidrogênio, que são mais fracas que as ligações covalentes.
+
+#+end_solution
+
+
+
+#+begin_exercise
+Qual das alternativas a seguir explica por que a regra do octeto não pode ser aplicada ao pentacloreto de fósforo?
+(PCl)5
+?
+AO átomo de fósforo é cercado por oito elétrons antes da ligação.
+\choice O átomo de fósforo na molécula de pentacloreto de fósforo fica cercado por mais de oito elétrons após a ligação.
+CO átomo de fósforo é cercado por menos de oito elétrons antes da ligação.
+DO átomo de fósforo na molécula de pentacloreto de fósforo fica cercado por oito elétrons após a ligação.
+#+end_exercise
+#+begin_solution
+B
+#+end_solution
+
+
+#+begin_exercise
+Do seguinte, o composto que não envolve nenhuma ligação iônica é.
+#+begin_choice
+\choice \ch{BF3}
+\choice \ch{FeC$\ell$3}
+\choice \ch{KNO3}
+\choice \ch{NaC$\ell$}
+#+end_choice \ch{NaSO4}
+#+end_exercise 
+#+begin_solution
+
+#+end_solution
+
+
+
+
+\collectexercisesstop{ListaLigacao}
+
+
+
+
+#+BEGIN_COMMENT
+========== BALANCEAMENTO ====================
+#+END_COMMENT
+
+
+\collectexercises{ListaBalanceamento}
+
+#+begin_exercise
+Balanceie as reações químicas:
+#+begin_export latex
+\begin{choice}(1)
+\choice \ch{\lh Fe + \lh C$\ell$2 -> \lh FeC$\ell$3} \bigskip \bigskip
+\choice \ch{\lh Fe + \lh O2 -> \lh Fe2O3} \bigskip \bigskip
+\choice \ch{\lh FeBr3 + \lh H2SO4 -> \lh Fe2(SO4)3 + \lh HBr}\bigskip \bigskip
+\choice \ch{\lh C4H6O3 + \lh H2O  ->  \lh C2H4O2} \bigskip \bigskip
+\choice \ch{\lh C2H4 + \lh O2 -> \lh CO2 + \lh H2O} \bigskip \bigskip
+%\choice \ch{\lh C4H10O + \lh O2 -> \lh CO2 + \lh H2O} \bigskip \bigskip
+\choice \ch{\lh C7H16 + \lh O2 -> \lh  CO2 + \lh  H2O} \bigskip \bigskip
+%\choice \ch{\lh H2SiC$\ell$2 + \lh H2O -> \lh H8Si4O4 + \lh HC$\ell$} \bigskip \bigskip
+%\choice \ch{\lh HSiC$\ell$3 + \lh H2O -> \lh H10Si10O15 + \lh HC$\ell$} \bigskip \bigskip
+\choice \ch{\lh C7H9 + \lh HNO3 -> \lh C7H6(NO2)3 + \lh H2O} \bigskip \bigskip
+%\choice \ch{\lh C5H8O2 + \lh NaH + \lh HCl -> \lh C5H12O2 + \lh NaC$\ell$} \bigskip \bigskip
+\choice \ch{\lh Fe + \lh H2SO4 \ -> \lh Fe2(SO4)3 + \lh H2} \bigskip \bigskip
+\choice \ch{\lh C2H6 + \lh O2 -> \lh H2O + \lh CO2} \bigskip  \bigskip
+\choice \ch{\lh KOH + \lh H3PO4 -> \lh K3PO4 + \lh H2O} \bigskip \bigskip
+\choice \ch{\lh SnO2 + \lh H2 -> \lh Sn + \lh H2O} \bigskip \bigskip
+\choice \ch{\lh NH3 + \lh O2 -> \lh NO  + \lh  H2O} \bigskip \bigskip
+\choice \ch{\lh KNO3 + \lh H2CO3 -> \lh K2CO3 + \lh HNO3} \bigskip \bigskip 
+\choice \ch{\lh B2Br6 + \lh HNO3 -> \lh  B(NO3)3 + \lh HBr} \bigskip \bigskip
+\choice \ch{\lh BF3 + \lh  Li2SO3 -> \lh B2(SO3)3 + \lh LiF} \bigskip \bigskip
+\choice \ch{\lh (NH4)3PO4 + \lh  Pb(NO3)4  -> \lh Pb3(PO4)4  + \lh NH4NO3} \bigskip \bigskip
+%%\choice \ch{\lh SeC$\ell$6  + \lh  O2 -> \lh  SeO2 + \lh C$\ell$2} \bigskip \bigskip
+\choice \ch{\lh HC$\ell$O4 + \lh P4O10  -> \lh H3PO4 + \lh C$\ell$2O7} \bigskip \bigskip
+\choice \ch{\lh Ca3(PO4)2  + \lh H2SO4 -> \lh CaSO4  + \lh Ca(H2PO4)2} \bigskip \bigskip
+%%\choice \ch{\lh FeO3  + \lh CO -> \lh Fe  + \lh CO2} \bigskip \bigskip
+\choice \ch{\lh CO + \lh H2 -> \lh  C8H18 + \lh H2O}
+\end{choice}
+#+end_export
+#+end_exercise
+
+
+
+\collectexercisesstop{ListaBalanceamento}
+
+
+
+
+

@@ -1,0 +1,178 @@
+
+@@latex: \section*{Avaliação Bimestral -  1\textsuperscript{0} Bimestre - 3 Ano} @@
+
+#+ATTR_LATEX: :options {2}
+#+begin_multicols
+#+begin_exercise
+O composto orgânico de fórmula plana abaixo possui:
+#+begin_export latex
+\begin{center}
+\chemfig{CH_3-CH([:-90]-CH_3)-C([:90]-CH_3)([:-90]-CH_3)-CH_2-CH_3}
+\end{center}
+#+end_export
+#+begin_choice
+\choice  5 carbonos primários, 3 secundários, 1 terciário e 2 quaternários
+\choice 3 carbonos primários, 3 secundários, 1 terciário e 1 quaternário.
+\choice \answer{ 5 carbonos primários, 1 secundário, 1 terciário e 1 quaternário.}
+\choice 4 carbonos primários, 1 secundário, 2 terciários e 1 quaternário.
+\choice 3 carbonos primários, 3 secundário, 2 terciários e 1 quaternário.
+#+end_choice
+#+end_exercise 
+
+#+begin_exercise
+O número de elétrons \pi que participa de uma ligação tripla entre átomos de carbono é igual a
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice \answer{2}
+\choice 3
+\choice 4
+\choice 6
+\choice 5
+#+end_choice
+#+end_exercise 
+
+
+#+begin_exercise
+A vitamina K3 pode ser representada pela fórmula a seguir.
+#+begin_export latex
+\begin{center}
+\chemfig{O=[:270]-[:330](-[:30,,,1]CH_3)=_[:270]-[:210](=[:270]O)-[:150]=_[:210]-[:150]=_[:90]-[:30]=_[:330](-[:270])(-[:30])}
+\end{center}
+#+end_export
+ Quantos átomos de carbono e quantos de hidrogênio existem em uma molécula desse composto?
+#+begin_choice
+\choice  1 e 3 
+\choice  3 e 3 
+\choice 9 e 8 
+\choice \answer{11 e 8} 
+\choice 11 e 10
+#+end_choice 
+#+end_exercise 
+
+#+begin_exercise
+ O gosto amargo, característico da cerveja, deve-se ao composto mirceno, proveniente das folhas de lúpulo, adicionado à bebida durante a sua fabricação.
+
+#+begin_center
+#+begin_export latex
+\chemfig{CH_2=[:210,,1]-[:150](=[:90]CH_2)-[:210]-[:150]-[:210]=[:150](-[:90]CH_3)-[:210,,,2]H_3C}
+#+end_export
+#+end_center
+
+A fórmula estrutural do mirceno apresenta:
+
+#+begin_choice
+\choice cadeia carbônica heterogênea.
+\choice cinco carbonos primários.
+\choice um carbono terciário.
+\choice cadeia carbônica saturada e ramificada.
+\choice \answer{cadeia carbônica acíclica e insaturada.} 
+#+end_choice 
+#+end_exercise
+
+
+
+
+
+#+begin_exercise
+Uma planta medicinal utilizada para regular a glicemia é encontrada na região amazônica, sendo popularmente conhecida como pata-de-vaca.
+
+A espécie que funciona como uma “insulina vegetal” possui entre seus compostos químicos um alcano, cuja fórmula contém 74 átomos de hidrogênio. Portanto, o número de átomos de carbono presentes na cadeia carbônica é:
+
+#+begin_choice
+\choice 33
+\choice \answer{36}
+\choice  35
+\choice  32
+\choice  37
+#+end_choice 
+#+end_exercise 
+
+
+
+#+begin_exercise
+O pau-rosa, típico da região amazônica, é uma rica fonte natural do óleo essencial conhecido por linalol, o qual também pode ser isolado do óleo de alfazema. Esse óleo apresenta a seguinte fórmula estrutural:
+
+#+begin_export latex
+\begin{center}
+\chemfig{H_3C-C([:-90]-CH_3)=CH-CH_2-CH_2-C([:90]-OH)([:-90]-CH_3)-CH=CH_2}
+\end{center}
+#+end_export
+Sua cadeia carbônica deve ser classificada como:
+#+begin_choice
+\choice alicíclica, ramificada, insaturada e homogênea.
+\choice acíclica, ramificada, saturada e heterogênea.
+\choice \answer{acíclica, ramificada, insaturada e homogênea.}
+\choice alicíclica, normal, saturada e heterogênea.
+\choice alicíclica, ramificada, saturada e heterogênea.
+#+end_choice
+#+end_exercise 
+
+
+
+
+#+begin_exercise
+No composto
+#+begin_export latex
+\begin{center}
+\chemfig{H_3C-CH_2-CH([:-90]-CH_3)-CH([:90]-CH_2-CH_3)-CH([:-90]-CH_3)-CH([:-90]-CH_2-CH_2-CH_3)-CH_3}
+\end{center}
+#+end_export
+ As quantidades totais de átomos de carbono primário, secundário e terciário são, respectivamente:
+
+#+begin_choice
+\choice  5, 2 e 3 
+\choice  3, 5 e 2 
+\choice 4, 3 e 5
+\choice \answer{6, 4 e 4} 
+\choice 3, 4 e 5
+#+end_choice 
+#+end_exercise
+
+#+begin_exercise
+ O gás liquefeito de petróleo, GLP, é uma mistura de propano,  @@latex: \ch{C3H8}@@, e butano, @@latex: \ch{C4H10}@@. Logo, esse gás é uma mistura de hidrocarbonetos da classe dos:
+#+begin_choice 
+\choice \answer{alcanos.}
+\choice  alcenos.
+\choice  alcinos.
+\choice  cicloalcanos.
+\choice  cicloalcenos.
+#+end_choice 
+#+end_exercise 
+
+
+#+begin_exercise
+A fórmula molecular do 2,3 - dimetil butano, é:
+#+begin_export latex
+\begin{choice}
+\choice \answer{\ch{C6H14}}
+\choice \ch{C6H12}
+\choice \ch{C6H10}
+\choice \ch{C4H10}
+\choice \ch{C4H8}
+\end{choice} 
+#+end_export
+
+#+end_exercise
+
+
+#+begin_exercise
+O nome correto do hidrocarboneto ramificado, cuja fórmula está esquematizada a seguir é:
+
+#+begin_center
+#+begin_export latex
+\chemfig{H_3C-[:30,,2]-[:330](-[:270,,,1]CH_3)-[:30](-[:90,,,1]CH_3)-[:330]-[:30]-[:330]-[:30,,,1]CH_3}
+#+end_export
+#+end_center
+
+#+begin_choice
+\choice  3,4-dietil-octeno
+\choice \answer{3,4-dimetil-octano}
+\choice  3,4-dietil-octano
+\choice  3,4-dipropil-octano
+\choice  3,4-dimetil-octeno
+#+end_choice 
+
+#+end_exercise 
+
+#+end_multicols

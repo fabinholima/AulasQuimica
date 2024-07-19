@@ -1,0 +1,309 @@
+#+LATEX_HEADER: \DeclareExerciseCollection{Misturas}
+#+LATEX_HEADER: \DeclareExerciseCollection{MisturasOpen}
+
+\collectexercises{Misturas}
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+O *ferro* é um dos componentes da hemoglobina. A falta de ferro na alimentação causa anemia. O processo anêmico pode ser revertido com uma alimentação rica em carnes, verduras, grãos e cereais integrais, sendo, em alguns casos,necessário um suplemento de *sulfato de ferro (II)*. Nesse contexto, os termos sublinhados no texto acima classificam-se, respectivamente, como:
+
+#+begin_choice
+\choice elemento químico e substância composta.
+\choice substância simples e substância composta.
+\choice mistura homogênea e mistura homogênea.
+\choice substância simples e mistura heterogênea.
+\choice elemento químico e mistura heterogênea.
+#+end_choice 
+#+end_exercise
+#+begin_solution
+Letra A
+#+end_solution
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise 
+A química é responsável pela melhora em nossa qualidade de vida e está inserida em nosso cotidiano de muitas  formas em substâncias e misturas que constituem diversos materiais. Assinale  a  alternativa  que  apresenta,  respectivamente,  substância  simples,  substância  composta,  mistura homogênea e mistura heterogênea.
+    
+#+begin_choice 
+\choice Água, aço, alumínio, granito.
+\choice Alumínio, aço, água, granito.
+\choice Alumínio, água, aço, granito.
+\choice  Alumínio, água, granito, aço.
+\choice  Alumínio, água, aço, granito.
+#+end_choice     
+#+end_exercise
+#+begin_solution
+LETRA C
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Os  peixes,  como  todos  os  animais,  precisam  de  gás  oxigênio  para  realizar  a respiração. Considerando que o meio em que eles vivem é a água, pode-se afirmar que o oxigênio utilizado pelos peixes na respiração se encontra
+#+begin_choice
+\choice dissolvido na água formando uma solução.
+\choice precipitado na água como mistura heterogênea.
+\choice na molécula de água.
+\choice espalhado pela superfície da água.
+\choice no ar.
+#+end_choice 
+#+end_exercise 
+#+begin_solution
+LETRA A
+#+end_solution
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Na preparação do café, a água quente entra em contato com o pó e é separada no coador. As operações envolvidas nessa separação são, respectivamente:
+#+begin_choice
+\choice destilação e decantação.
+\choice  filtração e destilação.
+\choice  destilação e coação.
+\choice  extração e filtração.
+\choice  extração e decantação.
+#+end_choice 
+#+end_exercise
+#+begin_solution
+LETRA D
+#+end_solution
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Uma mistura formada por gasolina, água, serragem e sal de cozinha pode ser separada nos seus diversos componentes seguindo-se as seguintes etapas:
+#+begin_choice 
+\choice filtração, decantação e destilação.
+\choice catação e decantação.
+\choice sublimação e destilação.
+\choice prensagem e decantação.
+\choice destilação e decantação.
+#+end_choice
+#+end_exercise 
+#+begin_solution
+LETRA A
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Numa das etapas do tratamento da água que abastece uma cidade, a água é mantida durante um certo tempo em tanques para que os sólidos em suspensão se depositem no fundo. A essa operação denominamos:
+#+begin_choice
+\choice filtração.
+\choice sedimentação.
+\choice sifonação.
+\choice centrifugação.
+\choice cristalização.
+#+end_choice 
+#+end_exercise 
+#+begin_solution
+LETRA B
+#+end_solution
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Um sólido A está totalmente dissolvido num líquido B. É possível separar o solvente B da mistura por meio de uma:
+
+#+begin_choice
+\choice centrifugação.
+\choice sifonação.
+\choice decantação.
+\choice filtração.
+\choice destilação.
+#+end_choice 
+#+end_exercise 
+#+begin_solution
+LETRA E
+#+end_solution
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Ao se colocarem hexano (\(d\) = 0,66 g/cm\(^3\)), água (\(d\) = 1 g/cm\(^3\)) e sal (\ch{NaC$\ell$}) em uma vidraria de laboratório conhecida como funil de separação (figura a seguir), assinale o aspecto adequado observado após algum tempo de repouso.
+
+#+begin_center
+[[./funil.jpg]]
+#+end_center
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice A
+\choice B
+\choice C
+\choice D
+\choice nenhuma alternativa
+#+end_choice
+#+end_exercise 
+#+begin_solution
+LETRA C
+#+end_solution
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Para separar os componentes de uma mistura, foi realizada a seguinte seqüência de operações:
+
+*aquecimento  =>  adição de água e filtração  =>  evaporação*
+
+Esse procedimento é recomendável para a seguinte mistura:
+#+begin_choice 
+\choice  areia, açúcar e sal
+\choice  carvão, areia e açúcar
+\choice  ferro, enxofre e álcool
+\choice  enxofre, gasolina e ferro
+\choice iodo, sal de cozinha e areia
+#+end_choice 
+#+end_exercise
+#+begin_solution
+LETRA E. A resposta correta é a E. Aquecendo a mistura, separa-se o iodo por sublimação. Adicionando-se água, o sal dissolve-se nesta e separa-se da areia. Uma filtração separa a areia da solução salina. Uma evaporação separa a água do sal.
+#+end_solution 
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Para impedir a contaminação microbiana do suprimento de água, deve-se eliminar as emissões de efluentes e, quando necessário, tratá-los com desinfetante. O ácido hipocloroso (\ch{HC$\ell$O}), produzido pela reação entre cloro e água, é um dos compostos mais empregados como desinfetante. Contudo, ele não atua somente como oxidante, mas também como um ativo agente de cloração. A presença de matéria orgânica dissolvida no suprimento de água clorada pode levar à formação de clorofórmio (\ch{CHC$\ell$3}) e outras espécies orgânicas cloradas tóxicas.
+Visando eliminar da água o clorofórmio e outras moléculas orgânicas, o tratamento adequado é a:
+
+@@latex: {\scriptsize SPIRO, T. G.; STIGLIANI, W. M. {\bfseries Química ambiental}. São Paulo: Pearson, 2009 (adaptado).}@@ 
+
+#+begin_choice
+\choice filtração, com o uso de filtros de carvão ativo
+\choice fluoretação, pela adição de fluoreto de sódio
+\choice coagulação, pela adição de sulfato de alumínio.
+\choice correção do pH, pela adição de carbonato de sódio.
+\choice floculação, em tanques de concreto com a água em movimento.
+#+end_choice 
+
+#+end_exercise
+#+begin_solution
+LETRA A
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Assinale a opção que contém a afirmação ERRADA relativa à curva de resfriamento apresentada a seguir.
+
+#+begin_export latex
+\begin{tikzpicture}
+\begin{axis}[
+  line width=1.5pt,
+   ticks=none,
+   axis x line=bottom,
+   axis y line=left,
+    xlabel = {\large  Tempo / min},
+    ylabel = {\large  Temperatura \textsuperscript{o}C},
+    xmin=-10, xmax=100,
+    ymin=55, ymax=100,
+    xtick={0,20,40,60,80,100},
+    ytick={0,20,40,60,80,100},
+]
+
+\addplot[
+	line width=2pt,
+    domain=-10:10, 
+    samples=100, 
+    color=black,
+    ]
+    coordinates {
+    (0,100)(15,80)(25,80)(30,80)(40,80)(60,80)(80,60)
+    };
+\end{axis}
+\end{tikzpicture}
+#+end_export
+
+#+begin_choice
+\choice A curva pode representar o resfriamento de uma mistura eutética.
+\choice  A curva pode representar o resfriamento de uma substância sólida, que apresenta uma única forma cristalina.
+\choice  A curva pode representar o resfriamento de uma mistura azeotrópica.
+\choice A curva pode representar o resfriamento de um líquido constituído por uma substância pura.
+\choice  A curva pode representar o resfriamento de uma mistura líquida de duas substâncias que são completamente miscíveis no estado sólido.
+#+end_choice
+#+end_exercise 
+#+begin_solution
+LETRA B
+#+end_solution
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Entre as substâncias usadas para o tratamento de água está o sulfato de alumínio que, em meio alcalino, forma partículas em suspensão na água, às quais as impurezas presentes no meio se aderem.
+
+O método de separação comumente usado para retirar o sulfato de alumínio com as impurezas aderidas é a:
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice flotação.
+\choice levigação.
+\choice  ventilação.
+\choice  peneiração.
+\choice  centrifugação.
+#+end_choice 
+#+end_exercise 
+#+begin_solution
+LETRA A
+#+end_solution
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Um grupo de pesquisadores desenvolveu um método simples, barato e eficaz de remoção de petróleo contaminante na água, que utiliza um plástico produzido a partir do líquido da castanha-de-caju (LCC).
+
+A composição química do LCC é muito parecida com a do petróleo e suas moléculas, por suas características, interagem formando agregados com o petróleo.
+
+Para retirar os agregados da água, os pesquisadores misturam ao LCC nanopartículas magnéticas.
+
+KIFFER, D. /Novo método para remoção de petróleo usa óleo de mamona e castanha-de-caju/.
+Disponível em: www.faperj.br. Acesso em: 31 jul. 2012 (adaptado).
+
+Essa técnica considera dois processos de separação de misturas, sendo eles, respectivamente:
+#+begin_choice 
+\choice flotação e decantação.
+\choice decomposição e centrifugação.
+\choice floculação e separação magnética.
+\choice destilação fracionada e peneiração.
+\choice dissolução fracionada e magnetização.
+#+end_choice 
+#+end_exercise 
+#+begin_solution
+LETRA C
+#+end_solution
+
+
+\collectexercisesstop{Misturas}
+
+\collectexercises{MisturasOpen}
+
+#+ATTR_LATEX: :options [points=2.0]
+#+begin_exercise
+Separação de misturas é uma operação muito comum no setor de petróleo e combustíveis. Diversos métodos são aplicados para atender a essa necessidade. Sabendo-se que a água e o álcool são miscíveis e o óleo imiscível nestes e que o álcool tem o menor e o óleo o maior ponto de ebulição, quais os métodos adequados para separar essas três substâncias? Explique.
+
+\blank[width=9.\linewidth,linespread=1.5]{}
+
+#+end_exercise 
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Responder à questão numerando corretamente a coluna que contém exemplos de sistemas, de acordo com a que apresenta a classificação dos mesmos.
+
+| 1.  elemento    químico     | (\quad) fluoreto de sódio     |
+| 2.  substância  simples     | (\quad ) gás oxigênio         |
+| 3.  substância  composta    | (\quad ) água do mar filtrada |
+| 4.  mistura     homogênea   | (\quad ) limonada com gelo    |
+| 5.  mistura     heterogênea | (\quad ) Vinho                |
+
+#+end_exercise 
+
+
+
+
+\collectexercisesstop{MisturasOpen}

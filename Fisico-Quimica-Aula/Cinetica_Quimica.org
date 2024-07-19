@@ -1,0 +1,159 @@
+
+* Cinética Química
+*Cinética Química:* Basicamente a velocidade de uma reação pode ser calculada com base nas concentrações dos reagentes em função do tempo da reação: 
+
+#+begin_equation
+#+begin_export latex
+\nu = \displaystyle \frac{[A_{final}]-[A_{inicial}]}{t_{final} - t_{inicial}},\; \text{onde:}
+#+end_export
+#+end_equation
+\(t\) se  refere ao  tempo e *[A]* é a concentração do reagente A
+
+** Fatores que influenciam na velocidade de uma reação
+
+1. *Afinidade química:* É a tendência que as substâncias químicas possuem para reagirem uma com as outras. Se a afinidade entre dois reagentes é grande, a reação ocorre com mais facilidade.
+2. *Colisões eficazes:* A velocidade de uma reação é mais rápida quando as colisões são eficazes ou seja, alas ocorrem com força, ângulo e freqüência propícios para que as moléculas consigam se desagregar e formar o complexo ativado. Quando há a predominância de choque não eficazes, a velocidade da reação é lenta.
+3. *Catalisador:* É uma substância que altera a velocidade de uma reação sem ser consumida durante o processo. Existem 2 tipos de catalisadores:   
+    - *Positivos* – Aumentam a velocidade de uma reação diminuindo a quantidade de energia de ativação necessária para que a reação ocorra. 
+    - *Negativos ou inibidores* – Retardam a velocidade de uma reação.
+#+begin_export latex
+\begin{center}
+\begin{endiagram}[
+tikz         = {xscale=1.7}, scale        = 1,
+y-label-offset=2pt,
+y-label-text = Energia,
+x-label      = below,        x-label-text = progresso da reação,]
+\ENcurve{5,8,2}
+\node[above,xshift=4pt] at (N1-2) {A} ;
+\ShowNiveaus[niveau=N1-1,length=1.5,shift=-.7]
+\ShowNiveaus[niveau=N1-3,length=1.5,shift=.7]
+\ENcurve[tikz={densely dotted,red}]{5,7,2}
+\ShowNiveaus[tikz={densely dotted,red},niveau=N1-1,length=1.5,shift=-.7]
+\ShowNiveaus[tikz={densely dotted,red},niveau=N1-3,length=1.5,shift=.7]
+\node[above,yshift=-1cm,xshift=4pt,red] at (N1-2) {B} ;
+%\ShowEa[tikz={blue,<->}]
+\ShowGain[offset=-3.5,label=\(\Delta\)H]
+\draw[above left] (N1-1) ++ (0.3,0) node { \ch{H2O2_{\aq}} } ;
+\draw[above] (N1-3) ++ (1.2,0) node {\ch{H2O_{\lqdd} + 0.5 O2_{\gas}} } ;
+\node[draw,text width=5.8cm] at (2.5, 12) {\small {\bfseries A} representa a reação sem catalisador. {\bfseries\color{red} B} representa a reação com catalisador. Observe que, com ou sem catalisador, o \(\Delta\)H da reação não se altera.};
+\end{endiagram}
+\end{center}
+#+end_export
+#+ATTR_LATEX:   :options \setcounter{enumi}{3}
+4. *Catálise* é o nome dado ao aumento da velocidade provocado pelo catalisador. Existem dois tipos de catálise:
+    - *catálise homogênea:* O catalisador e os reagentes estão numa mesma fase física, formando um sistema homogêneo.
+   - *catálise heterogênea:* O catalisador e os reagentes estão em fases físicas diferentes, formando um sistema heterogêneo.
+5. *Concentrações dos reagentes:* Quanto maior for a concentração dos reagentes, maior é a velocidade da reação
+6. *Temperatura:* Quanto maior for a temperatura, maior será a velocidade de uma reação.
+7. *Superfície de contato:* Quanto maior for a superfície de contato do sólido, maior será a velocidade da reação.
+8. *Pressão:* Em reações em que há a participação dos gases, o aumento da pressão no sistema, acarreta um aumento da velocidade da reação.
+9. *Estado físico dos reagentes:* De um modo geral, os gases reagem mais fácil e rapidamente do que os líquidos e estes, mais facilmente do que os sólidos.
+10. *Presença de luz:* Algumas reações sofrem a influência da luz, afetando a velocidade da reação. Exemplo : A água oxigenada comercial deve ser vendida em frasco escuro e ao abrigo da luz pois a presença de luz acarreta sua decomposição em água e gás oxigênio.
+
+
+
+** Lei de velocidade de uma reação ou lei cinética.
+
+A velocidade de uma reação é proporcional à concentração dos reagentes, elevadas a números que são determinados experimentalmente.
+
+#+latex: \begin{Box2}{Exemplo}
+Para a reação : @@latex: \ch{aX + bY -> produtos} @@, a lei da velocidade tem a seguinte expressão:
+#+begin_export latex
+\begin{equation}
+\nu = k\cdot[X]^m\cdot[Y]^n \; ,\text{onde:}
+\end{equation}
+#+end_export
+\(k\) = constante da velocidade que é característica da reação e da temperatura.
+[X] e [Y] = concentração molar dos reagentes.
+\(m\) e \(n\) = ordem de reação, onde \(m + n\) = ordem global da reação.
+
+#+latex: \end{Box2}
+
+** Mecanismo das reações
+Nem sempre as reações químicas ocorrem em apenas uma única etapa. Em geral, elas ocorrem em etapas. Assim, temos dois tipos de reações:
+
+#+ATTR_LATEX: :options [label=\bfseries\alph*)]
+1. *Elementares* – São as que ocorrem em uma etapa única. Nesse caso, as ordens das reação (m e n) coincidem com os coeficientes do balanceamento da equação.
+2. *Não elementares* – São aquelas que ocorrem em mais de uma etapa, sendo que uma delas é mais lenta. A equação da velocidade será, sempre, da etapa mais lenta. Nesse caso, as ordens da reação dependerão da etapa mais lenta.
+
+Analisando o exemplo, podemos observar que a síntese do óxido de ferro II (reação global) envolve três outras etapas (três outras reações químicas). Cada uma dessas etapas ocorre com uma velocidade diferente uma da outra. De acordo com *Guldberg e Waage, a etapa mais lenta é a que contribui diretamente para a determinação da velocidade da reação*.
+
+Quando temos uma reação não elementar para realizar o cálculo da velocidade, a ordem de cada um dos participantes será determinada por cálculos individuais, já que, nesses casos, trata-se de um dado absolutamente experimental. Essa determinação das ordens dos reagentes é feita por meio de uma tabela com valores fornecida pelos exercícios, já que são dados experimentais. A seguir temos um exemplo de tabela para a reação de síntese da amônia (reação global):   
+
+#+begin_export latex
+\begin{reaction*}
+N2 + 3 H2 -> 2 NH3
+\end{reaction*}
+#+end_export
+#+ATTR_LATEX: :align |c|c|c|c|
+|-------------+-----------+-----------+----------------------------------------------|
+| Experimento | [\ch{N2}] | [\ch{H2}] | Velocidade (\si{\mole\per\liter\per\second}) |
+|-------------+-----------+-----------+----------------------------------------------|
+| I           | 0,1       | 0,1       |                                            1 |
+|-------------+-----------+-----------+----------------------------------------------|
+| II          | 0,2       | 0,1       |                                            4 |
+|-------------+-----------+-----------+----------------------------------------------|
+| III         | 0,1       | 0,2       |                                            2 |
+|-------------+-----------+-----------+----------------------------------------------|
+
+
+Na tabela podemos observar que há três experimentos (que representam etapas da reação), as concentrações dos reagentes e a velocidade de cada etapa.
+Para determinar a ordem de cada um dos reagentes, já que é uma reação não elementar e não podemos utilizar os valores dos coeficientes da equação porque ela se processa em mais de uma etapa, vamos fazer um cálculo simples verificando o efeito da concentração na velocidade por meio das seguintes regras:
+- Escolher dois experimentos na tabela;
+- Se for determinar a ordem de um reagente, a concentração do outro reagente nos dois experimentos deverá ser a mesma;
+- Comparar o efeito da concentração do reagente do qual se quer descobrir a ordem com a velocidade.
+Seguindo as regras acima, vamos determinar as ordens de \ch{N2}e \ch{H2}:
+*Para a ordem do \ch{N2}:*
+- serão escolhidos os experimentos I e II;
+- nesses experimentos, a concentração de \ch{N2} mudou e a do H2 não.
+Comparando a concentração com a velocidade, temos que do experimento I para o experimento II, a concentração de \ch{N2} dobrou, enquanto a velocidade quadruplicou. Comparando:
+#+begin_center
+[ ] = V\\
+2 = 4
+#+end_center
+Se colocarmos ambos com a mesma base, teremos:
+#+begin_center
+[ ] = V\\
+2 = \(2^2\)
+#+end_center
+Assim, temos que o que diferencia um do outro é o expoente 2 e, por isso, vamos considerar o reagente \ch{N2} de 2^a ordem.
+*Para a ordem do \ch{H2}:*
+- serão escolhidos os experimentos I e III;
+-neles, a concentração de \ch{H2} mudou e a do \ch{N2} não.
+
+Comparando a concentração com a velocidade, temos que do experimento I para o experimento III, a concentração de \ch{H2} dobrou e a velocidade também. Comparando:
+#+BEGIN_CENTER
+[ ] = V\\
+2 = 2
+#+END_CENTER
+Assim, como eles já apresentam a mesma base, consideramos o reagente \ch{H2} de 1^a ordem. Com isso, a expressão da velocidade para esse exemplo seria:
+#+begin_export latex
+\begin{equation*}
+\nu = k\cdot[\ch{N2}]^2\cdot[\ch{H2}]^1
+\end{equation*}
+#+end_export
+
+
+
+
+
+
+
+
+#+BEGIN_COMMENT
+
+
+#+ATTR_LATEX: :environment tabular :align ccc
+| *Conteúdo*                | *Aula*                         | *Scan*                                                           |
+| Termoquímica            | https://youtu.be/OOSFDMsLDk4 | @@latex:\qrcode[height=1.6cm]{https://youtu.be/OOSFDMsLDk4}@@  |
+|                         |                              |                                                                |
+| Lei de Hess - Parte I   | https://youtu.be/e5TRbUIJats | @@latex: \qrcode[height=1.6cm]{https://youtu.be/e5TRbUIJats}@@ |
+|                         |                              |                                                                |
+| Lei de Hess - Parte II  | https://youtu.be/TIS6v0UkT-c | @@latex: \qrcode[height=1.6cm]{https://youtu.be/TIS6v0UkT-c}@@ |
+|                         |                              |                                                                |
+| Lei de Hess - Parte III | https://youtu.be/WC2OUHP2gvs | @@latex: \qrcode[height=1.6cm]{https://youtu.be/WC2OUHP2gvs}@@ |
+|                         |                              |                                                                |
+| Cinética Química        | https://youtu.be/JybdXQOmqyE | @@latex: \qrcode[height=1.6cm]{https://youtu.be/JybdXQOmqyE}@@ |
+
+
+#+END_COMMENT

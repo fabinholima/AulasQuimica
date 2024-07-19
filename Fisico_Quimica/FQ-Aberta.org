@@ -1,0 +1,833 @@
+#+LATEX_HEADER: \DeclareExerciseCollection{SolucoesAB}
+#+LATEX_HEADER: \DeclareExerciseCollection{TermoquimicaAberta}
+#+LATEX_HEADER: \DeclareExerciseCollection{LawHess}
+#+LATEX_HEADER: \DeclareExerciseCollection{EntalpiaForma}
+#+LATEX_HEADER: \DeclareExerciseCollection{CineticaQuimica-Aberta}
+#+LATEX_HEADER: \DeclareExerciseCollection{EquilibrioQuimico-Aberta}
+#+LATEX_HEADER: \DeclareExerciseCollection{Radioatividade-Aberta}
+
+
+
+
+
+
+#+BEGIN_COMMENT
+
+============================== Soluções  ===================================
+
+#+END_COMMENT
+
+\collectexercises{SolucoesAB}
+
+
+
+#+ATTR_LATEX: :options [points=1.5]
+#+begin_exercise
+Uma pessoa usou 34,2g de sacarose (\ch{C12H22O11} = 342 g/mol ) para adoçar seu cafezinho. O volume de cafezinho adoçado na xícara foi de 50 mL. A concentração molar da sacarose no cafezinho foi de: *Demonstrar o cálculo* 
+
+#+begin_export latex
+\blank[blank-style={\phantom{#1}},width=8\linewidth]{}
+#+end_export 
+
+#+end_exercise 
+
+
+
+#+ATTR_LATEX: :options [points=1.5]
+#+begin_exercise
+Sabendo-se que a massa molar do lítio é 7,0g/mol, a massa de lítio contida em 250mL de uma solução aquosa de concentração 0,160 mol/L de carbonato de lítio é: *Demonstrar o cálculo* 
+
+#+begin_export latex
+\blank[blank-style={\phantom{#1}},width=8\linewidth]{}
+#+end_export 
+
+#+end_exercise 
+
+
+
+#+ATTR_LATEX: :options [points=1.5]
+#+begin_exercise
+uma solução aquosa de cloreto de sódio (NaC$\ell$ = 58 g/mol) sabendo-se que foi preparada pela dissolução de 0,9g do sal em 100 mL de solução, podemos afirmar que a molaridade da solução é, aproximadamente: 
+
+
+#+begin_export latex
+\blank[blank-style={\phantom{#1}},width=8\linewidth]{}
+#+end_export 
+
+
+#+end_exercise 
+
+
+#+ATTR_LATEX: :options [points=1.5]
+#+begin_exercise
+A uma amostra de 100 ml de NaOH de concentração 20 g/L foi adicionada água suficiente para completar 500 ml. A concentração, em g/L, dessa nova solução é igual a: 
+
+#+begin_export latex
+\blank[blank-style={\phantom{#1}},width=8\linewidth]{}
+#+end_export 
+
+
+#+end_exercise 
+
+
+
+\collectexercisesstop{SolucoesAB}
+
+
+#+BEGIN_COMMENT
+
+============================== Entalpia de Formacao ===================================
+
+#+END_COMMENT
+
+#+ATTR_LATEX: :options [points=2.0]
+#+begin_exercise
+Use a entalpia dos dados de formação na tabela para calcular a entalpia das reações abaixo:
+
+|-------------------------------+-------------------------|
+| *Substância*                    | *$\Delta H_f^0$ (kJ/mol)* |
+|-------------------------------+-------------------------|
+| @@latex:\ch{H2O_{\lqdd}}@@    |                    -285 |
+|-------------------------------+-------------------------|
+| @@latex:\ch{H2O_{\gas}}@@     |                    -241 |
+|-------------------------------+-------------------------|
+| @@latex:\ch{OH^{-1}_{\aq}}@@  |                    -229 |
+|-------------------------------+-------------------------|
+| @@latex:\ch{H3PO4_{\aq}}@@    |                   -1277 |
+|-------------------------------+-------------------------|
+| @@latex:\ch{PO4^{-3}_{\aq}}@@ |                   -1277 |
+|-------------------------------+-------------------------|
+| @@latex:\ch{H2CO3_{\aq}}@@    |                    -700 |
+|-------------------------------+-------------------------|
+| @@latex:\ch{CO2_{\aq}}@@      |                    -413 |
+|-------------------------------+-------------------------|
+| @@latex:\ch{CO2_{\gas}}@@     |                    -393 |
+|-------------------------------+-------------------------|
+| @@latex:\ch{CO_{\gas}}@@      |                    -110 |
+|-------------------------------+-------------------------|
+| @@latex:\ch{CH4_{\gas}}@@     |                     -74 |
+|-------------------------------+-------------------------|
+| @@latex:\ch{C2H6_{\gas}}@@    |                     -84 |
+|-------------------------------+-------------------------|
+| @@latex:\ch{C2H4_{\gas}}@@    |                      52 |
+|-------------------------------+-------------------------|
+| @@latex:\ch{C2H2_{\gas}}@@    |                     226 |
+|-------------------------------+-------------------------|
+
+#+begin_export latex
+\begin{choice}
+ \choice \ch{H2O_{\lqdd} + CO2_{\aq} -> H2CO3_{\aq}}
+\vspace{4cm}
+ \choice \ch{H3PO4_{\aq} + 3 OH^{-1}_{\aq} -> 3 H2O_{\lqdd} + PO4^{-3}_{\aq}}
+\vspace{4cm} 
+ \choice \ch{CH4_{\gas} + 2 O2_{\gas} ->  2 H2O_{\gas} + CO2_{\gas}}
+\vspace{4cm}
+ \choice \ch{2 CH4_{\gas} + 3 O2_{\gas} -> 4 H2O_{\gas} + 2 CO_{\gas}}
+\vspace{4cm}
+\choice \ch{CH4_{\gas} + O2_{\gas} ->  2 H2O_{\gas} + C_{\sld}}
+\vspace{4cm}
+ \choice \ch{2 C2H6_{\gas} + 7 O2_{\gas} ->  6 H2O_{\gas} + 4 CO2_{\gas}}
+\vspace{4cm}
+  \choice \ch{C2H4_{\gas} + 3 O2_{\gas} ->  2 H2O_{\gas} + 2 CO2_{\gas}}
+\vspace{4cm}
+ \choice \ch{2 C2H2_{\gas} + 5 O2_{\gas} -> 2 H2O_{\gas} + 4 CO2_{\gas}}
+ \end{choice}
+#+end_export
+
+#+end_exercise 
+
+
+#+BEGIN_COMMENT
+========================= Enthalpy Formation =================
+#+END_COMMENT
+
+
+\collectexercises{EntalpiaForma}
+
+#+ATTR_LATEX: :options [points=3]
+#+begin_exercise
+Use o valores da tabela abaixo para calcular a entalpia das reações
+
+|-----------------------------------+---------------------------------------|
+| Substância                        | @@latex: $\Delta$H (KJ mol$^{-1}$) @@ |
+|-----------------------------------+---------------------------------------|
+| @@latex:\ch{SiC$\ell$4_{\lqdd}}@@ |                                  -687 |
+|-----------------------------------+---------------------------------------|
+| @@latex:\ch{SiO2_{\sld}}@@        |                                  -910 |
+|-----------------------------------+---------------------------------------|
+| @@latex:\ch{H2O_{\lqdd}}@@        |                                  -285 |
+|-----------------------------------+---------------------------------------|
+| @@latex:\ch{HC$\ell$4_{\aq}}@@    |                                   -92 |
+|-----------------------------------+---------------------------------------|
+| @@latex:\ch{SiC$\ell$4_{\lqdd}}@@ |                                  -687 |
+|-----------------------------------+---------------------------------------|
+| @@latex: \ch{NH3_{\gas}} @@       |                                   -46 |
+|-----------------------------------+---------------------------------------|
+| @@latex: \ch{CH4_{\gas}} @@       |                                   -75 |
+|-----------------------------------+---------------------------------------|
+| @@latex: \ch{HCN_{\gas}}@@        |                                   135 |
+|-----------------------------------+---------------------------------------|
+| @@latex: \ch{H2O_{\lqdd}}@@       |                                  -241 |
+|-----------------------------------+---------------------------------------|
+
+
+
+#+begin_export latex
+\begin{choice}
+\choice \ch{SiC$\ell$4_{\lqdd} + 2 H2O_{\lqdd} -> SiO2_{\sld} + 4HC$\ell$_{\aq}}
+
+\blank[width=5.5\linewidth,linespread=1.5]{}
+
+
+\choice \ch{2 NH3_{\gas} + 3 O2_{\gas} + 2 CH4_{\gas} -> 2 HCN_{\gas} + 6 H2O_{\gas}}
+
+\blank[width=5.2\linewidth,linespread=1.5]{}
+
+\end{choice}
+#+end_export
+#+end_exercise 
+
+
+\collectexercisesstop{EntalpiaForma}
+
+
+
+
+
+
+
+
+
+#+BEGIN_COMMENT
+
+================ TERMOQUIMICA - ABERTAS  =========================
+
+#+END_COMMENT
+
+
+
+
+
+\collectexercises{TermoquimicaAberta}
+
+#+ATTR_LATEX: :options [points=1.5]
+#+begin_exercise
+Para a reação a seguir 
+#+begin_export latex
+\begin{reaction*}
+S_{\sld} + 3/2 O2_{\gas} -> SO3_{\gas}
+\end{reaction*}
+#+end_export
+
+Qual o valor da entalpia de reação @@latex: $\Delta$H @@ de acordo com  o diagrama
+
+
+#+begin_export latex
+\begin{center}
+\begin{tikzpicture}[scale=1]
+%\draw[step=1cm,black,very thin] (0,0) grid (10,10);
+\draw[thick,->](0,0) -- (0,7.5);
+\draw(-.3,7.5) node[sloped,anchor=center, rotate=0, above]{Entalpia ($\Delta$H) / kJ};
+%% Line 1
+\draw[thick,-](0,2) -- (6,2);
+\draw(-0.7,2) node{-394};
+\draw(2.5,2.5) node{\ch{SO3_{\gas}}};
+%%% Line 2
+\draw[thick,-](0,4) -- (6,4);
+\draw(-0.7,4) node{-296};
+\draw(2.5,4.5) node{\ch{SO2_{\gas} + 1/2 O2_{\gas}}};
+%%% Line 3
+\draw[thick,-](0,6) -- (6,6);
+\draw(-0.7,6) node{0};
+\draw(2.5,6.5) node{\ch{S_{\sld} + 3/2 O2_{\gas}}};
+\end{tikzpicture}
+\end{center}
+#+end_export
+#+end_exercise 
+
+
+
+#+ATTR_LATEX: :options [points=1.5]
+#+begin_exercise
+Observe o diagrama a seguir
+#+begin_export latex
+\begin{center}
+\begin{tikzpicture}[scale=.7]
+\draw[thick,->](0,0) -- (0,8);
+\draw(-.3,7.7) node[sloped,anchor=center, rotate=0, above]{($\Delta$H) / kJ};
+%Line 1
+\draw[thick,-](0,7) -- (7,7);
+\draw(-0.7,7) node{87};
+\draw(3.7,7.4) node{\ch{CS2_{($\ell$)}}};
+%% Line 2
+\draw[thick,-](0,5) -- (7,5);
+\draw(-0.7,5) node{0};
+\draw(3.7,5.4) node{\ch{C_{\sld} + S_{\sld} + O2_{\gas}}};
+%%% Line 3
+\draw[thick,-](0,3) -- (7,3);
+\draw(-0.7,3) node{-296};
+\draw(3.7,3.5) node{\ch{SO2_{\gas}}};
+%%%%% Line 4
+\draw[thick,-](0,1) -- (7,1);
+\draw(-0.7,1) node{-393};
+\draw(3.7,1.5) node{\ch{CO2_{\gas}}};
+\end{tikzpicture}
+\end{center}
+#+end_export
+
+Qual o valor da entalpia da reação para a reação a seguir.
+
+#+begin_export latex
+\begin{reaction*}
+CS2_{\lqd} + 3 O2_{\gas} -> CO2_{\gas} + 2 SO2_{\gas}
+\end{reaction*}
+#+end_export
+#+end_exercise 
+
+
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.5]
+#+begin_exercise
+Represente em um diagrama de entalpia a reação abaixo
+#+begin_export latex
+\begin{reactions*}
+4 FeO_{\sld} + O2_{\gas} -> 2 Fe2O3_{\sld} & $\qquad \enthalpy[unit=\kilo\joule]{-561}$
+\end{reactions*}
+#+end_export
+
+#+end_exercise 
+
+
+
+\collectexercisesstop{TermoquimicaAberta}
+
+
+#+BEGIN_COMMENT
+
+================ LEI DE HESS =========================
+
+#+END_COMMENT
+
+
+\collectexercises{LawHess}
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise 
+Calcule a entalpia da reação 
+
+#+begin_export latex
+\begin{reactions*}
+2 C_{\sld} + H2_{\gas} -> C2H2_{\gas}	 &
+\end{reactions*}
+#+end_export
+A partir das reações de formação 
+
+
+#+begin_export latex
+%\begin{reactions*}
+%C2H2_{\gas} + 5/2 O2_{\gas} -> 2 CO2_{\gas} + H2O_{\lqdd} &  $\qquad \enthalpy{-1299.5}$ \\
+%C_{\sld} + O2_{\gas} -> CO2_{\gas} &	$\qquad \enthalpy{-393.5}$ \\
+%H2_{\gas} + 1/2 O2_{\gas} -> H2O_{\lqdd}	& $\qquad \enthalpy{-285.8}$
+%\end{reactions*}
+%
+\begin{reactions*}
+C2H2_{\gas} + 5/2 O2_{\gas} -> 2 CO2_{\gas} + H2O_{\lqdd}  & $\quad \enthalpy[unit=\kilo\joule]{-1300}$ \\
+C_{\sld} + O2_{\gas} -> CO2_{\gas} &	$\quad \enthalpy[unit=\kilo\joule]{-393}$ \\
+H2_{\gas} + 1/2 O2_{\gas} -> H2O_{\lqdd} &  $\quad \enthalpy[unit=\kilo\joule]{-285}$
+\end{reactions*} 
+
+
+\blank[width=5.2\linewidth,linespread=1.5]{}
+
+
+#+end_export
+
+#+end_exercise 
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+As reações a seguir do estado padrão 
+
+#+begin_export latex
+\begin{reactions*}
+1/2 N2_{\gas} + O2_{\gas} -> NO2_{\gas} & $\qquad \enthalpy{33}$ \\ 
+H2_{\gas} + 1/2 O2_{\gas} -> H2O_{\gas} & $\qquad \enthalpy{-241}$ \\
+N2_{\gas} + 2 H2_{\gas} -> N2H4_{\gas} & $\qquad \enthalpy{48}$
+\end{reactions*}
+#+end_export
+
+Calcule o @@latex:$\Delta$@@H da reação
+
+#+begin_export latex
+\begin{reaction*}
+2 NO2_{\gas} + 2 H2O_{\gas} -> 3 O2_{\gas} + N2H4_{\gas} 
+\end{reaction*}
+#+end_export
+\blank[width=4.8\linewidth,linespread=1.5]{}
+
+#+end_exercise 
+ 
+
+#+ATTR_LATEX: :options [points=1.5]
+#+begin_exercise 
+Calcule a entalpia de combustão do ciclopentano
+
+#+begin_export latex
+\begin{reaction*}
+2 C7H14_{\lqdd}  + 21 O2_{\gas} -> 14 CO2_{\gas} + 14 H2O_{\gas}
+\end{reaction*}
+
+#+end_export
+
+a partir das reações de entalpia padrão
+
+#+begin_export latex
+\begin{reactions*}
+C_{\sld} + O2_{\gas} -> CO2_{\gas} & $\qquad \enthalpy{-393.5}$\\
+H2_{\gas} + 1/2 O2_{\gas} -> H2O_{\gas} & $\qquad \enthalpy{241.8}$\\
+7 C_{\sld} + 7 H2_{\gas} -> C7H14_{\lqdd} & $\qquad \enthalpy{1115.0}$
+\end{reactions*}
+#+end_export
+\blank[width=4.8\linewidth,linespread=1.5]{}
+
+
+#+end_exercise 
+
+
+#+ATTR_LATEX: :options [points=1.5]
+#+begin_exercise 
+Conhecendo as variações de entalpia das reações a seguir,
+
+#+begin_export latex
+%\begin{reactions*}
+%C_{\sld} + O2_{\gas} -> CO2_{\gas} & $\qquad \enthalpy{-393.5}$\\
+%H2_{\gas} + 1/2 O2_{\gas} -> H2O_{\gas} & $\qquad \enthalpy{-241.8}$\\
+%C6H12O6_{\sld} + 6 O2_{\gas} -> 6 CO2_{\gas} + 6 H2O_{\gas} & $\qquad \enthalpy{-2807.5}$
+%\end{reactions*}
+\begin{reactions*}
+C_{\sld} + O2_{\gas} -> CO2_{\gas}  $\qquad \enthalpy[unit=\kilo\joule]{-393.5}$ \\
+H2_{\gas} + 1/2 O2_{\gas} -> H2O_{\gas}  $\qquad \enthalpy[unit=\kilo\joule]{-241.8}$\\
+C6H12O6_{\sld} + 6 O2_{\gas} -> 6 CO2_{\gas} + 6 H2O_{\gas} \\
+ $\qquad \enthalpy[unit=\kilo\joule]{-2807.5}$
+\end{reactions*}
+#+end_export
+
+
+Calcule o @@latex:$\Delta$@@H da reação
+#+begin_export latex
+\begin{reaction*}
+6 C_{\sld} + 6 H2_{\gas} + 3 O2_{\gas} -> C6H12O6_{\sld}
+\end{reaction*}
+#+end_export
+
+\blank[width=4.8\linewidth,linespread=1.5]{}
+
+#+end_exercise 
+
+
+
+
+#+ATTR_LATEX: :options [points=1.5]
+#+begin_exercise
+Considerando a combustão do etileno
+#+begin_export latex
+\begin{reaction*}
+C2H4_{\gas} + 3 O2_{\gas} -> 2 CO2_{\gas} + 2 H2O_{\gas}
+\end{reaction*}
+#+end_export
+
+
+A entalpia de combustão pode ser determinada usando as entalpias das seguintes reações:
+
+#+begin_export latex
+\begin{reactions*}
+I. & C2H2_{\gas}  + H2_{\gas} -> C2H4_{\gas} & $\;\enthalpy[unit=\kilo\joule]{-174}$\\
+II. & 2 C2H2_{\gas}  + 5 O2_{\gas}  -> 4 CO2_{\gas}  + 2 H2_{\gas}&  $\enthalpy[unit=\kilo\joule]{-2511}$\\
+III. & 2 CO2_{\gas}  + H2_{\gas} -> 2 O2_{\gas} + C2H2_{\gas} & $\enthalpy[unit=\kilo\joule]{1013}$
+\end{reactions*}
+#+end_export
+
+Determine a entalpia da combustão do etileno das reações I, II e III usando a Lei de Hess em temperatura e pressão padrão.
+
+\blank[width=4.8\linewidth,linespread=1.5]{}
+
+
+#+end_exercise 
+
+
+
+#+ATTR_LATEX: :options [points=1.5]
+#+begin_exercise
+A queima de matéria rica em carbono, em geral, seja a combustão de derivados de petróleo (negro de fumo), de madeira (carvão) etc., é representada pela seguinte equação termoquímica:
+
+#+begin_export latex
+\begin{reactions*}
+C_{\sld} + O2_{\gas} -> CO2_{\gas} & $\qquad \enthalpy[unit=\kilo\cal]{94.05}$
+\end{reactions*}
+#+end_export
+
+Essa reação ocorre, normalmente, em duas etapas, a saber:
+#+begin_export latex
+\begin{reactions*}
+1\textsuperscript{a} etapa: & C_{\sld} + 1/2 O2_{\gas} ->  CO_{\gas} & + 26,41 kcal \\
+2ª etapa: & CO_{\gas} + 1/2 O2_{\gas} ->  CO2_{\gas} & + 67,64 kcal \\
+\end{reactions*}
+#+end_export
+
+#+begin_choice 
+\choice  Através da soma das duas etapas da reação, mostre que a lei de Hess foi seguida.
+\blank[width=4.8\linewidth,linespread=1.5]{}
+\choice  As reações citadas estão representadas por equações termoquímicas. O que diferencia uma equação química simples de uma equação termoquímica?
+\blank[width=4.8\linewidth,linespread=1.5]{}
+\choice Qual será o calor liberado na formação de 5 mol de monóxido de carbono?
+\blank[width=4.8\linewidth,linespread=1.5]{}
+
+#+end_choice
+#+end_exercise 
+
+
+
+#+ATTR_LATEX: :options [points=1.5]
+#+begin_exercise
+A partir das reações de entalpia
+#+begin_export latex
+\begin{reactions*}
+H2_{\gas} + F2_{\gas} -> 2 HF_{\gas} & \; \;  \(\enthalpy[unit=\kilo\joule]{-537}\)\\
+ C_{\sld} + 2 F2_{\gas} -> CF4_{\gas} & \; \; \(\enthalpy[unit=\kilo\joule]{-680}\)\\
+2 C_{\sld} + 2 H2_{\gas} -> C2H4_{\gas} & \; \; \(\enthalpy[unit=\kilo\joule]{-52.3}\) 
+\end{reactions*}
+#+end_export
+
+Calcule o \(\Delta\)H da reação. *REAÇÃO BALANCEADA*.
+#+begin_export latex
+\begin{reaction*}
+C2H4_{\gas} + 6 F2_{\gas} -> 2 CF4_{\gas} + 4 HF_{\gas}
+\end{reaction*}
+#+end_export
+\blank[width=7.8\linewidth,linespread=1.5]{}
+
+#+end_exercise
+
+#+ATTR_LATEX: :options [points=1.001]
+#+begin_exercise
+Dadas as equações termoquímicas:
+
+#+begin_export latex
+\begin{reactions*}
+Br2_{\lqdd} + F2_{\gas} -> 2 BrF_{\lqdd} & \; \; \; \(\enthalpy{-188}\)\\
+Br2_{\lqdd} + 3 F2_{\gas} -> 2 BrF3_{\gas} & \; \; \; \(\enthalpy{-786}\)\\
+\intertext{Calcule o \(\Delta\)H\(_{\reac}\)}
+BrF_{\lqdd} + F2_{\gas} -> BrF_3_{\gas} &
+\end{reactions*}
+\blank[blank-style={\phantom{#1}},width=9\linewidth]{}
+#+end_export
+
+#+end_exercise
+
+
+
+\collectexercisesstop{LawHess}
+
+
+#+BEGIN_COMMENT
+==================== CINETICA QUIMICA =============
+#+END_COMMENT
+
+
+\collectexercises{CineticaQuimica-Aberta}
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A oxidação do brometo de hidrogênio pode ser descrita em três etapas :
+#+begin_export latex
+\begin{align*}
+\mathbf{I} &\ \ch{HBr_{\gas} + O2_{\gas} ->  HOOBr_{\gas}} \; \text{(etapa lenta)}\\
+\mathbf{II} &\ \ch{HBr_{\gas} + HOOBr_{\gas} ->  2 HOBr_{\gas}} \; \text{(etapa rápida)} \\
+\mathbf{III} &\  \ch{HOBr_{\gas} + HBr_{\gas} ->  Br2_{\gas} + H2O_{\gas}}\; \text{(etapa rápida)}
+\end{align*}
+#+end_export
+Escreva a equação da velocidade da reação de oxidação do brometo de hidrogênio.
+
+#+begin_export latex
+\blank[width=7.8\linewidth,linespread=1.5]{}
+#+end_export
+#+end_exercise
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Experimentalmente, observou-se que a velocidade de formação da substância C, através da reação :
+#+begin_export latex
+\begin{reaction*}
+2 A_{\gas} + B_{\gas} ->  C_{\gas}
+\end{reaction*}
+#+end_export
+é independente da concentração de B e octuplica quando a concentração de A é dobrada. Escreva a equação da velocidade da reação mencionada.
+#+end_exercise
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A velocidade da reação química @@latex: \ch{2 A + 3 B -> C + D}@@ é independente de A e fica oito vezes maior quando dobramos a concentração de B. Determine a ordem da reação em relação a B:
+\vspace{2cm}
+#+end_exercise
+
+
+#+ATTR_LATEX: :options [points=1.5]
+#+begin_exercise
+O peróxido de benzoíla (@@latex: \ch{C14H10O4}@@) é um medicamento usado para tratar a acne. Sua taxa de decomposição térmica em várias concentrações foi determinada experimentalmente e os dados foram tabulados da seguinte forma:
+
+#+ATTR_LATEX:   :align ccc
+|------+-------------------------------------------+-----------------------------------|
+| Exp. | [@@latex: \ch{C14H10O4}@@] (\si{\mole\per\liter}) | velocidade (\si{\mole\per\liter}) |
+|------+-------------------------------------------+-----------------------------------|
+|    1 |                                      1.00 | \num{2.22e-4}                     |
+|    2 |                                      0.70 | \num{1.65e-4}                     |
+|    3 |                                      0.50 | \num{1.12e-4}                     |
+|    4 |                                      0.25 | \num{0.59e-4}                     |
+|------+-------------------------------------------+-----------------------------------|
+Qual é a ordem da reação em relação ao peróxido de benzoíla? Qual é a lei de velocidade para esta reação?
+\vspace{5cm}
+#+end_exercise
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Na reação @@latex: \ch{H2O2_{\aq}  ->  H2O_{\lqdd}  +  1/2  O2_{\gas}}@@ , a concentração inicial de \ch{H2O2} é 0,2546 \si{\mole\per\liter} e a velocidade inicial de reação é \num{9.32e-4} \si{\mole\per\liter\per\second}. Qual será [\ch{H2O2}] em \(t\) = 35 s?
+#+end_exercise
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A cinética da reação: @@latex: \ch{2 HgC$\ell$2 + C2O4^{2-} -> 2 C$\ell$^− +  2 CO2_{\gas} + Hg2C$\ell$2_{\sld}}@@
+Foi estudada em solução aquosa, seguindo o número de mols de \ch{Hg2C$\ell$2} que precipita por litro de solução por minuto. Os dados obtidos estão na tabela.
+
+#+ATRR_LATEX: :aling |c|c|c|
+|-----------------------------+----------------------------+-------------------------------|
+| [@@latex:\ch{HgC$\ell$2}@@] | [@@latex:\ch{C2O4^{2-}}@@] | Velocidade                    |
+|         \si{\mol\per\liter} |         \si{mol\per\liter} | \si{mol\per\liter\per\second} |
+|-----------------------------+----------------------------+-------------------------------|
+|                        0.10 |                       0.15 | \num{1.8e-5}                  |
+|-----------------------------+----------------------------+-------------------------------|
+|                        0.10 |                       0.30 | \num{7.2e-5}                  |
+|-----------------------------+----------------------------+-------------------------------|
+|                        0.05 |                       0.30 | \num{3.6e-5}                  |
+|-----------------------------+----------------------------+-------------------------------|
+
+Pede-se:
+#+begin_export latex
+\begin{choice}(1)
+\choice Determinar a equação de velocidade da reação.
+
+\blank[blank-style={\phantom{#1}},width=3\linewidth]{}
+
+
+\choice Calcular o valor da constante de velocidade da reação.
+
+\blank[blank-style={\phantom{#1}},width=3\linewidth]{}
+
+\choice Qual será a velocidade da reação quando [\ch{HgC$\ell$2}]=1,0M e [\ch{C2O4^{2-}}] = 2,0M?
+
+\blank[blank-style={\phantom{#1}},width=3\linewidth]{}
+
+\end{choice}
+#+end_export
+
+#+end_exercise
+
+
+
+\collectexercisesstop{CineticaQuimica-Aberta}
+
+
+
+#+begin_comment
+======================= PILHAS ===============================
+#+end_comment
+
+
+
+
+
+
+
+\collectexercises{Pilhas2}
+
+
+#+begin_exercise
+O esquema abaixo representa uma pilha na qual se qual se verifica que, durante o verifica que, durante o funcionamento, há desgaste da placa de cobre e depósito  metal sobre a placa de prata.
+
+Com base na informação dada responda às questões.
+
+
+
+
+#+begin_export latex
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,415); %set diagram left start at 0, and has height of 415
+
+%Shape: Can [id:dp18066858976364752] 
+\draw  [fill={rgb, 255:red, 212; green, 206; blue, 206 }  ,fill opacity=1 ] (233.22,279.4) -- (233.22,335.65) .. controls (233.22,342.31) and (211.41,347.7) .. (184.52,347.7) .. controls (157.62,347.7) and (135.82,342.31) .. (135.82,335.65) -- (135.82,279.4) .. controls (135.82,272.74) and (157.62,267.34) .. (184.52,267.34) .. controls (211.41,267.34) and (233.22,272.74) .. (233.22,279.4) .. controls (233.22,286.06) and (211.41,291.45) .. (184.52,291.45) .. controls (157.62,291.45) and (135.82,286.06) .. (135.82,279.4) ;
+%Shape: Can [id:dp3734331065353014] 
+\draw   (233.22,222.57) -- (233.22,278.82) .. controls (233.22,285.48) and (211.41,290.88) .. (184.52,290.88) .. controls (157.62,290.88) and (135.82,285.48) .. (135.82,278.82) -- (135.82,222.57) .. controls (135.82,215.91) and (157.62,210.52) .. (184.52,210.52) .. controls (211.41,210.52) and (233.22,215.91) .. (233.22,222.57) .. controls (233.22,229.23) and (211.41,234.63) .. (184.52,234.63) .. controls (157.62,234.63) and (135.82,229.23) .. (135.82,222.57) ;
+%Shape: Rectangle [id:dp2665878448673322] 
+\draw  [fill={rgb, 255:red, 141; green, 139; blue, 139 }  ,fill opacity=1 ] (158.89,133.6) -- (179.39,133.6) -- (179.39,314.99) -- (158.89,314.99) -- cycle ;
+%Shape: Can [id:dp27512934653426835] 
+\draw  [fill={rgb, 255:red, 199; green, 241; blue, 239 }  ,fill opacity=0.91 ] (417.76,281.69) -- (417.76,337.95) .. controls (417.76,344.6) and (395.96,350) .. (369.06,350) .. controls (342.16,350) and (320.36,344.6) .. (320.36,337.95) -- (320.36,281.69) .. controls (320.36,275.04) and (342.16,269.64) .. (369.06,269.64) .. controls (395.96,269.64) and (417.76,275.04) .. (417.76,281.69) .. controls (417.76,288.35) and (395.96,293.75) .. (369.06,293.75) .. controls (342.16,293.75) and (320.36,288.35) .. (320.36,281.69) ;
+%Shape: Can [id:dp8894474671943777] 
+\draw   (417.76,224.87) -- (417.76,281.12) .. controls (417.76,287.78) and (395.96,293.17) .. (369.06,293.17) .. controls (342.16,293.17) and (320.36,287.78) .. (320.36,281.12) -- (320.36,224.87) .. controls (320.36,218.21) and (342.16,212.81) .. (369.06,212.81) .. controls (395.96,212.81) and (417.76,218.21) .. (417.76,224.87) .. controls (417.76,231.52) and (395.96,236.92) .. (369.06,236.92) .. controls (342.16,236.92) and (320.36,231.52) .. (320.36,224.87) ;
+%Shape: Rectangle [id:dp06118377040158207] 
+\draw  [fill={rgb, 255:red, 19; green, 216; blue, 241 }  ,fill opacity=1 ] (370.34,135.9) -- (390.85,135.9) -- (390.85,317.28) -- (370.34,317.28) -- cycle ;
+%Shape: Rectangle [id:dp03864170886946039] 
+\draw  [draw opacity=0][fill={rgb, 255:red, 78; green, 35; blue, 3 }  ,fill opacity=1 ] (213.47,194.29) -- (344.32,194.29) -- (344.32,202.64) -- (213.47,202.64) -- cycle ;
+%Shape: Rectangle [id:dp002243638898943079] 
+\draw  [draw opacity=0][fill={rgb, 255:red, 86; green, 13; blue, 13 }  ,fill opacity=1 ] (221.52,202.64) -- (221.51,283) -- (213.46,283) -- (213.47,202.64) -- cycle ;
+%Shape: Rectangle [id:dp8494493092527529] 
+\draw  [draw opacity=0][fill={rgb, 255:red, 86; green, 13; blue, 13 }  ,fill opacity=1 ] (344.55,198.05) -- (344.53,278.41) -- (336.49,278.41) -- (336.5,198.05) -- cycle ;
+%Straight Lines [id:da8502930943185469] 
+\draw    (167.86,95.72) -- (168,100.4) -- (168.56,119.78) -- (167.86,155.41) ;
+%Straight Lines [id:da03801210753348605] 
+\draw    (380.59,92.27) -- (381.3,130.11) -- (381.88,149.67) ;
+%Shape: Chord [id:dp8777579242724132] 
+\draw   (252.08,92.67) .. controls (250.79,89.88) and (250.1,86.82) .. (250.14,83.63) .. controls (250.28,70.61) and (262.41,60.16) .. (277.24,60.29) .. controls (292.06,60.42) and (303.96,71.08) .. (303.82,84.09) .. controls (303.78,87.29) and (303.02,90.33) .. (301.68,93.1) -- cycle ;
+%Shape: Rectangle [id:dp3204064568424483] 
+\draw   (231.94,47.5) -- (321.64,47.5) -- (321.64,93.42) -- (231.94,93.42) -- cycle ;
+%Straight Lines [id:da9292641033791025] 
+\draw    (165.29,94.57) -- (231.94,93.42) ;
+%Straight Lines [id:da33465279435066053] 
+\draw    (321.64,93.42) -- (366.5,92.27) -- (380.59,92.27) ;
+%Straight Lines [id:da5492221385654108] 
+\draw    (115.31,164.6) -- (126.59,169.65) -- (144.25,177.56) ;
+\draw [shift={(146.07,178.37)}, rotate = 204.13] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+%Straight Lines [id:da3741134790600458] 
+\draw    (440.83,156.56) -- (418.64,166.22) -- (397.81,175.28) ;
+\draw [shift={(395.97,176.08)}, rotate = 336.49] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+%Straight Lines [id:da050471190697668034] 
+\draw    (282,78) -- (279.4,83.64) -- (276,91) ;
+
+% Text Node
+\draw (242.49,23.5) node [anchor=north west][inner sep=0.75pt]   [align=left] {\textbf{Voltimetro}};
+% Text Node
+\draw (237.21,164.71) node [anchor=north west][inner sep=0.75pt]   [align=left] {ponte salina};
+% Text Node
+\draw (64.42,156.67) node [anchor=north west][inner sep=0.75pt]   [align=left] {Zinco};
+% Text Node
+\draw (453.29,149.78) node [anchor=north west][inner sep=0.75pt]   [align=left] {Cobre};
+% Text Node
+\draw (351,331) node [anchor=north west][inner sep=0.75pt]   [align=left] {\ch{Cu^{2+}}};
+% Text Node
+\draw (395,305) node [anchor=north west][inner sep=0.75pt]   [align=left] {+};
+% Text Node
+\draw (326,326) node [anchor=north west][inner sep=0.75pt]   [align=left] {+};
+% Text Node
+\draw (342,304) node [anchor=north west][inner sep=0.75pt]   [align=left] {+};
+% Text Node
+\draw (146,315) node [anchor=north west][inner sep=0.75pt]   [align=left] {\mbox{-}};
+% Text Node
+\draw (328,302) node [anchor=north west][inner sep=0.75pt]   [align=left] {+};
+% Text Node
+\draw (166,332) node [anchor=north west][inner sep=0.75pt]   [align=left] {\mbox{-}};
+% Text Node
+\draw (166,320) node [anchor=north west][inner sep=0.75pt]   [align=left] {\mbox{-}};
+% Text Node
+\draw (188,304) node [anchor=north west][inner sep=0.75pt]   [align=left] {\mbox{-}};
+% Text Node
+\draw (213,308) node [anchor=north west][inner sep=0.75pt]   [align=left] {\mbox{-}};
+% Text Node
+\draw (182,322) node [anchor=north west][inner sep=0.75pt]   [align=left] {\ch{Zn^{2+}}};
+
+
+\end{tikzpicture}
+
+
+\begin{choice}
+\choice (1,0) Qual dos eletrodos é o ânodo? Qual é o cátodo?
+\vspace{3cm}
+\choice (1,0) Qual dos eletrodos é o positivo? Qual é o negativo?
+\vspace{3cm}
+\choice (1,0) Que espécie química é oxidada? E qual é reduzida? *(Lembre-se de que
+espécie química é um termo genérico para designar átomo, molécula ou íon)*
+\vspace{3cm}
+\choice (2,0) Equacione a semirreação anódica.
+\vspace{3cm}
+\choice (2,0) Equacione a semirreação catódica.
+\vspace{3cm}
+\choice (1,0) Equacione a reação global da pilha.
+\vspace{4cm}
+\choice (1,0) Qual é o sentido de movimentação dos elétrons do sentido de movimentação dos elétrons do fio?
+\vspace{5cm}
+\choice (1,0) Qual o sentido de movimentação dos íons na ponte sentido de movimentação dos íons na ponte salina?
+\end{choice}
+#+end_export
+
+#+end_exercise
+
+
+\collectexercisesstop{Pilhas2}
+
+
+
+
+#+BEGIN_COMMENT
+
+======================   RADIOATIVIDADE  ======================================= 
+
+#+END_COMMENT
+
+
+
+\collectexercises{Radioatividade-Aberta}
+
+
+#+ATTR_LATEX: :options [points=1.001]
+#+begin_exercise
+A meia vida do radioisótopo cobre-64 (Cu) é de apenas 12,8 horas, pois ele sofre decaimento \beta se transformando em zinco, conforme a representação. Considerando uma amostra inicial de 128 mg de cobre-64, após 76,8 horas, a massa restante desse radioisótopo será de? *Realize o cálculo*.
+
+#+begin_export latex
+\begin{reaction*}
+^{64}_{29}Cu -> ^{64}_{30}Zn + ^{0}_{-1}$\beta$
+\end{reaction*}
+\blank[blank-style={\phantom{#1}},width=13\linewidth]{}
+#+end_export
+
+#+end_exercise 
+
+
+#+ATTR_LATEX: :options [points=1.001]
+#+begin_exercise
+O césio-137 possui meia-vida de 30 anos. Se tivermos 12 g desse elemento, após quanto tempo essa massa será reduzida para 0,75 g? *Realize o cálculo*.
+
+ #+begin_export latex
+\blank[blank-style={\phantom{#1}},width=13\linewidth]{}
+#+end_export
+#+end_exercise 
+
+
+
+#+ATTR_LATEX: :options [points=1.001]
+#+begin_exercise
+A meia-vida do \isotope{Zn} é de 2,4 minutos. Se tivéssemos 100,0 g no início, quantos gramas restariam após 7,2 minutos? *Realize o cálculo*.
+#+begin_export latex
+\blank[blank-style={\phantom{#1}},width=13\linewidth]{}
+#+end_export
+#+end_exercise
+
+
+\collectexercisesstop{Radioatividade-Aberta}

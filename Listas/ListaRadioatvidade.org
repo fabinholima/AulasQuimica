@@ -1,0 +1,121 @@
+
+#+LATEX_HEADER: \DeclareExerciseCollection{ListaRadioatividade}
+#+LATEX_HEADER: \DeclareExerciseCollection{radio1}
+
+
+
+\collectexercises{ListaRadioatividade}
+
+#+begin_exercise
+Calcule o número de partículas $\upalpha$  e $\upbeta$ que o urânio 238 (\isotope{238,U}), precisa emitir para se transformar em Rádio 226 (\isotope{226,Ra}).
+#+end_exercise 
+
+
+#+begin_exercise
+A partir de um átomo radioativo, chega-se ao elemento \isotope{212,Bi} por meio de quatro emissões $\upalpha$ e três emissões $\upbeta$ Identifique o elemento inicial e diga qual é o seu número de massa e o seu número atômico ?
+#+end_exercise
+
+
+#+begin_exercise
+Após algumas desintegrações sucessivas, o \isotope{232,Th}, muito encontrado na orla marítima de Guarapari (ES), se transforma no 82Pb208. Qual o número de partículas $\upalpha$ e $\upbeta$ emitidas nessa tranformação ?
+#+end_exercise 
+
+
+#+begin_exercise
+Um elemento X emite 8 partículas betas resultando no elemento Y. Y por sua vez emite 4 partículas alfas resultando em Z. Diga quem são, ao final do processo, isótopo ou isóbaro ?
+
+#+end_exercise 
+
+
+#+begin_exercise
+A partir de um átomo radioativo, chega-se ao elemento \isotope{220,Rn}, por meio de três emissões $\upalpha$ e duas emissões $\upbeta$. Identifique o elemento inicial e diga qual é o seu número de massa e o seu número atômico ?
+
+#+end_exercise
+
+
+
+
+#+begin_exercise
+A desintegração de 1 g de molibdênio 99, até restarem 0,125 g de molibdênio, dura 180 horas. Qual a sua meia vida ?
+
+#+end_exercise
+
+
+
+#+begin_exercise
+Após 40 dias um determinado radioisótopo, cuja meia-vida é de 10 dias, pesa 0,5 gramas. Qual a sua massa inicial?
+
+#+end_exercise
+
+
+
+#+begin_exercise
+A meia-vida de um elemento radioativo é 15 minutos. Partindo-se de 320 mg desse elemento, após uma hora e meia sua massa fica reduzida a A mg. Qual o valor de A ?
+
+#+end_exercise
+
+
+#+begin_exercise
+Quanto tempo levará para reste apenas 6,25% de uma amostra de um material radioativo, cuja meia vida é de 5 minutos ?
+
+#+end_exercise 
+
+
+#+begin_exercise
+Sabendo que a meia-vida do estrôncio 90 é de aproximadamente 28 anos, determine a porcentagem do mesmo que ainda estará presente daqui a 112 anos
+#+end_exercise
+
+
+
+#+begin_exercise
+Sabendo que o cobalto 60 perde metade de sua radioatividade a cada 5 anos, aproximadamente, qual a porcentagem residual de sua radioatividade após 15 anos ?
+
+#+end_exercise
+
+
+\collectexercisesstop{ListaRadioatividade}
+
+
+
+
+
+
+\collectexercises{radio1}
+
+#+ATTR_LATEX: :options [points=3.5]
+#+begin_exercise 
+Escreva as equações
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice Emissão pósiton  \isotope{18,F} \vspace{2cm}
+\choice  Emissão $\upbeta$  \vspace{2cm}
+\choice Emissão alfa	\isotope{235,U} \vspace{2cm}
+\choice  Emissão gama \vspace{2cm}
+
+#+end_choice 
+
+#+end_exercise
+
+
+#+ATTR_LATEX: :options [points=3.5]
+#+begin_exercise
+Após 3 horas, o nível de atividade de uma amostra de um determinado isótopo radioativo, que decai em um isótopo estável, caiu para 20% de seu valor inicial. Calcule a meia-vida de este isótopo
+\vspace{2cm}
+#+end_exercise 
+
+
+#+ATTR_LATEX: :options [points=3.0]
+#+begin_exercise 
+O flúor-20 decai para néon-20 com meia-vida de 11 segundos. Em t = 0, uma amostra contém 120 gramas de átomos de flúor-20. Quantos gramas de átomos de flúor-20 permanecem na amostra em 
+
+#+begin_choice 
+\choice  t = 5,0 segundos, 
+\vspace{1.5cm}
+\choice  t = 30 segundos 
+\vspace{1.5cm}
+\choice  t = 1,0 minutos?
+\vspace{1.5cm}
+#+end_choice
+#+end_exercise 
+\collectexercisesstop{radio1}

@@ -1,0 +1,190 @@
+
+
+
+#+LATEX_HEADER: \DeclareExerciseCollection{GeometriaMolecular} 
+#+LATEX_HEADER: \DeclareExerciseCollection{Polaridade}
+
+
+\collectexercises{GeometriaMolecular}
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+Qual é a geometria molecular da molécula de metano (\ch{CH4})?
+
+#+begin_choice
+\choice Linear
+\choice Angular
+\choice Tetraédrica
+\choice Octaédrica
+\choice Piramidal
+#+end_choice
+#+end_exercise
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+Quanto maior o número de átomos em uma molécula, maior a quantidade de geometrias moleculares possíveis No caso das moléculas triatômicas, elas podem apresentar geometria linear ou angular.
+
+São exemplos de moléculas com pares de elétrons disponíveis no átomo central e que conferem a geometria angular da molécula, *EXCETO*:
+
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice \ch{H2S}
+\choice \ch{CO2}
+\choice \ch{SO2}
+\choice \ch{H2O}
+\choice \ch{N2}
+#+end_choice
+
+
+#+end_exercise 
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+A molécula do \ch{OF2} é polar, e a molécula do \ch{BeF2} é não polar. Isto se deve à (ao):
+
+#+begin_choice 
+\choice diferença de eletronegatividade entre os átomos nas respectivas moléculas
+\choice  geometria molecular
+\choice tamanho dos átomos ligados ao flúor.
+\choice grande reatividade do oxigênio em relação ao flúor.
+\choice fato de o oxigênio e o flúor serem gases.
+#+end_choice
+#+end_exercise 
+
+
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+Assinale a opção que contém a geometria molecular CORRETA das espécies OF₂ , SF₂ , BF₃ , NF₃ , CF₄ e XeO₄ , todas no estado gasoso. 
+
+#+begin_choice
+\choice Angular, linear, piramidal, piramidal, tetraédrica e quadrado planar. 
+\choice Linear, linear, trigonal plana, piramidal, quadrado planar e quadrado planar. 
+\choice Angular, angular, trigonal plana, piramidal, tetraédrica e tetraédrica. 
+\choice Linear, angular, piramidal, trigonal plana, angular e tetraédrica.
+\choice Trigonal plana, linear, tetraédrica, piramidal, tetraédrica e quadrado planar.
+#+end_choice 
+#+end_exercise
+#+begin_solution
+C
+#+end_solution
+
+
+
+
+#+ATTR_LATEX: :options
+#+begin_exercise
+Assinale a opção que contém, respectivamente, a geometria das moléculas \ch{NH3} e \ch{SiC$\ell$4} no estado
+gasoso:
+#+begin_chocie 
+\choice Plana; plana.
+\choice Piramidal; plana.
+\choice Plana; tetragonal.
+\choice Piramidal; piramidal.
+\choice Piramidal; tetragonal.
+#+end_choice
+#+end_exercise 
+
+
+
+
+\collectexercisesstop{GeometriaMolecular}
+
+
+
+#+begin_comment
+======================= POLARIDADE ======================
+#+end_comment
+
+
+
+\collectexercises{Polaridade}
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+O aumento da diferença de eletronegatividade entre os elementos ocasiona a seguinte ordem no caráter das ligações:
+
+#+begin_choice
+\choice Covalente polar, covalente apolar, iônica;
+\choice Iônica, covalente polar, covalente apolar;
+\choice Covalente apolar, iônica, covalente polar;
+\choice Covalente apolar, covalente polar, iônica;
+\choice Iônica covalente apolar, covalente polar;
+#+end_choice
+#+end_exercise
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise 
+Sejam os seguintes compostos: fluoreto de potássio (KF), dióxido de enxofre (SO_2), iodo (I_2) e iodeto de hidrogênio (HI). As ligações químicas existentes nestes compostos são, respectivamente:
+
+#+begin_choice
+\choice Iônica, covalente polar, iônica, covalente polar.
+\choice Iônica, covalente polar, covalente apolar, covalente polar.
+\choice Covalente apolar, iônica, covalente polar, covalente polar.
+\choice Iônica, covalente apolar, covalente polar, iônica.
+\choice Covalente polar, covalente polar, covalente apolar, covalente polar.
+#+end_choice
+#+end_exercise
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Analise as seguintes informações:
+#+ATTR_LATEX: :options[\label=Roman*.]
+
+1. Na molécula \ch{CO2}, todas as ligações são covalentes polares.
+2. Na molécula \ch{H2O}, temos ligações covalentes apolares e polares.
+3. Na molécula \ch{NH3}, todas as ligações são iônicas.
+
+Conclui-se que:
+
+#+begin_choice
+\choice somente I é correta.
+\choice somente II é correta.
+\choice somente III é correta.
+\choice somente II e III são corretas.
+\choice somente I e III são corretas.
+#+end_choice
+#+end_exercise
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Faça a associação entre as duas colunas:
+
+#+ATTR_LATEX: :options [label=\Roman*.]
+1. \ch{H2O} (\quad ) Ligação metálica
+2. NaI (\quad ) Sólido molecular
+3. \ch{C2H4} (\quad ) Ligação iônica
+3. Na (\quad) Ligação covalente polar
+4. \ch{I2} (\quad) Ligação pi
+
+Lendo a segunda coluna de cima para baixo, teremos:
+
+#+begin_choice
+\choice II, V, I, III, IV
+\choice I, II, IV, III, V
+\choice III, IV, II, V, I
+\choice V, I, III, IV, II
+\choice IV, V, II, I, III
+#+end_choice
+#+end_exercise
+
+
+\collectexercisesstop{Polaridade}
+
+
+
+
+
+
+
+
+
+

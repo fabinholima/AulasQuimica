@@ -1,0 +1,456 @@
+#+LATEX_HEADER: \DeclareExerciseCollection{TeoriaAtomica}
+
+#+BEGIN_COMMENT
+Teoria Atomica 
+#+END_COMMENT
+
+\collectexercises{TeoriaAtomica}
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+ O átomo é a menor partícula que identifica um elemento químico. Ele possui duas partes, a saber: uma delas é o núcleo, constituído por prótons e nêutrons, e a outra é a região externa – a eletrosfera-, por onde circulam os elétrons. Alguns experimentos permitiram a descoberta das características das partículas constituintes do átomo.
+
+Em relação a essas características, indique a alternativa correta.
+
+#+begin_choice
+\choice prótons e elétrons possuem massas iguais e cargas elétricas de sinais opostos.
+\choice  entre as partículas atômicas, os elétrons têm maior massa e ocupam maior volume no átomo.
+\choice entre as partículas atômicas, os prótons e os nêutrons têm maior massa e ocupam maior volume no átomo.
+\choice entre as partículas atômicas, os prótons e os nêutrons têm mais massa, mas ocupam um volume muito pequeno em relação ao volume total do átomo.
+\choice As partículas não possuem massa.
+#+end_choice 
+#+end_exercise 
+#+begin_solution
+LETRA D
+#+end_solution
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise 
+Os estudos realizados por Rutherford mostraram que o átomo deveria ser constituído por um núcleo positivo com elétrons girando ao seu redor. Os elétrons foram inicialmente levados em consideração no modelo atômico proposto pelo seguinte pesquisador.
+
+#+begin_choice 
+\choice  Niels Borh
+\choice J. J. Thomson
+\choice John Dalton.
+\choice  Werner Heisenberg
+\choice Max Planck
+#+end_choice
+#+end_exercise 
+#+begin_solution
+LETRA B
+#+end_solution
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise 
+Comemora-se, neste ano de 2011, o centenário do modelo atômico proposto pelo
+físico neozelandês Ernest Rutherford (1871-1937), prêmio Nobel da Química em 1908. Em 1911,Rutherford, bombardeou uma finíssima lâmina de ouro com partículas alfa, oriundas de uma amostra contendo o elemento químico polônio. De acordo com o seu experimento, Rutherford concluiu que
+    
+#+begin_choice 
+\choice o átomo é uma partícula maciça e indestrutível.
+\choice os elétrons estão mergulhados em uma massa homogênea de carga positiva.
+\choice a maioria das partículas alfa sofria um desvio ao atravessar a lâmina de ouro.
+\choice existem, no átomo, mais espaços vazios do que preenchidos.
+\choice o átomo é pudim de passas incrustado de carga negativa em um esfera positiva
+#+end_choice 
+#+end_exercise
+#+begin_solution
+LETRA C
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise 
+ O filme /"Homem de Ferro 2"/ retrata a jornada de Tony Stark para substituir o metal paládio, que faz parte do reator de seu peito, por um metal atóxico. Após interpretar informações deixadas por seu pai, Tony projeta um holograma do potencial substituto, cuja imagem se assemelha à figura abaixo
+
+#+begin_export latex
+\begin{center}
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
+
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,300); %set diagram left start at 0, and has height of 300
+
+%Shape: Circle [id:dp5016060929568149] 
+\draw   (108,184) .. controls (108,153.07) and (133.07,128) .. (164,128) .. controls (194.93,128) and (220,153.07) .. (220,184) .. controls (220,214.93) and (194.93,240) .. (164,240) .. controls (133.07,240) and (108,214.93) .. (108,184) -- cycle ;
+%Shape: Circle [id:dp7913851496733558] 
+\draw  [color={rgb, 255:red, 8; green, 8; blue, 8 }  ,draw opacity=1 ][fill={rgb, 255:red, 10; green, 10; blue, 10 }  ,fill opacity=1 ] (146.5,184) .. controls (146.5,174.34) and (154.34,166.5) .. (164,166.5) .. controls (173.66,166.5) and (181.5,174.34) .. (181.5,184) .. controls (181.5,193.66) and (173.66,201.5) .. (164,201.5) .. controls (154.34,201.5) and (146.5,193.66) .. (146.5,184) -- cycle ;
+\end{tikzpicture}
+
+\end{center}
+\vspace{2cm}
+#+end_export
+
+Essa imagem é uma representação do modelo de
+#+begin_choice 
+\choice Rutherford.
+\choice Thomson.
+\choice Dalton.
+\choice Howard Stark  
+\choice Frezza
+#+end_choice   	
+
+#+end_exercise 
+#+begin_solution
+LETRA A
+#+end_solution
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise 
+Para o valor do número quântico principal *n* igual a 4, os tipos de orbitais que podem existir na configuração eletrônica de um átomo podem ser:
+#+begin_choice 
+\choice  s, p, d, f.
+\choice  somente s, p, d.
+\choice  somente p e f.
+\choice somente s e p.
+\choice somente d e f
+#+end_choice
+#+end_exercise
+#+begin_solution
+LETRA A
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+O bombardeamento da folha de ouro com partículas alfa, no experimento de Rutherford, mostra que algumas dessas partículas sofrem desvio acentuado do seu trajeto, o que é devido ao fato de que as partículas alfa:
+#+begin_export latex
+\begin{choice}(1)
+\choice Chocam-se com as moléculas de ouro.
+\choice Têm carga negativa e são repelidas pelo núcleo.
+\choice São muito lentas e qualquer obstáculo as desvia.
+\choice Têm carga positiva e são repelidas pelo núcleo.
+\choice Não podem atravessar a lâmina de ouro.
+\end{choice}
+#+end_export
+#+end_exercise
+#+begin_solution
+LETRA D
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A experiência de Rutherford, que foi, na verdade, realizada por dois de seus orientados, Hans Geiger e Ernest Marsden, serviu para refutar especialmente o modelo atômico:
+#+begin_export latex
+\begin{choice}(2)
+\choice de Bohr.
+\choice de Thomson.
+\choice planetário.
+\choice quântico.
+\choice de Dalton.
+\end{choice}
+#+end_export
+#+end_exercise
+#+begin_solution
+LETRA B
+#+end_solution
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Assinale a afirmativa que descreve ADEQUADAMENTE a teoria atômica de Dalton. Toda matéria é constituída de átomos:
+#+begin_export latex
+\begin{choice}
+\choice os quais são formados por partículas positivas e negativas.
+\choice os quais são formados por um núcleo positivo e por elétrons que gravitam livremente em torno desse núcleo.
+\choice os quais são formados por um núcleo positivo e por elétrons que gravitam em diferentes camadas eletrônicas.
+\choice e todos os átomos de um mesmo elemento são idênticos.
+\choice Nenhuma das alternativas acima.
+\end{choice}
+#+end_export
+#+end_exercise
+#+begin_solution
+LETRA D
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Quem introduziu pela primeira vez o princípio da incerteza?
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice 
+\choice Pauli
+\choice De Broglie
+\choice Dirac
+\choice Schrödinger
+\choice Heisenberg
+#+end_choice 
+#+end_exercise 
+#+begin_solution
+Letra E
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Qual das alternativas a seguir *NÃO* é uma limitação do modelo de Bohr do átomo?
+
+#+begin_choice 
+\choice Os elétrons se movem ao redor do núcleo em órbitas circulares e planas.
+\choice Os elétrons são considerados apenas como partículas e não como ondas.
+\choice É possível determinar com precisão a posição e o momento de um elétron simultaneamente.
+\choice Os elétrons dentro dos átomos só podem ocupar níveis de energia quantizados.
+\choice Ele explica apenas o espectro de emissão de linha do átomo de hidrogênio.
+#+end_choice
+#+end_exercise
+#+begin_solution
+C
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Qual das seguintes afirmações é *verdadeira* sobre um elétron?
+
+#+begin_choice 
+\choice Está localizado mais longe do núcleo quando absorve energia.
+\choice Absorve energia quando se move de um estado de maior energia para o estado fundamental.
+\choice Está localizado no núcleo quando absorve energia.
+\choice Está localizado mais perto do núcleo quando absorve energia.
+\choice Quando libera energia se move para um estado de maior energia
+#+end_choice
+#+end_exercise
+#+begin_solution
+E
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Qual das alternativas a seguir melhor descreve um *elétron*?
+#+begin_choice
+\choice Uma partícula carregada positivamente com uma massa muito menor que a do núcleo
+\choice Uma partícula carregada negativamente com uma massa muito menor que a do núcleo
+\choice Uma partícula carregada positivamente com uma massa muito maior que a do núcleo
+\choice Uma partícula carregada negativamente com uma massa muito maior que a do núcleo
+\choice Partícula neutra com massa igual à do núcleo.
+#+end_choice
+#+end_exercise
+#+begin_solution
+D
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Qual das alternativas a seguir melhor define o *número atômico* ?
+
+#+begin_choice
+\choice O número total de prótons e nêutrons no núcleo de um átomo
+\choice O número de prótons no núcleo de um átomo
+\choice O número de nêutrons no núcleo de um átomo
+\choice O número total de prótons, nêutrons e elétrons em um átomo
+\choice O número de elétrons no núcleo de um átomo
+#+end_choice 
+#+end_exercise
+#+begin_solution
+B
+#+end_solution
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Uma moda recente entre as crianças é colecionar figurinhas que brilham no escuro. As figuras apresentam em sua constituição, a substância sulfeto de zinco. O fenômeno ocorre porque alguns elétrons que compõem os átomos de zinco absorvem energia luminosa, saltando para níveis de energia mais externos. No escuro, esses elétrons retornam aos seus níveis de origem, liberando energia luminosa e fazendo a figurinha brilhar.
+
+Essa característica pode ser explicada considerando o modelo atômico proposto por:
+
+#+begin_choice
+\choice Bohr.
+\choice Rutherford.
+\choice Lavoisier.
+\choice Thomson.
+\choice Dalton.
+#+end_choice 
+
+#+end_exercise
+#+begin_solution
+A
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Qual das imagens a seguir representa melhor o modelo atômico do pudim de passas de Thomson?
+
+
+#+begin_export latex
+\begin{choice}(1)
+\choice \resizebox{.2\textwidth}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\LARGE]
+\draw  (2,12.25) circle (1.75cm);
+\draw  (1,13.25) circle (0.25cm);
+\draw  (2,13.25) circle (0.25cm);
+\draw  (1.5,12) circle (0.25cm);
+\draw  (2.75,12.25) circle (0.25cm);
+\draw  (2.25,11.25) circle (0.25cm);
+\node [font=\LARGE] at (1.5,11) {+};
+\node [font=\LARGE] at (3,13) {+};
+\node [font=\LARGE] at (2.5,11.5) {+};
+\node [font=\LARGE] at (0.75,12.25) {+};
+\node [font=\LARGE] at (2,12.5) {+};
+\node [font=\LARGE] at (2.25,11.25) {-};
+\node [font=\LARGE] at (2.75,12.25) {-};
+\node [font=\LARGE] at (2,13.25) {-};
+\node [font=\LARGE] at (1,13.25) {-};
+\node [font=\LARGE] at (1.5,12) {-};
+\end{circuitikz}
+}%
+
+
+\choice \resizebox{.2\textwidth}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\LARGE]
+\draw [fill={rgb, 255:red, 122; green, 119; blue, 119 }  ,fill opacity=1 ] (2,12.25) circle (1.75cm);
+\end{circuitikz}
+}%
+
+
+
+
+
+
+
+\choice 	\resizebox{0.2\textwidth}{!}{%
+		\begin{circuitikz}
+			\tikzstyle{every node}=[font=\LARGE]
+			\draw  (2,12.25) circle (1.75cm);
+			\draw  (0.75,12.25) circle (0.25cm) node {\LARGE -} ;
+			\draw  (1.5,13.25) circle (0.25cm);
+			\draw  (3,12.5) circle (0.25cm);
+			\draw  (2.25,11) circle (0.25cm) node {\LARGE -} ;
+			\draw  (2,12.25) circle (0.5cm);
+			\node [font=\huge] at (2,12.25) {+};
+			\node [font=\large] at (1.5,13.25) {-};
+			\node [font=\large] at (3,12.5) {-};
+		\end{circuitikz}
+	}%
+
+\choice \resizebox{.2\textwidth}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\LARGE]
+\draw  (2,12.25) circle (1.75cm);
+\draw [ fill={rgb,255:red,192; green,191; blue,188} ] (2,10.5) circle (0.25cm) node {\LARGE -} ;
+\draw [ fill={rgb,255:red,192; green,191; blue,188} ] (0.25,12) circle (0.25cm) node {\LARGE -} ;
+\draw [ fill={rgb,255:red,192; green,191; blue,188} ] (2,14) circle (0.25cm) node {\LARGE -} ;
+\draw [ fill={rgb,255:red,192; green,191; blue,188} ] (3.75,12) circle (0.25cm) node {\LARGE -} ;
+\draw  (2,12.25) circle (0.5cm) node {\LARGE +} ;
+\end{circuitikz}
+}%
+
+
+
+\choice \resizebox{.2\textwidth}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\LARGE]
+\draw  (2,12.25) circle (1.75cm);
+\draw  (2,12.25) circle (0.5cm) node {\LARGE +} ;
+\end{circuitikz}
+}%
+
+\end{choice}
+#+end_export
+#+end_exercise 
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Qual químico descobriu que os elétrons existem em níveis de energia fixos?
+#+begin_choice 
+\choice Bohr
+\choice Thomson
+\choice Dalton
+\choice Geiger e Marsden
+\choice Rutherford
+#+end_choice
+#+end_exercise 
+#+begin_solution
+A
+#+end_solution
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Na experiência de Geiger-Marsden supervisionada por Ernest Rutherford (conhecida como a experiência da folha de ouro de Rutherford), que tipo de partícula foi dispersada por uma folha de ouro, provando que os átomos contêm um núcleo denso?
+
+#+begin_choice
+\choice Raios gama
+\choice Nêutrons
+\choice Partículas $\upbeta^+$
+\choice Partículas $\upbeta^-$
+\choice Partículas $\upalpha$
+#+end_choice
+#+end_exercise 
+
+#+begin_solution
+E
+#+end_solution
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Qual é a principal força atrativa entre partículas no núcleo de um átomo?
+
+#+begin_choice
+\choice Gravidade
+\choice Forca eletrostática
+\choice Força nuclear forte
+\choice Força nuclear fraca
+\choice Força eletromagnética
+#+end_choice 
+#+end_exercise 
+#+begin_solution
+C
+#+end_solution
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Que passo em frente, a partir do modelo atômico das orbitais de Bohr, foi dado por Schrödinger no seu modelo da nuvem eletrónica?
+
+#+begin_choice
+\choice O núcleo contém partículas com massa mas sem carga.
+\choice Os elétrons ocupam níveis de energia com raios fixos.
+\choice O núcleo contém partículas com massa e carga positiva.
+\choice Os elétrons movem-se dentro de uma esfera positivamente carregada.
+\choice Os elétrons estão dispersos no espaço.
+#+end_choice
+#+end_exercise 
+#+begin_solution
+E
+#+end_solution
+
+
+ #+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Em que é que o modelo atômico de Thomson é diferentes do modelo atômico de Dalton?
+
+#+begin_choice 
+\choice O modelo atômico de Thomson inclui partículas com carga negativa conhecidas como elétrons
+\choice O modelo atômico de Thomson mostra elétrons a ocupar os vértices de um cubo.
+\choice O modelo atômico de Thomson inclui partículas com carga positiva conhecidas como prótons
+\choice O modelo atômico de Thomson descreve elétrons a orbitar um núcleo central.
+\choice O modelo atômico de Thomson mostra elétrons a ocupar diferentes níveis de energia.
+#+end_choice 
+#+end_exercise 
+#+begin_solution
+A
+#+end_solution
+
+
+
+\collectexercisesstop{TeoriaAtomica}

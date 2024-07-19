@@ -1,0 +1,115 @@
+
+
+cOMMENT
+
+
+
+#+INCLUDE: "Adaptadas/Adaptadas.org"
+
+\printrandomexercises[collection=Adaptadas-Eletroquimica]{4}\
+
+
+
+
+INCLUDE: "Fisico_Quimica/Nox.org"
+
+\printrandomexercises[collection=Nox]{3}
+
+
+#+INCLUDE: "Quimica_Organica/FuncoesOxigenadas.org"
+
+
+
+
+\printrandomexercises[collection=FuncoesOxigenadas3]{3}
+\printrandomexercises[collection=FuncoesNitrogenadas]{7}
+
+
+
+
+Numero da Mega
+
+8, 24, 25, 56, 11
+
+
+
+
+
+
+\printcollection{FuncoesOxigenadas2}
+
+
+
+
+
+https://github.com/gicrisf/tochemfig
+
+
+https://principlesofchemistryopencourse.pressbooks.tru.ca/chapter/5-4/
+
+https://www.nagwa.com/pt/worksheets/168104503495/8/
+
+https://grade12uchemistry.weebly.com/expectations-and-big-ideas.html
+
+#+END_COMMENT
+
+
+
+
+
+#+INCLUDE: "Questoes/Quimica_Geral.org"
+#+LATEX: \printrandomexercises[collection=Misturas]{10}
+#+LATEX: %\printrandomexercises[collection=TeoriaAtomica,exclude=one]{10}
+
+
+#+INCLUDE: "Questoes/Fisico_Quimica.org"
+#+LATEX: \printrandomexercises[collection=Mol,exclude=three]{5}
+#+LATEX: \printrandomexercises[collection=Balan,exclude=two]{5}
+
+
+
+#+LATEX: \begin{multicols}{2}
+#+INCLUDE: "Questoes/Quimica_Organica.org"
+#+LATEX: \printrandomexercises[collection=Organica,exclude=two]{7}
+#+LATEX: \end{multicols}
+
+
+
+#+INCLUDE: "Listas/2Ano.org"
+#+LATEX: \printrandomexercises[collection=ListaMoleMassa]{5}
+#+LATEX: \printrandomexercises[collection=ListaBalan]{5}
+
+
+#+INCLUDE: "Listas/3Ano.org"
+
+
+
+#+LATEX: \printrandomexercises[collection=ListaOrganica,exclude=two]{6}
+
+
+
+#+ATTR_LATEX: :options {2}
+#+begin_multicols
+
+#+LATEX: \printcollection{ListaOrganica}
+#+end_multicols
+
+
+@@latex: \section*{Atividade -  1\textsuperscript{0} Bimestre - 1 Ano} @@
+
+
+#+INCLUDE: "QG/AULA02.org"
+
+
+
+#+INCLUDE: "QG/AULA02.org"
+
+#+LATEX: \begin{multicols}{2}
+@@latex: \section{Exercícios}@@
+
+#+INCLUDE: "Listas/Lista1-1Ano.org"
+#+LATEX: \printcollection{ListaTabela}
+#+LATEX: %\printrandomexercises[collection=,exclude=one]{8}
+
+#+LATEX: \end{multicols}
+ta

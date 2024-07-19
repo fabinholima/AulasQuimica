@@ -1,0 +1,14 @@
+#+LATEX_HEADER: \DeclareExerciseCollection{PropriedadesMateria}
+
+
+
+#+BEGIN_COMMENT
+
+=============== Propriedades da Materia ===================================
+
+#+END_COMMENT
+
+
+
+
+#+ATTR_LATEX: :options [points=1]

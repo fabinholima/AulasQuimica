@@ -1,0 +1,183 @@
+
+#+OPTIONS: H:2 toc:nil num:t
+#+LATEX_CLASS:koma-article
+#+LATEX_CLASS_OPTIONS: [10pt]
+#+INCLUDE: "packages.org"
+
+
+#+LATEX_HEADER: \newcommand{\lh}{\underline{\hspace{1cm}}}
+#+LATEX_HEADER: %%\onehalfspacing
+#+LATEX_HEADER: \def\professor{Fábio Lima}
+#+LATEX_HEADER: \def\aluno{ ARIEL DA MATA FRANCO }
+#+LATEX_HEADER: \def\numerochamada{05}
+#+LATEX_HEADER: \def\disciplina{Química}
+#+LATEX_HEADER: %%\def\disciplina{UC3}
+#+LATEX_HEADER: %%\def\disciplina{R.A.}
+#+LATEX_HEADER: \def\turma{3 Ano }
+#+LATEX_HEADER: \def\tipo{{\bfseries Avaliação Bimestral}}
+#+LATEX_HEADER: %\def\tipo{\bfseries Atividade}
+#+LATEX_HEADER: %%\def\tipo{\bfseries Exame Final}
+#+LATEX_HEADER: \def\bimestre{2 Bimestre}
+#+LATEX_HEADER: %\def\escola{E.E. 26 de Agosto}
+#+LATEX_HEADER: %\def\escola{E.E. José Mamede de Aquino}
+#+LATEX_HEADER: \def\escola{E.E. Amélio de Carvalho Baís}
+#+LATEX_HEADER: \def\dataprova{}
+
+
+#+begin_export latex
+\twocolumn[
+\input{../Modelos/CabeOficial}
+%%\input{../Modelos/cabenovo}
+%%%\input{../Modelos/mamede}
+%\input{../Modelos/26agosto}
+%% \input{../Modelos/geral}
+%Cada questão vale {\textbf 2,0}
+
+%%\section*{Regime de Progressão Parcial}
+%\section*{Atividade}
+%%%\section*{Trabalho}
+%%\section*{\disciplina}
+
+
+
+\input{../Modelos/gabarito}
+
+%Total Prova: \printpoints
+\smallbreak
+\medbreak
+\par\vspace{2ex}]%%%%\input{../Modelos/mamede}
+#+end_export
+
+
+
+
+
+
+#+begin_comment
+
+
+
+
+
+
+#+INCLUDE: "Fisico_Quimica/EquilibrioQuimico/Equilibrio_QuimicoI.org"
+#+INCLUDE: "Fisico_Quimica/EquilibrioQuimico/Equilibrio_IonicoII.org"
+#+INCLUDE: "Fisico_Quimica/EquilibrioQuimico/Equilibrio_IonicoIII.org"
+
+ 
+ \printrandomexercises[collection=EquilibrioQuimicoI,exclude=3]{1}
+ \printrandomexercises[collection=EquilibrioIonicoII,exclude=3]{5}
+ \printrandomexercises[collection=EquilibrioIonicoIII,exclude=3]{4}
+ 
+
+
+
+
+
+#+INCLUDE: "Quimica_Geral/LigacoesQuimicas/LigacaoQuimicaI.org"
+#+INCLUDE: "Quimica_Geral/GeometriaMolecular/GeometriaMolecular.org"
+#+INCLUDE: "Quimica_Geral/LeisPonderais/FormulaMinima.org"
+
+
+
+
+#+begin_export latex
+\printrandomexercises[collection=GeometriaMolecular,exclude=1]{3}
+\printrandomexercises[collection=Polaridade]{2} 
+\printrandomexercises[collection=LigacaoQuimica,exclude=3]{4} 
+\printrandomexercises[collection=FormulaMinima,exclude=1]{1} 
+%\printrandomexercises[collection=FormulaMinima-Open]{1} 
+
+#+end_export
+
+
+
+
+
+
+
+
+
+#+INCLUDE: "Fisico_Quimica/Eletroquimica/Nox.org"
+#+INCLUDE: "Fisico_Quimica/Eletroquimica/Eletroquimica.org"
+#+INCLUDE: "Fisico_Quimica/Eletroquimica/BalanceamentoRedox.org"
+
+
+#+begin_export latex
+
+\printrandomexercises[collection=Nox,exclude=2]{4} 
+\printrandomexercises[collection=OxidoReducao,exclude=3]{5} 
+\printrandomexercises[collection=BalanceamentoRedox,exclude=1]{1} 
+
+#+end_export
+
+
+
+
+ 
+
+
+\printsolutions[headings=true,headings-template=solution]
+
+
+
+#+INCLUDE: "Fisico_Quimica/EquilibrioQuimico/Equilibrio_QuimicoI.org"
+#+INCLUDE: "Fisico_Quimica/EquilibrioQuimico/Equilibrio_IonicoII.org"
+#+INCLUDE: "Fisico_Quimica/EquilibrioQuimico/Equilibrio_IonicoIII.org"
+
+ 
+ \printrandomexercises[collection=EquilibrioQuimicoI]{1}
+ \printrandomexercises[collection=EquilibrioIonicoII]{5}
+ \printrandomexercises[collection=EquilibrioIonicoIII]{4}
+
+
+\printcollection{EquilibrioIonicoII}
+
+#+INCLUDE: "Quimica_Geral/ModelosAtomicos/TeoriaAtomica.org"
+
+
+ \printrandomexercises[collection=TeoriaAtomica]{10}
+
+
+
+ #+INCLUDE: "Fisico_Quimica/EquilibrioQuimico/Equilibrio_IonicoIII.org"
+
+#+INCLUDE: "Lista/Eletroquimica/BalanceamentoRedox.org"
+
+
+
+#+begin_export latex
+\section{Realize o balanceamento das reações redox}
+#+end_export
+
+\printcollection{BalanceamentoRedoxI}
+
+\newpage
+
+#+begin_export latex
+\section{Equilibre cada reação redox em solução ácida.}
+#+end_export
+
+
+\printcollection{BalanceamentoRedoxII}
+
+\newpage
+
+#+begin_export latex
+
+\section{Equilibre cada reação redox em solução básica.}
+#+end_export
+
+
+\printcollection{BalanceamentoRedoxIII}
+
+
+
+
+
+
+\printsolutions[headings=true,headings-template=solution]
+
+
+
+#+end_comment

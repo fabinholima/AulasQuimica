@@ -1,0 +1,432 @@
+#+LATEX_HEADER: \DeclareExerciseCollection{Reciclagem}
+#+LATEX_HEADER: \DeclareExerciseCollection{UC3}
+#+LATEX_HEADER: \DeclareExerciseCollection{Food}
+
+
+\collectexercises{Reciclagem}
+
+#+begin_exercise
+Quais dos seguintes pontos são vantagens da reciclagem de plásticos à base de petróleo?
+
+1. As fontes naturais de petróleo bruto são conservadas.
+2. A energia é necessária para reciclar o plástico durante o derretimento e a remodelagem.
+3. Os plásticos vêm em muitos tipos e formas e exigem classificação antes da reciclagem.
+4. A qualidade do plástico é reduzida a cada vez que ele é reciclado.
+5. Quantidades reduzidas de resíduos são enviadas para aterro.
+
+#+begin_choice
+\choice 5 somente
+\choice 2 e 5
+\choice 1 e 5
+\choice 1 e 4
+\choice 1, 3, e 5
+#+end_choice 
+#+end_exercise
+#+begin_solution
+#+end_solution
+
+
+
+
+#+begin_exercise
+É considerado melhor reciclar peças de aço para automóveis do que reutilizá-las ou enviá-las para aterros sanitários.
+Qual das opções seguintes não explica porque é esse o caso?
+
+#+begin_choice
+\choice As peças do carro podem ficar mais fracas se o metal se desgastar nas peças mais antigas.
+\choice As peças do carro podem ser perigosas se forem danificadas.
+\choice A reciclagem cria mais poluição do que a fabricação de novas peças.
+\choice As peças do carro podem ser corroídas se a tinta ou o revestimento protetor se desgastarem.
+\choice A quantidade de espaço em aterros é limitada.
+#+end_choice
+#+end_exercise 
+#+begin_solution
+#+end_solution
+
+
+
+
+#+begin_exercise 
+Qual das seguintes maneiras de lidar com os resíduos de sacolas plásticas tem maior probabilidade de causar o menor impacto negativo no meio ambiente?
+
+#+begin_choice
+\choice  Reciclando sacolas plásticas
+\choice  Reutilizando sacolas plásticas
+\choice  Incinerando sacolas plásticas
+\choice Derretendo e remodelando o plástico
+\choice Envio de sacolas plásticas para um aterro sanitário
+#+end_choice
+#+end_exercise 
+#+begin_solution
+#+end_solution
+
+
+
+#+begin_exercise
+Qual dos pontos a seguir é uma desvantagem da reciclagem de metais?
+
+#+begin_choice
+\choice  Ele evita que resíduos de metal encham os aterros sanitários.
+\choice Ele economiza recursos naturais de minério de metal.
+\choice Economiza energia durante o refinamento dos metais.
+\choice A fadiga do metal ocorre após vários usos.
+\choice Reduz a poluição durante a produção e processamento de metais.
+#+end_choice
+#+end_exercise
+#+begin_solution
+#+end_solution
+
+#+BEGIN_COMMENT
+
+*Figura para as Questões 5 e 6*
+
+
+[[../UCS/dia.png]]
+
+#+END_COMMENT
+
+#+begin_exercise
+Qual dos seguintes passos na avaliação do ciclo de vida apresentado reduz o impacto ambiental do uso de bens em aço?
+
+#+begin_choice
+\choice (H)
+\choice (D), (E) e (H)
+\choice (D) e (E)
+\choice (G) e (H)
+\choice (B) e (C)
+#+end_choice 
+#+end_exercise 
+#+begin_solution
+#+end_solution 
+
+
+#+begin_exercise
+O diagrama mostra o ciclo de vida do fabrico de bens em aço.
+Qual das seguintes não é uma razão porque o aço deverá ser reciclado no seu fim de vida e não enviado para um aterro?
+
+
+#+begin_choice 
+\choice  Para conservar o fornecimento de minérios de ferro
+\choice  Para reduzir a quantidade de resíduos enviados para os aterros
+\choice  Para limitar a quantidade de exploração mineira que ocorre durante a extração mineira
+\choice  Para reduzir a quantidade de produzido pela extração e pelo transporte
+\choice Para reduzir a necessidade das pessoas reutilizarem o aço
+#+end_choice 
+#+end_exercise
+#+begin_solution
+#+end_solution 
+
+
+#+begin_exercise
+O que é coleta seletiva?
+
+#+begin_choice
+\choice  Processo de separação e recolhimento dos resíduos para o reaproveitamento por meio da reciclagem. 
+\choice  Destinação de resíduos para lixões e aterros.
+\choice Processo de envio de todo lixo produzido para cooperativas ou entrega para catadores de rua.
+\choice A escolha do melhor “lixo” produzido.
+\choice O próprio usuário decide o que fazer.
+#+end_choice
+#+end_exercise 
+
+
+\collectexercisesstop{Reciclagem}
+
+
+\collectexercises{Food}
+
+#+begin_exercise
+Como a energia flui através de uma cadeia alimentar?
+#+begin_choice
+\choice Do produtor ao consumidor e depois reciclado pelo decompositor
+\choice Do consumidor ao produtor e depois reciclado pelo decompositor
+\choice Do produtor ao decompositor e depois reciclado pelo consumidor
+\choice Do decompositor ao consumidor e depois reciclado pelo produtor.
+#+end_choice 
+#+end_exercise
+#+begin_solution
+A
+#+end_solution 
+
+
+#+begin_exercise
+Insetos que se alimentam de plantas são considerados
+#+begin_choice
+\choice Catadores
+\choice Consumidores
+\choice Produtores
+\choice Decompositores
+#+end_choice 
+#+end_exercise
+#+begin_solution
+B
+#+end_solution
+
+
+
+#+begin_exercise
+Se não houver __________ no ecossistema, organismos mortos se acumulariam como o lixo em um aterro sanitário.
+
+#+begin_choice 
+\choice Predadores
+\choice Decompositores
+\choice Produtores
+\choice Consumidores
+#+end_choice 
+#+end_exercise
+#+begin_solution
+B
+#+end_solution
+
+
+
+
+
+#+begin_exercise
+Como a secagem de alimentos mata os micróbios?
+#+begin_choice 
+\choice não sei 
+\choice Por depender de temperaturas frias para diminuir sua taxa de crescimento
+\choice Usando muito calor para matá-los
+\choice Ao se livrar de sua fonte de água
+#+end_choice 
+#+end_exercise
+#+begin_solution
+D
+#+end_solution
+
+
+
+
+#+begin_exercise
+Por que o enlatamento é um método tão eficaz de matar micróbios?
+#+begin_choice 
+\choice Isso não é verdade, enlatar não é muito bom para matar micróbios
+\choice O enlatamento quase sempre usa um teor de sal muito alto para matar os micróbios
+\choice Congelamento congela micróbios até a morte
+\choice O enlatamento usa calor muito alto para matar micróbios
+#+end_choice
+#+end_exercise
+#+begin_solution
+B
+#+end_solution
+
+
+
+
+
+#+begin_exercise
+Qual das seguintes afirmações sobre o congelamento de alimentos está *INCORRETA*?
+
+#+begin_choice
+\choice O congelamento é uma maneira melhor de preservar os alimentos a longo prazo quando comparado à refrigeração.
+\choice O congelamento é um método mais eficaz de matar os conservantes em nossos alimentos quando comparado ao cozimento completo dos alimentos.
+\choice O congelamento ajuda a diminuir a taxa de crescimento de micróbios
+\choice O congelamento mata todos os micróbios dos alimentos devido às baixas temperaturas
+#+end_choice 
+
+#+end_exercise
+#+begin_solution
+D
+#+end_solution
+
+
+
+
+#+begin_exercise
+Qual *NÃO* é uma razão para conservar alimentos?
+
+#+begin_choice
+\choice Evite o desperdício
+\choice Mantém o seu valor nutritivo e torna a preparação dos alimentos mais fácil e rápida
+\choice Aumentar o preço de um produto
+\choice Evitar fácil contaminação
+#+end_choice 
+#+end_exercise
+#+begin_solution
+B
+#+end_solution
+
+
+
+#+begin_exercise
+Por que a desidratação é uma boa maneira de conservar os alimentos?
+
+#+begin_choice
+\choice As bactérias não podem sobreviver em condições de baixa umidade
+\choice A secagem dos alimentos torna-os duros para que durem mais tempo
+\choice A secagem dos alimentos destrói as enzimas que fazem com que os alimentos fiquem marrons
+\choice Para produzir um novo sabor no alimento.
+#+end_choice
+#+end_exercise
+#+begin_solution
+A
+#+end_solution
+
+
+#+begin_exercise
+Onde devem ser armazenados os alimentos secos?
+
+#+begin_choice 
+\choice Na geladeira
+\choice Em um recipiente hermético
+\choice no congelador
+\choice na despensa
+#+end_choice
+#+end_exercise
+#+begin_solution
+B
+#+end_solution 
+
+
+
+#+begin_exercise
+A adição de quais ingredientes reduz a umidade dos alimentos?
+
+#+begin_choice 
+\choice sal e fumaça
+\choice fumaça e açúcar
+\choice Sal e fumaça
+\choice Açúcar e sal
+#+end_choice 
+#+end_exercise
+#+begin_solution
+D
+#+end_solution
+
+
+
+
+
+#+begin_exercise
+Qual dos seguintes alimentos NÃO usa níveis de umidade para controlar o crescimento microbiano?
+
+#+begin_choice 
+\choice Carne seca
+\choice Ervilhas congeladas
+\choice Geléia de damasco
+\choice Carne enlatada
+#+end_choice 
+#+end_exercise
+#+begin_solution
+B
+#+end_solution
+
+
+
+
+
+#+begin_exercise
+Qual dos seguintes é um conservante químico?
+
+#+begin_choice 
+\choice Nitrato de potássio
+\choice ácido potássico
+\choice Bicarbonato de Sódio
+\choice bicarbonato nítrico
+#+end_choice
+#+end_exercise
+#+begin_solution
+A
+#+end_solution
+
+
+
+#+begin_exercise
+Alimentos defumados usam dois métodos de preservação de alimentos. Eles são:
+
+#+begin_choice 
+\choice Modificando os níveis de umidade, temperatura
+\choice Adição de Produtos Químicos, Temperatura
+\choice Modificando os níveis de umidade; Adição de produtos químicos
+\choice Secagem e congelamento 
+#+end_choice 
+#+end_exercise
+#+begin_solution
+A
+#+end_solution
+
+
+
+
+#+begin_exercise
+*Enlatamento*
+
+#+begin_choice 
+\choice Bloqueia seus sentimentos e é ruim para sua saúde emocional
+\choice preserva os alimentos aquecendo-os em um recipiente
+\choice preserva os alimentos resfriando-os em um recipiente
+\choice Pode causar o surgimento de bactérias
+#+end_choice 
+#+end_exercise
+#+begin_solution
+B
+#+end_solution
+
+
+#+begin_exercise
+A adição de vinagre para conservar alimentos é conhecida como:
+
+#+begin_choice 
+\choice Decapagem
+\choice Salga
+\choice Fermentando
+\choice Branqueamento
+#+end_choice 
+#+end_exercise
+#+begin_solution
+A
+#+end_solution
+
+
+#+begin_exercise
+Qual dos seguintes métodos remove o oxigênio?
+
+#+begin_choice 
+\choice Engarrafamento
+\choice Tirar o ar das salsichas antes de as congelar
+\choice Embalagem a vácuo
+\choice Todas as respostas
+#+end_choice 
+#+end_exercise 
+#+begin_solution
+D
+#+end_solution
+
+
+#+begin_exercise
+Aqui está a lista de ingredientes para Tomate Relish:
+
+#+begin_export latex
+\begin{Box2}{Receita}
+400 g de tomate picado e pelado\\
+2 cebolas grandes \\
+$\sfrac{1}{2}$ xícara de açúcar mascavo\\
+$\sfrac{3}{4}$ xícara de vinagre de malte\\
+2 colheres de chá de farinha de milho\\
+1 colher de chá de caril em pó\\
+pitada de pimenta caiena\\
+1 colher de chá de mostarda em pó\\
+1 colher de chá de sal\\
+\end{Box2}
+#+end_export
+Quais ingredientes estão preservando este alimento?
+
+#+begin_choice
+\choice Cebola; Açúcar; Vinagre
+\choice Caril em pó; Pimenta-caiena; mostarda em pó
+\choice Açúcar mascavo; Sal; mostarda em pó
+\choice Açúcar mascavo; Vinagre de Malte; Sal
+#+end_choice 
+#+end_exercise
+#+begin_solution
+D
+#+end_solution
+
+
+
+
+
+
+
+\collectexercisesstop{Food}

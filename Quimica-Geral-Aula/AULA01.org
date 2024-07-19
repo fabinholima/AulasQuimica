@@ -1,0 +1,266 @@
+
+* Substância  Pura
+
+É todo material com as seguintes características: 
+- Unidades estruturais (moléculas, conjuntos iônicos) quimicamente iguais entre si. 
+- Composição fixa, do que decorrem propriedades fixas, como densidade, ponto de fusão e de ebulição, etc. 
+- A temperatura se mantém inalterada desde o início até o fim de todas as suas mudanças de estado físico (fusão, ebulição, solidificação, etc.). 
+- Pode ser representada por um fórmula porque tem composição fixa. 
+- Não conserva as propriedades de seus elementos constituintes, no caso de ser substância pura composta. 
+
+
+
+* Misturas Comuns
+
+É qualquer sistema formado de duas ou mais substâncias puras, denominadas componentes. As misturas não apresentam nenhuma das características das substâncias puras. Essas são as diferenças entre as misturas e as combinações químicas (substâncias puras compostas) Pode ser homogênea ou heterogênea, conforme apresente ou não as mesmas propriedades em qualquer parte de sua extensão em que seja examinada. 
+Toda mistura homogênea é uma solução, por definição. 
+Uma das formas de diferenciação das substâncias puras e das misturas é através da temperatura, durante as mudanças de estado físico.
+As substâncias puras apresentam os pontos de fusão e ebulição constantes e aparecem no gráfico como uma linha horizontal, chamada de patamar.
+
+#+begin_export latex
+\begin{figure}[H]
+ \begin{tikzpicture}
+ \begin{axis}[
+   line width=1.3pt,
+    %ticks=none,
+    axis x line=bottom,
+    axis y line=left,
+ %    axis lines = left,
+     xlabel = {\large  Tempo / min},
+     ylabel = {\large  Temperatura \textsuperscript{o}C},
+     xmin=-30, xmax=450,
+     ymin=-50, ymax=150,
+%     xtick={0,50,100, 150,500},
+  %   ytick={0,20,40,60,80,100},
+ ]
+
+ \addplot [
+   line width=1.5pt,
+     domain=-10:10, 
+     samples=100, 
+     color=black,
+     ]
+     coordinates {
+     (0,-40)(40,0)(40,0)(200,0)(300,100)(400,100)(450,150)
+     };
+\node[above,rotate=60] at (15,-20) {sólido};
+\node[above,rotate=0] at (110,1) {s + \(\ell\)};
+\node[above,rotate=60] at (260,55) {líquido};
+\node[above,rotate=0] at (350,100) {\(\ell\) + g};
+\node[above,rotate=60] at (420,125) {gás};
+ \addplot [thick,dashed] coordinates {(-30,100) (400,100)};
+ \addplot [thick,dashed] coordinates {(-30,0) (40,0)};
+ \end{axis}
+ \end{tikzpicture}
+
+ \caption{Diagrama de fase para uma substância pura}
+ \label{Fig:Fase1}
+\end{figure}
+#+end_export
+
+
+As misturas comuns não apresentam esses patamares, ou seja, a temperatura de fusão e de ebulição variam durante a mudança de estado físico da substância.
+
+
+#+begin_export latex
+\begin{figure}[H]
+\begin{tikzpicture}
+ \begin{axis}[
+%    axis lines=middle,
+%    axis line style={->},
+    x label style={at={(axis description cs:0.9,-0.05)},anchor=north},
+    y label style={at={(axis description cs:0.03,1)},rotate=-90,anchor=south},line width=1.3pt,
+    ticks=none,
+    axis x line=bottom,
+    axis y line=left,
+ %    axis lines = left,
+     xlabel = {\large  tempo},
+     ylabel = {\large  T \textsuperscript{o}C},
+     xmin=-30, xmax=450,
+     ymin=-50, ymax=150,
+%     xtick={0,50,100, 150,500},
+  %   ytick={0,20,40,60,80,100},
+ ]
+
+ \addplot [
+   line width=1.5pt,
+     domain=-10:10, 
+     samples=100, 
+     color=black,
+     ]
+     coordinates {
+     (0,-40)(40,0)(40,0)(200,20)(300,100)(400,120)(450,150)
+     };
+\node[above,rotate=60] at (15,-20) {s};
+\node[above,rotate=0] at (80,4) {s + \(\ell\)};
+\node[above,rotate=60] at (170,55) {\(\ell\)};
+\node[above,rotate=0] at (200,100) {\(\ell\) + g};
+\node[above,rotate=60] at (410,135) {g};
+ \addplot [thick,dashed] coordinates {(-30,100) (300,100)};
+ \addplot [thick,dashed] coordinates {(-30,120) (400,120)};
+ \addplot [thick,dashed] coordinates {(-30,0) (40,0)};
+ \addplot [thick,dashed] coordinates {(-30,20) (200,20)};
+
+ \end{axis}
+\node[rotate=0] at (-0.5, 4.7) {\(\Delta\)T};
+\node[rotate=0] at (-0.5, 1.7) {\(\Delta\)T};
+\node[rotate=90] at (-1.5, 4.7) {Ebulição};
+\node[rotate=90] at (-1.4, 1.7) {Fusão};
+ \end{tikzpicture}
+ \caption{Diagrama de fase para uma mistura}
+ \label{Fig:Fase2}
+\end{figure}
+#+end_export
+
+* Substâncias simples
+
+São formadas pela combinação de átomos de um único elemento químico, como por exemplo, o gás hidrogênio formado por dois átomos de hidrogênio ligados entre si; o ozônio formado por três átomos de oxigênio.
+
+#+begin_export latex
+\begin{center}
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,300); %set diagram left start at 0, and has height of 300
+
+%Shape: Circle [id:dp5557029254383685] 
+\draw   (110,112.5) .. controls (110,103.94) and (116.94,97) .. (125.5,97) .. controls (134.06,97) and (141,103.94) .. (141,112.5) .. controls (141,121.06) and (134.06,128) .. (125.5,128) .. controls (116.94,128) and (110,121.06) .. (110,112.5) -- cycle ;
+%Shape: Circle [id:dp626161101161421] 
+\draw   (130,133.5) .. controls (130,124.94) and (136.94,118) .. (145.5,118) .. controls (154.06,118) and (161,124.94) .. (161,133.5) .. controls (161,142.06) and (154.06,149) .. (145.5,149) .. controls (136.94,149) and (130,142.06) .. (130,133.5) -- cycle ;
+%Shape: Circle [id:dp3842463790260068] 
+\draw  [fill={rgb, 255:red, 180; green, 170; blue, 170 }  ,fill opacity=1 ] (227,106.5) .. controls (227,97.94) and (233.94,91) .. (242.5,91) .. controls (251.06,91) and (258,97.94) .. (258,106.5) .. controls (258,115.06) and (251.06,122) .. (242.5,122) .. controls (233.94,122) and (227,115.06) .. (227,106.5) -- cycle ;
+%Shape: Circle [id:dp23953542285444807] 
+\draw  [fill={rgb, 255:red, 180; green, 170; blue, 170 }  ,fill opacity=1 ] (227,106.5) .. controls (227,97.94) and (233.94,91) .. (242.5,91) .. controls (251.06,91) and (258,97.94) .. (258,106.5) .. controls (258,115.06) and (251.06,122) .. (242.5,122) .. controls (233.94,122) and (227,115.06) .. (227,106.5) -- cycle ;
+%Shape: Circle [id:dp8077366619646994] 
+\draw  [fill={rgb, 255:red, 180; green, 170; blue, 170 }  ,fill opacity=1 ] (257,109.5) .. controls (257,100.94) and (263.94,94) .. (272.5,94) .. controls (281.06,94) and (288,100.94) .. (288,109.5) .. controls (288,118.06) and (281.06,125) .. (272.5,125) .. controls (263.94,125) and (257,118.06) .. (257,109.5) -- cycle ;
+%Shape: Circle [id:dp48383551447269235] 
+\draw  [fill={rgb, 255:red, 180; green, 170; blue, 170 }  ,fill opacity=1 ] (240,132.5) .. controls (240,123.94) and (246.94,117) .. (255.5,117) .. controls (264.06,117) and (271,123.94) .. (271,132.5) .. controls (271,141.06) and (264.06,148) .. (255.5,148) .. controls (246.94,148) and (240,141.06) .. (240,132.5) -- cycle ;
+
+\end{tikzpicture}
+\end{center}
+#+end_export
+
+
+* Substância composta
+
+são formadas pela combinação de átomos de dois ou mais elementos químicos diferentes, como por exemplo a água formada por dois átomos de hidrogênio
+
+
+#+begin_export latex
+\begin{center}
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,300); %set diagram left start at 0, and has height of 300
+
+%Shape: Circle [id:dp5557029254383685] 
+\draw   (287,136.5) .. controls (287,127.94) and (293.94,121) .. (302.5,121) .. controls (311.06,121) and (318,127.94) .. (318,136.5) .. controls (318,145.06) and (311.06,152) .. (302.5,152) .. controls (293.94,152) and (287,145.06) .. (287,136.5) -- cycle ;
+%Shape: Circle [id:dp626161101161421] 
+\draw   (207,137.5) .. controls (207,128.94) and (213.94,122) .. (222.5,122) .. controls (231.06,122) and (238,128.94) .. (238,137.5) .. controls (238,146.06) and (231.06,153) .. (222.5,153) .. controls (213.94,153) and (207,146.06) .. (207,137.5) -- cycle ;
+%Shape: Circle [id:dp8077366619646994] 
+\draw  [fill={rgb, 255:red, 180; green, 170; blue, 170 }  ,fill opacity=1 ] (236,122) .. controls (236,107.09) and (248.09,95) .. (263,95) .. controls (277.91,95) and (290,107.09) .. (290,122) .. controls (290,136.91) and (277.91,149) .. (263,149) .. controls (248.09,149) and (236,136.91) .. (236,122) -- cycle ;
+
+\end{tikzpicture}
+\end{center}
+#+end_export
+
+
+* Mistura eutética
+
+são misturas sólidas que se comportam como se fossem substâncias puras no processo de fusão, isto é, a temperatura mantém-se inalterada do início até o  fim da fusão mas o seu ponto de ebulição não se mantém constante.
+
+* Mistura azeotrópica
+
+são misturas líquidas que se comportam como se fossem substâncias puras em relação à ebulição, isto é, a temperatura mantém-se inalterada do início ao fim da ebulição e o seu ponto de fusão é variável.
+
+
+
+* TIPOS DE MISTURAS
+
+** Mistura homogênea
+
+Sistema formado por duas ou mais substâncias, cujas propriedades físicas (ponto de fusão (PF), ponto de ebulição (PE) e densidade(ρ)) permanecem constantes, qualquer que seja a amostra retirada para identificação.
+Apresentam apenas uma fase (monofásico).
+
+Ex: água e álcool, água do mar
+#+begin_export latex
+\begin{center}
+	\psset{unit=1.0cm,glassType=becher}\pstTubeEssais
+\end{center}
+#+end_export
+
+** Mistura heterogênea
+
+Sistema formado por duas ou mais substâncias, cujas propriedades (PF, PE e densidade) variam, dependendo da região que a amostra foi retirada. Apresentam duas ou mais fases (bifásico, trifásico, etc).
+
+Ex: água + óleo
+
+#+begin_export latex
+\begin{center}
+\pstTubeEssais[solide={\pstTournureCuivre[50]}]
+\pstEprouvette[unit=0.6cm,niveauLiquide1=100,niveauLiquide2=60,]
+\end{center}
+
+#+end_export
+
+** Fase
+
+É cada porção homogênea (contínua ou não) de uma mistura heterogênea limitadas por superfícies de separação,
+
+
+* Métodos de separação de misturas
+
+A natureza apresenta diversas substâncias importantes para o dia a dia do ser humano. Porém, a grande maioria dessas substâncias encontra-se na forma de misturas homogêneas ou heterogêneas.
+
+Por essa razão, ao longo dos anos, várias técnicas de separação de misturas foram desenvolvidas para que fosse possível a utilização de toda e qualquer substância, possibilitando ainda o conhecimento do seu comportamento físico-químico, o que ampliou ainda mais o uso de diversas substâncias.
+
+De uma forma geral, os métodos de separação de misturas baseiam-se em conhecimentos fundamentais, como as propriedades da matéria, o número de fases (aspectos visuais), o coeficiente de solubilidade, o tamanho das partículas dos sólidos presentes, a miscibilidade (capacidade de dissolver) entre os componentes, a classificação das misturas (se homogêneas ou heterogêneas), a cor dos materiais etc.
+
+Conheça os principais métodos de separação de misturas:
+
+* Métodos de separação utilizados em misturas heterogêneas
+
+- Catação :: Utilizamos as mãos ou um instrumento (pinça, pegador etc.) para pegar (catar) um sólido na mistura. Baseia-se na diferença de cor e tamanho dos componentes. Um exemplo de mistura para aplicá-la é feijões e pedras.
+- Levigação :: Utiliza a força da água para separar o componente menos denso de uma mistura formada por sólidos. Um exemplo de mistura para aplicá-la é ouro e cascalho.
+- Decantação :: A decantação é a separação entre substâncias que apresentam densidades diferentes. Ela pode ser realizar entre líquido-sólido e líquido-líquido.
+No caso, o sólido deve ser mais denso que o líquido. O sólido ficará depositado no fundo do recipiente. Para esse processo, é utilizado o funil de decantação.
+
+Exemplo: separação de água e areia ou separar água de um líquido menos denso, como o óleo.
+
+- Ventilação :: Utiliza a força do vento para separar o componente menos denso de uma mistura formada por sólidos. Um exemplo de mistura para aplicá-la é grãos de amendoim e suas cascas.
+
+- Flotação :: Método no qual um líquido, que não é capaz de dissolver nenhum dos componentes da mistura, é adicionado a uma mistura formada por dois sólidos ou um sólido e um líquido para separá-los pela diferença de densidade. Um exemplo de mistura para aplicá-la é areia e óleo.
+
+- Dissolução fracionada :: Método no qual um líquido é adicionado a uma mistura formada por sólidos para dissolver um deles. Um exemplo de mistura para aplicá-la é areia e cloreto de sódio (sal de cozinha).
+
+- Separação magnética :: Utiliza um ímã para separar um metal presente em uma mistura formada por sólidos. Um exemplo de mistura para aplicá-la é limalha de ferro e areia.
+
+- Decantação :: Utilizada em misturas formadas por dois líquidos ou um sólido e um líquido. A mistura é deixada em repouso para que o componente mais denso desça para o fundo do recipiente, e a menos densa posicione-se sobre o outro componente. Um exemplo de mistura para aplicá-la é água e óleo.
+
+- Centrifugação :: Utiliza um equipamento chamado de centrífuga para aumentar a velocidade da decantação. Um exemplo de mistura para aplicá-la é o sangue.
+
+- Filtração simples :: Utilizada em misturas que apresentam um sólido não dissolvido em um líquido. Quando essa mistura é colocada em um filtro, o líquido atravessa o filtro e o sólido fica retido. Um exemplo de mistura para aplicá-la é água e areia.
+
+- Filtração a vácuo :: Trata-se de uma filtração, mas sem a presença de ar. A ausência de ar favorece que a filtração ocorra de forma mais rápida.
+Métodos de separação utilizados em misturas homogêneas
+
+- Fusão fracionada :: Método no qual uma mistura formada por sólidos é aquecida para separar seus componentes por meio da diferença do ponto de fusão (temperatura em que um material sólido passa para o estado líquido). Um exemplo de mistura para aplicá-la é o Ouro 18 quilates.
+
+- Sublimação fracionada :: Método no qual uma mistura formada por sólidos é aquecida para separar o componente que possui capacidade de sublimar-se. Com isso, o gás formado sofre ressublimação (volta a ser sólido) em um artefato de vidro (por exemplo, um funil) posicionado sobre o sistema que está sendo aquecido. Um exemplo de mistura para aplicá-la é cloreto de sódio e cânfora.
+
+- Cristalização fracionada :: Método que se baseia na evaporação de um líquido que apresenta dois ou mais sólidos dissolvidos. Como cada sólido apresenta um coeficiente de solubilidade, à medida que o líquido evapora, um sólido cristaliza-se, e os outros permanecem dissolvidos. Um exemplo de mistura para aplicá-la é a água do mar.
+
+- Destilação simples :: Utilizada para separar o componente líquido de uma mistura formada por um sólido dissolvido em um líquido. Nesse processo, a mistura é aquecida para vaporizar o líquido, e o vapor adentra um condensador (equipamento de vidro que promove a condensação), voltando novamente ao estado líquido, quando é recolhido em um frasco coletor. Um exemplo de mistura para aplicá-la é água e cloreto de sódio (sal de cozinha).
+
+-  Destilação fracionada :: Utilizada para separar componentes de uma mistura formada por líquidos. Inicialmente os líquidos são vaporizados, e seus vapores são direcionados até uma coluna de fracionamento (coluna repleta de bolinhas de vidro). Esse obstáculo será atravessado pelo vapor de menor densidade. Assim, apenas um líquido sofrerá condensação e será recolhido no frasco coletor. Um exemplo de mistura para aplicá-la é a água e a acetona.
+
+#+begin_export latex
+\begin{center}
+\begin{pspicture}%(0,0)(8,8)
+%	\psgrid
+	\psset{unit=0.5cm}
+	\pstDistillation(-3,-10)(7,6)
+	\rput{0}(-0.2,12.6){\bfseries Saída de água}
+	\rput{0}(-3.7,6.6){\bfseries Entrada}
+	\rput{0}(-3.7,5.8){\bfseries de água}
+	\end{pspicture}
+    \end{center}
+#+end_export
+
+- Liquefação fracionada :: Utilizada para separar componentes de uma mistura formada por gases. Inicialmente é realizada uma liquefação total, em que todos se tornam líquidos. Em seguida, realiza-se uma destilação fracionada, pois eles possuem diferentes pontos de ebulição. Um exemplo de mistura para aplicá-la é o ar atmosférico.

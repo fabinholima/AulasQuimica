@@ -1,0 +1,11 @@
+
+* Estequiometria
+
+É o cálculo das quantidades de reagentes e/ou produtos envolvidos em uma reação química efetuado com o auxílio da equação química
+correspondente. A relação quantitativa entre as espécies é estabelecida pelos seus coeficientes estequiométricos.
+
+
+#+ATTR_LATEX: :options{Cálculos}
+#+begin_Box2
+A 
+#+end_Box2

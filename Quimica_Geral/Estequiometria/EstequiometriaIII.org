@@ -1,0 +1,139 @@
+#+LATEX_HEADER: \DeclareExerciseCollection{ReagenteExcesso}
+
+
+
+#+begin_comment
+============== Reagente em Excesso ========================
+#+end_comment
+
+
+\collectexercises{ReagenteExcesso}
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+Em um recipiente são colocados para reagir 40,0 g de ácido sulfúrico (\ch{H2SO4}) com 40,0 g
+de hidróxido de sódio (NaOH). Sabe-se que um dos reagentes está em excesso. Após a reação se
+completar, permanecerão sem reagir: (Dados: H = 1 ; O = 16 ; Na = 23 ; S = 32)
+
+
+#+ATTR_LATEX: :options (1)
+#+begin_choice
+\choice 32,6 g de NaOH
+\choice 9,0 g de \ch{H2SO4}
+\choice 7,4 g de NaOH
+\choice 18,1 g de \ch{H2SO4}
+\choice 16,3 g de NaOH
+#+end_choice 
+#+end_exercise
+#+begin_solution
+C
+#+end_solution
+
+
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+Amônia gasosa pode ser preparada pela seguinte reação balanceada:
+#+begin_export latex
+\begin{reaction*}
+CaO_{\sld} + 2 NH4C$\ell$_{\sld} ->  2 NH3_{\gas} + H2O_{\gas} + CaC$\ell$2_{\sld}
+\end{reaction*}
+#+end_export
+
+Se 112,0 g de óxido de cálcio e 224,0 g de cloreto de amônia forem misturados, então a quantidade
+máxima, em gramas, de amônia produzida será, aproximadamente:
+Dados: massas moleculares - CaO = 56 g/mol; \ch{NH4C$\ell$} = 53 g/mol; \ch{NH3} = 17 g /mol
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 68,0
+\choice 34,0
+\choice 71,0
+\choice 36,0
+\choice 32,0
+#+end_choice 
+#+end_exercise
+#+begin_solution
+A
+#+end_solution
+
+
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+ Considere a reação em fase gasosa:
+
+ #+begin_export latex
+ \begin{reaction*}
+ N2 + 3 H2 -> 2 NH3
+ \end{reaction*}
+ #+end_export
+ 
+Fazendo-se reagir 4 litros de \ch{N2} com 9 litros de \ch{H2} em condições de pressão e temperatura
+constantes, pode-se afirmar que:
+
+ 
+#+ATTR_LATEX: :options (1)
+#+begin_choice
+\choice os reagentes em quantidades estequiométricas.
+\choice o \ch{N2} está em excesso.
+\choice após o término da reação, os reagentes serão totalmente convertidos em amônia.
+\choice a reação se processa com o aumento do volume total.
+\choice após o término da reação, serão formados 8 litros de \ch{NH3}.
+#+end_choice 
+#+end_exercise
+#+begin_solution
+B
+#+end_solution
+
+
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+O \ch{H2S} reage com o SO2 segundo a reação:
+#+begin_export latex
+\begin{reaction*}
+2 H2S + SO2 -> 3 S + 2 H2O
+\end{reaction*}
+#+end_export
+Assinale, entre as opções abaixo, aquela que indica o número máximo em mols de S que pode ser
+formado quando se faz reagir 5 mols de \ch{H2S} com 2 mols de \ch{SO2}:
+
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 3
+\choice 4
+\choice 6
+\choice 7,5
+\choice 15
+#+end_choice 
+#+end_exercise
+#+begin_solution
+C
+#+end_solution
+
+
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 
+#+end_choice
+#+end_exercise
+#+begin_solution
+#+end_solution
+
+
+
+\collectexercisesstop{ReagenteExcesso}

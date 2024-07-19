@@ -1,0 +1,628 @@
+
+#+begin_comment
+
+%===================== pH e pOH ==================================
+
+#+end_comment
+
+#+LATEX_HEADER: \DeclareExerciseCollection{EquilibrioIonicoIII}
+#+LATEX_HEADER: \DeclareExerciseCollection{EquilibrioIonicoIII-Open}
+
+\collectexercises{EquilibrioIonicoIII}
+
+
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+Qual o pH de uma solução aquosa de hidróxido de sódio (NaOH) de concentração igual a \num{10d-4} \unit{\mol\per\litre} ([\ch{OH^-}]= \num{e-4} \unit{\mol\per\litre}), a \SI{25}{\degreeCelsius}?
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 8
+\choice 4
+\choice 10
+\choice 2
+\choice 6
+#+end_choice 
+#+end_exercise
+#+begin_solution
+C
+#+end_solution
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A \SI{25}{\degreeCelsius}, o pOH de uma solução de ácido clorídrico, de concentração 0,10 \unit{\mol\per\litre}, admitindo-se ionização
+total do ácido, é:
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice \num{e-13}
+\choice \num{e-1}
+\choice 1
+\choice 7
+\choice 13
+#+end_choice
+#+end_exercise 
+#+begin_solution
+E
+#+end_solution
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+O pH do suco gástrico, uma solução aquosa de ácido clorídrico (\ch{HC$\ell$}), é, aproximadamente, 2. Portanto, a massa, em gramas, de HCℓ existente em cada litro de suco gástrico, é Dados: Massas molares (g/mol) H = 1, \ch{C$\ell$} = 35,5
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice \num{7.3e-2}
+\choice \num{3.65e-1}
+\choice \num{1d-2}
+\choice 2
+\choice 10
+#+end_choice
+
+#+end_exercise
+#+begin_solution
+B
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A auto ionização da água é uma reação endotérmica. Um estudante mediu o pH da água recém destilada, isenta de \ch{CO2} e a \SI{50}{\degreeCelsius}, encontrando o valor 6,6. Desconfiado de que o aparelho de medida estivesse com defeito, pois esperava o valor 7,0, consultou um colega que fez as seguintes afirmações:
+
+#+ATTR_LATEX: :options [label=\Roman*]
+1. seu valor (6,6) pode estar correto, pois 7,0 é o pH da água pura, porém a \SI{25}{\degreeCelsius};
+2. a aplicação do princípio de Le Chatelier ao equilíbrio da ionização da água justifica que, com o aumento da temperatura, aumente a concentração de \ch{H^+};
+3. na água, o pH é tanto menor quanto maior a concentração de \ch{H^+}.
+   
+Está correto o que se afirma
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice 
+\choice somente em I.
+\choice somente em II.
+\choice somente em III.
+\choice somente em I e II.
+\choice em I, II e III.
+#+end_choice
+#+end_exercise 
+#+begin_solution
+E
+I) Verdadeiro. Altera a temperatura, consequentemente altera Kw.
+II) Verdadeira. Como pH a 50 ° C é menor que a 25 °C, ocorre aumento na [H+].
+III) Verdadeira. Quanto maior [H+], maior a acidez e menor o pH.
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Para evitar o desenvolvimento de bactérias em alimentos, utiliza-se ácido benzóico como conservante.
+Sabe-se que:
+
+#+begin_export latex
+\begin{enumerate}[label=\Roman*.]
+\item Em solução aquosa, ocorre o equilíbrio:
+\begin{center}
+\schemestart[0, 1.0, thick]
+\chemname{\chemfig{COOH-[:270]=_[:330]-[:270]=_[:210]-[:150]=_[:90](-[:30])}}{(BzH)}
+\arrow{<=>}
+\chemname{\chemfig{COO^{-}-[:270,,1]=_[:330]-[:270]=_[:210]-[:150]=_[:90](-[:30])}}{(Bz$^-$)}
+\schemestop
+\end{center}
+\item A ação bactericida é devida, exclusivamente, à forma não dissociada do ácido (BzH).
+\item Quando [BzH] = [Bz$^-$], o pH da solução é 4,2.
+\end{enumerate}
+#+end_export
+
+Com base nessas informações, e considerando a tabela seguinte,
+
+#+begin_export latex
+\begin{center}
+\begin{tblr}{
+colspec = {cc}, colsep = 8mm, hlines = {1.5pt, white},
+row{1} = {2em,azure2,fg=white,font=\bfseries\sffamily},
+}
+Alimento & pH \\
+Refrigerante & 3,0 \\
+Picles & 3,2 \\
+Leite & 6,5 \\
+\hline 
+\end{tblr}
+\end{center}
+#+end_export
+
+pode-se afirmar que é possível utilizar ácido benzóico como conservante do
+
+#+ATTR_LATEX: :options (1)
+#+begin_choice
+\choice refrigerante, apenas.
+\choice leite, apenas.
+\choice refrigerante e picles apenas.
+\choice refrigerante e leite, apenas.
+\choice picles e leite, apenas.
+#+end_choice
+#+end_exercise 
+#+begin_solution
+C
+pH menor que 4,2, aumenta [H+] no equilíbrio deslocando-o para a esquerda.
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+As leis de proteção ao meio ambiente proíbem que as indústrias lancem nos rios efluentes com pH menor que 5 ou superior a 8. Os efluentes das indústrias I, II e III apresentam as seguintes concentrações (em mol/L) de \ch{H^+} ou \ch{OH^-}.
+
+#+begin_center
+#+begin_export latex
+\begin{tblr}{
+colspec = {cc}, colsep = 8mm, hlines = {1.5pt, white},
+row{1} = {2em,azure2,fg=white,font=\bfseries\sffamily},
+} \hline 
+Indústria & {Concentração \\  no efluente (\unit{\mol\per\litre})} \\
+\hline 
+I &  \ch{H^+} = \num{1d-3} \\
+II &  \ch{OH^-} = \num{1d-5} \\
+III &  \ch{OH^-} = \num{1d-8} \\
+\hline
+\end{tblr}
+#+end_export
+#+end_center
+
+Considerando apenas a restrição referente ao pH, podem ser lançados em rios, sem tratamento prévio, os efluentes
+#+begin_choice 
+\choice  da indústria I, somente.
+\choice da indústria II, somente.
+\choice  da indústria III, somente.
+\choice das indústrias I e II, somente.
+\choice das indústrias I, II e III
+#+end_choice
+#+end_exercise 
+#+begin_solution
+C
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A tabela seguinte fornece dados sobre duas soluções aquosas de certo ácido monoprótico, HA, a \SI{25}{\degreeCelsius}.
+
+#+begin_export latex
+\begin{tblr}{
+colspec = {ccc}, colsep = 8mm, hlines = {1.5pt, white},
+row{1} = {2em,azure2,fg=white,font=\bfseries\sffamily},
+} \hline 
+Solução & {Concentração \\  HA (\unit{\mol\per\litre})} & pH \\
+1 & 1,0 & 3,0 \\
+2 & \num{1.0d-2} & 4,0 \\
+\hline 
+\end{tblr}
+#+end_export
+
+Esses dados indicam que:
+
+#+ATTR_LATEX: :options [label=\Roman*.]
+1. a concentração de íons \ch{H^+\aq}, na solução 2, é dez vezes maior do que na solução 1.
+2. a solução I conduzirá melhor a corrente elétrica do que a solução 2.
+3. o pH da solução do ácido HA, a 25 °C, tenderá ao valor 7,0 quando a concentração de HA tender a zero, ou seja, quando a diluição tender ao infinito.
+   
+Dessas afirmações, apenas a
+#+begin_choice
+\choice I é correta.
+\choice  II é correta.
+\choice  III é correta.
+\choice I e a II são corretas.
+\choice II e a III são correta
+#+end_choice
+#+end_exercise 
+#+begin_solution
+E
+#+end_solution
+
+
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Adicionou-se água a 1,15 g de ácido metanóico até completar 500 mL de solução. Considerando que nessa concentração o grau de ionização desse ácido é de 2%, então o pOH da solução é:
+
+Dada a massa molar do ácido metanóico = 46 g/mol
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice 
+\choice  2
+\choice  3
+\choice 12
+\choice 10
+\choice  11
+#+end_choice 
+#+end_exercise 
+#+begin_solution
+E
+#+end_solution
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A um litro de solução de ácido clorídrico (\ch{HC$\ell$}) de pH = 2 são adicionados nove litros de água destilada. O pH da solução final é:
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 4
+\choice 5
+\choice 1
+\choice 2
+\choice 3
+#+end_choice
+#+end_exercise 
+#+begin_solution
+E
+#+end_solution
+
+
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+ Qual o pH de uma solução em que a concentração de íons \ch{H^+} é igual a \num{2.0e-4}\unit{\mol\per\litre}? (*Dado:* $\log_2$ = 0,30)
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 2,4
+\choice 3,0
+\choice 3,7
+\choice 4,0
+\choice 4,3
+#+end_choice
+#+end_exercise 
+#+begin_solution
+C
+#+end_solution
+
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+O leite de magnésia, constituído por uma suspensão aquosa de \ch{Mg(OH)2}, apresenta pH igual a 10. Isso significa que:
+
+#+ATTR_LATEX: :options (1)
+
+#+begin_choice
+\choice o leite de magnésia tem propriedades ácidas.
+\choice a concentração de íons \ch{OH^–} é igual a \num{1e-10} \unit{\mol\per\litre}.
+\choice a concentração de íons \ch{H3O^+} é igual a \num{1e-10} \unit{\mol\per\litre}.
+\choice a concentração de íons \ch{H3O^+} é igual a \num{1e10} \unit{\mol\per\litre}.
+\choice a soma das concentrações dos íons \ch{H3O^+} e \ch{OH^-} é igual a \num{e-14} \unit{\mol\per\litre}.
+#+end_choice
+#+end_exercise 
+#+begin_solution
+C
+#+end_solution
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A coloração das hortênsias, muito comum no Sul do nosso país, depende da acidez do solo, podendo ser
+azuis em solo ácido e rosadas em solo básico. Assim, se adicionarmos calcário (\ch{CaCO3}) ao solo onde as flores forem
+plantadas, de modo que uma análise do mesmo revele uma concentração hidrogeniônica de \num{e-8} \unit{\mol\per\litre}, as hortênsias
+nascerão:
+#+ATTR_LATEX: :options (1)
+#+begin_choice
+\choice azuis, já que o pH do solo será 1,8.
+\choice rosadas, já que o pH do solo será 10,8.
+\choice brancas, já que o pH do solo será neutro.
+\choice rosadas, já que o pH do solo será 8.
+\choice azuis, já que o pH será 4
+#+end_choice 
+#+end_exercise 
+#+begin_solution
+D
+#+end_solution
+
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Para não agredir a natureza, é recomendado que nos rios sejam lançadas apenas soluções com pH entre 5 e 9.
+Para que uma solução de \ch{HC$\ell$} 0,01 \unit{\mol\per\litre} possa ser lançada no rio sem prejuízo para este, o volume do ácido deve ser diluído no mínimo:
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice 
+\choice  10 vezes.
+\choice  100 vezes.
+\choice  1.000 vezes.
+\choice 10.000 vezes.
+\choice 100.000 vezes
+#+end_choice 
+#+end_exercise 
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+O esmalte dos dentes é principalmente hidroxiapatita que, sob certas condições, sofre dissolução (desmineralização), o que provoca a cárie:
+
+#+begin_export latex
+\begin{reactions*}
+C10(PO4)6(OH)2 <=>[desmeneralização][minerilização] & 10 Ca^2+ \\
+ & + 6 PO4^{3-} + 2 OH^- \\
+\end{reactions*}
+#+end_export
+
+Provoca desmineralização bochechar com:
+#+ATTR_LATEX: :options [label=\Roman*]
+1. uma solução aquosa de hipoclorito de sódio (pH = 9).
+2. uma solução aquosa de cloreto de sódio (soro fisiológico).
+3. vinagre diluído em água.
+
+Dessas afirmações, apenas:
+#+begin_choice 
+\choice a I está correta.
+\choice a II está correta.
+\choice a III está correta.
+\choice a I e II são corretas.
+\choice a II e a III são corretas
+#+end_choice 
+#+end_exercise 
+#+begin_solution
+C
+#+end_solution
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+O ácido perclórico de pH = 1 é mais forte que o ácido hipocloroso (\ch{HC$\ell$O}), que tem ação desinfetante e  oxidante no tratamento da água segundo a reação: @@latex:\ch{HC$\ell$O <=> H^+ + C$\ell$O^-}@@
+
+O \ch{HC$\ell$O} tem molaridade de \num{4e-5} \unit{\mol\per\litre} a \SI{20}{\degreeCelsius}, a sua constante de ionização é de \num{2.5d-8}. Assinale a opção que indica quantas vezes o ácido perclórico é mais forte que o ácido hipocloroso:
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice \num{e5} vezes.
+\choice \num{e-5} vezes.
+\choice \num{e6} vezes.
+\choice \num{e-6} vezes.
+\choice \num{e4} vezes.
+#+end_choice
+
+#+end_exercise
+#+begin_solution
+A
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+O esmalte dos dentes é formado por hidroxiapatita que, em determinadas condições pode ser dissolvida
+devido ao equilíbrio representado pela equação:
+
+#+begin_export latex
+\begin{reactions*}
+Ca10(PO4)6(OH)2 <=>[Dissolução] & 10 Ca^{2+} \\
+  & +  6 PO4^{3-} + 2 OH^- \\
+\end{reactions*}
+#+end_export
+
+Considere três pessoas, X, Y e Z, que consomem diariamente os produtos cujos valores de pH estão apresentados na tabela.
+
+#+begin_export latex
+
+\begin{tblr}%[theme=fancy,
+%caption = {Potenciais padrão de redução, semi reação de redução.},
+%note{a} = {It is the first footnote.},
+%]
+{
+colspec = {|c| c |c |}, colsep = 7mm, hlines = {2pt, white},
+%row{odd} = {azure8}, row{even} = {gray8},
+row{1} = {2em,azure3,fg=white,font=\bfseries\sffamily},
+%row{12} = {bg=gray8, font=\bfseries},
+} \hline 
+Pessoa & {Produtos consumidos \\ diariamente} & pH \\
+X & Suco de laranja & 3 \\
+Y & Água com gás & 4 \\
+Z & Leite de Magnésia & 10 \\ \hline 
+\end{tblr}
+
+
+#+end_export
+
+Considerando somente o efeito do uso continuado desses três produtos, ocorrerá dissolução da hidroxiapatita do esmalte dos dentes:
+#+ATTR_LATEX: :options (1)
+#+begin_choice
+\choice da pessoa X, apenas.
+\choice da pessoa Y, apenas.
+\choice das pessoas X e Y, apenas.
+\choice da pessoa Z, apenas.
+\choice das três pessoas.
+#+end_choice
+#+end_exercise
+#+begin_solution
+C
+#+end_solution
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+O fluoreto de hidrogênio (HF) é um ácido que se encontra 10% ionizado em solução 0,1 mol/L. O pH dessa solução vale:
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 13
+\choice 12
+\choice 2
+\choice 1
+\choice 0,1
+#+end_choice
+#+end_exercise
+#+begin_solution
+C
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+O dióxido de carbono no organismo humano é transportado pelo sangue de três modos: 6% como \ch{CO2} dissolvido; 70% como e 24% na hemoglobina (Hb).
+
+Em um indivíduo normal, o pH do sangue deve manter-se entre os valores 7,35 e 7,45. O transporte de gás carbônico pode ser representado, simplificadamente, pelas seguintes equações:
+
+#+begin_export latex
+\begin{reactions*}
+H^+{\aq} + Hb^- + CO2\aq{} <=>  HHBCO2\aq \\
+CO2\gas{} <=> CO2\aq \\
+H2O\lqdd{} + CO2\gas{} <=> H^+\aq{} + HCO3^-\aq
+\end{reactions*}
+#+end_export
+Considerando-se que não há reguladores de pH no sangue, pode-se afirmar que, com:
+
+#+begin_choice
+\choice o aumento da concentração de \ch{CO2\gas}, o pH diminui.
+\choice a diminuição da concentração de @@latex:\ch{HCO3^-\aq{}}@@, o pH aumenta.
+\choice a diminuição da concentração de \ch{CO2\aq}, o pH não se altera. 
+\choice o aumento da concentração de \ch{HCO3^-\aq}, o pH diminui.
+\choice o aumento da concentração de \ch{HCO3^-\aq}, o pH não se altera.
+#+end_choice
+#+end_exercise
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+ A tabela a seguir fornece os valores de pH ou pOH de soluções. 
+
+ #+begin_export latex
+
+
+\begin{tblr}%[theme=fancy,
+%caption = {Potenciais padrão de redução, semi reação de redução.},
+%note{a} = {It is the first footnote.},
+%]
+{
+colspec = {|c| c |c |}, colsep = 7mm, hlines = {2pt, white},
+%row{odd} = {azure8}, row{even} = {gray8},
+row{1} = {2em,azure3,fg=white,font=\bfseries\sffamily},
+%row{12} = {bg=gray8, font=\bfseries},
+} \hline 
+Solução A & Solução B & Solução C \\
+\SI{25}{\degreeCelsius}  & \SI{25}{\degreeCelsius} & \SI{25}{\degreeCelsius} \\
+pH=7  & pOH=10 & pH 10 \\ \hline
+\end{tblr}
+
+#+end_export
+A respeito da concentração molar de íons hidrogênio @@latex: \ch{[H^+]}@@
+presente nas soluções, é *CORRETO* afirmar:
+
+#+begin_choice
+\choice solução *A* possui [\ch{H^+}] menor que [\ch{OH^-}]
+\choice A [\ch{H^+}] da solução *B* é igual a [\ch{H^+}] da solução *C* 
+\choice A [\ch{H^+}] da solução *A* é menor a [\ch{H^+}] da solução *C* 
+\choice A solução *B* possui [\ch{H^+}] menor que [\ch{OH^-}]
+\choice A solução *C* possui [\ch{H^+}] menor que [\ch{OH-}]
+#+end_choice 
+#+end_exercise
+#+begin_solution
+E
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Foi feita uma proposta para um estudante calcular o pH de diversas substâncias. Para o cálculo encontrou dificuldade em uma delas, onde era solicitado que se calculasse o pH de uma solução 0,01 M de MaOH a temperatura de 25ºC. Assinale a alternativa que contêm o pH calculado de forma correta.
+#+begin_choice
+\choice -2
+\choice 2
+\choice 7
+\choice 10
+\choice 12
+#+end_choice 
+
+#+end_exercise 
+#+begin_solution
+E
+#+end_solution
+
+
+
+
+\collectexercisesstop{EquilibrioIonicoIII}
+
+
+\collectexercises{EquilibrioIonicoIII-Open}
+
+
+#+ATTR_LATEX: :options [points=3.0]
+#+begin_exercise
+A tabela a seguir relaciona a cor de indicadores com pH de soluções aquosas:
+
+#+begin_export latex
+
+\begin{center}
+\begin{talltblr}[theme=fancy,
+%caption = {Potenciais padrão de redução, semi reação de redução.},
+%note{a} = {It is the first footnote.},
+]{
+colspec = {|c| c |c |}, colsep = 7mm, hlines = {2pt, white},
+%row{odd} = {azure8}, row{even} = {gray8},
+row{1} = {2em,azure3,fg=white,font=\bfseries\sffamily},
+%row{12} = {bg=gray8, font=\bfseries},
+} \hline 
+Indicador & \SetCell[c=2]{m} Cor em função do pH & \\ \hline 
+{Alaranjado \\ de metila} & {Vermelho \\ em pH < 2,5} & {Amarelo \\ em pH > 3,5} \\ \hline 
+{Azul \\  de Bromotimol} & {Amarelo \\ pH < 6,0} & {Azul \\ em pH 8,5} \\ \hline 
+\end{talltblr}
+\end{center}
+
+
+#+end_export
+Indique a cor adquirida pelas soluções na presença de cada um dos indicadores.
+#+begin_choice
+\choice  Solução 0,01 \unit{\mol\per\litre} de ácido clorídrico, 100% ionizado.
+#+begin_export latex
+\blank[blank-style={\phantom{#1}},width=8\linewidth]{}
+#+end_export
+\choice Solução 0,01 \unit{\mol\per\litre} de ácido acético, 1% ionizado.
+#+begin_export latex
+\blank[blank-style={\phantom{#1}},width=8\linewidth]{}
+#+end_export
+#+end_choice 
+#+end_exercise
+
+#+begin_solution
+
+#+end_solution
+
+
+
+\collectexercisesstop{EquilibrioIonicoIII-Open}
+
+

@@ -1,0 +1,6 @@
+#+LATEX_HEADER: \DeclareExerciseCollection{UC3}
+
+\collectexercises{UC3}
+
+\collectexercisesstop{UC3}
+

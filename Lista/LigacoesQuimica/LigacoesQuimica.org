@@ -1,0 +1,379 @@
+
+#+LATEX_HEADER: \DeclareExerciseCollection{LigacoesQuimica}
+
+
+\collectexercises{LigacoesQuimica}
+#+begin_exercise
+Portanto que os gases nobres são estáveis?
+#+end_exercise
+
+
+#+begin_exercise
+Explique a regra do octeto 
+#+end_exercise
+
+
+#+begin_exercise
+A ligação iônica baseia-se na \blank[width=4cm]{doação}  de eletrons?
+#+end_exercise
+
+ 
+#+begin_exercise
+A ligação iônica ocorre entre \blank[width=4cm]{metal} e \blank[width=4cm]{ametal}
+#+end_exercise
+
+
+
+ 
+#+begin_exercise
+Escreva a fórmula das substâncias obtidas na ligação entre:
+#+begin_choice 
+\choice  cálcio e flúor.
+\choice  alumínio e oxigênio
+\choice potássio e enxofre
+#+end_choice
+#+end_exercise
+
+
+ 
+#+begin_exercise
+A ligação covalente ou  \blank[width=3cm ]{compartilhada} ocorre entre \blank[width=2cm]{metal} e \blank[width=2cm]{ametal}, baseando-se no \blank[width=4cm]{compartilhamento} de elétrons
+#+end_exercise
+
+
+ 
+#+begin_exercise
+O hidrogênio é considerado  \blank[width=2cm]{metal} estabilizacom  \blank[width=3cm]{dois} elétrons.
+#+end_exercise
+
+
+ 
+#+begin_exercise
+Qual a fórmula do composto formado entre os elementos genéricos @@latex: $_{12}$A@@ e @@latex: $_{8}$B@@?
+#+end_exercise
+
+
+ 
+#+begin_exercise
+Qual a fórmula do composto formado entre os elementos genéricos @@latex: $_{12}$A e $_{8}$B@@?
+#+end_exercise
+
+
+ 
+#+begin_exercise
+Assinale a alternativa correta. Qual composto apresenta ligação eletrovalente ou iônica?
+
+#+ATTR_LATEX: :options (3)
+#+begin_choice
+\choice \ch{C$\ell$2}
+\choice \ch{HC$\ell$}
+\choice \ch{P4}
+\choice \ch{NaC$\ell$}
+\choice  \ch{SO2}
+#+end_choice 
+#+end_exercise
+
+
+ 
+#+begin_exercise
+Assinale a alternativa correta. Assinale a provável fórmula do composto formado entre @@latex: $_{19}$K  e  $_{53}I$@@
+
+#+ATTR_LATEX: :options (3)
+#+begin_choice
+\choice \ch{K2I}
+\choice \ch{K2I2}
+\choice \ch{KI2}
+\choice \ch{KI3}
+\choice \ch{KI}
+#+end_choice 
+#+end_exercise
+
+ 
+#+begin_exercise
+Dois elementos, representados por X e Y, combinam-se. As distribuições de elétrons de X e Y
+são s seguintes:
+
+#+begin_export latex
+
+\begin{tblr}[theme=fancy,]
+{
+colspec = {c c c c }, colsep = 7mm, hlines = {2pt, white},
+%row{odd} = {azure8}, row{even} = {gray8},
+row{1} = {2em,azure3,fg=white,font=\bfseries\sffamily},
+%row{12} = {bg=gray8, font=\bfseries},
+}
+Níveis & K & L & M & N \\ 
+X & 2 & 8 & 8 &  1 \\
+Y & 2 & 8 & 6 \\ \hline
+\end{tblr}
+
+#+end_export
+
+Que alternativa apresenta a fórmula e o tipo de ligação do composto formado?
+#+ATTR_LATEX: :options (2)
+#+begin_choice 
+\choice  \ch{X2Y}, iônico
+\choice  \cH{XY2}, covalente
+\choice \ch{XY2}, iônico
+\choice \ch{X2Y}, covalente
+\choice \ch{X7Y2}, covalente
+#+end_choice
+
+#+end_exercise
+
+
+ 
+#+begin_exercise
+Assinale a alternativa correta. A fórmula do composto formado pelos íons @@latex: \ch{A^{+3}} e \ch{B^{-3}}@@ é:
+#+ATTR_LATEX: :options (3)
+#+begin_choice
+\choice \ch{A3B3}
+\choice \ch{A3B}
+\choice \ch{AB3}
+\choice  AB
+\choice \ch{A2B2}
+#+end_choice 
+#+end_exercise
+
+
+#+begin_exercise
+As ligações químicas predominantes entre os átomos dos compostos \ch{H2S}, \ch{PH3} e AgBr são, respectivamente:
+
+#+begin_choice
+\choice iônica, covalente e iônica
+\choice covalente, covalente e iônica.
+\choice covalente, iônica e iônica.
+\choice iônica, covalente e covalente.
+\choice iônica, iônica e covalente.
+#+end_choice
+
+#+end_exercise
+
+
+
+
+
+#+begin_exercise
+Qual a informação mais importante para se inferir sobre a capacidade de ligação de um elemento?
+#+begin_choice
+\choice Seu número de prótons, nêutrons e elétrons;
+\choice Sua massa atômica exata.
+\choice A diferente abundância isotópica dos diversos nuclídios.
+\choice A configuração de seus diferentes níveis eletrônicos mais internos.
+\choice O número e a distribuição dos elétrons no último nível
+#+end_choice
+#+end_exercise
+
+
+#+begin_exercise
+(UFRS) Comparando-se a posição dos elementos neônio (Ne) e fósforo (P) a partir de sua posição na classificação periódica, pode-se concluir que:
+#+ATTR_LATEX: :options (1)
+#+begin_choice
+\choice ambos apresentam praticamente o mesmo potencial de ionização.
+\choice o Ne apresenta menor número de elétrons no último nível de energia.
+\choice o P apresenta elétrons distribuídos em um maior número de níveis energéticos.
+\choice o P apresenta menor número de elétrons celibatários (desemparelhados).
+\choice o Ne apresenta uma maior tendência a formação de ânions.
+#+end_choice
+#+end_exercise
+
+
+#+begin_exercise
+(UFES) Considere os seguintes pares de elementos químicos: Li e O, Ca e S, Mg e Br, Ba e H. Os números de átomos de cada elemento, nos respectivos compostos iônicos resultantes, são respectivamente:
+#+ATTR_LATEX: :options (1)
+#+begin_choice
+\choice 1:2; 1:1; 1:1; 2:1
+\choice 2:1; 1:1; 2:1; 2:1
+\choice 1:6; 2:6; 2:7; 2:1
+\choice 2:1; 1:1; 1:2; 1:2
+\choice 1:6; 1:3; 2:7; 1:2
+#+end_choice
+#+end_exercise
+
+
+#+begin_exercise
+(PUC/Campinas-SP)Considere as configurações eletrônicas de quatro elementos químicos:
+
+1. 1s2 2s2 	
+2. 1s2 2s2 2p6 3s2 3p6 3d10 4s2 
+3. 1s2 2s2 2p6 3s2 3p6 3d10 4s24p5 	
+4. 1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6  5s2
+
+Ao perder elétrons de valência, tornam-se isoeletrônicos de gases nobres:
+
+#+ATTR_LATEX: :options (3)
+#+begin_choice
+\choice I e II
+\choice I e III
+\choice I e IV
+\choice II e III
+\choice III e IV
+#+end_choice
+#+end_exercise
+
+
+
+#+begin_exercise
+(FCC-BA) Considerando sua posições na tabela periódica, o hidrogênio e o enxofre devem formar o composto de fórmula: 
+#+ATTR_LATEX: :options (3)
+#+begin_choice
+\choice HS
+\choice \ch{HS2}
+\choice \ch{H2S}
+\choice \ch{H2S3}
+\choice \ch{H3S2}
+#+end_choice
+#+end_exercise
+
+
+
+#+begin_exercise
+(UFPel-RS)Elementos alcalinos e alcalino-terrosos tem em comum o fato de:
+#+ATTR_LATEX: :options (1)
+#+begin_choice
+\choice existirem livres na natureza;
+\choice formarem cátions;
+\choice ocuparem a região central na tabela periódica;
+\choice serem não-metálicos;
+\choice serem pouco reativos;
+#+end_choice
+#+end_exercise
+
+
+
+#+begin_exercise
+A ligação química que se estabelece entre os átomos do elemento X (Z=9) e os átomos do elemento Y (Z=17) é:
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice metálica;
+\choice covalente simples;
+\choice covalente dupla;
+\choice covalente dativa;
+\choice iônica
+#+end_choice
+#+end_exercise
+
+
+
+#+begin_exercise
+(Cesgranrio-RJ) Um elemento M do grupo 2 forma um composto binário iônico com um elemento X do grupo 17. Assinale, entre as opções abaixo, a fórmula mínima do respectivo composto:
+#+ATTR_LATEX: :options (3)
+#+begin_choice
+\choice MX
+\choice \ch{MX2}
+\choice \ch{M2X}
+\choice \cH{M2X7}
+\choice \ch{M7X2}
+#+end_choice
+#+end_exercise
+
+
+
+
+#+begin_exercise
+(UFRN)O composto formado a partir das substâncias Ca e \ch{C$\ell$} deve apresentar fórmula e ligação química, respectivamente:
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice \ch{CaC$\ell$}, iônica
+\choice \ch{CaC$\ell$3}, covalente
+\choice \ch{Ca2C$\ell$}, metálica
+\choice \ch{CaC$\ell2}, covalente
+\choice \ch{CaC$\ell$2}, iônica
+#+end_choice
+#+end_exercise
+
+
+
+
+
+#+begin_exercise
+(UFMG) As posições dos elementos na tabela periódica permitem prever as fórmulas de substâncias que contêm esses elementos e os modelos de ligação apropriados a essas substâncias. Considerando os elementos C, O, F, Si e Cl, assinale a alternativa que associa corretamente um tipo de ligação e um exemplo adequado desse tipo de substância.
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice iônica/ \ch{CF4}
+\choice iônica/ \ch{C$\ell$2O}
+\choice metálica/ Si
+\choice covalente/ CI 
+\choice covalente/\ch{SiC$\ell$4}
+#+end_choice
+#+end_exercise
+
+#+begin_exercise
+(Fuvest-SP)Um certo elemento tem número atômico igual a 12. Qual a carga mais provável do seu íon?
+#+ATTR_LATEX: :options (3)
+#+begin_choice
+\choice +1
+\choice +2
+\choice +3
+\choice -2
+\choice -1
+#+end_choice
+#+end_exercise
+
+#+begin_exercise
+(Vunesp) Com base na distribuição eletrônica o elemento de número atômico 19  combina-se mais facilmente, formando um composto iônico, com o elemento de número atômico:
+#+ATTR_LATEX: :options (3)
+#+begin_choice
+\choice 11
+\choice 17
+\choice 18
+\choice 20
+\choice 27
+#+end_choice
+#+end_exercise
+
+#+begin_exercise
+(Unifor-CE)Dois elementos químicos X e Y combinam-se formando uma substância molecular XY3. X e Y podem ter números atômicos, respectivamente:
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 1 e 7
+\choice 2 e 9
+\choice 13 e 16
+\choice 15 e 35
+\choice 20 e 36
+#+end_choice
+#+end_exercise
+
+#+begin_exercise
+(PUC-BA) Ao formar ligações covalentes com o hidrogênio, a eletrosfera do silício adquire configuração eletrônica de gás nobre. Com isto, é de esperar a formação da molécula:
+#+ATTR_LATEX: :options (3)
+#+begin_choice
+\choice SiH
+\choice \ch{SiH2}
+\choice \ch{SiH3}
+\choice \ch{SiH4}
+\choice \ch{SiH5}
+#+end_choice
+#+end_exercise
+
+
+#+begin_exercise
+(Carlos Chagas - BA) Ao todo, quantos pares de elétrons estão compartilhados entre os átomos na molécula \ch{H2O2}?
+#+ATTR_LATEX: :options (3)
+#+begin_choice
+\choice 1
+\choice 2
+\choice 3
+\choice 4
+\choice 5
+#+end_choice
+#+end_exercise 
+
+
+#+begin_exercise
+(UNEB) A ligação química que se estabelece entre os átomos do elemento X (Z=9) e os átomos do elemento Y (Z=17) é:
+#+ATTR_LATEX: :options (1)
+#+begin_choice
+\choice metálica;
+\choice covalente simples;
+\choice covalente dupla;
+\choice covalente dativa;
+\choice iônica;
+#+end_choice
+#+end_exercise
+
+
+
+
+
+\collectexercisesstop{LigacoesQuimica}

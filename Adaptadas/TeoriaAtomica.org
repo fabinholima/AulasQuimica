@@ -1,0 +1,59 @@
+#+LATEX_HEADER: \DeclareExerciseCollection{Adaptadas-TeoriaAtomica}
+
+\collectexercises{Adaptadas-TeoriaAtomica}
+
+#+begin_exercise
+Leia a tirinha abaixo
+
+#+begin_export latex
+\begin{center}
+\includegraphics[scale=1.5]{Adaptadas/cientistas.pdf}
+\end{center}
+#+end_export
+
+Qual dos modelos abaixo representa o modelo citado na imagem
+
+#+begin_export latex
+\begin{choice}(3)
+\choice \includegraphics[scale=.6]{Adaptadas/thomson.jpg}
+\choice \includegraphics[scale=.1]{Adaptadas/bilhar.png}
+\choice \includegraphics[scale=.2]{Adaptadas/ruther.png}
+\end{choice}
+#+end_export
+#+end_exercise 
+
+
+#+begin_exercise
+O átomo de Rutherfod é semelhante ao modelo planetário, qual a figura representa esse modelo.
+
+#+begin_export latex
+\begin{choice}(3)
+\choice \includegraphics[scale=.6]{Adaptadas/thomson.jpg}
+\choice \includegraphics[scale=.1]{Adaptadas/bilhar.png}
+\choice \includegraphics[scale=.2]{Adaptadas/ruther.png}
+\end{choice}
+#+end_export
+
+#+end_exercise 
+
+
+#+begin_exercise
+Qual o quantidades de camadas do átomo a seguir
+#+begin_export latex
+\begin{center}
+\bohr{11}{Na}
+\end{center}
+\begin{choice}(3)
+\choice 5
+\choice 1
+\choice 3
+\end{choice}
+#+end_export
+#+end_exercise
+
+
+
+
+
+\collectexercisesstop{Adaptadas-TeoriaAtomica}
+

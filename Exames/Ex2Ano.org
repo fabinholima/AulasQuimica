@@ -1,0 +1,184 @@
+
+#+ATTR_LATEX: :options {2}
+#+begin_multicols
+
+
+#+begin_exercise
+*(1,0)* A água participa em reações com diversas espécies químicas, o que faz com que ela seja empregada como solvente e reagente; além disso, ela toma parte em muitos processos, formando espécies intermediárias e mais reativas.
+
+#+ATTR_LATEX: :options [label=\Roman*.]
+1. @@latex: \ch{HNO2 + H2O -> NO2– + H3O+}@@
+2. @@latex: \ch{NH3 + H2O -> NH4+ + OH–}@@
+3. @@latex: \ch{O2– + H2O -> OH– + OH–}@@
+
+
+De acordo com a teoria de ácidos e bases de Brönsted-Lowry, a classificação correta da água nas equações I, II e III é, respectivamente:
+   
+#+begin_choice
+\choice base, base e ácido.
+\choice base, ácido e ácido.
+\choice base, ácido e base.
+\choice ácido, base e ácido.
+\choice \answer{ácido, base e base}
+#+end_choice
+#+end_exercise
+
+
+#+begin_exercise
+*(1,0)* Uma solução aquosa de \ch{H3PO4} é ácida devido à presença de:
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice água.
+\choice hidrogênio.
+\choice fósforo.
+\choice \answer{hidrônio.}
+\choice fosfato.
+#+end_choice
+#+end_exercise
+
+#+begin_exercise
+*(1,0)* Assinale a alternativa que só apresenta sais:
+#+begin_export latex
+\begin{choice}
+\choice \ch{NaOH}, \ch{Ca3(PO)2}, \ch{NaC$\ell$}
+\choice \answer{\ch{NaC$\ell$}, \ch{CaSO4}, \ch{FePO4}}
+\choice  \ch{HC$\ell$}, \ch{H2O}, \ch{Ca3(PO)2}
+\choice NaOH, \ch{HC$\ell$}, \ch{H2O2}
+\choice  \ch{HC$\ell$}, \ch{CaSO4}, \ch{FePO4}
+\end{choice}
+#+end_export
+#+end_exercise
+
+#+begin_exercise
+*(1,0)* Sabe-se que a chuva ácida é formada pela dissolução na água da chuva de óxidos ácidos presentes na atmosfera. Entre eles, os principais óxidos responsáveis pela chuva ácida são: \ch{NO2}, \ch{SO2} e \ch{SO3}. Indique os nomes desses óxidos, respectivamente:
+
+#+begin_choice
+\choice óxido de nitrogênio, óxido de enxofre II, óxido de enxofre III.
+\choice \answer{dióxido de nitrogênio, dióxido de enxofre, trióxido de enxofre.}
+\choice dióxido de nitrogênio, óxido enxofroso, óxido enxofrico.
+\choice monóxido de dinitrogênio, óxido de dienxofre, óxido de trienxofre.
+\choice monóxido de dinitrogênio, óxido de enxofre, trióxido de enxofre.
+#+end_choice
+#+end_exercise
+
+
+#+begin_exercise
+*(1,0)* As reações químicas que resultam na formação de um produto insolúvel são conhecidas como reações de precipitação. Um exemplo deste tipo de reação é a adição de uma solução incolor de iodeto de potássio a uma solução incolor de nitrato de chumbo que produz um precipitado amarelo de iodeto de chumbo e nitrato de potássio aquoso.
+A equação que representa esta reação de forma correta e devidamente balanceada é:
+
+#+begin_export latex
+\begin{choice}
+\choice \ch{PbNO3_{\aq} + KIO3_{\aq} -> PbIO3_{\sld} + KNO3_{\aq}}
+\choice \answer{\ch{Pb(NO3)2_{\aq} + 2 KI_{\aq} -> PbI2_{\aq} + 2 KNO3_{\aq}}}
+\choice \ch{Pb(NO3)2_{\aq} + KI2_{\aq} -> PbI2_{\sld} + K(NO3)2_{\aq}}
+\choice \ch{Pb(NO2)2_{\aq} + KIO3_{\aq} -> Pb(IO3)2_{\sld} + 2 KNO2_{\aq}}
+\choice \ch{Pb(NO2)2_{\aq} + 2 KI_{\aq} -> PbI2_{\sld} + 2 KNO2_{\aq}}
+\end{choice}
+#+end_export
+#+end_exercise
+
+
+
+#+begin_exercise
+*(1,0)* /Airbags/ são hoje em dia um acessório de segurança indispensável nos automóveis. A reação que ocorre quando um airbag infla é:
+
+#+begin_export latex
+\begin{reaction*}
+NaN3_{\sld} -> N2_{\gas} + Na_{\sld}
+\end{reaction*}
+#+end_export
+
+Quando se acertam os coeficientes estequiométricos, usando o menor conjunto adequado de coeficientes inteiros, a soma dos coeficientes é:
+#+ATTR_LATEX: :options (2) 
+#+begin_choice
+\choice 3.
+\choice 5.
+\choice \answer{7.}
+\choice 8.
+\choice 9.
+#+end_choice
+#+end_exercise
+
+
+
+#+begin_exercise
+*(1,0)* A equação:
+
+#+begin_export latex
+\begin{reaction*}
+A$\ell$ + H2SO4 ->  A$\ell$2(SO4)3 + H2
+\end{reaction*}
+#+end_export
+
+
+mostra que:
+#+begin_choice
+\choice A reação não está balanceada.
+\choice Há mais de átomos de alumínio nos produtos que nos reagentes.
+\choice Os coeficientes que ajustam a equação são: 2, 3, 1 e 3.
+\choice A massa dos reagentes é igual à dos produtos.
+\choice \answer{Todas as alternativas estão corretas}
+#+end_choice
+#+end_exercise
+
+
+
+#+begin_exercise
+*(1,0)* Os coeficientes estequiométricos da reação química balanceada dada a seguir são:
+
+#+begin_export latex
+\begin{reactions*}
+{\bfseries a} KMnO4 +  {\bfseries b} FeC$\ell$2 + {\bfseries c} HC$\ell$ -> & \\
+{\bfseries d}  MnC$\ell$2 +  {\bfseries e} FeC$\ell$3 + {\bfseries f} KC$\ell$  +  {\bfseries g} H2O\\
+\end{reactions*}
+#+end_export   
+
+#+begin_choice
+\choice \answer{a =1, b = 5, c = 8, d = 1, e = 5, f = 1, g = 4.}
+\choice a = 5, b = 2, c = 3, d = 1, e = 2, f = 8, g = 10.
+\choice a = 3, b = 5, c = 3, d = 1, e = 3, f = 10, g = 8.
+\choice a = 2, b = 10, c = 3, d = 1, e = 2, f = 10, g = 8.
+\choice a = 3, b = 5, c = 3, d = 1, e = 2, f = 10, g = 8.
+#+end_choice
+#+end_exercise
+
+#+begin_exercise
+*(1,0)* O óxido de alumínio (\ch{A$\ell$2O3}) é utilizado como antiácido. A reação que ocorre no estômago é:
+#+begin_export latex
+\begin{reaction*}
+{\bfseries x} A$\ell$2O3 + {\bfseries y} HC$\ell$ -> {\bfseries z} A$\ell$C$\ell$3 + {\bfseries w} H2O
+\end{reaction*}
+#+end_export
+Os coeficientes *x*, *y*, *z* e *w* são, respectivamente:
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 1, 2, 3, 6
+\choice \answer{1, 6, 2, 3}
+\choice 2, 3, 1, 6
+\choice  2, 4, 4, 3
+\choice  4, 2, 1, 6
+#+end_choice
+#+end_exercise
+
+
+#+begin_exercise
+*(1,0)* Anidrido sulfúrico é a denominação do óxido de enxofre, que, ao reagir com água, forma o ácido sulfúrico, sendo assim um dos causadores das chuvas ácidas. Qual deve ser a fórmula molecular desse óxido.
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice \ch{SO2}.
+\choice \ch{S2O3}.
+\choice \answer{\ch{SO3}}.
+\choice \ch{SO4}.
+\choice \ch{S2O4}
+#+end_choice
+#+end_exercise
+
+
+
+
+#+end_multicols
+
+#+begin_export latex
+\section*{Gabarito}
+\getanswers
+#+end_export

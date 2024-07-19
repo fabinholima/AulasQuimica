@@ -1,0 +1,355 @@
+#+LATEX_HEADER: \DeclareExerciseCollection{Pilhas3}
+#+LATEX_HEADER: \DeclareExerciseCollection{Pilhas3-Aberta}
+
+\collectexercises{Pilhas3}
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+A água das piscinas é reutilizada muitas vezes e, para impedir o desenvolvimento de microorganismos, deve ser convenientemente tratada. Uma das substâncias empregadas para este fim é o
+hipoclorito de cálcio, @@latex: \ch{Ca(OC$\ell$)2}@@. Quando dissolvido na água, este composto se dissocia em íons cálcio e hipoclorito. A sua ação contra os microorganismos deve-se às propriedades oxidantes do íon hipoclorito, conforme a equação (não balanceada):
+
+#+begin_export latex
+\begin{reaction*}
+C$\ell$O^-_{\aq} + H2O + e^- -> C$\ell$^-_{\aq} + 2 OH^-_{\aq}  
+\end{reaction*}
+#+end_export
+
+
+Com base nas informações acima, é correto afirmar:
+
+#+ATTR_LATEX: :options (1)
+#+begin_choice
+
+\choice Durante a dissolução do hipoclorito de cálcio, o cálcio sofre oxidação.
+\choice O íon hipoclorito é um agente oxidante porque o cloro se oxida.
+\choice O estado de oxidação do cloro passa de +1 para -1.
+\choice O estado de oxidação do hidrogênio no íon @@latex: \ch{OH^-}@@ é -1.
+\choice O estado de oxidação do oxigênio no íon hipoclorito é -1.
+#+end_choice 
+#+end_exercise 
+#+begin_solution
+C
+#+end_solution
+
+
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+Considere uma cela galvânica formada por semicelas-padrão de cobre e de zinco, cujos potenciais de redução são os seguintes:
+#+begin_export latex
+\begin{reactions*}
+Cu^2+ + 2 e^- -> Cu & \quad E^0 = + 0,34 V \\
+Zn^2+ + 2 e^- -> Zn & \quad E^0 = - 0,76 V
+\end{reactions*}
+#+end_export
+É correto afirmar que:
+
+
+#+ATTR_LATEX: :options (1)
+#+begin_choice
+\choice os elétrons no circuito externo fluirão do eletrodo de cobre para o eletrodo de zinco.
+\choice o potencial-padrão da cela é - 0,42 V.
+\choice quando o equilíbrio for atingido não haverá diferença de potencial entre os eletrodos.
+\choice os íons zinco são reduzidos a zinco metálico.
+\choice o eletrodo de cobre é o cátodo.
+#+end_choice
+#+end_exercise 
+#+begin_solution
+E
+#+end_solution
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+Considere as reações representadas pelas seguintes equações químicas balanceadas:
+
+#+begin_export latex
+\begin{enumerate}[label=\Roman*-]
+\item \ch{CH4_{\gas} + H2O_{\lqdd} -> CO_{\gas} + H2O_{\gas}}
+\item \ch{AgC$\ell$_{\sld} + 2 NH3_{\aq} -> Ag(NH3)^+_{\aq} + C$\ell$^-}
+\item \ch{Zn_{\sld} + 2 H^{+}_{\aq} -> Zn^{2++}_{\aq} + H2_{\gas}}
+\item \ch{2 H^{+} + 2 CrO4^{2-}_{\aq} -> Cr2O7^{2-}_{\aq} + H2O_{\lqdd}} 
+\end{enumerate}
+#+end_export
+
+Qual das opções abaixo se refere às reações de oxirredução?
+
+#+ATTR_LATEX: :options (1)
+#+begin_choice
+\choice I e II.
+\choice I e III.
+\choice III e IV.
+\choice I, III e IV.
+\choice I, II, III e IV.
+#+end_choice 
+#+end_exercise 
+#+begin_solution
+B
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+O permanganato de potássio é utilizado como antimicótico em certos tratamentos e podemos afirmar, observando a equação a seguir, que o permanganato é:
+
+#+begin_export latex
+\begin{reaction*}
+MnO4^- + 8 H^+ + 5 e^- -> Mn^2+ + 4 H2O
+\end{reaction*}
+#+end_export
+
+#+ATTR_LATEX: :options (1)
+#+begin_choice
+\choice um agente redutor.
+\choice um agente oxidante.
+\choice uma forma reduzida.
+\choice uma forma oxidada.
+\choice um íon positivo.
+#+end_choice 
+#+end_exercise 
+#+begin_solution
+B
+#+end_solution
+
+
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+Considere as reações envolvendo o sulfeto de hidrogênio \ch{H2S} representadas pelas equações seguintes:
+
+#+begin_export latex
+\begin{enumerate}[label=\Roman*-]
+\item \ch{2 H2S_{\gas} + H2SO3_{\aq} ->  3 S_{\sld} + 3 H2O_{\lqdd}}
+\item \ch{H2S_{\gas} + 2 H^+_{\aq} + SO4^{2-}_{\aq} ->  SO2_{\gas} + S_{\sld} + 2 H2O_{\lqdd}}
+\item \ch{H2S_{\gas} + Pb_{\sld} -> PbS_{\sld} + H2_{\gas}}
+\item \ch{2 H2S_{\gas} + 4 Ag_{\sld} + O2_{\gas} -> 2 Ag2S_{\sld} + 2 H2O_{\lqdd}}
+\end{enumerate}
+#+end_export
+
+Nas reações representadas pelas equações acima, o sulfeto de hidrogênio é agente redutor em:
+
+#+ATTR_LATEX: :options (1)
+#+begin_choice
+\choice apenas I.
+\choice apenas I e II.
+\choice apenas III.
+\choice apenas III e IV.
+\choice apenas IV.
+#+end_choice 
+#+end_exercise 
+#+begin_solution
+B
+#+end_solution
+
+
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+Das equações a seguir, aquela em que o peróxido de hidrogênio (\ch{H2O2}) atua somente como redutor é
+
+#+ATTR_LATEX: :options (1)
+#+begin_export latex
+\begin{choice}
+\choice \ch{MnO2 + H2O2 + 2 HC$\ell$ -> MnC$\ell$2 + 2 H2O + O2}
+\choice \ch{Na2SO3 + H2O2 -> Na2SO4 + H2O}
+\choice \ch{FeC$\ell$2 + H2O2 + HC$\ell$ -> FeC$\ell$3 + H2O}
+\choice \ch{PbS + 4 H2O2 -> PbSO4 + 4 H2O}
+\choice \ch{H2O2 + 2 KI + 2 HC$\ell$ -> I2 + 2 KC$\ell$ + 2 H2O}
+\end{choice}
+#+end_export
+#+end_exercise 
+#+begin_solution
+A
+#+end_solution
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+Em qual das seguintes reações ocorre oxidação do átomo de enxofre?
+
+#+ATTR_LATEX: :options (1)
+#+begin_choice
+#+begin_export latex
+\choice \ch{SO2_{\gas} + MgO_{\sld} -> MgSO3_{\sld}}
+\choice \ch{SO4^{2-}_{\aq} + Pq^{2+}_{\aq} -> PbSO4_{\sld}}
+\choice \ch{Na2S_{\sld} + 2 H^{+}_{\aq} -> H2S_{\gas} + 2 Na^+ }
+\choice \ch{K2SO4_{\sld} ->[ H2O] 2 K^+_{\aq} + SO4^{2-}_{\aq} }
+\choice \ch{S_{\sld} + O2_{\gas} -> SO2_{\gas}}
+#+end_export
+#+end_choice 
+#+end_exercise 
+#+begin_solution
+E
+#+end_solution
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+Na obtenção do ferro metálico a partir da hematita, uma das reações que ocorre nos altos fornos é
+#+begin_export latex
+\begin{reaction*}
+Fe2O3 + 3 CO -> 2 Fe + 3 CO2
+\end{reaction*}
+#+end_export
+
+Pela equação, pode-se afirmar que o agente redutor e o número de oxidação do metal reagente são, respectivamente:
+
+#+ATTR_LATEX: :options (1)
+#+begin_choice
+\choice \ch{CO2} e zero.
+\choice CO e + 3.
+\choice \ch{Fe2O3} e + 3.
+\choice Fe e - 2.
+\choice Fe e zero
+#+end_choice 
+#+end_exercise 
+#+begin_solution
+B
+#+end_solution
+
+
+\collectexercisesstop{Pilhas3}
+
+
+#+begin_comment
+=============== Aberta ================= 
+#+end_comment
+
+
+\collectexercises{Pilhas3-Aberta}
+
+
+
+#+ATTR_LATEX: :options [points=2]
+#+begin_exercise
+Suspeitou-se que um certo lote de fertilizante estava contaminado por apreciável quantidade de sal de mercúrio II (@@latex:\ch{Hg^{2+}}@@). Foi feito então um teste simples: misturou-se um pouco do fertilizante com água e introduziu-se um fio de cobre polido (Cu), o qual ficou coberto por uma película de mercúrio metálico. Escreva a equação da reação química que ocorreu, identificando o agente oxidante.
+
+#+begin_export latex
+\blank[blank-style={\phantom{#1}},width=8\linewidth]{}
+#+end_export
+#+end_exercise 
+#+begin_solution
+Reação
+\ch{Hg2+(aq) + Cu(s) → Hg(s) + Cu2+(aq)}
+O agente oxidante  Hg2+(aq)
+O agente redutor → Cu(s)
+#+end_solution
+
+
+
+
+#+ATTR_LATEX: :options [points=2]
+#+begin_exercise
+Na reação química de oxirredução abaixo:
+
+#+begin_export latex
+\begin{reactions*}
+2 KMnO4 + 10 FeSO4 + 8 H2SO4 -> & \\  K2SO4 + 2 MnSO4 + 5 Fe2(SO4)3 + 8 H2O
+\end{reactions*}
+#+end_export
+
+qual é o oxidante e qual é o redutor?
+
+#+begin_export latex
+\blank[blank-style={\phantom{#1}},width=8\linewidth]{}
+#+end_export
+
+#+end_exercise 
+#+begin_solution
+O agente oxidante → FeSO4
+O agente redutor → KMnO4
+#+end_solution
+
+
+
+
+#+ATTR_LATEX: :options [points=2.0]
+#+begin_exercise
+Faça o balanceamento da equação a seguir:
+
+#+begin_export latex
+\begin{reaction*}
+FeSO4 + HNO3 + H2SO4 -> Fe2(SO4)3 + NO + H2O 
+\end{reaction*}
+#+end_export
+#+begin_export latex
+\blank[blank-style={\phantom{#1}},width=8\linewidth]{}
+#+end_export
+#+end_exercise 
+#+begin_solution
+#+begin_export latex
+\begin{reaction*}
+6 FeSO4 + 2 HNO3 + 3 H2SO4 -> 3 Fe2(SO4)3 + 2 NO + 4 H2O
+\end{reaction*}
+#+end_export
+#+end_solution
+
+
+
+
+
+#+ATTR_LATEX: :options [points=2.0]
+#+begin_exercise
+Faça o balanceamento da equação a seguir:
+
+#+begin_export latex
+\begin{reaction*}
+KMnO4 + H2O2 + H2SO4 -> MnSO4 + O2 + K2SO4 + H2O
+\end{reaction*}
+#+end_export
+#+begin_export latex
+\blank[blank-style={\phantom{#1}},width=8\linewidth]{}
+#+end_export
+#+end_exercise 
+#+begin_solution
+#+begin_export latex
+\begin{reaction*}
+4 KMnO4 + 4 H2O2 + 6 H2SO4 -> 4 MnSO4 + 3 O2 + 2 K2SO4 + 2 H2O
+\end{reaction*}
+#+end_export
+#+end_solution
+
+
+
+
+
+
+#+ATTR_LATEX: :options [points=2.0]
+#+begin_exercise
+Faça o balanceamento da equação a seguir:
+
+#+begin_export latex
+\begin{reaction*}
+KMnO4 + Na2SO3 + H2SO4 -> K2SO4 + MnSO4 + Na2SO4 + H2O 
+\end{reaction*}
+#+end_export
+#+begin_export latex
+\blank[blank-style={\phantom{#1}},width=8\linewidth]{}
+#+end_export
+#+end_exercise 
+#+begin_solution
+#+begin_export latex
+\begin{reaction*}
+2 KMnO4 + 5 Na2SO3 + 3 H2SO4 -> K2SO4 + 2 MnSO4 + 5 Na2SO4 +3 H2O 
+\end{reaction*}
+#+end_export
+#+end_solution
+
+
+
+
+
+\collectexercisesstop{Pilhas3-Aberta}

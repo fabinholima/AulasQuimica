@@ -1,0 +1,763 @@
+#+LATEX_HEADER: \DeclareExerciseCollection{RadioatividadeII}
+#+LATEX_HEADER: \DeclareExerciseCollection{RadioatividadeII-P2}
+#+LATEX_HEADER: \DeclareExerciseCollection{RadioatividadeIIOpen}
+
+\collectexercises{RadioatividadeII-P2}
+#+begin_exercise
+A meia-vida é .............
+#+begin_choice
+\choice mudando constantemente.
+\choice metade da vida útil de um núcleo instável.
+\choice o tempo para metade de um núcleo instável decair.
+\choice independente da constante de taxa de decaimento.
+#+end_choice
+#+end_exercise
+#+begin_solution
+#+end_solution
+
+
+#+begin_exercise
+A meia-vida de um isótopo radioativo é de 1,0 minuto. Em um experimento, o número de eventos de decaimento foi monitorado em 1-intervalos de minutos durante um período de 5 minutos. Suponha que 50 eventos de decaimento foram observados no primeiro minuto. No segundo minuto,....... eventos foram observados, e no 5º minuto,..... eventos foram observados.
+#+begin_choice 
+\choice 50, 50 
+\choice 25, 3 
+\choice  25, 25
+\choice 50, 100
+\choice 25, 13
+#+end_choice
+#+end_exercise
+#+begin_solution
+C
+#+end_solution
+
+
+#+begin_exercise
+O urânio-238 decai para formar o tório-234 com meia-vida de $4,5 \times 10^9$ anos. Quantos anos serão necessários para que 75% da o urânio-238 decairá?
+#+begin_choice
+\choice $9,0\times 10^{10}$  anos 
+\choice $4,5 \times 10^9$ anos 
+\choice $4,5 \times 10^{10}$ anos
+\choice $9,0 \times 10^9$ anos
+\choice $3,8 \times 10^9$ anos
+#+end_choice
+#+end_exercise
+#+begin_solution
+B
+#+end_solution
+
+
+#+begin_exercise 
+Trítio, (\isotope{3,H}) é utilizado em placas luminosas de “SAÍDA” localizadas onde não há eletricidade para lâmpadas. Se a meia-vida de o trítio é 12,26 anos, que porcentagem da quantidade original do isótopo resta no sinal após 18,5 anos?
+#+begin_choice 
+\choice 0.632% 
+\choice 63.2% 
+\choice 35.1%
+\choice 1.51%
+\choice 25.0%
+#+end_choice 
+#+end_exercise
+#+begin_solution
+D
+#+end_solution
+
+#+begin_exercise 
+O iodo-131 tem meia-vida de 8,1 dias e é usado como marcador da glândula tireóide. Se um paciente bebe um iodeto de sódio (NaI) contendo iodo-131 em uma terça-feira, quantos dias serão necessários para a concentração de iodo-131 atingir cair para 5,0% de sua concentração inicial?
+#+begin_choice
+\choice 19 dias 
+\choice 0,81 dia 
+\choice 8,1 dias
+\choice 35 dias 
+\choice 25 dias
+#+end_choice 
+#+end_exercise
+#+begin_solution
+D
+#+end_solution
+
+#+begin_exercise
+O fósforo-32 é um isótopo radioativo usado como marcador no fígado. Quanto fósforo-32 foi originalmente usado se restam apenas 3,50 mg em uma amostra após 288 horas? (A meia-vida do fósforo-32 é de 14,3 dias.)
+#+begin_choice 
+\choice 1,96 mg 
+\choice 6,26 mg
+\choice 4,17 mg
+\choice 7,00mg
+\choice 17,9mg
+#+end_choice
+#+end_exercise
+#+begin_solution
+B
+#+end_solution
+
+
+#+begin_exercise
+As medições do carbono 14 nas embalagens de linho do Livro de Isaías nos Manuscritos do Mar Morto indicaram que os pergaminhos continham cerca de 79,5% do carbono-14 encontrado nos tecidos vivos. Aproximadamente quantos anos têm esses pergaminhos? A meia-vida do carbono-14 é de 5.730 anos.
+
+#+begin_choice
+\choice 570 anos
+\choice 1900 anos
+\choice 820 anos
+\choice 4600 anos
+\choice 1300 anos
+#+end_choice
+#+end_exercise
+#+begin_solution
+B
+#+end_solution
+
+
+\collectexercisesstop{RadioatividadeII-P2}
+
+
+
+#+BEGIN_COMMENT
+%%%%%%%% ======== RADIOATIVIDADE Leis de decaimento ========  %%%%%%%%
+#+END_COMMENT
+
+
+
+
+
+\collectexercises{RadioatividadeII}
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Qual é a meia-vida de um isótopo radioativo se uma amostra de 500,0g decai para 62,5g em 24,3 horas?
+
+#+ATTR_LATEX: :options (2) 
+ #+begin_choice
+\choice 8,1 horas
+\choice 6,1 horas
+\choice 12,15 horas
+\choice 5 horas
+\choice 24 horas
+#+end_choice 
+#+end_exercise 
+#+begin_solution
+LETRA A, 8,1 horas 
+#+end_solution
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+O césio 137 é um isótopo radioativo produzido artificialmente. O gráfico a seguir indica a porcentagem desse isótopo em função do tempo
+
+
+#+begin_center
+#+begin_export latex
+	\begin{tikzpicture}
+		\begin{axis}[axis equal=false, grid=major,
+			ylabel={\bfseries Massa de Césio -137},
+			xlabel={\bfseries Tempo (anos)}]
+			\addplot[smooth,color=black,mark=*] coordinates {
+			(0,20)
+			(30,10)
+			(60,5)
+			(90,2.5)
+			(120,1.25)
+			(150, 0.625)
+			};
+		\end{axis}
+	\end{tikzpicture}
+	
+#+end_export
+#+end_center
+
+Qual o tempo de meia vida da amostra?
+
+#+ATTR_LATEX: :options (2) 
+#+begin_choice 
+\choice 20 anos
+\choice 40 anos
+\choice 15 anos
+\choice 25 anos
+\choice 30 anos
+#+end_choice
+
+#+end_exercise 
+#+begin_solution
+LETRA E 30 anos, pois corresponde a metade do tempo de meia vida
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Ao estudar a desintegração radioativa de um elemento, obteve-se uma meia-vida de 4h. Se a
+massa inicial do elemento é 40g, depois de 12h, teremos (em gramas
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 10
+\choice 5
+\choice 8
+\choice 16
+\choice 20
+#+end_choice 
+#+end_exercise
+#+begin_solution
+B
+#+end_solution
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Têm-se 40g do isótopo \isotope{Na,24}. Sabendo-se que a meia-vida deste isótopo é igual a 15 horas,
+depois de 75 horas, qual o percentual de massa radioativa restante?
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 1,25%
+\choice 12,5%
+\choice 0,3125%
+\choice 31,25%
+\choice 3,125%
+#+end_choice 
+#+end_exercise
+#+begin_solution
+E
+#+end_solution
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+O decaimento radioativo de uma amostra de césio - 137 está representado no gráfico a seguir
+
+
+#+begin_center
+#+begin_export latex
+\begin{tikzpicture}
+		\begin{axis}[axis equal=false, grid=major,
+			ylabel={\bfseries Massa de Césio -137},
+			xlabel={\bfseries Tempo (anos)}]
+			\addplot[smooth,color=black,mark=*] coordinates {
+			(0,100)
+			(20,50)
+			(40,25)
+			(60,12.5)
+			(80,6.25)
+			(100,3.125)
+			};
+		\end{axis}
+\end{tikzpicture}
+#+end_export
+#+end_center    
+    
+Tendo-se uma amostra com 80g de Cs-137, restarão apenas 5g desse radioisótopo após, aproximadamente:
+
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 16 anos
+\choice 30 anos
+\choice 40 anos
+\choice 80 anos
+\choice 120 anos
+#+end_choice 
+
+#+end_exercise
+#+begin_solution
+D
+#+end_solution
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Um ambiente foi contaminado com fósforo radioativo, \isotope{32,P}. A meia-vida desse radioisótopo é de 14 dias. A radioatividade por ele emitida deve cair a 12,5% de seu valor original após:
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 7 dias
+\choice 14 dias
+\choice 42 dias
+\choice 51 dias
+\choice 125 dias
+#+end_choice 
+#+end_exercise
+#+begin_solution
+C
+#+end_solution
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+O acidente do reator nuclear de Chernobyl, em 1986, lançou para a atmosfera grande quantidade de \isotope{90,Sr} radioativo, cuja meia-vida é de 28 anos. Supondo ser este isótopo a única contaminação radioativa e sabendo que o local poderá ser considerado seguro quando a quantidade de \isotope{90,Sr} se reduzir, por desintegração, a 1/16 da quantidade inicialmente presente, o local poderá ser habitado novamente a partir do ano de:
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 2014
+\choice 2098
+\choice 2266
+\choice 2986
+\choice 3000
+#+end_choice 
+
+#+end_exercise
+#+begin_solution
+A
+#+end_solution
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Uma certa massa inicial do radioisótopo trítio reduz-se a 200g em 36 anos. A mesma massa inicial leva 60 anos para se reduzir a 50g.
+A meia-vida do trítio é igual a:
+
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 60 anos
+\choice 36 anos
+\choice 30 anos
+\choice 18 anos
+\choice 12 anos
+#+end_choice 
+
+#+end_exercise
+#+begin_solution
+E
+#+end_solution
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A meia-vida do isótopo \isotope{226,Ra} é igual a 2310 anos. Depois de quanto tempo a atividade de uma amostra desse isótopo radioativo se reduz de 75% da atividade radioativa inicial?
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 2310 anos.
+\choice 4620 anos.
+\choice 9200 anos.
+\choice 6930 anos.
+\choice 231 anos.
+#+end_choice 
+
+#+end_exercise
+#+begin_solution
+B
+#+end_solution
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+O lixo radioativo ou nuclear é resultado da manipulação de materiais radioativos, utilizados hoje na agricultura, na indústria, na medicina, em pesquisas científicas, na produção de energia, etc. Embora a radioatividade se reduza com o tempo, o processo de decaimento radioativo de alguns materiais pode levar milhões de anos. Por isso, existe a necessidade de se fazer um descarte adequado e controlado de resíduos dessa natureza. A taxa de decaimento radioativo é medida em termos de um tempo necessário para que uma amostra perca metade de sua radioatividade original. O gráfico seguinte representa a taxa de decaimento radioativo do rádio – 226, elemento químico pertencente à família dos metais alcalinoterrosos e que foi utilizado durante muito tempo na medicina.
+
+#+begin_export latex
+\begin{center}
+\begin{tikzpicture}
+	\begin{axis}[
+	%	width=10cm,height=7cm,
+		%grid=both,
+		%	enlargelimits=true,
+		%scale only axis,
+		axis x line =middle,
+	    axis y line = middle,
+		inner axis line style={=>},
+	%	domain = 2:12,
+	%	samples = 11,
+		xlabel={Anos},
+		%ylabel={kg},
+		ymin=0,
+		xmin=0,
+		xlabel style={yshift=-10mm,},
+		ylabel style={xshift=-12mm,},
+		%yticklabel={$\pgfmathprintnumber{\tick}/{2}$},
+		%yticklabel={1, $\frac{1}{2}$}
+		xtick = {0, 1620, 3240, 4860},
+	%	ytick = {1,4, 2, 1},
+		ytick = {100,50, 25, 12.5},
+	%	yticklabel={$\pgfmathprintnumber{\tick}$\%}
+		yticklabels={1 kg, $\sfrac{1}{2}$ kg,$\sfrac{1}{4}$ kg, $\sfrac{1}{8}$ kg},
+		ymax=120,
+		xmax=6480
+		]
+		\addplot+[black,smooth] coordinates {
+		(00,100) (1620,50) (3240,25) (4860,12.5)
+		};
+		\draw[dashed](163,0)--(163,50);
+		\draw[dashed](163,50)--(0,50);
+		\draw[dashed](325,0)--(325,25);
+		\draw[dashed](325,25)--(0,25);
+		\draw[dashed](485,0)--(485,12.5);
+		\draw[dashed](485,12.5)--(0,12.5);
+		\draw (55,105)  node[minimum size=0.5cm,draw,fill=gray] {};
+		%\draw (195,56)  node[minimum size=0.5cm,draw] {};
+		\draw[path picture={\fill[gray] (path picture bounding box.south west)
+			rectangle (path picture bounding box.east);}] (180,51) rectangle  ++ (37,11);
+		%\draw (378,29)  node[minimum size=0.5cm,draw] {};
+%		\draw (378,27)  node[minimum height=0cm,minimum width=0.5cm,draw,fill=red] {};
+		 %\draw (378,27)	node[text width=0.3cm,text height=0.05cm,fill=green]{};
+		 \draw[draw] (357,24) rectangle  ++ (39,11);
+		 \draw[draw,fill=gray] (357,24) rectangle  ++ (39,3);
+		 \draw[draw] (502,10) rectangle  ++ (39,11);
+		 \draw[draw,fill=gray] (502,10) rectangle  ++ (39,1);
+		\end{axis}
+\end{tikzpicture}
+\end{center}
+#+end_export
+
+As informações fornecidas mostram que:
+
+
+
+#+ATTR_LATEX: :options (1)
+#+begin_choice
+\choice Quanto maior a meia-vida de uma substância, mais rápido ela se desintegra.
+\choice Apenas 1/8 de uma amostra de rádio – 226 terá decaído ao final de 4860 anos.
+\choice Metade da quantidade original de rádio – 226, ao final de 3240 anos, ainda estará por decair.
+\choice Restará menos de 1% de rádio – 226 em qualquer amostra dessa substância após decorridas 3 meias-vidas.
+\choice A amostra de rádio – 226 diminui a sua quantidade pela metade a cada intervalo de 1620 anos devido à desintegração radioativa.
+#+end_choice 
+#+end_exercise
+#+begin_solution
+E
+#+end_solution
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Considere os seguintes materiais:
+
+#+ATTR_LATEX: :options [label=\Roman*]
+1. Artefato de bronze (confeccionado pela civilização inca).
+2. Mangueira centenária (que ainda produz frutos nas ruas de Belém do Pará).
+3. Corpo humano mumificado (encontrado em tumbas do Egito antigo).
+
+O processo de datação, por carbono -14, é adequado para estimar a idade apenas:
+
+#+ATTR_LATEX: :options (1)
+#+begin_choice
+\choice do material I.
+\choice do material II.
+\choice do material III.
+\choice dos materiais I e II.
+\choice do material II e III.
+#+end_choice 
+#+end_exercise
+#+begin_solution
+C
+#+end_solution
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Um isótopo radioativo de tálio (Tl) emite partícula beta e se transforma em chumbo (Pb) estável. A meiavida desse isótopo é 3,1 minutos. Partindo-se de uma amostra de Tl puro, verifica-se a presença de 7 gramas de Pb nessa amostra depois de 9,3 minutos. A massa de Tl na amostra Inicial era:
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 7 g
+\choice 8 g
+\choice 14 g
+\choice 28 g
+\choice 56 g
+#+end_choice 
+#+end_exercise
+#+begin_solution
+B
+#+end_solution
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A meia-vida do rádio é 1620 anos. Que porcentagem aproximada de uma dada quantidade de rádio estará desintegrada após 162 anos?
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 6,7%
+\choice 20,1%
+\choice 33,5%
+\choice 93,3%
+\choice 100% 
+#+end_choice 
+#+end_exercise
+#+begin_solution
+A
+#+end_solution
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+O isótopo radioativo Cu-64 sofre decaimento $\upbeta$, conforme representado:
+
+#+begin_export latex
+\begin{reaction*}
+\isotope{64,Cu} ->  \isotope{64,Zn} + {}_{-1}^0\upbeta
+\end{reaction*}
+#+end_export
+
+A partir de amostra de 20,0 mg de Cu-64, observa-se que, após 39 horas, formaram-se 17,5 mg de Zn-64. Sendo assim, o tempo necessário para que metade da massa inicial de Cu-64 sofra decaimento $\upbeta$ é cerca de
+
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 6 horas.
+\choice 13 horas.
+\choice 19 horas.
+\choice 26 horas.
+\choice 52 horas.
+#+end_choice 
+
+#+end_exercise
+#+begin_solution
+B
+#+end_solution
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Um radioisótopo, para ser adequado para fins terapêuticos, deve possuir algumas qualidades, tais como: emitir radiação gama (alto poder de penetração) e meia-vida apropriada. Um dos isótopos usados é o tecnécio-99, que emite este tipo de radiação e apresenta meia-vida de 6 horas. Qual o tempo necessário para diminuir a emissão dessa radiação para 3,125 % da intensidade inicial?
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 12 horas.
+\choice 18 horas.
+\choice 24 horas.
+\choice 30 horas.
+\choice 36 horas
+#+end_choice 
+
+#+end_exercise
+#+begin_solution
+D
+#+end_solution
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+De vilão a mocinho! Assim pode ser considerado o fenômeno da radioatividade. As radiações podem causar sérios danos biológicos. Produzem e são causadoras de leucemia e de câncer. Entretanto, em doses controladas, a radiação é utilizada para combater e, em alguns casos, eliminar essas doenças. Considerando-se a cinética das emissões radioativas, se a massa de um isótopo radioativo se reduz a 12,5% do valor inicial depois de um ano, e considerando-se que um ano tem exatamente 12 meses, então a meiavida desse isótopo, em meses, é:
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 8
+\choice 6
+\choice 4
+\choice 3
+\choice 2
+#+end_choice 
+
+#+end_exercise
+#+begin_solution
+C
+#+end_solution
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Por meio de estudos pormenorizados realizados por bioantropólogos mexicanos, constatou-se que as feições do fóssil humano mais antigo já encontrado no México eram muito parecidas com aborígines australianos. O fóssil em questão, com 12 mil anos, é o crânio conhecido como Mulher de Penón. A determinação da idade de um fóssil é baseada no decaimento radioativo do isótopo carbono-14, cujo tempo de meia vida é de aproximadamente 6000 anos. A percentagem de carbono-14 encontrada atualmente no fóssil em relação àquela contida no momento da morte é aproximadamente igual a:
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 25 %
+\choice 37 %
+\choice 50 %
+\choice 75 %
+\choice 90 %
+#+end_choice 
+
+#+end_exercise
+#+begin_solution
+A
+#+end_solution
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Qual o tempo necessário para que um elemento radioativo tenha sua massa diminuída em 96,875%?
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 3 meias-vidas.
+\choice 10 vidas-médias.
+\choice 5 meias-vidas.
+\choice 96,875 anos.
+\choice 312 anos.
+#+end_choice 
+#+end_exercise
+#+begin_solution
+C
+#+end_solution
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Na conferência de 1998, a Sociedade Nuclear Europeia mostrou muita preocupação acerca do perigo do lixo nuclear. Por exemplo, a desintegração do isótopo \isotope{90,Sr}, um dos elementos mais nocivos à vida, se dá através de emissões beta ($\upbeta$ ) de elevada energia, cuja meia-vida é de 28 anos. Considerando uma massa inicial de 24 mg desse isótopo, a massa aproximada em miligramas, após 100 anos, será:
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 1,0
+\choice 2,0
+\choice 4,0
+\choice 8,0
+\choice 16
+#+end_choice 
+
+#+end_exercise
+#+begin_solution
+B
+#+end_solution
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Um elemento radioativo com Z = 53 e A = 131 emite partículas alfa e beta, perdendo 75% de sua atividade em 32 dias. Detemine o tempo de meia-vida deste radioisótopo
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 8 dias
+\choice 16 dias
+\choice 5 dias
+\choice 4 dias
+\choice 2 dias
+#+end_choice 
+
+#+end_exercise
+#+begin_solution
+B
+#+end_solution
+
+
+
+
+
+\collectexercisesstop{RadioatividadeII}
+
+#+begin_comment
+%%%%%%%%%%%%% QUESTÕES ABERTAS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+#+end_comment
+
+
+\collectexercises{RadioatividadeIIOpen}
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Glenn T. Seaborg é um renomado cientista que foi agraciado com o Prêmio Nobel de Química em 1951, por seus trabalhos em radioquímica. Em 1974 foi sintetizado, nos Estados Unidos, o elemento de número atômico 106 que, em sua homenagem, teve como nome proposto Seaborgium (\isotope{Sg}).
+#+begin_choice 
+\choice O bombardeio do \isotope{249,Cf} por um elemento X produz o \isotope{263,Sg} e 4 nêutrons. Determine o número atômico e o número de massa do elemento X.
+\choice Sabendo que um determinado isótopo do 106Sg perde 50% de sua massa inicial em 10 segundos, calcule a massa final de uma amostra de 800 gramas deste isótopo após 30 segundos.
+#+end_choice
+#+end_exercise 
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A Tomografia PET permite obter imagens do corpo humano com maiores detalhes, e menor exposição à radiação, do que as técnicas tomográficas atualmente em uso. A técnica PET utiliza compostos marcados com \isotope{11,C}. Este isótopo emite um pósitron, $_{+1}e^0$, formando um novo núcleo, em um processo com tempo de meia-vida de 20,4 minutos. O pósitron emitido captura rapidamente um elétron, $_1e^0$, e se aniquila, emitindo energia na forma de radiação gama.
+
+#+begin_choice
+\choice Escreva a equação nuclear balanceada que representa a reação que leva à emissão do pósitron. O núcleo formado no processo é do elemento B(Z=5), C(Z=6), N(Z=7) ou O(Z=8)?
+\choice  Determine por quanto tempo uma amostra de \isotope{11,C} pode ser usada, até que sua atividade radioativa se reduza a 25% de seu valor inicial.
+#+end_choice 
+
+#+end_exercise
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Para diagnósticos de anomalias da glândula tireóide, por cintilografia, deve ser introduzido, no paciente, iodeto de sódio, em que o ânion iodeto é proveniente de um radioisótopo do iodo (número atômico 53 e número de massa 131). A meia-vida efetiva desse isótopo (tempo que decorre para que metade da quantidade do isótopo deixe de estar presente na glândula) é de aproximadamente 5 dias.
+
+#+begin_choice
+\choice O radioisótopo em questão emite radiação . O elemento formado nessa emissão é \isotope{52,Te}, \isotope{127,I} ou \isotope{54,Xe}? Justifique. Escreva a equação nuclear correspondente.
+
+\choice Suponha que a quantidade inicial do isótopo na glândula (no tempo zero) seja de 1,000 g e se reduza, após certo tempo, para 0,125 g. Com base nessas informações, trace a curva que dá a quantidade do radioisótopo na glândula em função do tempo, colocando os valores nas coordenadas adequadamente escolhidas.
+#+end_choice
+
+#+begin_export latex
+
+\begin{tikzpicture}
+	\begin{axis}[grid=both, ticks=none,axis x line=bottom,axis y line=left
+			,]
+\end{axis}
+\end{tikzpicture}
+#+end_export
+
+#+end_exercise
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A bomba atômica se baseia na fissão de núcleos pesados, formando dois núcleos mais leves. O urânio-235 pode sofrer fissão de acordo com a equação:
+#+begin_export latex
+\begin{equation*}
+\prescript{}{92}{\mathrm{U}}^{235} + \prescript{}{0}{\mathrm{n}}^1 \ch{->} \prescript{}{38}{\mathrm{Sr}}^{94} + \prescript{}{Z}{\mathrm{X}^A} + 3 \prescript{}{0}{\mathrm{n}}^1
+\end{equation*}
+#+end_export
+
+Qual o número de nêutrons do nuclídeo $\prescript{}{Z}{\mathrm{X}^A}$
+
+#+end_exercise
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Recentemente, a imprensa noticiou o caso do envenenamento por polônio-210 de um exagente secreto soviético. Sabe-se, em relação a esse isótopo, que:
+
+- ao se desintegrar, emite uma partícula alfa;
+- em 420 dias, uma amostra de 200 mg decai para 25 mg;
+- o isótopo formado nesse decaimento forma um íon divalente.
+
+Calcule o tempo de meia-vida do polônio-210.
+#+end_exercise
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+"(...) A Mir está deixando os cientistas intrigados: minúsculas partículas de urânio empobrecido foram detectadas na estação. Três hipóteses foram levantadas pela equipe de pesquisadores: o urânio seria de armas nucleares testadas no espaço na década de 60, restos de satélites, ou vestígios de uma supernova. (...) Foram descobertos sinais de dois isótopos radioativos - \isotope{214,Pb} e \isotope{214,Bi} - ambos resultantes do \isotope{238,U}"
+
+(JB, 2001).
+.
+
+Considerando que a meia-vida do \isotope{214,Bi} é de 20 meses calcule, a partir de uma amostra com 1,000 g de \isotope{214,Bi}, quantos miligramas restarão depois de 5 anos? 
+
+#+end_exercise
+#+begin_solution
+125 mg
+#+end_solution
+
+
+\collectexercisesstop{RadioatividadeIIOpen}

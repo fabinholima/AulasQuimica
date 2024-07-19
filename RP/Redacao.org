@@ -1,0 +1,50 @@
+
+
+
+#+LATEX_HEADER: \DeclareExerciseCollection{Redacao}
+
+
+
+\collectexercises{Redacao}
+
+
+#+begin_exercise
+Elabore um texto disssertativo cujo tema seja *Avanços Tecnológicos e seu Impacto Social*: Discuta como as inovações tecnológicas, como a automação e a inteligência artificial, estão remodelando empregos, educação e as interações sociais? *Escreva no mínimo 25 linhas*.
+
+
+#+begin_export latex
+\linenumbers
+%\blank[blank-style={\phantom{#1}},width=8\linewidth]{}
+\blank[width=10.8\linewidth,linespread=1.5]{}
+\blank[width=10.8\linewidth,linespread=1.5]{}
+\blank[width=10.8\linewidth,linespread=1.5]{}
+\blank[width=12.8\linewidth,linespread=1.5]{}
+#+end_export 
+#+end_exercise
+
+
+
+
+
+#+begin_exercise
+Elabore um texto disssertativo cujo tema seja *Desafios da Medicina Moderna*: O acesso à saúde, os avanços na medicina e as disparidades globais - como a ciência pode equilibrar essas questões para atender às necessidades de todos? *Escreva no mínimo 25 linhas*.
+
+
+#+begin_export latex
+\linenumbers
+%\blank[blank-style={\phantom{#1}},width=8\linewidth]{}
+\blank[width=10.8\linewidth,linespread=1.5]{}
+\blank[width=10.8\linewidth,linespread=1.5]{}
+\blank[width=10.8\linewidth,linespread=1.5]{}
+\blank[width=12.8\linewidth,linespread=1.5]{}
+#+end_export 
+#+end_exercise
+
+
+
+
+
+
+
+\collectexercisesstop{Redacao}
+

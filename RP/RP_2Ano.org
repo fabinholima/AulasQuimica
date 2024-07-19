@@ -1,0 +1,425 @@
+#+LATEX_HEADER: \DeclareExerciseCollection{RP2Ano}
+
+#+BEGIN_COMMENT
+APC 2 Ano 
+#+end_comment
+
+ \collectexercises{RP2Ano}
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Qual é a unidade de medida mais comum para expressar a concentração de uma solução?
+
+#+begin_choice 
+\choice Molaridade (M)
+\choice Porcentagem em massa (% m/m)
+\choice Porcentagem em volume (% v/v)
+\choice Molalidade (m)
+#+end_choice
+#+end_exercise 
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A molaridade (M) de uma solução é definida como:
+
+#+begin_choice
+\choice A quantidade de soluto em moles por litro de solvente.
+\choice A quantidade de soluto em gramas por litro de solvente.
+\choice A quantidade de soluto em moles por grama de solvente.
+\choice A quantidade de soluto em gramas por grama de solvente.
+#+end_choice
+#+end_exercise 
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Qual das seguintes opções indica a concentração de uma solução em porcentagem em massa (% m/m)?
+
+#+begin_choice
+\choice 5 g/L
+\choice 10 g/100 mL
+\choice 20 g/500 mL
+\choice 30 g/100 g
+#+end_choice
+#+end_exercise
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Qual das seguintes opções indica a concentração de uma solução em porcentagem em volume (% v/v)?
+
+#+begin_choice
+\choice 10 mL/L
+\choice 20 mL/100 mL
+\choice 30 mL/500 mL
+\choice 40 mL/100 g
+#+end_choice
+#+end_exercise 
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A molalidade (m) de uma solução é definida como:
+
+#+begin_choice 
+\choice A quantidade de soluto em moles por litro de solvente.
+\choice A quantidade de soluto em gramas por litro de solvente.
+\choice A quantidade de soluto em moles por grama de solvente.
+\choice A quantidade de soluto em gramas por grama de solvente.
+#+end_choice
+#+end_exercise
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Qual das seguintes opções indica a concentração de uma solução em molalidade (m)?
+
+#+begin_choice
+\choice 1 mol/L
+\choice 2 mol/100 mL
+\choice  3 mol/500 mL
+\choice 4 mol/kg
+#+end_choice
+#+end_exercise
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Qual é a diferença entre solução diluída e solução concentrada?
+
+#+begin_choice
+\choice A solução diluída contém menos soluto em relação ao solvente.
+\choice A solução diluída contém mais soluto em relação ao solvente.
+\choice A solução concentrada contém menos soluto em relação ao solvente.
+\choice A solução concentrada contém mais soluto em relação ao solvente.
+#+end_choice
+#+end_exercise
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A diluição de uma solução envolve:
+
+#+begin_choice 
+\choice Adicionar mais soluto à solução.
+\choice Adicionar mais solvente à solução.
+\choice Retirar soluto da solução.
+\choice Retirar solvente da solução.
+#+end_choice
+#+end_exercise 
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Qual das seguintes opções indica a concentração de uma solução em partes por milhão (ppm)?
+#+begin_choice
+\choice 1 g/L
+\choice 1 mg/L
+\choice 1 mg/mL
+\choice 1 mg/kg
+#+end_choice
+#+end_exercise
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+O que é uma solução saturada?
+
+#+begin_choice
+\choice Uma solução que contém a maior quantidade possível de soluto dissolvido a uma dada temperatura.
+\choice Uma solução que contém uma quantidade menor de soluto em relação ao solvente.
+\choice Uma solução que contém uma quantidade maior de solvente em relação ao soluto.
+\choice Uma solução que contém apenas um soluto dissolvido.
+#+end_choice
+#+end_exercise 
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A termoquímica é a área da química que estuda:
+
+#+begin_choice
+\choice As reações químicas em equilíbrio.
+\choice As propriedades físicas dos compostos químicos.
+\choice As mudanças de energia associadas às reações químicas.
+\choice A velocidade das reações químicas.
+#+end_choice
+#+end_exercise
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A energia armazenada nos vínculos químicos dos reagentes e produtos de uma reação química é chamada de:
+
+#+begin_choice
+\choice Energia térmica.
+\choice Energia cinética.
+\choice Energia potencial.
+\choice Energia de ligação.
+#+end_choice
+#+end_exercise 
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A variação de entalpia (@@latex: $\Delta$H@@) de uma reação química indica:
+
+#+begin_choice
+\choice A quantidade de energia liberada ou absorvida durante a reação.
+\choice A velocidade da reação.
+\choice A concentração dos reagentes e produtos.
+\choice A temperatura na qual a reação ocorre.
+#+end_choice
+#+end_exercise 
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Quando uma reação química libera energia para o ambiente, é considerada uma reação:
+
+#+begin_choice
+\choice Endotérmica.
+\choice Exotérmica.
+\choice Reversível.
+\choice Equilibrada.
+#+end_choice
+#+end_exercise 
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Qual é a definição correta de entalpia (∆H)?
+
+#+begin_choice
+\choice A energia total de um sistema.
+\choice A energia cinética de um sistema.
+\choice A energia potencial de um sistema.
+\choice A energia térmica de um sistema.
+#+end_choice
+#+end_exercise 
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A lei da conservação de energia afirma que:
+
+#+begin_choice
+\choice A energia total de um sistema isolado permanece constante.
+\choice A energia de um sistema isolado é sempre zero.
+\choice A energia de um sistema aumenta com o tempo.
+\choice A energia de um sistema diminui com o tempo.
+#+end_choice
+#+end_exercise 
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Qual é a unidade de medida mais comum para expressar a variação de entalpia (@@latex: $\Delta$H@@) de uma reação química?
+
+
+#+begin_choice
+\choice J/mol
+\choice kJ/mol
+\choice cal/mol
+\choice kcal/mol
+#+end_choice
+#+end_exercise 
+
+
+    
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Qual é a relação entre a entalpia (∆H) e a energia interna (U) de um sistema?
+
+#+begin_export latex
+\begin{choice}
+\choice $\Delta$H = U + PV
+\choice $\Delta$H = U - PV
+\choice $\Delta$H = U + RT
+\choice $\Delta$H = U - RT
+\end{choice}
+#+end_export
+#+end_exercise 
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise    
+A reação química que ocorre espontaneamente e libera energia é considerada:
+
+#+begin_choice
+\choice Exotérmica.
+\choice Endotérmica.
+\choice Reversível.
+\choice Equilibrada.
+#+end_choice
+#+end_exercise 
+
+
+
+    
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A lei de Hess afirma que:
+
+#+begin_choice
+\choice A variação de entalpia de uma reação depende apenas do estado inicial e final dos reagentes e produtos.
+\choice A variação de entalpia de uma reação depende da velocidade da reação.
+\choice A variação de entalpia de uma reação depende apenas da temperatura de reação.
+\choice A variação de entalpia de uma reação depende da pressão de reação.
+#+end_choice
+#+end_exercise 
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A Lei de Hess está relacionada a:
+
+#+begin_choice
+\choice Equilíbrio químico.
+\choice Eletroquímica.
+\choice Termoquímica.
+\choice Cinética química.
+#+end_choice
+#+end_exercise 
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A Lei de Hess afirma que:
+
+#+begin_choice
+\choice A energia total de um sistema isolado permanece constante.
+\choice A energia de um sistema isolado é sempre zero.
+\choice A energia de um sistema aumenta com o tempo.
+\choice A variação de entalpia de uma reação é independente do caminho seguido.
+#+end_choice
+#+end_exercise 
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A Lei de Hess é aplicada principalmente em relação a:
+
+#+begin_choice
+\choice Reações químicas exotérmicas.
+\choice Reações químicas endotérmicas.
+\choice Reações químicas em equilíbrio.
+\choice Reações químicas de decomposição.
+#+end_choice
+#+end_exercise 
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A Lei de Hess permite calcular a variação de entalpia de uma reação química:
+
+#+begin_choice
+\choice A partir das massas dos reagentes.
+\choice A partir das massas dos produtos.
+\choice Usando a equação de balanço da reação química.
+\choice Utilizando as variações de entalpia de reações químicas conhecidas.
+#+end_choice
+#+end_exercise 
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A Lei de Hess é baseada no princípio da aditividade das entalpias, que significa que:
+
+#+begin_choice 
+\choice A entalpia de uma reação é igual à soma das entalpias dos reagentes.
+\choice A entalpia de uma reação é igual à soma das entalpias dos produtos.
+\choice A entalpia de uma reação é igual à soma das variações de entalpia das etapas intermediárias.
+\choice A entalpia de uma reação é igual à soma das entalpias de formação dos produtos.
+#+end_choice
+#+end_exercise 
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Qual é a fórmula matemática que expressa a Lei de Hess?
+
+#+begin_export latex
+\begin{choice}
+\choice $\Delta$H = H(produtos) - H(reagentes)
+\choice $\Delta$H = $\Sigma$H(produtos) - $\Sigma$H(reagentes)
+\choice ∆H = H(reagentes) - H(produtos)
+\choice ∆H = $\Sigma$H(reagentes) - $\Sigma$H(produtos)
+\end{choice}
+#+end_export
+#+end_exercise 
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A Lei de Hess é particularmente útil quando:
+
+#+begin_choice
+\choice A reação química ocorre em condições de temperatura e pressão padrão.
+\choice A reação química é exotérmica.
+\choice A reação química não pode ser medida experimentalmente.
+\choice A reação química envolve várias etapas intermediárias.
+#+end_choice
+#+end_exercise 
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A Lei de Hess pode ser aplicada a reações químicas que ocorrem em:
+
+#+begin_choice
+\choice Meio aquoso.
+\choice Solventes orgânicos.
+\choice Condições de temperatura e pressão elevadas.
+\choice Condições de temperatura e pressão padrão.
+#+end_choice
+#+end_exercise 
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A Lei de Hess permite calcular a variação de entalpia de uma reação química, desde que se conheça:
+
+#+begin_choice
+\choice A variação de temperatura da reação.
+\choice A concentração dos reagentes e produtos.
+\choice As entalpias de formação dos reagentes e produtos.
+\choice A velocidade da reação química.
+#+end_choice
+#+end_exercise
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A Lei de Hess é aplicada em qual área da química?
+
+#+begin_choice
+\choice Eletroquímica.
+\choice Físico-química.
+\choice Química orgânica.
+\choice Termodinâmica.
+#+end_choice
+#+end_exercise 
+
+
+ \collectexercisesstop{RP2Ano}

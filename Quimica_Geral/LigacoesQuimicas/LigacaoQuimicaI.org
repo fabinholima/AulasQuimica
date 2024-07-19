@@ -1,0 +1,197 @@
+
+#+LATEX_HEADER: \DeclareExerciseCollection{LigacaoQuimica}
+
+#+BEGIN_COMMENT
+================ LIGACAO QUIMICA ===================================
+#+END_COMMENT
+
+
+
+\collectexercises{LigacaoQuimica}
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Considere o elemento químico A com 20 prótons no núcleo e o elemento B de número atômico 17. Quando esses dois átomos se combinam quimicamente, formam um composto. A fórmula química do composto formado, considerando que o cátion é representado antes do ânion, e o tipo de ligação realizada entre esses átomos são, respectivamente:
+#+begin_choice
+\choice AB, Ligação Iônica.
+\choice \ch{AB2}, Ligação Iônica.
+\choice \ch{AB2}, Ligação Covalente.
+\choice \ch{B2A}, Ligação Covalente.
+\choice \ch{A2B}, Ligação Iônica.
+#+end_choice 
+#+end_exercise
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+O sal de cozinha (\ch{NaC$\ell$}), o ácido clorídrico (\ch{HC$\ell$}) e a glicose (\ch{C6H12O6}) apresentam em suas estruturas, respectivamente, ligações do tipo.
+
+#+begin_choice
+\choice iônica, iônica e iônica.
+\choice covalente, covalente e covalente.
+\choice metálica, covalente e covalente.
+\choice iônica, covalente e covalente.
+\choice iônica, metálica e covalente.
+#+end_choice
+#+end_exercise
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A alternativa que apresenta, respectivamente, exemplos de substâncias com ligação iônica, covalente polar, covalente apolar e metálica é:
+#+begin_choice
+\choice \ch{AgC$\ell$}, \ch{O2}, \ch{H2}, \ch{Fe2O3}.
+\choice \ch{BF3}, \ch{Br2}, HF, Mn.
+\choice \ch{BeC$\ell$2}, \ch{CO2}, \ch{CH4}, Fe.
+\choice MgO, \ch{H2O}, \ch{I2}, \ch{A$\ell$}.
+\choice \ch{Ca(OH)2}, \ch{HC$\ell$}, \ch{O3}, SiC
+#+end_choice
+#+end_exercise 
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+O dióxido de carbono (\ch{CO2}) é um gás essencial no globo terrestre. Sem a presença desse gás, o globo seria gelado e vazio. Porém, quando ele é inalado em concentração superior a 10%, pode levar o indivíduo à morte por asfixia. Esse gás apresenta em sua molécula um número de ligações covalentes igual a:
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice 
+\choice 4.
+\choice 2.
+\choice 1.
+\choice 3.
+\choice 0.
+#+end_choice 
+#+end_exercise
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Os compostos formados pelos pares Mg e \ch{C$\ell$}; Ca e O; Li e O; K e Br possuem fórmulas cujas proporções entre os cátions e os ânions são, respectivamente:
+
+Dados: \ch{3Li}; \ch{8O}; \ch{12Mg}; \ch{17C$\ell$}; \ch{19K}; \ch{20Ca}; \ch{35Br}.
+
+#+begin_choice
+\choice 1:1     2:2     1:1     1:2.
+\choice 1:2     1:2     1:1     1:1.
+\choice 1:1     1:2     2:1     2:1.
+\choice 1:2     1:1     2:1     1:1.
+\choice 2:2     1:1     2:1     1:1.
+#+end_choice
+#+end_exercise
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+O alumínio (Z=13) forma com um elemento químico E um composto iônico na proporção de 1:3. O elemento E pode ter número atômico:
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice 
+\choice 11.
+\choice 3.
+\choice 9.
+\choice 31.
+\choice 5.
+#+end_choice
+#+end_exercise
+#+begin_solution
+9
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+As propriedades exibidas por um certo material podem ser explicadas pelo tipo de ligação química presente entre suas unidades formadoras. Em uma análise laboratorial, um químico identificou para um certo material as seguintes propriedades:
+- Alta temperatura de fusão e ebulição
+- Boa condutividade elétrica em solução aquosa
+- Mau condutor de eletricidade no estado sólido
+  A partir das propriedades exibidas por esse material, assinale a alternativa que indica o tipo de ligação predominante no mesmo:
+#+begin_export latex
+\begin{choice}(2)
+\choice metálica
+\choice covalente
+\choice dipolo induzido
+\choice iônica
+\choice covalente coordenada
+\end{choice}
+#+end_export
+#+end_exercise
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Geralmente os átomos compartilham, ganham ou perdem elétrons a fim de atingir o octeto, ou seja, oito elétrons na última camada, como a maioria dos gases nobres. Contudo existem exceções à regra do octeto, como:
+
+1. Moléculas com número ímpar de elétrons.
+2. Moléculas com deficiência de elétrons.
+3. Moléculas com expansão do octeto.
+
+Assinale a alternativa onde ocorrem, não respectivamente, essas três situações:
+#+begin_export latex
+\begin{choice}(1)
+\choice  \ch{BF3} – \ch{NO2} – \ch{NH3}.
+\choice  \ch{BF3} – NO – \ch{PC$\ell$5}.
+\choice  \ch{BeC$\ell$2} – \ch{C$\ell$O2} – \ch{PC$\ell$3}.
+\choice  \ch{BeC$\ell$2} – \ch{CHC$\ell$3} – \ch{NH4}
+\choice  nenhum das alternativas
+\end{choice}
+#+end_export
+#+end_exercise
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Para a realização de uma determinada atividade experimental, um estudante necessitou de um material que possuísse propriedades típicas de substâncias dúcteis, maleáveis, insolúveis em água e boas condutoras térmicas. Um material com essas propriedades resulta da ligação entre átomos de
+#+begin_export latex
+\begin{choice} (2)
+\choice Cu e Zn
+\choice Na e \ch{C$\ell$}
+\choice Fe e O
+\choice F e Xe
+\choice C e Si
+\end{choice}
+#+end_export
+#+end_exercise
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Considere os átomos X, com número atômico 13, e os átomos Y com número atômico 8. Entre esses átomos forma-se um composto com a seguinte fórmula:
+#+begin_export latex
+\begin{choice}(2)
+\choice  \ch{X3Y2}
+\choice \ch{X2Y3}
+\choice  XY
+\choice \ch{X4Y3}
+\choice \ch{X2Y5}
+\end{choice}
+#+end_export
+#+end_exercise
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+O elemento “A” possui número atômico igual a 6, enquanto o elemento “B” possui número atômico igual a 8. A molécula que representa corretamente o composto formado por esses dois elementos é:
+#+begin_export latex
+\begin{choice}(2)
+\choice AB
+\choice  BA
+\choice \ch{A2B}
+\choice \ch{AB2}
+\choice \ch{B2A}
+\end{choice}
+#+end_export
+#+end_exercise
+
+
+\collectexercisesstop{LigacaoQuimica}
+

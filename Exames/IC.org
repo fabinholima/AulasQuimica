@@ -1,0 +1,72 @@
+* Exame de Intervenção Comunitária
+  :PROPERTIES:  
+  :UNNUMBERED: t  
+  :END:
+
+
+#+begin_questions
+
+#+begin_exercise
+*(2,5)* A dengue é um grave problema de saúde pública em nosso país. Seu agente etiológico é?
+#+begin_choice
+\choice por uma bactéria.
+\choice por um protozoário.
+\choice um vírus.
+\choice \answer{um mosquito}.
+#+end_choice 
+#+end_exercise
+
+#+begin_exercise
+*(2,5)* A dengue é uma doença comum em épocas quentes e chuvosas do ano, portanto, é importante que algumas medidas sejam tomadas durante esse período. Todas as alternativas abaixo indicam medidas que ajudam a barrar a reprodução do mosquito transmissor, exceto:
+#+begin_choice
+\choice Limpar sempre as caixas d'água.
+\choice Manter sempre as caixas d'água cobertas.
+\choice Trocar a água dos vasos de planta.
+\choice Secar os pratos de vasos de planta.
+\choice \answer{Colocar telas nas janelas}.
+#+end_choice
+#+end_exercise
+
+#+begin_exercise
+*(2,5)* Dengue é uma doença limitada a certas áreas geográficas.
+
+Essa limitação deve-se
+#+begin_choice
+\choice ao fato de a doença não ser contagiosa.
+\choice  à falta de combate adequado ao transmissor.
+\choice \answer{à distribuição geográfica do inseto transmissor}.
+\choice à inexistência do agente patogênico em regiões tropicais.
+\choice à ausência de alimento para o agente patogênico em certos ambientes.
+#+end_choice
+#+end_exercise
+
+
+#+begin_exercise
+*(2,5)* A dengue é, hoje, uma das doenças mais frequentes no Brasil. É uma doença infecciosa febril aguda, que pode ter curso benigno ou grave dependendo da forma de apresentação. Assim, as formas clínicas da dengue classificam-se em:
+
+#+begin_choice
+\choice Dengue subclínica, dengue negra e dengue grave.
+\choice Dengue do tipo A, B e C.
+\choice Dengue febre do Nilo, dengue hemorrágica e dengue do tipo 1.
+\choice \answer{Formas inaparentes, dengue clássica, febre hemorrágica ou síndrome do choque da dengue}.
+#+end_choice
+#+end_exercise
+
+#+begin_exercise
+*(2,5)* A infecção pelo vírus da dengue, quando sintomática, causa uma doença sistêmica de amplo espectro clínico, variando desde formas com poucos sintomas até quadros graves, podendo evoluir para o óbito. Três fases clínicas podem ocorrer: febril, crítica e de recuperação. A fase crítica pode estar presente em alguns pacientes, podendo evoluir para as formas graves, e tem como característica
+#+begin_choice
+\choice febre que tem duração de dois a sete dias, geralmente alta (39ºC a 40ºC), de início abrupto, associada à cefaleia.
+\choice principalmente a diarreia, que habitualmente não é volumosa. 
+\choice \answer{iniciar no período da defervescência da febre, entre o terceiro e o sétimo dia do início da doença}.
+\choice reabsorção gradual do conteúdo extravasado com progressiva melhora clínica.
+#+end_choice
+#+end_exercise
+
+#+end_questions
+
+
+#+begin_export latex
+%\section*{Gabarito}
+%\getanswers
+#+end_export
+

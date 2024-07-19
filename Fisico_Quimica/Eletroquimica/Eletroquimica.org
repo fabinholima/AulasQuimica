@@ -1,0 +1,264 @@
+
+#+LATEX_HEADER: \DeclareExerciseCollection{Pilhas}
+#+LATEX_HEADER: \DeclareExerciseCollection{Pilhas2}
+
+
+\collectexercises{Pilhas}
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+Considere a pilha representada abaixo:
+
+#+begin_export latex
+\begin{reaction*}
+Cu_{\sld}|Cu^{2+}|~|Fe^{3+}, Fe^{2+}|Pt_{\sld}
+\end{reaction*}
+#+end_export
+
+Assinale a afirmativa *FALSA*:
+
+#+ATTR_LATEX: :options (1)
+#+begin_choice
+\choice A reação de redução que ocorre na pilha é @@latex: \ch{Cu^2+ + 2 e^- <=> Cu} @@;
+\choice O eletrodo de cobre é o anodo;
+\choice A semirreação que ocorre no catodo é @@latex: \ch{Fe^3+ <=> Fe^2+ + e^-} @@;
+\choice A reação total da pilha é @@latex:\ch{2 Fe^{3+} + Cu_{\sld} <=> 2 Fe^{2+} + Cu^2+}@@;
+\choice Os elétrons migram do eletrodo de cobre para o eletrodo de platina.
+#+end_choice 
+#+end_exercise 
+#+begin_solution
+A
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+Numa pilha em que se processa a reação @@latex:\ch{2 Ag^+ + Cu <=> Cu^{2+} + 2 Ag} @@, o valor da força eletromotriz, em condições-padrão, é:
+Dados:
+#+begin_export latex
+\begin{reactions*}
+Cu <=> Cu^{2+} + 2 e^- & \quad  $E^o$= - 0.34 V  \\
+Ag <=> Ag^+ + 1 e^- & \quad  $E^o$= - 0.80 V
+\end{reactions*}
+#+end_export
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice \EPot{1.26} 
+\choice \EPot{0.46}
+\choice \EPot{0.12}
+\choice $\EPot{-0.46}$
+\choice $\EPot{-1.14}$
+#+end_choice 
+#+end_exercise 
+#+begin_solution
+B
+#+end_solution
+
+
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+A descoberta da bateria de lítio viabilizou o uso de marca-passos cardíacos, possibilitando o prolongamento da vida humana. Entre as vantagens que as baterias de lítio oferecem, estão o seu pequeno tamanho, a baixa massa e o elevado conteúdo energético. Considerando as semirreações de redução, podemos afirmar que:
+
+#+begin_export latex
+\begin{reactions*}
+Li_{\aq}^+ + 1 e^- -> Li_{\sld} & \quad $E^o$ = − 3.05 V \\
+Zn^{2+}_{\aq} + 2 e^− -> Zn_{\sld} & \quad $E^o$ = − 0.76 V
+\end{reactions*}
+#+end_export
+
+
+#+ATTR_LATEX: :options (1)
+#+begin_choice
+\choice  o zinco metálico é oxidado espontaneamente, em presença do íon lítio.
+\choice o íon lítio e o zinco metálico, em solução eletrolítica, formam uma célula galvânica.
+\choice  o lítio metálico é um agente oxidante mais forte do que o zinco metálico.
+\choice  o íon lítio sofre redução, em presença do zinco metálico.
+\choice o lítio metálico é um agente redutor mais forte do que o zinco metálico.
+#+end_choice 
+#+end_exercise 
+#+begin_solution
+C
+#+end_solution
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+Durante um experimento em laboratório, os alunos misturaram duas soluções que geraram uma reação redox entre os reagentes. Dados os elementos envolvidos na reação, é necessário balancear a equação redox dada:
+
+#+begin_export latex
+\begin{reaction*}
+Cu_{\sld} + HNO3_{\aq} -> Cu(NO3)2_{\aq} + NO_{\aq} + H2O_{\lqdd}
+\end{reaction*}
+#+end_export
+
+Qual é a equação redox balanceada?
+
+#+begin_export latex
+
+\begin{choice}(1)
+\choice \ch{3 Cu_{\sld} + 8 HNO3_{\aq} -> 3 Cu(NO3)2_{\aq} + 2 NO_{\gas} + 4 H2O_{\lqdd}}
+\choice \ch{Cu_{\sld} + 2 HNO3_{\aq} -> Cu(NO3)2_{\aq} + NO_{\gas} + H2O_{\lqdd}}
+\choice \ch{2 Cu_{\sld} + 3 HNO3_{\aq} ->  2 Cu(NO3)2_{\aq} + NO_{\gas} + 2 H2O_{\lqdd}}
+\choice \ch{5 Cu_{\sld} + 12 HNO3_{\aq} -> 5 Cu(NO3)2_{\aq} + 2 NO_{\gas} + 6 H2O_{\lqdd}}
+\choice \ch{Cu_{\sld} + 10 HNO3_{\aq} ->  4 Cu(NO3)2_{\aq} + 2 NO_{\gas} + 5 H2O_{\lqdd}}
+\end{choice}
+
+#+end_export
+#+end_exercise 
+#+begin_solution
+A
+#+end_solution
+
+
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+As células galvânicas ou pilhas são dispositivos eletroquímicos usados para converter energia química em energia elétrica. Estas células são formadas por dois eletrodos, sendo um deles positivo (cátodo) e o outro negativo (ânodo). O que ocorre entre esses dois eletrodos para que haja a produção de energia?
+
+#+ATTR_LATEX: :options (1)
+#+begin_choice
+\choice A decomposição da água.
+\choice A oxidação dos íons.
+\choice A reação dos metais com a água.
+\choice A transferência de elétrons entre os eletrodos.
+\choice A reação dos gases com os eletrodos.
+#+end_choice 
+#+end_exercise 
+#+begin_solution
+D
+#+end_solution
+
+
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+Durante as semirreações de redução, o redutor transfere os elétrons para o átomo ou grupo a ser reduzido e sofre uma oxidação parcial. Por exemplo, no caso da reação entre gás hidrogênio e gás cloro, qual dos dois elementos sofre oxidação?
+
+#+begin_export latex
+\begin{reactions}
+H2_{\gas} + C$\ell$2_{\gas} <=> 2 HC$\ell$ & \quad E = + 1.36 V
+\end{reactions}
+#+end_export
+
+#+ATTR_LATEX: :options (1)
+#+begin_choice
+\choice Cloro.
+\choice Hidrogênio.
+\choice Ambos sofrem oxidação.
+\choice Nenhum dos dois sofre oxidação.
+\choice Ambos sofrem redução.
+#+end_choice 
+#+end_exercise 
+#+begin_solution
+B
+#+end_solution
+
+
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+Em um laboratório, um grupo de estudantes colocou um pedaço de palha de aço em um prato cobrindo-o com água sanitária. Após 10 minutos, eles observaram, no fundo do prato, a formação de uma nova substância de cor avermelhada, cuja fórmula é \ch{Fe2O3}. A reação que originou esse composto ocorreu entre o ferro (Fe) e o hipoclorito de sódio (\ch{NaC$\ell$O}), presentes na água sanitária, e pode ser representada pela seguinte equação não-balanceada:
+
+#+begin_export latex
+\begin{reaction*}
+Fe_{\sld} + NaC$\ell$O_{\aq} -> Fe2O3_{\sld} + NaC$\ell$_{\aq}
+\end{reaction*}
+#+end_export
+
+Considerando-se essas informações, é *INCORRETO* afirmar:
+
+#+begin_choice 
+\choice O hipoclorito de sódio atua como o redutor.
+\choice O ferro sofre uma oxidação.
+\choice A soma dos coeficientes das substâncias que participam da reação é igual a 9.
+\choice O átomo de cloro do hipoclorito de sódio ganhou 2 elétrons.
+\choice não ocorre uma reação de oxidorredução.
+#+end_choice
+#+end_exercise
+#+begin_solution
+A
+#+end_solution
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+Os potenciais-padrãos só só podem ser comparados entre si se forem medidos na mesma temperatura e pressãp padronizadas? Está correto?
+
+
+#+ATTR_LATEX: :options (1)
+#+begin_choice
+\choice Nâo, pois os valores dos potenciais-padrões nâo precisam ser medidos na mesma temperatura e pressãp padronizadas para serem comparados.
+\choice  Sim, pois os valores dos potenciais-padrões só podem ser comparados se forem medidos nas mesmas condiçaõs experimentais.
+\choice Nâo, pois os valores dos potenciais-padrões só podem ser comparados se forem medidos nas mesmas condiçaõs físicas.
+\choice Sim, pois os valores dos potenciais-padrões só podem ser comparados se forem medidos nas mesmas condiçaõs ambientais.
+\choice Sim, pois os valores dos potenciais-padrões só podem ser comparados se forem medidos na mesma temperatura e pressão padronizadas.
+#+end_choice
+#+end_exercise
+#+begin_solution
+E
+#+end_solution
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+Reações de oxi-redução são aquelas que apresentam troca de elétrons entre os reagentes e produtos. Dadas as reações abaixo, qual *NÃO PODE* ser classificada como uma reação de oxi-redução:
+
+#+begin_export latex
+\begin{choice}
+\choice \ch{Zn_{\sld} + CuSO4_{\aq} -> ZnSO4_{\aq} + Cu_{\sld} }
+\choice \ch{H2SO4_{\aq} + Ca(OH)2_{\aq} -> CaSO4_{\aq} + 2 H2O_{\lqdd}}
+\choice \ch{C_{\sld} + O2_{\gas} -> CO2_{\gas}}
+\choice \ch{Na_{\sld} + C$\ell$2_{g} -> NaC$\ell$_{\sld}}
+\choice \ch{C3H8_{\gas} + O2_{\gas} -> 3 CO2_{\gas} + H2O_{\lqdd}}
+\end{choice}
+#+end_export
+
+#+end_exercise 
+#+begin_solution
+B
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+Baseado nos potenciais abaixo, marque a afirmativa *INCORRETA*.
+
+#+begin_export latex
+\begin{reactions*}
+A$\ell$^{3+} + 3 e^- -> A$\ell$ & \quad E= - 1.66 V \\
+Zn^{2+} + 2 e^- -> Zn & \quad E= - 0.76 V \\
+Fe^{2+} + 2 e^- -> Fe & \quad E= - 0.44 V \\
+Cu^{2+} + 2 e^- -> Cu & \quad E= + 0.34 V \\
+Hg^{2+} + 2 e^- -> Hg & \quad E= + 0.85 V \\
+\end{reactions*}
+#+end_export
+
+#+begin_choice
+\choice 0 melhor agente redutor é o A$\ell$.
+\choice O A$\ell$ cede elétrons mais facilmente que  Zn . 
+\choice A reação @@latex: \ch{Cu^{2+} + Hg ->  Cu^0 + Hg^{2+}}@@ não é espontânea.
+\choice  O íon  @@latex: \ch{A$\ell$^{3+}}@@   recebe elétrons mais facilmente do que o íon  @@latex:\ch{Cu^{2+}}@@. 
+\choice Pode-se estocar, por longo prazo, uma solução de sulfato ferroso num recipiente à base de cobre.
+#+end_choice
+#+end_exercise 
+#+begin_solution
+B
+#+end_solution
+
+
+\collectexercisesstop{Pilhas}
+
+
+
+

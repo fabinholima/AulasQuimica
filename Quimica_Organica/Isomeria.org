@@ -1,0 +1,426 @@
+
+
+
+#+LATEX_HEADER: \DeclareExerciseCollection{Isomeria}
+
+
+#+begin_comment
+========= ISOMERIA ============
+#+end_comment
+
+
+
+\collectexercises{Isomeria}
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Qual é a alternativa que apresenta um par de isômeros planos?
+#+begin_choice
+\choice metóxi-metano e etano
+\choice  pentanal e 2-metil-1-butanol
+\choice 3-metil-pentano e 2,3-dimetil-butano
+\choice 1,2-di-hidróxi-propano e ácido propanóico
+\choice trimetilamina e etildimetilamina
+#+end_choice 
+#+end_exercise
+#+begin_solution
+*Alternativa correta: c) 3-metil-pentano e 2,3-dimetil-butano*
+#+end_solution
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Duas formas isoméricas de um hidrocarboneto saturado
+#+begin_choice 
+\choice têm a mesma estrutura.
+\choice têm diferentes composições de elementos.
+\choice têm a mesma fórmula molecular.
+\choice têm um teor diferente dos isótopos de hidrogênio.
+\choice reagir vigorosamente uns com os outros.
+#+end_choice 
+#+end_exercise 
+
+#+begin_solution
+Letra C tem a mesma formula molecular
+#+end_solution
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Qual dos seguintes hidrocarbonetos *NÃO* possui isômeros?
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice \ch{C7H16}
+\choice \ch{C6H14}
+\choice \ch{C5H10}
+\choice \ch{C4H8}
+\choice \ch{C3H8}
+#+end_choice
+#+end_exercise 
+#+begin_solution
+Letra E \ch{C3H8}
+#+end_solution
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+O nome do isômero alcano de cis-3-hexeno é:
+#+begin_choice
+\choice 2-metilpentano
+\choice 3-metilpentano
+\choice n-hexano
+\choice 2,3-dimetilbutano
+\choice ciclohexano
+#+end_choice
+#+end_exercise
+
+#+begin_solution
+Ciclohexano
+#+end_solution
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A substância 2-pentanona possui isômeros de posição, de cadeia e de função. Estes isômeros podem ser, respectivamente:
+#+begin_choice
+\choice 3-pentanona, metil-butanona e pentanal.
+\choice 3-pentanona, metil-butanona e 2-pentanol.
+\choice 3-pentanona, etil-butanona e 2-pentanol.
+\choice 1-pentanona, etil-butanona e pentanal.
+\choice 1-pentanona, ciclopentanona e 2-pentanol.
+#+end_choice
+#+end_exercise 
+#+begin_solution
+a) 3-pentanona, metil-butanona e pentanal.
+#+end_solution
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+ Quantos isômeros aromáticos de dibromobenzeno existem?
+
+ #+ATTR_LATEX: :options (2)
+ #+begin_choice 
+\choice 2
+\choice 3
+\choice 4
+\choice 6
+\choice 8
+#+end_choice 
+#+end_exercise 
+#+begin_solution
+Apenas 3 (regras de nomeclatura)
+#+end_solution
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Qual dos seguintes compostos é um isômero de \ch{CH3-CH2-CH2-CH2-OH}?
+
+#+begin_choice
+\choice \ch{CH3-CH2-CH2-OH}
+\choice \ch{CH3-CH(OH)CH3}
+\choice \ch{CH3-CH2-CH2-CHO}
+\choice \ch{CH3-CH2-CH2-CH3}
+\choice nenhum abaixo
+#+end_choice
+#+end_exercise 
+#+begin_solution
+Nenhuma abaixo
+#+end_solution
+
+#+ATTR_LATEX: :options [points=1.001]
+#+begin_exercise
+Qual dos seguintes compostos é um grupo funcional isômero de
+\ch{C2H5OH}, etanol?
+
+#+begin_choice
+\choice etanal, \ch{CH3CHO}
+\choice ácido etanóico, \ch{CH3COOH}
+\choice etóxi etano, \ch{(C2H5)2O}
+\choice metóxi metano, \ch{(CH3)2O}
+\choice propanol, \ch{C3H7OH}
+#+end_choice
+#+end_exercise 
+#+begin_solution
+metóxi metano
+#+end_solution
+
+#+ATTR_LATEX: :options [points=1.001]
+#+begin_exercise
+Para quais dos compostos abaixo são possíveis isômeros *cis-trans*?
+|------------------------+-----|
+| \ch{CH3-CH=CH2}        | (1) |
+|------------------------+-----|
+| \ch{CH3-CH=CH-CH2-CH3} | (2) |
+|------------------------+-----|
+| \ch{CH3-CH=CH-CH3}     | (3) |
+|------------------------+-----|
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice apenas 2
+\choice ambos 1 e 2
+\choice ambos 2 e 3
+\choice todos os três
+\choice apenas 3
+#+end_choice
+#+end_exercise
+#+begin_solution
+Letra C
+#+end_solution
+
+#+ATTR_LATEX: :options [points=1.001]
+#+begin_exercise 
+Qual dos seguintes compostos apresenta isomeria óptica?
+#+begin_choice
+\choice \ch{CH2(OH)-CH2(OH)} 
+\choice \ch{CH3-CHC$\ell$-COOH} 
+\choice \ch{CH2=CHC$\ell$} 
+\choice \ch{CHC$\ell$=CHC$\ell$} 
+\choice \ch{CH3-O-C2H5}
+#+end_choice
+#+end_exercise 
+#+begin_solution
+Letra B
+#+end_solution
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Quantos alcanos isoméricos de fórmula molecular \ch{C5H12} existem?
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 1 
+\choice 2
+\choice 3 
+\choice 4 
+\choice 5
+#+end_choice
+#+end_exercise
+#+begin_solution
+Letra C
+#+end_solution
+
+#+ATTR_LATEX: :options [points=1.001]
+#+begin_exercise
+Quantos álcoois são isômeros estruturais com a fórmula: \ch{C5H11OH}?
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 5 
+\choice 6 
+\choice 7 
+\choice 8 
+\choice 9
+#+end_choice
+#+end_exercise 
+
+#+begin_solution
+Letra D
+#+end_solution
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+ Qual é a relação entre as estruturas mostradas? 
+
+#+begin_export latex
+\begin{center}
+\chemfig{H-[:240](<[:300]Cl)(<:[:330]H)-[:180](<[:240]H)(-[:120]H)<:[:200]H}\qquad
+\chemfig{H-[:240](<[:300]Cl)(<:[:20]H)-[:180](<[:240]H)(<:[:190]H)-[:120]H}
+\end{center}
+ #+end_export
+ 
+ #+begin_choice
+\choice isômeros estruturais 
+\choice isômeros geométricos 
+\choice estruturas conformacionais 
+\choice estruturas idênticas 
+\choice isômeros ópticos
+#+end_choice    
+
+#+end_exercise
+#+begin_solution
+Letra C 
+#+end_solution
+
+#+ATTR_LATEX: :options [points=1.001]
+#+begin_exercise
+Qual das seguintes afirmações sobre conformações é (são) *VERDADEIRA* ? 
+1. O etano tem um número infinito de conformações. 
+2. A conformação eclipsada de uma molécula é ligeiramente mais estável e energeticamente favorecida do que a conformação escalonada. 
+3. Uma conformação é uma geometria específica de uma molécula.
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 1 apenas 
+\choice 2 apenas 
+\choice 1 e 2 
+\choice 2 e 3 
+\choice 1 e 3
+#+end_choice
+#+end_exercise 
+#+begin_solution
+Letra E
+#+end_solution 
+
+#+ATTR_LATEX: :options [points=1.001]
+#+begin_exercise
+As moléculas mostradas abaixo são melhor descritas como:
+
+#+begin_center
+\chemfig{-[:30](=[:90]O)-[:330](<[:210]Br)(<:[:330,,,1]OH)-[:30]-[:330]} \qquad
+\chemfig{-[:30](<:[:150,,,2]HO)(<[:90]Br)-[:330](=[:270]O)-[:30]-[:330]}
+#+end_center
+
+
+#+begin_choice
+\choice epímeros
+\choice isômeros
+\choice diastereômeros
+\choice enantiômeros
+\choice não são isômeros
+#+end_choice
+
+#+end_exercise 
+#+begin_solution
+Letra B
+#+end_solution 
+
+#+ATTR_LATEX: :options [points=1.001]
+#+begin_exercise
+Identifique a alternativa em que os compostos não são isômeros:
+
+#+begin_choice
+\choice but-1-eno e ciclobutano.
+\choice propan-1-ol e propan-2-ol.
+\choice propanal e propanona.
+\choice but-1-eno e but-2-eno.
+\choice propano e propeno.
+#+end_choice
+#+end_exercise 
+#+begin_solution
+Letra E
+#+end_solution 
+
+#+ATTR_LATEX: :options [points=1.001]
+#+begin_exercise
+Qual a isomeria que ocorre entre as moléculas
+abaixo?
+#+begin_center
+#+begin_export latex
+\chemfig{H_2C-[,,2,1]CH_2-[:90,,1,1]CH_2-[:180,,1,2]H_2C(-[:270,,2]\phantom{C})} \quad \chemfig{H_3C-[,,2]\mcfbelow{C}{H}=\mcfbelow{C}{H}-[,,,1]CH_3}\\
+ciclobutano \qquad buteno
+#+end_export
+#+end_center
+
+#+begin_choice
+\choice Isomeria de Função.
+\choice Isomeria de Cadeia.
+\choice Isomeria de Posição.
+\choice Isomeria Espacial Geométrica.
+\choice Isomeria Espacial Óptica
+#+end_choice
+#+end_exercise
+#+begin_solution
+Isomeria de Cadeia
+#+end_solution 
+
+
+
+#+ATTR_LATEX: :options [points=1.001]
+#+begin_exercise
+Os dois compostos \ch{CH3–O–CH3} e \ch{CH3–CH2–OH} demonstram que caso de Isomeria?
+
+#+begin_choice
+\choice cadeia.
+\choice posição.
+\choice composição.
+\choice função.
+\choice tautomeria
+#+end_choice
+
+#+end_exercise
+#+begin_solution
+Isomeria de função
+#+end_solution
+
+
+
+
+#+ATTR_LATEX: :options [points=1.001]
+#+begin_exercise
+A substituição de um dos átomos de hidrogênio do anel aromático do fenol por um átomo X possibilita a formação de um número de isômeros de posição igual a:
+
+#+begin_choice
+\choice 5.
+\choice 4.
+\choice 3.
+\choice 2.
+\choice 1.
+#+end_choice 
+
+#+end_exercise
+#+begin_solution
+Letra C, 3 posição
+#+end_solution 
+
+
+
+#+ATTR_LATEX: :options [points=1.001]
+#+begin_exercise
+Dos compostos I e II abaixo, é *INCORRETO* afirmar que:
+
+|-------------------------------------------+--------------------------------|
+| \chemfig{CH_3-CH_2-C([:60]=O)([:300]-H)} | \chemfig{CH_3-C([:90]=O)-CH_3} |
+|-------------------------------------------+--------------------------------|
+| I                                         | II                             |
+|-------------------------------------------+--------------------------------|
+
+#+begin_choice
+\choice I é um aldeído.
+\choice II é uma cetona.
+\choice I e II são isômeros de cadeia.
+\choice I e II são isômeros de função.
+\choice o nome comercial de II é acetona.
+#+end_choice 
+
+#+end_exercise 
+#+begin_solution
+LETRA C
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1.001]
+#+begin_exercise
+Os ácidos 2-aminobenzóico (1), 3-aminobenzóico (2) e 4-aminobenzóico (3), apesar de possuíem a mesma fórmula molecular, têm características muito diferentes. Os ácidos (1) e (2) são considerados nocivos à saúde, enquanto o ácido (3) é produzido no nosso organismo, considerado um antioxidante e precursor do ácido fólico. As estruturas dessess ácidos estão representadas abaixo.
+    
+#+begin_export latex
+  \begin{tabular}{c c c}
+ (1) & \chemfig{*6(-=(-NH_2)-(-([:90]=O)-[:-30]OH)=-=)}  \\
+  (2)  & \chemfig{*6(-(-NH_2)=-(-([:90]=O)-[:-30]OH)=-=)} \\
+  (3) &  \chemfig{*6((-NH_2)-=-(-([:90]=O)-[:-30]OH)=-=)}  \\
+  \end{tabular}
+#+end_export  
+
+As moléculas dos ácidos (1), (2) e (3) são classificadas como:
+
+#+begin_choice
+\choice Isômeros de cadeia.
+\choice Enantiômeros. 
+\choice Isômeros de posição.
+\choice Alótropos.
+\choice Isômeros de compensação.
+#+end_choice 
+#+end_exercise 
+#+begin_solution
+LETRA C
+#+end_solution
+
+
+
+
+
+
+
+\collectexercisesstop{Isomeria}

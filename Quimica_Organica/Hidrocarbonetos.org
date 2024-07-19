@@ -1,0 +1,531 @@
+
+#+LATEX_HEADER: \DeclareExerciseCollection{Hidrocarbonetos}
+#+LATEX_HEADER: \DeclareExerciseCollection{Hidrocarbonetos2}
+
+
+
+#+BEGIN_COMMENT
+======== Hidrocarbonetos =============
+#+END_COMMENT
+
+
+\collectexercises{Hidrocarbonetos}
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Segundo as regras da IUPAC, a nomenclatura do composto representado acima é 
+#+begin_center
+\chemfig{-[1]-[-1]([:-90]-([:-30]=))-[1]-[-1]-[1]-[-1]}
+#+end_center
+
+#+begin_choice
+\choice 2-metil-hex-3-eno 
+\choice 3-metil-heptano 
+\choice 3-etil-hept-1-eno
+\choice 3-metil-hept-1-eno
+\choice 2-etil-hept-1-eno
+#+end_choice
+#+end_exercise
+#+begin_solution
+LETRA A
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+O hidrocarboneto que apresenta cadeia acíclica, ramificada, saturada e homogênea é
+
+#+begin_choice
+\choice 4-etil-4,5-dimetil-heptan-2-ol.
+\choice 2,4,5-trimetil-4-propileptano
+\choice 2-etil-4-isopropil-1-metilcicloexano
+\choice 4-isopropil-2,4,5-trimetil-hept-2-eno
+\choice 2,4,5-trimetil-4-propilept-1-eno
+#+end_choice
+#+end_exercise
+#+begin_solution
+LETRA B
+#+end_solution
+
+
+
+
+
+#+begin_solution
+LETRA A
+#+end_solution
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+O octano é um dos principais constituintes da gasolina, que é uma mistura de
+hidrocarbonetos. A fórmula molecular do octano é:
+
+#+begin_choice
+\choice \ch{C8H18}
+\choice \ch{C8H16}
+\choice \ch{C8H14}
+\choice \ch{C8H15}
+\choice \ch{C12H24}
+#+end_choice
+#+end_exercise
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+O composto
+#+begin_center
+\chemfig{METIL-C([:90]-TERCBUTIL)([:-90]-FENIL)-ISOPROPIL}
+#+end_center
+
+apresenta, como nomenclatura oficial, o seguinte nome:
+
+#+begin_choice
+\choice 2-fenil,1,2,2,3,4-pentametil-butano.
+\choice 3-fenil,2,3,4,4-tetrametil-pentano.
+\choice 3-fenil,2,2,3,4-tetrametil-pentano.
+\choice 3-etil,2,2,3-trimetil-octano.
+\choice 3-fenil,2,2-dimetil-3-isopropil-butano.
+#+end_choice
+#+end_exercise
+#+begin_solution
+LETRA B
+#+end_solution
+
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]    
+#+begin_exercise
+A estrutura a seguir:
+#+begin_center
+\chemfig{-[1]-[-1]([:-90]-**6(------))-[1]-[-1]([:-90]-([:-140]-)([:-30]-))=[1]-[-1]}
+#+end_center
+#+begin_choice
+\choice 3-fenil-5-isopropil-hept-5-eno
+\choice 5-fenil-3-isopropil-hept-2-eno
+\choice 3-isopropil-5-hexil-hept-2-eno
+\choice 3-isoproril-5-fenil-hept-2-eno
+\choice 5-benzil-3-isopropil-hept-2-eno
+#+end_choice
+#+end_exercise
+#+begin_solution
+LETRA B
+#+end_solution
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise            
+De acordo com a IUPAC, o nome CORRETO do "Isopreno'',
+#+begin_center
+\chemfig{=[1]([:90]-)-[-1]=[1]}
+#+end_center
+
+o monômero básico de um tipo de polímero, é
+#+begin_choice 
+\choice 4-metil-but-1,3-dieno
+\choice 2-metileno-but-1,3-dieno
+\choice 4-vinil-1-penteno
+\choice 2-metil-but-1,3-dieno
+\choice 2-metil-pent-1,3-dieno
+#+end_choice                               
+#+end_exercise 
+#+begin_solution
+LETRA D
+#+end_solution
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise                
+Analise a estrutura seguinte e considere as regras de nomenclatura da IUPAC.
+            
+#+begin_center
+\chemfig{[:30]-([:90]-)-[:-30]-([:90]-([:140]-)([:30]--[:-30]-))-[:-30]([:-90]-([:-160]-)([:30]-[:-30]-)-)--[:-30]-} 
+#+end_center
+        
+Qual o nome IUPAC correto
+#+begin_choice
+\choice 5-isobutil-3,3,6-trimetil-4-propil-nonano
+ \choice 2-metil-4-sec-butil-5-terc-butil-octano
+\choice 5-isopropil-3,3-dimetil-4-propil-octano
+\choice 2-metil-4-sec-butil-5-isopentil-octano
+\choice 2-metil-4-neopentil-5-terc-butil-octano
+#+end_choice
+#+end_exercise
+#+begin_solution
+LETRA A
+#+end_solution
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A destilação de hulha produz uma série de compostos, um dos quais é um hidrocarboneto de massa molar 78 g/mol. Considerando-se que as massas molares do carbono, hidrogênio e oxigênio são, respectivamente, 12, 1 e 16 g/mol, concluímos que esse hidrocarboneto é:
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice hexeno
+\choice benzeno
+\choice pentano
+\choice ciclopentano
+\choice hexano
+#+end_choice
+#+end_exercise
+#+begin_solution
+LETRA B
+#+end_solution
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise            
+O eugenol ou óleo de cravo, é um forte antisséptico. Seus efeitos
+medicinais auxiliam no tratamento de náuseas, indigestão e diarreia. Contém propriedades bactericidas, antivirais, e é também usado como anestésico e antisséptico para o alívio de dores de    dente. A fórmula estrutural deste composto orgânico pode ser vista abaixo:
+        
+#+begin_center
+\chemfig{**6(([:-120]-CH=CH_2)--([:-30]-o([:-90]-))-([:30]-0-[:-30]CH_3)---)}
+#+end_center
+O número de átomos de carbono secundário neste composto é: 
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 2
+\choice 3
+\choice 7
+\choice 8
+\choice 10 
+#+end_choice
+#+end_exercise
+#+begin_solution
+LETRA C
+#+end_solution
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+O composto orgânico de fórmula plana abaixo possui:
+
+#+begin_export latex
+\begin{center}
+\chemfig{CH_3-CH([:-90]-CH_3)-C([:90]-CH_3)([:-90]-CH_3)-CH_2-CH_3}
+\end{center}
+#+end_export
+
+#+begin_choice
+\choice  5 carbonos primários, 3 secundários, 1 terciário e 2 quaternários
+\choice 3 carbonos primários, 3 secundários, 1 terciário e 1 quaternário.
+\choice 5 carbonos primários, 1 secundário, 1 terciário e 1 quaternário.
+\choice 4 carbonos primários, 1 secundário, 2 terciários e 1 quaternário.
+\choice 3 carbonos primários, 3 secundário, 2 terciários e 1 quaternário.
+#+end_choice
+#+end_exercise 
+#+begin_solution
+LETRA C
+#+end_solution 
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+O número de elétrons \pi que participa de uma ligação tripla entre átomos de carbono é igual a
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 2
+\choice 3
+\choice 4
+\choice 6
+\choice 5
+#+end_choice
+#+end_exercise 
+#+begin_solution
+LETRA A
+#+end_solution 
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A vitamina K3 pode ser representada pela fórmula a seguir.
+#+begin_export latex
+\begin{center}
+\chemfig{O=[:270]-[:330](-[:30,,,1]CH_3)=_[:270]-[:210](=[:270]O)-[:150]=_[:210]-[:150]=_[:90]-[:30]=_[:330](-[:270])(-[:30])}
+\end{center}
+#+end_export
+
+Quantos átomos de carbono e quantos de hidrogênio existem em uma molécula desse composto?
+#+begin_choice
+\choice  1 e 3 
+\choice  3 e 3 
+\choice 9 e 8 
+\choice 11 e 8
+\choice 11 e 10
+#+end_choice 
+#+end_exercise 
+#+begin_solution
+LETRA D
+#+end_solution
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+O gosto amargo, característico da cerveja, deve-se ao composto mirceno, proveniente das folhas de lúpulo, adicionado à bebida durante a sua fabricação.
+
+#+begin_center
+#+begin_export latex
+\chemfig{CH_2=[:210,,1]-[:150](=[:90]CH_2)-[:210]-[:150]-[:210]=[:150](-[:90]CH_3)-[:210,,,2]H_3C}
+#+end_export
+#+end_center
+
+A fórmula estrutural do mirceno apresenta:
+
+#+begin_choice
+\choice cadeia carbônica heterogênea.
+\choice cinco carbonos primários.
+\choice um carbono terciário.
+\choice cadeia carbônica saturada e ramificada.
+\choice cadeia carbônica acíclica e insaturada.
+#+end_choice 
+#+end_exercise
+#+begin_solution
+LETRA E
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Uma planta medicinal utilizada para regular a glicemia é encontrada na região amazônica, sendo popularmente conhecida como pata-de-vaca.
+
+A espécie que funciona como uma “insulina vegetal” possui entre seus compostos químicos um alcano, cuja fórmula contém 74 átomos de hidrogênio. Portanto, o número de átomos de carbono presentes na cadeia carbônica é:
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 33
+\choice 36
+\choice  35
+\choice  32
+\choice  37
+#+end_choice 
+#+end_exercise 
+#+begin_solution
+LETRA B
+#+end_solution
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+O nome correto do hidrocarboneto ramificado, cuja fórmula está esquematizada a seguir é:
+
+#+begin_center
+#+begin_export latex
+\chemfig{H_3C-[:30,,2]-[:330](-[:270,,,1]CH_3)-[:30](-[:90,,,1]CH_3)-[:330]-[:30]-[:330]-[:30,,,1]CH_3}
+#+end_export
+#+end_center
+
+#+begin_choice
+\choice  3,4-dietil-octeno
+\choice 3,4-dimetil-octano
+\choice  3,4-dietil-octano
+\choice  3,4-dipropil-octano
+\choice  3,4-dimetil-octeno
+#+end_choice 
+#+end_exercise 
+#+begin_solution
+LETRA B
+#+end_solution
+
+
+
+
+
+
+\collectexercisesstop{Hidrocarbonetos}
+
+
+
+
+
+
+#+BEGIN_COMMENT
+============ Nomenclatura Hidrocarbonetos
+#+END_COMMENT
+
+
+\collectexercises{Hidrocarbonetos2}
+
+
+#+ATTR_LATEX: :options [points=1.0] 
+#+begin_exercise
+Qual o nome dos composto a seguir 
+#+begin_export latex
+\begin{center}
+\chemfig{-[:240](-[:300])(-)-[:180]-[:120]-[:180]-[:240]-[:300]=^(-[:60])}
+\end{center}
+#+end_export
+#+begin_choice
+\choice metil-ciclohexano
+\choice 3-/terc/-ciclohex-1-eno
+\choice /sec/-butil-ciclopentano
+\choice /terc/-butil-ciclohexano
+\choice butil-ciclohexano
+#+end_choice 
+#+end_exercise
+#+begin_solution
+LETRA B
+#+end_solution
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Escreva o nome mais correto para o composto (\ch{C8H16}) mostrado abaixo:
+#+begin_center
+#+begin_export latex
+\chemfig{-[:90](-[:30]-[:330])=[:150]-[:210]-[:150]}
+#+end_export
+#+end_center 
+#+begin_choice
+\choice 3-eti-lhex-2-eno
+\choice 4-propil-octano
+\choice 6,8-dimetil-non-3-ino
+\choice pent-2-eno
+\choice clicohexeno
+#+end_choice 
+#+end_exercise 
+#+begin_solution
+A
+#+end_solution
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Qual o nome do composto a seguir 
+#+begin_center
+#+begin_export latex
+\chemfig{H_3C-[:30]-[:330]-[:30](-[:330]CH_3)-[:90]-[:150]-[:210](-[:270])}
+#+end_export
+#+end_center
+#+begin_choice
+\choice etil-metil-ciclohexano
+\choice dimetil-ciclohexano
+\choice 1,3-dimetil-ciclohexano
+\choice 1,3-dimetil-ciclohexeno
+\choice 1,3-etil-ciclopentano
+#+end_choice
+#+end_exercise
+#+begin_solution
+C
+#+end_solution 
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+O composto abaixo qual o seu nome de acordo com  as regras IUPAC
+#+begin_center
+#+begin_export latex
+\setchemfig{atom style={rotate=105}}
+\chemfig{-[:322.5]-[:255](-[:187.5])-[:300]-[:345](-[:277.5]-[:337.5])%
+-[:30]-[:75]-[:120](-[:165]-[:210])-[:52.5]-[:352.5]}
+#+end_export
+#+end_center
+#+begin_choice
+\choice 1,6-dietil-3,4-dimetil-ciclooctano
+\choice 2,6-etil-3-metil-cicloheptano
+\choice metil-ciclooctano
+\choice 3,4-dimetil-1,6-dietil-ciclooctano
+\choice 3,4-dimetil-1,6-dietil-cicloheptano
+#+end_choice
+#+end_exercise
+#+begin_solution
+A
+#+end_solution
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+O octano é um dos principais constituintes da gasolina, que é uma mistura de hidrocarbonetos. A fórmula molecular do octano é:
+#+begin_export latex
+\begin{choice}(2)
+\choice \ch{C8H18}
+\choice \ch{C8H16}
+\choice \ch{C8H14}
+\choice \ch{C12H24}
+\choice \ch{C18H38}
+\end{choice}
+#+end_export
+#+end_exercise
+#+begin_solution
+A
+#+end_solution
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A fórmula  do 2,3 - dimetil butano, é:
+#+begin_export latex
+\begin{choice}(2)
+\choice \chemfig{-[:30](-[:90])-[:330]-[:30]}
+\choice \chemfig{-[:30](-[:90])(-[:150])-[:330]-[:30]}
+\choice \chemfig{-[:60](-[:120])-(-[:300])-[:60]}
+\choice \chemfig{-[:30](-[:90])-[:330]-[:30]-[:330]}
+\choice \chemfig{-[:30](-[:90]CH_3)-[:330]-[:30]}
+\end{choice}
+#+end_export
+#+end_exercise
+#+begin_solution
+C
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+De acordo com as regras de nomenclatura de o nome do hidrocarboneto
+#+begin_export latex
+\begin{center}
+\chemfig{-[:30](-[:90])-[:330]-[:30]~[:330]-[:30]}
+\end{center}
+
+\begin{choice}
+\choice 2-metil-hex-4-eno
+\choice 2-metil-hexano
+\choice 5-metil-hex-2-eno
+\choice 5-metil-hexano
+\choice 5-metil-hex-2-ino
+\end{choice}
+#+end_export
+#+end_exercise
+#+begin_solution
+E
+#+end_solution
+
+
+
+
+\collectexercisesstop{Hidrocarbonetos2}
+

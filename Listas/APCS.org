@@ -1,0 +1,38 @@
+#+begin_exercise
+Disserte sobre o tema abaixo  no mínino 23 linhas, desenvolva 3 paragráfos com introdução, desenvolvimento e conclusão. Evite plágio, copiar da internet.
+
+*Qual a importância da /"Escola"/ no cotidiano do aluno?*
+
+\blank[width=25\linewidth,linespread=1.5]{}
+
+
+#+end_exercise 
+
+
+
+#+begin_exercise
+Disserte sobre o tema abaixo no mínino 23 linhas, desenvolva 3 paragráfos com introdução, desenvolvimento e conclusão. Evite plágio, copiar da internet.
+
+*Qual a importância da ”Química” no cotidiano ?*
+
+
+#+end_exercise 
+
+
+
+
+
+
+
+
+
+#+begin_exercise
+Disserte sobre o tema abaixo no mínino 23 linhas, desenvolva 3 paragráfos com introdução, desenvolvimento e conclusão. Evite plágio, copiar da internet.
+
+*O trabalho na construção da dignidade humana*
+
+\blank[width=25\linewidth,linespread=1.5]{}
+
+
+#+end_exercise 
+

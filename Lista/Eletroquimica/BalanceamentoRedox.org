@@ -1,0 +1,295 @@
+#+LATEX_HEADER: \DeclareExerciseCollection{BalanceamentoRedoxI}
+#+LATEX_HEADER: \DeclareExerciseCollection{BalanceamentoRedoxII}
+#+LATEX_HEADER: \DeclareExerciseCollection{BalanceamentoRedoxIII}
+
+
+
+
+\collectexercises{BalanceamentoRedoxI}
+
+#+begin_exercise
+\ch{As2O3 + HNO3 + H2O ->  H3AsO4 + NO}  \vspace{1cm} 
+#+end_exercise
+
+#+begin_solution
+#+end_solution
+
+
+#+begin_exercise
+\ch{KI + KNO2 + H2SO4 ->  I2 + NO + K2SO4 + H2O} \vspace{1cm} 
+#+end_exercise 
+#+begin_solution
+#+end_solution
+
+
+
+#+begin_exercise
+ \ch{KI + H2SO4 -> K2SO4 + I2 + H2S + H2O}  \vspace{1cm} 
+#+end_exercise
+#+begin_solution
+#+end_solution
+
+
+#+begin_exercise
+ \ch{C + H2SO4 -> CO2 + SO2 + H2O}  \vspace{1cm} 
+#+end_exercise
+#+begin_solution
+#+end_solution
+
+
+#+begin_exercise
+\ch{Cu + H2SO4 -> CuSO4 + SO2 + H2O}  \vspace{1cm} 
+#+end_exercise
+#+begin_solution
+#+end_solution
+
+
+#+begin_exercise
+ \ch{KSCN + H2O + I2 -> KHSO4 + HI + ICN}  \vspace{1cm} 
+#+end_exercise
+#+begin_solution
+#+end_solution
+
+
+#+begin_exercise
+@@latex:  \ch{A$\ell$Br3 + KMnO4 + H2SO4 -> A$\ell$2(SO4)3 + K2SO4 + MnSO4 + Br2 + H2O} @@  \vspace{1cm} 
+#+end_exercise
+#+begin_solution
+#+end_solution
+
+
+
+#+begin_exercise
+ \ch{FeSO4 + KMnO4 + H2SO4 -> Fe2(SO4)3 + K2SO4 + MnSO4 + H2O}  \vspace{1cm} 
+#+end_exercise 
+#+begin_solution
+#+end_solution
+
+
+#+begin_exercise
+\ch{Na2C2O4 + KMnO4 + H2SO4 -> K2SO4 + Na2SO4 + MnSO4 + CO2 + H2O}  \vspace{1cm} 
+#+end_exercise
+#+begin_solution
+#+end_solution
+
+
+
+#+begin_exercise
+\ch{KMnO4 + Na2SO3 + H2SO4 ->  MnSO4 + Na2SO4 + K2SO4 + H2O}  \vspace{1cm} 
+#+end_exercise
+#+begin_solution
+#+end_solution
+
+
+
+\collectexercisesstop{BalanceamentoRedoxI}
+
+
+
+
+\collectexercises{BalanceamentoRedoxII}
+
+#+begin_exercise
+@@latex: \ch{Mn^{2+} + BiO^{3-} ->  MnO4^- +  Bi^{3+}} @@  \vspace{1cm} 
+#+end_exercise
+#+begin_solution
+#+latex: \ch{14 H^+ + 2 Mn^{2+} + 5 BiO3^- -> 2 MnO4^- + 5 Bi^{3+} + 7 H2O} 
+#+end_solution 
+
+
+
+#+begin_exercise
+@@latex: \ch{MnO4^- + S2O3^2- -> S4O6^2- + Mn^2+}@@  \vspace{1cm} 
+#+end_exercise
+#+begin_solution
+@@latex: \ch{16 H^+ + 2 MnO4^- + 10 S2O3^2- -> 2 Mn^2+ + 8 H2O + 5 S4O6^2-}@@
+#+end_solution
+
+
+
+
+#+begin_exercise
+@@latex: \ch{C$\ell$O3^- + C$\ell$^- -> C$\ell$2 + C$\ell$O2} @@  \vspace{1cm} 
+#+end_exercise
+#+begin_solution
+@@latex: \ch{4 H^+ + 2 C$\ell$O3^- + 2 C$\ell$^- -> 2 C$\ell$O2 + 2 H2O + C$\ell$2 } @@
+#+end_solution
+
+
+
+#+begin_exercise
+@@latex: \ch{P + Cu^2+ -> Cu + H2PO4^-}@@  \vspace{1cm} 
+#+end_exercise
+#+begin_solution
+@@latex: \ch{8 H2O + 2 P + 5 Cu^2+ -> 2 H2PO4 - + 12 H^+ + 5 Cu}@@
+#+end_solution
+
+
+
+
+#+begin_exercise
+@@latex: \ch{PH3 + I2 ->  H3PO2^- + I^-} @@  \vspace{1cm} 
+#+end_exercise
+#+begin_solution
+@@latex: \ch{4 H2O + 2 PH3 + 3 I2 -> 2 H3PO2^- + 8 H^+ + 6 I^-}@@
+#+end_solution
+
+
+
+
+
+
+
+#+begin_exercise
+@@latex: \ch{NO2 ->  NO3^- + NO}@@  \vspace{1cm} 
+#+end_exercise
+#+begin_solution
+@@latex: \ch{H2O + 3 NO2 -> 2 NO3^- + NO + 2 H^+}@@
+#+end_solution
+
+
+
+#+begin_exercise
+@@latex: \ch{H2O2 + Cr2O7^2- -> O2 + Cr^3+}@@ \vspace{1cm}
+#+end_exercise
+#+begin_solution
+@@latex: \ch{8 H^+ + 3 H2O2 + Cr2O7^2- -> 3 O2 + 2 Cr^3+ + 7 H2O }@@
+#+end_solution
+
+
+
+
+
+#+begin_exercise
+@@latex: \ch{PbO2 + I2 -> Pb^2+ + IO3^-}@@ \vspace{1cm}
+#+end_exercise
+#+begin_solution
+@@latex: \ch{8 H^+ + 5 PbO2 + I2 ->  5 Pb^2+ + 2 IO3^- + 4 H2O}@@
+#+end_solution
+
+
+
+
+
+#+begin_exercise
+@@latex: \ch{ReO4^- + IO^- -> IO3^- + Re}@@ \vspace{1cm}
+#+end_exercise
+#+begin_solution
+@@latex: \ch{4 H^+ + 4 ReO4^- + 7 IO^- -> 7 IO3^- + 4 Re + 2 H2O}@@ 
+#+end_solution
+
+
+
+#+begin_exercise
+@@latex: \ch{As -> H2AsO4- + AsH3}@@ \vspace{1cm}
+#+end_exercise
+#+begin_solution
+@@latex: \ch{12 H2O + 8 As -> 3 H2AsO4- + 5 AsH3 + 3 H^+}@@
+#+end_solution
+
+
+
+
+
+
+\collectexercisesstop{BalanceamentoRedoxII}
+
+
+
+
+#+begin_comment
+%%% ========= MEIO BASICO =================
+#+end_comment
+
+
+
+\collectexercises{BalanceamentoRedoxIII}
+
+
+#+begin_exercise
+@@latex: \ch{MnO4^- +  C2O4^{2-} ->  MnO2 + CO2}@@  \vspace{1cm}
+#+end_exercise
+#+begin_solution
+@@latex: \ch{H2O + 2 MnO4 - + 3 C2O4^{2-} -> 2 MnO2 + 8 OH^- + 6 CO2}@@
+#+end_solution
+
+
+
+#+begin_exercise
+@@latex: \ch{Cu(NH3)4^{2+} + S2O4^{2-} -> SO3^{2-} + Cu + NH3}@@  \vspace{1cm}
+#+end_exercise
+#+begin_solution
+@@latex: \ch{Cu(NH3)4^{2+} + S2O4^{2-} + 4 OH^- -> Cu + 4 NH3 + 2 SO3^{2-} + 2 H2O }@@
+#+end_solution
+
+
+
+#+begin_exercise
+@@latex: \ch{Zn + NO3^- ->  Zn(OH)4^2- + NH3}@@  \vspace{1cm}
+#+end_exercise
+#+begin_solution
+@@latex: \ch{6 H2O + NO3^- + 7 OH^- + 4 Zn -> NH3 + 4 Zn(OH)4^2- }@@
+#+end_solution
+
+
+#+begin_exercise
+@@latex: \ch{A$\ell$  + OH^- -> A$\ell$O2^- + H2} @@  \vspace{1cm}
+#+end_exercise
+#+begin_solution
+@@latex: \ch{2 A$\ell$ + 2 H2O + 2 OH^- -> 2 AlO2^- + 3 H2 }@@
+#+end_solution
+
+
+
+
+#+begin_exercise
+@@latex: \ch{Zn ->  Zn(OH)4^{2-} + H2} @@  \vspace{1cm}
+#+end_exercise 
+#+begin_solution
+@@latex: \ch{2 OH^- + Zn + 2 H2O ->  Zn(OH)4^2- + H2}@@
+#+end_solution
+
+
+
+
+#+begin_exercise
+@@latex: \ch{O2 + Cr^3+ -> H2O + Cr2O7^2-} @@  \vspace{1cm}
+#+end_exercise
+#+begin_solution
+@@latex: \ch{3 O2 + 8 OH^- + 2 Cr3+ -> H2O + 3 H2O2 + Cr2O7^2- }@@
+#+end_solution
+
+
+#+begin_exercise
+@@latex: \ch{IO3^- + Re -> ReO4^- + IO^-}@@  \vspace{1cm}
+#+end_exercise
+#+begin_solution
+@@latex: \ch{7 IO3^- + 4 OH^- + 4 Re -> 4 ReO4^- + 7 IO^- + 2 H2O}@@
+#+end_solution
+
+
+#+begin_exercise
+@@latex: \ch{Cr2O7^2- + Hg  -> Hg^2+ + Cr^3+}@@  \vspace{1cm}
+#+end_exercise
+#+begin_solution
+@@latex: \ch{7 H2O + Cr2O7^2- + 3 Hg -> 3 Hg^2+ + 14 OH- + 2 Cr^3+}@@ 
+#+end_solution
+
+
+
+#+begin_exercise
+@@latex: \ch{Pb^2+ + IO3^- -> PbO2 + I2 }@@  \vspace{1cm}
+#+end_exercise
+#+begin_solution
+@@latex: \ch{8 OH^- + 5 Pb^2+ + 2 IO3^- -> 5 PbO2 + I2 + 4 H2O}@@
+#+end_solution
+
+
+#+begin_exercise
+@@latex: \ch{ MnO4^− + Br^− ->  MnO2 + BrO3^− }@@  \vspace{1cm}
+#+end_exercise 
+#+begin_solution
+@@latex: \ch{H2O + 2 MnO4^− + Br^− -> 2 MnO2 + BrO3^− + 2 OH−}@@
+#+end_solution
+
+\collectexercisesstop{BalanceamentoRedoxIII}

@@ -1,0 +1,107 @@
+#+begin_comment
+================= BALANCEAMENTO REDOX ==============
+#+end_comment
+
+#+LATEX_HEADER: \DeclareExerciseCollection{BalanceamentoRedox}
+
+
+\collectexercises{BalanceamentoRedox}
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Faça o balanceamento da equação a seguir:
+
+#+begin_export latex
+\begin{reactions*}
+K2Cr2O7_{\aq} + H2O_{\lqdd} + S_{\gas} -> &  KOH_{\aq} \\
+                               & + Cr2O3_{\aq} + SO2_{\aq} \\
+\end{reactions*}
+#+end_export
+
+#+begin_export latex
+\blank[blank-style={\phantom{#1}},width=8\linewidth]{}
+#+end_export
+#+end_exercise 
+#+begin_solution
+#+begin_export latex
+\begin{reaction*}
+2 K2Cr2O7 + 2 H2O + 3 S → 4 KOH + 2 Cr2O3 + 3 SO2        
+\end{reaction*}
+#+end_export
+#+end_solution
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Em 1856, Berthelot preparou metano segundo a reação representada pela equação abaixo, não balanceada:
+
+#+begin_export latex
+\begin{reaction*}
+CS2 + H2S + Cu -> Cu2S + CH4
+\end{reaction*}
+#+end_export
+
+Balanceie a reação por óxido redução
+
+ #+begin_export latex
+\blank[blank-style={\phantom{#1}},width=8\linewidth]{}
+#+end_export
+#+end_exercise
+#+begin_solution
+#+begin_export latex
+\begin{reaction*}
+CS2 + 2H2S + 8Cu → 4Cu2S + CH4        
+\end{reaction*}
+#+end_export
+#+end_solution
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Faça o balanceamento da equação a seguir:
+
+#+begin_export latex
+\begin{reaction*}
+FeSO4 + HNO3 + H2SO4 -> Fe2(SO4)3 + NO + H2O 
+\end{reaction*}
+#+end_export
+#+end_exercise 
+#+begin_solution
+#+begin_export latex
+\begin{reaction*}
+6 FeSO4 + 2 HNO3 + 3 H2SO4 -> 3 Fe2(SO4)3 + 2 NO + 4 H2O
+\end{reaction*}
+#+end_export
+#+end_solution
+
+
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+Dimetil-hidrazina e tetróxido de dinitrogênio foram usados nos foguetes do módulo que
+pousou na Lua, nas missões Apollo. A reação que ocorre pela simples mistura desses dois compostos pode ser
+representada por:
+
+#+begin_export latex
+\begin{reactions*}
+(CH3)2N-NH2\lqdd{} + 2 N2O4\lqdd{}  -> & 3 N2\gas{} \\
+        &  H2O\gas{} + 2 CO2\gas{}\\
+\end{reactions*}
+#+end_export
+
+
+Entre os reagentes, identifique o oxidante e o redutor. Justifique sua resposta, considerando os números de
+oxidação do carbono e do nitrogênio.
+
+#+end_exercise
+
+
+
+
+\collectexercisesstop{BalanceamentoRedox}

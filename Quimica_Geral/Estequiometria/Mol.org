@@ -1,0 +1,97 @@
+#+LATEX_HEADER: \DeclareExerciseCollection{Mol}
+
+
+\collectexercises{Mol}
+
+#+ATTR_LATEX: :options [points=1.001] 
+#+begin_exercise
+Assinale a opção que apresenta as massas moleculares dos seguintes compostos: @@latex: \ch{C6H12O6}; \ch{Ca3(PO4)2} e \ch{Ca(OH)2}@@, respectivamente:dados: H = 1 u; C = 12 u; O = 16 u; Ca = 40 u; P = 31 u.
+
+#+begin_choice
+\choice 180, 310 e 74.
+\choice 150, 340 e 73.
+\choice 180, 150 e 74.
+\choice 200, 214 e 58.
+\choice 180, 310 e 55
+#+end_choice
+
+#+end_exercise 
+
+
+
+
+#+ATTR_LATEX: :options [points=1.001] 
+#+begin_exercise
+O óxido de vanádio é constituído de moléculas \ch{V2Oy}. Se a massa molecular do \ch{V2Oy} é182u, então “$y$” é igual a: Dados: V = 51u; O = 16 u.
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice 
+\choice 1
+\choice 3
+\choice 7
+\choice 5
+\choice 4
+#+end_choice  
+#+end_exercise 
+
+#+ATTR_LATEX: :options [points=1.001]
+#+begin_exercise
+A massa molecular do composto @@latex:{\bfseries \ch{Na2SO4}}@@ é igual a: Dados: H = 1u.; O = 16 u.; Na = 23 u.; S = 32 u. 
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 142 u.
+\choice 196 u.
+\choice 426 u.
+\choice 444 u.
+\choice 668 u.
+#+end_choice 
+#+end_exercise 
+
+#+ATTR_LATEX: :options [points=1.001]
+#+begin_exercise
+As  massas  moleculares  do  álcool  etílico  @@latex:(\ch{C2H5OH})@@  e  do  ácido  acético  @@latex: (\ch{C2H4O2})@@  são respectivamente: Dados: H = 1 u; C = 12 u; O =16 u
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 60 u e 46 u
+\choice 66 u e 40 u
+\choice 46 u e 66 u
+\choice 40 u e 66 u
+\choice 46 u e 60 u
+#+end_choice
+#+end_exercise
+
+#+ATTR_LATEX: :options [points=1.001]
+#+begin_exercise 
+O  ácido oxálico @@latex: (\ch{H2C2O4})@@ é utilizado  para  tirar  manchas  de  ferrugem em tecidos.  A  massa molecular do ácido oxálico é: Dados: H = 1 u; C = 12 u; O = 16 u
+
+#+ATTR_LATEX: :options (2) 
+#+begin_choice
+\choice 30 u
+\choice 60 u
+\choice 90 u
+\choice 120 u
+\choice 150 u
+#+end_choice 
+#+end_exercise 
+
+#+ATTR_LATEX: :options [points=1.001]
+#+begin_exercise
+Quantas vezes a massa da molécula de glicose, @@latex: \ch{C6H12O6}@@, é maior que a da molécula de água,@@latex: \ch{H2O}@@?
+
+Dados: H = 1 u; C = 12 u; O = 16 u
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+ \choice 2
+ \choice 4
+ \choice 6
+ \choice 8
+ \choice \answer{10} 
+ #+end_choice
+#+end_exercise
+
+
+\collectexercisesstop{Mol}
+

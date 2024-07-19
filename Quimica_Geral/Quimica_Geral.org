@@ -1,0 +1,634 @@
+
+#+LATEX_HEADER: \DeclareExerciseCollection{LeisPonderais}
+#+LATEX_HEADER: \DeclareExerciseCollection{TeoriaAtomica}
+#+LATEX_HEADER: \DeclareExerciseCollection{TabelaPeriodica}
+#+LATEX_HEADER: \DeclareExerciseCollection{LigacaoQuimica}
+#+LATEX_HEADER: \DeclareExerciseCollection{GeometriaMolecular}
+#+
+#+LATEX_HEADER: \DeclareExerciseCollection{FuncoesInorganicas}
+#+LATEX_HEADER: \DeclareExerciseCollection{ReacoesQuimica}
+
+
+
+
+
+#+BEGIN_COMMENT
+----========== LEIS PONDERAIS DA QUIMICA ===========---------------
+#+END_COMMENT 
+
+
+
+\collectexercises{LeisPonderais}
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Provoca-se reação da mistura formada por 10,0 g de hidrogênio e 500 g de cloro. Após a reação, constata-se a presença de 145 g de cloro remanescente, junto com o produto obtido. A massa, em gramas, da substância formada é:
+
+#+ATTR_LATEX: :options (2) 
+#+begin_choice
+\choice 155
+\choice 290
+\choice 365
+\choice 490
+\choice 510
+#+end_choice
+#+end_exercise
+#+begin_solution
+LETRA C
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Adicionando-se 4,5 g de gás hidrogênio a 31,5 g de gás nitrogênio originam-se 25,5 g de amônia, sobrando ainda nitrogênio que não reagiu. Para se obtiver 85 g de amônia, a quantidade de hidrogênio e de nitrogênio necessária é, respectivamente
+
+#+begin_choice
+\choice 15,0 g e 70,0 g.
+\choice 10,6 g e 74,4 g.
+\choice 13,5 g e 71,5 g.
+\choice 1,5 g e 83,5 g.
+\choice 40,0 g e 45,0 g.
+#+end_choice
+#+end_exercise
+#+begin_solution
+LETRA A
+#+end_solution
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+46,0 g de sódio reagem com 32,0 g de oxigênio formando peróxido de sódio. Quantos gramas de sódio são necessários para se obter 156 g de peróxido de sódio?
+
+#+ATTR_LATEX: :options (2)
+
+#+begin_choice
+\choice 23,0
+\choice 32,0
+\choice 69,0
+\choice 78,0
+\choice 92,0
+#+end_choice
+#+end_exercise
+#+begin_solution
+LETRA E
+#+end_solution
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A queima de uma amostra de palha de aço produz um composto pulverulento de massa:
+#+begin_choice
+\choice menor que a massa original de palha de aço.
+\choice igual à massa original da palha de aço.
+\choice maior que a massa original da palha de aço.
+\choice igual à massa de oxigênio do ar que participa da reação.
+\choice menor que a massa de oxigênio do ar que participa da reação.
+#+end_choice
+#+end_exercise
+#+begin_solution
+LETRA C
+#+end_solution
+
+
+
+\collectexercisesstop{LeisPonderais}
+
+
+
+
+
+
+#+begin_comment
+========= TABELA PERIODICA =========
+#+end_comment
+
+
+
+#+LATEX: \collectexercises{TabelaPeriodica}
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Para um elemento químico representativo (grupos 1,2,13,14,15,16,17,18), o número de elétrons na camada de valência é o número do grupo. O número de camadas eletrônicas é o número do período. O elemento químico com configuração eletrônica 1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d$^{10}$, 4p^3 está situado na tabela periódica no grupo:
+
+#+begin_choice
+\choice 13 e período 4.
+\choice 3 e período 3.
+\choice \answer{15 e período 4}.
+\choice 5 e período 5.
+\choice 14 e período 4
+#+end_choice
+#+end_exercise 
+#+begin_solution
+LETRA C
+#+end_solution
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Os elementos hipotéticos X, Y, Z e W apresentam as seguintes distribuições eletrônicas:
+- X :: - \(1s^2- 2s^2- 2p^2\)
+- Y :: - \(1s^2- 2s^2- 2p^6\)
+- Z :: - \(1s^2- 2s^2- 2p^6- 3s^2\)
+- W :: - \(1s^2 - 2s^2- 2p^6- 3s^2- 3p^6- 4s^2\)
+Considerando esses elementos, é correto afirmar que:
+#+begin_export latex
+\begin{choice}
+\choice Z é um metal alcalino.
+\choice X possui a menor eletronegatividade.
+\choice Y possui o menor potencial de ionização.
+\choice Y e W formam um composto de fórmula W‚Y.
+\choice W é um elemento radioativo
+\end{choice}
+#+end_export
+#+end_exercise
+#+begin_solution
+LETRA C
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Com base nos conceitos relacionados à tabela periódica, é *FALSO* afirmar que:
+#+begin_export latex
+\begin{choice}
+\choice  a afinidade eletrônica do enxofre (Z = 16) é menor que a do cloro (Z = 17)
+\choice nas suas propriedades químicas, o oxigênio (Z = 8) se parece mais com o enxofre (Z = 16) do que com o nitrogênio (Z = 7)
+\choice um metal se caracteriza pela facilidade de perder elétrons
+\choice potencial de ionização é a energia liberada para retirar um elétron de um átomo no estado gasoso
+\choice em um período, o raio atômico diminui da esquerda para a direita, em função do aumento da carga nuclear e, conseqüentemente, da atração do núcleo sobre as camadas eletrônicas
+\end{choice}
+#+end_export
+#+end_exercise
+#+begin_solution
+LETRA D
+#+end_solution
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+O subnível mais energético do átomo de um elemento é o *\(5p^3\)*, portanto, o seu número atômico e sua posição na tabela periódica serão, respectivamente:
+#+begin_export latex
+\begin{choice}(1)
+\choice 15, 3° período e coluna 15
+\choice 51, 5° período e coluna 15.
+\choice 51, 3° período e coluna 13.
+\choice 49, 5° período e coluna 13.
+\choice  60, 6° período e coluna 17
+\end{choice}
+#+end_export
+#+end_exercise
+#+begin_solution
+LETRA B
+#+end_solution
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Baseando-se    nas    configurações eletrônicas em ordem crescentede  energia  dos  elementos  a  seguir,  identifique  a alternativa correta.
+
+1. /1s^2 2s^2 2p^6 3s^2 3p^6 4s^2/
+2. /1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^2/
+3. /1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^{10} 4p^2/
+4. /1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^{10} 4p^6 5s^2 4d^{10} 5p^6 6s^2 4f^2/
+
+#+begin_export latex
+\begin{choice}
+\choice  3  e  4  estão  no  mesmo  período  da  Tabela Periódica.
+\choice  1 e 3 pertencem ao mesmo grupo, mas estão em períodos diferentes.
+\choice  1, 2, 3, 4 são todos metais alcalino-terrosos.
+\choice 3 é mais eletropositivo que 1.
+\choice  2 e 4 são elementos de transição.
+\end{choice}
+#+end_export
+#+end_exercise
+#+begin_solution
+LETRA E
+#+end_solution
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Com relação à classificação periódica dos elementos, pode-se afirmar que
+#+begin_export latex
+\begin{choice}(1)
+\choice o  rubídio  é  o  elemento  de  menor  raio  do  5° período
+\choice  o silício é mais eletronegativo que o enxofre.
+\choice  o  xenônio  é  o  elemento  de  maior  energia  de ionização do 5°período.
+\choice o chumbo é mais eletropositivo que o bário.
+\choice o magnésio é menos reativo que o alumínio.
+\end{choice}
+#+end_export
+#+end_exercise
+#+begin_solution
+LETRA C
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A  observação  da  tabela  periódica permite concluir que, dos elementos a seguir, o mais denso é o:
+#+begin_export latex
+\begin{choice}(3)
+\choice  Fr
+\choice  Po
+\choice Hg
+\choice Pb
+\choice Os
+\end{choice}
+#+end_export
+#+end_exercise
+#+begin_solution
+LETRA E
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1.0001]
+#+begin_exercise
+Relativamente aos elementos A, B, C e D da tabela a seguir, é correto afirmar que
+|-----------+--------------------|
+| Elementos | Camada de Valência |
+|-----------+--------------------|
+| A         | 4s^2 4p^2          |
+| B         | 4s^2 4p^5          |
+| C         | 1s^1               |
+| D         | 2s^2               |
+|-----------+--------------------|
+
+#+begin_choice
+\choice *A* e *B* pertencem à mesma família da tabela periódica.
+\choice *C* é metal alcalino terroso.
+\choice *A* pertence à família dos calcogênios.
+\choice *B* é um halogênio.
+\choice *D* tem número atômico igual a 12.
+#+end_choice
+#+end_exercise
+#+begin_solution
+LETRA D
+#+end_solution
+
+
+
+
+
+#+begin_exercise
+Considere os elementos: B, Aℓ, C e Si. Consultando uma tabela periódica, sobre eles é *CORRETO* afirmar:
+#+begin_choice
+\choice o Aℓ possui o maior maior energia de ionização.
+\choice o B apresenta o maior raio atômico.
+\choice o C é o átomo menos eletronegativo.
+\choice o Si apresenta a maior energia de ionização.
+\choice o B tem menor energia de ionização que o C.
+#+end_choice
+#+end_exercise 
+#+begin_solution
+LETRA A
+#+end_solution
+
+
+
+
+#+begin_exercise
+Dados os elementos:
+- G :: : 1s^2.
+- J :: : 1s^2 2s^1.
+- L :: : 1s^2 2s^2.
+- M :: : 1s^2 2s^2 2p^6 3s^2.
+
+
+#+begin_choice
+\choice *G* e *L*, pois são gases nobres.
+\choice *G* e *M*, pois têm dois elétrons no subnível mais energético.
+\choice *J* e *G*, pois são metais alcalinos.
+\choice *L* e *M*, pois são metais alcalinos terrosos.
+\choice *J* e *L*, pois são metais de transição.
+#+end_choice 
+#+end_exercise
+#+begin_solution
+LETRA D
+#+end_solution 
+
+
+
+#+begin_exercise
+O espetáculo de cores que e visualizado quando fogos de artifício são detonados deve-se a presença de elementos químicos adicionados a pólvora. Por exemplo, a cor amarela e devido ao sódio; a vermelha, ao estrôncio e ao cálcio; a azul, ao cobre; a verde, ao bário; e a violeta, ao potássio.
+Sobre os elementos químicos mencionados no texto, é correto afirmar:
+
+#+begin_choice
+\choice O sódio e o cálcio são metais alcalinos.
+\choice O estrôncio e o bário são metais alcalino-terrosos.
+\choice O potássio e o bário são metais alcalino-terrosos.
+\choice O cálcio é metal alcalino, e o cobre é metal de transição.
+\choice O cobre é metal de transição, e o potássio é metal alcalino-terroso.
+#+end_choice
+#+end_exercise 
+#+begin_solution
+LETRA B
+#+end_solution 
+
+
+
+
+#+begin_exercise
+Um /“hacker”/ de programas de computador está prestes a violar um arquivo importantíssimo de uma grande multinacional de indústria química. Quando ele violar este arquivo, uma grande quantidade de informações de interesse público poderá ser divulgada. Ao pressionar uma determinada tecla do computador, aparece a figura a seguir e uma mensagem em forma de desafio:
+
+/"A senha é composta do símbolo de X, seguido do número de elétrons do seu átomo neutro, do símbolo de Y, seguido do seu número atômico, e do símbolo de Z, seguido do seu número de prótons”./
+
+Acontece que o hacker não entende nada de Química. Será que você pode ajudá-lo?
+
+#+INCLUDE: "tabela.org"
+
+A senha que o *hacker* deve digitar é:
+#+begin_choice
+\choice Ca40C12F15.
+\choice Ca20C12F31.
+\choice Ca20C6F15.
+\choice Ca40C12P15.
+\choice Ca20C6P15
+#+end_choice
+#+end_exercise
+
+
+#+begin_exercise
+Soluções aquosas de sais de sódio e de potássio são comumente empregadas nas análises químicas. Esses elementos fazem parte de um mesmo grupo (ou família) na tabela periódica. Um aluno fez as seguintes anotações enquanto estudava os conceitos sobre periodicidade.
+#+ATTR_LATEX: :options [label=\Roman*)]
+1. A energia de ionização do Na é menor que do K
+2. O raio atômico do K é maior que do Na
+3. Na e K pertencem ao grupo dos metais alcalinos
+
+Quanto a estas anotações, pode-se afirmar que
+
+#+begin_choice
+\choice I está incorreta
+\choice II está incorreta
+\choice III está incorreta
+\choice Todas estão corretas.
+\choice II e III são incorretas.
+#+end_choice
+#+end_exercise 
+
+
+#+begin_exercise
+Os elementos que possuem na última camada:
+#+ATTR_LATEX: :options [label=\Roman*)]
+1. 4s^2
+2. 3s^2, 3p^5
+3. 2s^2, 2p^4
+4. 2s^1
+
+Classificam-se, dentro dos grupos da tabela periódica, respectivamente como:
+#+begin_choice
+\choice alcalinos-terrosos, halogênios, calcogênios e alcalinos.
+\choice halogênios, alcalinos-terrosos, alcalinos e gases nobres.
+\choice gases nobres, halogênios, calcogênios e gases nobres.
+\choice alcalinos-terrosos, halogênios, gases nobres e alcalinos.
+\choice alcalinos-terrosos, halogênios, alcalinos e gases nobres.
+#+end_choice
+#+end_exercise 
+
+
+#+begin_exercise
+Na tabela periódica os elementos estão ordenados em ordem crescente de:
+#+begin_choice
+\choice Número de massa.
+\choice Massa atômica.
+\choice Número atômico.
+\choice Raio atômico.
+\choice Eletroafinidade.
+#+end_choice
+#+end_exercise
+#+begin_solution
+LETRA C
+#+end_solution
+
+
+
+
+
+
+#+begin_exercise
+Uma distribuição eletrônica possível para um elemento X, que pertence à mesma família do elemento bromo, cujo número atômico é igual a 35, é:
+#+begin_export latex
+\begin{choice}(1)
+\choice  $1s^2,\ 2s^2,\ 2p^5$
+\choice $1s^2,\ 2s^2,\ 2p^6,\ 3s^2,\ 3p^1$
+\choice  $1s^2,\ 2s^2,\ 2p^2$
+\choice $1s^2,\ 2s^2,\ 2p^6,\ 3s^1$
+\choice $1s^2,\ 2s^2,\ 2p^6,\ 3s^2,\ 3p^6,\ 4s^2,\ 3d^5$
+\end{choice}
+#+end_export
+#+end_exercise
+
+
+
+
+
+#+begin_exercise
+O número de elétrons da camada de valência do átomo de cálcio (Z = 20), no estado fundamental, é
+#+begin_export latex
+\begin{choice}(2)
+\choice 1
+\choice  2
+\choice 6
+\choice 8
+\choice 10
+\end{choice}
+#+end_export
+#+end_exercise
+
+#+begin_exercise
+O elemento cujo átomo tem o maior número de elétrons em sua camada mais externa é aquele cujo número atômico é igual a:
+#+begin_export latex
+\begin{choice}(2)
+\choice 2
+\choice  4
+\choice  7
+\choice 11
+\choice 12
+\end{choice}
+#+end_export
+#+end_exercise
+
+
+
+
+\collectexercisesstop{TabelaPeriodica}
+
+
+
+
+
+#+BEGIN_COMMENT
+===================== GEOMETRIA MOLECULAR
+#+END_COMMENT
+
+
+
+
+
+
+
+
+#+begin_comment
+============== FUNCOES INORGANICAS  ========
+#+end_comment
+
+
+\collectexercises{FuncoesInorganicas}
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+olumes de soluções aquosas de cloreto de bário e de sulfato
+de sódio de concentrações apropriadas são misturados
+observando-se a formação de um precipitado. Os produtos
+formados na reação são:
+
+#+begin_choice
+\choice BaO e NaC$\ell$
+\choice NaC$\ell$ e \ch{BaC$\ell$2}
+\choice \ch{BaC$\ell$2} e \ch{Na2O}
+\choice \ch{BaSO4} e \ch{NaC$\ell$}
+\choice \ch{Na2SO4} e \ch{BaC$\ell$2}
+#+end_choice 
+#+end_exercise
+#+begin_solution
+#+end_solution
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+
+
+#+begin_choice
+#+end_choice 
+#+end_exercise
+#+begin_solution
+#+end_solution
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+
+
+#+begin_choice
+#+end_choice 
+#+end_exercise
+#+begin_solution
+#+end_solution
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+
+
+#+begin_choice
+#+end_choice 
+#+end_exercise
+#+begin_solution
+#+end_solution
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+
+
+#+begin_choice
+#+end_choice 
+#+end_exercise
+#+begin_solution
+#+end_solution
+
+
+
+
+
+
+\collectexercisesstop{FuncoesInorganicas}
+
+
+
+
+
+
+
+#+begin_comment
+============== TIPOS DE REAÇÕES ========
+#+end_comment
+
+
+\collectexercises{ReacoesQuimica}
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+
+
+#+begin_choice
+#+end_choice 
+#+end_exercise
+#+begin_solution
+#+end_solution
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+
+
+#+begin_choice
+#+end_choice 
+#+end_exercise
+#+begin_solution
+#+end_solution
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+
+
+#+begin_choice
+#+end_choice 
+#+end_exercise
+#+begin_solution
+#+end_solution
+
+
+
+
+
+
+
+\collectexercisesstop{ReacoesQuimica}
+
+
+
+
+
+
+
+
+
+

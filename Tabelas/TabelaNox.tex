@@ -1,0 +1,69 @@
+\documentclass[10pt]{scrartcl}
+\KOMAoptions{
+	%headings=chapterprefix,
+	%twocolumn=true,
+	%toc=indenttextentries,
+	%toc=flat,
+	twoside=true,
+	headinclude=true,
+	footinclude=true
+	%  captions=topbeside
+}
+
+\usepackage{fontspec}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+\usepackage[x11names,svgnames,table]{xcolor}
+\defaultfontfeatures{Ligatures=TeX}
+%%\setmainfont{Lato}
+%\setmainfont{Charis SIL}
+\setmainfont{Alegreya}
+
+\usepackage{typearea}
+\usepackage{lscape}
+\usepackage[a4paper]{geometry}
+\geometry{a4paper,total={170mm,257mm},left=10mm,right=10mm, top=15mm, bottom=20mm}
+\usepackage[portuguese, american]{babel}
+\usepackage{amsmath,amsfonts,amsthm,bm}
+
+\usepackage{xcolor}
+\usepackage{tabularray}
+\usepackage{chemmacros}
+\usepackage{chemfig}
+ 
+ 
+\begin{document}
+	\NewTblrTheme{fancy}{
+		\SetTblrStyle{caption-tag}{font=\bfseries}
+	}
+	
+\selectlanguage{portuguese}
+ %\UseTblrTemplate{caption-tag}{default}{\bfseries}
+\begin{talltblr}[theme=fancy,
+caption = {Tabela de Nox de alguns elementos},
+%note{a} = {It is the first footnote.},
+]{
+colspec = {cccl}, colsep = 5mm, hlines = {2pt, white},
+%row{odd} = {azure8}, row{even} = {gray8},
+row{1} = {2em,azure3,fg=white,font=\bfseries\sffamily},
+}
+Elementos & Nox & Ocorrência & Exemplo \\
+Substâncias simples & zero & Substâncias simples & \ch{O2}, C, Fe , Mg\\ \hline 
+{Metais alcalinos \\ Li, Na, K, Rb, Cs, Fr} & +1 & Substâncias compostas & NaF, \ch{Na2O} \\ \hline 
+{Metais alcalinos terrosos \\ Be, Mg, Ca, Ba, Sr, Ra} & +2 & Substâncias compostas & CaO, \ch{BeC$\ell$2} \\ \hline
+{Calcogênios \\ S, Se, Te} & -2 & Substâncias compostas & \ch{H2S}, \ch{CS2}, BaS \\ \hline
+{Halogênios \\ F, \ch{C$\ell$}, Br, I} & -1 & Substâncias compostas & HF, NaBr, \ch{CaI2}\\ \hline 
+{Prata \\ Ag} & +1 & Substâncias compostas  & AgF, AgS, \ch{AgNO3} \\ \hline 
+{Zinco \\  Zn} &  +2  & Substâncias compostas & \ch{ZnC$\ell$2}, ZnS, ZnO \\ \hline
+{Alumínio \\ \ch{A$\ell$}} & +3 &  Substâncias compostas & \ch{A$\ell$C$\ell$3}, \ch{A$\ell$2O3}, \ch{A$\ell$F3} \\ \hline 
+\SetCell[r=2]{c} {Hidrogênio \\ H} &  +1  & Ligado aos não metais &  \ch{CH4} , \ch{H2SO4} \\ \hline
+ & -1& {Ligado aos metais  \\ alcalinos e alcalinos terrosos} & NaH, \ch{A$\ell$H3}, \ch{CaH2} \\ \hline 
+\SetCell[r=6]{c}{Oxigênio \\  O} &  -2 &  Maioria dos compostos & \ch{H2SO4} , \ch{KMnO4}, \ch{HNO3} \\ \hline
+ & -2  & Óxidos  compostos binários &  \ch{Na2O}, \ch{H2O}, CaO \\ \hline
+& -1/2  & Superóxidos, compostos binários & \ch{Na2O4} \\ \hline
+& -1 & peróxidos compostos binários &  \ch{H2O2}\\ \hline
+& +1  & Fluoretos & \ch{O2F2} \\ \hline
+& +2  &Fluoretos & \ch{OF2} \\ \hline
+\end{talltblr}
+
+\end{document}
