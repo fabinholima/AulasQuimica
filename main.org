@@ -24,22 +24,6 @@
 #+LATEX_HEADER: \def\dataprova{}
 
 
-#+begin_export latex
-\twocolumn[
-\input{../Modelos/CabeOficial}
-%%\input{../Modelos/cabenovo}
-%%%\input{../Modelos/mamede}
-%\input{../Modelos/26agosto}
-%% \input{../Modelos/geral}
-%Cada questão vale {\textbf 2,0}
-
-%%\section*{Regime de Progressão Parcial}
-%\section*{Atividade}
-%%%\section*{Trabalho}
-%%\section*{\disciplina}
-
-
-
 \input{../Modelos/gabarito}
 
 %Total Prova: \printpoints

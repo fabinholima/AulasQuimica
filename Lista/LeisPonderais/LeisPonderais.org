@@ -1,0 +1,71 @@
+#+LATEX_HEADER: \DeclareExerciseCollection{LeisPonderais}
+
+
+#+begin_exercise
+Quando 32g de enxofre reagem 32g de oxigênio apresentando como único
+produto o dióxido de enxofre, podemos afirmar, obedecendo a Lei de Lavoisier,
+que a massa de dióxido de enxofre produzida é:
+#+end_exercise
+
+
+
+
+#+begin_exercise
+Para obtermos 16 g de metano temos que fazer a reação entre 4 g de
+hidrogênio e 12 g de carbono. Quais as massas de hidrogênio e carbono são
+necessárias para a obtenção de 80 g de metano?
+#+end_exercise
+
+
+
+
+#+begin_exercise
+Se 71 g de cloro reagem com 200 g de brometo de cálcio, originando 111 g
+de cloreto de cálcio e 160 g de bromo, pergunta-se:
+
+#+begin_choice
+\choice Qual a massa de cloro necessária para se obter 480 g de bromo?
+\choice  Qual a massa de cloreto de cálcio obtida nesse caso?
+#+end_choice 
+#+end_exercise
+
+
+
+#+begin_exercise
+Verifica-se que 56 g de óxido de cálcio reagem completamente com 44 g de
+gás carbônico. Pede-se:
+
+#+begin_choice
+\choice Qual a massa do produto formado?
+\choice Qual a massa de óxido de cálcio necessária para se obter 25 g do
+produto da reação?
+#+end_choice 
+
+#+end_exercise
+
+
+
+
+
+#+begin_exercise
+
+#+end_exercise
+
+
+
+#+begin_exercise
+
+#+end_exercise
+
+
+
+#+begin_exercise
+
+#+end_exercise
+
+
+
+
+#+begin_exercise
+
+#+end_exercise
