@@ -53,6 +53,9 @@
 
 #+INCLUDE: "Extras/Nanotecnologia.org"
 
+#+INCLUDE: "Lista/LeisPonderais/LeisPonderais.org"
+
+\printcollection{LeiLavosier}
 
 \printcollection{Nano}
 

@@ -133,6 +133,7 @@ Por aquecimento, 50g de \ch{CaCO3} decompõe-se em 28g de CaO e 22g de \ch{CO2}.
 
 
 \collectexercisesstop{LeiLavosier}
+<<<<<<< HEAD
 
 #+begin_comment
 %% ================ LEI DE PROUST ========= %%%%%
@@ -155,3 +156,5 @@ Por aquecimento, 50g de \ch{CaCO3} decompõe-se em 28g de CaO e 22g de \ch{CO2}.
 
 
 
+=======
+>>>>>>> bc848aaeb1b6e8a89659967db0a3b9ddafb6dfc0
