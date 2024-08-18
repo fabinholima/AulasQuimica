@@ -154,7 +154,7 @@ tem cadeia carbônica:
 \collectexercises{ListaOrganicaI}
 
 #+begin_exercise
-Identifique as funções orgânicas e dê os nomes dos seguintes compostos orgânicos:
+Identifique os grupos hidrocarbonetos, escreva a fórmula molecular e dê os nomes dos seguintes compostos orgânicos:
 
 #+ATTR_LATEX: :options {11}
 #+begin_spacing

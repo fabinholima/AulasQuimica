@@ -1,4 +1,8 @@
-#+LATEX_HEADER: \DeclareExerciseCollection{LeisPonderais}
+
+#+LATEX_HEADER: \DeclareExerciseCollection{LeiLavosier} 
+
+
+\collectexercises{LeiLavosier}
 
 
 #+begin_exercise
@@ -48,24 +52,106 @@ produto da reação?
 
 
 #+begin_exercise
+Provoca-se reação da mistura formada por 10,0g de hidrogênio e 500g de cloro. Após a reação constata-se a presença de 145g de cloro sem reagir, junto com o produto obtido. Qual é a massa, em gramas, da substância formada?
+#+end_exercise
+
+
+
+#+begin_exercise
+Nos carros movidos a álcool, o etanol reage com o oxigênio do ar, produzindo gás carbônico e vapor de água. Sabendo que 46g de álcool reagem com 96g de oxigênio produzindo 88g de gás carbônico, que massa de vapor d'água será produzida nesta reação?
+#+end_exercise
+
+
+
+#+begin_exercise
+Analise os dados abaixo:
+
+#+begin_export latex
+
+\begin{tblr}{
+		vlines, hlines,
+		colspec = {X[c]X[c]X[c]},
+		%vline{2} = {1}{text=\clap{:}},
+		vline{2} = {1}{text=\clap{\ch{+}}},
+		vline{3} = {1}{text=\clap{\ch{->}}},
+		%vline{5} = {1}{text=\clap{\ch{+}}},
+	}
+	  \ch{SO3} & \ch{H2O} & \ch{H2SO4}  \\
+	  $x$ & 18 & 98  \\
+	  120 & 27 & y \\
+\end{tblr}
+
+#+end_export
+
+Quais são os valores de "x" e de "y" ?
+
+#+end_exercise
+
+
+
+
+#+begin_exercise
+Em uma oficina, 22,4g de pregos são deixados expostos ao ar. Supondo que, os pregos sejam constituídos unicamente por átomos de ferro e, que após algumas semanas a massa dos mesmos pregos tenha aumentado para 32g, pergunta-se:
+
+#+begin_choice
+\choice Que massa de oxigênio foi envolvida no processo?
+\choice Em que Lei das Combinações Químicas você se baseou para responder o item anterior?
+#+end_choice
+
 
 #+end_exercise
 
 
 
 #+begin_exercise
+Analise o quadro a seguir:
+
+#+begin_export latex
+\begin{tblr}{
+		vlines, hlines,
+		colspec = {X[c]X[c]X[c]X[c]},
+		%vline{2} = {1}{text=\clap{:}},
+		vline{2} = {1}{text=\clap{\ch{+}}},
+		vline{3} = {1}{text=\clap{\ch{->}}},
+		vline{4} = {1}{text=\clap{\ch{+}}},
+	}
+	  \ch{NaOH} & \ch{HC$\ell$} & \ch{NaC$\ell$} & \ch{H2O}  \\
+	  40g & 36,5 g & $x$ & 18 g    \\
+	  120 g & $y$ & $z$ & $t$\\
+\end{tblr}
+#+end_export
+
 
 #+end_exercise
 
 
 
 #+begin_exercise
+Por aquecimento, 50g de \ch{CaCO3} decompõe-se em 28g de CaO e 22g de \ch{CO2}. Que massas de CaO e de \ch{CO2} serão obtidos na decomposição de 200g de \ch{CaCO3}? Qual a Lei das Combinações permite tais conclusões?
 
 #+end_exercise
 
 
+\collectexercisesstop{LeiLavosier}
 
+#+begin_comment
+%% ================ LEI DE PROUST ========= %%%%%
+#+end_comment
+
+\collectexercises{LeiProust}
 
 #+begin_exercise
+(UESPI) Qualquer que seja a procedência ou processo de preparação do NaC$\ell$, podemos afirmar que sua composição é sempre 39,32% de sódio e 60,68% de cloro, com base na lei de:
+
 
 #+end_exercise
+
+
+\collectexercisesstop{LeiProust}
+
+
+
+
+
+
+

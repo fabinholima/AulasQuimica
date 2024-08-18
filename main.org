@@ -24,7 +24,23 @@
 #+LATEX_HEADER: \def\dataprova{}
 
 
-\input{../Modelos/gabarito}
+#+begin_export latex
+\twocolumn[
+\input{../Modelos/CabeOficial}
+%%\input{../Modelos/cabenovo}
+%%%\input{../Modelos/mamede}
+%\input{../Modelos/26agosto}
+%% \input{../Modelos/geral}
+%Cada questão vale {\textbf 2,0}
+
+%%\section*{Regime de Progressão Parcial}
+%\section*{Atividade}
+%%%\section*{Trabalho}
+%%\section*{\disciplina}
+
+
+
+%\input{../Modelos/gabarito}
 
 %Total Prova: \printpoints
 \smallbreak
@@ -35,12 +51,20 @@
 
 
 
+#+INCLUDE: "Extras/Nanotecnologia.org"
 
+
+\printcollection{Nano}
 
 #+begin_comment
 
 
 
+#+INCLUDE: "Lista/LeisPonderais/LeisPonderais.org"
+
+
+
+https://colegiohms.com.br/blog/wp-content/uploads/2023/03/exercicios-de-HIBRIDIZACAO.pdf
 
 
 
