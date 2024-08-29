@@ -51,13 +51,13 @@
 
 
 
-#+INCLUDE: "Extras/Nanotecnologia.org"
 
-#+INCLUDE: "Lista/LeisPonderais/LeisPonderais.org"
 
-\printcollection{LeiLavosier}
+#+INCLUDE: "Lista/FuncoesInorganicas/AcidosBases.org"
 
-\printcollection{Nano}
+\printcollection{AcidosBases}
+
+
 
 #+begin_comment
 

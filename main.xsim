@@ -1,47 +1,42 @@
 \providecommand\numberofexercises{}
 \XSIM{solution-body}{}
-\XSIM{exercise-body}{exercise-1=={Quando 32g de enxofre reagem 32g de oxigênio apresentando como único produto o dióxido de enxofre, podemos afirmar, obedecendo a Lei de Lavoisier, que a massa de dióxido de enxofre produzida é:}||exercise-2=={Para obtermos 16 g de metano temos que fazer a reação entre 4 g de hidrogênio e 12 g de carbono. Quais as massas de hidrogênio e carbono são necessárias para a obtenção de 80 g de metano?}||exercise-3=={Se 71 g de cloro reagem com 200 g de brometo de cálcio, originando 111 g de cloreto de cálcio e 160 g de bromo, pergunta-se: \par \begin {choice} \choice Qual a massa de cloro necessária para se obter 480 g de bromo? \choice Qual a massa de cloreto de cálcio obtida nesse caso? \end {choice}}||exercise-4=={Verifica-se que 56 g de óxido de cálcio reagem completamente com 44 g de gás carbônico. Pede-se: \par \begin {choice} \choice Qual a massa do produto formado? \choice Qual a massa de óxido de cálcio necessária para se obter 25 g do produto da reação? \end {choice}}||exercise-5=={Provoca-se reação da mistura formada por 10,0g de hidrogênio e 500g de cloro. Após a reação constata-se a presença de 145g de cloro sem reagir, junto com o produto obtido. Qual é a massa, em gramas, da substância formada?}||exercise-6=={Nos carros movidos a álcool, o etanol reage com o oxigênio do ar, produzindo gás carbônico e vapor de água. Sabendo que 46g de álcool reagem com 96g de oxigênio produzindo 88g de gás carbônico, que massa de vapor d'água será produzida nesta reação?}||exercise-7=={Analise os dados abaixo: \par \par \begin {tblr}{ vlines, hlines, colspec = {X[c]X[c]X[c]}, vline{2} = {1}{text=\clap {\ch {+}}}, vline{3} = {1}{text=\clap {\ch {->}}}, } \ch {SO3} & \ch {H2O} & \ch {H2SO4} \\ $x$ & 18 & 98 \\ 120 & 27 & y \\ \end {tblr} \par Quais são os valores de "x" e de "y" ?}||exercise-8=={Em uma oficina, 22,4g de pregos são deixados expostos ao ar. Supondo que, os pregos sejam constituídos unicamente por átomos de ferro e, que após algumas semanas a massa dos mesmos pregos tenha aumentado para 32g, pergunta-se: \par \begin {choice} \choice Que massa de oxigênio foi envolvida no processo? \choice Em que Lei das Combinações Químicas você se baseou para responder o item anterior? \end {choice}}||exercise-9=={Analise o quadro a seguir: \par \begin {tblr}{ vlines, hlines, colspec = {X[c]X[c]X[c]X[c]}, vline{2} = {1}{text=\clap {\ch {+}}}, vline{3} = {1}{text=\clap {\ch {->}}}, vline{4} = {1}{text=\clap {\ch {+}}}, } \ch {NaOH} & \ch {HC$\ell $} & \ch {NaC$\ell $} & \ch {H2O} \\ 40g & 36,5 g & $x$ & 18 g \\ 120 g & $y$ & $z$ & $t$\\ \end {tblr}}||exercise-10=={Por aquecimento, 50g de \ch {CaCO3} decompõe-se em 28g de CaO e 22g de \ch {CO2}. Que massas de CaO e de \ch {CO2} serão obtidos na decomposição de 200g de \ch {CaCO3}? Qual a Lei das Combinações permite tais conclusões?}}
+\XSIM{exercise-body}{exercise-1=={Escreva a fórmula química dos ácidos abaixo: \par \begin {choice} \choice Sulfuroso : \choice Sulfúrico : \choice Hipofosforoso : \choice Fosforoso : \choice Fosfórico : \choice Hipocloroso : \choice Cloroso : \choice Clórico : \choice Perclórico : \choice Iodoso : \choice Iódico : \choice Nítrico : \choice Nitroso : \choice Hiponitroso : \choice Brômico : \choice Bórico : \choice Carbônico : \choice Pirosulfúrico : \choice Metabórico : \choice Pirofosfórico : \choice Metafosfórico : \choice Cianídrico : \end {choice}}||exercise-2=={Escreva a fórmula química das bases: \par \begin {choice} \choice Hidróxido de alumínio : \choice Hidróxido de cobre I : \choice Hidróxido de cobre II : \choice Hidróxido de magnésio : \choice Hidróxido de chumbo IV : \choice Hidróxido de amônio : \choice Hidróxido de ferro II : \end {choice}}||exercise-3=={Dê a fórmula dos ácidos ou bases formadas com os seguintes íons: \par \begin {choice}(2) \choice \ch {Cd^2+} \choice \ch {Cu^2+} \choice \ch {Cr^3+} \choice \ch {Sn^4+} \choice \ch {Ni^3+} \choice \ch {NO2^-} \choice \ch {NO3^1-} \choice \ch {Br^1-} \choice \ch {BrO2^-} \choice \ch {S^2-} \choice \ch {SO4^2-} \end {choice}}||exercise-4=={Dê nome aos seguintes ácidos: \par \begin {choice} \choice \ch {H2SO3}: \choice \ch {H2S}: \choice \ch {H3PO3}: \choice \ch {HBrO}: \choice \ch {H3BO3}: \end {choice}}||exercise-5=={Dê o nome as seguintes bases: \begin {choice} \choice KOH : \choice \ch {Mg(OH)2} : \choice \ch {Al(OH)3} : \choice \ch {Zn(OH)2} : \choice \ch {Sn(OH)2} : \choice CuOH \end {choice}}||exercise-6=={Classifique os ácidos em fortes, semifortes e fracos. \par \begin {choice} \choice \ch {H3BO3} : \choice \ch {HMnO4} : \choice \ch {H2CrO4} : \choice \ch {H3PO4} : \choice \ch {H4SiO4} : \choice \ch {HC$\ell $O3} : \end {choice}}||exercise-7=={Faça a equação de ionização ou dissociação iônica para os ácidos e bases dos exercícios 4 e 5.}}
 \XSIM{goal}{exercise}{points}{0}
 \XSIM{totalgoal}{points}{0}
 \XSIM{goal}{exercise}{bonus-points}{0}
 \XSIM{totalgoal}{bonus-points}{0}
-\XSIM{order}{1||2||3||4||5||6||7||8||9||10}
+\XSIM{order}{1||2||3||4||5||6||7}
 \XSIM{use}{}
 \XSIM{use!}{}
-\XSIM{used}{exercise-1=={true}||exercise-2=={true}||exercise-3=={true}||exercise-4=={true}||exercise-5=={true}||exercise-6=={true}||exercise-7=={true}||exercise-8=={true}||exercise-9=={true}||exercise-10=={true}}
+\XSIM{used}{exercise-1=={true}||exercise-2=={true}||exercise-3=={true}||exercise-4=={true}||exercise-5=={true}||exercise-6=={true}||exercise-7=={true}}
 \XSIM{print}{}
 \XSIM{print!}{}
-\XSIM{printed}{exercise-1=={true}||exercise-2=={true}||exercise-3=={true}||exercise-4=={true}||exercise-5=={true}||exercise-6=={true}||exercise-7=={true}||exercise-8=={true}||exercise-9=={true}||exercise-10=={true}}
-\XSIM{total-number}{10}
-\XSIM{exercise}{10}
+\XSIM{printed}{exercise-1=={true}||exercise-2=={true}||exercise-3=={true}||exercise-4=={true}||exercise-5=={true}||exercise-6=={true}||exercise-7=={true}}
+\XSIM{total-number}{7}
+\XSIM{exercise}{7}
 \XSIM{types}{exercise}
-\XSIM{idtypes}{1=={exercise}||2=={exercise}||3=={exercise}||4=={exercise}||5=={exercise}||6=={exercise}||7=={exercise}||8=={exercise}||9=={exercise}||10=={exercise}}
-\XSIM{collections}{exercise-1=={all exercises,LeiLavosier}||exercise-2=={all exercises,LeiLavosier}||exercise-3=={all exercises,LeiLavosier}||exercise-4=={all exercises,LeiLavosier}||exercise-5=={all exercises,LeiLavosier}||exercise-6=={all exercises,LeiLavosier}||exercise-7=={all exercises,LeiLavosier}||exercise-8=={all exercises,LeiLavosier}||exercise-9=={all exercises,LeiLavosier}||exercise-10=={all exercises,LeiLavosier}}
-\XSIM{collection:all exercises}{exercise-1||exercise-2||exercise-3||exercise-4||exercise-5||exercise-6||exercise-7||exercise-8||exercise-9||exercise-10}
-\setcounter{totalexerciseinall exercises}{10}
-\XSIM{id}{exercise-1=={1}||exercise-2=={2}||exercise-3=={3}||exercise-4=={4}||exercise-5=={5}||exercise-6=={6}||exercise-7=={7}||exercise-8=={8}||exercise-9=={9}||exercise-10=={10}}
-\XSIM{ID}{exercise-1=={1}||exercise-2=={2}||exercise-3=={3}||exercise-4=={4}||exercise-5=={5}||exercise-6=={6}||exercise-7=={7}||exercise-8=={8}||exercise-9=={9}||exercise-10=={10}}
-\XSIM{counter}{exercise-1=={1}||exercise-2=={2}||exercise-3=={3}||exercise-4=={4}||exercise-5=={5}||exercise-6=={6}||exercise-7=={7}||exercise-8=={8}||exercise-9=={9}||exercise-10=={10}}
-\XSIM{counter-value}{exercise-1=={1}||exercise-2=={2}||exercise-3=={3}||exercise-4=={4}||exercise-5=={5}||exercise-6=={6}||exercise-7=={7}||exercise-8=={8}||exercise-9=={9}||exercise-10=={10}}
+\XSIM{idtypes}{1=={exercise}||2=={exercise}||3=={exercise}||4=={exercise}||5=={exercise}||6=={exercise}||7=={exercise}}
+\XSIM{collections}{exercise-1=={all exercises,AcidosBases}||exercise-2=={all exercises,AcidosBases}||exercise-3=={all exercises,AcidosBases}||exercise-4=={all exercises,AcidosBases}||exercise-5=={all exercises,AcidosBases}||exercise-6=={all exercises,AcidosBases}||exercise-7=={all exercises,AcidosBases}}
+\XSIM{collection:all exercises}{exercise-1||exercise-2||exercise-3||exercise-4||exercise-5||exercise-6||exercise-7}
+\setcounter{totalexerciseinall exercises}{7}
+\XSIM{id}{exercise-1=={1}||exercise-2=={2}||exercise-3=={3}||exercise-4=={4}||exercise-5=={5}||exercise-6=={6}||exercise-7=={7}}
+\XSIM{ID}{exercise-1=={1}||exercise-2=={2}||exercise-3=={3}||exercise-4=={4}||exercise-5=={5}||exercise-6=={6}||exercise-7=={7}}
+\XSIM{counter}{exercise-1=={1}||exercise-2=={2}||exercise-3=={3}||exercise-4=={4}||exercise-5=={5}||exercise-6=={6}||exercise-7=={7}}
+\XSIM{counter-value}{exercise-1=={1}||exercise-2=={2}||exercise-3=={3}||exercise-4=={4}||exercise-5=={5}||exercise-6=={6}||exercise-7=={7}}
 \XSIM{solution}{}
-\XSIM{section-value}{exercise-1=={0}||exercise-2=={0}||exercise-3=={0}||exercise-4=={0}||exercise-5=={0}||exercise-6=={0}||exercise-7=={0}||exercise-8=={0}||exercise-9=={0}||exercise-10=={0}}
-\XSIM{section}{exercise-1=={0}||exercise-2=={0}||exercise-3=={0}||exercise-4=={0}||exercise-5=={0}||exercise-6=={0}||exercise-7=={0}||exercise-8=={0}||exercise-9=={0}||exercise-10=={0}}
-\XSIM{sectioning}{exercise-1=={{0}{0}{0}{0}{0}}||exercise-2=={{0}{0}{0}{0}{0}}||exercise-3=={{0}{0}{0}{0}{0}}||exercise-4=={{0}{0}{0}{0}{0}}||exercise-5=={{0}{0}{0}{0}{0}}||exercise-6=={{0}{0}{0}{0}{0}}||exercise-7=={{0}{0}{0}{0}{0}}||exercise-8=={{0}{0}{0}{0}{0}}||exercise-9=={{0}{0}{0}{0}{0}}||exercise-10=={{0}{0}{0}{0}{0}}}
+\XSIM{section-value}{exercise-1=={0}||exercise-2=={0}||exercise-3=={0}||exercise-4=={0}||exercise-5=={0}||exercise-6=={0}||exercise-7=={0}}
+\XSIM{section}{exercise-1=={0}||exercise-2=={0}||exercise-3=={0}||exercise-4=={0}||exercise-5=={0}||exercise-6=={0}||exercise-7=={0}}
+\XSIM{sectioning}{exercise-1=={{0}{0}{0}{0}{0}}||exercise-2=={{0}{0}{0}{0}{0}}||exercise-3=={{0}{0}{0}{0}{0}}||exercise-4=={{0}{0}{0}{0}{0}}||exercise-5=={{0}{0}{0}{0}{0}}||exercise-6=={{0}{0}{0}{0}{0}}||exercise-7=={{0}{0}{0}{0}{0}}}
 \XSIM{subtitle}{}
 \XSIM{points}{}
 \XSIM{bonus-points}{}
-<<<<<<< HEAD
-\XSIM{page-value}{exercise-1=={3}||exercise-2=={3}||exercise-3=={3}||exercise-4=={3}||exercise-5=={3}||exercise-6=={3}||exercise-7=={3}||exercise-8=={3}||exercise-9=={3}||exercise-10=={3}}
-\XSIM{page}{exercise-1=={3}||exercise-2=={3}||exercise-3=={3}||exercise-4=={3}||exercise-5=={3}||exercise-6=={3}||exercise-7=={3}||exercise-8=={3}||exercise-9=={3}||exercise-10=={3}}
-=======
-\XSIM{page-value}{exercise-1=={1}||exercise-2=={1}||exercise-3=={1}||exercise-4=={1}||exercise-5=={1}||exercise-6=={1}||exercise-7=={1}||exercise-8=={1}||exercise-9=={1}||exercise-10=={1}}
-\XSIM{page}{exercise-1=={1}||exercise-2=={1}||exercise-3=={1}||exercise-4=={1}||exercise-5=={1}||exercise-6=={1}||exercise-7=={1}||exercise-8=={1}||exercise-9=={1}||exercise-10=={1}}
->>>>>>> bc848aaeb1b6e8a89659967db0a3b9ddafb6dfc0
+\XSIM{page-value}{exercise-1=={1}||exercise-2=={1}||exercise-3=={1}||exercise-4=={1}||exercise-5=={1}||exercise-6=={1}||exercise-7=={1}}
+\XSIM{page}{exercise-1=={1}||exercise-2=={1}||exercise-3=={1}||exercise-4=={1}||exercise-5=={1}||exercise-6=={1}||exercise-7=={1}}
 \XSIM{tags}{}
 \XSIM{topics}{}
 \XSIM{userpoints}{}
 \XSIM{bodypoints}{}
 \XSIM{userbonus-points}{}
 \XSIM{bodybonus-points}{}
-\XSIM{collection:LeiLavosier}{exercise-1||exercise-2||exercise-3||exercise-4||exercise-5||exercise-6||exercise-7||exercise-8||exercise-9||exercise-10}
-\setcounter{totalexerciseinLeiLavosier}{10}
+\XSIM{collection:AcidosBases}{exercise-1||exercise-2||exercise-3||exercise-4||exercise-5||exercise-6||exercise-7}
+\setcounter{totalexerciseinAcidosBases}{7}

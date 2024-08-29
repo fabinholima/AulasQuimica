@@ -1,0 +1,126 @@
+
+#+LATEX_HEADER: \DeclareExerciseCollection{AcidosBases} 
+
+
+\collectexercises{AcidosBases}
+
+#+begin_exercise
+Escreva a fórmula química dos ácidos abaixo:
+
+#+ATTR_LATEX: :option (2)
+#+begin_choice
+\choice Sulfuroso :
+\choice Sulfúrico :
+\choice Hipofosforoso :
+\choice Fosforoso :
+\choice  Fosfórico :
+\choice  Hipocloroso :
+\choice  Cloroso :
+\choice Clórico :
+\choice Perclórico : 
+\choice Iodoso :
+\choice Iódico : 
+\choice Nítrico :
+\choice Nitroso :
+\choice Hiponitroso :
+\choice  Brômico : 
+\choice Bórico :
+\choice Carbônico :
+\choice Pirosulfúrico :
+\choice Metabórico :
+\choice  Pirofosfórico : 
+\choice Metafosfórico :
+\choice Cianídrico :
+
+#+end_choice
+#+end_exercise
+
+
+#+begin_exercise 
+Escreva a fórmula química das bases:
+
+#+begin_choice
+\choice Hidróxido de alumínio :
+\choice Hidróxido de cobre I :
+\choice Hidróxido de cobre II :
+\choice Hidróxido de magnésio :
+\choice Hidróxido de chumbo IV :
+\choice Hidróxido de amônio :
+\choice Hidróxido de ferro II :
+#+end_choice
+#+end_exercise
+
+
+
+
+#+begin_exercise 
+Dê a fórmula dos ácidos ou bases formadas com os seguintes íons:
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice 
+\choice \ch{Cd^2+}
+\choice \ch{Cu^2+}
+\choice \ch{Cr^3+}
+\choice  \ch{Sn^4+}
+\choice \ch{Ni^3+}
+\choice \ch{NO2^-}
+\choice \ch{NO3^1-}
+\choice \ch{Br^1-}
+\choice \ch{BrO2^-}
+\choice \ch{S^2-}
+\choice \ch{SO4^2-}
+#+end_choice
+#+end_exercise
+
+
+#+begin_exercise \label{EX:ACID}
+Dê nome aos seguintes ácidos:
+
+#+begin_choice
+\choice \ch{H2SO3}:
+\choice \ch{H2S}:
+\choice \ch{H3PO3}:
+\choice \ch{HBrO}:
+\choice \ch{H3BO3}:
+#+end_choice
+#+end_exercise
+
+
+
+#+begin_exercise
+Dê o nome as seguintes bases:
+#+begin_choice 
+\choice  KOH :
+\choice \ch{Mg(OH)2} :
+\choice \ch{Al(OH)3} :
+\choice  \ch{Zn(OH)2} :
+\choice \ch{Sn(OH)2} :
+\choice CuOH
+#+end_choice
+#+end_exercise
+
+
+
+
+#+begin_exercise
+Classifique os ácidos em fortes, semifortes e
+fracos.
+
+#+begin_choice
+\choice \ch{H3BO3} :
+\choice \ch{HMnO4} :
+\choice \ch{H2CrO4} :
+\choice \ch{H3PO4} :
+\choice \ch{H4SiO4} :
+\choice \ch{HC$\ell$O3} :
+#+end_choice
+#+end_exercise
+
+
+#+begin_exercise
+Faça a equação de ionização ou dissociação
+iônica para os ácidos e bases dos exercícios 4
+e 5.
+#+end_exercise 
+
+\collectexercisesstop{AcidosBases}
