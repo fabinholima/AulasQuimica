@@ -99,7 +99,7 @@ O chá da planta Bidens pilosa, conhecida vulgarmente pelo nome de picão, é us
 Sobre a estrutura dessa substância, pode-se afirmar que:
 
 #+begin_export latex
-\chemfig{*6(-=-([:0]-~-~-~-)=-=)
+%\chemfig{*6(-=-([:0]-~-~-~-)=-=)
 #+end_export
 
 #+begin_choice 
@@ -122,6 +122,20 @@ Sobre a estrutura dessa substância, pode-se afirmar que:
 #+ATTR_LATEX: :options [points=1]
 #+begin_exercise
 A borracha natural é um líquido branco e leitoso, extraído da seringueira, conhecido como látex. O monômero que origina a borracha natural é o 2 -metil- 1, 3-butadieno. Sua fórmula estrutural está representada abaixo.
+
+#+begin_export latex
+\chemfig{H_2C=C([:-90]-CH_3)-CH=CH_2}
+#+end_export
+
+Sobre a estrutura do monômero, é correto afirmar que:
+#+begin_choice
+\choice é um hidrocarboneto insaturado de fórmula molecular \ch{C5H8}.
+\choice é um hidrocarboneto de cadeia saturada e ramificada.
+\choice tem fórmula molecular \ch{C4H5}.
+\choice apresenta dois carbonos terciários, um carbono secundário e dois carbonos primários.
+\choice apresenta dois carbonos carbonos quartenários.
+#+end_choice 
+
 #+end_exercise 
 #+begin_solution
 
@@ -133,66 +147,26 @@ A borracha natural é um líquido branco e leitoso, extraído da seringueira, co
 
 #+ATTR_LATEX: :options [points=1]
 #+begin_exercise
+As fenil-ureias substituídas pertencem ao primeiro grupo de herbicidas de alta eficiência
+introduzido em 1956, do qual o [3–(3,4–diclorofenil)–1,1–dimetiluréia] (DCMU) faz parte.
 
+#+begin_export latex
+
+#+end_export
+
+Em relação à molécula do DCMU, é correto afirmar, exceto:
+
+
+A) Apresenta o fenômeno de ressonância.
+B) Apresenta carbonos trigonais e tetraédricos.
+C) Sua fórmula molecular é C8H10N2Cl2O.
+D) Possui três hidrogênios ligados a carbonos aromáticos.
 #+end_exercise 
 #+begin_solution
 
 #+end_solution
 
 
-
-
-#+ATTR_LATEX: :options [points=1]
-#+begin_exercise
-
-#+end_exercise 
-#+begin_solution
-
-#+end_solution
-
-
-
-
-
-
-#+ATTR_LATEX: :options [points=1]
-#+begin_exercise
-
-#+end_exercise 
-#+begin_solution
-
-#+end_solution
-
-
-#+ATTR_LATEX: :options [points=1]
-#+begin_exercise
-
-#+end_exercise 
-#+begin_solution
-
-#+end_solution
-
-
-#+ATTR_LATEX: :options [points=1]
-#+begin_exercise
-
-#+end_exercise 
-#+begin_solution
-
-#+end_solution
-
-
-
-
-
-
-#+ATTR_LATEX: :options [points=1]
-#+begin_exercise
-
-#+end_exercise 
-#+begin_solution
-
-#+end_solution
 
 
 
@@ -229,11 +203,33 @@ estrutura.
 
 #+ATTR_LATEX: :options [points=1]
 #+begin_exercise
+Considerando a metionina e a cisteína, assinale a afirmativa correta sobre suas estruturas.
 
+#+begin_export latex
+\chemname{\chemfig{H_3C-S-CH_2-CH_2-CH([:-90]-NH_2)-COOH}}{Metionina} \par
+
+\chemname{\chemfig{HS-CH_2-CH([:-90]-NH_2)-COOH}}{Cisteína}
+
+#+end_export
+
+A) Ambos os aminoácidos apresentam um átomo de carbono
+cuja hibridização é sp2
+e cadeia carbônica homogênea.
+B) Ambos os aminoácidos apresentam um átomo de carbono
+cuja hibridização é sp2
+, mas a metionina tem cadeia
+carbônica heterogênea e a cisteína, homogênea.
+C) Ambos os aminoácidos apresentam um átomo de carbono
+cuja hibridização é sp2
+e cadeia carbônica heterogênea.
+D) Ambos os aminoácidos apresentam os átomos de carbono
+com hibridização sp e cadeia carbônica homogênea.
 #+end_exercise 
 #+begin_solution
 
 #+end_solution
+
+
 
 
 

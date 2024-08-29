@@ -51,15 +51,16 @@
 
 
 
+#+INCLUDE: "Quimica_Organica/CadeiasCarbonicasII.org"
+\printcollection{CadeiasCarbonicasII}
+
+#+begin_comment
+
 
 
 #+INCLUDE: "Lista/FuncoesInorganicas/AcidosBases.org"
 
 \printcollection{AcidosBases}
-
-
-
-#+begin_comment
 
 
 
