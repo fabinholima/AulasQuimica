@@ -1,0 +1,179 @@
+
+
+
+#+LATEX_HEADER: \DeclareExerciseCollection{LeiLavosier-Open}
+#+LATEX_HEADER: \DeclareExerciseCollection{LeiLavosier}
+
+\collectexercises{LeiLavosier}
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+Numa viagem, um carro consome 10 kg de gasolina. Na combustão completa deste combustível, na condição de temperatura do motor, formam-se apenas compostos gasosos.
+Considerando-se o total de compostos formados, pode-se afirmar que os mesmos:
+#+begin_choice
+\choice não têm massa.
+\choice pesam exatamente 10 kg.
+\choice pesam mais que 10 kg.
+\choice pesam menos que 10 kg.
+\choice são constituídos por massas iguais de água e gás carbônico.
+#+end_choice
+#+end_exercise 
+#+begin_solution
+C
+#+end_solution
+
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+A queima de uma amostra de palha de aço produz um composto pulverulento de massa:
+#+begin_choice 
+\choice menor que a massa original de palha de aço.
+\choice igual à massa original da palha de aço.
+\choice maior que a massa original da palha de aço.
+\choice igual à massa de oxigênio do ar que participa da reação.
+\choice menor que a massa de oxigênio do ar que participa da reação.
+#+end_choice
+#+end_exercise 
+#+begin_solution
+C
+#+end_solution
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+Provoca-se reação da mistura formada por 10,0 g de hidrogênio e 500 g de cloro. Após a reação, constata-se a presença de 145 g de cloro remanescente, junto com o produto obtido. A massa, em gramas, da substância formada é:
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 155
+\choice 290
+\choice 365
+\choice 490
+\choice 510
+#+end_choice 
+#+end_exercise 
+#+begin_solution
+
+#+end_solution
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+46,0 g de sódio reagem com 32,0 g de oxigênio formando peróxido de sódio. Quantos gramas de sódio são necessários para se obter 156 g de peróxido de sódio?
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 23,0
+\choice 32,0
+\choice 69,0
+\choice 78,0
+\choice 92,0
+#+end_choice
+#+end_exercise 
+#+begin_solution
+
+#+end_solution
+
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+Foram analisadas três amostras (I, II e III) de óxidos de enxofre, procedentes de fontes distintas, obtendo-se os seguintes resultados:
+
+#+begin_export latex
+
+\begin{tblr}
+	{
+	colspec = {X[c]X[c]X[c]X[c]}, colsep = 3mm, hlines = {2pt, white},
+	row{1} = {2em,azure3,fg=white,font=\bfseries\sffamily},
+	}
+	Amostra & massa enxofre (g) & massa oxigênio (g) & massa amostra (g) \\
+	(I) & 0,32 & 0,32 & 0,64 \\
+	(II) & 0,08 & 0,08 & 0,16 \\
+	(III) & 0,32 & 0,48 & 0,80 \\ 
+	\hline 
+\end{tblr}
+
+#+end_export
+Estes resultados mostram que:
+#+begin_choice
+\choice as amostras I, II e III são do mesmo óxido.
+\choice apenas as amostras I e II são do mesmo óxido.
+\choice apenas as amostras II e III são do mesmo óxido.
+\choice apenas as amostras I e III são do mesmo óxido.
+\choice as amostras I, II e III são de óxidos diferentes.
+#+end_choice 
+
+#+end_exercise 
+#+begin_solution
+B
+#+end_solution
+
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+Adicionando-se 4,5 g de gás hidrogênio a 31,5 g de gás nitrogênio originam-se 25,5 g de amônia, sobrando ainda nitrogênio que não reagiu. Para se obtiver 85 g de amônia, a quantidade de hidrogênio e de nitrogênio necessária é, respectivamente:
+#+begin_choice
+\choice 15,0 g e 70,0 g.
+\choice 10,6 g e 74,4 g.
+\choice 13,5 g e 71,5 g.
+\choice 1,5 g e 83,5 g.
+\choice 40,0 g e 45,0 g.
+#+end_choice
+#+end_exercise
+#+begin_solution
+A
+#+end_solution
+
+
+
+\collectexercisesstop{LeiLavosier}
+
+
+
+
+#+begin_comment
+%%=================== QUESTOES ABERTAS =========================%%%
+#+end_comment
+
+
+\collectexercises{LeiLavosier-Open}
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+O prego que enferruja e o "palito de fósforo" que queima são exemplos de oxidações. No primeiro caso há um aumento de massa de sólido e no outro há uma diminuição. Esses fatos contrariam a lei da conservação da massa? Explique sua resposta para cada um dos fatos citados
+
+
+#+begin_export latex
+\blank[width=5.2\linewidth,linespread=1.5]{}
+#+end_export
+
+
+#+end_exercise
+
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+Ao adicionarmos 4g de cálcio (Ca) a 10g de cloro (\ch{C$\ell$}) obteremos 11,1g de cloreto de cálcio (\ch{CaC$\ell$2}) e um excesso de 2,9g de cloro. Se, num segundo experimento, adicionarmos 1,6g de cálcio a 30g de cloro, quais serão as massas de cloreto de cálcio e de excesso de cloro obtidas? Quais Leis das Combinações nos auxiliam na resolução desta questão?
+
+#+begin_export latex
+\blank[width=5.2\linewidth,linespread=1.5]{}
+
+#+end_export
+
+#+end_exercise
+
+
+\collectexercisesstop{LeiLavosier-Open}

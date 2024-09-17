@@ -1,0 +1,71 @@
+#+BEGIN_COMMENT
+============== FUNCOES INORGANICAS ===========================
+#+END_COMMENT
+
+
+#+LATEX_HEADER: \DeclareExerciseCollection{Bases}
+
+
+
+
+#+BEGIN_COMMENT
+-========= BASES  ==============
+#+END_COMMENT
+
+
+
+\collectexercises{Bases}
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise 
+Observe as fórmulas do sulfato de amônio \ch{(NH4)2SO4} e do hidróxido de potássio
+KOH e assinale a alternativa que apresenta a fórmula do hidróxido de amônio, substância presente
+em alguns produtos de limpeza.
+
+
+#+begin_choice
+\choice @@latex: \ch{NH4^{1+}}@@
+\choice \ch{(NH4)2OH}
+\choice \ch{NH4(OH)2}
+\choice \ch{NH4OH}
+\choice \ch{NH4(OH)4}
+#+end_choice 
+
+#+end_exercise 
+
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise 
+Sabor adstringente é o que percebemos quando comemos uma banana verde (não madura). Que substância a seguir teria sabor
+adstringente?
+#+begin_choice
+\choice \ch{CH3COOH}.
+\choice \ch{NaC$\ell$}.
+\choice \ch{A$\ell$(OH)3}.
+\choice \ch{C12H22O11}.
+\choice \ch{H3PO4}.
+#+end_choice
+
+#+end_exercise
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+ O sangue do diabo é um líquido vermelho que logo se descora ao ser aspergido sobre um tecido branco. Para prepará-lo, adiciona-se \ch{NH4OH} em água, contendo algumas gotas de fenolftaleína. A cor desaparece porque:
+
+#+begin_choice
+\choice O tecido branco reage com a solução formando ácido amoníaco.
+\choice A fenolftaleína evapora.
+\choice A fenolftaleína reage rapidamente com o \ch{NH4OH}.
+\choice O \ch{NH3} logo evapora.
+\choice A solução é assim denominada devida à sua alta viscosidade.
+#+end_choice
+#+end_exercise 
+
+
+
+\collectexercisesstop{Bases}

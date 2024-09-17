@@ -1,0 +1,106 @@
+#+BEGIN_COMMENT
+============== FUNCOES INORGANICAS ===========================
+#+END_COMMENT
+
+
+
+#+LATEX_HEADER: \DeclareExerciseCollection{Acidos}
+
+#+BEGIN_COMMENT
+-========= Acidos ==============
+#+END_COMMENT
+
+
+
+\collectexercises{Acidos}
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+Para combater a acidez estomacal causada pelo excesso de ácido clorídrico, costuma-se ingerir um antiácido. Das substâncias abaixo, encontradas no cotidiano das pessoas, a mais indicada para combater a acidez é:
+
+#+begin_choice
+\choice refrigerante.
+\choice suco de laranja.
+\choice água com limão.
+\choice vinagre.
+\choice leite de magnésia, \ch{Mg(OH)2}
+#+end_choice
+#+end_exercise 
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise 
+O creme dental é básico, porque:
+
+#+begin_choice 
+\choice produz dentes mais brancos.
+\choice a saliva é ácida.
+\choice tem gosto melhor.
+\choice se fosse ácido, iria corroer o tubo (bisnaga).
+\choice mais espuma.
+#+end_choice 
+#+end_exercise
+
+
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise 
+Observe as fórmulas do sulfato de amônio \ch{(NH4)2SO4} e do hidróxido de potássio
+KOH e assinale a alternativa que apresenta a fórmula do hidróxido de amônio, substância presente
+em alguns produtos de limpeza.
+
+
+#+begin_choice
+\choice @@latex: \ch{NH4^{1+}}@@
+\choice \ch{(NH4)2OH}
+\choice \ch{NH4(OH)2}
+\choice \ch{NH4OH}
+\choice \ch{NH4(OH)4}
+#+end_choice 
+
+#+end_exercise 
+
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+Os ácidos, segundo a teoria de dissociação de Arrhenius, são compostos moleculares
+que, ao ser dissolvidos em água, geram íons @@latex: \ch{H^+_{\aq}}@@. Como é chamado o processo de
+formação de íons que ocorre quando um ácido é dissolvido em água?
+
+#+begin_choice
+\choice Dissociação iônica.
+\choice Ionização.
+\choice Eletrólise.
+\choice Hidratação.
+\choice Eletrolítica.
+#+end_choice 
+#+end_exercise 
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Dentre as espécies químicas, citadas, é classificado como ácido de Arrhenius:
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice 
+\choice \ch{Na2CO3}
+\choice KOH
+\choice \ch{Na2O}
+\choice \ch{HC$\ell$}
+\choice LiH
+#+end_choice 
+#+end_exercise
+
+
+
+
+
+\collectexercisesstop{Acidos}

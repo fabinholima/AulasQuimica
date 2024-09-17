@@ -1,0 +1,138 @@
+
+
+
+#+LATEX_HEADER: \DeclareExerciseCollection{Sais}
+
+
+
+
+\collectexercises{Sais}
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+O hipoclorito de sódio é um sal utilizado frequentemente em soluções aquosas como desinfetante e/ou agente alvejante. Esse sal pode ser preparado pela absorção do gás cloro em solução de hidróxido de sódio mantida sob resfriamento, de modo a prevenir a formação de clorato de sódio. As soluções comerciais de hipoclorito de sódio sempre contêm quantidade significativa de cloreto de sódio, obtido como subproduto durante a formação do hipoclorito.
+
+Assim, é correto afirmar que as fórmulas químicas do hipoclorito de sódio, clorato de sódio e cloreto de sódio são, respectivamente,
+
+#+begin_choice
+\choice \ch{NaC$\ell$O}, \ch{NaC$\ell$O3} e \ch{NaC$\ell}.
+\choice \ch{NaC$\ell$O2}, \ch{NaC$\ell$O4} e \ch{NaC$\ell$}.
+\choice \ch{NaC$\ell$O}, \ch{NaC$\ell$O2} e \ch{NaC$\ell$}.
+\choice \ch{NaC$\ell$O}, \ch{NaC$\ell$O4} e \ch{NaC$\ell$O2}.
+\choice \ch{NaC$\ell$O2}, \ch{NaC$\ell$O3} e \ch{NaC$\ell$}.
+#+end_choice 
+#+end_exercise
+
+
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise 
+As chuvas ácidas são provocadas devido a grande quantidade de poluentes gasosos lançados na atmosfera por alguns tipos de indústria e pela queima de combustíveis fósseis por automóveis. Uma das substâncias liberadas é o dióxido de enxofre que, ao entrar em contato com o ar atmosférico, transforma-se em trióxido de enxofre. O trióxido de enxofre em contato com a água das nuvens transforma-se em ácido sulfúrico. As chuvas ácidas provocam a deterioração de monumentos históricos, principalmente os constituídos de carbonato de cálcio, cuja reação com o ácido sulfúrico resulta na formação de sulfato de cálcio, dióxido de carbono e água. Assinale a alternativa que apresenta a fórmula *CORRETA* das seguintes substâncias químicas citadas no texto: *ácido sulfúrico*, *sulfato de cálcio*, *dióxido de carbono* e *água*, respectivamente.
+
+#+begin_choice
+\choice \ch{H2SO3}, \ch{CaSO4}, \ch{CO2} e \ch{H2O}
+\choice \ch{H2SO3}, \ch{CaSO4}, \ch{CO2} e \ch{HO2}
+\choice \ch{H2SO4}, \ch{CaSO4}, \ch{CO2} e \ch{H2O}
+\choice \ch{H2SO3}, \ch{CaSO3}, \ch{CO2} e \ch{H2O}
+#+end_choice 
+
+#+end_exercise
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Qual é a fórmula química do cloreto de sódio?
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice 
+\choice NaC$\ell$
+\choice  KC$\ell$
+\choice \ch{NaC$\ell2}
+\choice\ch{MgC$\ell$2}
+\choice \ch{NaBr2}
+#+end_choice
+#+end_exercise
+#+begin_solution
+A 
+#+end_solution
+
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Qual é o nome do sal de fórmula \ch{CaSO4}?
+
+
+#+begin_choice 
+\choice  Sulfato de cálcio
+\choice  Carbonato de cálcio
+\choice  Cloreto de cálcio
+\choice  Nitrato de cálcio
+\choice  sulfito de cálcio
+#+end_choice
+#+end_exercise
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Qual é a fórmula química do sulfato de cobre (II)?
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice 
+\choice \ch{CuSO4}
+\choice \ch{CuSO3}
+\choice \ch{Cu2SO4}
+\choice \ch{Cu2SO3}
+\choice \ch{CuSO}
+#+end_choice 
+#+end_exercise
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Qual é o nome do sal de fórmula \ch{Na2CO3}?
+
+
+#+begin_choice
+\choice Carbonato de sódio
+\choice Bicarbonato de sódio
+\choice Sulfato de sódio
+\choice Cloreto de sódio
+\choice Carbeto de sódio
+#+end_choice
+#+end_exercise
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Qual é a fórmula química do nitrato de potássio?
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice 
+\choice \ch{KNO3}
+\choice \ch{NaNO3}
+\choice \ch{Ca(NO3)2}
+\choice \ch{Mg(NO3)2}
+#+end_choice
+#+end_exercise
+
+
+
+
+
+
+\collectexercisesstop{Sais}

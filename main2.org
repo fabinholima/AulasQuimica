@@ -36,12 +36,29 @@
 %%\input{../Modelos/cabenovo}
 %%\input{../Modelos/26agosto}
 \input{../Modelos/CabeOficial}
-%\section*{Tópicos RPP de Química}
+%\section*{Atividade de Química}
+\begin{itemize}
+\item Realizar a atividade de recuperação em dupla
+\item Atividade ira auxiliar na nota da Avaliação
+\end{itemize}
 \smallbreak
 \medbreak
-\vspace{-9cm}
+%\vspace{-9cm}
 #+end_export
 
+
+
+
+
+#+INCLUDE: "Lista/Hidrocarbonetos/HidrocarbonetosI.org"
+
+\printcollection{HidroListaI}
+
+
+
+
+
+#+begin_comment
 
 #+INCLUDE: "Lista/Eletroquimica/BalanceamentoRedox.org"
 
@@ -74,3 +91,5 @@
 
 
 
+
+#+end_comment

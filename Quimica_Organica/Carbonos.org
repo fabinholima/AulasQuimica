@@ -4,6 +4,34 @@
 
 \collectexercises{Carbonos}
 
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise            
+O eugenol ou óleo de cravo, é um forte antisséptico. Seus efeitos medicinais auxiliam no tratamento de náuseas, indigestão e diarreia. Contém propriedades bactericidas, antivirais, e é também usado como anestésico e antisséptico para o alívio de dores de    dente. A fórmula estrutural deste composto orgânico pode ser vista abaixo:
+        
+#+begin_center
+\chemfig{**6(([:-120]-CH_2-CH=CH_2)--([:-30]-o([:-90]-))-([:30]-0-[:-30]CH_3)---)}
+#+end_center
+O número de átomos de carbono secundário neste composto é: 
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 2
+\choice 3
+\choice 7
+\choice 8
+\choice 10 
+#+end_choice
+#+end_exercise
+#+begin_solution
+LETRA C
+#+end_solution
+
+
+
+
 #+ATTR_LATEX: :options [points=1.0]
 #+begin_exercise
 A prednisona é um glicocorticóide sintético de potente ação antireumática, antiflamatória e antialérgica, cujo uso, como de qualquer outro derivado da cortisona, requer uma série de precauções em função dos efeitos colaterais que pode causar. Os pacientes submetidos a esse tratamento devem ser periodicamente
@@ -26,9 +54,6 @@ Com base na fórmula estrutural apresentada acima, qual o número de átomos de 
 #+begin_solution
 4
 #+end_solution 
-
-
-
 
 
 
@@ -133,12 +158,16 @@ D
 #+begin_exercise
 Muitos inseticidas utilizados na agricultura e no ambiente doméstico pertencem à classe de compostos denominados piretróides. Dentre os muitos piretróides disponíveis comercialmente, encontra-se a deltametrina, cujo isômero mais potente tem sua fórmula estrutural representada a seguir:
 
+
 #+begin_export latex
 \chemfig{-[:230](-[:310])-[:210](<[:240]-[:300,,,,dlh](-[:240]Br)-Br)-[:90]%
 (-[:330])<[:120](=[:60]O)-[:180]O>[:120](-[:60]-[:60,,,,trpl={0}{0}]N)%
 -[:180]-[:240,,,,drh]-[:180](-[:120,,,,drh]-[:60]-[,,,,drh]-[:300])-[:240]O%
 -[:180]-[:240,,,,drh]-[:180]-[:120,,,,drh]-[:60]-[,,,,drh](-[:300])}
 #+end_export
+
+
+Com relação à fórmula apresentada acima, assinale a afirmativa *INCORRETA*:
 
 #+begin_choice
 \choice Existe um carbono quaternário.
@@ -150,7 +179,7 @@ Muitos inseticidas utilizados na agricultura e no ambiente doméstico pertencem 
 
 #+end_exercise 
 #+begin_solution
-
+D
 #+end_solution
 
 

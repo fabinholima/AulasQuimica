@@ -2,14 +2,14 @@
 #+OPTIONS: H:2 toc:nil num:t
 #+LATEX_CLASS:koma-article
 #+LATEX_CLASS_OPTIONS: [10pt]
-#+INCLUDE: "packages.org"
+#+INCLUDE: "packages2.org"
 
 
 #+LATEX_HEADER: \newcommand{\lh}{\underline{\hspace{1cm}}}
 #+LATEX_HEADER: %%\onehalfspacing
 #+LATEX_HEADER: \def\professor{Fábio Lima}
-#+LATEX_HEADER: \def\aluno{ ARIEL DA MATA FRANCO }
-#+LATEX_HEADER: \def\numerochamada{05}
+#+LATEX_HEADER: \def\aluno{ }
+#+LATEX_HEADER: \def\numerochamada{}
 #+LATEX_HEADER: \def\disciplina{Química}
 #+LATEX_HEADER: %%\def\disciplina{UC3}
 #+LATEX_HEADER: %%\def\disciplina{R.A.}
@@ -17,10 +17,10 @@
 #+LATEX_HEADER: \def\tipo{{\bfseries Avaliação Bimestral}}
 #+LATEX_HEADER: %\def\tipo{\bfseries Atividade}
 #+LATEX_HEADER: %%\def\tipo{\bfseries Exame Final}
-#+LATEX_HEADER: \def\bimestre{2 Bimestre}
-#+LATEX_HEADER: %\def\escola{E.E. 26 de Agosto}
-#+LATEX_HEADER: %\def\escola{E.E. José Mamede de Aquino}
-#+LATEX_HEADER: \def\escola{E.E. Amélio de Carvalho Baís}
+#+LATEX_HEADER: \def\bimestre{3 Bimestre}
+#+LATEX_HEADER: %%\def\escola{E.E. 26 de Agosto}
+#+LATEX_HEADER: \def\escola{E.E. José Mamede de Aquino}
+#+LATEX_HEADER: %%\def\escola{E.E. Amélio de Carvalho Baís}
 #+LATEX_HEADER: \def\dataprova{}
 
 
@@ -28,7 +28,7 @@
 \twocolumn[
 \input{../Modelos/CabeOficial}
 %%\input{../Modelos/cabenovo}
-%%%\input{../Modelos/mamede}
+%\input{../Modelos/mamede}
 %\input{../Modelos/26agosto}
 %% \input{../Modelos/geral}
 %Cada questão vale {\textbf 2,0}
@@ -42,7 +42,7 @@
 
 %\input{../Modelos/gabarito}
 
-%Total Prova: \printpoints
+Total Prova: \printpoints
 \smallbreak
 \medbreak
 \par\vspace{2ex}]%%%%\input{../Modelos/mamede}
@@ -50,13 +50,30 @@
 
 
 
+
+#+INCLUDE: "Lista/Hidrocarbonetos/HidrocarbonetosI.org"
+
+\printcollection{HidroListaI}
+
+
+
+ 
+
+
+#+begin_comment
+
+
+
+#+INCLUDE: "Quimica_Organica/CadeiasCarbonicasII.org"
 #+INCLUDE: "Quimica_Organica/CadeiasCarbonicasI.org"
 #+INCLUDE: "Quimica_Organica/Hibridizacao.org"
 #+INCLUDE: "Quimica_Organica/Carbonos.org"
 
-\printcollection{Carbonos}
-\printcollection{Cadeias}
-\printcollection{Hibridizacao}
+
+\printrandomexercises[collection=Hibridizacao,exclude=two]{1}
+\printrandomexercises[collection=Carbonos]{2}
+\printrandomexercises[collection=Cadeias,exclude=one]{3}
+\printrandomexercises[collection=CadeiasCarbonicasII,exclude=two]{4}
 
 
- 
+#+end_comment

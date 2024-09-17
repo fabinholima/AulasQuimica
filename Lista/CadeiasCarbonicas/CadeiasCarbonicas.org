@@ -58,6 +58,16 @@ Determine o números de carbonos carbonos primários, secundários e quartenári
 =^[:150]\mcfatomno{4}-[:210]\mcfatomno{5}=^[:270]\mcfatomno{6}(%
 -[:330]\phantom{1})}
 
+
+
+\choice \chemfig{\mcfatomno{1}-[:30]\mcfatomno{2}-[:330]\mcfatomno{3}(%
+<[:270]\mcfatomno{9})-[:30]\mcfatomno{4}(<[:90]\mcfatomno{10})%
+-[:330]\mcfatomno{5}~[:30]\mcfatomno{6}-[:330]\mcfatomno{7}%
+=_[:30]\mcfatomno{8}-[:330]\mcfatomno{11}(-[:30]\mcfatomno{13})%
+-[:270]\mcfatomno{14}-[:210]\mcfatomno{16}-[:150]\mcfatomno{12}(%
+-[:90]\phantom{7})-[:210]\mcfatomno{15}} 
+
+
 #+end_export
 
 #+end_choice 
@@ -112,10 +122,24 @@ Classifique as cadeias carbônicas dos compostos indicados e sua fórmula molecu
 
 
 #+begin_exercise
+Classifique a cadeia abaixo
+
+#+begin_export latex
+\chemfig{O=[:150](-[:210,,,2]HO)-[:90]-[:30]N(-[:90]-[:150](-[:90,,,1]OH)%
+=[:210]O)-[:330]-[:30]-[:330]N(-[:30]-[:90](-[:30,,,1]OH)=[:150]O)-[:270]%
+-[:330](=[:30]O)-[:270,,,1]OH}
+#+end_export
+
+#+end_exercise
+
+
+
+#+begin_exercise
 A cocaína é um alcaloide extraído das folhas de coca, uma planta nativa da América do Sul. Essa substância é utilizada como droga ilícita, sendo consumida por aspiração nasal (em pó), injeção intravenosa (pó diluído em água), fumo (crack, pasta de coca ou merla) ou via oral (chá ou hábito de mascar a folha).
 De acordo com a estrura abaixo:
 
 #+begin_export latex
+\resetchemfig
 \chemfig{\mcfleft{\mcfatomno{1}}{C}-[:29.2]\mcfbelow{N}{\mcfatomno{2}}%
 >[:50.3]\mcfleft{\mcfatomno{3}}{C}-[:96.1,1.069]\mcfleft{\mcfatomno{4}}{C}%
 -[:298.7,0.88]\mcfright{C}{\mcfatomno{5}}%

@@ -4,10 +4,38 @@
 
 
 #+LATEX_HEADER: \DeclareExerciseCollection{Cadeias}
+#+LATEX_HEADER: \DeclareExerciseCollection{Cadeias-Open}
 
 
 
 \collectexercises{Cadeias}
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A vitamina K3 pode ser representada pela fórmula a seguir.
+#+begin_export latex
+\begin{center}
+\chemfig{O=[:270]-[:330](-[:30,,,1]CH_3)=_[:270]-[:210](=[:270]O)-[:150]=_[:210]-[:150]=_[:90]-[:30]=_[:330](-[:270])(-[:30])}
+\end{center}
+#+end_export
+
+Quantos átomos de carbono e quantos de hidrogênio existem em uma molécula desse composto?
+#+begin_choice
+\choice  1 e 3 
+\choice  3 e 3 
+\choice 9 e 8 
+\choice 11 e 8
+\choice 11 e 10
+#+end_choice 
+#+end_exercise 
+#+begin_solution
+LETRA D
+#+end_solution
+
+
 
 
 
@@ -451,10 +479,10 @@ Considerando a metionina e a cisteína, assinale a afirmativa correta sobre suas
 #+begin_export latex
 
 \begin{center}
-\chemname{\chemfig{H_3C-S-CH_2-CH_2-CH([:-90]-NH_2)-COOH}}{Metionina}
+\chemname{\chemfig{H_3C-S-CH_2-CH_2-CH([:-90]-NH_2)-C([:90]=O)OH}}{Metionina}
 \\
 \vspace{.5cm}
-\chemname{\chemfig{HS-CH_2-CH([:-90]-NH_2)-COOH}}{Cisteína}
+\chemname{\chemfig{HS-CH_2-CH([:-90]-NH_2)-C([:90]=O)OH}}{Cisteína}
 \end{center}
 #+end_export
 #+begin_choice
@@ -476,4 +504,23 @@ Considerando a metionina e a cisteína, assinale a afirmativa correta sobre suas
 \collectexercisesstop{Cadeias}
 
 
+
+
+\collectexercises{Cadeias-Open}
+
+#+ATTR_LATEX: :options [points=3.0]
+#+begin_exercise
+A estrutura dos compostos orgânicos começou a ser desvendada nos meados do séc. XIX, com os estudos de Couper e Kekulé, referentes ao comportamento químico do carbono. Dentre as ideias propostas, três particularidades do átomo de carbono são fundamentais, sendo que uma delas refere-se à formação de cadeias. Escreva a fórmula estrutural (contendo o menor número de átomos de carbono possível) de hidrocarbonetos
+apresentando cadeias carbônicas com as seguintes particularidades:
+
+#+begin_choice
+\choice acíclica, normal, saturada, homogênea.
+\choice acíclica, ramificada, insaturada etênica, homogênea.
+\choice aromática, mononuclear, ramificada.
+#+end_choice
+#+end_exercise 
+
+
+
+\collectexercisesstop{Cadeias-Open}
 
