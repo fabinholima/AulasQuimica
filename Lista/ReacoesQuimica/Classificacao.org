@@ -1,0 +1,72 @@
+#+begin_comment
+%%% ================== Tipos de reação ================
+#+end_comment
+
+
+
+#+LATEX_HEADER: \DeclareExerciseCollection{TypesReactions}
+
+
+\collectexercises{TypesReactions}
+
+#+begin_exercise
+Classifique as reações a seguir
+
+#+begin_choice
+\choice \ch{Zn + C$\ell$2 -> ZnC$\ell$2}  \blank[width=3cm]{}
+\bigskip
+\choice \ch{ 2 H2S + 3 O2 -> 2 SO2 + 2 H2O } \blank[width=4cm]{}
+\bigskip
+\choice \ch{Cu + 2 AgNO3 -> Cu(NO3)2 + 2 Ag}  \blank[width=4cm]{}
+\bigskip
+\choice \ch{CaC$\ell$2 + Na2SO4 -> CaSO4 + 2 NaC$\ell$} \blank[width=4cm]{}
+\bigskip
+\choice \ch{CaO + H2O -> Ca(OH)2} \blank[width=4cm]{}
+\bigskip
+\choice \ch{Pb + 4 HC$\ell$ -> PbC$\ell$4 + 2 H2} \blank[width=4cm]{}
+\bigskip
+\choice \ch{Li2O + CO2 -> LiCO3} \blank[width=4cm]{}
+\bigskip
+\choice \ch{SO2 + H2O -> H2SO3} \blank[width=4cm]{}
+\bigskip
+\choice \ch{MgCO3 -> MgO + CO2} \blank[width=4cm]{}
+\bigskip
+\choice \ch{BaC$\ell$2 + Na2 SO4 -> NaC$\ell$ + BaSO4}  \blank[width=4cm]{}
+
+
+#+end_choice 
+
+#+end_exercise
+
+
+
+#+begin_exercise
+Apresente os produtos da reação e sua classificação.
+
+#+begin_choice
+\choice \ch{Mg + N2 ->}
+\bigskip
+\choice \ch{C2H6 + O2 ->}
+\bigskip
+\choice \ch{Zn + CuC$\ell$2 ->}
+\bigskip
+\choice \ch{Ca + H2O -> }
+\bigskip
+\choice \ch{AgNO3 + NaI ->}
+\bigskip
+\choice \ch{Fe(NO3)3 + LiOH ->}
+\bigskip
+\choice \ch{MgCO3 ->}
+\bigskip
+\choice \ch{SO2 + H2O ->}
+\bigskip
+\choice \ch{HI ->}
+\bigskip
+\choice \ch{H2SO4 + LiOH ->}
+\bigskip
+#+end_choice 
+#+end_exercise
+
+
+
+\collectexercisesstop{TypesReactions}

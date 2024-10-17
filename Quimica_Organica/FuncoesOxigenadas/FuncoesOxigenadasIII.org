@@ -1,0 +1,1074 @@
+#+LATEX_HEADER: \DeclareExerciseCollection{FuncoesOxigenadasIII}
+
+
+
+
+#+BEGIN_COMMENT
+======  FUNCOES OXIGENADAS GRUPO FUNCIONAL ========
+#+END_COMMENT 
+
+\collectexercises{FuncoesOxigenadasIII}
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A baunilha é uma espécie de orquídea. A partir de sua flor, é produzida a vanilina (conforme representação química), que dá origem ao aroma de baunilha.
+
+#+begin_center
+#+begin_export latex
+\chemfig{OH-[:270,,1]-[:330](-[:30,,,1]OCH_3)=_[:270]-[:210](-[:270]COH)=_[:150]-[:90](=_[:30])}
+#+end_export
+#+end_center
+
+
+Na vanilina estão presentes as funções orgânicas.
+
+#+begin_choice
+\choice aldeído, éter e fenol.
+\choice álcool, aldeído e éter.
+\choice álcool, cetona e fenol.
+\choice aldeído, cetona e fenol.
+\choice ácido carboxílico, aldeído e éter.
+#+end_choice
+#+end_exercise
+#+begin_solution
+LETRA A
+#+end_solution
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise 
+Uma forma de organização de um sistema biológico é a presença de sinais diversos utilizados pelos indivíduos para se comunicarem. No caso das abelhas da espécie /Apis mellifera/, os sinais utilizados podem ser feromônios. Para saírem e voltarem de suas colmeias, usam um feromônio que indica a trilha percorrida por elas (Composto A). Quando pressentem o perigo, expelem um feromônio de alarme (Composto B), que serve de sinal para um combate coletivo. O que diferencia cada um desses sinais utilizados pelas abelhas são as estruturas e funções orgânicas dos feromônios.
+
+#+begin_export latex
+\begin{tabular}{cc}
+\chemfig{-[:270](=[:330]-[:30]CH_2OH)-[:210]-[:270]-[:330]=[:270](-[:210])-[:330]} & \chemfig{CH_3COO|{(CH_2)}CH(-[:-30]CH_3)-[:30]CH_3}\\
+{\bfseries Composto A} & {\bfseries Composto B}
+\end{tabular}
+#+end_export
+
+As funções orgânicas que caracterizam os feromônios de trilha e de alarme são, respectivamente,
+
+#+ATTR_LATEX: :options (2) 
+#+begin_choice
+\choice álcool e éster.
+\choice aldeído e cetona.
+\choice éter e hidrocarboneto.
+\choice enol e ácido carboxílico.
+\choice ácido carboxílico e amida.
+#+end_choice
+#+end_exercise
+#+begin_solution
+Letra A álcool e éster
+#+end_solution
+
+
+
+
+ 
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A aspirina é um composto que possui propriedades antitérmica e analgésica, e tem como princípio ativo a estrutura representada na figura a seguir. Quais grupos funcionais orgânicos encontram-se neste composto.
+#+begin_center
+#+begin_export latex
+\chemfig{CH_3-[:210,,1](=[:270]O)-[:150]O-[:210]=_[:270]-[:210]=_[:150]-[:90]=_[:30](-[:330])-[:90](=[:150]O)-[:30,,,1]OH}
+#+end_export
+#+end_center
+#+begin_choice
+\choice cetona, aldeído e aromático.
+\choice ácido carboxílico, éter e alcano.
+\choice cetona, amida e alceno.
+\choice ácido carboxílico, éster e aromático.
+\choice fenol, éster e aromático.
+#+end_choice
+#+end_exercise
+#+begin_solution
+LETRA D
+#+end_solution
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A testosterona (I) é um hormônio sexual masculino responsável, entre outras coisas, pelas alterações sofridas pelos rapazes na puberdade. Já a progesterona (II) é um hormônio sexual feminino, indispensável à gravidez e estão representadas pelas respectivas estruturas abaixo. Assinale a alternativa que indica corretamente às funções orgânicas presentes nas duas substâncias
+#+begin_export latex
+\begin{center}
+{\bfseries I Testosterona}
+\chemfig[cram width=4pt]{OH>[:252,,1]-[:306]-[:234]>[:162]-[:210]-[:270]-[:210]-[:150]=_[:210]-[:150](=[:210]O)-[:90]-[:30]-[:330](-[:270])(<[:90,,,1]CH_3)-[:30](-[:330])-[:90]-[:30]-[:330](-[:270])(-[:18])<[:84,,,1]CH_3}
+
+{\bfseries II Progesterona}
+
+ \chemfig[cram width=4pt]{H_3C-[:282,,2](=[:342]O)>[:222]-[:276]-[:204]>[:132]-[:60](-[:348])(<[:54,,,1]CH_3)-[:120]-[:180]>[:240]-[:300](-)<:[:240]-[:180]-[:120]=_[:180]-[:120](=[:180]O)-[:60]--[:300](-)(-[:240])<[:60,,,1]CH_3}
+ \end{center}
+#+end_export
+#+begin_choice
+\choice I – fenol e cetona; II - cetona.
+\choice I – ácido e cetona; II - aldeído.
+\choice I – álcool e cetona; II - aldeído.
+\choice I – fenol e cetona; II - ácido.
+\choice I – álcool e cetona; II - cetona
+#+end_choice
+#+end_exercise
+#+begin_solution
+LETRA E 
+#+end_solution
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A curcumina, substância encontrada no pó amarelo-alaranjado extraído da raiz da curcuma ou açafrão-daíndia (/Curcuma longa/), aparentemente, pode ajudar a combater vários tipos de câncer, o mal de Parkinson e o de Alzheimer e até mesmo retardar o envelhecimento. Usada há quatro milênios por algumas culturas orientais, apenas nos últimos anos passou a ser investigada pela ciência ocidental.
+
+#+begin_center
+#+begin_export latex
+\begin{center}
+\setchemfig{atom style={scale=0.8}}
+\chemfig{
+          HO% 21
+     -[:330]% 18
+    =^[:270]% 17
+               (
+         -[:210]O% 22
+         -[:270]% 23
+               )
+     -[:330]% 16
+     =^[:30]% 15
+               (
+          -[:90]% 20
+        =^[:150]% 19
+         -[:210]% -> 18
+               )
+     -[:330]% 14
+      =[:30]% 13
+     -[:330]% 12
+      -[:30]% 11
+               (
+          -[:90]OH% 24
+               )
+     =[:330]% 10
+      -[:30]% 9
+               (
+          =[:90]O% 25
+               )
+     -[:330]% 8
+      =[:30]% 7
+     -[:330]% 6
+    =^[:270]% 5
+     -[:330]% 4
+     =^[:30]% 3
+               (
+         -[:330]OH% 26
+               )
+      -[:90]% 2
+               (
+        =^[:150]% 1
+         -[:210]% -> 6
+               )
+      -[:30]O% 27
+      -[:90]% 28
+}
+\end{center}
+#+end_export
+#+end_center
+
+Na estrutura da curcumina, identificam-se grupos característicos das funções
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice éter e álcool.
+\choice éter e fenol.
+\choice éster e fenol.
+\choice aldeído e enol.
+\choice aldeído e éster.
+#+end_choice
+#+end_exercise 
+#+begin_solution
+B
+#+end_solution 
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Um trabalho publicado na Nature Medicine, em 2016, mostrou que Withaferin A, um componente do extrato da planta /Withania somnifera/ (cereja de inverno), reduziu o peso, entre 20 a 25%, em ratos obesos alimentados em dieta de alto teor de gorduras
+
+
+
+#+begin_export latex
+\begin{center}
+\chemfig[cram width=3.5pt]{
+    HO% 7
+     >[:60]% 4
+          -% 3
+     -[:60]% 2
+              (
+        -[:120]% 1
+                  (
+             =[:60]O% 27
+                  )
+        -[:180]% 6
+        -[:240]% 5
+        -[:300]% -> 4
+              )
+              (
+         <[:80]% 26 metil 
+              )
+          -% 11
+              (
+        <:[:100]H% 22
+              )
+    -[:300]% 10
+              (
+        -[:240]% 9
+        -[:180]% 8
+                  (
+            -[:180]O% 24
+             >[:60]% -> 3
+                  )
+                  (
+            <:[:270]H% 25
+                  )
+        -[:120]% -> 3
+              )
+              (
+        <[:280]H% 23
+              )
+          -% 15
+              (
+        <:[:266]OH% 20
+              )
+     -[:60]% 14
+              (
+        -[:120]% 13
+        -[:180]% 12
+        -[:240]% -> 11
+              )
+              (
+         <[:54]% 21
+              )
+    -[:348]% 18
+              (
+         -[:42]% 19
+              )
+    <[:276]% 17
+    -[:204]% 16
+              (
+        -[:132]% -> 15
+              )
+}
+\end{center}
+#+end_export
+
+ Entre as funções orgânicas presentes na Withaferin A, estão
+
+ #+begin_choice
+\choice ácido carboxílico e cetona.
+\choice aldeído e éter.
+\choice cetona e hidroxila alcoólica.
+\choice cetona e éster.
+\choice éster e hidroxila fenólica. 
+#+end_choice
+
+#+end_exercise 
+
+
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A questão refere-se ao geraniol, um óleo essencial de aroma floral, como o de rosas.
+
+#+begin_export latex
+\begin{center}
+\chemfig{
+HO% 4
+    -[:330,,2]% 3
+        -[:30]% 2
+       =[:330]% 1
+                 (
+           -[:270]% 11
+                 )
+        -[:30]% 5
+       -[:330]% 6
+        -[:30]% 7
+       =[:330]% 8
+                 (
+           -[:270]% 9
+                 )
+        -[:30]% 10
+}
+\end{center}
+#+end_export
+
+O geraniol é um
+
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice álcool.
+\choice enol.
+\choice fenol.
+\choice alcino.
+\choice aldeído. 
+#+end_choice 
+
+#+end_exercise
+
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A bile é produzida pelo fígado, armazenada na vesícula biliar e tem papel fundamental na digestão de lipídeos. Os sais biliares são esteroides sintetizados no fígado a partir do colesterol, e sua rota de síntese envolve várias etapas. Partindo do ácido cólico representado na figura, ocorre a formação dos ácidos glicocólico e taurocólico; o prefixo glico- significa a presença de um resíduo do aminoácido glicina e o prefixo tauro-, do aminoácido taurina.
+
+#+begin_center
+#+begin_export latex
+\setchemfig{atom style={rotate=30}}
+\chemfig[cram width=3.7pt]{
+      H% 1
+    >:[:300]% 2
+     -[:180]% 3
+     -[:240]% 4
+               (
+     <[:180,,,2]HO% 5
+               )
+     -[:300]% 6
+           -% 7
+      -[:60]% 8
+               (
+         -[:120]% -> 2
+               )
+               (
+        <:[:280]% 9
+               )
+           -% 10
+               (
+         <[:260]H% 11
+               )
+     -[:300]% 12
+           -% 13
+               (
+     <[:300,,,1]OH% 14
+               )
+      -[:60]% 15
+               (
+        <:[:306]% 16
+               )
+      -[:12]% 17
+               (
+         <[:286]H% 18
+               )
+               (
+               -% 28
+                   (
+              -[:60]% 30
+                   -% 31
+              -[:60]% 32
+                       (
+                       =O% 34
+                       )
+         -[:120,,,2]HO% 33
+                   )
+         <[:300]% 29
+               )
+      -[:84]% 19
+     -[:156]% 20
+     -[:228]% 21
+               (
+         -[:300]% -> 15
+               )
+               (
+          <[:84]H% 22
+               )
+     -[:180]% 23
+               (
+         -[:240]% -> 10
+               )
+               (
+         <:[:70]H% 24
+               )
+     -[:120]% 25
+               (
+      <[:60,,,1]OH% 26
+               )
+     -[:180]% 27
+               (
+         -[:240]% -> 2
+               )
+}
+#+end_export
+#+end_center
+
+ as funções orgânicas presentes na estrutura são:
+
+
+#+ATTR_LATEX: :options (2) 
+#+begin_choice
+\choice Enol e álcool.
+\choice Fenol e Enol.
+\choice Fenol e Éter.
+\choice Ácido e álcool.
+\choice Aldeído e éter. 
+#+end_choice 
+#+end_exercise 
+#+begin_solution
+D
+#+end_solution 
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Uma das formas de se obter tinta para pintura corporal utilizada por indígenas brasileiros é por
+meio do fruto verde do jenipapo. A substância responsável pela cor azul intensa dessa tinta é a
+genipina, cuja estrutura está representada a seguir.
+
+#+begin_export latex
+\begin{center}
+\begin{tikzpicture}
+\node at (0,0) {\chemfig[cram width=4pt]{
+          OCH_3% 8
+      -[:90]% 7
+               (
+         =[:150]O% 9
+               )
+      -[:30]% 4
+    >:[:330]% 3
+      -[:30]% 2
+               (
+         <:[:90]% 1
+         -[:150]O% 6
+         -[:210]% 5
+        =^[:270]% -> 4
+               )
+     -[:318]% 12
+               (
+          -[:12]% 13
+     -[:312,,,1]OH% 14
+               )
+    =_[:246]% 11
+     -[:174]% 10
+               (
+         -[:102]% -> 3
+               )
+}};
+\node at (2.4, -0.8) [draw,dashed,inner sep=0pt,circle,yscale=1.8cm,xscale=2.0cm]{};
+\end{tikzpicture}
+\end{center}
+
+#+end_export
+
+A estrutura assinalada mostra que a genipina possui, entre outras, a função orgânica
+
+
+#+ATTR_LATEX: :options (2) 
+#+begin_choice 
+\choice aldeído.
+\choice álcool.
+\choice cetona.
+\choice ácido carboxílico.
+\choice éter.
+#+end_choice
+#+end_exercise
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise 
+O sesterpenóide manoalido, isolado de uma esponja do Pacífico (/Luffariella variablis/), é um inibidor irreversível de fosfolipase A2 (PLA2). Dessa forma, é um alvo terapêutico para ser usado no tratamento de doenças inflamatórias. Na representação de uma de suas formas tautoméricas, a seguir, podemos encontrar respectivamente as seguintes funções orgânicas
+
+
+#+begin_center
+\small
+#+begin_export latex
+\chemfig{-[:290](-[:70])-[:330](=_[:270](-[:330])-[:210]-[:150]-[:90]-[:30])-[:30]-[:330]-[:30](-[:90])=[:330]-[:30]-[:330]-[:30]-[:330]-[:30]-[:90](-[:150]O-[:210](<[:150,,,2]HO)-[:270])<[:30](-[:336]=[:270]O)-[:84]-[:12](=[:66]O)-[:300,,,1]OH}
+
+#+end_export
+#+end_center
+
+#+begin_choice
+\choice ácido carboxílico, fenol, éster, álcool.
+\choice ácido carboxílico, éster, amina, álcool.
+\choice álcool, ácido carboxílico, éter, aldeído.
+\choice ácido carboxílico, éter, fenol, álcool.
+\choice álcool, fenol, éster, éter.
+#+end_choice
+
+#+end_exercise
+#+begin_solution
+LETRA C
+#+end_solution 
+
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A estrutura da fenolftaleína contém os grupos 
+#+begin_export latex
+\begin{center}
+\chemfig{
+              OH% 14
+    -[:240,,1]% 11
+      =_[:300]% 10
+       -[:240]% 9
+      =_[:180]% 8
+                 (
+           -[:120]% 13
+           =_[:60]% 12
+                 -% -> 11
+                 )
+       -[:240]C% 7
+                 (
+           -[:228]% 6
+          =_[:300]% 5
+                     (
+                -[:12]% 23
+                         (
+                   =[:318]O% 24
+                         )
+                -[:84]O% 22
+               -[:156]\phantom{C}% -> 7
+                     )
+           -[:240]% 4
+          =_[:180]% 3
+           -[:120]% 2
+           =_[:60]% 1
+                 -% -> 6
+                 )
+       -[:144]% 15
+       =^[:84]% 16
+       -[:144]% 17
+      =^[:204]% 18
+                 (
+       -[:144,,,2]HO% 21
+                 )
+       -[:264]% 19
+      =^[:324]% 20
+                 (
+            -[:24]% -> 15
+                 )
+}
+\end{center}
+#+end_export
+
+os seguintes grupos funcionais
+
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice ácido carboxílico.
+\choice aldeído.
+\choice álcool.
+\choice éster.
+\choice éter.
+#+end_choice 
+
+#+end_exercise 
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+O aroma natural da baunilha, encontrado em doces e sorvetes, deve-se ao composto chamado vanilina, cuja fórmula estrutural está reproduzida ao lado. Em relação à molécula da vanilina, é correto afirmar que as funções químicas encontradas são:
+
+
+#+begin_export latex
+ \chemfig{
+    O% 8
+      =[:90]% 7
+               (
+     -[:150]H% 9
+               )
+      -[:30]% 6
+    =^[:330]% 5
+      -[:30]% 4
+               (
+         -[:330]O% 10
+         -[:270]CH_3% 11
+               )
+     =^[:90]% 3
+               (
+      -[:30,,,1]OH% 12
+               )
+     -[:150]% 2
+    =^[:210]% 1
+               (
+         -[:270]% -> 6
+               )
+ }
+#+end_export
+
+#+begin_choice
+\choice álcool, éter e éster.
+\choice álcool, ácido e fenol.
+\choice aldeído, álcool e éter.
+\choice aldeído, éster e fenol.
+\choice aldeído, éter e fenol.
+#+end_choice
+#+end_exercise 
+#+begin_solution
+E
+#+end_solution
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+A estrutura acima representa a alizarina, um corante amarelo conhecido desde a antiguidade.
+
+#+begin_export latex
+\begin{center}
+\chemfig{
+   O =[:300]% 10
+           -% 9
+    =^[:300]% 8
+               (
+               -% 15
+                   (
+         -[:300,,,1]OH% 16
+                   )
+         =^[:60]% 14
+                   (
+             -[,,,1]OH% 17
+                   )
+         -[:120]% 13
+        =^[:180]% 12
+         -[:240]% -> 9
+               )
+     -[:240]% 7
+               (
+         =[:300]O% 18
+               )
+     -[:180]% 6
+    =^[:120]% 5
+               (
+          -[:60]% -> 10
+               )
+     -[:180]% 4
+    =^[:240]% 3
+     -[:300]% 2
+          =^% 1
+               (
+          -[:60]% -> 6
+               )
+}
+\end{center}
+#+end_export
+
+Com base nessa informação e nos conhecimentos sobre as cadeias e funções orgânicas, pode-se afirmar que esse corante:
+#+begin_choice
+\choice possui grupos funcionais cetona e fenol.
+\choice é um álcool secundário.
+\choice tem cadeia alicíclica insaturada.
+\choice apresenta heteroátomo na cadeia.
+\choice possui núcleos isolados.
+#+end_choice
+#+end_exercise
+#+begin_solution
+A
+#+end_solution
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+O bactericida FOMECIN A, cuja fórmula estrutural é:
+
+#+begin_export latex
+\begin{center}
+\chemfig{
+       HO% 8
+    -[:300,,2]% 7
+             -% 6
+      =^[:300]% 5
+                 (
+           -[:240]% 9
+           =[:180]O% 10
+                 )
+             -% 4
+                 (
+       -[:300,,,1]OH% 11
+                 )
+       =^[:60]% 3
+                 (
+           -[,,,1]OH% 12
+                 )
+       -[:120]% 2
+                 (
+        -[:60,,,1]OH% 13
+                 )
+      =^[:180]% 1
+                 (
+           -[:240]% -> 6
+                 )
+}
+\end{center}
+#+end_export
+
+
+O mesmo apresenta as funções de:
+#+begin_choice
+\choice ácido carboxílico e fenol.
+\choice álcool, fenol e éter.
+\choice álcool, fenol e aldeído.
+\choice éter, álcool e aldeído.
+\choice cetona, fenol e hidrocarboneto.
+#+end_choice
+#+begin_solution
+C
+#+end_solution
+#+end_exercise
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Compostos mais complexos que contêm grupos funcionais fenólicos são comumente encontrados na natureza, especialmente como produtos naturais vegetais. Por exemplo, alguns dos principais metabólitos encontrados no chá verde são os compostos polifenólicos de catequina.
+
+#+begin_export latex
+\chemfig{
+           HO% 19
+    -[:300,,2]% 17
+       -[:240]% 16
+                 (
+       -[:180,,,2]HO% 20
+                 )
+      =^[:300]% 15
+                 (
+       -[:240,,,2]HO% 21
+                 )
+             -% 14
+       =^[:60]% 13
+                 (
+           -[:120]% 18
+          =^[:180]% -> 17
+                 )
+             -% 12
+                 (
+            =[:60]O% 22
+                 )
+       -[:300]O% 11
+             -% 9
+       -[:300]% 8
+                 (
+          <:[:240]% 23
+          =_[:300]% 24
+           -[:240]% 25
+                     (
+           -[:300,,,1]OH% 31
+                     )
+          =_[:180]% 26
+                     (
+           -[:240,,,2]HO% 30
+                     )
+           -[:120]% 27
+                     (
+           -[:180,,,2]HO% 29
+                     )
+           =_[:60]% 28
+                 -% -> 23
+                 )
+             -O% 7
+        -[:60]% 6
+      =_[:120]% 5
+                 (
+           -[:180]% 10
+           -[:240]% -> 9
+                 )
+        -[:60]% 4
+                 (
+       -[:120,,,2]HO% 32
+                 )
+            =_% 3
+       -[:300]% 2
+                 (
+           -[,,,1]OH% 33
+                 )
+      =_[:240]% 1
+                 (
+           -[:180]% -> 6
+                 )
+}
+#+end_export
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice Álcool, Fenol e  Cetona
+\choice Fenol, Epoxi e Ester
+\choice Aldeído, Éter e Enol
+\choice Cetona, Enol e Aldeído
+\choice Eter, Álcool e Enol 
+#+end_choice
+#+end_exercise
+#+begin_solution
+B
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Qual é a fórmula geral de um álcool?
+#+begin_choice
+\choice R-COOH
+\choice R-OH
+\choice R-CO-R'
+\choice R-CHO
+\choice R-O-R
+#+end_choice
+#+end_exercise
+#+begin_solution
+B
+#+end_solution
+
+
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+O tetraidrocanabinol (THC), um dos principais componentes da
+/Cannabis/, é o responsável pelas propriedades medicinais.
+
+#+begin_export latex
+
+\begin{tikzpicture}
+\node[draw=none] at (0,0) { 
+ \chemfig[cram width=4pt]{
+         % 8
+     -[:140]% 7
+               (
+         -[:260]% 9
+               )
+      -[:60]% 4
+               (
+        <:[:300]H% 23
+               )
+     -[:120]% 3
+               (
+          -[:60]% 2
+              =_% 1
+                   (
+              -[:60]% 25
+                   )
+         -[:300]% 6
+         -[:240]% 5
+         -[:180]% -> 4
+               )
+               (
+         <[:120]H% 24
+               )
+     -[:180]% 12
+    =_[:240]% 11
+               (
+         -[:300]O% 10
+               -% -> 7
+               )
+     -[:180]% 16
+    =_[:120]% 15
+               (
+          -[:60]% 14
+              =_% 13
+                   (
+          -[:60,,,1]OH% 22
+                   )
+         -[:300]% -> 12
+               )
+     -[:180]% 17
+     -[:120]% 18
+     -[:180]% 19
+     -[:120]% 20
+     -[:180]% 21
+}
+};
+\node[draw=none] at (1,-2) {\bfseries THC};
+\end{tikzpicture}  
+#+end_export
+
+Quais as funções orgânicas presentes na estrutura.
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice éster e fenol.
+\choice éter e fenol.
+\choice éster e álcool.
+\choice fenol e álcool.
+\choice éter e álcool.
+#+end_choice
+#+end_exercise
+#+begin_solution
+B
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A fórmula representa a estrutura do geranial, também conhecido como citral A, um dos compostos responsáveis pelo aroma do limão.
+
+#+begin_export latex
+\begin{center}
+\chemfig{
+        O% 4
+              =[:330]% 3
+               -[:30]% 2
+              =[:330]% 1
+                        (
+                  -[:270]CH_3% 11
+                        )
+               -[:30]% 5
+              -[:330]% 6
+               -[:30]% 7
+              =[:330]% 8
+                        (
+                  -[:270]CH_3% 9
+                        )
+               -[:30]CH_3% 10
+}
+\end{center}
+#+end_export
+
+O geranial é um composto pertencente à função orgânica
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice cetona.
+\choice éter.
+\choice éster.
+\choice ácido carboxílico
+\choice aldeído
+#+end_choice
+
+#+end_exercise
+#+begin_solution
+E
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A cerveja de raiz não tem o mesmo sabor desde que o uso do óleo de sassafrás como aditivo alimentar foi proibido porque o óleo de sassafrás contém 80% de safrol, que comprovadamente causa câncer em ratos e camundongos. Identifique os grupos funcionais na estrutura do safrol.
+
+
+
+#+begin_export latex
+\chemfig{=[:330]-[:30]-[:330]-[:30]-[:90](-[:150]-[:210]-[:270])-[:18]O%
+-[:306]-[:234]O(-[:162])}
+#+end_export
+
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice cetona.
+\choice éter.
+\choice éster.
+\choice ácido carboxílico
+\choice aldeído
+#+end_choice
+
+#+end_exercise
+#+begin_solution
+B
+#+end_solution
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A descoberta da penicilina em 1928 marcou o início do que foi chamado de “era de ouro da quimioterapia”, na qual infecções bacterianas que antes ameaçavam a vida foram transformadas em pouco mais do que uma fonte de desconforto. Para aqueles que são alérgicos à penicilina, estão disponíveis uma variedade de antibióticos, incluindo a tetraciclina.
+
+#+begin_export latex
+\chemfig[atom style={scale=0.7},cram width=4pt]{O=[:270,1.613]-[:210,1.613](<:[:90,1.613]O-[:130]H)-[:270,1.613](%
+-[:210.9,1.68](-[:150.4,1.68](-[:90,1.68](-[:149.8,1.613](-[:209.8,1.613]N(%
+-[:269.8]H)-[:149.8]H)=[:89.8,1.613]O)=_[:29.6,1.68](-[:329.1,1.68])%
+-[:109.3,1.613]O-[:169.3]H)=[:210.2,1.613]O)(-[:330.8]H)<:[:270.7,1.613]N(%
+-[:330.7,1.613](-[:330.7]H)(-[:60.7]H)-[:240.7]H)-[:210.7,1.613](-[:210.7]H%
+)(-[:300.7]H)-[:120.7]H)(<:[:270.4,1.371]H)-[:330,1.613](-[:230]H)(-[:310]H%
+)-[:30,1.613](<:[:269.6,1.371]H)-[:329.1,1.68](<[:299.3,1.613]O-[:239.3]H)(%
+-[:239.3,1.613](-[:239.3]H)(-[:329.3]H)-[:149.3]H)-[:29.6,1.68]=_[:90,1.68]%
+(-[:150.4,1.68](=^[:210.9,1.68](-[:150,1.613])-[:270,1.613])-[:90.7,1.613]O%
+-[:30.7]H)-[:30.9,1.75](-[:90.7,1.613]O-[:30.7]H)=_[:330.4,1.75](-[:30.2]H)%
+-[:270,1.75](-[:329.8]H)=_[:209.6,1.75](-[:149.1,1.75])-[:269.3]H}
+#+end_export
+
+Identifique os numerosos grupos funcionais oxigenados na molécula de tetraciclina.
+
+
+
+
+#+ATTR_LATEX: :options (1)
+#+begin_choice
+\choice cetona, enol, éter.
+\choice éter, éster , cetona
+\choice cetona, álcool e enol.
+\choice aldeído, cetona, fenol
+\choice aldeído, éter, éster
+#+end_choice
+
+#+end_exercise
+#+begin_solution
+A
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A descoberta da penicilina em 1928 marcou o início do que foi chamado de “era de ouro da quimioterapia”, na qual infecções bacterianas que antes ameaçavam a vida foram transformadas em pouco mais do que uma fonte de desconforto. Para aqueles que são alérgicos à penicilina, estão disponíveis uma variedade de antibióticos, incluindo a tetraciclina.
+
+#+begin_export latex
+\chemfig[atom style={scale=0.7},cram width=4pt]{O=[:270,1.613]-[:210,1.613](<:[:90,1.613]O-[:130]H)-[:270,1.613](%
+-[:210.9,1.68](-[:150.4,1.68](-[:90,1.68](-[:149.8,1.613](-[:209.8,1.613]N(%
+-[:269.8]H)-[:149.8]H)=[:89.8,1.613]O)=_[:29.6,1.68](-[:329.1,1.68])%
+-[:109.3,1.613]O-[:169.3]H)=[:210.2,1.613]O)(-[:330.8]H)<:[:270.7,1.613]N(%
+-[:330.7,1.613](-[:330.7]H)(-[:60.7]H)-[:240.7]H)-[:210.7,1.613](-[:210.7]H%
+)(-[:300.7]H)-[:120.7]H)(<:[:270.4,1.371]H)-[:330,1.613](-[:230]H)(-[:310]H%
+)-[:30,1.613](<:[:269.6,1.371]H)-[:329.1,1.68](<[:299.3,1.613]O-[:239.3]H)(%
+-[:239.3,1.613](-[:239.3]H)(-[:329.3]H)-[:149.3]H)-[:29.6,1.68]=_[:90,1.68]%
+(-[:150.4,1.68](=^[:210.9,1.68](-[:150,1.613])-[:270,1.613])-[:90.7,1.613]O%
+-[:30.7]H)-[:30.9,1.75](-[:90.7,1.613]O-[:30.7]H)=_[:330.4,1.75](-[:30.2]H)%
+-[:270,1.75](-[:329.8]H)=_[:209.6,1.75](-[:149.1,1.75])-[:269.3]H}
+#+end_export
+
+Identifique os numerosos grupos funcionais oxigenados na molécula de tetraciclina.
+
+
+
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice cetona, enol, éter.
+\choice éter, éster , cetona
+\choice cetona, álcool e enol.
+\choice aldeído, cetona, fenol
+\choice aldeído, éter, éster
+#+end_choice
+
+#+end_exercise
+#+begin_solution
+A
+#+end_solution
+
+
+\collectexercisesstop{FuncoesOxigenadasIII}
+

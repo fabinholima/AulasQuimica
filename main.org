@@ -2,7 +2,7 @@
 #+OPTIONS: H:2 toc:nil num:t
 #+LATEX_CLASS:koma-article
 #+LATEX_CLASS_OPTIONS: [10pt]
-#+INCLUDE: "packages2.org"
+#+INCLUDE: "packages.org"
 
 
 #+LATEX_HEADER: \newcommand{\lh}{\underline{\hspace{1cm}}}
@@ -14,10 +14,10 @@
 #+LATEX_HEADER: %%\def\disciplina{UC3}
 #+LATEX_HEADER: %%\def\disciplina{R.A.}
 #+LATEX_HEADER: \def\turma{3 Ano }
-#+LATEX_HEADER: \def\tipo{{\bfseries Avaliação Bimestral}}
-#+LATEX_HEADER: %\def\tipo{\bfseries Atividade}
+#+LATEX_HEADER: %\def\tipo{{\bfseries Avaliação Bimestral}}
+#+LATEX_HEADER: \def\tipo{\bfseries Avaliação Mensal}
 #+LATEX_HEADER: %%\def\tipo{\bfseries Exame Final}
-#+LATEX_HEADER: \def\bimestre{3 Bimestre}
+#+LATEX_HEADER: \def\bimestre{4 Bimestre}
 #+LATEX_HEADER: %%\def\escola{E.E. 26 de Agosto}
 #+LATEX_HEADER: \def\escola{E.E. José Mamede de Aquino}
 #+LATEX_HEADER: %%\def\escola{E.E. Amélio de Carvalho Baís}
@@ -26,8 +26,8 @@
 
 #+begin_export latex
 \twocolumn[
-\input{../Modelos/CabeOficial}
-%%\input{../Modelos/cabenovo}
+%\input{../Modelos/CabeOficial}
+\input{../Modelos/cabenovo}
 %\input{../Modelos/mamede}
 %\input{../Modelos/26agosto}
 %% \input{../Modelos/geral}
@@ -51,16 +51,22 @@ Total Prova: \printpoints
 
 
 
-#+INCLUDE: "Lista/Hidrocarbonetos/HidrocarbonetosI.org"
-
-\printcollection{HidroListaI}
-
+#+INCLUDE: "Quimica_Organica/FuncoesOxigenadas/FuncoesOxigenadasIII.org"
+#+INCLUDE: "Quimica_Organica/FuncoesOxigenadas/FuncoesOxigenadasIV.org"
 
 
- 
+
+\printrandomexercises[collection=FuncoesOxigenadasIII,exclude=four]{6}
+\printrandomexercises[collection=FuncoesOxigenadasIV,exclude=two]{4}
+
+
+
 
 
 #+begin_comment
+
+
+
 
 
 

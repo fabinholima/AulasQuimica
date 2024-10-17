@@ -37,10 +37,10 @@
 %%\input{../Modelos/26agosto}
 \input{../Modelos/CabeOficial}
 %\section*{Atividade de Química}
-\begin{itemize}
-\item Realizar a atividade de recuperação em dupla
-\item Atividade ira auxiliar na nota da Avaliação
-\end{itemize}
+%\begin{itemize}
+%\item Realizar a atividade de recuperação em dupla
+%\item Atividade ira auxiliar na nota da Avaliação
+%\end{itemize}
 \smallbreak
 \medbreak
 %\vspace{-9cm}
@@ -48,17 +48,20 @@
 
 
 
+#+INCLUDE: "Lista/Estequiometria/Balanceamento.org"
 
-
-#+INCLUDE: "Lista/Hidrocarbonetos/HidrocarbonetosI.org"
-
-\printcollection{HidroListaI}
-
-
-
-
+\printcollection{ListaBalanceamento}
 
 #+begin_comment
+
+
+
+
+#+INCLUDE: "Lista/ReacoesQuimica/Classificacao.org"
+
+\printcollection{TypesReactions}
+
+
 
 #+INCLUDE: "Lista/Eletroquimica/BalanceamentoRedox.org"
 

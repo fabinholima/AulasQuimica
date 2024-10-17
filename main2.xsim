@@ -1,42 +1,42 @@
 \providecommand\numberofexercises{}
 \XSIM{solution-body}{}
-\XSIM{exercise-body}{exercise-1=={Determine o números de carbonos carbonos primários, secundários, terciários e quartenários, existentes em cada uma das estruturas a seguir e escreva suas fórmulas moleculares. \par \begin {choice}(2) \par \par \par \choice \chemfig {\mcfatomno {1}=^[:30]\mcfatomno {2}-[:90]\mcfatomno {3}(=^[:150]\mcfatomno {4}-[:210]\mcfatomno {5}=^[:270]\mcfatomno {6}-[:330]\phantom {1})-[:30]\mcfatomno {10}=_[:330]\mcfatomno {9}-[:270]\mcfatomno {8}=_[:210]\mcfatomno {7}(-[:150]\phantom {2})} \par \par \choice \chemfig {\mcfatomno {1}-[:30]\mcfatomno {2}=[:330]\mcfatomno {3}(-[:270]\mcfatomno {8})-[:30]\mcfatomno {4}(-[:90]\mcfatomno {9})-[:330]\mcfatomno {5}-[:30]\mcfatomno {6}~[:330]\mcfatomno {7}} \par \choice \chemfig {\mcfatomno {4}-[:210]\mcfatomno {2}(-[:105]\mcfatomno {5})-[:240]\mcfatomno {1}-[:120]\mcfatomno {3}(-\phantom {2})} \par \par \choice \chemfig {\mcfatomno {11}-[:147]\mcfatomno {10}-[:207]\mcfatomno {9}(-[:270]\mcfatomno {12})-[:147]\mcfatomno {8}(<:[:87]\mcfatomno {14})-[:207]\mcfatomno {7}(<:[:267]\mcfatomno {15}(-[:327]\mcfatomno {17})-[:207]\mcfatomno {16})-[:147]\mcfatomno {6}(<[:87]\mcfatomno {13})-[:207]\mcfatomno {2}-[:216]\mcfatomno {1}-[:144]\mcfatomno {5}-[:72]\mcfatomno {4}-\mcfatomno {3}(-[:288]\phantom {2})} \par \par \choice \chemfig {\mcfatomno {1}=^[:30]\mcfatomno {2}-[:90]\mcfatomno {3}=^[:150]\mcfatomno {4}-[:210]\mcfatomno {5}=^[:270]\mcfatomno {6}(-[:330]\phantom {1})} \par \par \par \choice \chemfig {\mcfatomno {1}-[:30]\mcfatomno {2}-[:330]\mcfatomno {3}(<[:270]\mcfatomno {9})-[:30]\mcfatomno {4}(<[:90]\mcfatomno {10})-[:330]\mcfatomno {5}~[:30]\mcfatomno {6}-[:330]\mcfatomno {7}=_[:30]\mcfatomno {8}-[:330]\mcfatomno {11}(-[:30]\mcfatomno {13})-[:270]\mcfatomno {14}-[:210]\mcfatomno {16}-[:150]\mcfatomno {12}(-[:90]\phantom {7})-[:210]\mcfatomno {15}} \end {choice}}||exercise-2=={Classifique as cadeias carbônicas dos compostos indicados e sua fórmula molecular. \par \begin {choice}(2) \par \par \par \choice \chemname {\chemfig {CH_2([:90]-C{\ell })-CH_2-S-CH_2-CH_2([:90]-C{\ell })}}{gás mostarda usado em guerras} \par \choice \chemfig {-[:30](-[:90])-[:330](-[:270])-[:30]=[:330]} \par \par \choice \chemname {\chemfig {=^[:30]-[:90](=^[:150]-[:210]=^[:270]-[:330])-[:30]=_[:330]-[:270](=_[:210]-[:150])-[:330]=^[:30]-[:90]=^[:150](-[:210])}}{Fumaça do cigarro} \par \par \choice \chemname {\chemfig {-[:60]-[:180](-[:300])}}{Anestésico} \par \par \choice \chemname {\chemfig {NH_2-[:210,,1]-[:270]=_[:210]-[:150]=_[:90]-[:30](=_[:330])}}{Corantes} \par \choice \chemname {\chemfig {O=[:90]-[:30]=^[:90]-[:150](=[:90]O)-[:210]=^[:270](-[:330])}}{Veneno besouro} \end {choice}}||exercise-3=={Determine a formula molecular dos compostos \par \begin {choice}(2) \par \choice \chemfig {-[:60](=[:120]O)-O-[:300]=^[:240]-[:300]=^-[:60]=^[:120](-[:180])-[:60](-[,,,1]OH)=[:120]O} \par \choice \chemfig {-[:42]N-[:96]=_[:24]N-[:312]=_[:240](-[:168]\phantom {N})-[:300](=[:240]O)-N(-[:300])-[:60](=O)-[:120]N(-[:180])-[:60]} \par \choice \chemfig {-[:90]N(-[:30](-[:330,,,1]NH_2)=[:90,,,1]NH)-[:150]-[:210](=[:270]O)-[:150,,,2]HO} \par \par \par \par \choice \chemfig {O=[:300](-[:240,,,2]HO)-(-[:300,,,1]NH_2)-[:60]-[,,,1]SH} \end {choice}}||exercise-4=={Dê o nome IUPAC para os compostos abaixo: \par \begin {choice}(2) \choice \chemfig {-[:210](-[:270])-[:150]-[:210]-[:150]-[:90]-[:30](-[:330]-[:270])-[:90]-[:150]} \par \choice \chemfig {-[:234]-[:288]-[:216](-[:270])-[:144]-[:72](-)-[:126]} \par \choice \chemfig {-[:30](=[:90])-[:330]=[:30]-[:330]-[:30]=[:330]} \par \choice \chemfig {-[:30](-[:90](-[:30]-[:330]-[:30])-[:150])-[:330](-[:270])-[:30]-[:330]~[:30]-[:30]} \par \choice \chemfig {CH_3-[:150,,1](-[:90,,,1]CH_3)-[:210](-[:270,,,1]CH_3)-[:150](-[:90,,,1]CH_3)=[:210](-[:270,,,1]CH_3)-[:150]~[:210]-[:210]-[:150]-[:210,,,2]H_3C} \end {choice}}}
+\XSIM{exercise-body}{exercise-1=={Balanceie as reações químicas: \begin {choice}(1) \choice \ch {\lh Fe + \lh C$\ell $2 -> \lh FeC$\ell $3} \bigskip \bigskip \choice \ch {\lh Fe + \lh O2 -> \lh Fe2O3} \bigskip \bigskip \choice \ch {\lh FeBr3 + \lh H2SO4 -> \lh Fe2(SO4)3 + \lh HBr}\bigskip \bigskip \choice \ch {\lh C4H6O3 + \lh H2O -> \lh C2H4O2} \bigskip \bigskip \choice \ch {\lh C2H4 + \lh O2 -> \lh CO2 + \lh H2O} \bigskip \bigskip \choice \ch {\lh C7H16 + \lh O2 -> \lh CO2 + \lh H2O} \bigskip \bigskip \choice \ch {\lh C7H9 + \lh HNO3 -> \lh C7H6(NO2)3 + \lh H2O} \bigskip \bigskip \choice \ch {\lh Fe + \lh H2SO4 \ -> \lh Fe2(SO4)3 + \lh H2} \bigskip \bigskip \choice \ch {\lh C2H6 + \lh O2 -> \lh H2O + \lh CO2} \bigskip \bigskip \choice \ch {\lh KOH + \lh H3PO4 -> \lh K3PO4 + \lh H2O} \bigskip \bigskip \choice \ch {\lh SnO2 + \lh H2 -> \lh Sn + \lh H2O} \bigskip \bigskip \choice \ch {\lh NH3 + \lh O2 -> \lh NO + \lh H2O} \bigskip \bigskip \choice \ch {\lh KNO3 + \lh H2CO3 -> \lh K2CO3 + \lh HNO3} \bigskip \bigskip \choice \ch {\lh B2Br6 + \lh HNO3 -> \lh B(NO3)3 + \lh HBr} \bigskip \bigskip \choice \ch {\lh BF3 + \lh Li2SO3 -> \lh B2(SO3)3 + \lh LiF} \bigskip \bigskip \choice \ch {\lh (NH4)3PO4 + \lh Pb(NO3)4 -> \lh Pb3(PO4)4 + \lh NH4NO3} \bigskip \bigskip \choice \ch {\lh HC$\ell $O4 + \lh P4O10 -> \lh H3PO4 + \lh C$\ell $2O7} \bigskip \bigskip \choice \ch {\lh Ca3(PO4)2 + \lh H2SO4 -> \lh CaSO4 + \lh Ca(H2PO4)2} \bigskip \bigskip \choice \ch {\lh CO + \lh H2 -> \lh C8H18 + \lh H2O} \end {choice}}}
 \XSIM{goal}{exercise}{points}{0}
 \XSIM{totalgoal}{points}{0}
 \XSIM{goal}{exercise}{bonus-points}{0}
 \XSIM{totalgoal}{bonus-points}{0}
-\XSIM{order}{1||2||3||4}
+\XSIM{order}{1}
 \XSIM{use}{}
 \XSIM{use!}{}
-\XSIM{used}{exercise-1=={true}||exercise-2=={true}||exercise-3=={true}||exercise-4=={true}}
+\XSIM{used}{exercise-1=={true}}
 \XSIM{print}{}
 \XSIM{print!}{}
-\XSIM{printed}{exercise-1=={true}||exercise-2=={true}||exercise-3=={true}||exercise-4=={true}}
-\XSIM{total-number}{4}
-\XSIM{exercise}{4}
+\XSIM{printed}{exercise-1=={true}}
+\XSIM{total-number}{1}
+\XSIM{exercise}{1}
 \XSIM{types}{exercise}
-\XSIM{idtypes}{1=={exercise}||2=={exercise}||3=={exercise}||4=={exercise}}
-\XSIM{collections}{exercise-1=={all exercises,HidroListaI}||exercise-2=={all exercises,HidroListaI}||exercise-3=={all exercises,HidroListaI}||exercise-4=={all exercises,HidroListaI}}
-\XSIM{collection:all exercises}{exercise-1||exercise-2||exercise-3||exercise-4}
-\setcounter{totalexerciseinall exercises}{4}
-\XSIM{id}{exercise-1=={1}||exercise-2=={2}||exercise-3=={3}||exercise-4=={4}}
-\XSIM{ID}{exercise-1=={1}||exercise-2=={2}||exercise-3=={3}||exercise-4=={4}}
-\XSIM{counter}{exercise-1=={1}||exercise-2=={2}||exercise-3=={3}||exercise-4=={4}}
-\XSIM{counter-value}{exercise-1=={1}||exercise-2=={2}||exercise-3=={3}||exercise-4=={4}}
+\XSIM{idtypes}{1=={exercise}}
+\XSIM{collections}{exercise-1=={all exercises,ListaBalanceamento}}
+\XSIM{collection:all exercises}{exercise-1}
+\setcounter{totalexerciseinall exercises}{1}
+\XSIM{id}{exercise-1=={1}}
+\XSIM{ID}{exercise-1=={1}}
+\XSIM{counter}{exercise-1=={1}}
+\XSIM{counter-value}{exercise-1=={1}}
 \XSIM{solution}{}
-\XSIM{section-value}{exercise-1=={0}||exercise-2=={0}||exercise-3=={0}||exercise-4=={0}}
-\XSIM{section}{exercise-1=={0}||exercise-2=={0}||exercise-3=={0}||exercise-4=={0}}
-\XSIM{sectioning}{exercise-1=={{0}{0}{0}{0}{0}}||exercise-2=={{0}{0}{0}{0}{0}}||exercise-3=={{0}{0}{0}{0}{0}}||exercise-4=={{0}{0}{0}{0}{0}}}
+\XSIM{section-value}{exercise-1=={0}}
+\XSIM{section}{exercise-1=={0}}
+\XSIM{sectioning}{exercise-1=={{0}{0}{0}{0}{0}}}
 \XSIM{subtitle}{}
 \XSIM{points}{}
 \XSIM{bonus-points}{}
-\XSIM{page-value}{exercise-1=={1}||exercise-2=={1}||exercise-3=={1}||exercise-4=={2}}
-\XSIM{page}{exercise-1=={1}||exercise-2=={1}||exercise-3=={1}||exercise-4=={2}}
+\XSIM{page-value}{exercise-1=={1}}
+\XSIM{page}{exercise-1=={1}}
 \XSIM{tags}{}
 \XSIM{topics}{}
 \XSIM{userpoints}{}
 \XSIM{bodypoints}{}
 \XSIM{userbonus-points}{}
 \XSIM{bodybonus-points}{}
-\XSIM{collection:HidroListaI}{exercise-1||exercise-2||exercise-3||exercise-4}
-\setcounter{totalexerciseinHidroListaI}{4}
+\XSIM{collection:ListaBalanceamento}{exercise-1}
+\setcounter{totalexerciseinListaBalanceamento}{1}

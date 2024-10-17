@@ -1,4 +1,4 @@
-% Created 2024-09-17 Tue 03:49
+% Created 2024-10-10 Thu 09:39
 % Intended LaTeX compiler: lualatex
 \documentclass[10pt]{scrartcl}
 
@@ -197,7 +197,7 @@ solution/template=custom,
 %\def\escola{E.E. Amelio Carvalho de Bais}
 %5\def\escola{}
 \def\dataprova{}
-\DeclareExerciseCollection{HidroListaI}
+\DeclareExerciseCollection{ListaBalanceamento}
 \setcounter{secnumdepth}{0}
 \date{\today}
 \title{}
@@ -216,149 +216,52 @@ solution/template=custom,
 %%\input{../Modelos/26agosto}
 \input{../Modelos/CabeOficial}
 %\section*{Atividade de Química}
-\begin{itemize}
-\item Realizar a atividade de recuperação em dupla
-\item Atividade ira auxiliar na nota da Avaliação
-\end{itemize}
+%\begin{itemize}
+%\item Realizar a atividade de recuperação em dupla
+%\item Atividade ira auxiliar na nota da Avaliação
+%\end{itemize}
 \smallbreak
 \medbreak
 %\vspace{-9cm}
 
 
 
-
-
-\collectexercises{HidroListaI}
-
-
+\collectexercises{ListaBalanceamento}
 
 \begin{exercise}
-Determine o números de carbonos carbonos primários, secundários, terciários e quartenários, existentes em cada uma das estruturas a seguir e escreva suas fórmulas moleculares.
-
-\begin{choice}(2)
-
-
-
-\choice \chemfig{\mcfatomno{1}=^[:30]\mcfatomno{2}-[:90]\mcfatomno{3}(%
-=^[:150]\mcfatomno{4}-[:210]\mcfatomno{5}=^[:270]\mcfatomno{6}%
--[:330]\phantom{1})-[:30]\mcfatomno{10}=_[:330]\mcfatomno{9}%
--[:270]\mcfatomno{8}=_[:210]\mcfatomno{7}(-[:150]\phantom{2})}
-
-
-\choice \chemfig{\mcfatomno{1}-[:30]\mcfatomno{2}=[:330]\mcfatomno{3}(%
--[:270]\mcfatomno{8})-[:30]\mcfatomno{4}(-[:90]\mcfatomno{9})%
--[:330]\mcfatomno{5}-[:30]\mcfatomno{6}~[:330]\mcfatomno{7}}
-
-\choice \chemfig{\mcfatomno{4}-[:210]\mcfatomno{2}(-[:105]\mcfatomno{5})%
--[:240]\mcfatomno{1}-[:120]\mcfatomno{3}(-\phantom{2})}
-
-
-\choice \chemfig{\mcfatomno{11}-[:147]\mcfatomno{10}-[:207]\mcfatomno{9}(%
--[:270]\mcfatomno{12})-[:147]\mcfatomno{8}(<:[:87]\mcfatomno{14})%
--[:207]\mcfatomno{7}(<:[:267]\mcfatomno{15}(-[:327]\mcfatomno{17})%
--[:207]\mcfatomno{16})-[:147]\mcfatomno{6}(<[:87]\mcfatomno{13})%
--[:207]\mcfatomno{2}-[:216]\mcfatomno{1}-[:144]\mcfatomno{5}%
--[:72]\mcfatomno{4}-\mcfatomno{3}(-[:288]\phantom{2})}
-
-
-\choice \chemfig{\mcfatomno{1}=^[:30]\mcfatomno{2}-[:90]\mcfatomno{3}%
-=^[:150]\mcfatomno{4}-[:210]\mcfatomno{5}=^[:270]\mcfatomno{6}(%
--[:330]\phantom{1})}
-
-
-
-\choice \chemfig{\mcfatomno{1}-[:30]\mcfatomno{2}-[:330]\mcfatomno{3}(%
-<[:270]\mcfatomno{9})-[:30]\mcfatomno{4}(<[:90]\mcfatomno{10})%
--[:330]\mcfatomno{5}~[:30]\mcfatomno{6}-[:330]\mcfatomno{7}%
-=_[:30]\mcfatomno{8}-[:330]\mcfatomno{11}(-[:30]\mcfatomno{13})%
--[:270]\mcfatomno{14}-[:210]\mcfatomno{16}-[:150]\mcfatomno{12}(%
--[:90]\phantom{7})-[:210]\mcfatomno{15}} 
-\end{choice}
-\end{exercise}
-
-
-\begin{exercise}
-Classifique as cadeias carbônicas dos compostos indicados e sua fórmula molecular.
-
-\begin{choice}(2)
-
-
-
-\choice \chemname{\chemfig{CH_2([:90]-C{\ell})-CH_2-S-CH_2-CH_2([:90]-C{\ell})}}{gás mostarda usado em guerras}
-
-\choice \chemfig{-[:30](-[:90])-[:330](-[:270])-[:30]=[:330]}
-
-%\choice \chemname{\chemfig{CH_3-CH_2-CH_2-C([:90]=O)-O-CH_2-CH_3}}{Essência de abacaxi}
-
-\choice \chemname{\chemfig{=^[:30]-[:90](=^[:150]-[:210]=^[:270]-[:330])-[:30]=_[:330]-[:270]%
-(=_[:210]-[:150])-[:330]=^[:30]-[:90]=^[:150](-[:210])}}{Fumaça do cigarro}
-
-
-\choice \chemname{\chemfig{-[:60]-[:180](-[:300])}}{Anestésico}
-
-
-\choice \chemname{\chemfig{NH_2-[:210,,1]-[:270]=_[:210]-[:150]=_[:90]-[:30](=_[:330])}}{Corantes}
-
-\choice \chemname{\chemfig{O=[:90]-[:30]=^[:90]-[:150](=[:90]O)-[:210]=^[:270](-[:330])}}{Veneno besouro}
+Balanceie as reações químicas:
+\begin{choice}(1)
+\choice \ch{\lh Fe + \lh C$\ell$2 -> \lh FeC$\ell$3} \bigskip \bigskip
+\choice \ch{\lh Fe + \lh O2 -> \lh Fe2O3} \bigskip \bigskip
+\choice \ch{\lh FeBr3 + \lh H2SO4 -> \lh Fe2(SO4)3 + \lh HBr}\bigskip \bigskip
+\choice \ch{\lh C4H6O3 + \lh H2O  ->  \lh C2H4O2} \bigskip \bigskip
+\choice \ch{\lh C2H4 + \lh O2 -> \lh CO2 + \lh H2O} \bigskip \bigskip
+%\choice \ch{\lh C4H10O + \lh O2 -> \lh CO2 + \lh H2O} \bigskip \bigskip
+\choice \ch{\lh C7H16 + \lh O2 -> \lh  CO2 + \lh  H2O} \bigskip \bigskip
+%\choice \ch{\lh H2SiC$\ell$2 + \lh H2O -> \lh H8Si4O4 + \lh HC$\ell$} \bigskip \bigskip
+%\choice \ch{\lh HSiC$\ell$3 + \lh H2O -> \lh H10Si10O15 + \lh HC$\ell$} \bigskip \bigskip
+\choice \ch{\lh C7H9 + \lh HNO3 -> \lh C7H6(NO2)3 + \lh H2O} \bigskip \bigskip
+%\choice \ch{\lh C5H8O2 + \lh NaH + \lh HCl -> \lh C5H12O2 + \lh NaC$\ell$} \bigskip \bigskip
+\choice \ch{\lh Fe + \lh H2SO4 \ -> \lh Fe2(SO4)3 + \lh H2} \bigskip \bigskip
+\choice \ch{\lh C2H6 + \lh O2 -> \lh H2O + \lh CO2} \bigskip  \bigskip
+\choice \ch{\lh KOH + \lh H3PO4 -> \lh K3PO4 + \lh H2O} \bigskip \bigskip
+\choice \ch{\lh SnO2 + \lh H2 -> \lh Sn + \lh H2O} \bigskip \bigskip
+\choice \ch{\lh NH3 + \lh O2 -> \lh NO  + \lh  H2O} \bigskip \bigskip
+\choice \ch{\lh KNO3 + \lh H2CO3 -> \lh K2CO3 + \lh HNO3} \bigskip \bigskip 
+\choice \ch{\lh B2Br6 + \lh HNO3 -> \lh  B(NO3)3 + \lh HBr} \bigskip \bigskip
+\choice \ch{\lh BF3 + \lh  Li2SO3 -> \lh B2(SO3)3 + \lh LiF} \bigskip \bigskip
+\choice \ch{\lh (NH4)3PO4 + \lh  Pb(NO3)4  -> \lh Pb3(PO4)4  + \lh NH4NO3} \bigskip \bigskip
+%%\choice \ch{\lh SeC$\ell$6  + \lh  O2 -> \lh  SeO2 + \lh C$\ell$2} \bigskip \bigskip
+\choice \ch{\lh HC$\ell$O4 + \lh P4O10  -> \lh H3PO4 + \lh C$\ell$2O7} \bigskip \bigskip
+\choice \ch{\lh Ca3(PO4)2  + \lh H2SO4 -> \lh CaSO4  + \lh Ca(H2PO4)2} \bigskip \bigskip
+%%\choice \ch{\lh FeO3  + \lh CO -> \lh Fe  + \lh CO2} \bigskip \bigskip
+\choice \ch{\lh CO + \lh H2 -> \lh  C8H18 + \lh H2O}
 \end{choice}
 \end{exercise}
 
 
 
+\collectexercisesstop{ListaBalanceamento}
 
-
-
-\begin{exercise}
-Determine a formula molecular dos compostos
-
-\begin{choice}(2)
-
-\choice \chemfig{-[:60](=[:120]O)-O-[:300]=^[:240]-[:300]=^-[:60]=^[:120](-[:180])%
--[:60](-[,,,1]OH)=[:120]O}
-
-\choice \chemfig{-[:42]N-[:96]=_[:24]N-[:312]=_[:240](-[:168]\phantom{N})-[:300](%
-=[:240]O)-N(-[:300])-[:60](=O)-[:120]N(-[:180])-[:60]}
-
-\choice \chemfig{-[:90]N(-[:30](-[:330,,,1]NH_2)=[:90,,,1]NH)-[:150]-[:210](%
-=[:270]O)-[:150,,,2]HO}
-
-%\choice \chemfig{O=[:270](-[:210,,,2]HO)-[:330](-[:270,,,1]NH_2)-[:30]-[:330]-[:30]-[:330]N=[:30](-[:90,,,1]NH_2)-[:330,,,1]NH_2}
-
-
-%\choice \chemfig{-[:282](=[:222]O)-[:342]\mcfbelow{N}{H}-[:42]-[:342]-[:42]=_[:96]%
-%-[:24]\mcfabove{N}{H}-[:312]=^[:240](-[:168])-[:300]=^(-[:300]O-)-[:60]%
-%=^[:120](-[:180])}
-
-\choice \chemfig{O=[:300](-[:240,,,2]HO)-(-[:300,,,1]NH_2)-[:60]-[,,,1]SH}
-\end{choice}
-\end{exercise}
-
-
-\begin{exercise}
-Dê o nome IUPAC para os compostos abaixo:
-
-\begin{choice}(2)
-\choice \chemfig{-[:210](-[:270])-[:150]-[:210]-[:150]-[:90]-[:30](-[:330]-[:270])%
--[:90]-[:150]}
-
-\choice \chemfig{-[:234]-[:288]-[:216](-[:270])-[:144]-[:72](-)-[:126]}
-
-\choice \chemfig{-[:30](=[:90])-[:330]=[:30]-[:330]-[:30]=[:330]}
-
-\choice \chemfig{-[:30](-[:90](-[:30]-[:330]-[:30])-[:150])-[:330](-[:270])-[:30]%
--[:330]~[:30]-[:30]}
-
-\choice \chemfig{CH_3-[:150,,1](-[:90,,,1]CH_3)-[:210](-[:270,,,1]CH_3)-[:150](%
--[:90,,,1]CH_3)=[:210](-[:270,,,1]CH_3)-[:150]~[:210]-[:210]-[:150]%
--[:210,,,2]H_3C}
-\end{choice}
-\end{exercise}
-
-
-
-
-
-\collectexercisesstop{HidroListaI}
-
-\printcollection{HidroListaI}
+\printcollection{ListaBalanceamento}
 \end{document}

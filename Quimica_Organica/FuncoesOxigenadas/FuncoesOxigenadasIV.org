@@ -1,0 +1,225 @@
+#+LATEX_HEADER: \DeclareExerciseCollection{FuncoesOxigenadasIV}
+
+
+
+
+
+
+
+#+begin_comment
+=============== FUNCOES OXIGENADAS ======== Grupo Funcionais Parte II
+#+end_comment
+
+\collectexercises{FuncoesOxigenadasIV}
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A estrutura da aspirina abaixo contém os seguintes grupos funcionais
+
+#+begin_export latex
+\begin{center}
+\chemfig{-[:60](=[:120]O)-O-[:300]=^[:240]-[:300]=^-[:60]=^[:120](-[:180])%
+-[:60](=[:120]O)-[,,,1]OH}
+\end{center}
+#+end_export
+
+Quais os grupos funcionais oxigenados presente.
+
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice cetona  e etér.
+\choice éter e enol.
+\choice éster e álcool.
+\choice ácido carboxílico e éster.
+\choice aldeído e éster
+#+end_choice
+#+end_exercise
+#+begin_solution
+D
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+O cetoprofeno é usado para aliviar a dor, sensibilidade, inchaço e rigidez causada pela osteoartrite (artrite causada por uma ruptura do revestimento das articulações) e artrite reumatóide (artrite causada pelo inchaço do revestimento das articulações).
+
+#+begin_export latex
+\begin{center}
+\chemfig{-[:270](-[:330](-[:30,,,1]OH)=[:270]O)-[:210]=^[:150]-[:210](%
+=^[:270]-[:330]=^[:30]-[:90])-[:150](=[:90]O)-[:210]=^[:150]-[:210]=^[:270]%
+-[:330]=^[:30](-[:90])}
+\end{center}
+#+end_export
+
+Quais os grupos funcionais oxigenados presente.
+
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice cetona  e enol.
+\choice éter e ácido carboxílico 
+\choice cetona e ácido carboxílico.
+\choice ácido carboxílico e éster.
+\choice aldeído e álcool.
+#+end_choice
+#+end_exercise
+#+begin_solution
+A
+#+end_solution
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Khellin tem sido usado como uma medicina popular herbal, com uso no Mediterrâneo que remonta ao Egito Antigo, para tratar uma variedade de doenças, incluindo: cólicas renais, pedras nos rins, doença coronária, asma brônquica, vitiligo e psoríase.
+
+#+begin_export latex
+\begin{center}
+\chemfig{-[:330]=_[:30]-[:330](=[:30]O)-[:270]=_[:330](-[:30]O-[:330])%
+-[:270]=^[:210](-[:150](-[:210]O-[:270])=_[:90](-[:150]O-[:90])-[:30])%
+-[:282]O-[:354]=^[:66](-[:138])}
+\end{center}
+#+end_export
+
+a estrutura acima tem quais grupos funcionais
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice cetona  e enol.
+\choice éter e álcool.
+\choice cetona e éter.
+\choice ácido carboxílico e éster.
+\choice éster e álcool.
+#+end_choice
+#+end_exercise
+#+begin_solution
+C
+#+end_solution
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+/Streptomycetaceae/ é uma família de Actinomycetota, que compõe a ordem monotípica /Streptomycetales/. Inclui o importante gênero /Streptomyces/. Esta foi a fonte original de muitos antibióticos, ou seja, a estreptomicina, o primeiro antibiótico contra a tuberculose.
+Veja a estrutura abaixo
+#+begin_export latex
+\begin{center}
+\chemfig[atom style={scale=.9}]{-[:204]-[:264](-[:204]-[:150](-[:96])-[:222]-[:294](-[:282]-[:342]%
+)(-[:198]-[:138]-[:198]-[:258](-[:158]-[:218])(-[:238,,,2]HO)-[:318](%
+-[:258])-[:18]O-[:78])-[:6]O-[:78])-[:324](=[:264]O)-[:24](-[:84])-[:324](%
+-[:264,,,1]OH)-[:24](-[:84])-[:324]-[:24]-[:324]=^[:264](-[:204](%
+-[:264,,,1]OH)=[:144]O)-[:324](-[:264,,,1]OH)=^[:24](-[:324])-[:84]=^[:144]%
+(-[:204])}
+\end{center}
+#+end_export
+
+a estrutura acima tem quais grupos funcionais
+
+#+ATTR_LATEX: :options (1)
+#+begin_choice
+\choice Aldeído, cetona, fenol, éter  e enol.
+\choice Aldeído, éster, fenol, éter e álcool.
+\choice Cetona, álcool, fenol, epóxi  e éter.
+\choice ácido carboxílico, enol, álcool, cetona  e éster.
+\choice Ácido carboxílico, fenol, cetona, éter e álcool.
+#+end_choice
+#+end_exercise
+#+begin_solution
+E
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A GESTRINONA é um 19-nor-esteróide, anti-estrogênio e antiprogesterona empregado no tratamento da endometriose e da miomatose. Apresenta características anovulatórias, efeito anabolizante e hemostático. Possui ainda indicação para tratamento da Tensão Pré-Menstrual (TPM), hipertrofia uterina, baixa de libido, perda de massa muscular e massa óssea, revertendo, quando associado a um estrogênio, a osteopenia após alguns meses de tratamento
+
+#+begin_export latex
+\begin{center}
+\begin{tikzpicture}
+\node[draw=none] at (0,0) {
+\chemfig[cram width=4pt]{-[:114]>[:54]-[:300]->[:60]-[:120](-[:180](<[:132]=^[:204]-[:276](%
+-[:180]~[:180])(<[:254,,,2]HO)-[:348])-[:240])<:[:60]--[:300]=_-[:300](=O)%
+-[:240]-[:180]>:[:120](-[:180])(-[:60])}
+};
+\node at (3.4, -0.2) [draw,dashed,inner sep=0pt,circle,yscale=1.8cm,xscale=2.0cm]{};
+\node at (-3.2, 0) [draw,dashed,inner sep=0pt,circle,yscale=1.3cm,xscale=1.7cm]{};
+\node at (-2.2, -0.9) [draw,dashed,inner sep=0pt,circle,yscale=1.3cm,xscale=1.7cm]{};
+\end{tikzpicture}
+\end{center}
+#+end_export
+
+a estrutura acima tem quais grupos funcionais destacados
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice Vinil, cetona  e enol.
+\choice Etinil, cetona e álcool
+\choice Fenol, cetona e éter.
+\choice Alcino, cetona e éster.
+\choice Alcinio, éster e álcool.
+#+end_choice
+#+end_exercise
+#+begin_solution
+B
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A eritromicina foi isolada pela primeira vez em 1952 a partir da bactéria /Saccharopolyspora erythraea/. A eritromicina é um antibiótico utilizado no tratamento de diversas infecções bacterianas. Isso inclui infecções do trato respiratório , infecções de pele, infecções por clamídia , doença inflamatória pélvica e sífilis. 
+
+#+begin_export latex
+\begin{center}
+\chemfig[cram width=4pt]{HO>:[:345,,2](-[:225])-[:330](<[:270]O>[:210]-[:150]O-[:210](%
+<[:150])-[:270]-[:330](-[:30](-[:90])<:[:330,,,1]OH)<[:270]N(-[:330])%
+-[:210])-[:30](<[:90])-[:330](<[:270]O>:[:330]-[:30]O-[:330](<[:30])-[:270]%
+(-[:210](-[:150]-[:90])(-[:240])<:[:300]O-[:240])<:[:330,,,1]OH)-[:30](%
+<:[:330])-[:90](=[:150]O)-[:30]O-[:90](<[:30]-[:330])-[:150](<:[:75,,,1]OH)%
+(-[:125])-[:210](<:[:310,,,1]OH)-[:150](<:[:90])-[:210](=[:150]O)-[:270](%
+<:[:270])-[:210](-[:270])}
+
+\end{center}
+#+end_export
+
+Na estrutura da eritromicina contém os seguintes grupos funcionais oxigenados.
+
+#+begin_choice
+\choice Vinil, cetona  e enol.
+\choice Cetona, álcool e éster
+\choice Cetona, éter e ácido carboxílico.
+\choice Enol, éster e aldeído.
+\choice Éster, álcool e anidrido.
+#+end_choice
+
+#+end_exercise
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+As catequinas são compostos incolores, hidrossolúveis, que contribuem para o amargor e a adstringência do chá verde. As teaflavinas são compostos responsáveis por parte da cor (alaranjada) e sabor (adstringência) da infusão de chá preto.
+
+
+#+begin_export latex
+\chemfig[cram width=4pt]{HO>[:300,,2]-[:240](<:[:180]=_[:240]-[:180]=_[:120](-[:180,,,2]HO)%
+-[:60](-[:120,,,2]HO)=_-[:300])-[:300]O-=_[:60](-[:120]-[:180])-(%
+-[:60,,,1]OH)=_[:300]-[:240](-[:300,,,1]OH)=_[:180](-[:120])}
+#+end_export
+
+#+begin_choice
+\choice Cetona, álcool  e enol.
+\choice Cetona, fenol e éster
+\choice Fenol, éter e álcool
+\choice Enol, éster e aldeído.
+\choice Éster, álcool e enol.
+#+end_choice
+
+#+end_exercise
+
+
+\collectexercisesstop{FuncoesOxigenadasIV}
+
+
+

@@ -486,10 +486,8 @@ O elemento cujo átomo tem o maior número de elétrons em sua camada mais exter
 
 #+ATTR_LATEX: :options [points=1.0]
 #+begin_exercise
-olumes de soluções aquosas de cloreto de bário e de sulfato
-de sódio de concentrações apropriadas são misturados
-observando-se a formação de um precipitado. Os produtos
-formados na reação são:
+olumes de soluções aquosas de cloreto de bário e de sulfato de sódio de concentrações apropriadas são misturados
+observando-se a formação de um precipitado. Os produtos formados na reação são:
 
 #+begin_choice
 \choice BaO e NaC$\ell$
