@@ -1,6 +1,6 @@
 #+OPTIONS: H:2 toc:nil num:0
 #+LATEX_CLASS:koma-article
-#+LATEX_CLASS_OPTIONS: [10pt]
+#+LATEX_CLASS_OPTIONS: [12pt]
 #+INCLUDE: "packages2.org"
 #+LATEX_HEADER: \usepackage{lineno} 
 
@@ -48,12 +48,18 @@
 
 
 
-#+INCLUDE: "Lista/Estequiometria/Balanceamento.org"
 
-\printcollection{ListaBalanceamento}
+#+INCLUDE: "Lista/Solucoes/SolucoesI.org"
+
+\printcollection{SolucoesI}
 
 #+begin_comment
 
+
+
+#+INCLUDE: "Lista/Estequiometria/Balanceamento.org"
+
+\printcollection{ListaBalanceamento}
 
 
 

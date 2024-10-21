@@ -60,18 +60,18 @@ Determine as massas moleculares das substâncias abaixo:
 \choice \ch{N2}
 \choice \ch{CO2}
 \choice \ch{HNO3}
-\vspace{3cm}
+\vspace{2cm}
 \choice \ch{H2SO4}
 \choice  \ch{C6H12O6}
 \choice \ch{Ca(OH)2}
-\vspace{3cm}
+\vspace{2cm}
 \choice \ch{Ca(C$\ell$O3)2}
 \choice \ch{(NH4)2SO4}
 \choice \ch{Ca3(PO4)2}
-\vspace{3.0cm}
+\vspace{2.0cm}
 \choice \ch{A$\ell$(OH)3}
 \choice \ch{K4[Fe(CN)6]}
-\vspace{3.5cm}
+\vspace{3.0cm}
 \end{choice}
 #+end_export
 #+end_exercise
@@ -97,8 +97,8 @@ Determine a número de mols substâncias abaixo, utilize os dados da questão an
 \choice 5 g de \ch{(NH4)2SO4}
 \choice 40 g de \ch{Ca3(PO4)2}
 \vspace{3.5cm}
-\choice 10 g de \ch{A$\ell$(OH)3}
-\choice \ch{K4[Fe(CN)6]}
+\choice 100 mg de \ch{A$\ell$(OH)3}
+\choice 3kg \ch{K4[Fe(CN)6]}
 \end{choice}
 #+end_export
 #+end_exercise

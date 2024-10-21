@@ -1,0 +1,59 @@
+#+LATEX_HEADER: \DeclareExerciseCollection{SolucoesI}
+
+
+\collectexercises{SolucoesI}
+
+
+#+begin_exercise
+São dissolvidos 42,6 gramas de \ch{A$\ell$(NO3)3} em água de modo que o volume da solução seja igual a 4 litros. Qual a concentração molar dessa solução? *Dados:* MA: A$\ell$= 27; N = 14 e O = 16.
+#+end_exercise
+
+
+
+#+begin_exercise
+Uma solução contém 2 mols de \ch{H2SO4} em 500 mL de solução. Qual é a concentração da solução, em gramas por litro? (Dados: H = 1 u; O = 16 u e S = 32 u.)
+#+end_exercise
+
+
+
+
+#+begin_exercise
+Calcular a molaridade de uma solução que contém 9,8 g de \ch{H2SO4}, em 500 mL de solução. (Dados: H = 1 u; O = 16 u e S = 32 u.)
+#+end_exercise
+
+
+
+#+begin_exercise
+Calcule o volume de solução no qual se encontram dissolvidos 6,44 g de sulfato de sódio decaidratado (\ch{Na2SO4 . 10 H2O}), sabendo que a
+mesma é O,1 \unit{\mol\per\litre}. (Dados: Na = 23 u; O = 16 u; S = 32 u e H = 1 u.).
+#+end_exercise
+
+
+
+#+begin_exercise
+O ácido sulfúrico puro (\ch{H2SO4}) possui densidade de 1,85 g/cm^3. A 5 cm^3 desse ácido juntou-se água destilada até que o volume da solução atingisse 200 cm^3. Calcular a molaridade desta solução. (Dados: H = 1 u; S = 32 u e O = 16 u.).
+#+end_exercise 
+
+
+
+
+#+begin_exercise
+500 mL de solução contêm 10 g de sulfato férrico ( @@latex: \ch{Fe2(SO3)3} @@ ) 100% dissociado. Calcule a molaridade do sulfato férrico e dos íons férrico e sulfato, em mols por litro.
+(Massas atômicas: Fe = 56; S = 32; O = 16.).
+#+end_exercise
+
+
+
+
+#+begin_exercise
+Calcule o massa em gramas necessários para preparar 250mL de solução \num{1.5e-2} molar de NaOH
+#+end_exercise 
+
+
+
+#+begin_exercise
+O conteúdo de ácido acético (@@latex: \ch{CH3COOH}@@) no vinagre é de, aproximadamente, 3% em peso. Sabendo que a massa molecular do acido acético é 60 xsg/mol e que a densidade do vinagre é de 1.0 g/mL, calcule a *MOLARIDADE* do ácido no vinagre.
+#+end_exercise 
+
+
+\collectexercisesstop{SolucoesI}

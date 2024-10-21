@@ -26,8 +26,8 @@
 
 #+begin_export latex
 \twocolumn[
-%\input{../Modelos/CabeOficial}
-\input{../Modelos/cabenovo}
+\input{../Modelos/CabeOficial}
+%\input{../Modelos/cabenovo}
 %\input{../Modelos/mamede}
 %\input{../Modelos/26agosto}
 %% \input{../Modelos/geral}
@@ -35,20 +35,27 @@
 
 %%\section*{Regime de Progressão Parcial}
 %\section*{Atividade}
-%%%\section*{Trabalho}
+%\section*{Trabalho}
 %%\section*{\disciplina}
 
 
 
 %\input{../Modelos/gabarito}
 
-Total Prova: \printpoints
+%Total Prova: \printpoints
 \smallbreak
 \medbreak
 \par\vspace{2ex}]%%%%\input{../Modelos/mamede}
 #+end_export
 
 
+
+#+INCLUDE: "Lista/FuncoesOrganicas/FuncoesOxigenadasI.org"
+
+\printcollection{FuncoesOxigenadas}
+
+
+#+begin_comment
 
 
 #+INCLUDE: "Quimica_Organica/FuncoesOxigenadas/FuncoesOxigenadasIII.org"
@@ -60,13 +67,7 @@ Total Prova: \printpoints
 \printrandomexercises[collection=FuncoesOxigenadasIV,exclude=two]{4}
 
 
-
-
-
-#+begin_comment
-
-
-
+\printrandomexercises[collection=FuncoesOxigenadasIII,exclude=four]{10}
 
 
 
@@ -83,3 +84,8 @@ Total Prova: \printpoints
 
 
 #+end_comment
+
+
+
+
+

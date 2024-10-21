@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2024.9.28)  4 OCT 2024 18:42
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2024.10.9)  17 OCT 2024 18:02
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -272,7 +272,7 @@ File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
 code.tex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )) (/usr/local/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
@@ -280,15 +280,15 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package xcolor Info: Driver file: luatex.def on input line 274.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx)
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
-Package xcolor Info: Model `RGB' extended on input line 1366.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 )
 (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
@@ -984,7 +984,7 @@ Loading the chemmacros module `spectroscopy' ...
 
 Loading the chemmacros module `spectroscopy' ...
 (/usr/local/texlive/2024/texmf-dist/tex/latex/siunitx/siunitx.sty
-Package: siunitx 2024-08-20 v3.3.21 A comprehensive (SI) units package
+Package: siunitx 2024-09-30 v3.3.22 A comprehensive (SI) units package
 \l__siunitx_number_uncert_offset_int=\count355
 \l__siunitx_number_exponent_fixed_int=\count356
 \l__siunitx_number_min_decimal_int=\count357
@@ -1445,7 +1445,7 @@ Package: empheq 2017/03/31 v2.15 Emphasizing equations
 \g_EQ_temprow_int=\count410
 )
 (/usr/local/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
-Package: tcolorbox 2024/07/10 version 6.3.0 text color boxes
+Package: tcolorbox 2024/09/27 version 6.4.0 text color boxes
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
@@ -1468,13 +1468,13 @@ Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
 \tcb@temp=\box154
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
-Library (tcolorbox): 'tcbraster.code.tex' version '6.3.0'
+Library (tcolorbox): 'tcbraster.code.tex' version '6.4.0'
 \c@tcbrastercolumn=\count414
 \c@tcbrasterrow=\count415
 \c@tcbrasternum=\count416
 \c@tcbraster=\count417
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
-Library (tcolorbox): 'tcbskins.code.tex' version '6.3.0'
+Library (tcolorbox): 'tcbskins.code.tex' version '6.4.0'
 (/usr/local/texlive/2024/texmf-dist/tex/latex/tikzfill/tikzfill.image.sty
 Package: tikzfill.image 2023/08/08 v1.0.1 Image filling library for TikZ
 
@@ -1487,10 +1487,10 @@ File: tikzlibraryfill.image.code.tex 2023/08/08 v1.0.1 Image filling library
 \l__tikzfill_img_box=\box155
 ))
 (/usr/local/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
-Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.3.0'
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.4.0'
 ))
 (/usr/local/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
-Library (tcolorbox): 'tcbbreakable.code.tex' version '6.3.0'
+Library (tcolorbox): 'tcbbreakable.code.tex' version '6.4.0'
 (/usr/local/texlive/2024/texmf-dist/tex/latex/pdfcol/pdfcol.sty
 Package: pdfcol 2022-09-21 v1.7 Handle new color stacks for pdfTeX (HO)
 )
@@ -1503,11 +1503,11 @@ Package pdfcol Info: New color stack `tcb@breakable' = 1 on input line 23.
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 ))
 (/usr/local/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbhooks.code.tex
-Library (tcolorbox): 'tcbhooks.code.tex' version '6.3.0'
+Library (tcolorbox): 'tcbhooks.code.tex' version '6.4.0'
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbtheorems.code.tex
-Library (tcolorbox): 'tcbtheorems.code.tex' version '6.3.0'
+Library (tcolorbox): 'tcbtheorems.code.tex' version '6.4.0'
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbfitting.code.tex
-Library (tcolorbox): 'tcbfitting.code.tex' version '6.3.0'
+Library (tcolorbox): 'tcbfitting.code.tex' version '6.4.0'
 \tcbfitdim=\dimen381
 \tcb@lowerfitdim=\dimen382
 \tcb@upperfitdim=\dimen383
@@ -1515,9 +1515,9 @@ Library (tcolorbox): 'tcbfitting.code.tex' version '6.3.0'
 )
 (/usr/local/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcblistingsutf8.code.te
 x
-Library (tcolorbox): 'tcblistingsutf8.code.tex' version '6.3.0'
+Library (tcolorbox): 'tcblistingsutf8.code.tex' version '6.4.0'
 (/usr/local/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
-Library (tcolorbox): 'tcblistings.code.tex' version '6.3.0'
+Library (tcolorbox): 'tcblistings.code.tex' version '6.4.0'
 (/usr/local/texlive/2024/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count419
 \lst@gtempboxa=\box159
@@ -1548,9 +1548,9 @@ Package: listings 2024/09/23 1.10c (Carsten Heinz)
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcblistingscore.code.te
 x
-Library (tcolorbox): 'tcblistingscore.code.tex' version '6.3.0'
+Library (tcolorbox): 'tcblistingscore.code.tex' version '6.4.0'
 (/usr/local/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbprocessing.code.tex
-Library (tcolorbox): 'tcbprocessing.code.tex' version '6.3.0'
+Library (tcolorbox): 'tcbprocessing.code.tex' version '6.4.0'
 )
 \c@tcblisting=\count427
 ))
@@ -1558,13 +1558,13 @@ Package tcolorbox Info: Library `listingsutf8' is compatible with pdftex only.
 Library `listings` is loaded instead. on input line 29.
 )
 (/usr/local/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbexternal.code.tex
-Library (tcolorbox): 'tcbexternal.code.tex' version '6.3.0'
+Library (tcolorbox): 'tcbexternal.code.tex' version '6.4.0'
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbmagazine.code.tex
-Library (tcolorbox): 'tcbmagazine.code.tex' version '6.3.0'
+Library (tcolorbox): 'tcbmagazine.code.tex' version '6.4.0'
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbvignette.code.tex
-Library (tcolorbox): 'tcbvignette.code.tex' version '6.3.0'
+Library (tcolorbox): 'tcbvignette.code.tex' version '6.4.0'
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbposter.code.tex
-Library (tcolorbox): 'tcbposter.code.tex' version '6.3.0'
+Library (tcolorbox): 'tcbposter.code.tex' version '6.4.0'
 )) (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/dvipsnam.def
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 )
@@ -1722,9 +1722,7 @@ Package chemmacros Warning: You haven't loaded any package for upright Greek
 
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/elements/elements_names_english.d
-ef)
-\openout2 = Funcoes_Organicas_Oxigenadas.aux
- (./Funcoes_Organicas_Oxigenadas.tex
+ef) (./Funcoes_Organicas_Oxigenadas.tex
 
 Package typearea Warning: Bad type area settings!
 (typearea)                The detected line width is about 85%
@@ -1772,7 +1770,6 @@ Overfull \hbox (57.23341pt too wide) in paragraph at lines 47--48
 [1
 Non-PDF special ignored!
 
-
 {/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 Package typearea Info: These are the values describing the layout:
 (typearea)             DIV  = 10
@@ -1793,7 +1790,7 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              on input line 49.
 Package typearea Info: Using dirty hack to recalculate internal output
 (typearea)             dimensions of LaTeX on input line 49.
-) (./main.aux (./Funcoes_Organicas_Oxigenadas.aux))
+) (./main.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-09-10>
@@ -1801,22 +1798,21 @@ L3 programming layer <2024-09-10>
 )
 
 Here is how much of LuaTeX's memory you used:
- 51315 strings out of 475910
- 156264,2373549 words of node,token memory allocated
- 2068 words of node memory still in use:
-   44 hlist, 2 vlist, 15 rule, 18 glue, 4 kern, 1 glyph, 127 attribute, 107 glue
-_spec, 127 attribute_list, 4 write, 47 pdf_literal, 26 pdf_colorstack nodes
-   avail lists: 1:9,2:10497,3:8648,4:45,5:100,6:84,7:8125,8:14,9:4464,10:1,11:36
-,12:1
- 72783 multiletter control sequences out of 65536+600000
- 46 fonts using 2925839 bytes
- 108i,20n,126p,10920b,2105s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 51301 strings out of 475910
+ 156268,2373549 words of node,token memory allocated
+ 2054 words of node memory still in use:
+   44 hlist, 2 vlist, 15 rule, 18 glue, 4 kern, 1 glyph, 125 attribute, 107 glue
+_spec, 125 attribute_list, 2 write, 47 pdf_literal, 26 pdf_colorstack nodes
+   avail lists: 1:12,2:10496,3:8647,4:45,5:102,6:84,7:8125,8:14,9:4464,10:1,11:3
+6,12:1
+ 72776 multiletter control sequences out of 65536+600000
+ 46 fonts using 2911119 bytes
+ 108i,20n,124p,10920b,2105s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-</usr/local/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.o
-tf></usr/local/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmroman12-regula
-r.otf></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pf
-b>
-Output written on main.pdf (1 page, 37421 bytes).
+</home/fabio/.local/share/fonts/lmroman10-regular.otf></usr/local/texlive/2024/t
+exmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></usr/local/texlive/202
+4/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb>
+Output written on main.pdf (1 page, 37449 bytes).
 
 PDF statistics: 81 PDF objects out of 1000 (max. 8388607)
  38 compressed objects within 1 object stream
