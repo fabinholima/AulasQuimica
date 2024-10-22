@@ -189,6 +189,7 @@ Identifique os grupos hidrocarbonetos, escreva a fórmula molecular e dê os nom
 #+begin_exercise
 Dê o nome oficial dos seguintes compostos e as funções orgânicas:
 #+begin_choice
+
 \choice \chemfig{CH_3-CH_2-CH_2-C([:60]=O)([:-30]-OH)}
 \choice \chemfig{CH_3-CH([:90]-CH_3)-CH_2-CH_2-C([:60]=O)([:-30]-H)}
 \choice \chemfig{-[:30](<[:90])-[:330](<:[:270])-[:30](=[:90]O)-[:330]O-[:30]-[:330]}
@@ -203,8 +204,6 @@ Dê o nome oficial dos seguintes compostos e as funções orgânicas:
 \choice \chemfig{-[:30]-[:330]O-[:30]-[:330](-[:270])-[:30]-[:330]}
 \choice \chemfig{OH-[:270,,1]=_[:330]-[:270](-[:330])-[:210]-[:150](-[:210])-[:90](-[:30])}
 \choice \chemfig{OH-[:270,,1]-[:330]=_[:270](-[:330](-[:270])-[:30])-[:210]=_[:150]-[:90](=_[:30])}
-\choice \chemfig{OH-[:150,,1](=[:90]O)-[:210]-[:150]-[:210](-[:150]-[:210]-[:150]-[:210]-[:150])-[:270]-[:330]-[:270]=^[:330]-[:30]=^[:90]-[:150](=^[:210])}
-\choice \chemfig{H-[:150](=[:90]O)-[:210]=_[:270]-[:210]=_[:150]-[:90]=_[:30](-[:330])}
 
 #+end_choice 
 
