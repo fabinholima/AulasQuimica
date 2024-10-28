@@ -1,7 +1,7 @@
 
 #+OPTIONS: H:2 toc:nil num:t
 #+LATEX_CLASS:koma-article
-#+LATEX_CLASS_OPTIONS: [10pt]
+#+LATEX_CLASS_OPTIONS: [9pt]
 #+INCLUDE: "packages.org"
 
 
@@ -19,15 +19,15 @@
 #+LATEX_HEADER: %%\def\tipo{\bfseries Exame Final}
 #+LATEX_HEADER: \def\bimestre{4 Bimestre}
 #+LATEX_HEADER: %%\def\escola{E.E. 26 de Agosto}
-#+LATEX_HEADER: \def\escola{E.E. José Mamede de Aquino}
-#+LATEX_HEADER: %%\def\escola{E.E. Amélio de Carvalho Baís}
+#+LATEX_HEADER: %\def\escola{E.E. José Mamede de Aquino}
+#+LATEX_HEADER: \def\escola{E.E. Amélio de Carvalho Baís}
 #+LATEX_HEADER: \def\dataprova{}
 
 
 #+begin_export latex
 \twocolumn[
-\input{../Modelos/CabeOficial}
-%\input{../Modelos/cabenovo}
+%%\input{../Modelos/CabeOficial}
+\input{../Modelos/cabenovo}
 %\input{../Modelos/mamede}
 %\input{../Modelos/26agosto}
 %% \input{../Modelos/geral}
@@ -50,9 +50,16 @@
 
 
 
-#+INCLUDE: "Lista/FuncoesOrganicas/FuncoesOxigenadasI.org"
 
-\printcollection{FuncoesOxigenadas}
+#+INCLUDE: "Quimica_Organica/FuncoesOxigenadas/FuncoesOxigenadasIII.org"
+#+INCLUDE: "Quimica_Organica/FuncoesOxigenadas/FuncoesOxigenadasIV.org"
+
+
+
+\printrandomexercises[collection=FuncoesOxigenadasIII,exclude=one]{5}
+\printrandomexercises[collection=FuncoesOxigenadasIV,exclude=two]{5}
+ 
+
 
 
 #+begin_comment
@@ -84,6 +91,9 @@
 
 
 #+end_comment
+
+
+\printcollection{FuncoesOxigenadas}
 
 
 
