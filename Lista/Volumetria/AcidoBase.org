@@ -1,0 +1,32 @@
+
+
+#+begin_exercise
+Uma amostra de 50,0 mL de um vinho branco requer 21,48 mL de uma solução 0,03776 mol/L de NaOH para alcançar o ponto final com fenolftaleína. Determine a acidez do vinho em termos de % m/v de ácido tartárico (H2C4H4O6 – MM = 150,09 g/mol).
+#+end_exercise
+
+#+begin_solution
+Resposta: 012% m/v de H2C2H4O6
+#+end_solution 
+
+#+begin_exercise 
+Um alíquota de 25 mL de vinagre foi diluída para 250 mL em um balão volumétrico. Em seguida, várias alíquotas de 50 mL dessa solução diluída foram
+titulados com um volume médio de 34,88 mL de NaOH 0,096 M . Determine a acidez do vinho em termos de % m/v de ácido acético (MM = 60 g/mol).
+#+end_exercise
+#+begin_solution
+Resposta: 4,02 % m/v de HC2H4O2
+#+end_solution
+
+
+
+#+begin_exercise 
+O ácido benzoico extraído de 106,3 g de molho de tomate foram titulados com 14,76 mL de solução 0,05250 mol/L de NaOH.
+Determine a porcentagem e termos de benzoato de sódio (144,10 g/mol).
+#+end_exercise 
+#+begin_solution
+Resposta: 0,11%.
+#+end_solution
+
+
+#+begin_exercise 
+Barrilha, que é carbonato de sódio impuro, é um insumo básico da indústria química. Uma amostra de barrilha de 10 g foi totalmente dissolvida em 800 mL de ácido clorídrico 0,2 \unit{\mol\per\litre}. O excesso de ácido clorídrico foi neutralizado por 250 mL de NaOH 0,1 \unit{\mol\per\litre}. Qual é o teor de carbonato de sódio, em porcentagem de massa na amostra da barrilha?
+#+end_exercose 
