@@ -1,7 +1,20 @@
 
+#+LATEX_HEADER: \DeclareExerciseCollection{VolumetriaI}
+
+
+\collectexercises{VolumetriaI}
+
 
 #+begin_exercise
-Uma amostra de 50,0 mL de um vinho branco requer 21,48 mL de uma solução 0,03776 mol/L de NaOH para alcançar o ponto final com fenolftaleína. Determine a acidez do vinho em termos de % m/v de ácido tartárico (H2C4H4O6 – MM = 150,09 g/mol).
+Uma amostra de 50,0 mL de um vinho branco requer 21,48 mL de uma solução 0,03776 \unit{\mol\per\litre} de NaOH para alcançar o ponto final com fenolftaleína. Determine a acidez do vinho em termos de % m/v de ácido tartárico (\ch{H2C4H4O6} – MM = 150,09 g/mol).
+
+#+begin_export latex
+\schemestart
+\chemfig{O=[:270](-[:330,,,1]OH)-[:210](-[:270,,,1]OH)-[:150](-[:90,,,1]OH)%
+-[:210](=[:270]O)-[:150,,,2]HO} \+ 2 NaOH \arrow \chemfig{O=[:270](-[:330,,,1]ONa)-[:210](-[:270,,,1]OH)-[:150](-[:90,,,1]OH)-[:210](=[:270]O)-[:150,,,2]NaO} + 2 \chemfig{H_2O} 
+\schemestop 
+#+end_export
+
 #+end_exercise
 
 #+begin_solution
@@ -9,8 +22,14 @@ Resposta: 012% m/v de H2C2H4O6
 #+end_solution 
 
 #+begin_exercise 
-Um alíquota de 25 mL de vinagre foi diluída para 250 mL em um balão volumétrico. Em seguida, várias alíquotas de 50 mL dessa solução diluída foram
-titulados com um volume médio de 34,88 mL de NaOH 0,096 M . Determine a acidez do vinho em termos de % m/v de ácido acético (MM = 60 g/mol).
+Uma alíquota de 25 mL de vinagre foi diluída para 250 mL em um balão volumétrico. Em seguida, várias alíquotas de 50 mL dessa solução diluída foram titulados com um volume médio de 34,88 mL de NaOH 0,096 \unit{\mol\per\litre} . Determine a acidez do vinho em termos de % m/v de ácido acético (MM = 60 g/mol).
+
+#+begin_export latex
+\begin{reaction*}
+CH3COOH + NaOH -> CH3COONa + H2O
+\end{reaction*}
+#+end_export
+
 #+end_exercise
 #+begin_solution
 Resposta: 4,02 % m/v de HC2H4O2
@@ -19,14 +38,80 @@ Resposta: 4,02 % m/v de HC2H4O2
 
 
 #+begin_exercise 
-O ácido benzoico extraído de 106,3 g de molho de tomate foram titulados com 14,76 mL de solução 0,05250 mol/L de NaOH.
-Determine a porcentagem e termos de benzoato de sódio (144,10 g/mol).
-#+end_exercise 
+O ácido benzoico extraído de 106,3 g de molho de tomate foram titulados com 14,76 mL de solução 0,05250 mol/L de NaOH. Determine a porcentagem e termos de benzoato de sódio (144,10 g/mol).
+
+#+begin_export latex
+\schemestart
+\chemfig{O=[:330](-[:30,,,1]OH)-[:270]=_[:330]-[:270]=_[:210]-[:150]=_[:90](-[:30])} + NaOH \arrow \chemfig{O=[:330](-[:30,,,1]ONa)-[:270]=_[:330]-[:270]=_[:210]-[:150]=_[:90](-[:30])} + \chemfig{H_2O}
+\schemestop
+#+end_export
+
+#+end_exercise
 #+begin_solution
 Resposta: 0,11%.
 #+end_solution
 
 
 #+begin_exercise 
-Barrilha, que é carbonato de sódio impuro, é um insumo básico da indústria química. Uma amostra de barrilha de 10 g foi totalmente dissolvida em 800 mL de ácido clorídrico 0,2 \unit{\mol\per\litre}. O excesso de ácido clorídrico foi neutralizado por 250 mL de NaOH 0,1 \unit{\mol\per\litre}. Qual é o teor de carbonato de sódio, em porcentagem de massa na amostra da barrilha?
-#+end_exercose 
+Barrilha, que é carbonato de sódio impuro \ch{Na2CO3}, é um insumo básico da indústria química. Uma amostra de barrilha de 10 g foi totalmente dissolvida em 800 mL de ácido clorídrico 0,2 \unit{\mol\per\litre} de \ch{HC$\ell$}. O excesso de ácido clorídrico foi neutralizado por 250 mL de NaOH 0,1 \unit{\mol\per\litre}. Qual é o teor de carbonato de sódio, em porcentagem de massa na amostra da barrilha? Dados: (\ch{Na2CO3} MM = 122 \unit{\gram\per\mol})
+
+#+begin_export latex
+\begin{reactions}
+Na2CO3 + 2 HC$\ell$ -> 2 NaC$\ell$ + H2O + CO2 \\
+HC$\ell$  + NaOH -> NaC$\ell$ + H2O
+\end{reactions}
+#+end_export
+
+#+end_exercise 
+
+
+
+
+#+begin_exercise
+Na determinação de 25 mL de solução de concentração de uma solução de \ch{HNO3} foram gastos 25 mL de solução de KOH 0,1 mol/L.
+#+begin_export latex
+\begin{reaction*}
+HNO3 + KOH -> KNO3 + H2O
+\end{reaction*}
+#+end_export
+#+end_exercise
+
+
+#+begin_exercise
+#+begin_export latex
+\schemestart
+\chemfig{O=[:330](-[:30,,,1]OH)-[:270]=_[:330]-[:270]=_[:210]-[:150]=_[:90](-[:30])} + NaOH \arrow \chemfig{O=[:330](-[:30,,,1]ONa)-[:270]=_[:330]-[:270]=_[:210]-[:150]=_[:90](-[:30])} + \chemfig{H_2O}
+\schemestop
+#+end_export
+
+A pureza do conservante de alimentos ácido benzóico (\ch{C7H6O2}) foi determinada pela titulação deste com uma solução padronizada de NaOH 0,1 \unit{\mol\per\litre}, gastando 35 mL. Para tanto, foi preparada uma solução do ácido pela dissolução de 0,50 g em 50 mL de água deionizada. Todos os 50 mL foram utilizados na titulação com NaOH. Determine a pureza do conservante.
+
+
+
+#+end_exercise
+
+
+#+begin_exercise
+Um estudante verifica que 20 mL de hidróxido de potássio (KOH) 0,3 \unit{\mol\per\litre} são necessários para neutralizar uma amostra de 30 mL de ácido clorídrico (HC$\ell$). Determine a molaridade do HC$\ell$.
+#+begin_export latex
+\begin{reaction*}
+KOH + HC$\ell$ -> KC$\ell$ + H2O 
+\end{reaction*}
+#+end_export
+#+end_exercise 
+
+
+
+#+begin_exercise
+Para realizar a titulação de 20 mL de hidróxido de sódio (NaOH) de molaridade desconhecida, foram utilizados 50 mL de ácido sulfúrico (\ch{H2SO4}) 0,2 \unit{\mol\per\litre}. Qual a molaridade do hidróxido de sódio?
+
+#+begin_export latex
+\begin{reaction*}
+H2SO4 + 2 NaOH -> Na2SO4 + 2 H2O
+\end{reaction*}
+#+end_export
+#+end_exercise 
+
+
+
+\collectexercisesstop{VolumetriaI}

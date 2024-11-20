@@ -27,7 +27,7 @@ Quais o grupos funcionais presentes na estrutura:
 #+begin_choice
 \choice Èster, amina e cetona
 \choice Amina, éter e amida
-\choice Cetona, Amina e éter
+\choice Cetona, Amina e éster
 \choice Amina, éter e cetona
 \choice Éter, cetona e éster
 #+end_choice
@@ -656,6 +656,29 @@ D
 
 
 
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+A teobromina é uma substância química encontrada em plantas, especialmente em grãos de cacau e na planta do chá. É conhecida por seus efeitos estimulantes e por suas propriedades semelhantes à cafeína, embora seja menos potente
+
+#+begin_export latex
+\begin{tblr}{cccc} \chemfig{H_3C-[:42,,2]N-[:96]=_[:24]N-[:312]=_[:240](-[:168]\phantom{N})-[:300](=[:240]O)-N(-[:300,,,1]CH_3)-[:60](=O)-[:120]N(-[:180])-[:60,,,1]CH_3} & & \chemfig{H_3C-[:42,,2]N-[:96]=_[:24]N-[:312]=_[:240](-[:168]\phantom{N})
+-[:300](=[:240]O)-\mcfbelow{N}{H}-[:60](=O)-[:120]N(-[:180])-[:60,,,1]CH_3} \\
+Cafeína && Teobromina \\
+\end{tblr}
+#+end_export
+
+Qual a função orgânica em comum nas estruturas.
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice Imina e amida
+\choice Amida e cetona
+\choice Amina e amida
+\choice Cetona e nitrila
+\choice Cetona e amina
+#+end_choice 
+#+end_exercise 
 
 
 

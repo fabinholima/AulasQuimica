@@ -49,7 +49,25 @@
 #+LATEX_HEADER: \NewChemPhase\lqdd{\(\ell\)}
 #+LATEX_HEADER: \NewChemPhase\gr{grafite}
 #+LATEX_HEADER: \NewChemPhase\reac{reação}
-#+LATEX_HEADER: \setchemfig{fixed length=true, atom sep=2.0em, arrow offset=6pt, scheme debug=false,angle increment=30}
+
+
+#+LATEX_HEADER: \setchemfig{
+#+LATEX_HEADER:	angle increment=30,
+#+LATEX_HEADER:    atom sep=1.67em,
+#+LATEX_HEADER:    double bond sep=0.67ex,
+#+LATEX_HEADER:    bond style={line width=0.1em},
+#+LATEX_HEADER:    cram width=0.8ex,
+#+LATEX_HEADER:    cram dash width=0.1em,
+#+LATEX_HEADER:    cram dash sep=0.2em,
+#+LATEX_HEADER:    arrow style={line width=0.067em},
+#+LATEX_HEADER:    arrow head=-{Triangle},
+#+LATEX_HEADER:    arrow label sep=1ex,
+#+LATEX_HEADER:    cycle radius coeff=0.75,
+#+LATEX_HEADER:    chemfig style={line width=0.1em},
+#+LATEX_HEADER:}
+
+#+LATEX_HEADER: %\setchemfig{fixed length=true, atom sep=2.0em, arrow offset=6pt, scheme debug=false,angle increment=30}
+
 #+LATEX_HEADER: \renewcommand{\CancelColor}{\color{red}}
 #+LATEX_HEADER: \usepackage{circuitikz}
 #+LATEX_HEADER: \usepackage{mol2chemfig}

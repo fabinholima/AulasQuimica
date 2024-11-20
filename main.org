@@ -1,7 +1,7 @@
 
 #+OPTIONS: H:2 toc:nil num:t
 #+LATEX_CLASS:koma-article
-#+LATEX_CLASS_OPTIONS: [9pt]
+#+LATEX_CLASS_OPTIONS: [11pt]
 #+INCLUDE: "packages.org"
 
 
@@ -10,12 +10,12 @@
 #+LATEX_HEADER: \def\professor{Fábio Lima}
 #+LATEX_HEADER: \def\aluno{ }
 #+LATEX_HEADER: \def\numerochamada{}
-#+LATEX_HEADER: \def\disciplina{Química}
-#+LATEX_HEADER: %%\def\disciplina{UC3}
+#+LATEX_HEADER: %%\def\disciplina{Química}
+#+LATEX_HEADER: \def\disciplina{UC3}
 #+LATEX_HEADER: %%\def\disciplina{R.A.}
-#+LATEX_HEADER: \def\turma{3 Ano }
-#+LATEX_HEADER: %\def\tipo{{\bfseries Avaliação Bimestral}}
-#+LATEX_HEADER: \def\tipo{\bfseries Avaliação Mensal}
+#+LATEX_HEADER: \def\turma{1 Ano B}
+#+LATEX_HEADER: \def\tipo{{\bfseries Avaliação Bimestral}}
+#+LATEX_HEADER: %%\def\tipo{\bfseries Avaliação Mensal}
 #+LATEX_HEADER: %%\def\tipo{\bfseries Exame Final}
 #+LATEX_HEADER: \def\bimestre{4 Bimestre}
 #+LATEX_HEADER: %%\def\escola{E.E. 26 de Agosto}
@@ -50,19 +50,39 @@
 
 
 
-
-#+INCLUDE: "Quimica_Organica/FuncoesOxigenadas/FuncoesOxigenadasIII.org"
-#+INCLUDE: "Quimica_Organica/FuncoesOxigenadas/FuncoesOxigenadasIV.org"
-
+#+INCLUDE: "Quimica_Geral/Mol/Mol.org"
+#+INCLUDE: "Fisico_Quimica/Solucoes/Solucoes.org"
 
 
-\printrandomexercises[collection=FuncoesOxigenadasIII,exclude=one]{5}
-\printrandomexercises[collection=FuncoesOxigenadasIV,exclude=two]{5}
- 
+
+ \printrandomexercises[collection=MoleMassaMolar]{5}
+ \printrandomexercises[collection=Solucoes,exclude=four]{5}
 
 
 
 #+begin_comment
+
+
+
+
+
+
+
+
+#+INCLUDE: "Quimica_Organica/FuncoesOxigenadas/FuncoesOxigenadasIII.org"
+#+INCLUDE: "Quimica_Organica/FuncoesOxigenadas/FuncoesOxigenadasIV.org"
+#+INCLUDE: "Quimica_Organica/FuncoesNitrogenadas.org"
+
+
+ \printrandomexercises[collection=FuncoesOxigenadasIII,exclude=two]{7}
+ \printrandomexercises[collection=FuncoesOxigenadasIV,exclude=two]{3}
+ \newpage
+
+
+
+\printrandomexercises[collection=FuncoesOxigenadasIV,exclude=two]{1}
+
+\printrandomexercises[collection=FuncoesNitrogenadas,exclude=four]{10}
 
 
 #+INCLUDE: "Quimica_Organica/FuncoesOxigenadas/FuncoesOxigenadasIII.org"

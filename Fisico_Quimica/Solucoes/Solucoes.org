@@ -18,8 +18,8 @@ Foram preparadas três soluções de sulfato de cobre, \ch{CuSO4}, um soluto de 
 | Soluções | Quantidade de CuSO_4 | Volume de CuSO_4 |
 |----------+----------------------+------------------|
 | X        | 4g                   | 500 mL           |
-| Y        | $1\cdot 10^{-2}$ mol | 100 mL           |
-| Z        | $3\cdot 10^{-2}$ mol | 300 mL           |
+| Y        | \num{1e-2}           | 100 mL           |
+| Z        | \num{3e-3} mol       | 300 mL           |
 |----------+----------------------+------------------|
 
 
@@ -35,6 +35,11 @@ intensidade da cor azul da solução:
 #+end_choice
 
 #+end_exercise 
+#+begin_solution
+B
+#+end_solution
+
+
 
 #+ATTR_LATEX: :options [points=1.0]
 #+begin_exercise
@@ -74,7 +79,7 @@ obter 100 cm^3 de solução. A concentração molar dessa solução é. Dados: \
 #+ATTR_LATEX: :options [points=1.0]
 #+begin_exercise
 Uma solução 0,8 mol/L de NaOH possui 32g desta base dissolvida em água. O volume da solução assim
-preparada é igual a: Dados: H = 1 u; O = 16 u; Na = 23 u
+preparada é igual a: Dados:  NaOH = 40 u
 
 #+ATTR_LATEX: :options (2)
 #+begin_choice

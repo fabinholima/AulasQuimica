@@ -1,0 +1,22 @@
+
+
+#+begin_comment
+pg 442 Skoog 
+#+end_comment
+
+
+Uma amostra de 25,00 mL de uma solução de limpeza doméstica foi diluída a 250,0 mL em um balão volumétrico. Uma alíquota de 50,00 mL dessa solução requer 40,38 mL de HCl 0,2506 mol L-1 para alcançar o ponto final, usando o verde de bromocresol como
+indicador. Calcular a porcentagem massa/volume de NH3 na amostra (suponha que toda a alcalinidade resulte da amônia.)
+
+
+Uma massa de 0,1401 g de uma amostra de carbonato purificado foi dissolvida em 50,00 mL de HCl 0,1140 mol L-1 e aquecida para eliminar o CO2. Uma retrotitulação do excesso de HCl requer 24,21 mL de NaOH 0,09802 mol l-1. Identifique o
+carbonato.
+
+
+Uma amostra de 0,6334 g de óxido de mercúrio(II) impuro foi dissolvida em um excesso não medido de iodeto de potássio.
+Reação:
+
+HgO(s)  41  H2O S HgI  2OH
+
+
+Calcular a porcentagem de HgO na amostra se a titulação do hidróxido liberado requereu 42,59 mL de HCl 0,1178 mol L1.

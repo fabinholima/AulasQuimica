@@ -16,7 +16,7 @@
 \usepackage[x11names,svgnames,table]{xcolor}
 \defaultfontfeatures{Ligatures=TeX}
 %\setmainfont{Lato}
-\setmainfont{Charis SIL}
+%\setmainfont{Charis SIL}
 %\setmainfont{Alegreya}
 
 \usepackage{typearea}
@@ -34,10 +34,11 @@
  
  \begin{document}
  
-\NewTblrTheme{fancy}{
-\SetTblrStyle{caption-tag}{font=\bfseries}
-}
-	
+ \NewTblrTheme{fancy}{
+ 	\SetTblrStyle{caption-tag}{font=\bfseries}
+ }
+ 
+ 
 \selectlanguage{portuguese}
  %\UseTblrTemplate{caption-tag}{default}{\bfseries}
 
@@ -45,6 +46,27 @@
 %  Aqui entra o input da tabela
 %
 %%% 
+
+
+\begin{longtblr}[theme=fancy,
+	caption = {Classificação das Funções Oxigenadas},
+	%note{a} = {It is the first footnote.},
+	]{
+       colspec = {c c c }, colsep = 17mm, hlines = {2pt, white},
+		%row{odd} = {azure8}, row{even} = {gray8},
+		row{1} = {2em,Coral1,fg=white,font=\bfseries\sffamily},
+		row{2} = {2em,azure3,fg=white,font=\bfseries\sffamily},
+		%row{12} = {bg=gray8, font=\bfseries},
+		rowsep=.5cm,		
+	}
+  \hline
+  \SetCell[c=3]{h,5cm} Funções Oxigenadas & & \\ 
+  Nome  & Grupo & Exemplo   \\
+  Álcool & \chemfig{R-OH} & \chemname[]{\chemfig{CH_3-CH_2-OH}}{Etanol} \\
+  Enol & \chemfig{R-[:30](-[:90]OH)=[:330]R} & \\
+  Fenol & \chemfig{*6(-=-=(-OH)-=)}
+  
+\end{longtblr}
 
 
 

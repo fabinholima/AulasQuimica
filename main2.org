@@ -5,8 +5,6 @@
 #+LATEX_HEADER: \usepackage{lineno} 
 
 
-
-
 #+LATEX_HEADER: \newcommand{\lh}{\underline{\hspace{1cm}}}
 #+LATEX_HEADER: %%\onehalfspacing
 #+LATEX_HEADER: \def\professor{Fábio Lima}
@@ -49,9 +47,9 @@
 
 
 
-#+INCLUDE: "Lista/Solucoes/SolucoesI.org"
+#+INCLUDE: "Lista/Volumetria/AcidoBase.org"
 
-\printcollection{SolucoesI}
+\printcollection{VolumetriaI}
 
 #+begin_comment
 

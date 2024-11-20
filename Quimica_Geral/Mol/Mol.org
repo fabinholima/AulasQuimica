@@ -1,0 +1,100 @@
+#+LATEX_HEADER: \DeclareExerciseCollection{MoleMassaMolar}
+
+
+\collectexercises{MoleMassaMolar}
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+(*UFG*) O corpo humano necessita diariamente de 12 mg de ferro. Uma colher de feijão contém cerca de \num{4.28e-5} mol de ferro. Quantas colheres de feijão, no mínimo, serão necessárias para que se atinja a dose diária de ferro no organismo? Dado Fe 56.
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 1
+\choice 3
+\choice 5
+\choice 7
+\choice 9
+#+end_choice
+
+#+end_exercise 
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+(*UNESP*) As hemácias apresentam grande quantidade de hemoglobina, pigmento vermelho que transporta oxigênio dos pulmões para os tecidos. A hemoglobina é constituída por uma parte não proteica, conhecida como grupo heme. Num laboratório de análises foi feita a separação de 22,0 mg de grupo heme de uma certa amostra de sangue, onde constatou-se a presença de 2,0 mg de ferro.
+Se a molécula do grupo heme contiver apenas um átomo de ferro [Fe = 56 \unit{\mol\per\litre}], qual a sua massa molar em gramas por mol?
+
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 154.
+\choice 205.
+\choice 308.
+\choice 616.
+\choice 1 232
+#+end_choice
+#+end_exercise
+#+begin_solution
+D
+#+end_solution 
+
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+(ITA) Considere as afirmações de I a V feitas em relação a um mol de \ch{H2O}
+
+#+ATTR_LATEX: :options [label=\Roman*]
+1. Contém 2 átomos de hidrogênio.
+2. Contém 1 átomo de oxigênio.
+3. Contém 16 g de oxigênio.
+4. Contém um total de 10 mols de prótons nos núcleos.
+5. Pode ser obtido a partir de 0,5 mol de oxigênio molecular.
+
+Destas afirmações estão *CORRETAS:* Dados: H=1 e O=16:
+
+#+begin_choice 
+\choice Apenas I e II.
+\choice Apenas I, II e III.
+\choice Apenas III e V.
+\choice Apenas III, IV e V.
+\choice Todas
+#+end_choice
+#+end_exercise 
+#+begin_solution
+D
+#+end_solution 
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+(PUC-MG) O ácido tereftálico (\ch{C8H6O4}) é utilizado na fabricação de fibras sintéticas, do tipo poliéster. A massa de oxigênio existente em 0,5 mol de moléculas desse ácido é, em gramas, igual a: Dados: \ch{C8H6O4} 166 \unit{\gram\per\mol}.
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 8,0
+\choice 16,0
+\choice 32,0
+\choice 48,0
+\choice 64,0
+#+end_choice 
+
+
+#+end_exercise 
+
+
+#+ATTR_LATEX: :options [points=1]
+#+begin_exercise
+O número de mols contido em 90 g de água é: (Dados: \ch{H2O}=18 \unit{\gram\per\mol})
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice 
+\choice 10 mols
+\choice  5 mols
+\choice 16 mols
+\choice 7 mols
+\choice 1 mol
+#+end_choice 
+#+end_exercise 
+
+\collectexercisesstop{MoleMassaMolar}
