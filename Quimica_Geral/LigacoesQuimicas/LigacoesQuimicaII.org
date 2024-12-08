@@ -1,8 +1,8 @@
 
-#+LATEX_HEADER: \DeclareExerciseCollection{LigacoesQuimica2}
+#+LATEX_HEADER: \DeclareExerciseCollection{LigacoesQuimicaII}
 
 
-\collectexercises{LigacoesQuimica2}
+\collectexercises{LigacoesQuimicaII}
 
 
 
@@ -256,4 +256,4 @@ Qual é o tipo de ligação química que ocorre entre átomos de um metal e um a
 #+end_choice
 #+end_exercise
 
-\collectexercisesstop{LigacoesQuimica2}
+\collectexercisesstop{LigacoesQuimicaII}

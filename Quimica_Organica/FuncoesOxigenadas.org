@@ -1,2 +1,0 @@
-
-#+LATEX_HEADER: \DeclareExerciseCollection{FuncoesOxigenadas2}

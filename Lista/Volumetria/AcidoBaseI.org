@@ -1,22 +1,80 @@
 
+#+LATEX_HEADER: \DeclareExerciseCollection{VolumetriaII}
+
+
+\collectexercises{VolumetriaII}
+
+
 
 #+begin_comment
 pg 442 Skoog 
 #+end_comment
 
+#+begin_exercise 
+Uma amostra de 25,00 mL de uma solução de limpeza doméstica foi diluída a 250,0 mL em um balão volumétrico. Uma alíquota de 50,00 mL dessa solução requer 40,38 mL de \ch{HC$\ell$} 0,2506 \unit{\mol\per\litre} para alcançar o ponto final, usando o verde de bromocresol como indicador. Calcular a porcentagem massa/volume de \ch{NH3} na amostra (suponha que toda a alcalinidade resulte da amônia.)
 
-Uma amostra de 25,00 mL de uma solução de limpeza doméstica foi diluída a 250,0 mL em um balão volumétrico. Uma alíquota de 50,00 mL dessa solução requer 40,38 mL de HCl 0,2506 mol L-1 para alcançar o ponto final, usando o verde de bromocresol como
-indicador. Calcular a porcentagem massa/volume de NH3 na amostra (suponha que toda a alcalinidade resulte da amônia.)
+#+begin_export latex
+\begin{reaction*}
+NH3 + HC$\ell$ -> NH4C$\ell$
+\end{reaction*}
+#+end_export 
 
-
-Uma massa de 0,1401 g de uma amostra de carbonato purificado foi dissolvida em 50,00 mL de HCl 0,1140 mol L-1 e aquecida para eliminar o CO2. Uma retrotitulação do excesso de HCl requer 24,21 mL de NaOH 0,09802 mol l-1. Identifique o
-carbonato.
-
-
-Uma amostra de 0,6334 g de óxido de mercúrio(II) impuro foi dissolvida em um excesso não medido de iodeto de potássio.
-Reação:
-
-HgO(s)  41  H2O S HgI  2OH
+#+end_exercise 
 
 
-Calcular a porcentagem de HgO na amostra se a titulação do hidróxido liberado requereu 42,59 mL de HCl 0,1178 mol L1.
+#+begin_exercise 
+Uma massa de 0,1401 g de uma amostra de carbonato de sodio purificado foi dissolvida em 50,00 mL de \ch{HC$\ell$} 0,1140 \unit{\mol\per\litre} e aquecida para eliminar o \ch{CO2}. Uma retrotitulação do excesso de \ch{HC$\ell$} requer 24,21 mL de NaOH 0,09802 \unit{\mol\per\litre}. Identifique a % do carbonato.
+
+#+begin_export latex
+\begin{reactions}
+Na2CO3 + HC$\ell$ -> NaC$\ell$ + H2O + CO2\\
+HC$\ell$ + NaOH -> NaC$\ell$  + H2O
+\end{reactions}
+#+end_export 
+
+#+end_exercise 
+
+
+#+begin_exercise 
+Uma amostra de atum enlatado, com massa igual a 0,992 g, foi analisada pelo método Kjeldahl; foi requerido um volume igual a 22,66 mL de \ch{HC$\ell$} 0,1224 \unit{\mol\per\litre} para titular a amônia liberada. Calcular a porcentagem de nitrogênio na amostra.
+
+#+begin_export latex
+\begin{reaction*}
+NH3 + HC$\ell$ -> NH4C$\ell$
+\end{reaction*}
+#+end_export 
+
+
+#+end_exercise 
+ 
+
+
+#+begin_exercise
+Uma amostra de 10,00 mL de vinagre (ácido acético, \ch{CH3COOH}) foi pipetada
+para um frasco, ao qual foram adicionadas duas gotas de fenolftaleína, e o ácido foi titulado com NaOH 0,1008 \unit{\mol\per\litre}.
+
+#+begin_choice 
+\choice Se 45,62 mL da base, NaOH  foram requeridos para a titulação, qual é a concentração molar do ácido acético na amostra?
+
+\choice  Se a densidade da solução de ácido acético pipetado é de 1,004 g/mL, qual é a porcentagem de ácido acético na amostra.
+
+#+end_choice 
+#+end_exercise 
+
+
+#+begin_exercise
+Para  analisar um composto que contém ferro, converte todo ferro a @@latex: \ch{Fe^{2+}}@@ em solução aquosa e titula-se com uma solução de \ch{KMnO4}, equação balanceada
+
+#+begin_export latex
+\begin{reaction*}
+MnO4\aq{} + 5 Fe^{2+}\aq{} + 8 H^+\aq{} -> Mn^{2+}\aq{} + 5 Fe^{3+}\aq{} + 4 H2O\lqd{}
+\end{reaction*}
+#+end_export
+
+
+Uma amostra de 0,598 g do composto que contem ferro requer 22,25 mL de \ch{KMnO4} 0,0123 \unit{\mol\per\litre}. Qual o percentual de ferro na amostra?
+#+end_exercise
+
+\collectexercises{VolumetriaII}
+
+

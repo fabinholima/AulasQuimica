@@ -10,23 +10,23 @@
 #+LATEX_HEADER: \def\professor{Fábio Lima}
 #+LATEX_HEADER: \def\aluno{ }
 #+LATEX_HEADER: \def\numerochamada{}
-#+LATEX_HEADER: %%\def\disciplina{Química}
-#+LATEX_HEADER: \def\disciplina{UC3}
+#+LATEX_HEADER: \def\disciplina{Química}
+#+LATEX_HEADER: %%\def\disciplina{UC3}
 #+LATEX_HEADER: %%\def\disciplina{R.A.}
-#+LATEX_HEADER: \def\turma{1 Ano B}
+#+LATEX_HEADER: \def\turma{1 Ano }
 #+LATEX_HEADER: \def\tipo{{\bfseries Avaliação Bimestral}}
 #+LATEX_HEADER: %%\def\tipo{\bfseries Avaliação Mensal}
-#+LATEX_HEADER: %%\def\tipo{\bfseries Exame Final}
+#+LATEX_HEADER: \def\tipo{\bfseries Exame Final}
 #+LATEX_HEADER: \def\bimestre{4 Bimestre}
-#+LATEX_HEADER: %%\def\escola{E.E. 26 de Agosto}
+#+LATEX_HEADER: \def\escola{E.E. 26 de Agosto}
 #+LATEX_HEADER: %\def\escola{E.E. José Mamede de Aquino}
-#+LATEX_HEADER: \def\escola{E.E. Amélio de Carvalho Baís}
+#+LATEX_HEADER: %\def\escola{E.E. Amélio de Carvalho Baís}
 #+LATEX_HEADER: \def\dataprova{}
 
 
 #+begin_export latex
 \twocolumn[
-%%\input{../Modelos/CabeOficial}
+%\input{../Modelos/CabeOficial}
 \input{../Modelos/cabenovo}
 %\input{../Modelos/mamede}
 %\input{../Modelos/26agosto}
@@ -38,84 +38,32 @@
 %\section*{Trabalho}
 %%\section*{\disciplina}
 
-
+%{\bfseries Obrigatório a resolução das questões }
 
 %\input{../Modelos/gabarito}
 
-%Total Prova: \printpoints
+Total Prova: \printpoints
 \smallbreak
 \medbreak
 \par\vspace{2ex}]%%%%\input{../Modelos/mamede}
+
 #+end_export
 
 
-
-#+INCLUDE: "Quimica_Geral/Mol/Mol.org"
-#+INCLUDE: "Fisico_Quimica/Solucoes/Solucoes.org"
-
-
-
- \printrandomexercises[collection=MoleMassaMolar]{5}
- \printrandomexercises[collection=Solucoes,exclude=four]{5}
-
-
-
-#+begin_comment
-
-
-
-
-
-
-
-
+#+INCLUDE: "Quimica_Geral/FuncoesInorganicas/Acidos.org"
+#+INCLUDE: "Quimica_Geral/FuncoesInorganicas/Base.org"
 #+INCLUDE: "Quimica_Organica/FuncoesOxigenadas/FuncoesOxigenadasIII.org"
 #+INCLUDE: "Quimica_Organica/FuncoesOxigenadas/FuncoesOxigenadasIV.org"
-#+INCLUDE: "Quimica_Organica/FuncoesNitrogenadas.org"
+#+INCLUDE: "Quimica_Organica/FuncoesNitrogenadas/FuncoesNitrogenadas.org"
 
+#+begin_export latex
 
- \printrandomexercises[collection=FuncoesOxigenadasIII,exclude=two]{7}
- \printrandomexercises[collection=FuncoesOxigenadasIV,exclude=two]{3}
- \newpage
+%\printrandomexercises[collection=LeiLavosier,exclude=1]{1}
 
-
-
-\printrandomexercises[collection=FuncoesOxigenadasIV,exclude=two]{1}
-
-\printrandomexercises[collection=FuncoesNitrogenadas,exclude=four]{10}
-
-
-#+INCLUDE: "Quimica_Organica/FuncoesOxigenadas/FuncoesOxigenadasIII.org"
-#+INCLUDE: "Quimica_Organica/FuncoesOxigenadas/FuncoesOxigenadasIV.org"
-
-
-
-\printrandomexercises[collection=FuncoesOxigenadasIII,exclude=four]{6}
-\printrandomexercises[collection=FuncoesOxigenadasIV,exclude=two]{4}
-
-
-\printrandomexercises[collection=FuncoesOxigenadasIII,exclude=four]{10}
-
-
-
-#+INCLUDE: "Quimica_Organica/CadeiasCarbonicasII.org"
-#+INCLUDE: "Quimica_Organica/CadeiasCarbonicasI.org"
-#+INCLUDE: "Quimica_Organica/Hibridizacao.org"
-#+INCLUDE: "Quimica_Organica/Carbonos.org"
-
-
-\printrandomexercises[collection=Hibridizacao,exclude=two]{1}
-\printrandomexercises[collection=Carbonos]{2}
-\printrandomexercises[collection=Cadeias,exclude=one]{3}
-\printrandomexercises[collection=CadeiasCarbonicasII,exclude=two]{4}
-
-
-#+end_comment
-
-
-\printcollection{FuncoesOxigenadas}
-
-
-
-
+\printrandomexercises[collection=FuncoesNitrogenadas,exclude=1]{4}
+\printrandomexercises[collection=FuncoesOxigenadasIII,exclude=1]{2}
+\printrandomexercises[collection=FuncoesOxigenadasIV]{2}
+\printrandomexercises[collection=Acidos]{1}
+\printrandomexercises[collection=Bases]{1}
+#+end_export
 

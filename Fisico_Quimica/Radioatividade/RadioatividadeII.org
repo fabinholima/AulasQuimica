@@ -679,9 +679,25 @@ B
 Glenn T. Seaborg é um renomado cientista que foi agraciado com o Prêmio Nobel de Química em 1951, por seus trabalhos em radioquímica. Em 1974 foi sintetizado, nos Estados Unidos, o elemento de número atômico 106 que, em sua homenagem, teve como nome proposto Seaborgium (\isotope{Sg}).
 #+begin_choice 
 \choice O bombardeio do \isotope{249,Cf} por um elemento X produz o \isotope{263,Sg} e 4 nêutrons. Determine o número atômico e o número de massa do elemento X.
+
+
+#+begin_export latex
+\blank[blank-style={\phantom{#1}},width=3\linewidth]{}
+#+end_export 
+
+
 \choice Sabendo que um determinado isótopo do 106Sg perde 50% de sua massa inicial em 10 segundos, calcule a massa final de uma amostra de 800 gramas deste isótopo após 30 segundos.
 #+end_choice
+
+
+#+begin_export latex
+\blank[blank-style={\phantom{#1}},width=8\linewidth]{}
+#+end_export 
+
+
 #+end_exercise 
+
+
 
 
 #+ATTR_LATEX: :options [points=1.0]
@@ -690,7 +706,21 @@ A Tomografia PET permite obter imagens do corpo humano com maiores detalhes, e m
 
 #+begin_choice
 \choice Escreva a equação nuclear balanceada que representa a reação que leva à emissão do pósitron. O núcleo formado no processo é do elemento B(Z=5), C(Z=6), N(Z=7) ou O(Z=8)?
+
+
+#+begin_export latex
+\blank[blank-style={\phantom{#1}},width=8\linewidth]{}
+#+end_export 
+
+
+
 \choice  Determine por quanto tempo uma amostra de \isotope{11,C} pode ser usada, até que sua atividade radioativa se reduza a 25% de seu valor inicial.
+
+
+#+begin_export latex
+\blank[blank-style={\phantom{#1}},width=8\linewidth]{}
+#+end_export 
+
 #+end_choice 
 
 #+end_exercise
@@ -703,7 +733,15 @@ Para diagnósticos de anomalias da glândula tireóide, por cintilografia, deve 
 #+begin_choice
 \choice O radioisótopo em questão emite radiação . O elemento formado nessa emissão é \isotope{52,Te}, \isotope{127,I} ou \isotope{54,Xe}? Justifique. Escreva a equação nuclear correspondente.
 
+
+#+begin_export latex
+\blank[blank-style={\phantom{#1}},width=8\linewidth]{}
+#+end_export 
+
 \choice Suponha que a quantidade inicial do isótopo na glândula (no tempo zero) seja de 1,000 g e se reduza, após certo tempo, para 0,125 g. Com base nessas informações, trace a curva que dá a quantidade do radioisótopo na glândula em função do tempo, colocando os valores nas coordenadas adequadamente escolhidas.
+
+
+
 #+end_choice
 
 #+begin_export latex
@@ -728,6 +766,11 @@ A bomba atômica se baseia na fissão de núcleos pesados, formando dois núcleo
 
 Qual o número de nêutrons do nuclídeo $\prescript{}{Z}{\mathrm{X}^A}$
 
+#+begin_export latex
+\blank[blank-style={\phantom{#1}},width=8\linewidth]{}
+#+end_export 
+
+
 #+end_exercise
 
 
@@ -742,6 +785,12 @@ Recentemente, a imprensa noticiou o caso do envenenamento por polônio-210 de um
 - o isótopo formado nesse decaimento forma um íon divalente.
 
 Calcule o tempo de meia-vida do polônio-210.
+
+#+begin_export latex
+\blank[blank-style={\phantom{#1}},width=8\linewidth]{}
+#+end_export 
+
+
 #+end_exercise
 
 
@@ -753,6 +802,13 @@ Calcule o tempo de meia-vida do polônio-210.
 .
 
 Considerando que a meia-vida do \isotope{214,Bi} é de 20 meses calcule, a partir de uma amostra com 1,000 g de \isotope{214,Bi}, quantos miligramas restarão depois de 5 anos? 
+
+
+
+#+begin_export latex
+\blank[blank-style={\phantom{#1}},width=8\linewidth]{}
+#+end_export 
+
 
 #+end_exercise
 #+begin_solution

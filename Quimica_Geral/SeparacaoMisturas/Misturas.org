@@ -280,7 +280,7 @@ LETRA C
 
 \collectexercises{MisturasOpen}
 
-#+ATTR_LATEX: :options [points=2.0]
+#+ATTR_LATEX: :options [points=1.0]
 #+begin_exercise
 Separação de misturas é uma operação muito comum no setor de petróleo e combustíveis. Diversos métodos são aplicados para atender a essa necessidade. Sabendo-se que a água e o álcool são miscíveis e o óleo imiscível nestes e que o álcool tem o menor e o óleo o maior ponto de ebulição, quais os métodos adequados para separar essas três substâncias? Explique.
 

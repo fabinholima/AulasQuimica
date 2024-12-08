@@ -21,7 +21,7 @@
 
 
 
-#+ATTR_LATEX: :options [points=1.5]
+#+ATTR_LATEX: :options [points=1.0]
 #+begin_exercise
 Uma pessoa usou 34,2g de sacarose (\ch{C12H22O11} = 342 g/mol ) para adoçar seu cafezinho. O volume de cafezinho adoçado na xícara foi de 50 mL. A concentração molar da sacarose no cafezinho foi de: *Demonstrar o cálculo* 
 
@@ -33,7 +33,7 @@ Uma pessoa usou 34,2g de sacarose (\ch{C12H22O11} = 342 g/mol ) para adoçar seu
 
 
 
-#+ATTR_LATEX: :options [points=1.5]
+#+ATTR_LATEX: :options [points=1.0]
 #+begin_exercise
 Sabendo-se que a massa molar do lítio é 7,0g/mol, a massa de lítio contida em 250mL de uma solução aquosa de concentração 0,160 mol/L de carbonato de lítio é: *Demonstrar o cálculo* 
 
@@ -45,7 +45,7 @@ Sabendo-se que a massa molar do lítio é 7,0g/mol, a massa de lítio contida em
 
 
 
-#+ATTR_LATEX: :options [points=1.5]
+#+ATTR_LATEX: :options [points=1.0]
 #+begin_exercise
 uma solução aquosa de cloreto de sódio (NaC$\ell$ = 58 g/mol) sabendo-se que foi preparada pela dissolução de 0,9g do sal em 100 mL de solução, podemos afirmar que a molaridade da solução é, aproximadamente: 
 
@@ -58,7 +58,7 @@ uma solução aquosa de cloreto de sódio (NaC$\ell$ = 58 g/mol) sabendo-se que 
 #+end_exercise 
 
 
-#+ATTR_LATEX: :options [points=1.5]
+#+ATTR_LATEX: :options [points=1.0]
 #+begin_exercise
 A uma amostra de 100 ml de NaOH de concentração 20 g/L foi adicionada água suficiente para completar 500 ml. A concentração, em g/L, dessa nova solução é igual a: 
 

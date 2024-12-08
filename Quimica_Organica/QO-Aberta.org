@@ -24,6 +24,12 @@ Escreva o nome do composto abaixo
  \chemfig{*5(------)}
 #+end_export
 
+
+#+begin_export latex
+\blank[blank-style={\phantom{#1}},width=5\linewidth]{}
+#+end_export 
+
+
 #+end_exercise 
 #+begin_solution
 Ciclopentano
@@ -165,30 +171,33 @@ Qual o nome da estrutura abaixo
 
 \collectexercises{NitrogenadasAberta}
 
-#+ATTR_LATEX: :options [points=1.0]
+#+ATTR_LATEX: :options [points=2.0]
 #+begin_exercise 
 A estruturas abaixo são compostos orgânicos e sua utilidade.
 #+begin_export latex
- 
-\begin{tblr}{colspec={lc},rowspec={|[2pt,purple5]Q|[2pt,purple5]Q|[purple5]Q|[purple5]Q|[purple5]Q|[purple5]Q|[purple5]Q|[3pt,purple5]}}
+
+\begin{tblr}{colspec={lc},
+%rowspec={|[2pt,purple5]Q|[2pt,purple5]Q|[purple5]Q|[purple5]Q|[purple5]Q|[purple5]Q|[purple5]Q|[3pt,purple5]},
+row{1,2} = {2em,azure3, fg=white, font=\bfseries\sffamily},
+}
 \SetCell[c=2]{c}{\bfseries Monomêros}\\
-{\bfseries Substâncias} & {\bfseries F\'ormula}\\
-{Cafeina \\ (café)} &  \chemfig[atom style={scale=.6}]{-[:42]N-[:96]=_[:24]N-[:312]=_[:240](-[:168]\phantom{N})-[:300](%
-	=[:240]O)-N(-[:300])-[:60](=O)-[:120]N(-[:180])-[:60]}\\
-{Nicotina \\ (cigarro)} &  \chemfig[atom style={scale==.6}]{-[:264]N-[:210]-[:282]-[:354]-[:66](-[:138]\phantom{N})<:[:12]%
-	=^[:312]-[:12]N=^[:72]-[:132]=^[:192](-[:252])}\\
+ Substâncias &  F\'ormula\\
+{Cafeina \\ (café)} &  \chemfig[atom style={scale=.8}]{-[:42]N-[:96]=_[:24]N-[:312]=_[:240](-[:168]\phantom{N})-[:300](%
+	=[:240]O)-N(-[:300])-[:60](=O)-[:120]N(-[:180])-[:60]}\\ \hline
+{Nicotina \\ (cigarro)} &  \chemfig[atom style={scale=.8}]{-[:264]N-[:210]-[:282]-[:354]-[:66](-[:138]\phantom{N})<:[:12]%
+	=^[:312]-[:12]N=^[:72]-[:132]=^[:192](-[:252])}\\ \hline 
 {Morfina \\ (inibidor de dor)} &  
-\chemfig[cram width=3pt, atom style={scale=.5}]{HO-[:30,,2]-[:90]-[:30]-[:330](-[:270]=_[:210]-[:150])-[:30](%
+\chemfig[cram width=3pt, atom style={scale=.8}]{HO-[:30,,2]-[:90]-[:30]-[:330](-[:270]=_[:210]-[:150])-[:30](%
 	<[:326.1,1.086]N(-[:36.1,1.028]CH_3)<[:227.4,1.419]-[:186.4,1.036,,,,line width=2.5pt]-[:130,,,,line width=2pt]%
 	>[:90])-[:90]-[:150]=_[:210](-[:270])-[:150](-[:226.4,1.369]O%
-	-[:313.1,1.381])=_[:90](-[:150,,,2]HO)-[:30]=_[:330](-[:270])}\\
+	-[:313.1,1.381])=_[:90](-[:150,,,2]HO)-[:30]=_[:330](-[:270])}\\ \hline
 {Glutamato \\ Monosódico\\ (aditivo de comida)} &  \chemfig[atom style={scale=.8}]{O=[:270](-[:210,,,2]HO)-[:330]-[:30]-[:330](<[:270,,,1]NH_2%
 	-[,3.732,1,,draw=none]\mcfright{Na}{^{\mcfplus}})-[:30](%
-	-[:330]\mcfright{O}{^{\mcfminus}})=[:90]O}\\
+	-[:330]\mcfright{O}{^{\mcfminus}})=[:90]O}\\ \hline
 {Quinino \\ (Medicamento \\  contra malária)} &  \chemfig[cram width=3pt, atom style={scale=.8}]{-O-[:300]=_-[:300]=_(-[:300]=_[:240]-[:180]N=_[:120](-[:180]%
 	=_[:120]-[:60])-[:60])-[:60](<[:120,,,2]HO)--[:60]>-[:273.6,0.75,,,,line width=2pt]%
 	-[:240,0.75,,,,line width=2pt]-[:206.4,0.75,,,,line width=2pt]N(>:[:120])--[:60](-[:120])<=[:60]}
-\\
+\\ \hline
 \end{tblr}
   
 #+end_export

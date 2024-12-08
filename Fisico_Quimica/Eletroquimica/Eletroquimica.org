@@ -1,9 +1,9 @@
 
-#+LATEX_HEADER: \DeclareExerciseCollection{Pilhas}
-#+LATEX_HEADER: \DeclareExerciseCollection{Pilhas2}
+#+LATEX_HEADER: \DeclareExerciseCollection{PilhasI}
 
 
-\collectexercises{Pilhas}
+
+\collectexercises{PilhasI}
 
 
 #+ATTR_LATEX: :options [points=1]
@@ -257,7 +257,7 @@ B
 #+end_solution
 
 
-\collectexercisesstop{Pilhas}
+\collectexercisesstop{PilhasI}
 
 
 

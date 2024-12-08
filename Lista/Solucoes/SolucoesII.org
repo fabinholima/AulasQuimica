@@ -1,0 +1,525 @@
+#+latex_header: \DeclareExerciseCollection{SolucoesII}
+
+
+\collectexercises{SolucoesII}
+
+
+#+begin_exercise
+Qual a concentração molar de KCl em uma solução preparada misturando-se 25,0 mL de  uma solução 0,100 mol/L KCl com 50,0 mLde uma solução 0,100 mol/L KCl?
+
+#+attr_latex: :options (2)
+#+begin_choice 
+\choice 0,0500 
+\choice 0,0250 
+\choice 0,100
+\choice 125 
+\choice 0,0333
+#+end_choice 
+#+end_exercise
+#+begin_solution
+
+#+end_solution
+
+
+
+#+begin_exercise
+Qual a concentração molar de \ch{CH3OH} em uma solução preparada dissolvendo-se 11.7 g de \ch{CH3OH} em água necessária para dar exatamente 230 mL de solução?
+
+#+attr_latex: :options (2)
+#+begin_choice
+\choice 1.59
+\choice \num{11.9e-3}
+\choice \num{1.59e-3}
+\choice 11,9
+\choice 0.0841
+#+end_choice
+#+end_exercise
+#+begin_solution
+
+#+end_solution
+
+
+
+
+
+#+begin_exercise 
+Quantos gramas de \ch{H3PO4}  estão presentes em 0.175 dm^3 de uma solução 3,5 mol/L de \ch{H3PO4}?
+
+#+attr_latex: :options (2)
+#+begin_choice 
+\choice 0.61 
+\choice 612 
+\choice 4.9 
+\choice 60 
+\choice 20
+#+end_choice 
+#+end_exercise 
+#+begin_solution
+
+#+end_solution
+
+
+
+
+
+#+begin_exercise 
+Qual a concentração molar de uma solução de NaC$\ell$ preparada dissolvendo-se 9,3 g de em água suficiente para dar exatamente 350 mL de solução?
+
+#+attr_latex: :options (2)
+#+begin_choice 
+\choice 0.16 
+\choice \num{2.7e-2} 
+\choice 27 
+\choice 0.45 
+\choice 18
+#+end_choice
+#+end_exercise 
+#+begin_solution
+
+#+end_solution
+
+
+
+
+
+#+begin_exercise 
+Quantas gramas de NaOH (MM = 40,0) estão presentes em 500,0 mL de uma solução 0,175 mol/L de NaOH?
+
+#+attr_latex: :options (2)
+#+begin_choice 
+\choice  3.50
+\choice  \num{2.19e-3}
+\choice  \num{3.50e3}
+\choice 114
+\choice 14.0
+#+end_choice
+#+end_exercise 
+#+begin_solution
+
+#+end_solution
+
+
+#+begin_exercise 
+Quantos gramas de CH3OH devem ser adicionados a água para preparer 150 mL de uma solução 2,0 mol/L de CH3OH?
+
+#+attr_latex: :options (2)
+#+begin_choice 
+\choice \num{4.3e2} 
+\choice 9.6 
+\choice \num{9.6e3}
+\choice 4.3
+\choice 2.4
+#+end_choice 
+#+end_exercise 
+#+begin_solution
+
+#+end_solution
+
+
+#+begin_exercise
+Existem \blank[width=1cm]{} mol de íons brometo em 0,500 L de uma solução 0.300 mol/L de \ch{A$\ell$Br3}.
+
+#+attr_latex: :options (2)
+#+begin_choice 
+\choice  0,150 
+\choice  0,500 
+\choice 0,450 
+\choice 0,167 
+\choice 0,0500
+#+end_choice
+#+end_exercise 
+#+begin_solution
+
+#+end_solution
+
+
+
+#+begin_exercise 
+Quantos mols de @@latex: \ch{Co^{2+}}@@ estão presents em 0,200 L de uma solução 0,400 mol/L de \ch{CoI2}?
+
+#+attr_latex: :options (2)
+#+begin_choice 
+\choice 0,500 
+\choice 0,160 
+\choice 0,0800 
+\choice 2,00
+\choice 0,0400
+#+end_choice
+#+end_exercise 
+#+begin_solution
+
+#+end_solution
+
+
+
+#+begin_exercise
+Quantos mols de \ch{K^+} estão presents em 343 mL de uma solução 1,27 mol/L de \ch{K3PO4}?
+
+#+attr_latex: :options (2)
+#+begin_choice 
+\choice  11,1 
+\choice 0,145 
+\choice 1,31 
+\choice 3,70 
+\choice 0,436
+#+end_choice
+#+end_exercise 
+#+begin_solution
+
+#+end_solution
+
+
+
+#+begin_exercise 
+Quais são as concentrações de \ch{Na^+} e @@latex: \ch{SO4^{2-}}@@ resultante da dissolução de 0,500 mol
+de \ch{Na2SO4} em 1,33 L de água?
+
+#+attr_latex: :options (1)
+#+begin_choice
+\choice 0,665 e 1,33
+\choice 0,665 e 0,665
+\choice 1,33 e 0,665
+\choice 0,752 e 0,376
+\choice 0,376 e 0,752
+#+end_choice
+#+end_exercise
+#+begin_solution
+
+#+end_solution
+
+
+#+begin_exercise 
+Calcule a concentração molar de íons sódio emu ma solução feita pela diluição de 50,0 mL de uma solução 0,874 mol/L de sulfeto de sódio para um volume total de 250,0 mL.
+
+#+attr_latex: :options (2)
+#+begin_choice 
+\choice 0,525 
+\choice 0,874 
+\choice 4,37 
+\choice 0,175 
+\choice 0,350
+#+end_choice
+#+end_exercise 
+#+begin_solution
+
+#+end_solution
+
+
+
+#+begin_exercise 
+Uma solução aquosa de etanol (400 mL) foi diluida para 4,00 L, dando uma concentração de 0.0400 mol/L. A concentração da solução original era \blank[width=1cm]{} mol/L.
+
+#+attr_latex: :options (2)
+#+begin_choice
+\choice 1,60 
+\choice 4,00 
+\choice 0,400 
+\choice 2,00 
+\choice 0,200
+#+end_choice 
+#+end_exercise 
+#+begin_solution
+
+#+end_solution
+
+
+#+begin_exercise 
+A concentração molar de uma solução aquosa de metanol produzida quando 0,200 L de uma solução 2,00 mol/L foi diluida para 0,800 L é \blank[width=1cm]{}.
+
+#+attr_latex: :options (2)
+#+begin_choice 
+\choice 0,500 
+\choice 0,400
+\choice 8,00 
+\choice 0,200 
+\choice 0,800
+#+end_choice
+#+end_exercise
+#+begin_solution
+
+#+end_solution
+
+
+#+begin_exercise 
+A molaridade de uma solução aquosa contendo 22,5 g de sacarose (\ch{C12H22O11}) em 35,5 mL de solução é \blank[width=1cm]{}.
+
+#+attr_latex: :options (2)
+#+begin_choice
+\choice 0,0657
+\choice 0,104
+\choice 3,52
+\choice \num{1.85e-3}
+\choice 1,85
+#+end_choice 
+#+end_exercise
+#+begin_solution
+
+#+end_solution
+
+
+
+
+#+begin_exercise
+A molaridade de uma solução aquosa contendo 22,5 g de glicose (\ch{C6H12O6}) em 35,5 mL de solução é \blank[width=1cm]{}.
+
+#+attr_latex: :options (2)
+#+begin_choice
+\choice 0,634 
+\choice 0,197 
+\choice 0,125 
+\choice 1,85 
+\choice  3,52
+#+end_choice
+#+end_exercise
+#+begin_solution
+
+#+end_solution
+
+
+
+#+begin_exercise 
+Quantos gramas de cloreto de sódio estão em 55,0 mL de uma solução 1,90  \unit{\mol\per\litre} de NaCl?
+
+#+attr_latex: :options (2)
+#+begin_choice 
+\choice 12,2 
+\choice 6,11 
+\choice \num{6,11e3} 
+\choice 0,105 
+\choice 3,21
+#+end_choice
+#+end_exercise 
+#+begin_solution
+
+#+end_solution
+
+
+
+#+begin_exercise
+A molaridade de uma solução preparada diluindo 43,72 mL de uma solução aquosa 1,005 \unit{\mol\per\litre} de \ch{K2Cr2O7} a 500,0 mL é \blank[width=1cm]{}.
+
+#+attr_latex: :options (2)
+#+begin_choice 
+\choice 0,0218 
+\choice 0,0879 
+\choice 0,870
+\choice 87,9 
+\choice 0,0115
+#+end_choice
+#+end_exercise 
+#+begin_solution
+
+#+end_solution
+
+
+
+#+begin_exercise 
+A molaridade de uma solução preparada diluindo 43,72 mL de uma solução aquosa 5,005 \unit{\mol\per\litre} de \ch{K2Cr2O7} a 500,0 mL é \blank[width=1cm]{}.
+
+#+attr_latex: :options (2)
+#+begin_choice
+\choice 0,0879 
+\choice  57,2 
+\choice 0,870 
+\choice 0,0044 
+\choice 0,438
+#+end_choice
+#+end_exercise 
+#+begin_solution
+
+#+end_solution
+
+
+
+#+begin_exercise 
+A concentração de cloreto em uma solução 0,193 mol/L de cloreto de potássio é  \blank[width=1cm]{} mol/L
+
+#+attr_latex: :options (2)
+#+begin_choice
+\choice 0,579 
+\choice 0,386 
+\choice 0,193 
+\choice 0,0643 
+\choice 0,0965
+#+end_choice
+#+end_exercise 
+#+begin_solution
+
+#+end_solution
+
+
+
+
+#+begin_exercise 
+A concentração de iodeto em uma solução 0,193 mol/L de iodeto de barrio é \blank[width=1cm]{} mol/L.
+
+#+attr_latex: :options (2)
+#+begin_choice
+\choice 0,0965  
+\choice 0,0643 
+\choice 0,386 
+\choice 0,193 
+\choice 0,579
+#+end_choice
+#+end_exercise
+#+begin_solution
+
+#+end_solution
+
+
+#+begin_exercise 
+A concentração das espécies em 500 mL de uma solução 2,104 mol/L de sulfato de sódio (\ch{Na2SO4} é \blank[width=1cm]{} mol/L de íons sódio e \blank[width=1cm]{} mol/L em íons sulfato.
+
+#+attr_latex: :options (2)
+#+begin_choice
+\choice 2,104 - 2,104
+\choice 1,052 - 1,052
+\choice 4,208 - 2,104
+\choice 2,104 - 1,052
+\choice 2,104 - 4,208
+#+end_choice
+#+end_exercise
+#+begin_solution
+
+#+end_solution
+
+
+
+
+#+begin_exercise 
+Quando 0,500 mol de \ch{HC2H3O2} é combinado com água suficiente para prepara 300,0 mL de solução, a concentração de \ch{HC2H3O2} é \blank[width=1cm]{} mol/L.
+
+#+attr_latex: :options (2)
+#+begin_choice
+\choice 3,33 
+\choice 1,67 
+\choice 0,00167 
+\choice 0,150 
+\choice 0,835
+#+end_choice
+#+end_exercise
+#+begin_solution
+
+#+end_solution
+
+
+
+#+begin_exercise 
+Determine a molaridade (mol/L) de uma solução formada dissolvendo 97,7 g de LiBr em água suficiente para preparer 750,0 mL de solução.
+
+#+attr_latex: :options (2)
+#+begin_choice
+\choice 0,130 
+\choice 2,30 
+\choice 1,18 
+\choice 0,768 
+\choice 1,50
+#+end_choice
+#+end_exercise
+#+begin_solution
+
+#+end_solution
+
+
+
+
+
+#+begin_exercise
+Qual a concentração de íons nitrato emu ma solução 0.125 mol/L de \ch{Mg(NO3)2}?
+
+#+attr_latex: :options (2)
+#+begin_choice
+\choice 0,160 mol/L
+\choice 0,0625 mol/L 
+\choice 0,375 mol/L 
+\choice 0,250 mol/L 
+\choice 0,125 mol/L
+#+end_choice
+#+end_exercise
+#+begin_solution
+
+#+end_solution
+
+
+
+#+begin_exercise 
+Qual das seguintes solcuções tem a maior concentração de íons cloreto?
+
+#+attr_latex: :options (1)
+#+begin_choice
+\choice 0.10 mol/L NaCl
+\choice 0.05 mol/L \ch{CaCl2}
+\choice 0.10 mol/L \ch{AlCl3}
+\choice 0.10 mol/L \ch{MgCl2}
+\choice Todas as soluções tem a mesma concentração de íons cloreto.
+#+end_choice
+#+end_exercise
+#+begin_solution
+
+#+end_solution
+
+
+#+begin_exercise 
+Quantos mililitros de uma solução 0,266 mol/L de \ch{LiNO3} são necessários para preparar 150,0 mL de uma solução 0,075 mol/L de \ch{LiNO3}?
+
+#+attr_latex: :options (2)
+#+begin_choice
+\choice 18,8 mL 
+\choice 42,3 mL 
+\choice 53,2 mL 
+\choice 35,1 mL 
+\choice 23,6 mL
+#+end_choice
+#+end_exercise
+#+begin_solution
+
+#+end_solution
+
+
+
+
+#+begin_exercise 
+Qual o volume (em L) de uma solução 0,0887 mol/L de \ch{MgF2} é necessário para fazer 275,0 mL de uma solução 0,0224 mol/L de \ch{MgF2}?
+
+#+attr_latex: :options (2)
+#+begin_choice
+\choice 69,4 mL 
+\choice 72,3 mL 
+\choice 91,8 mL 
+\choice 10,9 mL 
+\choice 14,4 mL
+#+end_choice
+#+end_exercise
+#+begin_solution
+
+#+end_solution
+
+
+
+
+#+begin_exercise 
+Determine a concentração de uma solução preparada pela diluição de 25,0 mL de uma solução estoque 0,188 mol/L de \ch{Ca(NO3)2} para 150,0 mL.
+
+
+#+attr_latex: :options (2)
+#+begin_choice
+\choice 0,0199 mol/L 
+\choice 0,0887 mol/L
+\choice 1,13 mol/L 
+\choice 0,0313 mol/L 
+\choice 0,0501 mol/L
+#+end_choice
+#+end_exercise
+#+begin_solution
+
+#+end_solution
+
+
+
+
+
+
+ 
+
+
+\collectexercisesstop{SolucoesII}

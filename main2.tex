@@ -1,4 +1,4 @@
-% Created 2024-11-12 Tue 15:17
+% Created 2024-11-26 Tue 15:09
 % Intended LaTeX compiler: lualatex
 \documentclass[12pt]{scrartcl}
 
@@ -211,7 +211,7 @@ solution/template=custom,
 %\def\escola{E.E. Amelio Carvalho de Bais}
 %5\def\escola{}
 \def\dataprova{}
-\DeclareExerciseCollection{VolumetriaI}
+\DeclareExerciseCollection{VolumetriaII}
 \setcounter{secnumdepth}{0}
 \author{fabio}
 \date{\today}
@@ -242,96 +242,64 @@ solution/template=custom,
 
 
 
-\collectexercises{VolumetriaI}
+\collectexercises{VolumetriaII}
 
 
-\begin{exercise}
-Uma amostra de 50,0 mL de um vinho branco requer 21,48 mL de uma solução 0,03776 \unit{\mol\per\litre} de NaOH para alcançar o ponto final com fenolftaleína. Determine a acidez do vinho em termos de \% m/v de ácido tartárico (\ch{H2C4H4O6} – MM = 150,09 g/mol).
-
-\schemestart
-\chemfig{O=[:270](-[:330,,,1]OH)-[:210](-[:270,,,1]OH)-[:150](-[:90,,,1]OH)%
--[:210](=[:270]O)-[:150,,,2]HO} \+ NaOH \arrow \chemfig{O=[:270](-[:330,,,1]ONa)-[:210](-[:270,,,1]OH)-[:150](-[:90,,,1]OH)-[:210](=[:270]O)-[:150,,,2]NaO} + 2 \chemfig{H_2O} 
-\schemestop 
-\end{exercise}
-
-\begin{solution}
-Resposta: 012\% m/v de H2C2H4O6
-\end{solution}
 
 \begin{exercise}
-Uma alíquota de 25 mL de vinagre foi diluída para 250 mL em um balão volumétrico. Em seguida, várias alíquotas de 50 mL dessa solução diluída foram titulados com um volume médio de 34,88 mL de NaOH 0,096 \unit{\mol\per\litre} . Determine a acidez do vinho em termos de \% m/v de ácido acético (MM = 60 g/mol).
+Uma amostra de 25,00 mL de uma solução de limpeza doméstica foi diluída a 250,0 mL em um balão volumétrico. Uma alíquota de 50,00 mL dessa solução requer 40,38 mL de \ch{HC$\ell$} 0,2506 \unit{\mol\per\litre} para alcançar o ponto final, usando o verde de bromocresol como indicador. Calcular a porcentagem massa/volume de \ch{NH3} na amostra (suponha que toda a alcalinidade resulte da amônia.)
 
 \begin{reaction*}
-CH3COOH + NaOH -> CH3COONa + H2O
+NH3 + HC$\ell$ -> NH4C$\ell$
 \end{reaction*}
 \end{exercise}
-\begin{solution}
-Resposta: 4,02 \% m/v de HC2H4O2
-\end{solution}
-
 
 
 \begin{exercise}
-O ácido benzoico extraído de 106,3 g de molho de tomate foram titulados com 14,76 mL de solução 0,05250 mol/L de NaOH. Determine a porcentagem e termos de benzoato de sódio (144,10 g/mol).
-
-\schemestart
-\chemfig{O=[:330](-[:30,,,1]OH)-[:270]=_[:330]-[:270]=_[:210]-[:150]=_[:90](-[:30])} + NaOH \arrow \chemfig{O=[:330](-[:30,,,1]ONa)-[:270]=_[:330]-[:270]=_[:210]-[:150]=_[:90](-[:30])} + \chemfig{H_2O}
-\schemestop
-\end{exercise}
-\begin{solution}
-Resposta: 0,11\%.
-\end{solution}
-
-
-\begin{exercise}
-Barrilha, que é carbonato de sódio impuro \ch{Na2CO3}, é um insumo básico da indústria química. Uma amostra de barrilha de 10 g foi totalmente dissolvida em 800 mL de ácido clorídrico 0,2 \unit{\mol\per\litre} de \ch{HC$\ell$}. O excesso de ácido clorídrico foi neutralizado por 250 mL de NaOH 0,1 \unit{\mol\per\litre}. Qual é o teor de carbonato de sódio, em porcentagem de massa na amostra da barrilha? Dados: (\ch{Na2CO3} MM = 122 \unit{\gram\per\mol})
+Uma massa de 0,1401 g de uma amostra de carbonato de sodio purificado foi dissolvida em 50,00 mL de \ch{HC$\ell$} 0,1140 \unit{\mol\per\litre} e aquecida para eliminar o \ch{CO2}. Uma retrotitulação do excesso de \ch{HC$\ell$} requer 24,21 mL de NaOH 0,09802 \unit{\mol\per\litre}. Identifique a \% do carbonato.
 
 \begin{reactions}
-Na2CO3 + 2 HC$\ell$ -> 2 NaC$\ell$ + H2O + CO2 \\
-HC$\ell$  + NaOH -> NaC$\ell$ + H2O
+Na2CO3 + HC$\ell$ -> NaC$\ell$ + H2O + CO2\\
+HC$\ell$ + NaOH -> NaC$\ell$  + H2O
 \end{reactions}
 \end{exercise}
 
 
-
-
 \begin{exercise}
-Na determinação de 25 mL de solução de concentração de uma solução de \ch{HNO3} foram gastos 25 mL de solução de KOH 0,1 mol/L.
+Uma amostra de atum enlatado, com massa igual a 0,992 g, foi analisada pelo método Kjeldahl; foi requerido um volume igual a 22,66 mL de \ch{HC$\ell$} 0,1224 \unit{\mol\per\litre} para titular a amônia liberada. Calcular a porcentagem de nitrogênio na amostra.
+
 \begin{reaction*}
-HNO3 + KOH -> KNO3 + H2O
-\end{reaction*}
-\end{exercise}
-
-
-\begin{exercise}
-A pureza do conservante de alimentos ácido benzóico (\ch{C7H6O2}) foi determinada pela titulação deste com uma solução padronizada de NaOH 0,1 \unit{\mol\per\litre}, gastando 35 mL. Para tanto, foi preparada uma solução do ácido pela dissolução de 0,50 g em 50 mL de água deionizada. Todos os 50 mL foram utilizados na titulação com NaOH. Determine a pureza do conservante.
-
-\schemestart
-\chemfig{O=[:330](-[:30,,,1]OH)-[:270]=_[:330]-[:270]=_[:210]-[:150]=_[:90](-[:30])} + NaOH \arrow \chemfig{O=[:330](-[:30,,,1]ONa)-[:270]=_[:330]-[:270]=_[:210]-[:150]=_[:90](-[:30])} + \chemfig{H_2O}
-\schemestop
-\end{exercise}
-
-
-\begin{exercise}
-Um estudante verifica que 20 mL de hidróxido de potássio (KOH) 0,3 \unit{\mol\per\litre} são necessários para neutralizar uma amostra de 30 mL de ácido clorídrico (HC\(\ell\)). Determine a molaridade do HC\(\ell\).
-\begin{reaction*}
-KOH + HC$\ell$ -> KC$\ell$ + H2O 
+NH3 + HC$\ell$ -> NH4C$\ell$
 \end{reaction*}
 \end{exercise}
 
 
 
 \begin{exercise}
-Para realizar a titulação de 20 mL de hidróxido de sódio (NaOH) de molaridade desconhecida, foram utilizados 50 mL de ácido sulfúrico (\ch{H2SO4}) 0,2 \unit{\mol\per\litre}. Qual a molaridade do hidróxido de sódio?
+Uma amostra de 10,00 mL de vinagre (ácido acético, \ch{CH3COOH}) foi pipetada
+para um frasco, ao qual foram adicionadas duas gotas de fenolftaleína, e o ácido foi titulado com NaOH 0,1008 \unit{\mol\per\litre}.
 
-\begin{reaction*}
-H2SO4 + 2 NaOH -> Na2SO4 + 2 H2O
-\end{reaction*}
+\begin{choice}
+\choice Se 45,62 mL da base, NaOH  foram requeridos para a titulação, qual é a concentração molar do ácido acético na amostra?
+
+\choice  Se a densidade da solução de ácido acético pipetado é de 1,004 g/mL, qual é a porcentagem de ácido acético na amostra.
+\end{choice}
 \end{exercise}
 
 
+\begin{exercise}
+Para  analisar um composto que contém ferro, converte todo ferro a  \ch{Fe^{2+}} em solução aquosa e titula-se com uma solução de \ch{KMnO4}, equação balanceada
 
-\collectexercisesstop{VolumetriaI}
+\begin{reaction*}
+MnO4\aq{} + 5 Fe^{2+}\aq{} + 8 H^+\aq{} -> Mn^{2+}\aq{} + 5 Fe^{3+}\aq{} + 4 H2O\lqd{}
+\end{reaction*}
 
-\printcollection{VolumetriaI}
+
+Uma amostra de 0,598 g do composto que contem ferro requer 22,25 mL de \ch{KMnO4} 0,0123 \unit{\mol\per\litre}. Qual o percentual de ferro na amostra?
+\end{exercise}
+
+\collectexercises{VolumetriaII}
+
+
+\printcollection{VolumetriaII}
 \end{document}

@@ -1,0 +1,38 @@
+
+#+LATEX_HEADER: \DeclareExerciseCollection{HidrocarbonetosII}
+
+#+BEGIN_COMMENT
+============ Nomenclatura Hidrocarbonetos
+#+END_COMMENT
+
+
+\collectexercises{HidrocarbonetosII}
+
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+A fórmula  do 2,3 - dimetil butano, é:
+#+begin_export latex
+\begin{choice}(2)
+\choice \chemfig{-[:30](-[:90])-[:330]-[:30]}
+\choice \chemfig{-[:30](-[:90])(-[:150])-[:330]-[:30]}
+\choice \chemfig{-[:60](-[:120])-(-[:300])-[:60]}
+\choice \chemfig{-[:30](-[:90])-[:330]-[:30]-[:330]}
+\choice \chemfig{-[:30](-[:90]CH_3)-[:330]-[:30]}
+\end{choice}
+#+end_export
+#+end_exercise
+#+begin_solution
+C
+#+end_solution
+
+
+
+
+
+\collectexercisesstop{HidrocarbonetosII}
+

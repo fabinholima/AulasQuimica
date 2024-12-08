@@ -30,7 +30,20 @@
 \usepackage{tabularray}
 \usepackage{chemmacros}
 \usepackage{chemfig}
- 
+  \setchemfig{
+   	angle increment=30,
+     atom sep=1.67em,
+     double bond sep=0.67ex,
+     bond style={line width=0.1em},
+     cram width=0.8ex,
+     cram dash width=0.1em,
+     cram dash sep=0.2em,
+     arrow style={line width=0.067em},
+     arrow head=-{Triangle},
+     arrow label sep=1ex,
+     cycle radius coeff=0.75,
+     chemfig style={line width=0.1em},
+ }
  
  \begin{document}
  
@@ -46,26 +59,37 @@
 %  Aqui entra o input da tabela
 %
 %%% 
-
+%\KOMAoptions{pagesize,paper=landscape,DIV=20}
 
 \begin{longtblr}[theme=fancy,
 	caption = {Classificação das Funções Oxigenadas},
 	%note{a} = {It is the first footnote.},
 	]{
-       colspec = {c c c }, colsep = 17mm, hlines = {2pt, white},
+       colspec = {c c c }, colsep = 12mm, hlines = {2pt, white},
 		%row{odd} = {azure8}, row{even} = {gray8},
-		row{1} = {2em,Coral1,fg=white,font=\bfseries\sffamily},
-		row{2} = {2em,azure3,fg=white,font=\bfseries\sffamily},
+		row{1,12} = {1em,Coral1,fg=white,font=\bfseries\sffamily}, 		rowsep=.1cm,		
+		row{2} = {1em,azure3,fg=white,font=\bfseries\sffamily},
 		%row{12} = {bg=gray8, font=\bfseries},
-		rowsep=.5cm,		
+		rowsep=.3cm,		
 	}
   \hline
   \SetCell[c=3]{h,5cm} Funções Oxigenadas & & \\ 
   Nome  & Grupo & Exemplo   \\
-  Álcool & \chemfig{R-OH} & \chemname[]{\chemfig{CH_3-CH_2-OH}}{Etanol} \\
-  Enol & \chemfig{R-[:30](-[:90]OH)=[:330]R} & \\
-  Fenol & \chemfig{*6(-=-=(-OH)-=)}
-  
+  Álcool & \chemfig{R-OH} & \chemname[]{\chemfig{CH_3-CH_2-OH}}{Etanol} \\ \hline
+  Enol & \chemfig{R-[:30](-[:90]OH)=[:330]R} & \chemfig{-[:30]-[:330]=[:30](-[:330])-[:90,,,1]OH} \\ \hline
+  Fenol & \chemfig{*6(-=-=(-OH)-=)} & \chemfig{*6(-=-=(-OH)-=)} \\ \hline 
+  Cetona & \chemfig{R-[:30](=[:90]O)-[:330]R} & \chemfig{-[:30](=[:90]O)-[:330]} \qquad \chemfig{O=[:90]-[:36]-[:108]-[:180]-[:252](-[:324])} \\ \hline
+  Epóxido & \chemfig{R-[:30](-[:135]R)-[:60]O-[:300](-[:180])(-[:45]R)-[:330]R} &  \chemfig{O-[:141]-[:213]-[:285]-[:357](-[:69]\phantom{O})}\\ \hline 
+  Éter & \chemfig{R-O-R} & \chemfig{-[:30]-[:330]O-[:30]} \\ \hline 
+  Ácido Carboxílico & \chemfig{R-[:30](-[:330,,,1]OH)=[:90]O} & \chemfig{OH-[:150,,1](=[:90]O)-[:210]-[:150]-[:210]} \\ \hline 
+  Éster & \chemfig{R-[:30](=[:90]O)-[:330]O-[:30]R} & \chemfig{-[:210]O-[:150](=[:90]O)-[:210]-[:150]-[:210]}\\ \hline
+  Sal Orgânico &  \chemfig{R-[:30](=[:90]O)-[:330]\charge{45:1.5pt=$\scriptstyle-$}{O}-\charge{45:1.5pt=$\scriptstyle+$}{M}} & \chemfig{H_3C-[:30](=[:90]O)-[:330]\charge{45:1.5pt=$\scriptstyle-$}{O}-\charge{45:1.5pt=$\scriptstyle+$}{Na}} \\ \hline
+    \SetCell[c=3]{h,5cm} Funções Nitrogenadas & & \\  \hline 
+    Amina && \\ \hline 
+    Amida && \\ \hline 
+    Imina && \\  \hline 
+    Isonitrila && \\ \hline 
+    Nitrila && \\ \hline 
 \end{longtblr}
 
 
