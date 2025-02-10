@@ -193,8 +193,9 @@ Na estrutura da eritromicina contém os seguintes grupos funcionais oxigenados.
 #+end_choice
 
 #+end_exercise
-
-
+#+begin_solution
+B
+#+end_solution
 
 
 #+ATTR_LATEX: :options [points=1.0]
@@ -217,7 +218,9 @@ As catequinas são compostos incolores, hidrossolúveis, que contribuem para o a
 #+end_choice
 
 #+end_exercise
-
+#+begin_solution
+C
+#+end_solution
 
 \collectexercisesstop{FuncoesOxigenadasIV}
 

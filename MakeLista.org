@@ -1,6 +1,4 @@
-
-
-
+\printsolutions[headings=true,headings-template=solution]
 
 
 

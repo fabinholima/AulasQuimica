@@ -1,0 +1,151 @@
+\setuppapersize[A4]
+%\setuppapersize[A5]
+%\setuppapersize[A5,landscape][A4]
+\setupbodyfont [plex]
+%\setupbodyfont[bonum]	
+
+\definecolor [Top] [h=a5b291]
+\definecolor [Bottom] [h=b7c1a7]
+\definecolor [TitleColor] [h=96433a]
+\definecolor [Chapter][h=a52a2a]
+\definecolor[Section][h=8f00ff]
+\showframe
+\define[1]\titlefont{%
+  \setcharacterkerning[extrakerning]%
+  \cap
+  \definedfont[#1]%
+  \ignorespaces
+}
+
+
+%%% Custom Chapter
+
+% The table of contents
+\definecombinedlist[MyContent]
+
+\setupcombinedlist
+  [MyContent]
+  [list={section},
+   criterium=chapter]
+
+\setuplist[section][
+  alternative=c,
+  width=2em,
+  style={\switchtobodyfont[7pt]\setupinterlinespace[line=9pt]},
+]
+
+\startuseMPgraphic{MyChapterGraphic}
+  picture toc, num ;
+  % You can play with the width, offset, fontsizes and so on.
+  toc := textext("\unframed[width=8cm,align=normal,offset=5mm,leftframe=on,rulethickness=1pt]
+                  {%
+                  {\switchtobodyfont[14pt]\labeltext{mychapter}}\blank[small]
+                  {\switchtobodyfont[18pt] \MPtext{2}}\blank[big]
+                  \placecombinedlist[MyContent]
+                  }") ;
+  toc := toc shifted (-llcorner toc) ;
+  num := textext("\MPtext{1}") ;
+  num := num ysized 0.8(ypart ulcorner toc) ;
+  num := num shifted (-llcorner num) ;
+  % The 0.55 decides how much to shift the number left, we shift 55%
+  % The 0.1 here satisfies 2*0.1+0.8=1, where 0.8 is the number above
+  num := num shifted (-0.55(xpart lrcorner num), 0.1(ypart ulcorner toc) ) ;
+  % The 10cm is just to make sure that we are off so that we do not cut to the left of the number
+  clip num to ((-10cm,0) -- (0,0) -- ulcorner toc -- (-10cm, ypart ulcorner toc) -- cycle) ;
+  draw toc ;
+  draw num ;
+  % This midaligns the content
+  currentpicture := currentpicture xshifted 0.5(TextWidth - xpart lrcorner toc - xpart llcorner num) ;
+  setbounds currentpicture to unitsquare xyscaled (TextWidth, ypart urcorner toc) ;
+\stopuseMPgraphic
+
+\define[2]\MyChapterCommand{%
+  \setnostrut% Try without (and add \showstruts to see)
+  \setMPtext{1}{#1}%
+  \setMPtext{2}{#2}%
+  \useMPgraphic{MyChapterGraphic}
+}
+
+\setuphead
+  [chapter]
+  [header=high,
+%   command=\MyChapterCommand,
+   numberstyle=\bf,
+   textstyle=\bf]
+
+
+
+ %%Define a custom section style using MetaPost for the underline
+ \startuniqueMPgraphic{SectionUnderline}
+   path p; 
+   p:= unitsquare xscaled OverlayWidth yscaled OverlayHeight;
+   pickup pencircle scaled 1mm;
+   drawoptions(withcolor .625yellow);
+   draw llcorner p -- lrcorner p;
+   setbounds currentpicture to p;
+ \stopuniqueMPgraphic
+
+\defineoverlay[SectionUnderline][\uniqueMPgraphic{SectionUnderline}]
+
+\starttexdefinition unexpanded MySection #1#2
+  \hskip-.75cm\relax
+  \framed [
+    background=SectionUnderline,
+    frame=off,
+    offset=0pt
+  ] {
+    #1\color[darkred]{.} #2
+  }
+\stoptexdefinition
+
+% Apply the custom section style to sections
+\setuphead
+  [section]
+    [ 
+    color=darkred,
+    style=\bfa,
+    command=\MySection
+    ]
+
+%%%% Custom Page Number
+\startuniqueMPgraphic{NumberPage}
+ pickup pencircle scaled .5mm ;
+path p ; p := fullcircle xscaled 1.5cm yscaled 0.75cm ;
+fill p withcolor \MPcolor{darkgray} ;
+draw p withcolor \MPcolor{darkred}  
+\stopuniqueMPgraphic
+
+\defineoverlay[NumberPage][\uniqueMPgraphic{NumberPage}]
+
+\starttexdefinition unexpanded NumPage 
+%\hskip-.75cm\relax
+  \framed [
+    background=NumberPage,
+    frame=off,
+    offset=0pt
+  ]
+\stoptexdefinition 
+
+\setuppagenumbering[location={footer,inright},
+style=\bf,
+command=\NumPage,
+color=white,
+]
+
+%%%%%% Framed 
+%
+%\setupframed
+%  [frame=on,
+%   offset=0.001pt,
+%   rulethickness=0.000pt,
+%   location=top,
+%   align=normal,
+%   strut=yes,
+%   ]
+
+%%%%%% Start tetx
+\starttext
+\section{Text1}
+i aula agora
+
+\stoptext

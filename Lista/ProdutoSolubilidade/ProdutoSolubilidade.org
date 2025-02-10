@@ -5,7 +5,9 @@
 http://www.profjoaoneto.com/fisicoq/produtodesolubilidade.ht
 #+end_comment
 
-#+LATEX_HEADER: \DeclareExerciseCollection{Kps}
+#+LATEX_HEADER: \DeclareExerciseCollection{kps}
+
+
 
 \collectexercises{kps}
 
@@ -15,13 +17,13 @@ Escreva a expressão da constante de solubilidade dos seguintes compostos
 #+begin_choice 
 \choice \ch{BaCO3} 
 \choice \ch{CaSO4} 
-\choice \ch{Al(OH)3} 
+\choice \ch{Al$\ell$(OH)3} 
 \choice \ch{Ag2CrO4} 
 \choice CoS 
 \choice \ch{Mg(OH)2} 
 \choice \ch{Fe(OH)3} 
 \choice \ch{Zn(OH)2} 
-\choice \ch{PbCl2} 
+\choice \ch{PbC$\ell$2} 
 \choice \ch{Ag2S} 
 \choice \ch{Pb3(PO4)2} 
 \choice \ch{CaF2} 
@@ -39,90 +41,134 @@ Sabendo que a solubilidade do cromato de prata – \ch{Ag2CrO4} – é de \num{2
 #+end_solution
 
 #+begin_exercise
-Calcule o Ks do fosfato de prata – Ag3PO4, sabendo que a sua solubilidade é de 6,5x10-3 g/L.
+Calcule o K$_{ps}$ do fosfato de prata – \ch{Ag3PO4}, sabendo que a sua solubilidade é de \num{6.5e-3} g/L.
 #+end_exercise
 #+begin_solution
-\num{1,59e-18}
+\num{1.59e-18}
 #+end_solution
 
 #+begin_exercise 
-A solubilidade do fosfato de chumbo II – Pb3(PO4)2 – é de 1,4x10-4 g/L. Determine o Ks desse sal.
-#+end_exercise 
-R:1,62x10-32
+A solubilidade do fosfato de chumbo II – \ch{Pb3(PO4)2} – é de \num{1.4e-4} g/L. Determine o k_s desse sal.
+#+end_exercise
+#+begin_solution
+\num{1.62e-32}
+#+end_solution 
 
-5-Determine o produto de solubilidade do cloreto de chumbo II – PbCl2 – cuja solubilidade é de 11g/L.
-R=2,37x10-4
+#+begin_exercise 
+Determine o produto de solubilidade do cloreto de chumbo II – \ch{PbC$\ell$2}  – cuja solubilidade é de 11 \unit{\gram\per\litre}
+#+end_exercise
+#+begin_solution
+\num{2.37e-4}
+#+end_solution
 
-6-A solubilidade do hidróxido férrico – Fe(OH)3 – em uma determinada temperatura é de 4,82x10-8 g/L. Determine o seu produto de solubilidade nessa temperatura. 
-R=1,1x10-36
+#+begin_exercise 
+A solubilidade do hidróxido férrico – \ch{Fe(OH)3} – em uma determinada temperatura é de \num{4.82e-8} \unit{\gram\per\litre}. Determine o seu produto de solubilidade nessa temperatura. 
+#+end_exercise
+#+begin_solution
+\num{1.1e-36}
+#+end_solution
 
-7-A solubilidade do carbonato de bário – BaCO3 – é de 1,3x10-2M. Descubra o produto de solubilidade desse sal.
-R=1,69x10-4
+#+begin_exercise
+A solubilidade do carbonato de bário – \ch{BaCO3} – é de \num{1.3e-2} \unit{\mol\per\litre}. Descubra o produto de solubilidade desse sal.
+#+end_exercise
+#+begin_solution 
+\num{1.69e-4}
+#+end_solution 
 
-8-Prepara-se um litro de uma solução saturada de cloreto de prata – AgCl . Calcule a constante de solubilidade, sabendo que foi dissolvido 1,7x10-3g desse sal.
-R=1,4x10-10
+#+begin_exercise 
+Prepara-se um litro de uma solução saturada de cloreto de prata – \ch{AgC$\ell$} . Calcule a constante de solubilidade, sabendo que foi dissolvido \num{1.7e-3} g desse sal.
+#+end_exercise
+#+begin_solution
+\num{1.4e-10}
+#+end_solution 
 
-9-Determinar a solubilidade (em mol/L) do sulfeto de prata (Ag2S) a certa temperatura, sabendo que o produto de solubilidade nessa temperatura é 1,6x10-48. 
-
-10-Sabe-se que o Ks do fosfato de prata – Ag3PO4 , a 25O C, é 1,56x10-48. Determine a solubilidade do sal nessa temperatura.
-R=4,8x10-13
-
-11-Calcule a solubilidade em água, a 18O C, do sulfeto férrico – Fe2S3 – sabendo que nessa temperatura o seu produto de solubilidade é 3,456x10-52.
-R=2x10-11
-
-12-O produto de solubilidade, a 20O C, do hidróxido férrico – Fe(OH)3 – é 1,16x10-16. Descubra a solubilidade, a 20O C, em g/L , dessa base.
-R=4,8x10-3 g/L
-
-13-Calcule a solubilidade do sulfeto de manganês II – MnS – em g/L, sabendo que o seu produto de solubilidade é 2x10-15 .
-R=3,88x10-6
-
-14-Descubra a massa de sulfeto de ferro II – FeS – necessária para que sejam preparados 500 mL de solução saturada desse sal, sabendo que o seu produto de solubilidade é 4x10-19.
-R=2,78x10-8
-
-15-Quantos gramas de sulfato de bário – BaSO4 – são necessários para preparar um litro de solução saturada, sabendo que o produto de solubilidade desse sal é 1,1x10-10?
-R=2,44x10-3
-
-16-A dose letal de íons Ba+2 para o ser humano é de 2x10-3 mol de íons Ba+2 por litro de sangue. Para se submeter a um exame de raios-X, um paciente ingeriu 200 mL de uma suspensão de sulfato de bário – BaSO4 . Supondo-se que os íons Ba+2 solubilizados na suspensão foram integralmente absorvidos pelo organismo e dissolvidos em 5 litros de sangue, discuta se essa dose coloca em risco a vida do paciente, considerando que o produto de solubilidade do sulfato de bário é igual a 1x10-10 M.
-R=Não coloca em risco, pois [Ba+2]=4x10-7M
-
-17-Em um béquer foram misturadas soluções aquosas de cloreto de potássio, sulfato de sódio e nitrato de prata, ocorrendo, então, a formação de um precipitado branco, que se depositou no fundo de um béquer. A análise da solução sobrenadante revelou as seguintes concentrações: [Ag+]=1,0x10-3M; [SO4-2]=1,0X10-1M e [Cl-]=1,6X10-7M. De que é constituído o sólido formado? Justifique com cálculos.
-
- 
-  	
-
-Composto
-	
-
-Produto de solubilidade
-	
-
-Cor
-
-Dados
-	
-
-Cloreto de prata – AgCl
-	
-
-1,6X10-10
-	
-
-Branca
-  	
-
-Sulfato de prata – Ag2SO4
-	
-
-1,4X10-5
-	
-
-Branca
+#+begin_exercise 
+Determinar a solubilidade (em \unit{\mol\per\litre}) do sulfeto de prata (\ch{Ag2S}) a certa temperatura, sabendo que o produto de solubilidade nessa temperatura é \num{1.6e-48}.
+#+end_exercise
+#+begin_solution
+\num{7.7e-17} mol/L
+#+end_solution 
 
 
-    Note que para o sulfato de prata , o Ks não é alcançado (1,4x10-5), indicando que a presença de íons Ag+ e Cl- é a máxima possível na solução. Então, se houver formação de precipitado, este será de cloreto de prata.
+#+begin_exercise 
+Sabe-se que o K_s do fosfato de prata – \ch{Ag3PO4}, a 25O ºC, é \num{1.56e-48}. Determine a solubilidade do sal nessa temperatura.
+#+end_exercise
+#+begin_solution
+\num{4.8e-13}
+#+end_solution 
 
-18-Uma solução saturada de base, representada por X(OH)2, tem pH=10 a 25O C. Qual o produto de solubilidade do X(OH)2?
 
+#+begin_exercise
+Calcule a solubilidade em água, a 18O ºC, do sulfeto férrico – \ch{Fe2S3} – sabendo que nessa temperatura o seu produto de solubilidade é \num{3.456e-52}.
+#+end_exercise
+#+begin_solution
+\num{2e-11}
+#+end_solution
+
+
+#+begin_exercise
+O produto de solubilidade, a 20O ºC, do hidróxido férrico – \ch{Fe(OH)3} – é \num{1.16e-16}. Descubra a solubilidade, a 20O ºC, em g/L, dessa base.
+#+end_exercise
+#+begin_solution
+\num{4.8e-3} g/L
+#+end_solution
+
+#+begin_exercise 
+Calcule a solubilidade do sulfeto de manganês II – MnS – em g/L, sabendo que o seu produto de solubilidade é \num{2e-15} .
+#+end_exercise
+#+begin_solution
+\num{3.88e-6}
+#+end_solution
+
+
+#+begin_exercise
+Descubra a massa de sulfeto de ferro II – FeS – necessária para que sejam preparados 500 mL de solução saturada desse sal, sabendo que o seu produto de solubilidade é \num{4e-19}.
+#+end_exercise
+#+begin_solution
+\num{2.78e-8}
+#+end_solution
+
+#+begin_exercise
+Quantos gramas de sulfato de bário – \ch{BaSO4} – são necessários para preparar um litro de solução saturada, sabendo que o produto de solubilidade desse sal é \num{1.1e-10}?
+#+end_exercise
+#+begin_solution
+\num{2.44e-3}
+#+end_solution
+
+#+begin_exercise
+A dose letal de íons @@latex: \ch{Ba^{+2}}@@ para o ser humano é de \num{2e-3} mol de íons @@latex: \ch{Ba^{+2}}@@ por litro de sangue. Para se submeter a um exame de raios-X, um paciente ingeriu 200 mL de uma suspensão de sulfato de bário – \ch{BaSO4} . Supondo-se que os íons @@latex: \ch{Ba^{+2}}@@ solubilizados na suspensão foram integralmente absorvidos pelo organismo e dissolvidos em 5 litros de sangue, discuta se essa dose coloca em risco a vida do paciente, considerando que o produto de solubilidade do sulfato de bário é igual a \num{1e-10} \unit{\mol\per\litre}.
+#+end_exercise
+#+begin_solution
+Não coloca em risco, pois [@@latex: \ch{Ba^{+2}}@@]=\num{4e-7} \unit{\mol\per\litre}
+#+end_solution 
+
+
+#+begin_exercise
+Em um béquer foram misturadas soluções aquosas de cloreto de potássio (\ch{KC$\ell$}), sulfato de sódio (\ch{Na2SO4}) e nitrato de prata (\ch{AgNO3}), ocorrendo, então, a formação de um precipitado branco, que se depositou no fundo de um béquer. A análise da solução sobrenadante revelou as seguintes concentrações: [\ch{Ag^+}]=\num{1.0e-3} \unit{\mol\per\litre}; [@@latex: \ch{SO4^{-2}}@@]=\num{1.0e-1} \unit{\mol\per\litre} e [\ch{C$\ell$^-}]=\num{1.6e-7} \unit{\mol\per\litre}. De que é constituído o sólido formado? Justifique com cálculos.
+
+#+begin_export latex
+\begin{tblr}[
+]{
+colspec = {ccc}, colsep = 2mm, hlines = {1pt, white},
+row{1} = {2em,azure2,fg=white,font=\bfseries},
+}
+%\hline
+Composto & {Produto \\ de Solubilidade} & Cor \\ %\hline
+{Cloreto de Prata \\ AgC$\ell$} & \num{1.6e-10} & Branca \\ \hline
+{Sulfato de Prata \\ \ch{Ag2SO4}} & \num{1.4e-5} & Branca\\ \hline
+\end{tblr}
+#+end_export
+#+end_exercise
+#+begin_solution
+Note que para o sulfato de prata , o k_s não é alcançado (\num{1.4e-5}), indicando que a presença de íons \ch{Ag^+} e \ch{C$\ell$^-} é a máxima possível na solução. Então, se houver formação de precipitado, este será de cloreto de prata.
+#+end_solution
+
+#+begin_exercise
+Uma solução saturada de base, representada por \ch{X(OH)2}, tem pH=10 a 25O ºC. Qual o produto de solubilidade do \ch{X(OH)2}?
+#+end_exercise
+#+begin_solution
+\num{5e-13}
+#+end_solution
 
 
 

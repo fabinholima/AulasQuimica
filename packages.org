@@ -182,9 +182,10 @@
 #+LATEX_HEADER:   exercise/the-counter =  \arabic{exercise},
 #+LATEX_HEADER:	solution/template= custom ,
 #+LATEX_HEADER:   %%solution-name = solution,  % used with headings=true
-#+LATEX_HEADER:	solution/print=false,
+#+LATEX_HEADER:	 %solution/print=true,
 #+LATEX_HEADER:  %print-collection/print=both,
-#+LATEX_HEADER:   %goal-print= {\pgfmathprintnumber[fixed zerofill,precision=1]\num{#1}}
+#+LATEX_HEADER:  %print-solutions/collection=true
+#+LATEX_HEADER:  %goal-print= {\pgfmathprintnumber[fixed zerofill,precision=1]\num{#1}}
 #+LATEX_HEADER:}
 #+LATEX_HEADER: \RenewDocumentCommand\printpoints{}{%
 #+LATEX_HEADER:  \TotalExerciseTypeGoal{exercise}{points}{}{}%

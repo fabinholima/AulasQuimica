@@ -696,7 +696,38 @@ Glenn T. Seaborg é um renomado cientista que foi agraciado com o Prêmio Nobel 
 
 
 #+end_exercise 
+#+begin_solution
 
+
+a) Massa atômica= 18
+
+Prótons= 8
+
+249^Cf_98 + b^X_a ---------------> 263^Sg_106 + 4 1^n_0
+
+249 + b = 263 +4
+
+b= 18
+
+98 + a = 106
+
+a = 8
+
+
+b)
+
+  
+  b) Xfinal = X0 * (1/2)^tempo/meia vida
+
+Xfinal = 800* (1/2)^30/10
+
+Xfinal= 100g            OU
+
+800g ------- 10 s -----> 400g ---- 10s ----> 200g --- 10s ---> 100g
+  
+  
+  
+#+end_solution 
 
 
 

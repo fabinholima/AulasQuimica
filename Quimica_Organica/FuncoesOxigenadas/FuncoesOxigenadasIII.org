@@ -33,7 +33,7 @@ Na vanilina estão presentes as funções orgânicas.
 #+end_choice
 #+end_exercise
 #+begin_solution
-LETRA A
+A
 #+end_solution
 
 
@@ -62,7 +62,7 @@ As funções orgânicas que caracterizam os feromônios de trilha e de alarme s�
 #+end_choice
 #+end_exercise
 #+begin_solution
-Letra A álcool e éster
+A
 #+end_solution
 
 
@@ -86,7 +86,7 @@ A aspirina é um composto que possui propriedades antitérmica e analgésica, e 
 #+end_choice
 #+end_exercise
 #+begin_solution
-LETRA D
+D
 #+end_solution
 
 
@@ -115,7 +115,7 @@ A testosterona (I) é um hormônio sexual masculino responsável, entre outras c
 #+end_choice
 #+end_exercise
 #+begin_solution
-LETRA E 
+E 
 #+end_solution
 
 
@@ -277,8 +277,9 @@ Um trabalho publicado na Nature Medicine, em 2016, mostrou que Withaferin A, um 
 #+end_choice
 
 #+end_exercise 
-
-
+#+begin_solution
+C
+#+end_solution 
 
 
 
@@ -323,7 +324,9 @@ O geraniol é um
 #+end_choice 
 
 #+end_exercise
-
+#+begin_solution
+A
+#+end_solution
 
 
 
@@ -482,6 +485,9 @@ A estrutura assinalada mostra que a genipina possui, entre outras, a função or
 \choice éter.
 #+end_choice
 #+end_exercise
+#+begin_solution
+B
+#+end_solution 
 
 
 
@@ -508,7 +514,7 @@ O sesterpenóide manoalido, isolado de uma esponja do Pacífico (/Luffariella va
 
 #+end_exercise
 #+begin_solution
-LETRA C
+C
 #+end_solution 
 
 
@@ -579,7 +585,9 @@ os seguintes grupos funcionais
 #+end_choice 
 
 #+end_exercise 
-
+#+begin_solution
+D
+#+end_solution
 
 
 
@@ -729,10 +737,10 @@ O mesmo apresenta as funções de:
 \choice éter, álcool e aldeído.
 \choice cetona, fenol e hidrocarboneto.
 #+end_choice
+#+end_exercise
 #+begin_solution
 C
 #+end_solution
-#+end_exercise
 
 
 

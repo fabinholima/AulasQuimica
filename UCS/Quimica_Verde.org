@@ -1,0 +1,143 @@
+#+LATEX_HEADER: \DeclareExerciseCollection{QuimicaVerde}
+
+* Química Verde
+
+
+A Química Verde é um campo da química que busca minimizar os impactos ambientais associados aos processos e produtos químicos, promovendo a sustentabilidade e a segurança. Surgiu nos anos 1990 como uma resposta às crescentes preocupações com a poluição ambiental e a saúde humana. A ideia central é implementar práticas que reduzam ou eliminem a formação de substâncias nocivas durante o design, fabricação e aplicação de produtos químicos.​
+​
+
+Os pilares da Química Verde incluem 12 princípios fundamentais. Entre eles, destacam-se a prevenção de resíduos, que prioriza evitar a geração de resíduos em vez de tratá-los posteriormente, e a economia atômica, que maximiza a incorporação de materiais iniciais no produto final. Outros princípios são o uso de solventes mais seguros e a escolha de processos químicos que operem em temperaturas e pressões mais moderadas para reduzir o consumo energético​
+
+Esses princípios se alinham a práticas como a substituição de reagentes tóxicos por alternativas menos perigosas e o desenvolvimento de catalisadores que aumentam a eficiência das reações químicas. A Química Verde não é apenas uma abordagem técnica, mas também uma filosofia que incentiva a indústria, os pesquisadores e os consumidores a adotar soluções sustentáveis para os desafios ambientais e sociais​
+
+* Questões
+
+\collectexercises{QuimicaVerde}
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise 
+O que é Química Verde?
+#+begin_choice 
+\choice Um ramo da química que busca minimizar impactos ambientais através de práticas sustentáveis.
+\choice  A aplicação de reações químicas em ambientes naturais.
+\choice O estudo dos efeitos climáticos causados por gases do efeito estufa.
+\choice A química aplicada exclusivamente à agricultura.
+#+end_choice
+#+end_exercise 
+#+begin_solution
+A
+#+end_solution
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise 
+Qual princípio da Química Verde visa a utilização de reagentes menos agressivos ao meio ambiente?
+#+begin_choice 
+\choice Redução de resíduos.
+\choice Substâncias seguras e renováveis.
+\choice Redução do consumo de energia.
+\choice Prevenção ao invés de remediação.
+#+end_choice
+#+end_exercise
+#+begin_solution
+B
+#+end_solution 
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise 
+Qual é o principal objetivo da Educação Ambiental?
+#+begin_choice 
+\choice Ensinar conceitos teóricos de biologia.
+\choice Preservar o meio ambiente para as futuras gerações.
+\choice Aumentar o consumo de recursos naturais.
+\choice Desenvolver técnicas de exploração mineral.
+#+end_choice
+#+end_exercise 
+#+begin_solution
+B
+#+end_solution
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise 
+Uma das causas do aumento de \ch{CO2} na atmosfera é:
+#+begin_choice 
+\choice Produção sustentável de energia.
+\choice Desmatamento e queima de combustíveis fósseis.
+\choice Redução do uso de fertilizantes químicos.
+\choice Adoção de práticas da Química Verde.
+#+end_choice
+#+end_exercise 
+#+begin_solution 
+B
+#+end_solution 
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise 
+ Como a Química Verde contribui para a sustentabilidade?
+ #+begin_choice
+ \choice Gerando resíduos para serem tratados.
+ \choice Evitando a formação de resíduos desde o início do processo.
+ \choice Usando combustíveis fósseis em larga escala.
+ \choice Substituindo práticas agrícolas por industriais.
+#+end_choice
+ #+end_exercise
+#+begin_solution
+B
+#+end_solution
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+ O que caracteriza a Educação Ambiental como obrigatória no Brasil?
+#+begin_choice 
+\choice A Lei de Diretrizes e Bases da Educação.
+\choice Uma recomendação internacional.
+\choice A Lei da Política Nacional de Educação Ambiental.
+\choice A obrigatoriedade apenas no ensino superior.
+#+end_choice
+#+end_exercise
+#+begin_solution 
+C
+#+end_solution 
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Qual prática educativa é mais eficaz para introduzir sustentabilidade em química?
+#+begin_choice 
+\choice Palestras teóricas isoladas.
+\choice Simulações práticas e projetos interativos.
+\choice Exclusivamente leituras de textos sobre meio ambiente.
+\choice Apenas aplicação de provas sobre sustentabilidade.
+#+end_choice
+#+end_exercise
+#+begin_solution
+B
+#+end_solution
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Explique como os princípios da Química Verde podem ser aplicados no desenvolvimento de novos materiais e processos industriais mais sustentáveis.
+#+end_exercise
+#+begin_solution
+A resposta deve mencionar práticas como o uso de reagentes renováveis, processos energeticamente eficientes e a redução ou eliminação de resíduos nocivos.
+#+end_solution
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Quais os principais desafios para implementar a educação ambiental de
+forma eficaz no ensino médio?
+#+end_exercise
+#+begin_solution
+Espera-se que a resposta discuta questões como resistência à mudança curricular, falta de recursos didáticos, formação de professores e tempo limitado no cronograma escolar.
+#+end_solution
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Cite exemplos de como a química pode ser utilizada para mitigar problemas ambientais como poluição e mudanças climáticas.
+#+end_exercise
+#+begin_solution
+Respostas podem incluir a aplicação de bioplásticos, tratamento de resíduos industriais, captura de \ch{CO2} e produção de combustíveis renováveis.
+#+end_solution 
+
+\collectexercisesstop{QuimicaVerde}
+

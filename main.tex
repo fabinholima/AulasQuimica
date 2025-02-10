@@ -1,4 +1,4 @@
-% Created 2024-12-07 sáb 20:29
+% Created 2025-02-09 dom 14:20
 % Intended LaTeX compiler: lualatex
 \documentclass[11pt]{scrartcl}
 
@@ -168,8 +168,9 @@ exercise/template = custom,
 exercise/the-counter =  \arabic{exercise},
 solution/template= custom ,
 %%solution-name = solution,  % used with headings=true
-solution/print=false,
+%solution/print=true,
 %print-collection/print=both,
+%print-solutions/collection=true
 %goal-print= {\pgfmathprintnumber[fixed zerofill,precision=1]\num{#1}}
 }
 \RenewDocumentCommand\printpoints{}{%
@@ -188,9 +189,9 @@ solution/print=false,
 \def\aluno{ }
 \def\numerochamada{}
 \def\disciplina{Química}
-%%\def\disciplina{UC3}
+%%\def\disciplina{UC III}
 %%\def\disciplina{R.A.}
-\def\turma{1 Ano }
+\def\turma{}
 \def\tipo{{\bfseries Avaliação Bimestral}}
 %%\def\tipo{\bfseries Avaliação Mensal}
 \def\tipo{\bfseries Exame Final}
@@ -199,11 +200,7 @@ solution/print=false,
 %\def\escola{E.E. José Mamede de Aquino}
 %\def\escola{E.E. Amélio de Carvalho Baís}
 \def\dataprova{}
-\DeclareExerciseCollection{Acidos}
-\DeclareExerciseCollection{Bases}
-\DeclareExerciseCollection{FuncoesOxigenadasIII}
-\DeclareExerciseCollection{FuncoesOxigenadasIV}
-\DeclareExerciseCollection{FuncoesNitrogenadas}
+\DeclareExerciseCollection{kps}
 \author{fabio}
 \date{\today}
 \title{}
@@ -217,8 +214,8 @@ solution/print=false,
 \begin{document}
 
 \twocolumn[
-%\input{../Modelos/CabeOficial}
-\input{../Modelos/cabenovo}
+\input{../Modelos/CabeOficial}
+%\input{../Modelos/cabenovo}
 %\input{../Modelos/mamede}
 %\input{../Modelos/26agosto}
 %% \input{../Modelos/geral}
@@ -233,1691 +230,171 @@ solution/print=false,
 
 %\input{../Modelos/gabarito}
 
-Total Prova: \printpoints
+%%Total Prova: \printpoints
 \smallbreak
 \medbreak
 \par\vspace{2ex}]%%%%\input{../Modelos/mamede}
 
 
 
-\collectexercises{Acidos}
 
+\collectexercises{kps}
 
-\begin{exercise}[points=1]
-Para combater a acidez estomacal causada pelo excesso de ácido clorídrico, costuma-se ingerir um antiácido. Das substâncias abaixo, encontradas no cotidiano das pessoas, a mais indicada para combater a acidez é:
+\begin{exercise}
+Escreva a expressão da constante de solubilidade dos seguintes compostos
 
 \begin{choice}
-\choice refrigerante.
-\choice suco de laranja.
-\choice água com limão.
-\choice vinagre.
-\choice leite de magnésia, \ch{Mg(OH)2}
+\choice \ch{BaCO3} 
+\choice \ch{CaSO4} 
+\choice \ch{Al$\ell$(OH)3} 
+\choice \ch{Ag2CrO4} 
+\choice CoS 
+\choice \ch{Mg(OH)2} 
+\choice \ch{Fe(OH)3} 
+\choice \ch{Zn(OH)2} 
+\choice \ch{PbC$\ell$2} 
+\choice \ch{Ag2S} 
+\choice \ch{Pb3(PO4)2} 
+\choice \ch{CaF2} 
+\choice \ch{PbBr4} 
+\choice \ch{Fe4(P2O7)3} 
+\choice FeS
 \end{choice}
 \end{exercise}
 
-
-
-
-
-\begin{exercise}[points=1]
-O creme dental é básico, porque:
-
-\begin{choice}
-\choice produz dentes mais brancos.
-\choice a saliva é ácida.
-\choice tem gosto melhor.
-\choice se fosse ácido, iria corroer o tubo (bisnaga).
-\choice mais espuma.
-\end{choice}
-\end{exercise}
-
-
-
-
-\begin{exercise}[points=1]
-Observe as fórmulas do sulfato de amônio \ch{(NH4)2SO4} e do hidróxido de potássio
-KOH e assinale a alternativa que apresenta a fórmula do hidróxido de amônio, substância presente
-em alguns produtos de limpeza.
-
-
-\begin{choice}
-\choice  \ch{NH4^{1+}}
-\choice \ch{(NH4)2OH}
-\choice \ch{NH4(OH)2}
-\choice \ch{NH4OH}
-\choice \ch{NH4(OH)4}
-\end{choice}
-\end{exercise}
-
-
-
-\begin{exercise}[points=1]
-Os ácidos, segundo a teoria de dissociação de Arrhenius, são compostos moleculares
-que, ao ser dissolvidos em água, geram íons  \ch{H^+_{\aq}}. Como é chamado o processo de
-formação de íons que ocorre quando um ácido é dissolvido em água?
-
-\begin{choice}
-\choice Dissociação iônica.
-\choice Ionização.
-\choice Eletrólise.
-\choice Hidratação.
-\choice Eletrolítica.
-\end{choice}
-\end{exercise}
-
-
-
-
-\begin{exercise}[points=1.0]
-Dentre as espécies químicas, citadas, é classificado como ácido de Arrhenius:
-
-\begin{choice}(2)
-\choice \ch{Na2CO3}
-\choice KOH
-\choice \ch{Na2O}
-\choice \ch{HC$\ell$}
-\choice LiH
-\end{choice}
-\end{exercise}
-
-
-
-
-
-\collectexercisesstop{Acidos}
-
-
-\collectexercises{Bases}
-
-
-
-
-
-\begin{exercise}[points=1]
-Observe as fórmulas do sulfato de amônio \ch{(NH4)2SO4} e do hidróxido de potássio
-KOH e assinale a alternativa que apresenta a fórmula do hidróxido de amônio, substância presente
-em alguns produtos de limpeza.
-
-
-\begin{choice}
-\choice  \ch{NH4^{1+}}
-\choice \ch{(NH4)2OH}
-\choice \ch{NH4(OH)2}
-\choice \ch{NH4OH}
-\choice \ch{NH4(OH)4}
-\end{choice}
-\end{exercise}
-
-
-
-\begin{exercise}[points=1]
-Sabor adstringente é o que percebemos quando comemos uma banana verde (não madura). Que substância a seguir teria sabor
-adstringente?
-\begin{choice}
-\choice \ch{CH3COOH}.
-\choice \ch{NaC$\ell$}.
-\choice \ch{A$\ell$(OH)3}.
-\choice \ch{C12H22O11}.
-\choice \ch{H3PO4}.
-\end{choice}
-\end{exercise}
-
-\begin{exercise}[points=1]
-O sangue do diabo é um líquido vermelho que logo se descora ao ser aspergido sobre um tecido branco. Para prepará-lo, adiciona-se \ch{NH4OH} em água, contendo algumas gotas de fenolftaleína. A cor desaparece porque:
-
-\begin{choice}
-\choice O tecido branco reage com a solução formando ácido amoníaco.
-\choice A fenolftaleína evapora.
-\choice A fenolftaleína reage rapidamente com o \ch{NH4OH}.
-\choice O \ch{NH3} logo evapora.
-\choice A solução é assim denominada devida à sua alta viscosidade.
-\end{choice}
-\end{exercise}
-
-
-
-\collectexercisesstop{Bases}
-\collectexercises{FuncoesOxigenadasIII}
-
-
-
-\begin{exercise}[points=1.0]
-A baunilha é uma espécie de orquídea. A partir de sua flor, é produzida a vanilina (conforme representação química), que dá origem ao aroma de baunilha.
-
-\begin{center}
-\chemfig{OH-[:270,,1]-[:330](-[:30,,,1]OCH_3)=_[:270]-[:210](-[:270]COH)=_[:150]-[:90](=_[:30])}
-\end{center}
-
-
-Na vanilina estão presentes as funções orgânicas.
-
-\begin{choice}
-\choice aldeído, éter e fenol.
-\choice álcool, aldeído e éter.
-\choice álcool, cetona e fenol.
-\choice aldeído, cetona e fenol.
-\choice ácido carboxílico, aldeído e éter.
-\end{choice}
+\begin{exercise}
+Sabendo que a solubilidade do cromato de prata – \ch{Ag2CrO4} – é de \num{2.5e-2} g/L, a determinada temperatura, calcular o seu produto de solubilidade nessa temperatura.
 \end{exercise}
 \begin{solution}
-LETRA A
+\num{1.7e-12} \unit{\mol\per\litre}
+\end{solution}
+
+\begin{exercise}
+Calcule o K\(_{ps}\) do fosfato de prata – \ch{Ag3PO4}, sabendo que a sua solubilidade é de \num{6.5e-3} g/L.
+\end{exercise}
+\begin{solution}
+\num{1.59e-18}
+\end{solution}
+
+\begin{exercise}
+A solubilidade do fosfato de chumbo II – \ch{Pb3(PO4)2} – é de \num{1.4e-4} g/L. Determine o k\textsubscript{s} desse sal.
+\end{exercise}
+\begin{solution}
+\num{1.62e-32}
+\end{solution}
+
+\begin{exercise}
+Determine o produto de solubilidade do cloreto de chumbo II – \ch{PbC$\ell$2}  – cuja solubilidade é de 11 \unit{\gram\per\litre}
+\end{exercise}
+\begin{solution}
+\num{2.37e-4}
+\end{solution}
+
+\begin{exercise}
+A solubilidade do hidróxido férrico – \ch{Fe(OH)3} – em uma determinada temperatura é de \num{4.82e-8} \unit{\gram\per\litre}. Determine o seu produto de solubilidade nessa temperatura. 
+\end{exercise}
+\begin{solution}
+\num{1.1e-36}
+\end{solution}
+
+\begin{exercise}
+A solubilidade do carbonato de bário – \ch{BaCO3} – é de \num{1.3e-2} \unit{\mol\per\litre}. Descubra o produto de solubilidade desse sal.
+\end{exercise}
+\begin{solution}
+\num{1.69e-4}
+\end{solution}
+
+\begin{exercise}
+Prepara-se um litro de uma solução saturada de cloreto de prata – \ch{AgC$\ell$} . Calcule a constante de solubilidade, sabendo que foi dissolvido \num{1.7e-3} g desse sal.
+\end{exercise}
+\begin{solution}
+\num{1.4e-10}
+\end{solution}
+
+\begin{exercise}
+Determinar a solubilidade (em \unit{\mol\per\litre}) do sulfeto de prata (\ch{Ag2S}) a certa temperatura, sabendo que o produto de solubilidade nessa temperatura é \num{1.6e-48}.
+\end{exercise}
+\begin{solution}
+\num{7.7e-17} mol/L
 \end{solution}
 
 
-
-
-\begin{exercise}[points=1.0]
-Uma forma de organização de um sistema biológico é a presença de sinais diversos utilizados pelos indivíduos para se comunicarem. No caso das abelhas da espécie \emph{Apis mellifera}, os sinais utilizados podem ser feromônios. Para saírem e voltarem de suas colmeias, usam um feromônio que indica a trilha percorrida por elas (Composto A). Quando pressentem o perigo, expelem um feromônio de alarme (Composto B), que serve de sinal para um combate coletivo. O que diferencia cada um desses sinais utilizados pelas abelhas são as estruturas e funções orgânicas dos feromônios.
-
-\begin{tabular}{cc}
-\chemfig{-[:270](=[:330]-[:30]CH_2OH)-[:210]-[:270]-[:330]=[:270](-[:210])-[:330]} & \chemfig{CH_3COO|{(CH_2)}CH(-[:-30]CH_3)-[:30]CH_3}\\
-{\bfseries Composto A} & {\bfseries Composto B}
-\end{tabular}
-
-As funções orgânicas que caracterizam os feromônios de trilha e de alarme são, respectivamente,
-
-\begin{choice}(2)
-\choice álcool e éster.
-\choice aldeído e cetona.
-\choice éter e hidrocarboneto.
-\choice enol e ácido carboxílico.
-\choice ácido carboxílico e amida.
-\end{choice}
+\begin{exercise}
+Sabe-se que o K\textsubscript{s} do fosfato de prata – \ch{Ag3PO4}, a 25O ºC, é \num{1.56e-48}. Determine a solubilidade do sal nessa temperatura.
 \end{exercise}
 \begin{solution}
-Letra A álcool e éster
+\num{4.8e-13}
 \end{solution}
 
 
-
-
-
-\begin{exercise}[points=1.0]
-A aspirina é um composto que possui propriedades antitérmica e analgésica, e tem como princípio ativo a estrutura representada na figura a seguir. Quais grupos funcionais orgânicos encontram-se neste composto.
-\begin{center}
-\chemfig{CH_3-[:210,,1](=[:270]O)-[:150]O-[:210]=_[:270]-[:210]=_[:150]-[:90]=_[:30](-[:330])-[:90](=[:150]O)-[:30,,,1]OH}
-\end{center}
-\begin{choice}
-\choice cetona, aldeído e aromático.
-\choice ácido carboxílico, éter e alcano.
-\choice cetona, amida e alceno.
-\choice ácido carboxílico, éster e aromático.
-\choice fenol, éster e aromático.
-\end{choice}
+\begin{exercise}
+Calcule a solubilidade em água, a 18O ºC, do sulfeto férrico – \ch{Fe2S3} – sabendo que nessa temperatura o seu produto de solubilidade é \num{3.456e-52}.
 \end{exercise}
 \begin{solution}
-LETRA D
+\num{2e-11}
 \end{solution}
 
 
-
-
-
-\begin{exercise}[points=1.0]
-A testosterona (I) é um hormônio sexual masculino responsável, entre outras coisas, pelas alterações sofridas pelos rapazes na puberdade. Já a progesterona (II) é um hormônio sexual feminino, indispensável à gravidez e estão representadas pelas respectivas estruturas abaixo. Assinale a alternativa que indica corretamente às funções orgânicas presentes nas duas substâncias
-\begin{center}
-{\bfseries I Testosterona}
-\chemfig[cram width=4pt]{OH>[:252,,1]-[:306]-[:234]>[:162]-[:210]-[:270]-[:210]-[:150]=_[:210]-[:150](=[:210]O)-[:90]-[:30]-[:330](-[:270])(<[:90,,,1]CH_3)-[:30](-[:330])-[:90]-[:30]-[:330](-[:270])(-[:18])<[:84,,,1]CH_3}
-
-{\bfseries II Progesterona}
-
- \chemfig[cram width=4pt]{H_3C-[:282,,2](=[:342]O)>[:222]-[:276]-[:204]>[:132]-[:60](-[:348])(<[:54,,,1]CH_3)-[:120]-[:180]>[:240]-[:300](-)<:[:240]-[:180]-[:120]=_[:180]-[:120](=[:180]O)-[:60]--[:300](-)(-[:240])<[:60,,,1]CH_3}
- \end{center}
-\begin{choice}
-\choice I – fenol e cetona; II - cetona.
-\choice I – ácido e cetona; II - aldeído.
-\choice I – álcool e cetona; II - aldeído.
-\choice I – fenol e cetona; II - ácido.
-\choice I – álcool e cetona; II - cetona
-\end{choice}
+\begin{exercise}
+O produto de solubilidade, a 20O ºC, do hidróxido férrico – \ch{Fe(OH)3} – é \num{1.16e-16}. Descubra a solubilidade, a 20O ºC, em g/L, dessa base.
 \end{exercise}
 \begin{solution}
-LETRA E 
+\num{4.8e-3} g/L
+\end{solution}
+
+\begin{exercise}
+Calcule a solubilidade do sulfeto de manganês II – MnS – em g/L, sabendo que o seu produto de solubilidade é \num{2e-15} .
+\end{exercise}
+\begin{solution}
+\num{3.88e-6}
 \end{solution}
 
 
+\begin{exercise}
+Descubra a massa de sulfeto de ferro II – FeS – necessária para que sejam preparados 500 mL de solução saturada desse sal, sabendo que o seu produto de solubilidade é \num{4e-19}.
+\end{exercise}
+\begin{solution}
+\num{2.78e-8}
+\end{solution}
+
+\begin{exercise}
+Quantos gramas de sulfato de bário – \ch{BaSO4} – são necessários para preparar um litro de solução saturada, sabendo que o produto de solubilidade desse sal é \num{1.1e-10}?
+\end{exercise}
+\begin{solution}
+\num{2.44e-3}
+\end{solution}
+
+\begin{exercise}
+A dose letal de íons  \ch{Ba^{+2}} para o ser humano é de \num{2e-3} mol de íons  \ch{Ba^{+2}} por litro de sangue. Para se submeter a um exame de raios-X, um paciente ingeriu 200 mL de uma suspensão de sulfato de bário – \ch{BaSO4} . Supondo-se que os íons  \ch{Ba^{+2}} solubilizados na suspensão foram integralmente absorvidos pelo organismo e dissolvidos em 5 litros de sangue, discuta se essa dose coloca em risco a vida do paciente, considerando que o produto de solubilidade do sulfato de bário é igual a \num{1e-10} \unit{\mol\per\litre}.
+\end{exercise}
+\begin{solution}
+Não coloca em risco, pois [ \ch{Ba^{+2}}]=\num{4e-7} \unit{\mol\per\litre}
+\end{solution}
 
 
+\begin{exercise}
+Em um béquer foram misturadas soluções aquosas de cloreto de potássio (\ch{KC$\ell$}), sulfato de sódio (\ch{Na2SO4}) e nitrato de prata (\ch{AgNO3}), ocorrendo, então, a formação de um precipitado branco, que se depositou no fundo de um béquer. A análise da solução sobrenadante revelou as seguintes concentrações: [\ch{Ag^+}]=\num{1.0e-3} \unit{\mol\per\litre}; [ \ch{SO4^{-2}}]=\num{1.0e-1} \unit{\mol\per\litre} e [\ch{C$\ell$^-}]=\num{1.6e-7} \unit{\mol\per\litre}. De que é constituído o sólido formado? Justifique com cálculos.
 
-\begin{exercise}[points=1.0]
-A curcumina, substância encontrada no pó amarelo-alaranjado extraído da raiz da curcuma ou açafrão-daíndia (\emph{Curcuma longa}), aparentemente, pode ajudar a combater vários tipos de câncer, o mal de Parkinson e o de Alzheimer e até mesmo retardar o envelhecimento. Usada há quatro milênios por algumas culturas orientais, apenas nos últimos anos passou a ser investigada pela ciência ocidental.
-
-\begin{center}
-\begin{center}
-\setchemfig{atom style={scale=0.8}}
-\chemfig{
-          HO% 21
-     -[:330]% 18
-    =^[:270]% 17
-               (
-         -[:210]O% 22
-         -[:270]% 23
-               )
-     -[:330]% 16
-     =^[:30]% 15
-               (
-          -[:90]% 20
-        =^[:150]% 19
-         -[:210]% -> 18
-               )
-     -[:330]% 14
-      =[:30]% 13
-     -[:330]% 12
-      -[:30]% 11
-               (
-          -[:90]OH% 24
-               )
-     =[:330]% 10
-      -[:30]% 9
-               (
-          =[:90]O% 25
-               )
-     -[:330]% 8
-      =[:30]% 7
-     -[:330]% 6
-    =^[:270]% 5
-     -[:330]% 4
-     =^[:30]% 3
-               (
-         -[:330]OH% 26
-               )
-      -[:90]% 2
-               (
-        =^[:150]% 1
-         -[:210]% -> 6
-               )
-      -[:30]O% 27
-      -[:90]% 28
+\begin{tblr}[
+]{
+colspec = {ccc}, colsep = 2mm, hlines = {1pt, white},
+row{1} = {2em,azure2,fg=white,font=\bfseries},
 }
-\end{center}
-\end{center}
-
-Na estrutura da curcumina, identificam-se grupos característicos das funções
-
-\begin{choice}(2)
-\choice éter e álcool.
-\choice éter e fenol.
-\choice éster e fenol.
-\choice aldeído e enol.
-\choice aldeído e éster.
-\end{choice}
-\end{exercise}
-\begin{solution}
-B
-\end{solution}
-
-
-
-\begin{exercise}[points=1.0]
-Um trabalho publicado na Nature Medicine, em 2016, mostrou que Withaferin A, um componente do extrato da planta \emph{Withania somnifera} (cereja de inverno), reduziu o peso, entre 20 a 25\%, em ratos obesos alimentados em dieta de alto teor de gorduras
-
-
-
-\begin{center}
-\chemfig[cram width=3.5pt]{
-    HO% 7
-     >[:60]% 4
-          -% 3
-     -[:60]% 2
-              (
-        -[:120]% 1
-                  (
-             =[:60]O% 27
-                  )
-        -[:180]% 6
-        -[:240]% 5
-        -[:300]% -> 4
-              )
-              (
-         <[:80]% 26 metil 
-              )
-          -% 11
-              (
-        <:[:100]H% 22
-              )
-    -[:300]% 10
-              (
-        -[:240]% 9
-        -[:180]% 8
-                  (
-            -[:180]O% 24
-             >[:60]% -> 3
-                  )
-                  (
-            <:[:270]H% 25
-                  )
-        -[:120]% -> 3
-              )
-              (
-        <[:280]H% 23
-              )
-          -% 15
-              (
-        <:[:266]OH% 20
-              )
-     -[:60]% 14
-              (
-        -[:120]% 13
-        -[:180]% 12
-        -[:240]% -> 11
-              )
-              (
-         <[:54]% 21
-              )
-    -[:348]% 18
-              (
-         -[:42]% 19
-              )
-    <[:276]% 17
-    -[:204]% 16
-              (
-        -[:132]% -> 15
-              )
-}
-\end{center}
-
-Entre as funções orgânicas presentes na Withaferin A, estão
-
-\begin{choice}
-\choice ácido carboxílico e cetona.
-\choice aldeído e éter.
-\choice cetona e hidroxila alcoólica.
-\choice cetona e éster.
-\choice éster e hidroxila fenólica. 
-\end{choice}
-\end{exercise}
-
-
-
-
-
-
-
-\begin{exercise}[points=1.0]
-A questão refere-se ao geraniol, um óleo essencial de aroma floral, como o de rosas.
-
-\begin{center}
-\chemfig{
-HO% 4
-    -[:330,,2]% 3
-        -[:30]% 2
-       =[:330]% 1
-                 (
-           -[:270]% 11
-                 )
-        -[:30]% 5
-       -[:330]% 6
-        -[:30]% 7
-       =[:330]% 8
-                 (
-           -[:270]% 9
-                 )
-        -[:30]% 10
-}
-\end{center}
-
-O geraniol é um
-
-
-\begin{choice}(2)
-\choice álcool.
-\choice enol.
-\choice fenol.
-\choice alcino.
-\choice aldeído. 
-\end{choice}
-\end{exercise}
-
-
-
-
-
-
-\begin{exercise}[points=1.0]
-A bile é produzida pelo fígado, armazenada na vesícula biliar e tem papel fundamental na digestão de lipídeos. Os sais biliares são esteroides sintetizados no fígado a partir do colesterol, e sua rota de síntese envolve várias etapas. Partindo do ácido cólico representado na figura, ocorre a formação dos ácidos glicocólico e taurocólico; o prefixo glico- significa a presença de um resíduo do aminoácido glicina e o prefixo tauro-, do aminoácido taurina.
-
-\begin{center}
-\setchemfig{atom style={rotate=30}}
-\chemfig[cram width=3.7pt]{
-      H% 1
-    >:[:300]% 2
-     -[:180]% 3
-     -[:240]% 4
-               (
-     <[:180,,,2]HO% 5
-               )
-     -[:300]% 6
-           -% 7
-      -[:60]% 8
-               (
-         -[:120]% -> 2
-               )
-               (
-        <:[:280]% 9
-               )
-           -% 10
-               (
-         <[:260]H% 11
-               )
-     -[:300]% 12
-           -% 13
-               (
-     <[:300,,,1]OH% 14
-               )
-      -[:60]% 15
-               (
-        <:[:306]% 16
-               )
-      -[:12]% 17
-               (
-         <[:286]H% 18
-               )
-               (
-               -% 28
-                   (
-              -[:60]% 30
-                   -% 31
-              -[:60]% 32
-                       (
-                       =O% 34
-                       )
-         -[:120,,,2]HO% 33
-                   )
-         <[:300]% 29
-               )
-      -[:84]% 19
-     -[:156]% 20
-     -[:228]% 21
-               (
-         -[:300]% -> 15
-               )
-               (
-          <[:84]H% 22
-               )
-     -[:180]% 23
-               (
-         -[:240]% -> 10
-               )
-               (
-         <:[:70]H% 24
-               )
-     -[:120]% 25
-               (
-      <[:60,,,1]OH% 26
-               )
-     -[:180]% 27
-               (
-         -[:240]% -> 2
-               )
-}
-\end{center}
-
-as funções orgânicas presentes na estrutura são:
-
-
-\begin{choice}(2)
-\choice Enol e álcool.
-\choice Fenol e Enol.
-\choice Fenol e Éter.
-\choice Ácido e álcool.
-\choice Aldeído e éter. 
-\end{choice}
-\end{exercise}
-\begin{solution}
-D
-\end{solution}
-
-
-
-\begin{exercise}[points=1.0]
-Uma das formas de se obter tinta para pintura corporal utilizada por indígenas brasileiros é por
-meio do fruto verde do jenipapo. A substância responsável pela cor azul intensa dessa tinta é a
-genipina, cuja estrutura está representada a seguir.
-
-\begin{center}
-\begin{tikzpicture}
-\node at (0,0) {\chemfig[cram width=4pt]{
-          OCH_3% 8
-      -[:90]% 7
-               (
-         =[:150]O% 9
-               )
-      -[:30]% 4
-    >:[:330]% 3
-      -[:30]% 2
-               (
-         <:[:90]% 1
-         -[:150]O% 6
-         -[:210]% 5
-        =^[:270]% -> 4
-               )
-     -[:318]% 12
-               (
-          -[:12]% 13
-     -[:312,,,1]OH% 14
-               )
-    =_[:246]% 11
-     -[:174]% 10
-               (
-         -[:102]% -> 3
-               )
-}};
-\node at (2.4, -0.8) [draw,dashed,inner sep=0pt,circle,yscale=1.8cm,xscale=2.0cm]{};
-\end{tikzpicture}
-\end{center}
-
-A estrutura assinalada mostra que a genipina possui, entre outras, a função orgânica
-
-
-\begin{choice}(2)
-\choice aldeído.
-\choice álcool.
-\choice cetona.
-\choice ácido carboxílico.
-\choice éter.
-\end{choice}
-\end{exercise}
-
-
-
-\begin{exercise}[points=1.0]
-O sesterpenóide manoalido, isolado de uma esponja do Pacífico (\emph{Luffariella variablis}), é um inibidor irreversível de fosfolipase A2 (PLA2). Dessa forma, é um alvo terapêutico para ser usado no tratamento de doenças inflamatórias. Na representação de uma de suas formas tautoméricas, a seguir, podemos encontrar respectivamente as seguintes funções orgânicas
-
-
-\begin{center}
-\small
-\chemfig{-[:290](-[:70])-[:330](=_[:270](-[:330])-[:210]-[:150]-[:90]-[:30])-[:30]-[:330]-[:30](-[:90])=[:330]-[:30]-[:330]-[:30]-[:330]-[:30]-[:90](-[:150]O-[:210](<[:150,,,2]HO)-[:270])<[:30](-[:336]=[:270]O)-[:84]-[:12](=[:66]O)-[:300,,,1]OH}
-\end{center}
-
-\begin{choice}
-\choice ácido carboxílico, fenol, éster, álcool.
-\choice ácido carboxílico, éster, amina, álcool.
-\choice álcool, ácido carboxílico, éter, aldeído.
-\choice ácido carboxílico, éter, fenol, álcool.
-\choice álcool, fenol, éster, éter.
-\end{choice}
-\end{exercise}
-\begin{solution}
-LETRA C
-\end{solution}
-
-
-
-
-
-
-\begin{exercise}[points=1.0]
-A estrutura da fenolftaleína contém os grupos 
-\begin{center}
-\chemfig{
-              OH% 14
-    -[:240,,1]% 11
-      =_[:300]% 10
-       -[:240]% 9
-      =_[:180]% 8
-                 (
-           -[:120]% 13
-           =_[:60]% 12
-                 -% -> 11
-                 )
-       -[:240]C% 7
-                 (
-           -[:228]% 6
-          =_[:300]% 5
-                     (
-                -[:12]% 23
-                         (
-                   =[:318]O% 24
-                         )
-                -[:84]O% 22
-               -[:156]\phantom{C}% -> 7
-                     )
-           -[:240]% 4
-          =_[:180]% 3
-           -[:120]% 2
-           =_[:60]% 1
-                 -% -> 6
-                 )
-       -[:144]% 15
-       =^[:84]% 16
-       -[:144]% 17
-      =^[:204]% 18
-                 (
-       -[:144,,,2]HO% 21
-                 )
-       -[:264]% 19
-      =^[:324]% 20
-                 (
-            -[:24]% -> 15
-                 )
-}
-\end{center}
-
-os seguintes grupos funcionais
-
-
-\begin{choice}(2)
-\choice ácido carboxílico.
-\choice aldeído.
-\choice álcool.
-\choice éster.
-\choice éter.
-\end{choice}
-\end{exercise}
-
-
-
-
-
-\begin{exercise}[points=1.0]
-O aroma natural da baunilha, encontrado em doces e sorvetes, deve-se ao composto chamado vanilina, cuja fórmula estrutural está reproduzida ao lado. Em relação à molécula da vanilina, é correto afirmar que as funções químicas encontradas são:
-
-
-\chemfig{
-   O% 8
-     =[:90]% 7
-              (
-    -[:150]H% 9
-              )
-     -[:30]% 6
-   =^[:330]% 5
-     -[:30]% 4
-              (
-        -[:330]O% 10
-        -[:270]CH_3% 11
-              )
-    =^[:90]% 3
-              (
-     -[:30,,,1]OH% 12
-              )
-    -[:150]% 2
-   =^[:210]% 1
-              (
-        -[:270]% -> 6
-              )
-}
-
-\begin{choice}
-\choice álcool, éter e éster.
-\choice álcool, ácido e fenol.
-\choice aldeído, álcool e éter.
-\choice aldeído, éster e fenol.
-\choice aldeído, éter e fenol.
-\end{choice}
-\end{exercise}
-\begin{solution}
-E
-\end{solution}
-
-
-\begin{exercise}[points=1]
-A estrutura acima representa a alizarina, um corante amarelo conhecido desde a antiguidade.
-
-\begin{center}
-\chemfig{
-   O =[:300]% 10
-           -% 9
-    =^[:300]% 8
-               (
-               -% 15
-                   (
-         -[:300,,,1]OH% 16
-                   )
-         =^[:60]% 14
-                   (
-             -[,,,1]OH% 17
-                   )
-         -[:120]% 13
-        =^[:180]% 12
-         -[:240]% -> 9
-               )
-     -[:240]% 7
-               (
-         =[:300]O% 18
-               )
-     -[:180]% 6
-    =^[:120]% 5
-               (
-          -[:60]% -> 10
-               )
-     -[:180]% 4
-    =^[:240]% 3
-     -[:300]% 2
-          =^% 1
-               (
-          -[:60]% -> 6
-               )
-}
-\end{center}
-
-Com base nessa informação e nos conhecimentos sobre as cadeias e funções orgânicas, pode-se afirmar que esse corante:
-\begin{choice}
-\choice possui grupos funcionais cetona e fenol.
-\choice é um álcool secundário.
-\choice tem cadeia alicíclica insaturada.
-\choice apresenta heteroátomo na cadeia.
-\choice possui núcleos isolados.
-\end{choice}
-\end{exercise}
-\begin{solution}
-A
-\end{solution}
-
-
-\begin{exercise}[points=1]
-O bactericida FOMECIN A, cuja fórmula estrutural é:
-
-\begin{center}
-\chemfig{
-       HO% 8
-    -[:300,,2]% 7
-             -% 6
-      =^[:300]% 5
-                 (
-           -[:240]% 9
-           =[:180]O% 10
-                 )
-             -% 4
-                 (
-       -[:300,,,1]OH% 11
-                 )
-       =^[:60]% 3
-                 (
-           -[,,,1]OH% 12
-                 )
-       -[:120]% 2
-                 (
-        -[:60,,,1]OH% 13
-                 )
-      =^[:180]% 1
-                 (
-           -[:240]% -> 6
-                 )
-}
-\end{center}
-
-
-O mesmo apresenta as funções de:
-\begin{choice}
-\choice ácido carboxílico e fenol.
-\choice álcool, fenol e éter.
-\choice álcool, fenol e aldeído.
-\choice éter, álcool e aldeído.
-\choice cetona, fenol e hidrocarboneto.
-\end{choice}
-\begin{solution}
-C
-\end{solution}
-\end{exercise}
-
-
-
-
-\begin{exercise}[points=1.0]
-Compostos mais complexos que contêm grupos funcionais fenólicos são comumente encontrados na natureza, especialmente como produtos naturais vegetais. Por exemplo, alguns dos principais metabólitos encontrados no chá verde são os compostos polifenólicos de catequina.
-
-\chemfig{
-           HO% 19
-    -[:300,,2]% 17
-       -[:240]% 16
-                 (
-       -[:180,,,2]HO% 20
-                 )
-      =^[:300]% 15
-                 (
-       -[:240,,,2]HO% 21
-                 )
-             -% 14
-       =^[:60]% 13
-                 (
-           -[:120]% 18
-          =^[:180]% -> 17
-                 )
-             -% 12
-                 (
-            =[:60]O% 22
-                 )
-       -[:300]O% 11
-             -% 9
-       -[:300]% 8
-                 (
-          <:[:240]% 23
-          =_[:300]% 24
-           -[:240]% 25
-                     (
-           -[:300,,,1]OH% 31
-                     )
-          =_[:180]% 26
-                     (
-           -[:240,,,2]HO% 30
-                     )
-           -[:120]% 27
-                     (
-           -[:180,,,2]HO% 29
-                     )
-           =_[:60]% 28
-                 -% -> 23
-                 )
-             -O% 7
-        -[:60]% 6
-      =_[:120]% 5
-                 (
-           -[:180]% 10
-           -[:240]% -> 9
-                 )
-        -[:60]% 4
-                 (
-       -[:120,,,2]HO% 32
-                 )
-            =_% 3
-       -[:300]% 2
-                 (
-           -[,,,1]OH% 33
-                 )
-      =_[:240]% 1
-                 (
-           -[:180]% -> 6
-                 )
-}
-
-\begin{choice}(2)
-\choice Álcool, Fenol e  Cetona
-\choice Fenol, Epoxi e Ester
-\choice Aldeído, Éter e Enol
-\choice Cetona, Enol e Aldeído
-\choice Eter, Álcool e Enol 
-\end{choice}
-\end{exercise}
-\begin{solution}
-B
-\end{solution}
-
-
-
-\begin{exercise}[points=1.0]
-Qual é a fórmula geral de um álcool?
-\begin{choice}
-\choice R-COOH
-\choice R-OH
-\choice R-CO-R'
-\choice R-CHO
-\choice R-O-R
-\end{choice}
-\end{exercise}
-\begin{solution}
-B
-\end{solution}
-
-
-
-
-
-
-
-\begin{exercise}[points=1.0]
-O tetraidrocanabinol (THC), um dos principais componentes da
-\emph{Cannabis}, é o responsável pelas propriedades medicinais.
-
-
-\begin{tikzpicture}
-\node[draw=none] at (0,0) { 
- \chemfig[cram width=4pt]{
-         % 8
-     -[:140]% 7
-               (
-         -[:260]% 9
-               )
-      -[:60]% 4
-               (
-        <:[:300]H% 23
-               )
-     -[:120]% 3
-               (
-          -[:60]% 2
-              =_% 1
-                   (
-              -[:60]% 25
-                   )
-         -[:300]% 6
-         -[:240]% 5
-         -[:180]% -> 4
-               )
-               (
-         <[:120]H% 24
-               )
-     -[:180]% 12
-    =_[:240]% 11
-               (
-         -[:300]O% 10
-               -% -> 7
-               )
-     -[:180]% 16
-    =_[:120]% 15
-               (
-          -[:60]% 14
-              =_% 13
-                   (
-          -[:60,,,1]OH% 22
-                   )
-         -[:300]% -> 12
-               )
-     -[:180]% 17
-     -[:120]% 18
-     -[:180]% 19
-     -[:120]% 20
-     -[:180]% 21
-}
-};
-\node[draw=none] at (1,-2) {\bfseries THC};
-\end{tikzpicture}  
-
-Quais as funções orgânicas presentes na estrutura.
-
-\begin{choice}(2)
-\choice éster e fenol.
-\choice éter e fenol.
-\choice éster e álcool.
-\choice fenol e álcool.
-\choice éter e álcool.
-\end{choice}
-\end{exercise}
-\begin{solution}
-B
-\end{solution}
-
-
-
-\begin{exercise}[points=1.0]
-A fórmula representa a estrutura do geranial, também conhecido como citral A, um dos compostos responsáveis pelo aroma do limão.
-
-\begin{center}
-\chemfig{
-        O% 4
-              =[:330]% 3
-               -[:30]% 2
-              =[:330]% 1
-                        (
-                  -[:270]CH_3% 11
-                        )
-               -[:30]% 5
-              -[:330]% 6
-               -[:30]% 7
-              =[:330]% 8
-                        (
-                  -[:270]CH_3% 9
-                        )
-               -[:30]CH_3% 10
-}
-\end{center}
-
-O geranial é um composto pertencente à função orgânica
-
-\begin{choice}(2)
-\choice cetona.
-\choice éter.
-\choice éster.
-\choice ácido carboxílico
-\choice aldeído
-\end{choice}
-\end{exercise}
-\begin{solution}
-E
-\end{solution}
-
-
-
-\begin{exercise}[points=1.0]
-A cerveja de raiz não tem o mesmo sabor desde que o uso do óleo de sassafrás como aditivo alimentar foi proibido porque o óleo de sassafrás contém 80\% de safrol, que comprovadamente causa câncer em ratos e camundongos. Identifique os grupos funcionais na estrutura do safrol.
-
-
-
-\chemfig{=[:330]-[:30]-[:330]-[:30]-[:90](-[:150]-[:210]-[:270])-[:18]O%
--[:306]-[:234]O(-[:162])}
-
-
-\begin{choice}(2)
-\choice cetona.
-\choice éter.
-\choice éster.
-\choice ácido carboxílico
-\choice aldeído
-\end{choice}
-\end{exercise}
-\begin{solution}
-B
-\end{solution}
-
-
-
-
-\begin{exercise}[points=1.0]
-A descoberta da penicilina em 1928 marcou o início do que foi chamado de “era de ouro da quimioterapia”, na qual infecções bacterianas que antes ameaçavam a vida foram transformadas em pouco mais do que uma fonte de desconforto. Para aqueles que são alérgicos à penicilina, estão disponíveis uma variedade de antibióticos, incluindo a tetraciclina.
-
-\chemfig[atom style={scale=0.7},cram width=4pt]{O=[:270,1.613]-[:210,1.613](<:[:90,1.613]O-[:130]H)-[:270,1.613](%
--[:210.9,1.68](-[:150.4,1.68](-[:90,1.68](-[:149.8,1.613](-[:209.8,1.613]N(%
--[:269.8]H)-[:149.8]H)=[:89.8,1.613]O)=_[:29.6,1.68](-[:329.1,1.68])%
--[:109.3,1.613]O-[:169.3]H)=[:210.2,1.613]O)(-[:330.8]H)<:[:270.7,1.613]N(%
--[:330.7,1.613](-[:330.7]H)(-[:60.7]H)-[:240.7]H)-[:210.7,1.613](-[:210.7]H%
-)(-[:300.7]H)-[:120.7]H)(<:[:270.4,1.371]H)-[:330,1.613](-[:230]H)(-[:310]H%
-)-[:30,1.613](<:[:269.6,1.371]H)-[:329.1,1.68](<[:299.3,1.613]O-[:239.3]H)(%
--[:239.3,1.613](-[:239.3]H)(-[:329.3]H)-[:149.3]H)-[:29.6,1.68]=_[:90,1.68]%
-(-[:150.4,1.68](=^[:210.9,1.68](-[:150,1.613])-[:270,1.613])-[:90.7,1.613]O%
--[:30.7]H)-[:30.9,1.75](-[:90.7,1.613]O-[:30.7]H)=_[:330.4,1.75](-[:30.2]H)%
--[:270,1.75](-[:329.8]H)=_[:209.6,1.75](-[:149.1,1.75])-[:269.3]H}
-
-Identifique os numerosos grupos funcionais oxigenados na molécula de tetraciclina.
-
-
-
-
-\begin{choice}(1)
-\choice cetona, enol, éter.
-\choice éter, éster , cetona
-\choice cetona, álcool e enol.
-\choice aldeído, cetona, fenol
-\choice aldeído, éter, éster
-\end{choice}
-\end{exercise}
-\begin{solution}
-A
-\end{solution}
-
-
-
-\begin{exercise}[points=1.0]
-A descoberta da penicilina em 1928 marcou o início do que foi chamado de “era de ouro da quimioterapia”, na qual infecções bacterianas que antes ameaçavam a vida foram transformadas em pouco mais do que uma fonte de desconforto. Para aqueles que são alérgicos à penicilina, estão disponíveis uma variedade de antibióticos, incluindo a tetraciclina.
-
-\chemfig[atom style={scale=0.7},cram width=4pt]{O=[:270,1.613]-[:210,1.613](<:[:90,1.613]O-[:130]H)-[:270,1.613](%
--[:210.9,1.68](-[:150.4,1.68](-[:90,1.68](-[:149.8,1.613](-[:209.8,1.613]N(%
--[:269.8]H)-[:149.8]H)=[:89.8,1.613]O)=_[:29.6,1.68](-[:329.1,1.68])%
--[:109.3,1.613]O-[:169.3]H)=[:210.2,1.613]O)(-[:330.8]H)<:[:270.7,1.613]N(%
--[:330.7,1.613](-[:330.7]H)(-[:60.7]H)-[:240.7]H)-[:210.7,1.613](-[:210.7]H%
-)(-[:300.7]H)-[:120.7]H)(<:[:270.4,1.371]H)-[:330,1.613](-[:230]H)(-[:310]H%
-)-[:30,1.613](<:[:269.6,1.371]H)-[:329.1,1.68](<[:299.3,1.613]O-[:239.3]H)(%
--[:239.3,1.613](-[:239.3]H)(-[:329.3]H)-[:149.3]H)-[:29.6,1.68]=_[:90,1.68]%
-(-[:150.4,1.68](=^[:210.9,1.68](-[:150,1.613])-[:270,1.613])-[:90.7,1.613]O%
--[:30.7]H)-[:30.9,1.75](-[:90.7,1.613]O-[:30.7]H)=_[:330.4,1.75](-[:30.2]H)%
--[:270,1.75](-[:329.8]H)=_[:209.6,1.75](-[:149.1,1.75])-[:269.3]H}
-
-Identifique os numerosos grupos funcionais oxigenados na molécula de tetraciclina.
-
-
-
-
-\begin{choice}(2)
-\choice cetona, enol, éter.
-\choice éter, éster , cetona
-\choice cetona, álcool e enol.
-\choice aldeído, cetona, fenol
-\choice aldeído, éter, éster
-\end{choice}
-\end{exercise}
-\begin{solution}
-A
-\end{solution}
-
-
-\collectexercisesstop{FuncoesOxigenadasIII}
-\collectexercises{FuncoesOxigenadasIV}
-
-\begin{exercise}[points=1.0]
-A estrutura da aspirina abaixo contém os seguintes grupos funcionais
-
-\begin{center}
-\chemfig{-[:60](=[:120]O)-O-[:300]=^[:240]-[:300]=^-[:60]=^[:120](-[:180])%
--[:60](=[:120]O)-[,,,1]OH}
-\end{center}
-
-Quais os grupos funcionais oxigenados presente.
-
-
-\begin{choice}(2)
-\choice cetona  e etér.
-\choice éter e enol.
-\choice éster e álcool.
-\choice ácido carboxílico e éster.
-\choice aldeído e éster
-\end{choice}
-\end{exercise}
-\begin{solution}
-D
-\end{solution}
-
-
-
-\begin{exercise}[points=1.0]
-O cetoprofeno é usado para aliviar a dor, sensibilidade, inchaço e rigidez causada pela osteoartrite (artrite causada por uma ruptura do revestimento das articulações) e artrite reumatóide (artrite causada pelo inchaço do revestimento das articulações).
-
-\begin{center}
-\chemfig{-[:270](-[:330](-[:30,,,1]OH)=[:270]O)-[:210]=^[:150]-[:210](%
-=^[:270]-[:330]=^[:30]-[:90])-[:150](=[:90]O)-[:210]=^[:150]-[:210]=^[:270]%
--[:330]=^[:30](-[:90])}
-\end{center}
-
-Quais os grupos funcionais oxigenados presente.
-
-
-\begin{choice}(2)
-\choice cetona  e enol.
-\choice éter e ácido carboxílico 
-\choice cetona e ácido carboxílico.
-\choice ácido carboxílico e éster.
-\choice aldeído e álcool.
-\end{choice}
-\end{exercise}
-\begin{solution}
-A
-\end{solution}
-
-
-\begin{exercise}[points=1.0]
-Khellin tem sido usado como uma medicina popular herbal, com uso no Mediterrâneo que remonta ao Egito Antigo, para tratar uma variedade de doenças, incluindo: cólicas renais, pedras nos rins, doença coronária, asma brônquica, vitiligo e psoríase.
-
-\begin{center}
-\chemfig{-[:330]=_[:30]-[:330](=[:30]O)-[:270]=_[:330](-[:30]O-[:330])%
--[:270]=^[:210](-[:150](-[:210]O-[:270])=_[:90](-[:150]O-[:90])-[:30])%
--[:282]O-[:354]=^[:66](-[:138])}
-\end{center}
-
-a estrutura acima tem quais grupos funcionais
-
-\begin{choice}(2)
-\choice cetona  e enol.
-\choice éter e álcool.
-\choice cetona e éter.
-\choice ácido carboxílico e éster.
-\choice éster e álcool.
-\end{choice}
-\end{exercise}
-\begin{solution}
-C
-\end{solution}
-
-\begin{exercise}[points=1.0]
-\emph{Streptomycetaceae} é uma família de Actinomycetota, que compõe a ordem monotípica \emph{Streptomycetales}. Inclui o importante gênero \emph{Streptomyces}. Esta foi a fonte original de muitos antibióticos, ou seja, a estreptomicina, o primeiro antibiótico contra a tuberculose.
-Veja a estrutura abaixo
-\begin{center}
-\chemfig[atom style={scale=.9}]{-[:204]-[:264](-[:204]-[:150](-[:96])-[:222]-[:294](-[:282]-[:342]%
-)(-[:198]-[:138]-[:198]-[:258](-[:158]-[:218])(-[:238,,,2]HO)-[:318](%
--[:258])-[:18]O-[:78])-[:6]O-[:78])-[:324](=[:264]O)-[:24](-[:84])-[:324](%
--[:264,,,1]OH)-[:24](-[:84])-[:324]-[:24]-[:324]=^[:264](-[:204](%
--[:264,,,1]OH)=[:144]O)-[:324](-[:264,,,1]OH)=^[:24](-[:324])-[:84]=^[:144]%
-(-[:204])}
-\end{center}
-
-a estrutura acima tem quais grupos funcionais
-
-\begin{choice}(1)
-\choice Aldeído, cetona, fenol, éter  e enol.
-\choice Aldeído, éster, fenol, éter e álcool.
-\choice Cetona, álcool, fenol, epóxi  e éter.
-\choice ácido carboxílico, enol, álcool, cetona  e éster.
-\choice Ácido carboxílico, fenol, cetona, éter e álcool.
-\end{choice}
-\end{exercise}
-\begin{solution}
-E
-\end{solution}
-
-
-
-\begin{exercise}[points=1.0]
-A GESTRINONA é um 19-nor-esteróide, anti-estrogênio e antiprogesterona empregado no tratamento da endometriose e da miomatose. Apresenta características anovulatórias, efeito anabolizante e hemostático. Possui ainda indicação para tratamento da Tensão Pré-Menstrual (TPM), hipertrofia uterina, baixa de libido, perda de massa muscular e massa óssea, revertendo, quando associado a um estrogênio, a osteopenia após alguns meses de tratamento
-
-\begin{center}
-\begin{tikzpicture}
-\node[draw=none] at (0,0) {
-\chemfig[cram width=4pt]{-[:114]>[:54]-[:300]->[:60]-[:120](-[:180](<[:132]=^[:204]-[:276](%
--[:180]~[:180])(<[:254,,,2]HO)-[:348])-[:240])<:[:60]--[:300]=_-[:300](=O)%
--[:240]-[:180]>:[:120](-[:180])(-[:60])}
-};
-\node at (3.4, -0.2) [draw,dashed,inner sep=0pt,circle,yscale=1.8cm,xscale=2.0cm]{};
-\node at (-3.2, 0) [draw,dashed,inner sep=0pt,circle,yscale=1.3cm,xscale=1.7cm]{};
-\node at (-2.2, -0.9) [draw,dashed,inner sep=0pt,circle,yscale=1.3cm,xscale=1.7cm]{};
-\end{tikzpicture}
-\end{center}
-
-a estrutura acima tem quais grupos funcionais destacados
-
-\begin{choice}(2)
-\choice Vinil, cetona  e enol.
-\choice Etinil, cetona e álcool
-\choice Fenol, cetona e éter.
-\choice Alcino, cetona e éster.
-\choice Alcinio, éster e álcool.
-\end{choice}
-\end{exercise}
-\begin{solution}
-B
-\end{solution}
-
-
-
-\begin{exercise}[points=1.0]
-A eritromicina foi isolada pela primeira vez em 1952 a partir da bactéria \emph{Saccharopolyspora erythraea}. A eritromicina é um antibiótico utilizado no tratamento de diversas infecções bacterianas. Isso inclui infecções do trato respiratório , infecções de pele, infecções por clamídia , doença inflamatória pélvica e sífilis. 
-
-\begin{center}
-\chemfig[cram width=4pt]{HO>:[:345,,2](-[:225])-[:330](<[:270]O>[:210]-[:150]O-[:210](%
-<[:150])-[:270]-[:330](-[:30](-[:90])<:[:330,,,1]OH)<[:270]N(-[:330])%
--[:210])-[:30](<[:90])-[:330](<[:270]O>:[:330]-[:30]O-[:330](<[:30])-[:270]%
-(-[:210](-[:150]-[:90])(-[:240])<:[:300]O-[:240])<:[:330,,,1]OH)-[:30](%
-<:[:330])-[:90](=[:150]O)-[:30]O-[:90](<[:30]-[:330])-[:150](<:[:75,,,1]OH)%
-(-[:125])-[:210](<:[:310,,,1]OH)-[:150](<:[:90])-[:210](=[:150]O)-[:270](%
-<:[:270])-[:210](-[:270])}
-
-\end{center}
-
-Na estrutura da eritromicina contém os seguintes grupos funcionais oxigenados.
-
-\begin{choice}
-\choice Vinil, cetona  e enol.
-\choice Cetona, álcool e éster
-\choice Cetona, éter e ácido carboxílico.
-\choice Enol, éster e aldeído.
-\choice Éster, álcool e anidrido.
-\end{choice}
-\end{exercise}
-
-
-
-
-\begin{exercise}[points=1.0]
-As catequinas são compostos incolores, hidrossolúveis, que contribuem para o amargor e a adstringência do chá verde. As teaflavinas são compostos responsáveis por parte da cor (alaranjada) e sabor (adstringência) da infusão de chá preto.
-
-
-\chemfig[cram width=4pt]{HO>[:300,,2]-[:240](<:[:180]=_[:240]-[:180]=_[:120](-[:180,,,2]HO)%
--[:60](-[:120,,,2]HO)=_-[:300])-[:300]O-=_[:60](-[:120]-[:180])-(%
--[:60,,,1]OH)=_[:300]-[:240](-[:300,,,1]OH)=_[:180](-[:120])}
-
-\begin{choice}
-\choice Cetona, álcool  e enol.
-\choice Cetona, fenol e éster
-\choice Fenol, éter e álcool
-\choice Enol, éster e aldeído.
-\choice Éster, álcool e enol.
-\end{choice}
-\end{exercise}
-
-
-\collectexercisesstop{FuncoesOxigenadasIV}
-\collectexercises{FuncoesNitrogenadas}
-
-
-
-\begin{exercise}[points=1.0]
-Viagra é o nome dado ao primeiro medicamento que foi desenvolvido com o objetivo de auxiliar homens que apresentam um distúrbio chamado de disfunção erétil (ED) ou impotência sexual. O viagra em sua composição contém vários grupos químicos o principio ativo é o a fórmula estrutural do \emph{Sildenafil}
-
-\chemfig{N*6((-H_3C)---N(-S(=[::+120]O)(=[::+0]O)-[::-60]*6(-=-(-O-[::-60]-[::+60]CH_3)
-=(-*6(=N-*5(-(--[::-60]-[::+60]CH_3)=N-N(-CH_3)-=)--(=O)-N(-H)-))-=))---)}
-
-Quais o grupos funcionais presentes na estrutura:
-
-\begin{choice}
-\choice Èster, amina e cetona
-\choice Amina, éter e amida
-\choice Cetona, Amina e éster
-\choice Amina, éter e cetona
-\choice Éter, cetona e éster
-\end{choice}
-\end{exercise}
-\begin{solution}
-LETRA B
-\end{solution}
-
-
-
-
-\begin{exercise}[points=1.0]
-O aspartame, estrutura representada a seguir, é uma substância que tem sabor doce ao paladar. Pequenas quantidades dessa substância são suficientes para causar a doçura aos alimentos preparados, já que esta é cerca de duzentas vezes mais doce do que a sacarose. As funções orgânicas presentes na molécula desse adoçante são, apenas:
-
-\begin{tabular}{c}
-\chemfig{O=[:305](-[:5]O-[:65])-[:245](-[:305]\mcfbelow{N}{H}-[:5](=[:65]O)-[:305]\mcfbelow{N}{H}-[:5]-[:305](-[:245,,,2]HO)=[:5]O)-[:185]-[:245]-[:305]=_[:245]-[:185]=_[:125]-[:65](=_[:5])} \\
-{\bfseries Aspartame}
-\end{tabular}
-
-\begin{choice}
-\choice éter, amida, amina e cetona.
-\choice éter, amida, amina e ácido carboxílico.
-\choice aldeído, amida, amina e ácido carboxílico.
-\choice éster, amida, amina e cetona.
-\choice éster, amida, amina e ácido carboxílico.
-\end{choice}
-\end{exercise}
-\begin{solution}
-E
-\end{solution}
-
-
-\begin{exercise}[points=1.0]
-A morfina é um alcalóide que constitui 10\% da composição química do ópio, responsável pelos efeitos narcóticos desta droga. A morfina é eficaz contra dores muito fortes, utilizada em pacientes com doenças terminais muito dolorosas.
-\begin{center}
-\chemfig[cram width=3pt]{CH_3-[:104.6,,1]N-[:39.8,0.75]-[:90.2,0.75]>[:140.5,0.75]-[:215]-[:275](-[:349.5,0.75]\phantom{N})<:[:335]-[:35]=_[:95](-[:155])-[:35](=_[:335](-[:35,,,1]OH)-[:275]=_[:215]-[:155])-[:106.8,1.5]O>:[:203.2,1.5](-[:275])-[:155](<:[:95,,,1]OH)-[:215]=^[:275](>:[:335])}
-
-%\chemfig{H_3C-[:284.6,,2]N-[:219.8,0.75]-[:270.2,0.75]>[:320.5,0.75]-[:35]-[:95](-[:169.5,0.75]\phantom{N})<:[:155]-[:215]-[:275](-[:335])-[:215](-[:155](-[:215,,,2]HO)(-[:35,,,,draw=none]\mcfcringle{1.3})-[:95]-[:35]-[:335])-[:286.8,1.5]O>:[:23.2,1.5](-[:95])-[:335](<:[:275,,,1]OH)-[:35]=^[:95](>:[:155])}
-\end{center}
-Algumas das funções orgânicas existentes na estrutura da morfina são:
-\begin{choice}
-\choice álcool, amida e éster.
-\choice álcool, amida e éter.
-\choice álcool, aldeído e fenol.
-\choice amina, éter e fenol.
-\choice amina, aldeído e amida.
-\end{choice}
-\end{exercise}
-\begin{solution}
-D
-\end{solution}
-
-
-
-\begin{exercise}[points=1]
-A piperina é um alcaloide extraído das sementes de \emph{Piper nigrum} (pimenta-preta). Atua como estimulante natural e intervém na absorção de selênio, vitamina B e \(\beta\) -caroteno.
-\begin{center}
-\chemfig{O=[:270](-[:210]N-[:150]-[:210]-[:270]-[:330]-[:30]%
--[:90]\phantom{N})-[:330]=[:30]-[:330]=[:30]-[:330]=_[:30]-[:330]=_[:270](%
--[:210]=_[:150]-[:90])-[:342]O-[:54]-[:126]O(-[:198])}
-\end{center}
-
-Em relação piperina, podemos afirmar que sua estrutura química apresenta:
-
-\begin{choice}
-\choice 2 (dois) aneis aromáticos.
-\choice menos ligações sigma (\(\sigma\)) que PI (\(\pi\)).
-\choice apenas um anel aromático.
-\choice um nitrogênio ligado a um oxigênio.
-\choice um grupamento alcoólico.
-\end{choice}
-\end{exercise}
-\begin{solution}
-LETRA C
-\end{solution}
-
-
-\begin{exercise}[points=1]
-A melatonina, composto representado abaixo, é um hormônio produzido naturalmente pelo corpo
-humano e é importante na regulação do ciclo circadiano.
-\vspace{1cm}
-\begin{center}
-\chemfig{-[:282](=[:222]O)-[:342]\mcfbelow{N}{H}-[:42]-[:342]-[:42]=_[:96]%
--[:24]\mcfabove{N}{H}-[:312]=^[:240](-[:168])-[:300]=^(-[:300]O-)-[:60]%
-=^[:120](-[:180])}
-\end{center}
-
-Nessa molécula, estão presentes as funções orgânicas
-\begin{choice}
-\choice  amina e éster.
-\choice amina e ácido carboxílico.
-\choice hidrocarboneto aromático e éster.
-\choice amida e ácido carboxílico.
-\choice  amida e éter.
-\end{choice}
-\end{exercise}
-
-\begin{exercise}[points=1]
-A mimosina é um produto natural encontrado em sementes e folhas de algumas plantas leguminosas. Estudos em ratos e cabras mostraram que a mimosina
-inibe o crescimento de cabelo e causa a perda de cabelo nesses animais. Sabendo que a mimosina tem fórmula estrutural:
-\vspace{.5cm}
-
-\begin{center}
-\chemfig{OH-[:270,,1](=[:210]O)-[:330](<:[:270,,,1]NH_2)-[:30]-[:330]N%
--[:270]=^[:330]-[:30](=[:330]O)-[:90](-[:30,,,1]OH)=^[:150](%
--[:210]\phantom{N})} \vspace{.3cm}
-\end{center}
-
-considere as afirmações seguintes:
-
-\begin{description}
-\item[{1.}] Todos os carbonos do anel têm hibridização
-\end{description}
-sp\textsuperscript{2}.
-\begin{description}
-\item[{2.}] A mimosina apresenta grupos funcionais
-\end{description}
-ácido e amina.
-\begin{description}
-\item[{3.}] A mimosina apresenta 4 ligações π .
-\end{description}
-
-Está(ão) correta(s):
-
-\begin{choice}(2)
-\choice  1 apenas.
-\choice  2 apenas.
-\choice 1 e 2 apenas.
-\choice  1 e 3 apenas.
-\choice  1, 2 e 3.
-\end{choice}
-\end{exercise}
-\begin{solution}
-E
-\end{solution}
-
-
-
-\begin{exercise}[points=1]
-Os neurônios, células do sistema nervoso, têm a função de conduzir impulsos nervosos para o corpo. Para isso, tais células produzem os neurotransmissores, substâncias químicas responsáveis pelo envio de informações às demais células do organismo. Nesse conjunto de substâncias, está a dopamina, que atua, especialmente, no controle do movimento, da memória e da sensação de prazer.
-
-\begin{center}
-\chemfig{H_2N-[:30,,2]-[:330]-[:30]=^[:330]-[:30](-[:330,,,1]OH)=^[:90](%
--[:30,,,1]OH)-[:150]=^[:210](-[:270])}
-\end{center}
-
-De acordo com a estrutura da dopamina, assinale a afirmação verdadeira.
-
-\begin{choice}
-\choice  Mesmo com a presença de oxidrila em sua estrutura, a dopamina não é um álcool. 
-
-\choice É um composto cíclico alicíclico. 
-
-\choice A dopamina apresenta em sua estrutura o grupamento das aminas secundárias.
-
-\choice Esse composto pertence à função aminoálcool.
-
-\choice O grupo amida presente na estrutura.
-\end{choice}
-\end{exercise}
-
-\begin{exercise}[points=1]
-Estricnina é altamente tóxico , alcalóide incolor, amargo e cristalino usado como pesticida, particularmente para matar pequenos vertebrados, como pássaros e roedores. A estricnina, quando inalada, engolida ou absorvida pelos olhos ou pela boca, causa envenenamento que resulta em convulsões musculares e eventualmente morte por asfixia.  Embora não seja mais usado medicinalmente, foi usado historicamente em pequenas doses para fortalecer as contrações musculares, como um estimulante cardíaco e intestinal  e uma droga para melhorar o desempenho. A fonte mais comum são as sementes da árvore \emph{Strychnos nux-vomica}.
-
-
-\begin{center}
-\chemfig[cram width=3pt]{*6(=-*6(-N*6(-(=O)--([::-120]<:H)*7(-O--=?[0]([::-25.714]-[,2]?[1]))
--*6(-?[0,{>}]--(<N?[1]?[2])-(<[::-90]-[::-60]?[2]))(<:[::+0]H)-([::+120]<H))--?)=?-=-)}
-\end{center}
-
-Considere as seguintes afirmações:
-
-\begin{enumerate}
-\item A estrutura aprenta duas aminas primárias.
-\item A estutura contém uma amina terciária.
-\item Contém a função amida e éter.
-\item A amida presente é secundária.
-\end{enumerate}
-
-
-Está(ão) correta(s):
-
-\begin{choice}(2)
-\choice 1 e 2
-\choice 2 e 3
-\choice 1,2 e 4
-\choice 3 e 4
-\choice 2, 3 e 4 
-\end{choice}
-\end{exercise}
-\begin{solution}
-B
-\end{solution}
-
-
-
-\begin{exercise}[points=1.0]
-As flores de papoula secas e transformadas em pó são vendidas aos laboratórios que extraem a paramorfina. Esta, por sua vez, é misturada com acetato de sódio, tolueno e peróxido de hidrogênio e, por meio de reações químicas, se transforma em oxicodona: o princípio ativo analgésico dos opioides.
-
-\begin{tabular}{cc}
-
-\chemfig[cram width=3pt]{-[:330]O-[:30]-[:90]-[:30]-[:90]-[:150](-[:226.4,1.369]O%
-	>:[:313.1,1.381])=_[:90](-[:150]O-[:210])-[:30]=_[:330]-[:270](=_[:210])%
-	-[:330]-[:270](-[:210](=_[:270]-[:210]=_[:150])-[:150])<[:326.1,1.086]N(%
-	-[:36.1,1.028])<[:227.4,1.419]-[:154.1,1.365,,,,line width=2.5pt](>[:112.9,1.143])}
-    &
-\chemfig[cram width=3pt]{O=[:30]-[:90](<[:201.5]H)-[:30]-[:90]-[:150](-[:226.4,1.369]O%
-	-[:313.1,1.381])=_[:90](-[:150]O-[:210])-[:30]=_[:330]-[:270](=_[:210])%
-	-[:330]-[:270](-[:210](-[:270]-[:210]-[:150])(<[:90,,,1]OH)-[:150])%
-	<[:326.1,1.086]N(-[:36.1,1.028])<[:227.4,1.419]-[:154.1,1.365,,,,line width=2.5pt](%
-	>[:112.9,1.143])} \\
-    {\bfseries paramorfina} &    {\bfseries oxicodona}\\
-\end{tabular}
-
-De acordo com essas informações, conclui-se:
-
-\begin{enumerate}[label=\Roman*]
-\item A paramorfina e a oxicodona possuem anel aromático.
-\item A transformação da paramorfina em oxicodona envolve a formação de uma cetona.
-\item A paramorfina e a oxicodona apresentam a função amida.
-\item Somente a paramorfina apresenta a função éter.
-\end{enumerate}
-
-Está correto o que consta \textbf{APENAS} em
-
-
-\begin{choice}(2)
-\choice I e III.
-\choice II e IV.
-\choice I e II.
-\choice II e III.
-\choice III e IV.
-\end{choice}
-\end{exercise}
-\begin{solution}
-C
-\end{solution}
-
-
-
-
-
-\begin{exercise}[points=1.0]
-O princípio ativo dos analgésicos comercializados com nomes de \emph{Tylenol}, \emph{Cibalena}, \emph{Resprin} é o paracetamol, cuja fórmula está representada a seguir.
-\begin{center}
-\chemfig{HO-[:330,,2]-[:30]=_[:330]-[:270](=_[:210]-[:150]=_[:90])-[:330]N(%
-	-[:270]H)-[:30](-[:330]CH_3)=[:90]O}
-\end{center}
-
-Os grupos funcionais presentes no paracetamol são:
-
-\begin{choice}
-\choice Fenol, cetona e amina.
-\choice Álcool, cetona e amina.
-\choice Álcool e amida.
-\choice Fenol e amida.
-\choice Nitrila e Fenol.
-\end{choice}
-\end{exercise}
-\begin{solution}
-D
-\end{solution}
-
-
-
-
-
-
-\begin{exercise}[points=1.0]
-A cimetidina é um remédio que reduz a produção de ácido no estômago e trata úlceras, azia, refluxo e esofagite.
-
-\centerline{
-\begin{tikzpicture}
-\node at (0,0) [draw=none] (for)  {
-	\chemfig{-[:276]=_[:330](-[:258]N=_[:186]-[:114,,,2]HN-[:42,,2])-[:24]%
-	-[:324]S-[:24]-[:324]-[:24]\mcfabove{N}{H}-[:324](=[:264]N-[:324])%
-	-[:24]\mcfabove{N}{H}-[:324]C~[:324]N}
-};
-\node at (3., -0.8) [draw,dashed,inner sep=0pt,circle,yscale=1.2cm,xscale=2.0cm]{};
-\node at (-2.8, -0.3) [draw,dashed,inner sep=0pt,circle,yscale=2.1cm,xscale=2.2cm]{};
-\end{tikzpicture}
-}	
-
-Quais as funcões orgânicas presentes assinalas
-
-
-\begin{choice}
-\choice Fenol e amina.
-\choice Isonitrila e amina.
-\choice Amina e amida.
-\choice Nitrila e amida.
-\choice Nitrila e amina.
-\end{choice}
-\end{exercise}
-\begin{solution}
-E
-\end{solution}
-
-
-
-
-
-
-\begin{exercise}[points=1.0]
-Os herbalistas chineses utilizam, há mais de 5000 anos, o extrato da planta Ma-Huang para o tratamento da asma. Um dos componentes ativos nesse extrato é a efedrina, cuja estrutura química está representada abaixo.
-
-\centerline{
-\chemfig{-[:210](-[:270,,,1]NH-[:210,,1])-[:150](-[:90,,,1]OH)-[:210]%
--[:270]=_[:210]-[:150]=_[:90]-[:30](=_[:330])}
-}
-
-
-\begin{choice}
-\choice é um ácido inorgãnico forte e, em solução aquosa, apresentará pH ácido.
-\choice possui a função orgânica amina e, em solução aquosa, apresentará pH básico.
-\choice é uma amida e, em solução aquosa, apresentará pH neutro.
-\choice possui a função orgânica álcool e, em solução aquosa, apresentará pH ácido.
-\choice é uma base inorgânica forte e, em solução aquosa, apresentará pH básico.
-\end{choice}
-\end{exercise}
-\begin{solution}
-B
-\end{solution}
-
-
-
-
-
-
-
-\begin{exercise}[points=1.0]
-Estimulantes do grupo da anfetamina (ATS, amphetamine-type stimulants) são consumidos em todo o mundo como droga recreativa. Dessa classe, o MDMA, conhecido como ecstasy, é o segundo alucinógeno mais usado no Brasil. Em alguns casos, outras substâncias, como cetamina, mefedrona, mCPP, são comercializadas como ecstasy. Assim, um dos desafios da perícia policial é não apenas confirmar a presença de MDMA nas amostras apreendidas, mas também identificar sua composição, que pode incluir novas drogas ainda não classificadas. As fórmulas estruturais das drogas citadas são apresentadas a seguir.
-
-\centerline{
-
-\begin{tblr}{colspec={cc}}
-	\chemfig[atom style={scale=.7}]{-[:150]N(-[:90])-[:210](-[:270])-[:150]-[:210]-[:270]=_[:210]%
-		-[:150]=_[:90](-[:30]=_[:330])-[:162]O-[:234]-[:306]O(-[:18])} &  \chemfig[atom style={scale=.7}]{-[:340,,,1]NH-[:280,,1](-[:300]-[:240]-[:180]-[:120]-[:60](%
-		=[:120]O)-)-[:20]=_[:80]-[:20]=_[:320]-[:260]=_[:200](-[:140])-[:260]Cl} \\
-	{\bfseries MDMA} & {\bfseries Cetamina}\\
-	 \chemfig[atom style={scale=.7}]{Cl-[:120]-[:60]N(-[:120]-[:180]-[:240,,,2]HN-[:300,,2]-)-=_[:60]-%
-		=_[:300]-[:240]=_[:180](-[:120])} &  \chemfig[atom style={scale=.7}]{-[:330]=_[:30]-[:330]=_[:270](-[:210]=_[:150]-[:90])-[:330](%
-		=[:270]O)-[:30](-[:90,,,,decorate,decoration=snake])-[:330]\mcfbelow{N}{H}-[:30]}\\
-	 {\bfseries mCPP}& {\bfseries Mefedrona} \\	
+%\hline
+Composto & {Produto \\ de Solubilidade} & Cor \\ %x\hline
+{Cloreto de Prata \\ AgC$\ell$} & \num{1.6e-10} & Branca \\ \hline
+{Sulfato de Prata \\ \ch{Ag2SO4}} & \num{1.4e-5} & Branca\\ \hline
 \end{tblr}
-
-}
-Sobre as funções orgânicas nessas moléculas, assinale a alternativa correta.
-
-
-
-
-\begin{choice}
-\choice Em todas as moléculas, existe a função amida.
-\choice  Na molécula MDMA, existe a função éster.
-\choice Na molécula cetamina, existe a função cetona.
-\choice Na molécula mefedrona, existe a função aldeído.
-\choice  Na molécula mCPP, existe a função amida ligada ao grupo benzílico.
-\end{choice}
 \end{exercise}
 \begin{solution}
-C
+Note que para o sulfato de prata , o k\textsubscript{s} não é alcançado (\num{1.4e-5}), indicando que a presença de íons \ch{Ag^+} e \ch{C$\ell$^-} é a máxima possível na solução. Então, se houver formação de precipitado, este será de cloreto de prata.
+\end{solution}
+
+\begin{exercise}
+Uma solução saturada de base, representada por \ch{X(OH)2}, tem pH=10 a 25O ºC. Qual o produto de solubilidade do \ch{X(OH)2}?
+\end{exercise}
+\begin{solution}
+\num{5e-13}
 \end{solution}
 
 
@@ -1925,240 +402,7 @@ C
 
 
 
+\collectexercisesstop{kps}
 
-\begin{exercise}[points=1.0]
-A seguir está representada a estrutura da dihidrocapsaicina, uma substância comumente encontrada em pimentas e pimentões.
-
-\centerline{
-\chemfig{-[:90](-[:150])-[:30]-[:330]-[:30]-[:330]-[:30]-[:330]-[:30](%
-=[:90]O)-[:330]\mcfbelow{N}{H}-[:30]-[:330]=_[:30]-[:330](-[:30]O-[:90])%
-=_[:270](-[:330,,,1]OH)-[:210]=_[:150](-[:90])}
-}
-
-Na dihidrocapsaicina, está presente, entre outras, a função orgânica:
-
-\begin{choice}(2)
-\choice álcool.
-\choice amina.
-\choice amida.
-\choice éster.
-\choice aldeído.
-\end{choice}
-\end{exercise}
-\begin{solution}
-C
-\end{solution}
-
-
-
-
-
-\begin{exercise}[points=1.0]
-Muitas aminas têm como característica um odor desagradável. Putrescina e cadaverina são exemplos de aminas que exalam odor de carne em apodrecimento. Dos compostos nitrogenados a seguir, assinale a alternativa que apresenta uma amina terciária.
-
-
-
-\begin{choice}(2)
-\choice  \chemname{\chemfig{CH_3-[:90]N-[:36]-[:108]-[:180]-[:252](-[:324]\phantom{N})}}{\bfseries N-metilpirrolidina}
-\choice \chemname{\chemfig{CH_3-NH_2}}{\bfseries Metanamina}
-\choice \chemname{\chemfig{CH_3-C([:90]-CH_3)([:-90]-CH_3)-NH_2}}{\bfseries 1,1-dimetiletanaamina}
-\choice \chemname{\chemfig{I>[:275](<:[:322.5]N(-[:270]F)-[:22.5](=[:82.5]O)-[:322.5])-[:270]%
--[:180]-[:90](-)}}{\bfseries N-metil-N-(-1-metilciclobutil)\\ \bfseries etanoamida}
-\choice \chemname{\chemfig{CH_2-CH_2-N([:90]-H)-CH_3}}{\bfseries Metiletanoamina}
-\end{choice}
-\end{exercise}
-\begin{solution}
-A
-\end{solution}
-
-
-
-
-
-\begin{exercise}[points=1.0]
-Em 1851, um crime ocorrido na alta sociedade belga foi considerado o primeiro caso da Química Forense. O Conde e a Condessa de Bocarmé assassinaram o irmão da condessa, mas o casal dizia que o rapaz havia enfartado durante o jantar. Um químico provou haver grande quantidade de nicotina na garganta da vítima, constatando assim que havia ocorrido um envenenamento com extrato de folhas de tabaco.
-\chemname{\chemfig{-[:264]N-[:210]-[:282]-[:354]-[:66](-[:138]\phantom{N})<:[:12]%
-=^[:312]-[:12]N=^[:72]-[:132]=^[:192](-[:252])}}{\bfseries Nicotina}
-
-Sobre a nicotina, são feitas as seguintes afirmações.
-
-\begin{enumerate}[label=\Roman*]
-\item Contém dois heterociclos.
-\item Apresenta uma amina terciária na sua estrutura.
-\item Possui a fórmula molecular \ch{C10H14N2}.
-\end{enumerate}
-
-Quais estão \textbf{corretas}?
-
-
-\begin{choice}(2)
-\choice Apenas I.
-\choice Apenas II.
-\choice Apenas III.
-\choice Apenas I e II.
-\choice I, II e III.
-\end{choice}
-\end{exercise}
-\begin{solution}
-E
-\end{solution}
-
-
-
-
-\begin{exercise}[points=1.0]
-A imensa flora das Américas deu significativas contribuições a terapêutica, como a descoberta da Iobelina (figura abaixo), molécula polifuncionalizada isolada da planta Lobelianicotinaefolia e usada por tribos indígenas que fumavam suas folhas secas para aliviar os sintomas da asma.
-
-
-\centerline{
-\chemname{\chemfig{-[:270]N-[:330](<:[:30]-[:330](<[:270,,,1]OH)-[:30]=_[:90]-[:30]%
-=_[:330]-[:270]=_[:210]-[:150])-[:270]-[:210]-[:150]-[:90](%
--[:30]\phantom{N})<:[:150]-[:210](=[:270]O)-[:150]=_[:210]-[:150]=_[:90]%
--[:30]=_[:330](-[:270])}}{\bfseries Iobelina}
-}
-
-Sobre a estrutura química da Iobelina, é correto afirmar que:
-
-
-\begin{choice}(1)
-\choice possui uma amina terciária
-\choice possui um aldeído
-\choice possui três carbonos primários
-\choice possui uma amida
-\choice possui um fenol
-\end{choice}
-\end{exercise}
-\begin{solution}
-A
-\end{solution}
-
-
-
-
-
-\begin{exercise}[points=1.0]
-A embalagem de um sabonete antibacteriano informa que o produto contém triclocarban, agente responsável pela eliminação de germes e bactérias.
-
-\vspace{.5cm}
-\centerline{
-\chemfig{O=[:90](-[:30]\mcfabove{N}{H}-[:330]=_[:30]-[:330]=_[:270](%
--[:330]Cl)-[:210]=_[:150]-[:90])-[:150]\mcfabove{N}{H}-[:210]=^[:150]%
--[:210](-[:150]Cl)=^[:270](-[:210]Cl)-[:330]=^[:30](-[:90])}
-}
-\vspace{.3cm}
-
-
-De acordo com essa fórmula estrutural, o triclocarban apresenta grupo funcional característico de
-
-
-\begin{choice}(2)
-\choice éter.
-\choice amina.
-\choice cetona.
-\choice nitrilo.
-\choice amida.
-\end{choice}
-\end{exercise}
-\begin{solution}
-E
-\end{solution}
-
-
-
-
-
-\begin{exercise}[points=1.0]
-Um dos episódios da final da Copa da França de 1998 mais noticiados no Brasil e no mundo foi "o caso Ronaldinho". Especialistas apontaram: estresse, depressão, ansiedade e pânico podem ter provocado a má atuação do jogador brasileiro. Na confirmação da hipótese de estresse, teriam sido alteradas as quantidades de três substâncias químicas excitatórias do cérebro - a \textbf{noradrenalina}, a \textbf{serotonina} e a \textbf{dopamina} - cujas estruturas estão abaixo representadas:
-\vspace{.3cm}
-\begin{center}
-\chemname{\chemfig{H_2N-[,,2]-[:300](<[:240,,,2]HO)-=^[:300]-(-[:300,,,1]OH)=^[:60](%
--[,,,1]OH)-[:120]=^[:180](-[:240])}}{\bfseries Noradrenalina}\\
-\chemname{\chemfig{HO-[:300,,2]=_-[:300]=^[:240](-[:180]=_[:120]-[:60])%
--[:312]\mcfbelow{N}{H}-[:24]=^[:96](-[:168])-[:42]-[:342]-[:42,,,1]NH_2}}{\bfseries Serotonina}\\
-\chemname{\chemfig{H_2N-[:30,,2]-[:330]-[:30]=^[:330]-[:30](-[:330,,,1]OH)=^[:90](%
--[:30,,,1]OH)-[:150]=^[:210](-[:270])}}{\bfseries Dopamina}\\
-\end{center}
-\vspace{.3cm}
-
-Essas substâncias têm em comum as seguintes funções químicas:
-
-\begin{choice}(1)
-\choice Amida e fenol
-\choice Amina e fenol
-\choice Amida e álcool
-\choice Amina e álcool
-\choice Cetona e fenol
-\end{choice}
-\end{exercise}
-\begin{solution}
-B
-\end{solution}
-
-
-
-
-\begin{exercise}[points=1.0]
-Em 1988, foi publicada uma pesquisa na França sobre uma substância química denominada mifepristona cuja estrutura é apresentada abaixo. Essa substância é conhecida como a “pílula do dia seguinte”, que bloqueia a ação da progesterona, o hormônio  responsável pela manutenção da gravidez.
-
-\centerline{
-\chemfig[cram width=3pt]{-[:30]~[:30]-[:30](<[:284,,,1]OH)-[:126]-[:54]>[:342]-[:270](%
--[:198])(<[:264])-[:330]-[:30](<[:330]=^[:270]-[:330]=^[:30](-[:330]N(%
--[:270])-[:30])-[:90]=^[:150]-[:210])-[:90]=^[:30]-[:330]-[:30]-[:90](%
-=[:30]O)-[:150]=^[:210](-[:270])-[:150]-[:210]>:[:270](-[:210])(-[:330])}
-
-}
-
-
-Com base na estrutura da substância acima, pode-se observar a presença dos seguintes grupos funcionais:
-
-\begin{choice}(1)
-\choice Amida, cetona, fenol.
-\choice Amida, alcino, fenol.
-\choice Amina, alcino, fenol.
-\choice Amina, cetona, álcool.
-\choice Amina, nitrila, álcool
-\end{choice}
-\end{exercise}
-\begin{solution}
-D
-\end{solution}
-
-
-
-
-\begin{exercise}[points=1]
-A teobromina é uma substância química encontrada em plantas, especialmente em grãos de cacau e na planta do chá. É conhecida por seus efeitos estimulantes e por suas propriedades semelhantes à cafeína, embora seja menos potente
-
-\begin{tblr}{cccc} \chemfig{H_3C-[:42,,2]N-[:96]=_[:24]N-[:312]=_[:240](-[:168]\phantom{N})-[:300](=[:240]O)-N(-[:300,,,1]CH_3)-[:60](=O)-[:120]N(-[:180])-[:60,,,1]CH_3} & & \chemfig{H_3C-[:42,,2]N-[:96]=_[:24]N-[:312]=_[:240](-[:168]\phantom{N})
--[:300](=[:240]O)-\mcfbelow{N}{H}-[:60](=O)-[:120]N(-[:180])-[:60,,,1]CH_3} \\
-Cafeína && Teobromina \\
-\end{tblr}
-
-Qual a função orgânica em comum nas estruturas.
-
-\begin{choice}(2)
-\choice Imina e amida
-\choice Amida e cetona
-\choice Amina e amida
-\choice Cetona e nitrila
-\choice Cetona e amina
-\end{choice}
-\end{exercise}
-
-
-
-
-
-
-
-\collectexercisesstop{FuncoesNitrogenadas}
-
-
-%\printrandomexercises[collection=LeiLavosier,exclude=1]{1}
-
-\printrandomexercises[collection=FuncoesNitrogenadas,exclude=1]{4}
-\printrandomexercises[collection=FuncoesOxigenadasIII,exclude=1]{2}
-\printrandomexercises[collection=FuncoesOxigenadasIV]{2}
-\printrandomexercises[collection=Acidos]{1}
-\printrandomexercises[collection=Bases]{1}
+\printcollection{kps}
 \end{document}

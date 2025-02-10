@@ -55,13 +55,14 @@ aquosa. A concentração do soro fisiológico, expressa em mol/L, é igual a
 \choice 0,154.
 \choice 0,900
 #+end_choice
-
 #+end_exercise
-
+#+begin_solution
+D
+#+end_solution
 
 #+ATTR_LATEX: :options [points=1.0]
 #+begin_exercise
-Dissolveram-se 2,48 g de tiossulfato de sódio pentaidratado (\ch{Na2S2O3.5 H2O}) em água para se
+Dissolveram-se 2,48 g de tiossulfato de sódio pentaidratado (\ch{Na2S2O3 . 5 H2O}) em água para se
 obter 100 cm^3 de solução. A concentração molar dessa solução é. Dados: \ch{Na2S2O3. 5 H2O}=248 g/mol
 
 #+begin_choice
@@ -71,9 +72,15 @@ obter 100 cm^3 de solução. A concentração molar dessa solução é. Dados: \
 \choice 1,00
 \choice 0,000157
 #+end_choice
-
-
 #+end_exercise
+#+begin_solution
+B
+#+end_solution
+
+
+
+
+
 
 
 #+ATTR_LATEX: :options [points=1.0]
@@ -90,6 +97,11 @@ preparada é igual a: Dados:  NaOH = 40 u
 \choice 250 mL.
 #+end_choice
 #+end_exercise 
+#+begin_solution
+D
+#+end_solution 
+
+
 
 #+ATTR_LATEX: :options [points=1.0]
 #+begin_exercise
@@ -106,6 +118,12 @@ suficiente para 10,0 litros de solução. A concentração, em mols/litro, da so
 \choice  0,22 mol/L.
 #+end_choice
 #+end_exercise
+#+begin_solution
+C
+#+end_solution 
+
+
+
 
 #+ATTR_LATEX: :options [points=1.0]
 #+begin_exercise
@@ -133,6 +151,10 @@ Considerando que a xícara descrita contém um volume de 200 mL de café, a conc
 #+end_choice 
 
 #+end_exercise 
+#+begin_solution
+B
+#+end_solution 
+
 
 
 #+ATTR_LATEX: :options [points=1.0]
@@ -149,6 +171,12 @@ Uma solução de hidróxido de magnésio, utilizada no combate à acidez estomac
 #+end_choice
 
 #+end_exercise 
+#+begin_solution
+B
+#+end_solution 
+
+
+
 
 
 \collectexercisesstop{Solucoes}

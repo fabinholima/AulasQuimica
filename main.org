@@ -11,9 +11,9 @@
 #+LATEX_HEADER: \def\aluno{ }
 #+LATEX_HEADER: \def\numerochamada{}
 #+LATEX_HEADER: \def\disciplina{Química}
-#+LATEX_HEADER: %%\def\disciplina{UC3}
+#+LATEX_HEADER: %%\def\disciplina{UC III}
 #+LATEX_HEADER: %%\def\disciplina{R.A.}
-#+LATEX_HEADER: \def\turma{1 Ano }
+#+LATEX_HEADER: \def\turma{}
 #+LATEX_HEADER: \def\tipo{{\bfseries Avaliação Bimestral}}
 #+LATEX_HEADER: %%\def\tipo{\bfseries Avaliação Mensal}
 #+LATEX_HEADER: \def\tipo{\bfseries Exame Final}
@@ -24,10 +24,11 @@
 #+LATEX_HEADER: \def\dataprova{}
 
 
+
 #+begin_export latex
 \twocolumn[
-%\input{../Modelos/CabeOficial}
-\input{../Modelos/cabenovo}
+\input{../Modelos/CabeOficial}
+%\input{../Modelos/cabenovo}
 %\input{../Modelos/mamede}
 %\input{../Modelos/26agosto}
 %% \input{../Modelos/geral}
@@ -42,7 +43,7 @@
 
 %\input{../Modelos/gabarito}
 
-Total Prova: \printpoints
+%%Total Prova: \printpoints
 \smallbreak
 \medbreak
 \par\vspace{2ex}]%%%%\input{../Modelos/mamede}
@@ -50,20 +51,8 @@ Total Prova: \printpoints
 #+end_export
 
 
-#+INCLUDE: "Quimica_Geral/FuncoesInorganicas/Acidos.org"
-#+INCLUDE: "Quimica_Geral/FuncoesInorganicas/Base.org"
-#+INCLUDE: "Quimica_Organica/FuncoesOxigenadas/FuncoesOxigenadasIII.org"
-#+INCLUDE: "Quimica_Organica/FuncoesOxigenadas/FuncoesOxigenadasIV.org"
-#+INCLUDE: "Quimica_Organica/FuncoesNitrogenadas/FuncoesNitrogenadas.org"
 
-#+begin_export latex
 
-%\printrandomexercises[collection=LeiLavosier,exclude=1]{1}
+#+INCLUDE: "Lista/ProdutoSolubilidade/ProdutoSolubilidade.org"
 
-\printrandomexercises[collection=FuncoesNitrogenadas,exclude=1]{4}
-\printrandomexercises[collection=FuncoesOxigenadasIII,exclude=1]{2}
-\printrandomexercises[collection=FuncoesOxigenadasIV]{2}
-\printrandomexercises[collection=Acidos]{1}
-\printrandomexercises[collection=Bases]{1}
-#+end_export
-
+\printcollection{kps}
