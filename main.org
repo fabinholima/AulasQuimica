@@ -1,7 +1,6 @@
-
 #+OPTIONS: H:2 toc:nil num:t
 #+LATEX_CLASS:koma-article
-#+LATEX_CLASS_OPTIONS: [11pt]
+#+LATEX_CLASS_OPTIONS: [10pt]
 #+INCLUDE: "packages.org"
 
 
@@ -20,12 +19,12 @@
 #+LATEX_HEADER: \def\bimestre{4 Bimestre}
 #+LATEX_HEADER: \def\escola{E.E. 26 de Agosto}
 #+LATEX_HEADER: %\def\escola{E.E. José Mamede de Aquino}
-#+LATEX_HEADER: %\def\escola{E.E. Amélio de Carvalho Baís}
+#+LATEX_HEADER: %\def\escola{E.E. Joaquim Murtinho}
 #+LATEX_HEADER: \def\dataprova{}
 
 
-
 #+begin_export latex
+\selectlanguage{portuguese}
 \twocolumn[
 \input{../Modelos/CabeOficial}
 %\input{../Modelos/cabenovo}
@@ -51,8 +50,32 @@
 #+end_export
 
 
+#+INCLUDE: "Lista/Radioatividade/ListaRadioatividade.org"
+
+** Lei da Radioatividade
+
+\printcollection{ListaRadioatividade}
 
 
-#+INCLUDE: "Lista/ProdutoSolubilidade/ProdutoSolubilidade.org"
+** Cinética de Desintegrações 
 
-\printcollection{kps}
+
+\printcollection{ListaCineticaRadioativa}
+
+
+** Reação Nuclear 
+
+
+\printcollection{ListaReacaoNuclear}
+
+
+
+
+
+#+begin_comment
+
+#+INCLUDE: "Quimica-Geral-Aula/ModelosAtomicos.org"
+
+#+end_comment
+
+

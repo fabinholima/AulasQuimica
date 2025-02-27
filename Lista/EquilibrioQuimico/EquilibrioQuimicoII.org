@@ -1,0 +1,114 @@
+
+#+LATEX_HEADER: \DeclareExerciseCollection{CalculosEquilibrio}
+
+
+
+\collectexercises{ListaEquilibrio}
+
+
+#+begin_exercise
+ Uma mistura de \ch{CO} e \ch{C$\ell$2} é colocada em um frasco de reação: [CO]=0,0102 mol/L e [\ch{C$\ell$2}]= 0,00609 mol/L Quando a reação: 
+
+#+begin_export latex
+\begin{reaction*}
+	CO_{\gas} +  C$\ell$2_{\gas} <=> COC$\ell$2_{\gas}
+\end{reaction*}
+#+end_export
+	
+	atinge o equilíbrio a 600 K, a [\ch{C$\ell$2}]=0,00301 mol/L.
+
+
+#+begin_choice
+\choice Calcule as concentrações de CO e \ch{COC$\ell$2} no equilíbrio.
+
+#+begin_export latex
+\blank[blank-style={\phantom{#1}},width=12\linewidth]{}
+#+end_export 
+
+\choice Calcule o valor de $k_c$
+
+#+begin_export latex
+\blank[blank-style={\phantom{#1}},width=7\linewidth]{}
+#+end_export 
+#+end_choice 
+#+end_exercise 
+
+
+#+begin_exercise
+A dissociação do iodo molecular em átomos de iodo é representada por
+
+
+#+begin_export latex
+\begin{reaction*}
+I2_{\gas} <=> 2 I_{\gas}
+\end{reaction*}
+#+end_export
+
+A 1000 K, a constante de equilíbrio $k_c$ da reação é $3,80 \times 10^{-5}$. Admita que inicialmente as concentrações de 0,0456 mol de \ch{I2} em um frasco de 2,3 L. Quais as concentrações em equilíbrio?
+
+
+
+#+begin_export latex
+\blank[blank-style={\phantom{#1}},width=7\linewidth]{}
+#+end_export 
+
+#+end_exercise 
+
+
+#+begin_solution
+#+begin_export latex
+
+	\begin{tabular}{cc@{}c@{}c@{}c@{}c}
+		\toprule
+		&  \ce{Br2_{(g)}} \qquad  & ${}\leftrightharpoons{}$ \qquad & 2\ce{Br_{(g)}}  \\
+		\midrule
+		Início   &       0,0456 mol/2,3 L (0,0198 M)    &&   $\cdots$                           \\
+		$\Delta$   &       $-x$                       &&  $ + 2x$    \\
+		$[$Eq. final$]$   &    $0,0198 - x $         && $2x$  \\
+		\bottomrule
+	\end{tabular}
+
+	$k_c=\displaystyle \frac{[\ce{I}]^2}{[\ce{I2}]} \Rightarrow$
+	$3,8 \times 10^{-5}=\displaystyle \frac{(2x)^2}{(0,01982-x)} \Rightarrow $
+	$ 4x^2 + 3,8 \times 10^{-5}x - 3,8 \times 10^{-7} = 0$ \\
+	$x'= 4,29 \times 10^{-4} $ \\ 
+	$x''= -4,0 \times 10^{-4}$ \\
+	$[\ce{I2}]_{eq.}=0,0198-4,29 \times 10^{-4}$ $\Rightarrow$ \\
+	\boxed{$$\rm [\ce{I2}]_{eq.}=0,01937$$\quad M} \\
+	$[\ce{I}]_{eq.}$= $2x'\Rightarrow 2 \times (4,29 \times 10^{-4}) \Rightarrow$\\
+	\boxed{$$\rm [\ce{I}]_{eq.} = 8,58 \times 10^{-4}$$\quad M} \\
+#+end_export 		
+#+end_solution
+
+
+#+begin_exercise
+O brometo de carbonila decompõe-se em monóxido de carbono e bromo:
+
+#+begin_export latex
+\begin{reaction*}
+COBr2_{\gas} <=> CO_{\gas} + Br2_{\gas}
+\end{reaction*}
+#+end_export
+
+o valor de $k_c$ é 0,190  a 73\textsuperscript{0}C. Se coloca 0,500 mol de \ch{COBr2} em um frasco de 2,00 L e se aquece. Quais serão as concentrações no equilíbrio de \ch{COBr2}, CO e \ch{Br2}? 
+
+\vspace{5cm}
+#+end_exercise 
+
+
+
+#+begin_exercise
+Para a reação:
+#+begin_export latex
+\begin{reaction*}
+N2_{\gas} + 3 H2_{\gas} <=> 2 NH3_{\gas}
+\end{reaction*}
+
+foram adicionados inicialmente  1 mol de \ch{N2} e 1 mol de \ch{H2}. Após estabelecer o equilíbrio foram remanecente 0,60 mol de \ch{N2}. Calcule a constante de equilíbrio $k_c$ para a reação.
+#+end_export
+#+end_exercise 
+
+
+
+\collectexercisesstop{ListaEquilibrio}
+

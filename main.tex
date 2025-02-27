@@ -1,6 +1,6 @@
-% Created 2025-02-09 dom 14:20
+% Created 2025-02-27 Thu 04:47
 % Intended LaTeX compiler: lualatex
-\documentclass[11pt]{scrartcl}
+\documentclass[10pt]{scrartcl}
 
 
 \KOMAoptions{
@@ -16,6 +16,7 @@ footinclude=true
 %\usepackage[fontsize=12.3]{scrextend}
 \usepackage{fontspec}
 \usepackage[T1]{fontenc}
+\usepackage[english, portuguese, american]{babel}
 \usepackage{hyperref}
 \usepackage[x11names,svgnames,table]{xcolor}
 \defaultfontfeatures{Ligatures=TeX}
@@ -26,7 +27,7 @@ footinclude=true
 \usepackage{lscape}
 \usepackage[a4paper]{geometry}
 \geometry{a4paper,total={170mm,257mm},left=10mm,right=10mm, top=15mm, bottom=20mm}
-\usepackage[english, portuguese, american]{babel}
+\usepackage[english,portuguese]{babel}
 \usepackage{amsmath,amsfonts,amsthm,bm}
 \usepackage{graphicx}
 \usepackage{float,wrapfig}
@@ -183,6 +184,13 @@ solution/template= custom ,
 \section*{Gabarito}%
 }
 %\usepackage{filecontents}
+\NewTblrTheme{fancy}{
+\SetTblrStyle{firsthead}{font=\bfseries}
+\SetTblrStyle{firstfoot}{fg=blue2}
+\SetTblrStyle{middlefoot}{\itshape}
+\SetTblrStyle{caption-tag}{red2}
+}
+
 \newcommand{\lh}{\underline{\hspace{1cm}}}
 %%\onehalfspacing
 \def\professor{Fábio Lima}
@@ -198,14 +206,15 @@ solution/template= custom ,
 \def\bimestre{4 Bimestre}
 \def\escola{E.E. 26 de Agosto}
 %\def\escola{E.E. José Mamede de Aquino}
-%\def\escola{E.E. Amélio de Carvalho Baís}
+%\def\escola{E.E. Joaquim Murtinho}
 \def\dataprova{}
-\DeclareExerciseCollection{kps}
-\author{fabio}
+\DeclareExerciseCollection{ListaRadioatividade}
+\DeclareExerciseCollection{ListaCineticaRadioativa}
+\DeclareExerciseCollection{ListaReacaoNuclear}
 \date{\today}
 \title{}
 \hypersetup{
- pdfauthor={fabio},
+ pdfauthor={},
  pdftitle={},
  pdfkeywords={},
  pdfsubject={},
@@ -213,6 +222,7 @@ solution/template= custom ,
  pdflang={English}}
 \begin{document}
 
+\selectlanguage{portuguese}
 \twocolumn[
 \input{../Modelos/CabeOficial}
 %\input{../Modelos/cabenovo}
@@ -236,173 +246,132 @@ solution/template= custom ,
 \par\vspace{2ex}]%%%%\input{../Modelos/mamede}
 
 
+\collectexercises{ListaRadioatividade}
 
 
-\collectexercises{kps}
 
 \begin{exercise}
-Escreva a expressão da constante de solubilidade dos seguintes compostos
+Calcule o número de partículas \(\upalpha\)  e \(\upbeta\) que o urânio 238 (\isotope{238,U}), precisa emitir para se transformar em Rádio 226 (\isotope{226,Ra}).
+\end{exercise}
+
+
+\begin{exercise}
+A partir de um átomo radioativo, chega-se ao elemento \isotope{212,Bi} por meio de quatro emissões \(\upalpha\) e três emissões \(\upbeta\) Identifique o elemento inicial e diga qual é o seu número de massa e o seu número atômico ?
+\end{exercise}
+
+
+\begin{exercise}
+Após algumas desintegrações sucessivas, o \isotope{232,Th}, muito encontrado na orla marítima de Guarapari (ES), se transforma no \isotope{208,Pb}. Qual o número de partículas \(\upalpha\) e \(\upbeta\) emitidas nessa tranformação ?
+\end{exercise}
+
+
+\begin{exercise}
+Um elemento X emite 8 partículas betas resultando no elemento Y. Y por sua vez emite 4 partículas alfas resultando em Z. Diga quem são, ao final do processo, isótopo ou isóbaro ?
+\end{exercise}
+
+
+\begin{exercise}
+A partir de um átomo radioativo, chega-se ao elemento \isotope{220,Rn}, por meio de três emissões \(\upalpha\) e duas emissões \(\upbeta\). Identifique o elemento inicial e diga qual é o seu número de massa e o seu número atômico ?
+\end{exercise}
+
+
+\collectexercisesstop{ListaRadioatividade}
+
+
+\collectexercises{ListaCineticaRadioativa}
+
+\begin{exercise}
+A desintegração de 1 g de molibdênio 99, até restarem 0,125 g de molibdênio, dura 180 horas. Qual a sua meia vida ?
+\end{exercise}
+
+
+
+\begin{exercise}
+Após 40 dias um determinado radioisótopo, cuja meia-vida é de 10 dias, pesa 0,5 gramas. Qual a sua massa inicial?
+\end{exercise}
+
+
+
+\begin{exercise}
+A meia-vida de um elemento radioativo é 15 minutos. Partindo-se de 320 mg desse elemento, após uma hora e meia sua massa fica reduzida a A mg. Qual o valor de A ?
+\end{exercise}
+
+
+\begin{exercise}
+Quanto tempo levará para reste apenas 6,25\% de uma amostra de um material radioativo, cuja meia vida é de 5 minutos ?
+\end{exercise}
+
+
+\begin{exercise}
+Sabendo que a meia-vida do estrôncio 90 é de aproximadamente 28 anos, determine a porcentagem do mesmo que ainda estará presente daqui a 112 anos
+\end{exercise}
+
+
+
+\begin{exercise}
+Sabendo que o cobalto 60 perde metade de sua radioatividade a cada 5 anos, aproximadamente, qual a porcentagem residual de sua radioatividade após 15 anos ?
+\end{exercise}
+
+
+\begin{exercise}
+Após 3 horas, o nível de atividade de uma amostra de um determinado isótopo radioativo, que decai em um isótopo estável, caiu para 20\% de seu valor inicial. Calcule a meia-vida de este isótopo
+\vspace{2cm}
+\end{exercise}
+
+
+\begin{exercise}
+O flúor-20 decai para néon-20 com meia-vida de 11 segundos. Em t = 0, uma amostra contém 120 gramas de átomos de flúor-20. Quantos gramas de átomos de flúor-20 permanecem na amostra em 
 
 \begin{choice}
-\choice \ch{BaCO3} 
-\choice \ch{CaSO4} 
-\choice \ch{Al$\ell$(OH)3} 
-\choice \ch{Ag2CrO4} 
-\choice CoS 
-\choice \ch{Mg(OH)2} 
-\choice \ch{Fe(OH)3} 
-\choice \ch{Zn(OH)2} 
-\choice \ch{PbC$\ell$2} 
-\choice \ch{Ag2S} 
-\choice \ch{Pb3(PO4)2} 
-\choice \ch{CaF2} 
-\choice \ch{PbBr4} 
-\choice \ch{Fe4(P2O7)3} 
-\choice FeS
+\choice  t = 5,0 segundos, 
+\vspace{1.5cm}
+\choice  t = 30 segundos 
+\vspace{1.5cm}
+\choice  t = 1,0 minutos?
+\vspace{1.5cm}
 \end{choice}
 \end{exercise}
 
-\begin{exercise}
-Sabendo que a solubilidade do cromato de prata – \ch{Ag2CrO4} – é de \num{2.5e-2} g/L, a determinada temperatura, calcular o seu produto de solubilidade nessa temperatura.
+
+\collectexercisesstop{ListaCineticaRadioativa}
+
+
+
+
+
+
+\collectexercises{ListaReacaoNuclear}
+
+\begin{exercise}[points=3.5]
+Escreva as equações
+
+\begin{choice}(2)
+\choice Emissão pósiton  \isotope{18,F} \vspace{2cm}
+\choice  Emissão \(\upbeta\) \isotope{20,Ca} \vspace{2cm}
+\choice Emissão alfa	\isotope{235,U} \vspace{2cm}
+\choice  Emissão gama \vspace{2cm}
+\end{choice}
 \end{exercise}
-\begin{solution}
-\num{1.7e-12} \unit{\mol\per\litre}
-\end{solution}
-
-\begin{exercise}
-Calcule o K\(_{ps}\) do fosfato de prata – \ch{Ag3PO4}, sabendo que a sua solubilidade é de \num{6.5e-3} g/L.
-\end{exercise}
-\begin{solution}
-\num{1.59e-18}
-\end{solution}
-
-\begin{exercise}
-A solubilidade do fosfato de chumbo II – \ch{Pb3(PO4)2} – é de \num{1.4e-4} g/L. Determine o k\textsubscript{s} desse sal.
-\end{exercise}
-\begin{solution}
-\num{1.62e-32}
-\end{solution}
-
-\begin{exercise}
-Determine o produto de solubilidade do cloreto de chumbo II – \ch{PbC$\ell$2}  – cuja solubilidade é de 11 \unit{\gram\per\litre}
-\end{exercise}
-\begin{solution}
-\num{2.37e-4}
-\end{solution}
-
-\begin{exercise}
-A solubilidade do hidróxido férrico – \ch{Fe(OH)3} – em uma determinada temperatura é de \num{4.82e-8} \unit{\gram\per\litre}. Determine o seu produto de solubilidade nessa temperatura. 
-\end{exercise}
-\begin{solution}
-\num{1.1e-36}
-\end{solution}
-
-\begin{exercise}
-A solubilidade do carbonato de bário – \ch{BaCO3} – é de \num{1.3e-2} \unit{\mol\per\litre}. Descubra o produto de solubilidade desse sal.
-\end{exercise}
-\begin{solution}
-\num{1.69e-4}
-\end{solution}
-
-\begin{exercise}
-Prepara-se um litro de uma solução saturada de cloreto de prata – \ch{AgC$\ell$} . Calcule a constante de solubilidade, sabendo que foi dissolvido \num{1.7e-3} g desse sal.
-\end{exercise}
-\begin{solution}
-\num{1.4e-10}
-\end{solution}
-
-\begin{exercise}
-Determinar a solubilidade (em \unit{\mol\per\litre}) do sulfeto de prata (\ch{Ag2S}) a certa temperatura, sabendo que o produto de solubilidade nessa temperatura é \num{1.6e-48}.
-\end{exercise}
-\begin{solution}
-\num{7.7e-17} mol/L
-\end{solution}
 
 
-\begin{exercise}
-Sabe-se que o K\textsubscript{s} do fosfato de prata – \ch{Ag3PO4}, a 25O ºC, é \num{1.56e-48}. Determine a solubilidade do sal nessa temperatura.
-\end{exercise}
-\begin{solution}
-\num{4.8e-13}
-\end{solution}
+\collectexercisesstop{ListaReacaoNuclear}
+
+\section{Lei da Radioatividade}
+\label{sec:orgf99036b}
+
+\printcollection{ListaRadioatividade}
 
 
-\begin{exercise}
-Calcule a solubilidade em água, a 18O ºC, do sulfeto férrico – \ch{Fe2S3} – sabendo que nessa temperatura o seu produto de solubilidade é \num{3.456e-52}.
-\end{exercise}
-\begin{solution}
-\num{2e-11}
-\end{solution}
+\section{Cinética de Desintegrações}
+\label{sec:org362ba66}
 
 
-\begin{exercise}
-O produto de solubilidade, a 20O ºC, do hidróxido férrico – \ch{Fe(OH)3} – é \num{1.16e-16}. Descubra a solubilidade, a 20O ºC, em g/L, dessa base.
-\end{exercise}
-\begin{solution}
-\num{4.8e-3} g/L
-\end{solution}
-
-\begin{exercise}
-Calcule a solubilidade do sulfeto de manganês II – MnS – em g/L, sabendo que o seu produto de solubilidade é \num{2e-15} .
-\end{exercise}
-\begin{solution}
-\num{3.88e-6}
-\end{solution}
+\printcollection{ListaCineticaRadioativa}
 
 
-\begin{exercise}
-Descubra a massa de sulfeto de ferro II – FeS – necessária para que sejam preparados 500 mL de solução saturada desse sal, sabendo que o seu produto de solubilidade é \num{4e-19}.
-\end{exercise}
-\begin{solution}
-\num{2.78e-8}
-\end{solution}
-
-\begin{exercise}
-Quantos gramas de sulfato de bário – \ch{BaSO4} – são necessários para preparar um litro de solução saturada, sabendo que o produto de solubilidade desse sal é \num{1.1e-10}?
-\end{exercise}
-\begin{solution}
-\num{2.44e-3}
-\end{solution}
-
-\begin{exercise}
-A dose letal de íons  \ch{Ba^{+2}} para o ser humano é de \num{2e-3} mol de íons  \ch{Ba^{+2}} por litro de sangue. Para se submeter a um exame de raios-X, um paciente ingeriu 200 mL de uma suspensão de sulfato de bário – \ch{BaSO4} . Supondo-se que os íons  \ch{Ba^{+2}} solubilizados na suspensão foram integralmente absorvidos pelo organismo e dissolvidos em 5 litros de sangue, discuta se essa dose coloca em risco a vida do paciente, considerando que o produto de solubilidade do sulfato de bário é igual a \num{1e-10} \unit{\mol\per\litre}.
-\end{exercise}
-\begin{solution}
-Não coloca em risco, pois [ \ch{Ba^{+2}}]=\num{4e-7} \unit{\mol\per\litre}
-\end{solution}
+\section{Reação Nuclear}
+\label{sec:org4bbaf73}
 
 
-\begin{exercise}
-Em um béquer foram misturadas soluções aquosas de cloreto de potássio (\ch{KC$\ell$}), sulfato de sódio (\ch{Na2SO4}) e nitrato de prata (\ch{AgNO3}), ocorrendo, então, a formação de um precipitado branco, que se depositou no fundo de um béquer. A análise da solução sobrenadante revelou as seguintes concentrações: [\ch{Ag^+}]=\num{1.0e-3} \unit{\mol\per\litre}; [ \ch{SO4^{-2}}]=\num{1.0e-1} \unit{\mol\per\litre} e [\ch{C$\ell$^-}]=\num{1.6e-7} \unit{\mol\per\litre}. De que é constituído o sólido formado? Justifique com cálculos.
-
-\begin{tblr}[
-]{
-colspec = {ccc}, colsep = 2mm, hlines = {1pt, white},
-row{1} = {2em,azure2,fg=white,font=\bfseries},
-}
-%\hline
-Composto & {Produto \\ de Solubilidade} & Cor \\ %x\hline
-{Cloreto de Prata \\ AgC$\ell$} & \num{1.6e-10} & Branca \\ \hline
-{Sulfato de Prata \\ \ch{Ag2SO4}} & \num{1.4e-5} & Branca\\ \hline
-\end{tblr}
-\end{exercise}
-\begin{solution}
-Note que para o sulfato de prata , o k\textsubscript{s} não é alcançado (\num{1.4e-5}), indicando que a presença de íons \ch{Ag^+} e \ch{C$\ell$^-} é a máxima possível na solução. Então, se houver formação de precipitado, este será de cloreto de prata.
-\end{solution}
-
-\begin{exercise}
-Uma solução saturada de base, representada por \ch{X(OH)2}, tem pH=10 a 25O ºC. Qual o produto de solubilidade do \ch{X(OH)2}?
-\end{exercise}
-\begin{solution}
-\num{5e-13}
-\end{solution}
-
-
-
-
-
-
-\collectexercisesstop{kps}
-
-\printcollection{kps}
+\printcollection{ListaReacaoNuclear}
 \end{document}

@@ -1,11 +1,11 @@
-#+LATEX_HEADER:\DeclareExerciseCollection{ListaBalanceamento}
+#+LATEX_HEADER:\DeclareExerciseCollection{ListaBalanceamentoII}
 
 #+BEGIN_COMMENT
 ========== BALANCEAMENTO ====================
 #+END_COMMENT
 
 
-\collectexercises{ListaBalanceamento}
+\collectexercises{ListaBalanceamentoII}
 
 #+begin_exercise
 Balanceie as reações químicas:
@@ -42,7 +42,7 @@ Balanceie as reações químicas:
 
 
 
-\collectexercisesstop{ListaBalanceamento}
+\collectexercisesstop{ListaBalanceamentoII}
 
 
 

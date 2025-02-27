@@ -12,7 +12,8 @@
 #+LATEX_HEADER:}
 #+LATEX_HEADER: %\usepackage[fontsize=12.3]{scrextend}
 #+LATEX_HEADER:\usepackage{fontspec}
-#+LATEX_HEADER:\usepackage[T1]{fontenc} 
+#+LATEX_HEADER:\usepackage[T1]{fontenc}
+#+LATEX_HEADER: \usepackage[english, portuguese]{babel}
 #+LATEX_HEADER: \usepackage{hyperref}
 #+LATEX_HEADER:\usepackage[x11names,svgnames,table]{xcolor}
 #+LATEX_HEADER: \defaultfontfeatures{Ligatures=TeX}
@@ -200,3 +201,11 @@
 
 
 #+LATEX_HEADER: %\usepackage{filecontents}
+
+#+LATEX_HEADER: \NewTblrTheme{fancy}{
+#+LATEX_HEADER: \SetTblrStyle{firsthead}{font=\bfseries}
+#+LATEX_HEADER: \SetTblrStyle{firstfoot}{fg=blue2}
+#+LATEX_HEADER: \SetTblrStyle{middlefoot}{\itshape}
+#+LATEX_HEADER: \SetTblrStyle{caption-tag}{red2}
+#+LATEX_HEADER: }
+#+LATEX_HEADER: 

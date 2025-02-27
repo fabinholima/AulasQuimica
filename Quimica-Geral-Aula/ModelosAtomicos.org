@@ -1,8 +1,8 @@
 
 
 * Modelos Atômicos
-
-
+Os primeiros a imaginar a existência dos átomos foram os filósofos gregos, por volta de 450 a.C.
+Os filósofos Leucipo e Demócrito foram os primeiros a formular a teoria atomista, que explica a origem do Universo
 
 #+LATEX: \begin{Box2}{Modelo Filosófico}
 1.  A matéria *NÃO* pode ser dividida infinitamente
@@ -12,6 +12,8 @@
 
 
 * Modelo de Dalton
+
+O modelo atômico de Dalton foi proposto em 1808 pelo químico, meteorologista e físico britânico John Dalton. Foi a primeira teoria atômica a explicar a composição da matéria
 
 #+LATEX: \begin{Box2}{Modelo da Bola de Bilhar}
 1.  Os átomos são esféricos, maciços, indivisíveis e indestrutíveis.
@@ -35,9 +37,18 @@
 
 * Modelo de Thomson
 
+O modelo atômico de Thomson foi proposto no ano de 1898 pelo físico inglês Joseph John Thomson ou, simplesmente, J.J. Thomson.
+
+
 
 #+LATEX: \begin{Box2}{Modelo do Pudim de Passas}
-  Thomson propôs que o átomo seria uma espécie de bolha  gelatinosa,  completamente  maciça  na  qual  haveria a totalidade da carga POSITIVA homoge-neamente distribuída. Incrustada nessa gelatina estariam os Elétrons de carga NEGATIVA. A Carga total do átomo seria igual a zero.
+  - Thomson propôs que o átomo seria uma espécie de bolha  gelatinosa,  completamente  maciça  na  qual  haveria a totalidade da carga POSITIVA homogeneamente distribuída.
+  - Ele propôs que o átomo é esférico, divisível e eletricamente neutro.
+  - O átomo é formado por um núcleo positivo e elétrons negativos.
+  - Os elétrons estão distribuídos uniformemente ao redor do núcleo positivo.
+  - Os elétrons podem ser transferidos a outros átomos, em determinadas condições.
+  - Incrustada nessa gelatina estariam os Elétrons de carga NEGATIVA.
+  - A Carga total do átomo seria igual a zero.
 [[./../Quimica-Geral-Aula/pudim.png]]
 
 O Modelo Atômico de Thomson foi derrubado em 1908 por Ernerst Rutherford.
@@ -348,6 +359,7 @@ No total, a nova Tabela Periódica possui 118 elementos químicos (92 naturais e
 O ósmio fica no centro e na parte inferior da Tabela Periódica, por isso a sua densidade é a maior de todos os elementos (22,5 g/cm\(^3\)), seguida da densidade do irídio (22,4 g/cm\(^3\)) que fica ao lado do ósmio na Tabela.
 
 
+#+LATEX: \begin{figure*}
 
 * Material Apoio
 
@@ -364,3 +376,4 @@ O ósmio fica no centro e na parte inferior da Tabela Periódica, por isso a sua
 |                                    |                              |                                                                |
 | Propriedades Periódicas            | https://youtu.be/eaGqKb22_7I | @@latex: \qrcode[height=1.6cm]{https://youtu.be/eaGqKb22_7I}@@ |
 
+#+LATEX: \end{figure*}

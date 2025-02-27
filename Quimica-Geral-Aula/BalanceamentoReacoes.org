@@ -1,12 +1,13 @@
 * Balanceamento das reações químicas
-@@latex: \begin{multicols}{2} @@
+
 
 Ajustar ou Balancear uma equação química consiste em  igualar  o  número  total  de  átomos  de  cada  elemento  nos  dois membros da equação. Uma   das   maneiras   de   balancear   uma   equação   química é usar o Método das Tentativas, ao qual sugerimos a seguinte seqüência
 
 1.  Ajustar os átomos dos metais;
 2.  Ajustar os átomos dos ametais;
-3.  Ajustar os átomos de hidrogênio;
-4.  Ajustar os átomos de oxigênio.
+3.  Ajustar os átomos calcogênios 
+4.  Ajustar os átomos de hidrogênio;
+5.  Ajustar os átomos de oxigênio.
 
 ** Exemplos
 
@@ -42,7 +43,6 @@ denominados de coeficientes estequiométricos.
 
 
 * Exercícios
-#+begin_questions
 #+begin_exercise
 Faça o balanceamento das seguintes reações e dê a soma dos menores coeficientes 
 estequiométricos inteiros.
@@ -70,6 +70,6 @@ Calcule a massa molar das substâncias a seguir.
 \end{choice}
 #+end_export
 #+end_exercise
-#+end_questions
+
 
 

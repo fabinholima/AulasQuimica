@@ -1,0 +1,108 @@
+#+LATEX_HEADER:\DeclareExerciseCollection{ListaBalanceamentoI}
+
+#+BEGIN_COMMENT
+========== BALANCEAMENTO ====================
+#+END_COMMENT
+
+
+\collectexercises{ListaBalanceamentoI}
+
+#+begin_exercise
+Balanceie a reação a seguir
+
+
+#+begin_export latex 
+    \ch{\lh CO2 + \lh H2O -> \lh C6H12O6 + \lh O2}
+#+end_export     
+#+end_exercise 
+
+
+
+#+begin_exercise
+Balanceie a reação a seguir
+
+#+begin_export latex
+   \ch{\lh  SiC$\ell$4 + \lh H2O ->  \lh H4SiO4 + \lh HC$\ell$}
+#+end_export 
+#+end_exercise 
+
+
+
+#+begin_exercise
+Balanceie a reação a seguir 
+
+#+begin_export latex
+    \ch {\lh A$\ell$ + \lh  HC$\ell$  ->  \lh A$\ell$C$\ell$3 + \lh  H2}
+#+end_export
+#+end_exercise 
+
+
+#+begin_exercise
+Balanceie a reação a seguir 
+
+#+begin_export latex 
+   \ch{ \lh Na2CO3 + \lh HC$\ell$ ->  NaC$\ell$ + H2O + CO2} 
+#+end_export 
+#+end_exercise 
+
+
+
+
+#+begin_exercise
+Balanceie a reação a seguir 
+
+#+begin_export latex
+  \ch{\lh C7H6O2 + \lh O2 ->  \lh CO2 + \lh H2O}
+#+end_export
+#+end_exercise 
+
+
+
+#+begin_exercise
+Balanceie a reação a seguir 
+
+#+begin_export latex
+\ch{ \lh  Fe2(SO4)3 + \lh KOH -> \lh K2SO4 + \lh Fe(OH)3}
+#+end_export
+#+end_exercise
+
+    
+
+#+begin_exercise
+Balanceie a reação a seguir 
+
+#+begin_export latex 
+\ch{ \lh   Ca3(PO4)2 + \lh SiO2 ->  \lh P4O10 + \lh CaSiO3} 
+#+end_export 
+#+end_exercise 
+
+
+#+begin_exercise
+Balanceie a reação a seguir
+
+#+begin_export latex
+   \ch{\lh KC$\ell$O3 -> \lh  KC$\ell$O4 + \lh KC$\ell$} 
+#+end_export
+#+end_exercise 
+
+
+#+begin_exercise
+Balanceie a reação a seguir 
+
+#+begin_export latex
+\ch{ \lh A$\ell$2(SO4)3 + \lh Ca(OH)2 -> \lh  A$\ell$(OH)3 + \lh CaSO4}
+#+end_export
+#+end_exercise 
+
+#+begin_exercise
+Balanceie a reação a seguir 
+
+#+begin_export latex 
+
+  \ch{\lh H2SO4 + \lh HI ->  \lh H2S + \lh I2 + \lh H2O}
+
+#+end_export
+#+end_exercise 
+
+
+\collectexercisesstop{ListaBalanceamentoI}

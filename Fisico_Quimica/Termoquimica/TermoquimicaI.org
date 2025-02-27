@@ -282,103 +282,33 @@ A
 #+end_solution
 
 
+#+ATTR_LATEX: :oprtions [points=1.0]
+#+begin_exercise
+(Unicamp - 2018) O livro O pequeno príncipe, de Antoine de Saint-Exupéry, uma das obras literárias mais traduzidas no mundo, traz ilustrações inspiradas na experiência do autor como aviador no norte da África. Uma delas, a figura (a), parece representar um chapéu ou um elefante engolido por uma jiboia, dependendo de quem a interpreta.
+
+Para um químico, no entanto, essa figura pode assemelhar-se a um diagrama de entalpia, em função da coordenada da reação (figura b). Se a comparação for válida, a variação de entalpia dessa reação seria
+
+[[./figurab.jpg]]
+
+
+#+begin_choice
+\choice Praticamente nula, com a formação de dois produtos.
+\choice Altamente exotérmica, com a formação de dois produtos.
+\choice Altamente exotérmica, mas nada se poderia afirmar sobre a quantidade de espécies no produto.
+\choice Praticamente nula, mas nada se poderia afirmar sobre a quantidade de espécies no produto. 
+\choice Nenhuma das alternativas.
+#+end_choice 
+
+#+end_exercise 
+#+begin_solution
+D
+#+end_solution 
+
+
 
 
 
 \collectexercisesstop{Termoquimica}
-
-
-
-#+BEGIN_COMMENT
-===================== LEI DE HESS EXERCISES ================
-#+END_COMMENT
-
-
-
-
-\collectexercises{LeiHess}
-
-#+ATTR_LATEX: :options [points=1.0]
-#+begin_exercise
-São dadas as seguintes variações de entalpia de combustão
-#+begin_export latex
-\begin{reactions*}
-C_{\sld} + O2_{\gas} -> CO2_{\gas} & $\qquad \enthalpy[unit=\kilo\joule]{-94.0}$\\
-H2_{\gas} + 1/2 O2_{\gas} -> H2O_{\lqdd}  &  $\qquad \enthalpy[unit=\kilo\joule]{-68.0}$\\
-CH4_{\gas} + 2 O2_{\gas} -> & \\
-CO2_{\gas} + 2 H2O_{\lqdd} & $\qquad \enthalpy[unit=\kilo\joule]{-212.0}$\\
-\end{reactions*}
-#+end_export
-
-Considerando a formação do metano, segundo a equação:
-
-#+begin_export latex
-\begin{reaction*}
-C_{\sld} + 2 H2_{\gas} -> CH4_{\gas}
-\end{reaction*}
-#+end_export
-
-A quantidade em quilojoules, em valor absoluto, envolvido na formação de 1 mol de metano, é :
-
-#+ATTR_LATEX: :options (3)
-#+begin_choice
-\choice 442
-\choice 50
-\choice 18
-\choice 254
-\choice 348
-#+end_choice
-#+end_exercise 
-#+begin_solution
-Conservando a 1ª equação: C(s) + O2(g)  CO2(g) ∆H1= – 94,0 kcal
-Multiplicando por 2 a 2ª equação: 2 H2(g) + O2(g)  2 H2O(ℓ) ∆H2 = 2.(– 68,0) kcal
-Invertendo a 3ª equação: CO2(g) + 2H2O(ℓ)  CH4(g) + 2 O2(g) ∆H3 = + 212,0 kcal
-Somando as equações: C(s) + 2 H2(g)  CH4(g) ∆H = ∆H1 + ∆H2 +∆H3 = – 18 kcal
-#+end_solution
-
-#+ATTR_LATEX: :options [points=1.0]
-#+begin_exercise
-A fermentação que produz o álcool das bebidas alcoólicas é uma reação exotérmica representada pela equação:
-
-#+begin_export latex
-\begin{reaction*}
-C6H12O6_{\sld} ->2 C2H5OH_{\lqdd} + 2 CO2_{\gas} + x kJ
-\end{reaction*}
-#+end_export
-
-Considerando-se as equações que representam as combustões da glicose e do etanol:
-#+begin_export latex
-\begin{reactions*}
-C6H12O6_{\sld}  + 6 O2_{\gas} -> & \\
-6 CO2_{\gas} + 6 H2O_{\lqdd} & $\quad \enthalpy[unit=\kilo\joule]{2840}$ \\
-C2H5OH_{\lqdd} +  3 O2_{\gas} -> & \\
-2 CO2_{\gas} + 3 H2O_{\lqdd} & $\quad \enthalpy[unit=\kilo\joule]{1350}$
-\end{reactions*}
-#+end_export
-
-pode-se concluir que o valor de x em kJ/mol de glicose é :
-
-#+ATTR_LATEX: :options (2) 
-#+begin_choice 
-\choice 140
-\choice 280
-\choice 1490
-\choice 4330
-\choice 5540
-#+end_choice
-
-#+end_exercise 
-
-#+begin_solution
-Conservando a 1ª equação: C6H12O6(s) 6 O2(g) 6 CO2(g) + 6 H2O(ℓ) + 2840 kJ
-Invertendo e multiplicando por 2 a 2ª equação: 4 CO2(g) + 6 H2O(ℓ) 2 C2H5OH(ℓ) 6 O2(g) 2.( – 1350) kJ
-Somando as equações: C6H12O6(s) 2 C2H5OH(ℓ) + 2 CO2(g) + x kJ
-Calculando o valor de X: + 2840 + 2.( –1350) = + 140kJ
-#+end_solution 
-
-
-\collectexercisesstop{LeiHess}
-
 
 
 

@@ -1,10 +1,13 @@
 
 #+LATEX_HEADER: \DeclareExerciseCollection{ListaRadioatividade}
-#+LATEX_HEADER: \DeclareExerciseCollection{radio1}
+#+LATEX_HEADER: \DeclareExerciseCollection{ListaCineticaRadioativa}
+#+LATEX_HEADER: \DeclareExerciseCollection{ListaReacaoNuclear}
 
 
 
 \collectexercises{ListaRadioatividade}
+
+
 
 #+begin_exercise
 Calcule o número de partículas $\upalpha$  e $\upbeta$ que o urânio 238 (\isotope{238,U}), precisa emitir para se transformar em Rádio 226 (\isotope{226,Ra}).
@@ -17,7 +20,7 @@ A partir de um átomo radioativo, chega-se ao elemento \isotope{212,Bi} por meio
 
 
 #+begin_exercise
-Após algumas desintegrações sucessivas, o \isotope{232,Th}, muito encontrado na orla marítima de Guarapari (ES), se transforma no 82Pb208. Qual o número de partículas $\upalpha$ e $\upbeta$ emitidas nessa tranformação ?
+Após algumas desintegrações sucessivas, o \isotope{232,Th}, muito encontrado na orla marítima de Guarapari (ES), se transforma no \isotope{208,Pb}. Qual o número de partículas $\upalpha$ e $\upbeta$ emitidas nessa tranformação ?
 #+end_exercise 
 
 
@@ -33,7 +36,10 @@ A partir de um átomo radioativo, chega-se ao elemento \isotope{220,Rn}, por mei
 #+end_exercise
 
 
+\collectexercisesstop{ListaRadioatividade}
 
+
+\collectexercises{ListaCineticaRadioativa}
 
 #+begin_exercise
 A desintegração de 1 g de molibdênio 99, até restarem 0,125 g de molibdênio, dura 180 horas. Qual a sua meia vida ?
@@ -72,40 +78,13 @@ Sabendo que o cobalto 60 perde metade de sua radioatividade a cada 5 anos, aprox
 
 #+end_exercise
 
-
-\collectexercisesstop{ListaRadioatividade}
-
-
-
-
-
-
-\collectexercises{radio1}
-
-#+ATTR_LATEX: :options [points=3.5]
-#+begin_exercise 
-Escreva as equações
-
-#+ATTR_LATEX: :options (2)
-#+begin_choice
-\choice Emissão pósiton  \isotope{18,F} \vspace{2cm}
-\choice  Emissão $\upbeta$  \vspace{2cm}
-\choice Emissão alfa	\isotope{235,U} \vspace{2cm}
-\choice  Emissão gama \vspace{2cm}
-
-#+end_choice 
-
-#+end_exercise
-
-
-#+ATTR_LATEX: :options [points=3.5]
+ 
 #+begin_exercise
 Após 3 horas, o nível de atividade de uma amostra de um determinado isótopo radioativo, que decai em um isótopo estável, caiu para 20% de seu valor inicial. Calcule a meia-vida de este isótopo
 \vspace{2cm}
 #+end_exercise 
 
 
-#+ATTR_LATEX: :options [points=3.0]
 #+begin_exercise 
 O flúor-20 decai para néon-20 com meia-vida de 11 segundos. Em t = 0, uma amostra contém 120 gramas de átomos de flúor-20. Quantos gramas de átomos de flúor-20 permanecem na amostra em 
 
@@ -118,4 +97,31 @@ O flúor-20 decai para néon-20 com meia-vida de 11 segundos. Em t = 0, uma amos
 \vspace{1.5cm}
 #+end_choice
 #+end_exercise 
-\collectexercisesstop{radio1}
+
+
+\collectexercisesstop{ListaCineticaRadioativa}
+
+
+
+
+
+
+\collectexercises{ListaReacaoNuclear}
+
+#+ATTR_LATEX: :options [points=3.5]
+#+begin_exercise 
+Escreva as equações
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice Emissão pósiton  \isotope{18,F} \vspace{2cm}
+\choice  Emissão $\upbeta$ \isotope{20,Ca} \vspace{2cm}
+\choice Emissão alfa	\isotope{235,U} \vspace{2cm}
+\choice  Emissão gama \vspace{2cm}
+
+#+end_choice 
+
+#+end_exercise
+
+
+\collectexercisesstop{ListaReacaoNuclear}

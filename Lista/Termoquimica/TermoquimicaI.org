@@ -1,0 +1,131 @@
+
+#+LATEX_HEADER: \DeclareExerciseCollection{EntalpiaFormacao}
+
+\collectexercises{EntalpiaFormacao}
+
+
+
+
+
+#+begin_export latex
+\begin{talltblr}
+[
+theme = fancy,
+caption = {Entalpia de Formação de Várias Substâncias},
+]
+{
+colspec = {cc}, colsep = 10mm, hlines = {1pt, white},
+row{1} = {2em,purple7,fg=white,font=\bfseries\sffamily},
+}
+Substância & $\Delta$ H$^0_f$ (\unit{\kilo\joule\per\mol}) \\   
+\ch{C4H10\gas{}} & -126 \\
+\ch{CaC2\sld{}}  & -63 \\
+\ch{Ca(OH)2\sld{}} & -987 \\
+\ch{CaCO3\sld{}} & -1207 \\
+\ch{C2H2\gas{}} & 227 \\
+\ch{CO2\gas{}} & -394 \\
+\ch{H2\gas{}} & 0 \\
+\ch{H2O\gas{}} & -242 \\
+\ch{H2O\lqdd{}} & -286 \\
+\ch{NH3\gas{}} & -46 \\
+\ch{NO\gas{}} & 90 \\
+\ch{NO2\gas{}} & 34 \\
+\ch{N2O\gas{}} & 82 \\
+\ch{O2\gas{}} & O \\
+\ch{O3\gas{}} & 143 \\ \hline
+\end{talltblr}
+\vspace{.5cm}
+
+#+end_export
+
+#+begin_exercise
+Use os dados da tabela acima para calcular a variação de entalpia da reação.
+
+@@latex: \ch{3 H2\gas{} + O3\gas{} -> 3 H2O\gas{}}@@
+
+#+end_exercise  
+
+
+#+begin_exercise
+Use os dados da tabela acima para calcular a variação de entalpia da reação.
+
+#+begin_export latex
+
+\begin{reaction*}
+2 NO\gas{} + O2\gas{} -> 2 NO2\gas{} 
+\end{reaction*}
+
+#+end_export 
+
+
+#+end_exercise 
+
+
+
+#+begin_exercise
+Use os dados da tabela acima para calcular a variação de entalpia da reação.
+
+
+#+begin_export latex
+
+\begin{reaction*}
+ N2O\gas{} + NO2\gas{} -> 3 NO\gas{} 
+\end{reaction*}
+
+#+end_export 
+
+#+end_exercise 
+
+
+
+#+begin_exercise
+Use os dados da tabela acima para calcular a variação de entalpia da reação.
+
+
+#+begin_export latex
+
+\begin{reaction*}
+ CaC2\sld{} + NO2\lqdd{} -> 3 Ca(OH)2\gas{} + C2H2\gas{} 
+\end{reaction*}
+
+#+end_export 
+
+
+#+end_exercise 
+
+
+
+#+begin_exercise
+Use os dados da tabela acima para calcular a variação de entalpia da reação.
+
+#+begin_export latex
+\begin{reaction*}
+C4H10\gas{} + 13/2 O2\gas{} -> 4 CO2\gas{} + 5 H2O\lqdd{}
+\end{reaction*}
+#+end_export
+
+
+
+#+end_exercise 
+
+
+
+
+
+#+begin_exercise
+Os romanos utilizavam CaO como argamassa nas construções rochosas. O CaO era misturado com água, produzindo \ch{Ca(OH)2}, que reagia lentamente com o \ch{CO2}‚ atmosférico, dando calcário:
+
+
+
+#+begin_export latex
+\begin{reaction*}
+Ca(OH)2\sld{} + CO2\gas{} ->  CaCO3\sld{} + H2O\gas{}
+\end{reaction*}
+#+end_export
+
+A partir dos dados da tabela anterior, a variação de entalpia da reação, em kJ/mol, será igual a:
+
+
+#+end_exercise 
+
+\collectexercisesstop{EntalpiaFormacao}

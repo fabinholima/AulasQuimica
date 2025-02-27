@@ -144,6 +144,16 @@ m_{O2}= 12 \cdot 10^{-3}  \cancel{\text{g \ch{C10H15N}}} \cdot  \frac{1 \cancel{
 
 
 #+begin_exercise
+Em uma indústria siderúrgica, a redução da hematita para a produção de ferro metálico é dada de acordo com a reação
+
+#+begin_export latex
+\begin{reaction*}
+Fe2O3\sld{} + 3 CO\gas{} -> 2 Fe\sld{} + 3 CO2\gas{}
+\end{reaction*}
+#+end_export
+
+Qual a massa de ferro metálico, em gramas, que pode ser obtida a partir de 30 litros de monóxido de carbono nas
+CNTP? Dados: Volume Molar de gás nas CNTP = 22,4 L/mol; Fe = 56u.
 
 #+end_exercise
 #+begin_solution

@@ -47,58 +47,8 @@
 
 
 
-#+INCLUDE: "Lista/Volumetria/AcidoBaseI.org"
+#+INCLUDE: "Lista/Estequiometria/BalanceamentoIII.org"
+
+\printcollection{ListaBalanceamentoIII}
 
 
-\printcollection{VolumetriaII}
-
-
-#+begin_comment
-
-
-
-#+INCLUDE: "Lista/Estequiometria/Balanceamento.org"
-
-\printcollection{ListaBalanceamento}
-
-
-
-#+INCLUDE: "Lista/ReacoesQuimica/Classificacao.org"
-
-\printcollection{TypesReactions}
-
-
-
-#+INCLUDE: "Lista/Eletroquimica/BalanceamentoRedox.org"
-
-
-
-#+begin_export latex
-\section{Realize o balanceamento das reações redox}
-#+end_export
-
-\printcollection{BalanceamentoRedoxI}
-
-\newpage
-
-#+begin_export latex
-\section{Equilibre cada reação redox em solução ácida.}
-#+end_export
-
-
-\printcollection{BalanceamentoRedoxII}
-
-\newpage
-
-#+begin_export latex
-
-\section{Equilibre cada reação redox em solução básica.}
-#+end_export
-
-
-\printcollection{BalanceamentoRedoxIII}
-
-
-
-
-#+end_comment
