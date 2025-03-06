@@ -1,0 +1,73 @@
+* Classificação do Elementos Químicos
+
+
+A *Tabela Periódica* é um modelo que agrupa todos os elementos químicos conhecidos e suas propriedades. Eles estão organizados em ordem crescente de números atômicos (número de prótons).
+
+No total, a nova Tabela Periódica possui 118 elementos químicos (92 naturais e 26 artificiais).
+
+#+NAME:tabela
+[[./../Quimica-Geral-Aula/tabela.pdf]]
+
+
+
+* Organização da Tabela Periódica
+- Períodos: :: São  as  linhas  horizontais  que  aparecem  nas tabelas.    Indicam    quantas    camadas eletrônicas    um  elemento    químico    possui.    Sendo    assim,    quando encontramos  um  elemento  químico  no  quarto  período, sabemos que ele possui quatro camadas eletrônicas.
+ [[./../Quimica-Geral-Aula/periodos-tabela.jpg]]
+ - Famílias ou Grupos: :: São  as  dezoito  linhas  verticais que    aparecem    na    tabela.As    colunas    têm    uma importância especial para a Química, pois cada coluna é formada  por  elementos  com propriedades  *químicas semelhantes*.
+ [[./../Quimica-Geral-Aula/grupos-tabela.jpg]]
+   
+ - Em 1869, Mendelev percebeu que muitas propriedades físicas e químicas variam periodicamente na sequencia de suas massas atômicas.
+ - Os elementos estão dispostos em ordem crescente de números atômicos. *Lei da Periodicidade*.
+ - Em 1913, Moselet introduziu o conceito de número atômico (vide Tabela Periódica).
+ - Os  elementos  químicossão  representados  por  letras maiúsculas ou uma letra maiúscula seguida de uma letra minúscula.
+
+  
+[[./../Quimica-Geral-Aula/esquema_tabela.jpg]]
+  
+-  1º Período: :: 2 elementos
+-  2º Período: :: 8 elementos
+-  3º Período: :: 8 elementos
+-  4º Período: ::  18 elementos
+-  5º Período: ::  18 elementos
+-  6º Período: ::  32 elementos
+- 7º Período: ::  32 elementos
+  
+* Classificação em blocos
+  - Elementos  representativos: :: são  os  elementos  que apresentam como subnível mais energético os subníveis \(s\) ou \(p\).
+  - Elementos   de   transição: :: são   os   elementos   que apresentam como subnível mais energético os subníveis \(d\) (transição externa) ou \(f\) (transição interna).
+[[./../Quimica-Geral-Aula/bloco.png]]
+  
+* Classificação Periódica
+
+- Hidrogênio: :: O  hidrogênio  é  um  elemento  considerado à parte por ter um comportamento único.
+- Metais: :: são  a  maioria  dos  elementos  da  tabela,  sendo bons  condutores  de  eletricidade  e  calor,  maleáveis  e dúcteis,  possuem  brilho  metálico  característico  e  são sólidos, com exceção do mercúrio (Hg).
+- Semimetais: :: São todos  sólidos  em  condições  ambiente e apresentam  semelhanças entre metais e ametais.
+- Não-metais: ::  são os  mais abundantes  na natureza, não são  bons  condutores  de  calor  e  eletricidade,  não  são maleáveis  e  dúcteis  e  não  possuem  brilho  como  os metais.
+- Gases Nobres: ::  são   no   total   6 elementos   e   sua característica mais importante é a estabilidade química.
+[[./../Quimica-Geral-Aula/tab-familia.png]]
+  
+* Propriedades atômicas e a periodicidade
+
+  Os   elementos   se   organizam   de   acordo   com   suas *propriedades  periódicas:*  à  medida  que  o nº  *atômico aumenta*, os  elementos  assumem  valores crescentes  ou decrescentes     em     cada     período.     As     principais propriedades periódicas são:
+
+** Eletronegatividade
+
+   É a capacidade que um átomo tem de  atrair  elétrons  (ametais).  Varia  da  esquerda  para  a direita  e  de  baixo  para  cima,  excluindo-se  os  gases nobres.
+[[./../Quimica-Geral-Aula/eletronegatividade.png]]
+ 
+
+** Potencial   de   Ionização
+ É   a   energia   necessária   para arrancar  um  elétron  de  um  átomo,  no  estado  gasoso, transformando-o   em   um   íon   gasoso.   Varia   como   a eletronegatividade  e  inclui  os  gases  nobres.  A  segunda ionização  requer  maior  energia  que  a  primeira  e,  assim, sucessivamente.
+[[./../Quimica-Geral-Aula/energia.png]]
+
+** Raio Atômico:
+   É a distância que vai do núcleo do átomo até o seu elétron mais externo. Inclui os gases nobres.
+[[./../Quimica-Geral-Aula/raio-atomico.png]]
+
+** Densidade:
+   É  a  razão  entre  a  massa  e  o  volume  do elemento. Varia das extremidades para o centro e de cima para baixo.
+
+[[./../Quimica-Geral-Aula/densidade-tabela.png]]
+
+O ósmio fica no centro e na parte inferior da Tabela Periódica, por isso a sua densidade é a maior de todos os elementos (22,5 g/cm\(^3\)), seguida da densidade do irídio (22,4 g/cm\(^3\)) que fica ao lado do ósmio na Tabela.
+

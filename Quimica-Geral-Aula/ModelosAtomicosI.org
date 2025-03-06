@@ -1,0 +1,142 @@
+
+
+* Modelos Atômicos
+Os primeiros a imaginar a existência dos átomos foram os filósofos gregos, por volta de 450 a.C.
+Os filósofos Leucipo e Demócrito foram os primeiros a formular a teoria atomista, que explica a origem do Universo
+
+#+LATEX: \begin{Box2}{Modelo Filosófico}
+1.  A matéria *NÃO* pode ser dividida infinitamente
+2.  A matéria tem um limite com as características do todo.
+3.  Este limite seriam partículas bastante pequenas que não poderiam mais ser divididas, os *ÁTOMOS INDIVISÍVEIS*.
+#+LATEX: \end{Box2}
+
+
+* Modelo de Dalton
+
+O modelo atômico de Dalton foi proposto em 1808 pelo químico, meteorologista e físico britânico John Dalton. Foi a primeira teoria atômica a explicar a composição da matéria
+
+#+LATEX: \begin{Box2}{Modelo da Bola de Bilhar}
+1.  Os átomos são esféricos, maciços, indivisíveis e indestrutíveis.
+2.  Os átomos de elementos diferentes têm massas diferentes.
+3.  Os diferentes átomos se combinam em várias proporções, formando novas substâncias.
+4.  Os  átomos  não  são  criados  nem  destruídos,  apenas trocam de parceiros para produzirem novas substâncias.
+
+#+begin_export latex
+\begin{center}
+%\includegraphics{scale=.2}{ QG/bola-bilhar.png}
+\includegraphics[width=.2\linewidth]{Quimica-Geral-Aula/bola-bilhar.png}
+\end{center}
+#+end_export
+
+
+#+LATEX: \end{Box2}
+
+#+LATEX: \begin{Box2}{Problemas do Modelo}
+- Não explicou a Eletricidade nem a Radioatividade.
+#+LATEX: \end{Box2}
+
+* Modelo de Thomson
+
+O modelo atômico de Thomson foi proposto no ano de 1898 pelo físico inglês Joseph John Thomson ou, simplesmente, J.J. Thomson.
+
+
+
+#+LATEX: \begin{Box2}{Modelo do Pudim de Passas}
+  - Thomson propôs que o átomo seria uma espécie de bolha  gelatinosa,  completamente  maciça  na  qual  haveria a totalidade da carga POSITIVA homogeneamente distribuída.
+  - Ele propôs que o átomo é esférico, divisível e eletricamente neutro.
+  - O átomo é formado por um núcleo positivo e elétrons negativos.
+  - Os elétrons estão distribuídos uniformemente ao redor do núcleo positivo.
+  - Os elétrons podem ser transferidos a outros átomos, em determinadas condições.
+  - Incrustada nessa gelatina estariam os Elétrons de carga NEGATIVA.
+  - A Carga total do átomo seria igual a zero.
+[[./../Quimica-Geral-Aula/pudim.png]]
+
+O Modelo Atômico de Thomson foi derrubado em 1908 por Ernerst Rutherford.
+
+#+LATEX: \end{Box2}
+
+
+** A  RADIOATIVIDADE  E  A  DERRUBADA  DO MODELO DE THOMSON
+
+*W. K. Röntgen* estudava raios emitidos pela ampola de Crookes. Repentinamente, notou que raios descon-hecidos saíam dessa ampola, atravessavam corpos e impressionavam chapas fotográficas. Como os raios eram desconhecidos, chamou-os de /RAIOS-X/.
+
+*Henri Becquerel* tentava relacionar fosforescência de minerais à base de urânio com os raios X. Pensou que dependiam da luz solar. Num dia nublado, guardou uma amostra de urânio numa gaveta embrulhada em papel preto e espesso. Mesmo assim, revelou uma chapa fotográfica. Iniciam-se, portanto, os estudos relacionados à *RADIOATIVIDADE*.
+
+
+** CASAL CURIE E A RADIOATIVIDADE
+
+
+O casal Curie  – Pierre e Marie Curie – formou uma notável parceria e fez grandes descobertas, como os elementos polônio, em homenagem à terra natal de  Marie,  e  *rádio*,  de  “radioatividade”,  ambos  de  importância  fundamental  no  grande  avanço  que  seus estudos imprimiram ao conhecimento da estru-tura da matéria.
+
+**  O EXPERIMENTO DE RUTHERFORD
+
+   Ernest Rutherford, Convencido por J. J. Thomson, começa a pesquisar materiais radioativos e, aos 26 anos de idade, notou que havia dois tipos de radiação: Uma positiva (alfa) e outra negativa (beta). Assim, inicia-se o processo para determinação do NOVO MODELO ATÔMICO.
+
+   Rutherford propõe a dois de seus alunos - Johannes Hans  Wilhelm  Geiger  e  Ernerst  Marsden  -  que  bombardeassem  finas  folhas  de  metais  com  as  partículas alfa, a fim de comprovar, ou não, a validade do modelo atômico de Thomson.
+
+[[./../Quimica-Geral-Aula/placa.png]]
+
+   Como o átomo, segundo Thomson, era uma espécie de  bolha  gelatinosa,  completamente  neutra,  no  momento em que as partículas Alfa (numa veloci-dade muito grande) colidissem com esses átomos, passariam  direto,  podendo  sofrer  pequeníssimos  desvios de sua trajetória.
+
+Rutherford observou que: (1) a maioria das partículas alfa atravessam a lâmina de ouro sem sofrer desvios; (2) algumas partículas alfa sofreram desvios de até 90º  ao  atravessar  a  lâmina  de  ouro;  (3)  algumas  partículas alfa *RETORNARAM*.
+
+* Modelo de Rutherford 
+
+#+LATEX: \begin{Box2}{Modelo Planetário}
+  Para que uma partícula alfa pudesse inverter sua trajetória,  deveria  encontrar  uma  carga  positiva  bastante concentrada na região central (o núcleo), com massa bastante pronunciada.
+
+  Rutherford propôs que o *NÚCLEO*, conteria toda a massa do átomo, assim como a totalidade da carga positiva (chamadas de *PRÓTONS*).
+
+  Os  elétrons  estariam  girando  circularmente  ao  redor  desse  núcleo,  numa  região  chamada  de  ELETROSFERA. Surge, assim, o *ÁTOMO NUCLEAR!*
+
+#+BEGIN_export latex
+\begin{center}
+\includegraphics[scale=0.25]{./Quimica-Geral-Aula/atomo-nuclear.png}
+\end{center}
+#+END_export 
+ 
+  #+LATEX: \end{Box2}
+
+
+#+LATEX: \begin{Box2}{Problemas do Modelo Rutherford}
+  Para os físicos, toda carga elétrica em movimento, como  os  elétrons,  perde  energia  na  forma  de  luz,  diminuindo  sua  energia  cinética  e  a  consequente  atração  entre  prótons  e  elétrons  faria  com  que  houvesse  uma  colisão  entre  eles,  destruindo  o  átomo, ALGO QUE NÃO OCORRE.
+
+  Portanto, o Modelo Atômico de Rutherford, mesmo explicando o que foi observado no laboratório, apresenta uma INCORREÇÃO.
+#+LATEX: \end{Box2}
+
+* Modelo de Bohr
+
+Niels Bohr estudava espectros de emissão do gás hidrogênio. O gás hidrogênio aprisionado numa ampola  submetida  a  alta  diferença  de  potencial  emitia luz vermelha
+#+begin_export latex
+\includegraphics[scale=.5]{./Quimica-Geral-Aula/lamp.png}
+#+end_export
+
+Ao passar por um prisma, essa luz se subdividia em diferentes  comprimentos  de  onda  e  frequência,  caracterizando  um  ESPECTRO  LUMINOSO  DESCONTÍNUO.
+
+#+LATEX: \begin{Box2}{Postulados de Bohr}
+  1. A  ELETROSFERA está dividida em CAMADAS ou NÍVEIS DE ENERGIA (K, L, M, N, O, P e Q), e os elétrons nessas camadas, apresentam energia constante. @@latex: \includegraphics[scale=.3]{./Quimica-Geral-Aula/camadas.png} @@ 
+  2. Em sua camada de origem (camada estacionária), a  energia  é  constante,  mas  o  elétron  pode  saltar  para  uma  camada  mais  externa,  sendo  que,  para  tal, é necessário que ele ganhe energia externa.
+  3. Um  elétron  que  saltou  para  uma  camada  de  maior energia fica instável e tende a voltar a sua camada de origem. Nesta volta, ele devolve a mesma quantidade de energia que havia ganhado para o salto e emite um *FÓTON DE LUZ*.
+
+#+LATEX: \end{Box2}
+@@latex: \includegraphics[scale=.5]{./Quimica-Geral-Aula/foton.png} @@ 
+
+O modelo atômico de Rutherford, modificado por Bohr, é também conhecido como modelo de Rutherford-Bohr.
+*OBS:* O número máximo de elétrons por camadas é:  K = 2	L = 8	M = 18	N = 32	O = 32	P = 18	Q = 2.
+
+
+* A DESCOBERTA DO NÊUTRON
+
+  Em 1932, *James Chadwick* descobriu a partícula do núcleo atômico responsável pela sua ESTABILIDADE, que passou a ser conhecida por NÊUTRON, devido ao fato de não ter carga elétrica. Por essa descoberta ganhou o Prêmio Nobel de Física em 1935.
+#+ATTR_LATEX: scale 0.5
+  [[./../Quimica-Geral-Aula/atomo.png]]
+
+** PARTÍCULAS DO ÁTOMO
+
+ - Os prótons têm carga elétrica positiva.
+ - Os elétrons carga negativa.
+ - Os nêutrons não têm carga nenhuma.
+
+
+
+ 

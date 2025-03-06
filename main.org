@@ -49,33 +49,7 @@
 
 #+end_export
 
-
-#+INCLUDE: "Lista/Radioatividade/ListaRadioatividade.org"
-
-** Lei da Radioatividade
-
-\printcollection{ListaRadioatividade}
-
-
-** Cinética de Desintegrações 
-
-
-\printcollection{ListaCineticaRadioativa}
-
-
-** Reação Nuclear 
-
-
-\printcollection{ListaReacaoNuclear}
-
-
-
-
-
-#+begin_comment
-
-#+INCLUDE: "Quimica-Geral-Aula/ModelosAtomicos.org"
-
-#+end_comment
+#+INCLUDE: "Quimica-Geral-Aula/ModelosAtomicosI.org"
+#+INCLUDE: "Quimica-Geral-Aula/ModelosAtomicosII.org"
 
 

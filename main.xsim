@@ -1,46 +1,40 @@
 \providecommand\numberofexercises{}
 \XSIM{solution-body}{}
-\XSIM{exercise-body}{exercise-1=={Calcule o número de partículas \(\upalpha \) e \(\upbeta \) que o urânio 238 (\isotope {238,U}), precisa emitir para se transformar em Rádio 226 (\isotope {226,Ra}).}||exercise-2=={A partir de um átomo radioativo, chega-se ao elemento \isotope {212,Bi} por meio de quatro emissões \(\upalpha \) e três emissões \(\upbeta \) Identifique o elemento inicial e diga qual é o seu número de massa e o seu número atômico ?}||exercise-3=={Após algumas desintegrações sucessivas, o \isotope {232,Th}, muito encontrado na orla marítima de Guarapari (ES), se transforma no \isotope {208,Pb}. Qual o número de partículas \(\upalpha \) e \(\upbeta \) emitidas nessa tranformação ?}||exercise-4=={Um elemento X emite 8 partículas betas resultando no elemento Y. Y por sua vez emite 4 partículas alfas resultando em Z. Diga quem são, ao final do processo, isótopo ou isóbaro ?}||exercise-5=={A partir de um átomo radioativo, chega-se ao elemento \isotope {220,Rn}, por meio de três emissões \(\upalpha \) e duas emissões \(\upbeta \). Identifique o elemento inicial e diga qual é o seu número de massa e o seu número atômico ?}||exercise-6=={A desintegração de 1 g de molibdênio 99, até restarem 0,125 g de molibdênio, dura 180 horas. Qual a sua meia vida ?}||exercise-7=={Após 40 dias um determinado radioisótopo, cuja meia-vida é de 10 dias, pesa 0,5 gramas. Qual a sua massa inicial?}||exercise-8=={A meia-vida de um elemento radioativo é 15 minutos. Partindo-se de 320 mg desse elemento, após uma hora e meia sua massa fica reduzida a A mg. Qual o valor de A ?}||exercise-9=={Quanto tempo levará para reste apenas 6,25\% de uma amostra de um material radioativo, cuja meia vida é de 5 minutos ?}||exercise-10=={Sabendo que a meia-vida do estrôncio 90 é de aproximadamente 28 anos, determine a porcentagem do mesmo que ainda estará presente daqui a 112 anos}||exercise-11=={Sabendo que o cobalto 60 perde metade de sua radioatividade a cada 5 anos, aproximadamente, qual a porcentagem residual de sua radioatividade após 15 anos ?}||exercise-12=={Após 3 horas, o nível de atividade de uma amostra de um determinado isótopo radioativo, que decai em um isótopo estável, caiu para 20\% de seu valor inicial. Calcule a meia-vida de este isótopo \vspace {2cm}}||exercise-13=={O flúor-20 decai para néon-20 com meia-vida de 11 segundos. Em t = 0, uma amostra contém 120 gramas de átomos de flúor-20. Quantos gramas de átomos de flúor-20 permanecem na amostra em \par \begin {choice} \choice t = 5,0 segundos, \vspace {1.5cm} \choice t = 30 segundos \vspace {1.5cm} \choice t = 1,0 minutos? \vspace {1.5cm} \end {choice}}||exercise-14=={Escreva as equações \par \begin {choice}(2) \choice Emissão pósiton \isotope {18,F} \vspace {2cm} \choice Emissão \(\upbeta \) \isotope {20,Ca} \vspace {2cm} \choice Emissão alfa \isotope {235,U} \vspace {2cm} \choice Emissão gama \vspace {2cm} \end {choice}}}
-\XSIM{goal}{exercise}{points}{3.5}
-\XSIM{totalgoal}{points}{3.5}
+\XSIM{exercise-body}{}
+\XSIM{goal}{exercise}{points}{0}
+\XSIM{totalgoal}{points}{0}
 \XSIM{goal}{exercise}{bonus-points}{0}
 \XSIM{totalgoal}{bonus-points}{0}
-\XSIM{order}{1||2||3||4||5||6||7||8||9||10||11||12||13||14}
+\XSIM{order}{}
 \XSIM{use}{}
 \XSIM{use!}{}
-\XSIM{used}{exercise-1=={true}||exercise-2=={true}||exercise-3=={true}||exercise-4=={true}||exercise-5=={true}||exercise-6=={true}||exercise-7=={true}||exercise-8=={true}||exercise-9=={true}||exercise-10=={true}||exercise-11=={true}||exercise-12=={true}||exercise-13=={true}||exercise-14=={true}}
+\XSIM{used}{}
 \XSIM{print}{}
 \XSIM{print!}{}
-\XSIM{printed}{exercise-1=={true}||exercise-2=={true}||exercise-3=={true}||exercise-4=={true}||exercise-5=={true}||exercise-6=={true}||exercise-7=={true}||exercise-8=={true}||exercise-9=={true}||exercise-10=={true}||exercise-11=={true}||exercise-12=={true}||exercise-13=={true}||exercise-14=={true}}
-\XSIM{total-number}{14}
-\XSIM{exercise}{14}
+\XSIM{printed}{}
+\XSIM{total-number}{0}
+\XSIM{exercise}{0}
 \XSIM{types}{exercise}
-\XSIM{idtypes}{1=={exercise}||2=={exercise}||3=={exercise}||4=={exercise}||5=={exercise}||6=={exercise}||7=={exercise}||8=={exercise}||9=={exercise}||10=={exercise}||11=={exercise}||12=={exercise}||13=={exercise}||14=={exercise}}
-\XSIM{collections}{exercise-1=={all exercises,ListaRadioatividade}||exercise-2=={all exercises,ListaRadioatividade}||exercise-3=={all exercises,ListaRadioatividade}||exercise-4=={all exercises,ListaRadioatividade}||exercise-5=={all exercises,ListaRadioatividade}||exercise-6=={all exercises,ListaCineticaRadioativa}||exercise-7=={all exercises,ListaCineticaRadioativa}||exercise-8=={all exercises,ListaCineticaRadioativa}||exercise-9=={all exercises,ListaCineticaRadioativa}||exercise-10=={all exercises,ListaCineticaRadioativa}||exercise-11=={all exercises,ListaCineticaRadioativa}||exercise-12=={all exercises,ListaCineticaRadioativa}||exercise-13=={all exercises,ListaCineticaRadioativa}||exercise-14=={all exercises,ListaReacaoNuclear}}
-\XSIM{collection:all exercises}{exercise-1||exercise-2||exercise-3||exercise-4||exercise-5||exercise-6||exercise-7||exercise-8||exercise-9||exercise-10||exercise-11||exercise-12||exercise-13||exercise-14}
-\setcounter{totalexerciseinall exercises}{14}
-\XSIM{id}{exercise-1=={1}||exercise-2=={2}||exercise-3=={3}||exercise-4=={4}||exercise-5=={5}||exercise-6=={6}||exercise-7=={7}||exercise-8=={8}||exercise-9=={9}||exercise-10=={10}||exercise-11=={11}||exercise-12=={12}||exercise-13=={13}||exercise-14=={14}}
-\XSIM{ID}{exercise-1=={1}||exercise-2=={2}||exercise-3=={3}||exercise-4=={4}||exercise-5=={5}||exercise-6=={6}||exercise-7=={7}||exercise-8=={8}||exercise-9=={9}||exercise-10=={10}||exercise-11=={11}||exercise-12=={12}||exercise-13=={13}||exercise-14=={14}}
-\XSIM{counter}{exercise-1=={1}||exercise-2=={2}||exercise-3=={3}||exercise-4=={4}||exercise-5=={5}||exercise-6=={1}||exercise-7=={2}||exercise-8=={3}||exercise-9=={4}||exercise-10=={5}||exercise-11=={6}||exercise-12=={7}||exercise-13=={8}||exercise-14=={1}}
-\XSIM{counter-value}{exercise-1=={1}||exercise-2=={2}||exercise-3=={3}||exercise-4=={4}||exercise-5=={5}||exercise-6=={1}||exercise-7=={2}||exercise-8=={3}||exercise-9=={4}||exercise-10=={5}||exercise-11=={6}||exercise-12=={7}||exercise-13=={8}||exercise-14=={1}}
+\XSIM{idtypes}{}
+\XSIM{collections}{}
+\XSIM{collection:all exercises}{}
+\setcounter{totalexerciseinall exercises}{0}
+\XSIM{id}{}
+\XSIM{ID}{}
+\XSIM{counter}{}
+\XSIM{counter-value}{}
 \XSIM{solution}{}
-\XSIM{section-value}{exercise-1=={1}||exercise-2=={1}||exercise-3=={1}||exercise-4=={1}||exercise-5=={1}||exercise-6=={2}||exercise-7=={2}||exercise-8=={2}||exercise-9=={2}||exercise-10=={2}||exercise-11=={2}||exercise-12=={2}||exercise-13=={2}||exercise-14=={3}}
-\XSIM{section}{exercise-1=={1}||exercise-2=={1}||exercise-3=={1}||exercise-4=={1}||exercise-5=={1}||exercise-6=={2}||exercise-7=={2}||exercise-8=={2}||exercise-9=={2}||exercise-10=={2}||exercise-11=={2}||exercise-12=={2}||exercise-13=={2}||exercise-14=={3}}
-\XSIM{sectioning}{exercise-1=={{0}{1}{0}{0}{0}}||exercise-2=={{0}{1}{0}{0}{0}}||exercise-3=={{0}{1}{0}{0}{0}}||exercise-4=={{0}{1}{0}{0}{0}}||exercise-5=={{0}{1}{0}{0}{0}}||exercise-6=={{0}{2}{0}{0}{0}}||exercise-7=={{0}{2}{0}{0}{0}}||exercise-8=={{0}{2}{0}{0}{0}}||exercise-9=={{0}{2}{0}{0}{0}}||exercise-10=={{0}{2}{0}{0}{0}}||exercise-11=={{0}{2}{0}{0}{0}}||exercise-12=={{0}{2}{0}{0}{0}}||exercise-13=={{0}{2}{0}{0}{0}}||exercise-14=={{0}{3}{0}{0}{0}}}
+\XSIM{section-value}{}
+\XSIM{section}{}
+\XSIM{sectioning}{}
 \XSIM{subtitle}{}
-\XSIM{points}{exercise-14=={3.5}}
+\XSIM{points}{}
 \XSIM{bonus-points}{}
-\XSIM{page-value}{exercise-1=={1}||exercise-2=={1}||exercise-3=={1}||exercise-4=={1}||exercise-5=={1}||exercise-6=={1}||exercise-7=={1}||exercise-8=={1}||exercise-9=={1}||exercise-10=={1}||exercise-11=={1}||exercise-12=={1}||exercise-13=={1}||exercise-14=={1}}
-\XSIM{page}{exercise-1=={1}||exercise-2=={1}||exercise-3=={1}||exercise-4=={1}||exercise-5=={1}||exercise-6=={1}||exercise-7=={1}||exercise-8=={1}||exercise-9=={1}||exercise-10=={1}||exercise-11=={1}||exercise-12=={1}||exercise-13=={1}||exercise-14=={1}}
+\XSIM{page-value}{}
+\XSIM{page}{}
 \XSIM{tags}{}
 \XSIM{topics}{}
-\XSIM{userpoints}{exercise-14=={3.5}}
+\XSIM{userpoints}{}
 \XSIM{bodypoints}{}
 \XSIM{userbonus-points}{}
 \XSIM{bodybonus-points}{}
-\XSIM{collection:ListaRadioatividade}{exercise-1||exercise-2||exercise-3||exercise-4||exercise-5}
-\setcounter{totalexerciseinListaRadioatividade}{5}
-\XSIM{collection:ListaCineticaRadioativa}{exercise-6||exercise-7||exercise-8||exercise-9||exercise-10||exercise-11||exercise-12||exercise-13}
-\setcounter{totalexerciseinListaCineticaRadioativa}{8}
-\XSIM{collection:ListaReacaoNuclear}{exercise-14}
-\setcounter{totalexerciseinListaReacaoNuclear}{1}
