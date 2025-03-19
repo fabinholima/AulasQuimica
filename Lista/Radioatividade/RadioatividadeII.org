@@ -1,0 +1,147 @@
+
+#+LATEX_HEADER: \DeclareExerciseCollection{ListaRadioatividadeII}
+
+\collectexercises{ListaRadioatividadeII}
+
+*Instruções:*  Resolva as questões abaixo, mostrando seus cálculos e raciocínio.
+
+Dados:
+- Tempo de meia-vida do Polônio-210 (\isotope{210,Po}) :: : 138 dias
+- Tempo de meia-vida do Carbono-14 (\isotope{14,C}) :: : 5730 anos
+- Tempo de meia-vida do Urânio-238 (\isotope{238,U}) :: : 4,5 bilhões de anos
+
+\vspace{.4cm}
+#+begin_exercise 
+Uma amostra de \isotope{210,Po} possui massa inicial de 80 mg. Após 276 dias, qual a massa restante de \isotope{210,Po} na amostra?
+
+
+#+begin_export latex
+\blank[blank-style={\phantom{#1}},width=12\linewidth]{}
+#+end_export 
+
+#+end_exercise 
+#+begin_solution
+20 mg 
+#+end_solution
+
+
+
+#+begin_exercise 
+Um fóssil contém 12,5% da quantidade original de \isotope{14,C}. Qual a idade desse fóssil?
+
+#+begin_export latex
+\blank[blank-style={\phantom{#1}},width=12\linewidth]{}
+#+end_export
+#+end_exercise 
+#+begin_solution
+17190 ano 
+#+end_solution 
+
+
+#+begin_exercise 
+Uma rocha contém 25% da quantidade original de \isotope{238,U}. Quantos anos se passaram desde a formação da rocha?
+#+begin_export latex
+\blank[blank-style={\phantom{#1}},width=12\linewidth]{}
+#+end_export
+#+end_exercise 
+#+begin_solution
+9 bilhões de anos
+#+end_solution 
+
+
+
+
+#+begin_exercise 
+Uma amostra de material radioativo possui atividade inicial de 160 Bq. Após 3 tempos de meia-vida, qual a atividade da amostra?
+
+#+begin_export latex
+\blank[blank-style={\phantom{#1}},width=12\linewidth]{}
+#+end_export
+#+end_exercise 
+#+begin_solution
+30 Bq
+#+end_solution 
+
+	
+
+
+#+begin_exercise 
+Um isótopo radioativo possui tempo de meia-vida de 10 horas. Se uma amostra inicial contém 1000 átomos, quantos átomos restarão após 30 horas?
+
+#+begin_export latex
+\blank[blank-style={\phantom{#1}},width=12\linewidth]{}
+#+end_export
+#+end_exercise 
+#+begin_solution
+125
+#+end_solution 
+
+
+
+
+#+begin_exercise 
+Um material radioativo decai para 1/8 da sua atividade inicial em 24 dias. Qual o tempo de meia-vida desse material?
+#+begin_export latex
+\blank[blank-style={\phantom{#1}},width=12\linewidth]{}
+#+end_export
+#+end_exercise 
+#+begin_solution
+8 dias
+#+end_solution 
+
+
+
+
+
+#+begin_exercise 
+Uma amostra de \isotope{210,Po} possui atividade de 400 Bq. Qual a atividade da amostra após 414 dias?
+
+#+begin_export latex
+\blank[blank-style={\phantom{#1}},width=12\linewidth]{}
+#+end_export
+#+end_exercise 
+#+begin_solution
+50 Bq
+#+end_solution 
+
+
+
+#+begin_exercise 
+Um fóssil encontrado em uma caverna possui 6,25% da quantidade original de \isotope{14,C}. Qual a idade desse fóssil?
+
+#+begin_export latex
+\blank[blank-style={\phantom{#1}},width=12\linewidth]{}
+#+end_export
+#+end_exercise 
+#+begin_solution
+22920 bilhões
+#+end_solution 
+
+
+
+
+#+begin_exercise 
+Uma rocha vulcânica contém 12,5% da quantidade original de ²³⁸U. Quantos anos se passaram desde a erupção do vulcão?
+#+begin_export latex
+\blank[blank-style={\phantom{#1}},width=12\linewidth]{}
+#+end_export
+#+end_exercise 
+#+begin_solution
+13,5 bilhões de anos
+#+end_solution 
+
+
+
+#+begin_exercise 
+Um isótopo radioativo possui tempo de meia-vida de 5 dias. Se uma amostra inicial contém 640 átomos, quantos átomos restarão após 20 dias?
+
+#+begin_export latex
+\blank[blank-style={\phantom{#1}},width=12\linewidth]{}
+#+end_export
+#+end_exercise 
+#+begin_solution
+40 átomos
+#+end_solution 
+
+\collectexercisesstop{ListaRadioatividadeII}
+

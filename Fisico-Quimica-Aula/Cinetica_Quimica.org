@@ -1,4 +1,14 @@
 
+
+
+#+ATTR_LATEX: :options [logo=\bcattention, noborder=true, barre=none]{Habilidade MS.EM13CNT103 }
+#+begin_bclogo
+- Interpretação do conceito de velocidade das reações químicas e de como a concentração de reagentes e produtos mudam com a variação do tempo: cinética e as leis de velocidade das reações químicas; fatores que afetam a velocidade das reações químicas.
+- Proposição de explicações a partir de dados experimentais que demonstrem a relação da constante de velocidade de maneira qualitativa e quantitativa, por meio dos parâmetros físico-químicos: mecanismos de reação e catálise. 
+#+end_bclogo 
+
+
+
 * Cinética Química
 *Cinética Química:* Basicamente a velocidade de uma reação pode ser calculada com base nas concentrações dos reagentes em função do tempo da reação: 
 

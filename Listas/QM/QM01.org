@@ -149,7 +149,6 @@ O Tabela [[tabfarm]] mostra os radiofármacos mais utilizados para tratamentos e
 [[./../QM/caminho.jpg]]
 
 
-
 #+LATEX: \twocolumn
 
 * Decaimento Radioativo

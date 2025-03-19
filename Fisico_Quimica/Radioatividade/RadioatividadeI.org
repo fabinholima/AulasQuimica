@@ -12,6 +12,26 @@
 
 #+ATTR_LATEX: :options [points=1.0]
 #+begin_exercise
+A meia-vida é .............
+#+begin_choice
+\choice mudando constantemente.
+\choice metade da vida útil de um núcleo instável.
+\choice o tempo para metade de um núcleo instável decair.
+\choice independente da constante de taxa de decaimento.
+\choice o valor aumenta o dobro
+#+end_choice
+#+end_exercise
+#+begin_solution
+B
+#+end_solution
+
+
+
+
+
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
 Que mudanças ocorrem no número atômico e na massa de um núcleo durante cada um dos seguintes cenários de decaimento?
 #+begin_export latex
 \begin{choice}
@@ -57,7 +77,7 @@ LETRA C
 \end{reactions*}
  #+end_export
 
-A partir da injeção de glicose marcada com esse nuclídeo, o tempo de aquisição de uma imagem de tomografia é de *cinco meias-vidas*. Considerando que o medicamento contém 1,00 g do carbono-11, a massa, em miligramas, do nuclídeo restante, após a aquisição da imagem, é mais próxima de
+A partir da injeção de glicose marcada com esse nuclídeo, o tempo de aquisição de uma imagem de tomografia é de *cinco meias-vidas*. Considerando que o medicamento contém 1,00 g do carbono-11, a massa, em miligramas (mg), do nuclídeo restante, após a aquisição da imagem, é mais próxima de
 
 #+ATTR_LATEX: :options (2)
 #+begin_choice
@@ -118,7 +138,7 @@ LETRA B
 A reação nuclear sofre o seguinte decaimento
 #+begin_export latex
 \begin{reaction*}
-\isotope{87,Br} +  2 $\alpha$ + 3 $\beta$ + X
+\isotope{87,Br} ->  2 $\alpha$ + 3 $\beta$ + X
 \end{reaction*}
 #+end_export
 

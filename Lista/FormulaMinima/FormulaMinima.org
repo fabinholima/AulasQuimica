@@ -4,8 +4,7 @@
 \collectexercises{ListaFormulaMinima}
 
 #+begin_exercise
-O valsartan, \ch{C33H34N6O6}, é uma substância utilizada como anti-hipertensivo no tratamento da hipertensão arterial,
-insolúvel em água e moderadamente solúvel em metanol. Os percentuais em massa, de carbono, hidrogênio, nitrogênio e oxigênio, nesse composto, são respectivamente:
+O valsartan, \ch{C33H34N6O6}, é uma substância utilizada como anti-hipertensivo no tratamento da hipertensão arterial, insolúvel em água e moderadamente solúvel em metanol. Os percentuais em massa, de carbono, hidrogênio, nitrogênio e oxigênio, nesse composto, são respectivamente:
 
 #+begin_choice
 \choice C = 32, 9%; H = 33,9%; N = 16,6% e O = 16,6%.

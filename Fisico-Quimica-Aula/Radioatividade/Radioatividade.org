@@ -1,0 +1,479 @@
+
+
+
+
+#+ATTR_LATEX: :options [logo=\bcattention, noborder=true, barre=none]{Habilidade MS.EM13CNT103 }
+#+begin_bclogo
+- Estudo avaliativo das mudanças na estrutura nuclear do átomo, considerando a origem das radiações e as reações de transmutação do núcleo.
+- Radioatividade e decaimento radioativo: origem das radiações e reações de transmutação nuclear.
+- Aplicação das radiações na medicina nuclear, estudo do decaimento radioativo como base para datação de artefatos arqueológicos: leis da radioatividade - decaimento radioativo e tempo de meia-vida.
+- Utilização de radioisótopos para produção de energia e aplicações industriais: investigação dos avanços recentes na pesquisa nuclear e tecnologias relacionadas, como reatores nucleares de quarta geração, armazenamento de resíduos nucleares, fusão nuclear controlada, entre outros.
+#+end_bclogo
+
+
+* Radioatividade
+
+A radioatividade foi descoberta em 1896 pelo físico francês Henri Becquerel ao estudar a fluorescência de sais de urânio. Mais tarde, Marie e Pierre Curie aprofundaram as pesquisas e descobriram novos elementos radioativos, como o polônio e o rádio. Essas descobertas abriram caminho para o entendimento das propriedades atômicas e da energia nuclear.
+
+#+CAPTION: Henri Becquerel e os Curies em seus estudos sobre radioatividade.
+[[./pierre-curie-marie-currie.jpg]]
+
+Radioatividade é um processo natural e espontâneo em que átomos instáveis emitem radiação por meio de decaimento, a fim de diminuírem sua energia e tornarem-se mais estáveis. É um processo natural que ocorre em núcleos atômicos instáveis.
+
+Primeiramente, precisamos entender a diferença entre radioatividade e radiação. Essas palavras, diferentemente do que muitos pensam, não são sinônimos!
+
+A diferença entre radiação e radioatividade: A radiação é uma das formas que a energia pode ser transmitida. Já a radioatividade é um processo que ocorre no núcleo atômico e que tem como produto alguma forma de radiação.
+
+Radiação é  a transmissão de energia na forma de ondas ou de partículas.
+
+A transmissão na forma de ondas é mais comum e costumamos chamá-la de radiação eletromagnética. Nesse tipo de radiação estão inclusas as ondas da luz visível, infravermelho, ultravioleta, ondas de rádio e etc, ou seja, todas as frequências do espectro eletromagnético.
+
+#+CAPTION: Espectro eletromagnético
+[[./tipos_de_radiacao.jpg]]
+
+Em uma extremidade do espectro eletromagnético estão as ondas de rádio, que têm comprimentos de onda bilhões de vezes maiores que os da luz visível. No outro extremo do espectro estão os raios gama, com comprimentos de onda bilhões de vezes menores que os da luz visível.
+
+A frequência de ondas de rádio é de cerca de 108 Hz, enquanto a frequência dos raios gama é de cerca de 1020 Hz, que é bem maior.
+
+Os comprimentos de onda das ondas de rádio variam de alguns milímetros (décimos de polegada) a centenas de quilômetros (centenas de milhas). A luz visível, para comparação, tem comprimentos de onda na faixa de 400 a 700 nanômetros, cerca de 5.000 vezes mais curtos que as ondas de rádio de menor comprimento de onda.
+
+Os raios gama têm comprimentos de onda menores que 10-11 metros o que é bem menor do que as ondas de rádio.
+
+As diferenças entre essas ondas estão apenas em suas frequências e comprimentos. Ondas de menor comprimento, e consequentemente de maior frequência, carregam mais energia.
+
+Existe também a radiação de partículas, onde a energia é transportada na forma de partículas, que podem ser nêutrons, elétrons, prótons (elétrons de carga positiva) e até mesmo núcleos inteiros de hélio.
+
+A radioatividade é o processo no qual núcleos atômicos instáveis emitem radiação na forma de ondas e/ou de partículas, com o objetivo de atingir a estabilidade
+
+#+CAPTION: Processo da radioatividade.
+[[./radioatividade.jpg]]
+
+** Radiação alfa
+
+A radiação alfa é composta por partículas alfa, que são núcleos de hélio compostos por dois prótons e dois nêutrons. Essas partículas são emitidas por núcleos atômicos instáveis durante o processo de decaimento radioativo. Quando um núcleo atômico é instável, ele busca se tornar mais estável emitindo partículas alfa. Essa emissão ocorre principalmente em elementos pesados, como urânio, rádio e plutônio. As partículas alfa possuem carga elétrica positiva e são grandes e pesadas, o que faz com que tenham uma baixa capacidade de penetração. Uma folha de papel ou alguns centímetros de ar são suficientes para deter as partículas alfa.
+
+#+CAPTION: Esquema radiação alfa.
+#+ATTR_LATEX: :placement [H]
+[[./radiacao_alfa.jpg]]
+
+
+
+#+begin_center
+@@latex:  \ch{^A_Z X -> ^4_2\(\alpha\) + ^{A-4}_{Z-2}Y} @@
+#+end_center
+
+
+
+    #+begin_export latex
+    \begin{figure}[H]
+\begin{tikzpicture}[xscale=0.75,yscale=0.75]
+	%axis x
+	\definecolor{GreenOlive}{HTML}{006600}	
+	\draw [arrows = {-Stealth[length=10pt, inset=5pt]}] (4,0) -- (8,0);
+	% axis Y
+	\draw [arrows = {-Stealth[length=10pt, inset=5pt]}] (1.0,1) -- (1.0,4);
+	%% Text axis x
+	\node[draw=none, font=\bfseries] at (8.5,0) {Z};
+	%% Text axis Y
+	\node[draw=none, font=\bfseries] at (1,4.2) {E};
+	%%%%% Linha inferior 
+	\draw[line width=1pt] (3,1) --(6,1);
+	%% Linha superior 
+	\draw [line width=1pt,red] (5,6) --(8,6);
+	%\node (a) -- (b);
+	\draw[line width=1pt,arrows = {-Stealth[length=10pt, inset=5pt]},GreenOlive] (6.5,6)--(4,1);
+	\node(a) at (2.3,1) {\isotope{222,Rn}};
+	\node(b) at (8.7,6) {\isotope{226,Ra}};
+	\node(c) at (5,4) [font=\bfseries]{$\upalpha$};
+\end{tikzpicture}
+\caption{Decaimento alfa}
+\end{figure}
+#+end_export
+
+
+
+** Radiação Beta
+
+A radiação beta é composta por elétrons (chamados de partículas beta negativas) ou por pósitrons (partículas beta positivas). Ela ocorre quando um núcleo instável passa por um processo de decaimento beta. No decaimento beta negativo, um nêutron no núcleo atômico se transforma em um próton, liberando um elétron. No decaimento beta positivo, um próton se transforma em um nêutron, liberando um pósitron. As partículas beta têm carga elétrica negativa (elétrons) ou positiva (pósitrons) e são menores e mais leves que as partículas alfa. Elas têm uma capacidade de penetração maior que as partículas alfa, podendo atravessar alguns centímetros de material, como plástico ou madeira, antes de serem paradas.
+
+#+CAPTION: Processo da radiação beta.
+#+ATTR_LATEX: :placement [H]
+[[./radiacao_beta.jpg]]
+
+
+#+begin_center
+@@latex:  \ch{^A_Z Q -> ^0_{-1} \(\beta\) + ^{A-0}_{Z+1}R} @@
+#+end_center
+
+#+begin_export latex
+\begin{figure}[H]
+\begin{tikzpicture}[xscale=.75,yscale=.75]
+	%axis x
+	\definecolor{GreenOlive}{HTML}{006600}	
+	\draw [arrows = {-Stealth[length=10pt, inset=5pt]}] (4,0) -- (8,0);
+	% axis Y
+	\draw [arrows = {-Stealth[length=10pt, inset=5pt]}] (2,1) -- (2,4);
+	%% Text axis x
+	\node[draw=none, font=\bfseries] at (8.5,0) {Z};
+	%% Text axis Y
+	\node[draw=none, font=\bfseries] at (2,4.2) {E};
+	%%%%% Linha inferior 
+	\draw[line width=1pt] (5,1) --(8,1);
+	%% Linha superior 
+	\draw [line width=1pt,red] (3,6) --(6,6);
+	%\node (a) -- (b);
+	\draw[line width=1pt,arrows = {-Stealth[length=10pt, inset=5pt]},GreenOlive] (4.5,6)--(6.5,1);
+	\node(a) at (8.5,1) {\isotope{14,N}};
+	\node(b) at (6.5,6) {\isotope{14,C}};
+	\node(c) at (5,4) [font=\bfseries]{$\upbeta^-$};
+\end{tikzpicture}
+\caption{Decaimento beta}
+\end{figure}
+#+end_export
+
+
+
+** Pósitron ($\upbeta^+$)
+
+ Outro tipo de emissão beta é o pósitron (\(\upbeta ^+\)), que consiste na transformação d;e  um  próton  em  nêutron  e  pósitron  (antielétron),  uma  vez  que  o  núcleo  se  encontra  instável  devido  ao  número  elevado  de  prótons.
+
+ Após  sua  emissão  do  núcleo, os pósitrons são quase que instantaneamente aniquilados dando origem a dois fótons com mesma energia (511 keV) e direções opostas. Esse tipo de radiação é utilizado na medicina diagnóstica. Exemplo de radionuclídeos emissores de pósitrons: gálio-68 @@latex: (\ch{^{68}Ga}), flúor-18 (\ch{^{18}F})@@.
+#
+
+
+#+begin_export latex
+\begin{figure}[H]
+\begin{tikzpicture}[xscale=.75,yscale=.75]
+	%axis x
+\definecolor{GreenOlive}{HTML}{006600}	
+\draw [arrows = {-Stealth[length=10pt, inset=5pt]}] (4,0) -- (8,0);
+% axis Y
+\draw [arrows = {-Stealth[length=10pt, inset=5pt]}] (2,1) -- (2,4);
+%% Text axis x
+\node[draw=none, font=\bfseries] at (8.5,0) {Z};
+%% Text axis Y
+\node[draw=none, font=\bfseries] at (2,4.2) {E};
+%%%%% Linha inferior 
+\draw[line width=1pt] (3,1) --(6,1);
+%% Linha superior 
+\draw [line width=1pt,red] (5,6) --(8,6);
+%\node (a) -- (b);
+\draw[line width=1pt,arrows = {-Stealth[length=10pt, inset=5pt]},GreenOlive] (6.5,6)--(4,1);
+\node(a) at (2.5,1) {\isotope{N}};
+\node(b) at (8.5,6) {\isotope{14,O}};
+\node(c) at (5,4) [font=\bfseries]{$\upbeta^+$};
+\end{tikzpicture}
+\caption{Decaimento positron}
+\end{figure}
+#+end_export
+
+
+
+
+** Radiação Gama
+
+A radiação gama é uma forma de radiação eletromagnética de alta energia, semelhante aos raios X. Ela é emitida por núcleos atômicos durante transições nucleares, como a desexcitação de um núcleo excitado. Ao contrário das partículas alfa e beta, a radiação gama não tem carga elétrica e é composta por fótons. Os fótons gama são altamente energéticos e possuem uma capacidade de penetração significativa. Eles podem atravessar materiais densos, como metal e concreto, e são absorvidos apenas por barreiras espessas de chumbo ou chumbo combinado com outras substâncias.
+
+#+CAPTION: Esquema da radiação gama.
+#+ATTR_LATEX: :placement [H]
+[[./radiacao_gama.jpg]]
+
+
+É importante destacar que a utilização de radiações alfa, beta e gama em contextos médicos, como diagnóstico e terapia, é realizada de forma controlada e segura, levando em consideração os benefícios e riscos associados.
+ 
+
+Diante disso, vale ressaltar que cada uma delas possui um poder de penetração em determinados materiais, e saber disso ajuda na prevenção de exposição acidental a certos tipos de radiação. Sendo assim, veja abaixo a penetrabilidade de cada uma delas:
+
+#+CAPTION: Esquema de penetrabilidade das partículas radioativas.
+[[./radiacoes-alfa-beta-gama-neutron.jpg]]
+
+
+
+#+ATTR_LATEX: :options {Exemplo}
+#+begin_Box2
+\small
+Ao se desintegrar, o átomo \isotope{222,Rn} emite 3 partículas alfa e 4 partículas beta. O nº atômico e o nº de massa do átomo final são, respectivamente:
+
+a) 84 e 210. \qquad     b) 210 e 84.  \qquad    c) 82 e 210. \qquad    d) 210 e 82. \qquad    e) 86 e 208.
+#+end_Box2
+
+
+
+#+ATTR_LATEX: :options {Solução}
+#+begin_Box2
+
+#+begin_export latex
+\begin{align*}
+\isotope{222,Rn} \ch{->} 3 \cdot  \upalpha_2^4 \quad  +  \quad 4 \cdot_{-1}\upbeta^0 \quad + \quad  \mathrm{_Z^AX}
+\end{align*}
+
+\color{red}\rule{\linewidth}{4pt}
+
+\begin{align*}
+	86 = & 3 \cdot 2 + 4 \cdot (– 1) + Z \\
+	86 = & 6 – 4 + Z \\
+	Z = & 86 – 2 \\
+	Z = & 84
+\end{align*}
+
+\color{blue}\rule{\linewidth}{4pt}
+
+\begin{align*}
+222 = 3 \cdot 4 + 4\cdot 0 + A \\
+222 = 12 + A \\
+A = 222 – 12 \\ 
+A = 210 \\ 
+\end{align*}
+#+end_export
+
+#+end_Box2
+
+
+
+
+
+* Cinética de Desintegração
+
+
+O decaimento radioativo é nome que se dá ao processo de desintegração propriamente dito de um núcleo atômico, isto é, a emissão de radiação por átomo com núcleo instável. Até aqui você já deve ter entendido que se um elemento apresenta radioatividade, então ele é radioativo, ou seja, emite radiação ionizante de forma espontânea, e isso ocorre até que o núcleo atinja um estado estável, conhecido como isótopo filho.
+
+Portanto esse fenômeno segue a lei exponencial do decaimento que descreve a diminuição da quantidade de material radioativo ao longo do tempo, o qual é denominado tempo de meia-vida. Nesse sentido, a meia-vida é o tempo necessário para que metade dos núcleos radioativos em uma amostra se desintegre. Para compreender melhor, veja a ilustração a seguir:
+
+#+CAPTION: Modelo de decaimento de uma amostra.
+#+ATTR_LATEX: :placement [H]
+[[./decaimento.png]]
+
+
+Nos períodos de semi-desintegração, a massa é reduzida pela metade, deixando ainda a outra metade por se desintegrar, que também passará pelo período de semi-desintegração e assim sucessivamente. E este processo vai acontecendo repetidamente de tal forma que a massa é reduzida, mas nunca chega a ser zero.
+
+A relação entre massa e meia-vida é a seguinte:
+
+#+begin_export latex
+\begin{equation}
+N= N_0 \times \left(\frac{1}{2}\right)^{\frac{t}{t_{1/2}}}
+\end{equation}
+#+end_export 
+
+onde temos a seguinte relação 
+
+- N: número de átomos final ou massa
+- N_0: números de átomos iniciais ou massa
+- t: tempo total de decaimento
+- $t_{1/2}$: tempo de meia-vida 
+
+
+
+
+#+ATTR_LATEX: :options {Exemplo}
+#+begin_Box2
+Um radioisótopo utilizado no tratamento radioterápico apresenta uma meia-vida (período de semidesintegração) de 5 horas. Se um técnico utilizar uma massa de 50 g no tratamento de um paciente, após quantas horas a massa seria reduzida para 6,25 g?
+
+a) 5 horas.  \quad b) 25 horas. \quad c) 15 horas. \quad d) 30 horas. \quad e) 10 horas.
+
+#+end_Box2
+
+
+#+ATTR_LATEX: :options {Solução}
+#+begin_Box2
+
+*1º Passo:* Calcular o número de meias-vidas que foram necessárias para a redução de 50 g para 6,25 g por meio da fórmula a seguir.
+
+#+begin_export latex
+\begin{align*}
+m=\frac{m_0}{2^x} \\
+6,25 = \frac{50}{2^x}\\
+2^x= \frac{50}{6,25}\\
+2^x=8 \\
+2^x = 2^3 \\
+x= 3
+\end{align*}
+3 meias-vidas
+#+end_export
+
+*2º Passo:* Em seguida, para calcular o tempo, basta utilizar a seguinte expressão:
+#+begin_export latex
+\begin{align*}
+t = x \cdot P \\
+t = 5 \cdot 3 \\
+t = 15 ~ \text{h}
+\end{align*}
+
+#+end_export
+#+end_Box2
+
+
+
+
+* Fissão Nuclear
+
+
+A fissão nuclear ocorre quando um núcleo pesado, como o urânio-235, absorve um nêutron e se divide em dois núcleos menores, liberando energia e mais nêutrons. Esse processo é a base do funcionamento de usinas nucleares e bombas atômicas.
+
+
+
+
+#+begin_export latex
+\begin{reactions*}
+\isotope{235,U} + n -> \isotope{94S,Sr} + \isotope{140,Xe} + 2 n\\
+\isotope{235,U} + n -> \isotope{97,Zr} + \isotope{137,Te} + 2 n \\
+\isotope{235,U} + n -> \isotope{87,Br} + \isotope{143,La} + 6 n 
+\end{reactions*}
+#+end_export
+
+Os produtos mostrados na equação acima são somente uma das muitas combinações possíves na fissão do \isotope{235,U}. Reações de fissão podem produzir qualquer combinação de núcleos mais leves, desde que o número de prótons e o de nêutrons nos produtos seja igual àquele na situação inicial. Assim como na fusão, uma enorme quantidade de energia pode ser liberada na fissão, pois para núcleos pesados, a soma das massas dos produtos da reação é menor que a massa dos constituintes de antes da fissão.
+
+A fissão ocorre porque a repulsão eletrostatica criada pelo grande número de prótons contida nos núcleos pesados. Dois núcleos menores têm menor repulsão eletrostática interna que um único e maior núcleo. Desse modo, se a força de repulsão ficar maior que forte força nuclear que mantem o núcleo coeso, ele fissiona. Fissão pode ser vista como um cabo de guerra, tendo de um lado as forças fortes e atrativas (força nuclear) e do outro a força repulsiva eletrostatica. Na reação de fissão, as forças repulsivas eletrostáticas ganham.
+
+Fissão é um processo que vem ocorrendo no universo há bilhões de anos. Como mensionado acima, temos não somente utilizado a fissão para produzir bombas nucleares, mas também a usamos pacificamente todos os dias para produzir energia em usinas termo-nucleares. É interessante notar que embora o primeiro reator construido pelo homem tenha aparecido somente a cerca de 50 anos, a Terra operou um reator natural de fissão em um depósito de urânio na Africa do Sul, há cerca de 2 bilhões de anos.
+
+#+CAPTION: Esquema da Fissão Nuclear
+#+ATTR_LATEX: :placement [H]
+[[./fissaonuclear.jpeg]]
+
+* Fusão Nuclear
+
+A fusão nuclear ocorre quando dois núcleos leves, como os de hidrogênio, se unem formando um núcleo mais pesado e liberando uma enorme quantidade de energia. Esse processo é o que ocorre no Sol e em outras estrelas.
+
+Esta reação libera uma quantidade de energia mais de um milhão de vezer maior que a que temos em uma típica reação química, como a queima de gás de cozinha. Esta enorme quantidade de energia é liberada nas reações de fusão porque quando dois núcleos leves se fundem, a massa do núcleo produzido é menor que a soma das massas dos núcleos iniciais. Mais uma vez, a equação de Einstein
+
+#+begin_export latex
+\begin{align}
+E = mc²
+\end{align}
+#+end_export 
+
+
+
+explica que a massa perdida é convertida em energia, carregada pelo produto da fusão. Embora a fusão seja um processo energeticamente favorável (exotérmico) para núcleos leves, ele não ocorre naturalmente aqui na Terra, devido as dificuldades naturais para se aproximar os reagentes (devido a repulsão eletrostática entre os dois núcleos) para que as forças nucleares possam atuar.
+
+#+CAPTION: Esquema da reação de fissão nuclear.
+#+ATTR_LATEX: :placement [H]
+[[./TermoNuclear.jpg]]
+
+
+Reações de fusão estão acontecendo por bilhões de anos no universo. De fato, as reações de fusão são responsáveis pela produção de energia na maioria das estrelas, incluindo o nosso sol. Cientistas na Terra foram capaz de produzir reações de fusão nuclear somente nos últimos 60 anos. Fusão entre núcleos mais pesados são produzidas, em pequenas quantidades, corriqueiramente em aceleradores de partículas. Podemos dizer que a fusão nuclear é a base de nossas vidas, uma vez que a energia solar, produzida por esse processo é indispensável para a manutenção da vida na Terra.
+
+
+
+* Radiofármaco no Organismo
+
+
+   A Radiofarmácia tem seu contexto histórico com o início da utilização dos radio-fármacos em 1905, após a descoberta dos raios X por Wihelm Conrad Roentgen em  seu  laboratório  em  1895.  Além  de  Roentgen,  outros  pesquisadores  contribuíram com destaque para o desenvolvimento da área, dentre eles Marie e Pierre Curie e Henri Becquerel.
+
+
+   Concomitante a essas descobertas, radionuclídeos (nuclídeos que possuem instabilidade no núcleo e que se desintegram espontaneamente emitindo radiação) foram inicialmente utilizados em humanos por Blumgart e Yens em 1927.
+
+
+Em 14 de junho de 1945, o Oak Ridge National Laboratories anunciou na Revista Science a disponibilidade de radionuclídeos ao setor privado. Posteriormente, o Brookhaven National Laboratories também passou a produzir e comercializar radionu-clídeos, porém esses produtos não possuíam nenhuma garantia de esterilidade e api-rogenicidade. Somente mais tarde, os parâmetros de controle de qualidade foram incluídos, quando a Abbot Laboratories decidiu comprar os laboratórios de produção de radionuclídeos supracitados e transformá-los para a produção de radiofármacos, tornando-se o primeiro produtor no mundo. A comercialização do primeiro radio-fármaco, iodo-131, só começou em 1950
+
+
+Os radiofármacos são medicamentos radioativos utilizados no diagnóstico e tratamento de doenças.
+
+Em 1957, foi anunciado o desenvolvimento do gerador de molibdênio-99/tecnécio-99 meta estável (\(^{99}\)Mo/\(^{99m}\)Tc). Até os dias de hoje, o radionuclídeo \(^{99m}\)Tc, também denominado elemento número 43, é amplamente utilizado na marcação de reagentes liofilizados na rotina da Medicina Nuclear.
+
+
+
+
+Para isso, o médico injeta essa solução, que, de acordo com a fisiologia do organismo humano, por meio de afinidades e rejeições com os vários tipos de células, se dirige ao órgão ou região que se quer diagnosticar. A maneira de fazer o diagnóstico em medicina nuclear é diferente da que emprega raios X, em que a radiação atravessa a pessoa sem deixar vestígios e sensibiliza um filme fotográfico. O tecnécio-99m é um emissor de radiação gama. Ao ser injetado no paciente, passa a emitir radiação de dentro do corpo da pessoa, que é captada exteriormente por detectores de radiação.
+
+O médico Celso Dario Ramos, presidente da Sociedade Brasileira de Medicina Nuclear (SBMN), diz que radioisótopos, como o tecnécio-99m, são fundamentais para o diagnóstico de muitas doenças. Outros radioisótopos, como o iodo-131 e o lutécio-177, que também serão produzidos no RMB, possibilitam o tratamento de várias doenças, como o câncer de tiróide e tumores neuroendócrinos. “Com o tecnécio-99m é possível fazer imagens que permitem enxergar o metabolismo celular em tecidos vivos”, explica. “Com os diversos radiofármacos é possível ver a distribuição de um determinado hormônio pelo corpo ou o consumo de glicose em uma região, o que pode revelar a presença e a agressividade de um tumor, por exemplo. Os radiofármacos possibilitam ainda enxergar o funcionamento de órgãos internos, como ossos, pulmões, coração, cérebro, fígado e rins.”
+
+No caso do tecnécio-99m, ele tem uma vantagem adicional: uma meia-vida curta. Meia-vida é o tempo que leva para um elemento radiativo perder (emitir na forma de radiação) metade de seus átomos. “A do urânio-235, por exemplo, é de 700 milhões de anos e a do césio-137, 30,2 anos”, informa Perrotta. “A do iodo-131, outro elemento usado na medicina nuclear e que também será produzido no RMB, é de 8,02 dias e a do tecnécio-99m é de apenas seis horas. Quer dizer, a cada seis horas a intensidade da radiação no corpo da pessoa é reduzida à metade, em dois ou três dias não restará praticamente qualquer intensidade radioativa.”
+
+O fluxo de nêutrons de grande intensidade gerado no RMB servirá para testar combustíveis e materiais usados nos reatores de geração de energia elétrica, como nas centrais nucleares de Angra dos Reis (RJ) e de propulsão, como a que será usada no protótipo do submarino nuclear que a Marinha está desenvolvendo. “O RMB propiciará segurança técnica a esses projetos, garantindo a continuidade no desenvolvimento do conhecimento nuclear do país”, diz Perrotta. “Por fim, ele abrigará um laboratório de uso de feixes de nêutrons em pesquisas de materiais em complemento ao Laboratório Nacional de Luz Síncrotron (LNLS), de Campinas, no interior paulista. Se não avançarmos neste setor, acabaremos à margem do desenvolvimento mundial e ficaremos à mercê do que existe no exterior.”
+
+
+  
+O Tabela @@latex:\ref{tab:farm}@@ mostra os radiofármacos mais utilizados para tratamentos específicos. Para cada caso há um tempo de exposição e uma dose que varia de fração de segundos a horas.
+
+#+begin_export latex
+\begin{talltblr}[
+theme=fancy,
+caption = {Radiofármacos específicos  para tratamento},
+entry = {Short Caption},
+label = {tab:farm},
+%note{a} = {It is the first footnote.},
+%note{$\dag$} = {It is the second long long long long long long footnote.},
+]{
+colspec = {XX}, width = 1\linewidth, hlines,
+row{1} = {1.5em, Plum, fg=white,font=\large\bfseries}, 
+}
+Radiofármaco & Tratamento\\
+IODO ( \isotope{131,I}) & Tumores de tiroíde, fígado e rins\\ 
+CROMO ( \isotope{51,Cr}) & Trato de patologias intestinais\\ 
+GÁLIO ( \isotope{67,Ga}) & Tumores em tecidos moles.\\
+TECNÉSIO ( \isotope{99,Tc}) & Tumores de cérebro, glândulas salivares, coração\\
+GADOLÍNIO ( \isotope{159,Gd}) & estomâgo, sistema ósseo, fígado, rins, pulmão\\
+\end{talltblr}
+
+#+end_export
+
+
+
+#+ATTR_LATEX:  :placement [H]
+#+CAPTION:Representação esquemática do caminho do radiofármaco.
+#+LABEL:caminho
+[[./caminho.jpg]]
+
+
+
+
+
+* Exercícios
+
+#+LATEX_HEADER: \DeclareExerciseCollection{Radioatividade}
+
+\collectexercises{Radioatividade}
+
+
+  #+begin_exercise
+Organize o seguinte de acordo com sua capacidade de atuar como escudos de radiação, com o melhor primeiro e o pior por último. Explique sua ordem em termos de como a radiação perde sua energia na matéria.
+
+1. Um material sólido com baixa densidade composto de átomos de baixa massa.
+2. Um gás composto de átomos de alta massa.
+3. Um gás composto de átomos de baixa massa.
+4. Um sólido com alta densidade composto de átomos de alta massa.
+
+
+@@latex: \blank[width=4.8\linewidth,linespread=1.0]{}@@
+#+end_exercise
+#+begin_exercise
+ Freqüentemente, quando as pessoas têm que contornar derramamentos de materiais radioativos, as vemos vestindo macacões brancos (geralmente um material plástico). De quais tipos de radiação (se houver) você acha que esses trajes protegem o trabalhador e como?
+
+ @@latex: \blank[width=7.8\linewidth,linespread=1.0]{}@@
+ #+end_exercise
+#+begin_exercise
+Que mudanças ocorrem no número atômico e na massa de um núcleo durante cada um dos seguintes cenários de decaimento?
+#+begin_export latex
+\begin{choice}
+\choice uma partícula \(\alpha\) é emitida
+\choice uma partícula \(\beta\) é emitida
+\choice radiação \(\gamma\) é emitida
+\choice um pósitron é emitido
+\choice um elétron é capturado
+\end{choice}
+#+end_export
+#+end_exercise
+
+#+begin_exercise
+Tecnécio-99m tem meia-vida de 6,01 horas. Se um paciente que recebeu a injeção de tecnécio-99m é seguro deixar o hospital depois que 75% da dose diminuiu, quando o paciente pode sair?
+
+@@latex: \blank[width=5.\linewidth,linespread=1.0]{}@@
+#+end_exercise
+#+begin_exercise
+O iodo que entra no corpo é armazenado na glândula tireóide, de onde é liberado para controlar o crescimento e o metabolismo. A tireóide pode ser fotografada se o iodo-131 for injetado no corpo. Em doses maiores, o I-133 também é usado como meio de tratamento do câncer de tireoide. I-131 tem uma meia-vida de 8,70 dias e decai por \(\beta^-\) emissão.
+
+(a) Escreva uma equação para o decaimento.
+
+@@latex: \blank[width=2.8\linewidth,linespread=1.0]{}@@
+(b) Quanto tempo levará para 95,0% de uma dose de I-131 decair?
+
+@@latex: \blank[width=7.\linewidth,linespread=1.0]{}@@
+#+end_exercise
+
+
+
+
+\collectexercisesstop{Radioatividade}
+
+\printcollection{Radioatividade}

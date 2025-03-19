@@ -12,13 +12,13 @@
 #+LATEX_HEADER: \def\disciplina{Química}
 #+LATEX_HEADER: %%\def\disciplina{UC III}
 #+LATEX_HEADER: %%\def\disciplina{R.A.}
-#+LATEX_HEADER: \def\turma{}
-#+LATEX_HEADER: \def\tipo{{\bfseries Avaliação Bimestral}}
-#+LATEX_HEADER: %%\def\tipo{\bfseries Avaliação Mensal}
-#+LATEX_HEADER: \def\tipo{\bfseries Exame Final}
-#+LATEX_HEADER: \def\bimestre{4 Bimestre}
-#+LATEX_HEADER: \def\escola{E.E. 26 de Agosto}
-#+LATEX_HEADER: %\def\escola{E.E. José Mamede de Aquino}
+#+LATEX_HEADER: \def\turma{3 Ano }
+#+LATEX_HEADER: %%\def\tipo{{\bfseries Avaliação Bimestral}}
+#+LATEX_HEADER: \def\tipo{\bfseries Avaliação Mensal}
+#+LATEX_HEADER: %\def\tipo{\bfseries Atividade Avaliativa}
+#+LATEX_HEADER: \def\bimestre{1 Bimestre}
+#+LATEX_HEADER: %\def\escola{E.E. 26 de Agosto}
+#+LATEX_HEADER: \def\escola{E.E. José Mamede de Aquino}
 #+LATEX_HEADER: %\def\escola{E.E. Joaquim Murtinho}
 #+LATEX_HEADER: \def\dataprova{}
 
@@ -26,8 +26,8 @@
 #+begin_export latex
 \selectlanguage{portuguese}
 \twocolumn[
-\input{../Modelos/CabeOficial}
-%\input{../Modelos/cabenovo}
+%\input{../Modelos/CabeOficial}
+\input{../Modelos/cabenovo}
 %\input{../Modelos/mamede}
 %\input{../Modelos/26agosto}
 %% \input{../Modelos/geral}
@@ -49,7 +49,5 @@
 
 #+end_export
 
-#+INCLUDE: "Quimica-Geral-Aula/ModelosAtomicosI.org"
-#+INCLUDE: "Quimica-Geral-Aula/ModelosAtomicosII.org"
 
-
+#+INCLUDE: "Fisico-Quimica-Aula/Cinetica_Quimica.org"

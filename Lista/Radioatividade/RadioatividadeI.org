@@ -11,11 +11,26 @@
 
 #+begin_exercise
 Calcule o número de partículas $\upalpha$  e $\upbeta$ que o urânio 238 (\isotope{238,U}), precisa emitir para se transformar em Rádio 226 (\isotope{226,Ra}).
+
+
+#+begin_export latex
+\blank[blank-style={\phantom{#1}},width=12\linewidth]{}
+#+end_export 
+
+
+
 #+end_exercise 
 
 
 #+begin_exercise
 A partir de um átomo radioativo, chega-se ao elemento \isotope{212,Bi} por meio de quatro emissões $\upalpha$ e três emissões $\upbeta$ Identifique o elemento inicial e diga qual é o seu número de massa e o seu número atômico ?
+
+
+#+begin_export latex
+\blank[blank-style={\phantom{#1}},width=12\linewidth]{}
+#+end_export 
+
+
 #+end_exercise
 
 
@@ -27,11 +42,21 @@ Após algumas desintegrações sucessivas, o \isotope{232,Th}, muito encontrado 
 #+begin_exercise
 Um elemento X emite 8 partículas betas resultando no elemento Y. Y por sua vez emite 4 partículas alfas resultando em Z. Diga quem são, ao final do processo, isótopo ou isóbaro ?
 
+#+begin_export latex
+\blank[blank-style={\phantom{#1}},width=12\linewidth]{}
+#+end_export 
+
+
 #+end_exercise 
 
 
 #+begin_exercise
 A partir de um átomo radioativo, chega-se ao elemento \isotope{220,Rn}, por meio de três emissões $\upalpha$ e duas emissões $\upbeta$. Identifique o elemento inicial e diga qual é o seu número de massa e o seu número atômico ?
+
+#+begin_export latex
+\blank[blank-style={\phantom{#1}},width=12\linewidth]{}
+#+end_export 
+
 
 #+end_exercise
 

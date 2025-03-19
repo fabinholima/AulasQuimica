@@ -13,13 +13,13 @@
 #+LATEX_HEADER: \def\disciplina{Química}
 #+LATEX_HEADER: %%\def\disciplina{UCIII}
 #+LATEX_HEADER: %%\def\disciplina{R.A.}
-#+LATEX_HEADER: \def\turma{3 Ano }
+#+LATEX_HEADER: \def\turma{2 Ano }
 #+LATEX_HEADER: %%\def\tipo{{\bfseries Avaliação Bimestral}}
-#+LATEX_HEADER: \def\tipo{\bfseries RECUPERAÇÃO }
+#+LATEX_HEADER: \def\tipo{\bfseries Atividade Avaliativa }
 #+LATEX_HEADER: %%\def\tipo{\bfseries Exame Final}
-#+LATEX_HEADER: \def\bimestre{2 Bimestre}
-#+LATEX_HEADER: \def\escola{E.E. 26 de Agosto}
-#+LATEX_HEADER: %%\def\escola{E.E. José Mamede de Aquino}
+#+LATEX_HEADER: \def\bimestre{1 Bimestre}
+#+LATEX_HEADER: %%\def\escola{E.E. 26 de Agosto}
+#+LATEX_HEADER: \def\escola{E.E. José Mamede de Aquino}
 #+LATEX_HEADER: %\def\escola{E.E. Amelio Carvalho de Bais}
 #+LATEX_HEADER: %5\def\escola{}
 #+LATEX_HEADER: \def\dataprova{}
@@ -31,7 +31,7 @@
 #+begin_export latex
 \pagebreak 
 %%\input{../Modelos/geral}
-%%\input{../Modelos/cabenovo}
+%\input{../Modelos/cabenovo}
 %%\input{../Modelos/26agosto}
 \input{../Modelos/CabeOficial}
 %\section*{Atividade de Química}
@@ -47,8 +47,17 @@
 
 
 
+
+#+BEGIN_COMMENT
+
 #+INCLUDE: "Lista/Estequiometria/BalanceamentoIII.org"
 
-\printcollection{ListaBalanceamentoIII}
+ \printrandomexercises[collection=ListaBalanceamentoIII]{25}
+
+#+END_COMMENT
 
 
+
+#+INCLUDE: "Adaptadas/TeoriaAtomica.org"
+
+\printcollection{Adaptadas-TeoriaAtomica}

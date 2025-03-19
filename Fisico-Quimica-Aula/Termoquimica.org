@@ -171,6 +171,13 @@ Calcule o a variação da entalpia da reação.
 
 * Exercícios
 
+#+LATEX_HEADER:  \DeclareExerciseCollection{ExEntalpiaI}
+
+\collectexercises{ExEntalpiaI}
+
+
+
+
 
 #+begin_exercise
 O benzeno sofre reação de combustão segundo a equação balanceada
@@ -215,7 +222,8 @@ será:
 
 #+end_exercise
 
-
+\collectexercisesstop{ExEntalpiaI}
+\printcollection{ExEntalpiaI}
 
 
 * Classificação das reações
@@ -306,6 +314,11 @@ O  {\bfseries \(\Delta\)H = +}, logo, esta reação é uma {\bfseries reação e
 
 * Exercícios
 
+#+LATEX_HEADER:  \DeclareExerciseCollection{ExEntalpia}
+
+\collectexercises{ExEntalpia}
+
+
 
 #+begin_exercise
 Reação exotérmica é aquela na qual:
@@ -361,6 +374,10 @@ Sobre este processo químico, podemos afirmar que:
 \end{choice}
 #+end_export
 #+end_exercise 
+
+\collectexercises{ExEntalpia}
+
+\printcollection{ExEntalpia}
 
 
 

@@ -15,7 +15,8 @@
 #+LATEX_HEADER:\usepackage[T1]{fontenc}
 #+LATEX_HEADER: \usepackage[english, portuguese]{babel}
 #+LATEX_HEADER: \usepackage{hyperref}
-#+LATEX_HEADER:\usepackage[x11names,svgnames,table]{xcolor}
+#+LATEX_HEADER: %\usepackage[x11names,svgnames,table]{xcolor}
+#+LATEX_HEADER: \usepackage[usenames,dvipsnames]{xcolor}
 #+LATEX_HEADER: \defaultfontfeatures{Ligatures=TeX}
 #+LATEX_HEADER: %%\setmainfont{Lato}
 #+LATEX_HEADER: %%\setmainfont{Charis SIL}

@@ -75,7 +75,10 @@ Qual a massa de ferro metálico, em gramas, obtida quando se faz reagir 200 kg d
 
 
 #+begin_exercise
-@@latex:\ch{Mg_{\sld} + 2 Ag^+_{\aq} -> Mg^{2+} + 2 Ag_{\sld}}@@ Que quantidade de\ch{Mg_{\sld}}, em mols, reage com 4,0 mols de \ch{Ag^+_{\aq}}?
+Que quantidade de @@latex: \ch{Mg_{\sld}}@@, em mols, reage com 4,0 mols de @@latex: \ch{Ag^+_{\aq}}@@?
+
+@@latex:\ch{Mg_{\sld} + 2 Ag^+_{\aq} -> Mg^{2+} + 2 Ag_{\sld}}@@ 
+
 #+end_exercise
 #+begin_solution
 2,0 mols
@@ -123,13 +126,13 @@ Dados: massa molar da glicose = 180 g/mol A quantidade de matéria, em mols, de 
 A metanfetamina, uma substância usada como medicamento, é eliminada do organismo por meio de uma série de reações. O processo global pode ser representado pela reação com \ch{O2}, conforme mostra a equação:
 
 #+begin_export latex
-\begin{exercise}
+\begin{reaction*}
 4 C10H15N + 55 O2 ->  40 CO2 + 30 H2O + 2 N2
-\end{exercise}
+\end{reaction*}
 #+end_export
 
 A quantidade de oxigênio, em miligramas, necessária para reagir completamente com 12 mg desse medicamento é, aproximadamente,
-Massas molares (g/mol): \ch{C10H15N} = 149 O2 = 32
+Massas molares (g/mol): \ch{C10H15N} = 149;  \ch{O2} = 32
 
 #+end_exercise
 #+begin_solution

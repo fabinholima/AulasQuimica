@@ -2,6 +2,7 @@
 
 * Química Verde
 
+#+begin_comment
 
 A Química Verde é um campo da química que busca minimizar os impactos ambientais associados aos processos e produtos químicos, promovendo a sustentabilidade e a segurança. Surgiu nos anos 1990 como uma resposta às crescentes preocupações com a poluição ambiental e a saúde humana. A ideia central é implementar práticas que reduzam ou eliminem a formação de substâncias nocivas durante o design, fabricação e aplicação de produtos químicos.​
 ​
@@ -9,6 +10,61 @@ A Química Verde é um campo da química que busca minimizar os impactos ambient
 Os pilares da Química Verde incluem 12 princípios fundamentais. Entre eles, destacam-se a prevenção de resíduos, que prioriza evitar a geração de resíduos em vez de tratá-los posteriormente, e a economia atômica, que maximiza a incorporação de materiais iniciais no produto final. Outros princípios são o uso de solventes mais seguros e a escolha de processos químicos que operem em temperaturas e pressões mais moderadas para reduzir o consumo energético​
 
 Esses princípios se alinham a práticas como a substituição de reagentes tóxicos por alternativas menos perigosas e o desenvolvimento de catalisadores que aumentam a eficiência das reações químicas. A Química Verde não é apenas uma abordagem técnica, mas também uma filosofia que incentiva a indústria, os pesquisadores e os consumidores a adotar soluções sustentáveis para os desafios ambientais e sociais​
+
+#+end_comment
+
+
+
+    /"A aceleração do processo industrial faz com que a cada dia desapareçam 10 espécies de seres vivos e 50 espécies de vegetais. O equilíbrio físico-químico da Terra, construído sutilmente durante milhões e milhões de anos, pode romper-se devido à irresponsabilidade humana. A mesma lógica que explora as classes oprime as nações periféricas e submete a Terra à pilhagem. Não são somente os pobres que gritam, grita também a Terra sob o esgotamento sistemático de seus recursos não renováveis e sob a contaminação do ar, do solo e da água. Esta situação provoca a com-paixão com o nosso lar comum, a Terra, sentida pelos povos primitivos como a Grande Mãe e Pachamama, e por eminentes cosmólogos como um superorganismo vivo, Gaia." (Leonardo Boff)/.
+
+A citação acima, retirada do livro "Princípio de Compaixão e Cuidado" de Leonardo Boff1, deixa bem clara a responsabilidade que temos com as questões ambientais.
+
+Em 1972 ocorreu a conferência de Estocolmo sobre o meio ambiente. Este ano é tido como o ano em que o direito ambiental passou a ser reconhecido como ramo jurídico, embora diversos tratados importantes a respeito tivessem sido assinados com anterioridade e as legislações internas de diversos países tenham se ocupado com problemas ambientais, como a matéria florestal, água e outros. A Conferência de Estocolmo teve o grande mérito de haver alertado o mundo para os malefícios que a deteriorização do ecossistema poderia causar à humanidade como um todo2.
+
+Em termos nacionais, o Conselho Nacional do Meio Ambiente (CONAMA) resolveu que o licenciamento de qualquer atividade modificadora do meio ambiente dependerá da elaboração do estudo do impacto ambiental (EIA) e respectivo relatório de impacto ambiental (RIMA), que devem ser aprovados por órgãos estaduais competentes e pelo IBAMA.
+
+No artigo 225, a Constituição de 1988 traz leis no que diz respeito à proteção ambienta. No seu caput lemos:
+
+    "Art. 225. Todos têm direito ao meio ambiente ecologicamente equilibrado, bem de uso comum do povo e essencial à sadia qualidade de vida, impondo-se ao Poder Público e à coletividade o dever de defendê-lo e preservá-lo para as presentes e futuras gerações".
+
+Os parágrafos IV e V do artigo 225 falam da necessidade de se exigir um estudo prévio para a realização de atividades potencialmente causadoras de poluição e do controle da produção, comercialização, emprego de técnicas e substâncias que possam acarretar riscos à qualidade de vida e do meio ambiente.
+
+O Decreto 3.179 de 21 de setembro de 1999 prevê desde multas até a suspensão parcial ou total das atividades para as infrações ou crimes ambientais2.
+
+No mundo todo há um consenso da necessidade de preservação do meio ambiente e, em 1992, houve uma reunião neste sentido no Rio de Janeiro (ECO-92) com a participação de 179 chefes de Estado. Nesta reunião foi elaborado um documento chamadoAgenda 21, onde os países se comprometiam em prezar pelo chamado desenvolvimento sustentáve. Desta forma, a exploração desmedida e irresponsável dos recursos naturais, bem como outras atividades antropogênicas devem ser realizadas em direção ao progresso, porém faz parte do progresso a qualidade de vida e um meio ambiente seguro.
+
+Atualmente, entre as diversas normas internacionais de gestão (ISO), encontramos a ISO 14000 que se aplica à gestão ambiental. Estas normas contêm requisitos técnicos sobre gestão ambiental que podem ser auditados para fins de certificação, registro e/ou autodeclaração6.
+
+As atividades produtivas na área de química são normalmente de risco e potenciais causadoras de poluição, visto que trabalha com substâncias muitas vezes tóxicas e/ou inflamáveis e após um processo químico normalmente geram um "lixo tóxico" que precisa ser tratado (resíduo).
+
+Após um processo químico pode-se: a) encaminhar os resíduos para as estações de tratamento, onde é feito o ajuste das cargas emitidas aos parâmetros estabelecidos para os lançamentos; b) reciclar ou reutilizar os resíduos e c) incinerar os resíduos tratados.
+
+No capítulo 30 da Agenda 21, propõe-se a promoção de uma produção limpa juntamente com a responsabilidade empresarial.
+
+Inserida neste cenário está a Química Verde, também conhecida como Química Limpa, que é um tipo de prevenção de poluição causada por atividades na área de química. Esta estratégia visa desenvolver metodologias e/ou processos que usem e gerem a menor quantidade de materiais tóxicos e/ou inflamáveis. Neste caso, os riscos seriam minimizados e, uma vez que o processo fosse implantado, os gastos com tratamento de resíduos seriam menores.
+
+No Brasil, a comunidade química já começa a reconhecer a filosofia da Química Verde como uma estratégia importante no que diz respeito ao problema do meio ambiente, não só nas pesquisas, como na inserção deste conceito nos cursos de graduação10-15.
+
+A filosofia da Química Verde está baseada atualmente nos seguintes princípios9:
+
+    - é melhor prevenir que tratar ou limpar resíduos de processos químicos depois de formados;
+    - métodos sintéticos devem ser projetados para maximizar a incorporação de toda a massa dos reagentes no produto. Essa idéia introduzida por Trost é conhecida como "Economia Atômica"16;
+    - sempre que forem viáveis, as metodologias sintéticas devem usar e gerar substâncias o menos tóxicas possíveis à vida humana e ao ambiente;
+    - os produtos químicos devem ser projetados de forma a ter maior eficiência no cumprimento de seus objetivos, com menor toxidez;
+    - o uso de outras substâncias durante o processo (ex. solventes, agentes de separação, etc.) deve, sempre que possível, ser desnecessário ou inofensivo quando usado;
+    - as exigências energéticas devem ser reconhecidas por seus impactos ambientais e econômicos e precisam ser minimizadas. Métodos sintéticos devem, sempre que possível, ser conduzidos em temperatura e pressão ambientes;
+    - a matéria-prima deve ser proveniente de fontes inesgotáveis (renováveis);
+    - deve-se desenhar a metodologia de modo a não precisar de derivatizações como grupos de proteção;
+    - reagentes catalíticos são sempre superiores a reagentes estequiométricos;
+    - os produtos químicos devem ser desenhados de maneira tal que, depois de terem sido usados, eles não persistam no ambiente e que seus produtos de degradação sejam inócuos;
+   - métodos analíticos devem ser desenvolvidos para monitorar o processo em tempo real controlando, a priori, a formação de substâncias perigosas
+    - e as substâncias e a forma como são usadas no processo químico devem minimizar o potencial de acidentes.
+
+Podemos encontrar na literatura vários exemplos e estudos da aplicação de alguns destes princípios. Constatamos um esforço da comunidade científica mundial no desenvolvimento de novas metodologias ou no resgate das antigas, que se enquadram dentro desta filosofia.
+
+Discutiremos, então, alguns pontos que consideramos importantes e promissores.
+
+
 
 * Questões
 

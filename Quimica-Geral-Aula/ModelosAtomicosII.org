@@ -201,6 +201,18 @@ O número quântico Spin (S ou $m_s$) caracteriza o possível movimento rotacion
 [[./numero-quantico-spin.jpg]]
 
 
+* Exclusão de Pauli 
+
+
+Pauli percebeu que nenhum elétron em um átomo pode ocupar um estado com os mesmos valores para os quatro números quânticos: principal (n), azimutal ou secundário ($l$), magnético ($m_l$) e spin (ms). Assim, em janeiro de 1925, ele anunciou o princípio da *exclusão de Pauli*.
+
+Os números quânticos descrevem o estado de um elétron em um átomo e são utilizados para entender suas propriedades e localização nos orbitais atômicos.
+
+
+
+
+
+#+BEGIN_COMMENT
 
 
 #+LATEX: \begin{figure*}
@@ -221,3 +233,4 @@ O número quântico Spin (S ou $m_s$) caracteriza o possível movimento rotacion
 | Propriedades Periódicas            | https://youtu.be/eaGqKb22_7I | @@latex: \qrcode[height=1.6cm]{https://youtu.be/eaGqKb22_7I}@@ |
 
 #+LATEX: \end{figure*}
+#+END_COMMENT

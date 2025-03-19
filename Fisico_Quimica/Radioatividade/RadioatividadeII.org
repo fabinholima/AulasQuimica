@@ -3,18 +3,6 @@
 #+LATEX_HEADER: \DeclareExerciseCollection{RadioatividadeIIOpen}
 
 \collectexercises{RadioatividadeII-P2}
-#+begin_exercise
-A meia-vida é .............
-#+begin_choice
-\choice mudando constantemente.
-\choice metade da vida útil de um núcleo instável.
-\choice o tempo para metade de um núcleo instável decair.
-\choice independente da constante de taxa de decaimento.
-#+end_choice
-#+end_exercise
-#+begin_solution
-#+end_solution
-
 
 #+begin_exercise
 A meia-vida de um isótopo radioativo é de 1,0 minuto. Em um experimento, o número de eventos de decaimento foi monitorado em 1-intervalos de minutos durante um período de 5 minutos. Suponha que 50 eventos de decaimento foram observados no primeiro minuto. No segundo minuto,....... eventos foram observados, e no 5º minuto,..... eventos foram observados.
@@ -118,6 +106,48 @@ B
 
 
 \collectexercises{RadioatividadeII}
+
+#+ATTR_LATEX: :options [points=1.0]
+#+begin_exercise
+Considere o gráfico de decaimento, abaixo, ( Massa X Tempo ) de 12 g de um isótopo radioativo. Partindo - se de uma amostra de 80,0 g deste isótopo, em quanto tempo a massa dessa amostra se reduzirá a 20,0 g? Massa ( g )
+
+
+
+#+begin_export latex
+\begin{tikzpicture}
+		\begin{axis}[axis equal=false, grid=major,
+			ylabel={\bfseries Massa (g)},
+			xlabel={\bfseries Tempo (anos)}]
+			\addplot[smooth,color=black,mark=*] coordinates {
+			(0,12)
+			(28,6)
+			(56,3)
+			(84,1.5)
+			(112,0.75)
+			%(100,3.125)
+			};
+		\end{axis}
+\end{tikzpicture}
+
+#+end_export 
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice  112 anos
+\choice 124,5 anos
+\choice 84 anos
+\choice 28 anos
+\choice 56 anos
+
+#+end_choice 
+
+
+#+end_exercise  
+#+begin_solution
+E
+#+end_solution
+
+
 
 
 #+ATTR_LATEX: :options [points=1.0]
