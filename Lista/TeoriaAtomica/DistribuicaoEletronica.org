@@ -1,0 +1,187 @@
+#+LATEX_HEADER: \DeclareExerciseCollection{ListaDistribuicao}
+
+
+\collectexercises{ListaDistribuicao}
+
+
+
+
+#+begin_exercise
+Qual o número atômico do elemento que apresenta o subnível mais energético *“5d^4”*?
+#+end_exercise 
+
+#+begin_solution
+74
+#+end_solution
+
+#+begin_exercise
+Vanádio (Z = 23), elemento de transição, constitui componente importante do aço para produzir um tipo de liga que melhora consideravelmente a tenacidade, as resistências mecânicas e à corrosão do ferro. Quantos elétrons há no subnível *3d* da configuração eletrônica do vanádio?
+#+end_exercise
+#+begin_solution
+3 elétrons
+#+end_solution
+
+#+begin_exercise
+Qual o número atômico do elemento que apresenta o subnível mais energético *“5p^4”*?
+#+end_exercise
+
+#+begin_exercise
+O cloreto de sódio (NaC$\ell$) representa papel importante na fisiologia da pessoa, pois atua como gerador do ácido clorídrico no estômago. Com relação ao elemento químico cloro (Z = 17), Qual o número de elétrons no subnível *“p”* 
+#+end_exercise 
+
+#+begin_exercise 
+Na configuração eletrônica de um elemento químico há dois elétrons no subnível *“3d”*. Qual o número atômico desse elemento?
+#+end_exercise
+
+#+begin_exercise 
+O titânio (Z = 22) é metal usado na fabricação de motores de avião e de pinos para próteses. Quantos elétrons há no último nível da configuração eletrônica desse metal?
+#+end_exercise
+
+#+begin_exercise
+Um elemento químico da família dos halogênios (7 elétrons na camada de valência) apresenta 4 níveis energéticos na sua distribuição eletrônica. Qual é o número atômico desse elemento?
+#+end_exercise
+
+
+#+begin_exercise
+A pedra imã natural é a magnetita (\ch{Fe3O4}). O metal ferro pode ser representado por \isotope{56,Fe} e seu átomo apresenta a seguinte distribuição eletrônica por níveis:
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 2, 8, 16.
+\choice 2, 8, 8, 8.
+\choice 2, 8, 10, 6.
+\choice 2, 8, 14, 2.
+\choice 2, 8, 18, 18, 10.
+#+end_choice
+#+end_exercise
+
+
+#+begin_exercise 
+A corrosão de materiais de ferro envolve a transformação de átomos do metal em íons (ferroso ou férrico). Quantos elétrons há no terceiro nível energético do átomo neutro de ferro? Dados: \isotope{56,Fe}
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice 
+\choice 2.
+\choice 6.
+\choice 14.
+\choice 16
+\choice 18
+#+end_choice
+#+end_exercise
+
+#+begin_exercise 
+O titânio (Z = 22) é muito utilizado atualmente, quando se deseja um material de difícil oxidação. Sobre esse elemento, são feitas as seguintes proposições:
+
+#+ATTR_LATEX: :options [label=\Roman*]
+1. Possui 12 elétrons na camada M.
+2. Apresenta 4 camadas eletrônicas.
+3. Apresenta 8 elétrons no subnível “s”.
+4. O seu subnível mais energético é o subnível 4s.
+
+São corretas:
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice II, III e IV.
+\choice II e III.
+\choice II e IV.
+\choice III e IV
+\choice todas
+#+end_choice
+#+end_exercise
+
+#+begin_exercise 
+Alguns elementos apresentam, no seu estado fundamental e no seu nível mais energético, a distribuição eletrônica $np^x$. Dentre os elementos abaixo, o que apresenta o maior valor de *“x”* é:
+#+ATTR_LATEX: :options (2)
+#+begin_choice 
+\choice  @@latex:$_{13}$A$\ell$@@.
+\choice @@latex:$_{14}$Si@@.
+\choice @@latex:$_{34}$Se@@.
+\choice @@latex:$_{15}$P@@
+\choice @@latex:$_{35}$Br@@
+#+end_choice 
+#+end_exercise 
+
+
+#+begin_exercise 
+Alguns elementos apresentam, no estado fundamental e no seu nível mais energético, a configuração $np^x$. Dentre os elementos abaixo, o que apresenta maior valor de *x* é:
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice 
+\choice A$\ell$ (Z = 13).
+\choice F (Z = 9).
+\choice Si (Z = 14).
+\choice N (Z=7)
+\choice Ne (Z=10)
+#+end_choice 
+#+end_exercise 
+
+#+begin_exercise
+Dos números atômicos que seguem, qual corresponde a um elemento químico com 5 elétrons de valência?
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 5.
+\choice 13. 
+\choice 25.
+\choice 33
+\choice 40
+#+end_choice 
+#+end_exercise
+
+#+begin_exercise
+O elemento cujo átomo tem o maior número de elétrons em sua camada mais externa é aquele cujo número atômico é igual a:
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 2. 
+\choice 4.
+\choice 7.
+\choice 11
+\choice 12
+#+end_choice
+#+end_exercise
+
+#+begin_exercise 
+Um elemento cujo átomo possui 20 nêutrons apresenta distribuição eletrônica no estado fundamental
+#+begin_center
+@@latex: \elconf{K}@@
+#+end_center
+
+tem:
+
+#+begin_choice 
+\choice número atômico 20 e número de massa 39.
+\choice número atômico 39 e número de massa 20.
+\choice número atômico 19 e número de massa 20.
+\choice número atômico 19 e número de massa 39.
+\choice número atômico 39 e número de massa 19.
+#+end_choice
+#+end_exercise
+
+#+begin_exercise
+Um átomo tem número de massa 31 e 16 nêutrons. Qual o número de elétrons no seu nível mais externo?
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice 
+\choice 2.
+\choice 4. 
+\choice 5.
+\choice 3
+\choice 8
+#+end_choice
+#+end_exercise
+
+#+begin_exercise 
+Os átomos dos elementos X e Y apresentam, respectivamente, apenas 1 elétron nos subníveis *3d* e *4d*, logo, podemos afirmar que seus números atômicos são:
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 19 e 39. 
+\choice 21 e 39. 
+\choice 19 e 42.
+\choice 21 e 42
+\choice 11 e 26
+#+end_choice
+#+end_exercise 
+
+
+\collectexercisesstop{ListaDistribuicao}

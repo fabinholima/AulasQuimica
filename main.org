@@ -1,6 +1,6 @@
 #+OPTIONS: H:2 toc:nil num:t
 #+LATEX_CLASS:koma-article
-#+LATEX_CLASS_OPTIONS: [10pt]
+#+LATEX_CLASS_OPTIONS: [9qpt]
 #+INCLUDE: "packages.org"
 
 
@@ -14,12 +14,12 @@
 #+LATEX_HEADER: %%\def\disciplina{R.A.}
 #+LATEX_HEADER: \def\turma{3 Ano }
 #+LATEX_HEADER: %%\def\tipo{{\bfseries Avaliação Bimestral}}
-#+LATEX_HEADER: \def\tipo{\bfseries Avaliação Mensal}
+#+LATEX_HEADER: \def\tipo{\bfseries Simulado }
 #+LATEX_HEADER: %\def\tipo{\bfseries Atividade Avaliativa}
 #+LATEX_HEADER: \def\bimestre{1 Bimestre}
 #+LATEX_HEADER: %\def\escola{E.E. 26 de Agosto}
-#+LATEX_HEADER: \def\escola{E.E. José Mamede de Aquino}
-#+LATEX_HEADER: %\def\escola{E.E. Joaquim Murtinho}
+#+LATEX_HEADER: %\def\escola{E.E. José Mamede de Aquino}
+#+LATEX_HEADER: \def\escola{E.E. Joaquim Murtinho}
 #+LATEX_HEADER: \def\dataprova{}
 
 
@@ -50,4 +50,16 @@
 #+end_export
 
 
-#+INCLUDE: "Fisico-Quimica-Aula/Cinetica_Quimica.org"
+#+INCLUDE: "Quimica_Geral/TeoriaAtomica/TeoriaAtomica.org"
+#+INCLUDE: "Quimica_Geral/GeometriaMolecular/GeometriaMolecular.org"
+#+INCLUDE: "Quimica_Geral/LigacoesQuimicas/LigacaoQuimicaI.org"
+#+INCLUDE: "Fisico_Quimica/Eletroquimica/Eletroquimica.org"
+#+INCLUDE: "Fisico_Quimica/Termoquimica/TermoquimicaI.org"
+
+
+
+
+\printrandomexercises[collection=LigacaoQuimica]{2}
+\printrandomexercises[collection=TeoriaAtomica]{2}
+\printrandomexercises[collection=PilhasI]{3}
+\printrandomexercises[collection=TermoquimicaI]{3}
