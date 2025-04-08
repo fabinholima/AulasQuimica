@@ -11,7 +11,7 @@
 \collectexercises{TermoquimicaI}
 
 
-#+ATTR_LATEX: :options [points=1.0]
+#+ATTR_LATEX: :options [points=\PQ]
 #+begin_exercise
 Observe o gráfico de entalpia abaixo, obtido por meio de experimentos realizados no estado padrão:
 
@@ -58,7 +58,7 @@ C
 #+end_solution
 
 
-#+ATTR_LATEX: :options [points=1.0]
+#+ATTR_LATEX: :options [points=\PQ]
 #+begin_exercise
 Grande parte da atual frota brasileira de veículos de passeio tem tecnologia capaz de identificar e processar tanto o etanol quanto a gasolina. Quando queimados, no interior do motor, esses combustíveis são transformados Progresso da reação Progresso da reação Progresso da reação em produtos gasosos, num processo com variação de entalpia menor que zero ($\Delta$ H < 0). Esse processo necessita de uma energia de ativação, a qual é fornecida por uma centelha elétrica.
 O gráfico que esboça a variação da energia potencial no progresso da reação é representado por: 
@@ -90,85 +90,10 @@ E
 #+end_solution
 
 
- 
-#+ATTR_LATEX: :options [points=1.0]
-#+begin_exercise 
-Sejam as seguintes afirmações, que representam consequências importantes da lei de Hess:
-
-#+ATTR_LATEX: :options [label=\Roman*]
-1. Invertendo-se uma equação termoquímica, o calor ou a entalpia de reação permanecerá inalterado.
-2. Multiplicando-se ou dividindo-se uma equação termoquímica, o calor da reação permanece inalterado.
-3. Podemos somar algebricamente equações termoquímicas.
-#+begin_choice
-\choice Nenhuma é correta
-\choice Todas são corretas
-\choice Somente I é correta
-\choice Somente II é correta
-\choice Somente III é correta
-#+end_choice
-#+end_exercise
-#+begin_solution
-B
-#+end_solution
-
-
-#+ATTR_LATEX: :options [points=1.0]
-#+begin_exercise
- Considere as afirmações a seguir, segundo a lei de Hess:
-
-#+ATTR_LATEX: :options [label=\Roman*]
-1. O calor de reação (@@late:$\Delta$@@H) depende apenas dos estados inicial e final do processo.
-2. As equações termoquímicas podem ser somadas como se fossem equações matemáticas.
-3. Podemos inverter uma equação termoquímica desde que inverta o sinal de @@latex:$\Delta$@@H.
-4. Se o estado final do processo for alcançado por vários caminhos, o valor de @@latex:$\Delta$@@H dependerá dos estados intermediários através dos quais o sistema pode passar.
-
-
-Conclui-se que:
-#+begin_choice
-\choice as afirmações I e II são verdadeiras.
-\choice as afirmações II e III são verdadeiras.
-\choice as afirmações I, II, III são verdadeiras.
-\choice todas são verdadeiras.
-\choice todas são falsas.
-#+end_choice
-#+end_exercise 
-#+begin_solution
-D
-#+end_solution
 
 
 
-
-#+ATTR_LATEX: :options [points=1.0]
-#+begin_exercise
-O enxofre constitui-se na matéria prima essencial na fabricação de \ch{H2SO4}. No estado
-sólido, o enxofre apresenta as formas alotrópicas rômbica e monoclínica. Sabendo que
-
-#+begin_export latex
-\begin{reactions*}
-S_{monoclínico} + O2_{\gas} -> SO2_{\gas} & $\;\enthalpy[unit=\kilo\cal\per\mole]{-71.1}$\\
-S_{rômbico} + O2_{\gas} -> SO2_{\gas} & $\;\enthalpy[unit=\kilo\cal\per\mole]{-71.0}$
-\end{reactions*}
-#+end_export
-
-podemos afirmar que:
-
-#+begin_choice
-\choice a transformação da forma monoclínica para a rômbica se dá com a liberação de 71,0 kcal/mol.
-\choice o enxofre sólido, em temperaturas mais baixas, apresenta-se na forma monoclínica
-\choice a transformação da forma rômbica para a monoclínica se dá com a liberação de 0,1 kcal/mol.
-\choice a forma rômbica precede à monoclínica quando o enxofre sólido é aquecido.
-\choice a transformação do enxofre sólido de uma forma alotrópica para outra, não envolve variação
-de energia.
-#+end_choice
-#+end_exercise
-#+begin_solution
-D
-#+end_solution
-
-
-
-#+ATTR_LATEX: :options [points=1.0]
+#+ATTR_LATEX: :options [points=\PQ]
 #+begin_exercise
 A taxa de evaporação de um líquido é sempre mais rápida a uma temperatura mais alta porque
 
@@ -186,7 +111,7 @@ B
 
 
 
-#+ATTR_LATEX: :options [points=1.0]
+#+ATTR_LATEX: :options [points=\PQ]
 #+begin_exercise
 Qual das seguintes *não* é uma reação endotérmica?
 
@@ -202,7 +127,7 @@ Qual das seguintes *não* é uma reação endotérmica?
 C
 #+end_solution
 
-#+ATTR_LATEX: :options [points=1.0]
+#+ATTR_LATEX: :options [points=\PQ]
 #+begin_exercise
 O hidroxido de sódio, @@latex:\ch{NaOH_{\sld}}@@ tem um calor de solução de @@latex:$\enthalpy[unit=\kilo\cal\per\mole]{-42.6}$@@ NaOH. Quando o NaOH é dissolvido em água, a temperatura da solução
 
@@ -221,7 +146,7 @@ B
 
 
 
-#+ATTR_LATEX: :options [points=1.0]
+#+ATTR_LATEX: :options [points=\PQ]
 #+begin_exercise
 A mudança na entalpia quando 1 mol do composto é formado sob condições padrão é conhecida como
 
@@ -240,7 +165,7 @@ B
 
 
 
-#+ATTR_LATEX: :options [points=1.0]
+#+ATTR_LATEX: :options [points=\PQ]
 #+begin_exercise
 Calcule a entalpia de combustão do metano a @@latex:\SI{15}{\degreeCelsius} @@ e 1 atm de pressão.
 |----------------------------+-----------------------------------|
@@ -275,9 +200,76 @@ A
 #+end_solution
 
 
-#+ATTR_LATEX: :oprtions [points=1.0]
+#+ATTR_LATEX: :options [points=\PQ]
 #+begin_exercise
-(Unicamp - 2018) O livro O pequeno príncipe, de Antoine de Saint-Exupéry, uma das obras literárias mais traduzidas no mundo, traz ilustrações inspiradas na experiência do autor como aviador no norte da África. Uma delas, a figura (a), parece representar um chapéu ou um elefante engolido por uma jiboia, dependendo de quem a interpreta.
+*(Mackenzie)* Em diversos países, o aproveitamento do lixo doméstico é quase 100%. Do lixo levado para as usinas de compostagem, após a reciclagem, obtém-se a biomassa que, por fermentação anaeróbica, produz biogás. Esse gás, além de ser usado no aquecimento de residências e como combustível em veículos e indústrias, é matéria prima
+importante para a produção das substâncias de fórmula \ch{H3C-OH}, \ch{H3C-C$\ell$}, \ch{H3C-NO}‚ e \ch{H2}‚ além de outras.
+
+#+begin_export latex
+\begin{reaction*}
+CH4\gas{} + H2O\gas{} -> CO\gas{} + 3 H2\gas{}
+\end{reaction*}
+#+end_export
+
+O gás hidrogênio pode ser obtido pela reação acima equacionada. Dadas as entalpias de formação em kJ/mol, @@latex: \ch{CH4\gas{}}@@ = - 75, @@latex: \ch{H2O\gas{}}@@ = - 287 e @@latex: \ch{CO\gas{}}@@ = - 108, a
+entalpia da reação a 25°C e 1 atm, é igual a:
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice + 254 kJ
+\choice - 127 kJ
+\choice - 470 kJ
+\choice + 508 kJ
+\choice - 254 kJ
+#+end_choice
+
+#+end_exercise 
+
+
+
+#+ATTR_LATEX: :options [points=\PQ]
+#+begin_exercise
+*(UERJ)* Nos motores de combustão interna, o sulfeto de hidrogênio, presente em combustíveis, é convertido no poluente atmosférico óxido de enxofre IV, como mostra sua equação de combustão abaixo.
+
+#+begin_export latex
+\begin{reaction*}
+H2S\gas{} + 3/2 O2\gas{} ->  SO2\gas{} + H2O\lqdd{}
+\end{reaction*}
+#+end_export
+
+O sulfeto de hidrogênio é extraído dos combustíveis por um solvente que possui baixa polaridade molecular e natureza ácido-básica oposta à sua.
+As entalpias-padrão de formação de substâncias participantes na combustão do sulfeto de hidrogênio são fornecidas adiante
+
+#+begin_export latex
+\begin{tblr}{
+vlines, hlines,
+colspec={cc},
+row{1} = {azure2,fg=white,font=\bfseries\sffamily},
+}
+Substância & $\Delta$H$^0_f$ (KJ mol$^{-1}$) \\ 
+\ch{H2S\gas{}} & - 20 \\
+\ch{SO2\gas{}} & -296 \\
+\ch{H2O\lqdd{}} & - 286 \\
+\end{tblr}
+#+end_export
+
+O valor da entalpia-padrão de combustão do sulfeto de hidrogênio em KJ mol$^{-1}$ é igual a:
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice - 562
+\choice - 602
+\choice - 1124
+\choice - 1204
+\choice + 2210
+#+end_choice
+#+end_exercise 
+
+
+
+
+#+ATTR_LATEX: :options [points=\PQ]
+#+begin_exercise
+*(Unicamp)* O livro O pequeno príncipe, de Antoine de Saint-Exupéry, uma das obras literárias mais traduzidas no mundo, traz ilustrações inspiradas na experiência do autor como aviador no norte da África. Uma delas, a figura (a), parece representar um chapéu ou um elefante engolido por uma jiboia, dependendo de quem a interpreta.
 
 Para um químico, no entanto, essa figura pode assemelhar-se a um diagrama de entalpia, em função da coordenada da reação (figura b). Se a comparação for válida, a variação de entalpia dessa reação seria
 

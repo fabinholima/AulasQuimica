@@ -1,0 +1,256 @@
+
+#+LATEX_HEADER: \DeclareExerciseCollection{TeoriaAtomicaII}
+
+\collectexercises{TeoriaAtomicaII}
+
+
+
+#+ATTR_LATEX: :options [points=\PQ]
+#+begin_exercise
+*(UPE)* Observe a charge a seguir.
+
+#+CAPTION: 
+[[./charge.png]]
+
+Com base no modelo atômico apresentado na imagem, quem é a personagem representada?
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice Albert Einstein
+\choice John Dalton
+\choice Ernest Rutherford
+\choice George Paget Thomson
+\choice Niels Bohr
+#+end_choice
+
+#+end_exercise 
+#+begin_solution
+E
+#+end_solution 
+
+
+
+
+#+ATTR_LATEX: :options [points=\PQ]
+#+begin_exercise
+O desenvolvimento dos modelos atômicos é um excelente exemplo de como os modelos científicos se desenrolam e são, constantemente, revisados. O modelo atual foi desenvolvido a partir de estudos de diferentes pesquisadores e séries de experimentos.
+
+Sobre os modelos atômicos, assinale a alternativa correta.
+
+#+begin_choice
+
+\choice Segundo Bohr, os elétrons circulam ao redor do núcleo em determinadas órbitas de energia. 
+\choice Segundo Dalton, átomos são esferas constituídas de partículas subâtomicas.
+\choice J. J. Thomson propôs a existência de partículas positivas (prótons) em uma esfera negativa.
+\choice Segundo Rutherford, o átomo tem o núcleo positivo mais leve, com elétrons pesados ao redor.
+\choice Segundo o modelo de subníveis de energia, um átomo com Z=22 tem configuração 1s^2 2s^2 2p^6 3s^2 3d@@latex:$^{10}$@@.
+
+#+end_choice 
+
+#+end_exercise 
+
+
+#+ATT_LATEX: :options [points=\PQ]
+#+begin_exercise
+Analogias são muito usuais como estratégias para abordar conhecimentos científicos, pois possuem o potencial de apresentar ideias mais complexas (domínio-alvo) a partir de ideias mais simples (domínio análogo). Contudo, algumas vezes, existe o uso abusivo, como na tirinha a seguir:
+
+[[./charge2.png]]
+
+Mesmo com o uso abusivo das analogias, podemos reconhecer, na ordem em que aparecem, os modelos atômicos propostos por
+
+#+begin_choice 
+\choice Dalton, Thomson, Bohr.
+\choice Modelo Quântico, Dalton e Rutherford.
+\choice Rutherford, Bohr e Thomson. 
+\choice Rutherford, Thomson e Dalton.
+\choice Dalton, Modelo Quântico e Bohr.
+#+end_choice
+
+#+end_exercise 
+
+
+#+ATTR_LATEX: :options [points=\PQ]
+#+begin_exercise
+*(CESMAC)* John Dalton, químico inglês, nascido em 1766, é um dos principais pesquisadores relacionados à teoria atômica, tendo descrito o primeiro modelo atômico conhecido.
+ 
+Acerca do modelo atômico de Dalton, assinale a alternativa *incorreta*.
+
+#+begin_choice 
+\choice Os elementos são feitos de partículas extremamente pequenas chamadas átomos.
+\choice Os átomos de um determinado elemento são idênticos em tamanho, massa e outras propriedades; átomos de diferentes elementos diferem em tamanho, em massa e em outras propriedades.
+\choice Nas reações químicas, os átomos são combinados, separados ou reorganizados.
+\choice Átomos de diferentes elementos combinam-se em proporções simples de número inteiro para formar compostos químicos.
+\choice Os átomos podem ser subdivididos, criados ou destruídos.
+#+end_choice
+#+end_exercise
+
+
+#+ATTR_LATEX: :options [points=\PQ]
+#+begin_exercise
+A tirinha a seguir apresenta uma crítica à forma de abordagem do estudo dos modelos atômicos:
+
+[[./charge3.png]]
+
+A analogia estabelecida na charge entre o modelo atômico de Thomson e um “pudim” é comumente usada, pois a característica do modelo é:
+
+#+ATTR_LATEX: :options (1)
+#+begin_choice
+\choice Núcleo central de carga positiva e elétrons em órbitas com valores de energia definidos.
+
+\choice Elétron, de carga negativa, incrustado em uma esfera de carga positiva distribuída homogeneamente por toda a esfera. 
+
+\choice Átomos maciços e indivisíveis, não apresentando carga, e formadores de todas as substâncias químicas. 
+
+\choice Elétron como partícula-onda com trajetória desconhecida, presente em nuvem eletrônica, ocupando o orbital.
+#+end_choice 
+#+end_exercise 
+
+
+
+#+ATTR_LATEX: :options [points=\PQ]
+#+begin_exercise 
+Uma forma de determinar a extensão de uma fratura em um osso do corpo é por meio do uso do equipamento de Raios X. Para que essa tecnologia e outros avanços tecnológicos pudessem ser utilizados, um grande passo teve de ser dado pelos cientistas: a concepção científica do modelo atômico. Sobre o modelo atômico proposto, associe as afirmações da coluna 1, com seus respectivos responsáveis, na coluna 2.
+
+ 
+
+*Coluna 1*
+
+ 
+
+1. Toda a matéria é formada por átomos, partículas esféricas, maciças, indivisíveis e indestrutíveis.
+2. Elaborou um modelo de átomo constituído por uma esfera maciça, de carga elétrica positiva, que continha “corpúsculos” de carga negativa (elétrons) nela dispersos.
+3. O átomo seria constituído por duas regiões: uma central, chamada núcleo, e uma periférica, chamada de eletrosfera.
+4. Os elétrons ocupam determinados níveis de energia ou camadas eletrônicas.
+
+ 
+
+*Coluna 2*
+
+ 
+
+( ) Rutherford-Bohr
+
+( ) Rutherford
+
+( ) Dalton
+
+( ) Thomson
+
+ 
+
+A sequência correta de preenchimento dos parênteses da coluna 2, de cima para baixo, é
+
+#+begin_choice
+\choice 2 – 3 – 1 – 4. 
+\choice 3 – 2 – 1 – 4.
+\choice 4 – 3 – 1 – 2. 
+\choice 3 – 4 – 1 – 2. 
+\choice 4 – 2 – 1 – 3.
+#+end_choice
+#+end_exercise 
+
+
+
+
+
+
+#+ATTR_LATEX: :options [points=\PQ]
+#+begin_exercise
+Na Inglaterra por volta de 1900, uma série de experimentos realizados por cientistas, como Sir Joseph John Thompson (1856-1940) e Ernest Rutherford (1871-1937), estabeleceu um modelo do átomo que serviu de base à teoria atômica. Atualmente, sabe-se que três partículas subatômicas são os constituintes de todos os átomos: próton, nêutrons e elétrons. Desta forma, o átomo constituído por 17 prótons, 18 nêutrons e 17 elétrons possui número atômico e número de massa, sequencialmente, igual a: 
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice 
+\choice 17 e 18 
+\choice 34 e 52 
+\choice 17 e 17 
+\choice 17 e 35
+\choice 35 e 17 
+#+end_choice 
+#+end_exercise 
+
+
+
+#+ATTR_LATEX: :options [points=\PQ]
+#+begin_exercise
+Os cientistas que trabalharam no estudo do átomo foram fundamentais para que a humanidade pudesse avançar no seu caminho de desvendar os mistérios da composição da matéria. Sabe-se que ainda há muito para se descobrir, por isso a atomística e a física de partículas subatômicas ainda são áreas extremamente fascinantes.
+
+ 
+
+Assinale abaixo a alternativa que relaciona corretamente o cientista e a principal inovação que seu modelo atômico trouxe na compreensão da natureza íntima da matéria.
+
+#+begin_choice 
+\choice Erwin Schroedinger e a existência da dualidade onda-partícula do elétron.
+\choice eErnest Rutherford e a existência dos quarks.
+\choice Joseph Thomson e a existência de um núcleo atômico pequeno e muito denso.
+\choice John Dalton e a existência de cargas elétricas opostas espalhadas no átomo.
+\choice  Niels Bohr e a existência de níveis energéticos quantizados na eletrosfera.
+#+end_choice 
+#+end_exercise 
+
+
+#+ATTR_LATEX: :options [points=\PQ]
+#+begin_exercise
+*(UNESP)* Na evolução dos modelos atômicos, a principal contribuição introduzida pelo modelo de Bohr foi:
+
+#+begin_choice 
+\choice a indivisibilidade do átomo.
+\choice  a existência de nêutrons.
+\choice a natureza elétrica da matéria.
+\choice a quantização de energia das órbitas eletrônicas.
+\choice a maior parte da massa do átomo está no núcleo.
+#+end_choice
+#+end_exercise 
+
+
+
+#+ATTR_LATEX: :options [points=\PQ]
+#+begin_exercise 
+Analise as afirmações abaixo, sobre os modelos atômicos.
+#+ATTR_LATEX: :options 
+1. *John Dalton:* Afirmava que toda a matéria é formada por partícula extremamente pequena, e é indivisível.
+2. *Thomson:* Formulou a teoria segundo a qual o átomo é uma esfera positiva que, para tornar-se neutra, apresenta elétrons (partículas negativas) presos em sua superfície.
+3. *Erwin Schrödinger:* O físico propôs a teoria que demonstra a probabilidade de se encontrar o elétron em torno do núcleo (orbital).
+
+
+Assinale a alternativa correta em relação a essas afirmativas.
+
+#+begin_choice 
+\choice O modelo formulado por John Dalton ficou conhecido como "pudim de passas".
+\choice O modelo proposto por Erwin Schrödinger é utilizado até hoje.
+\choice John Dalton provou que o átomo é uma partícula dividida em prótons elétrons e nêutrons.
+\choice Thomson foi o autor da frase O átomo é uma partícula formada apenas por uma única carga .
+\choice Pertence ao físico Erwin Schödinger a expressão pudim de passas , que se refere à estrutura atômica da matéria.
+#+end_choice
+#+end_exercise 
+
+
+
+
+#+ATTR_LATEX: :options [points=\PQ]
+#+begin_exercise
+*(UNIPAM)* Ainda antes de Cristo, os filósofos especulavam sobre a natureza da matéria da qual o universo era feito, com o intuito de explicar a sua constituição. Já os séculos XVII e XVIIIcaracterizaram se, na história da química, pela aquisição de um grande número de informações obtidas experimentalmente. Nessa época deu-se uma certa preferência aos processos químicos e, como consequência, o conhecimento químico cresceu em quantidade e em qualidade. No final desse período, inúmeros fatos químicos floresceram. A evolução histórica do modelo atômico encontra-se resumida na figura a seguir.
+
+[[./evolucao.png]]
+
+Assinale a alternativa *CORRETA* acerca da teoria atômica.
+
+#+begin_choice
+\choice Leucipo e Demócrito foram os primeiros cientistas a formalizar, do ponto de vista quantitativo, a existência dos átomos.
+
+\choice  Bohr mostrou que o átomo consiste em um minúsculo núcleo que contém toda a carga positiva e quase toda a massa do átomo.
+
+\choice Dalton dispunha de dados experimentais que possibilitaram afirmar que átomos de elementos diferentes possuem massas diferentes.
+
+\choice Rutherford desenvolveu um modelo atômico segundo o qual, quando o elétron passa de uma órbita para outra, emite ou absorve uma quantidade de energia.
+
+\choice Nenhuma das alternativas
+#+end_choice 
+#+end_exercise
+
+
+
+
+
+
+
+\collectexercisesstop{TeoriaAtomicaII}

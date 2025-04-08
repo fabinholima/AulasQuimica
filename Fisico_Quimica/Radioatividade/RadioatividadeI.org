@@ -12,17 +12,30 @@
 
 #+ATTR_LATEX: :options [points=1.0]
 #+begin_exercise
-A meia-vida é .............
-#+begin_choice
-\choice mudando constantemente.
-\choice metade da vida útil de um núcleo instável.
-\choice o tempo para metade de um núcleo instável decair.
-\choice independente da constante de taxa de decaimento.
-\choice o valor aumenta o dobro
-#+end_choice
+*(PUC-SP)* O fenômeno da radioatividade foi descrito pela primeira vez no final do século passado, sendo largamente estudado no início do século XX. Aplicações desse fenômeno vão desde o diagnóstico e combate de doenças, até a obtenção de energia ou a fabricação de artefatos bélicos. Duas emissões radioativas típicas podem ser representadas pelas equações:
+
+#+begin_export latex
+\begin{tblr}{c}
+\isotope{238,U} \ch{->}  \isotope{234,Th} + $\upalpha$\\
+\isotope{234,Th} \ch{->}  \isotope{234,Pa} + $\upbeta$
+\end{tblr}
+#+end_export
+
+
+A radiação $\upalpha$ é o núcleo do átomo de hélio, possuindo 2 prótons e 2 nêutrons, que se desprende do núcleo do átomo radioativo. A radiação $\upbeta$ é um elétron, proveniente da quebra de um nêutron, formando também um próton, que permanece no núcleo. A equação que representa o decaimento radioativo do isótopo\isotope*{238,U} até o isótopo estável \isotope*{206,Pb} é:
+
+#+begin_export latex
+\begin{choice}
+\choice  \isotope*{238,U} \ch{->} \isotope*{206,Pb}  + \upalpha  \; + \upbeta.
+\choice  \isotope*{238,U} \ch{->} \isotope*{206,Pb}  + 8\upalpha  \; + 4 \upbeta.
+\choice  \isotope*{238,U} \ch{->} \isotope*{206,Pb}  + 8\upalpha \; + 6 \upbeta.
+\choice \isotope*{238,U} \ch{->} \isotope*{206,Pb}  + 5\upalpha \; + 5 \upbeta.
+\choice  \isotope*{238,U} \ch{->} \isotope*{206,Pb}  + 6\upalpha \; + 6 \upbeta.
+\end{choice}
+#+end_export
 #+end_exercise
 #+begin_solution
-B
+C
 #+end_solution
 
 
@@ -65,32 +78,6 @@ O avanço científico e tecnológico da física nuclear permitiu conhecer, com m
 #+end_exercise 
 #+begin_solution
 LETRA C
-#+end_solution
-
-
-#+ATTR_LATEX: :options [points=1.0]
-#+begin_exercise
- Glicose marcada com nuclídeos de carbono-11 é utilizada na medicina para se obter imagens tridimensionais do cérebro, por meio de tomografia de emissão de pósitrons. A desintegração do carbono-11 gera um pósitron, com tempo de meia-vida de 20,4 min, de acordo com a equação da reação nuclear:
- #+begin_export latex
-\begin{reactions*}
-\isotope{11,C} -> \isotope{11,B} + e_{0}^1
-\end{reactions*}
- #+end_export
-
-A partir da injeção de glicose marcada com esse nuclídeo, o tempo de aquisição de uma imagem de tomografia é de *cinco meias-vidas*. Considerando que o medicamento contém 1,00 g do carbono-11, a massa, em miligramas (mg), do nuclídeo restante, após a aquisição da imagem, é mais próxima de
-
-#+ATTR_LATEX: :options (2)
-#+begin_choice
-\choice 0,5.
-\choice 0,25.
-\choice 0,0625.
-\choice 200.
-\choice 31,3.
-#+end_choice
-
-#+end_exercise 
-#+begin_solution
-LETRA E
 #+end_solution
 
 
@@ -187,10 +174,9 @@ LETRA A
 
 
 
-#+ATTR_LATEX: :options [points=1.0]
+#+ATTR_LATEX: :options [points=\PQ]
 #+begin_exercise
-A partir da década de 40, quando McMillan e Seaborg obtiveram em laboratório os primeiros elementos transurânicos (NA > 92), o urânio natural foi usado algumas vezes
-para obter tais elementos. Para tanto, ele era bombardeado com núcleos de elementos leves. Na obtenção do Plutônio, do Califórnio e do Férmio as transmutações ocorreram da forma a seguir:
+A partir da década de 40, quando McMillan e Seaborg obtiveram em laboratório os primeiros elementos transurânicos (NA > 92), o urânio natural foi usado algumas vezes para obter tais elementos. Para tanto, ele era bombardeado com núcleos de elementos leves. Na obtenção do Plutônio, do Califórnio e do Férmio as transmutações ocorreram da forma a seguir:
 
 #+begin_export latex
 \begin{align*}
@@ -217,7 +203,7 @@ E
 
 
 
-#+ATTR_LATEX: :options [points=1.0]
+#+ATTR_LATEX: :options [points=\PQ]
 #+begin_exercise
 Um átomo X, de número atômico 92 e número de massa 238, emite uma partícula alfa, transformando-se num átomo Y, o qual emite uma partícula beta, produzindo um átomo Z. Então:
 
@@ -236,7 +222,7 @@ D
 
 
 
-#+ATTR_LATEX: :options [points=1.0]
+#+ATTR_LATEX: :options [points=\PQ]
 #+begin_exercise
 A energia liberada durante a fissão nuclear pode ser utilizada para gerar eletricidade através da construção de usinas nucleares. Com base neste conhecimento, qual dos seguintes materiais é mais adequado para ser usado neste tipo de usina?
 
@@ -258,7 +244,7 @@ C
 
 
 
-#+ATTR_LATEX: :options [points=1.0]
+#+ATTR_LATEX: :options [points=\PQ]
 #+begin_exercise
 O processo da fissão nuclear pode ser iniciado por meio da absorção de um nêutron por parte do núcleo atômico, que é então dividido em dois fragmentos menores e mais estáveis, acompanhados pela liberação de outros nêutrons. Qual dos seguintes elementos químicos normalmente sofre fissão nuclear?
 
@@ -277,7 +263,7 @@ A
 
 
 
-#+ATTR_LATEX: :options [points=1.0]
+#+ATTR_LATEX: :options [points=\PQ]
 #+begin_exercise
 As partículas alfa e beta possuem características físicas distintas e, por isso, apresentam comportamentos diferentes. A partícula alfa possui carga elétrica positiva, sendo formada por dois prótons e dois nêutrons. Já a partícula beta possui carga elétrica negativa ou positiva, dependendo do tipo de emissão. Qual dessas afirmativas está correta?
 
@@ -298,7 +284,7 @@ A
 
 
 
-#+ATTR_LATEX: :options [points=1.0]
+#+ATTR_LATEX: :options [points=\PQ]
 #+begin_exercise
 Atividade radioativa é o processo pelo qual um núcleo instável emite partículas e/ou radiação, em busca de estabilidade. Essa emissão de energia é conhecida como desintegração radioativa. O que acontece durante a desintegração radioativa?
 
@@ -317,13 +303,9 @@ B
 #+end_solution
 
 
-#+ATTR_LATEX: :options [points=1.0]
+#+ATTR_LATEX: :options [points=\PQ]
 #+begin_exercise
-Detectores de incêndio são dispositivos que disparam um alarme no início de um
-incêndio. Um tipo de detector contém uma quantidade mínima do elemento radioativo amerício-241.
-A radiação emitida ioniza o ar dentro e ao redor do detector, tornando-o condutor de eletricidade.
-Quando a fumaça entra no detector, o fluxo de corrente elétrica é bloqueado, disparando o alarme.
-Este elemento se desintegra de acordo com a equação a seguir:
+Detectores de incêndio são dispositivos que disparam um alarme no início de um incêndio. Um tipo de detector contém uma quantidade mínima do elemento radioativo amerício-241. A radiação emitida ioniza o ar dentro e ao redor do detector, tornando-o condutor de eletricidade. Quando a fumaça entra no detector, o fluxo de corrente elétrica é bloqueado, disparando o alarme. Este elemento se desintegra de acordo com a equação a seguir:
 
 #+begin_export latex
 \begin{reaction*}
@@ -346,7 +328,7 @@ A
 #+end_solution
 
 
-#+ATTR_LATEX: :options [points=1.0]
+#+ATTR_LATEX: :options [points=\PQ]
 #+begin_exercise
 Dadas as equações químicas:
 
@@ -369,6 +351,88 @@ Pode-se afirmar que ocorre fissão nuclear somente em:
 #+end_exercise
 #+begin_solution
 B
+#+end_solution
+
+
+#+ATTR_LATEX: :options [points=\PQ]
+#+begin_exercise
+*(PUCCAMP)* O isótopo \isotope{131,I}, utilizado no diagnóstico de
+moléstias da tireóide, pode ser obtido pelo bombardeio de \isotope{130,Te}, representado a seguir.
+
+#+begin_export latex
+\begin{center}
+\isotope{130,Te} + $_{1}^{0}${n} \ch{->} \isotope{131,I} + {\bfseries X}
+\end{center}
+#+end_export
+
+
+Na equação radioquímica dada,  *X* corresponde a
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice 
+\choice próton
+\choice nêutron
+\choice pósitron
+\choice partícula beta
+\choice partícula alfa
+#+end_choice
+#+end_exercise 
+#+begin_solution
+D
+#+end_solution
+
+
+#+ATTR_LATEX: :options [points=\PQ]
+#+begin_exercise
+*(UEL)* Na transformação radioativa do \isotope{239,U} a \isotope{239,Pu} há emissão de:
+#+begin_choice 
+\choice 2 partículas alfa.
+\choice 2 partículas beta.
+\choice 2 partículas alfa e 1 partícula beta.
+\choice 1 partícula alfa e 2 partículas beta.
+\choice 1 partícula alfa e 1 partícula beta.
+#+end_choice
+#+end_exercise 
+#+begin_solution
+B
+#+end_solution 
+
+#+ATTR_LATEX: :options [points=\PQ]
+#+begin_exercise
+*(UEL)* Os elementos radiativos tem muitas aplicações. A seguir, estão exemplificadas algumas delas.
+
+- I. ::  O iodo é utilizado no diagnóstico de distúrbios da glândula tireóide, e pode ser obtido pela seguinte reação:
+#+begin_export latex
+\begin{equation*}
+\isotope{130,Te} \;  + \; _{0}^{1}n \rightarrow \isotope{153,I} + X
+\end{equation*}
+#+end_export 
+- II. ::  O fósforo é utilizado na agricultura como elemento traçador para proporcionar a melhoria na produção do milho, e pode ser obtido pela reação:
+#+begin_export latex
+\begin{equation*}
+\isotope{35,Cl}\; +\; _{0}^{1}n \rightarrow \isotope{32,P} + Y
+\end{equation*}
+#+end_export
+Sua reação de decaimento é: \isotope{32,P} \ch{->} \isotope{32,S} + Z
+- III. :: O tecnécio é usado na obtenção de imagens do cérebro, fígado e rins, e pode ser representado pela reação:
+#+begin_export latex
+\begin{equation*}
+\isotope{99,Tc}  \rightarrow \isotope{99,Tc} + Q
+\end{equation*}
+#+end_export 
+Assinale a alternativa que indica, respectivamente, os significados de X, Y, Z e Q nas afirmativas I, II e III:
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice \upalpha, \upbeta, \upgamma, \upalpha
+\choice \upalpha, \upbeta, \upalpha, \upgamma
+\choice \upgamma, \upbeta, \upgamma, \upalpha
+\choice \upbeta, \upalpha, \upbeta, \upbeta
+\choice \upbeta, \upalpha, \upbeta, \upgamma
+#+end_choice
+#+end_exercise
+#+begin_solution
+E
 #+end_solution
 
 

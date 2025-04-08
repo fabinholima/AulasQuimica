@@ -1,0 +1,65 @@
+
+#+BEGIN_COMMENT
+
+#+END_COMMENT
+
+
+
+#+LATEX_HEADER: \DeclareExerciseCollection{ListaCineticaI}
+
+\collectexercises{ListaCineticaI}
+
+
+#+begin_exercise 
+A lei de velocidade para a reação
+
+#+begin_export latex  
+\begin{reaction*}
+NH4^+\aq{} + NO^{2-}\aq{} -> N2\gas{} + 2 H2O\lqdd{}
+\end{reaction*}
+#+end_export
+
+É dada por v=k[@@latex:\ch{NH^{4+}}@@][@@latex:\ch{NO^{2-}}@@]. A 25ºC, a constante de velocidade é \num{3e-4} \unit{\per\mol\per\second}. Calcule a velocidade da reação a essa temperatura se [@@latex: \ch{NH4+}@@]=0,26 \unit{\mol\per\litre} e [@@latex:\ch{NO^{2-}@@}]=0,080 \unit{\mol\per\litre}.
+
+
+#+end_exercise
+
+
+
+
+#+begin_exercise
+A constante de velocidade para uma reação de segunda ordem
+
+#+begin_export latex
+\begin{reaction*}
+2 NO2\gas{} -> 2 NO\gas{} + O2\gas{}
+\end{reaction*}
+#+end_export
+
+É 0,54 \unit{\per\mol\per\second} a 3000ºC. Quanto tempo (em segundos) levaria para a concentração de \ch{NO2} diminuir de 0,62 \unit{\mol\per\litre} para 0,28 \unit{\mol\per\litre}
+#+end_exercise 
+
+
+#+begin_exercise
+Três experimentos foram realizados para descobrir como a velocidade inicial de consumo de íons persulfato na reação abaixo varia quando as concentrações dos reagentes variam. Use os dados experimentais da tabela
+para determinar a lei de velocidade da reação e o valor de $k$.
+#+begin_export latex
+\begin{reaction*}
+S2O82^-\aq{} + 3 I^-\aq{} -> 2 SO4^{2-}\aq{} + I3^-\aq{}
+\end{reaction*}
+
+\begin{tblr}
+Experimento & Concentração Inicial (\unit{\mol\per\litre}) &  Vel. Inicial
+(\unit{\mol\per\litre\per\litre}) \\
+& \ch{S2O8^{2-}} & \ch{I^-} & \\
+1 & 0,15 & 0,21 & 1,14 \\
+2 & 0,22 & 0,21 & 1,7 \\
+\hline
+\end{tblr}
+
+#+end_export 
+#+end_exercise
+
+
+
+\collectexercisesstop{ListaCineticaI}

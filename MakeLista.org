@@ -20,7 +20,7 @@
 
 
 
-#+ATTR_LATEX: :options [points=1]
+#+ATTR_LATEX: :options [points=1.0]
 #+begin_exercise
 
 #+end_exercise 
@@ -33,7 +33,7 @@
 
 
 
-#+ATTR_LATEX: :options [points=1]
+#+ATTR_LATEX: :options [points=1.0]
 #+begin_exercise
 
 #+end_exercise 
@@ -42,7 +42,7 @@
 #+end_solution
 
 
-#+ATTR_LATEX: :options [points=1]
+#+ATTR_LATEX: :options [points=1.0]
 #+begin_exercise
 
 #+end_exercise 

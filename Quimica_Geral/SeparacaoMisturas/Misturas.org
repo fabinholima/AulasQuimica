@@ -3,7 +3,7 @@
 
 \collectexercises{Misturas}
 
-#+ATTR_LATEX: :options [points=1.0]
+#+ATTR_LATEX: :options [points=\PQ]
 #+begin_exercise
 O *ferro* é um dos componentes da hemoglobina. A falta de ferro na alimentação causa anemia. O processo anêmico pode ser revertido com uma alimentação rica em carnes, verduras, grãos e cereais integrais, sendo, em alguns casos,necessário um suplemento de *sulfato de ferro (II)*. Nesse contexto, os termos sublinhados no texto acima classificam-se, respectivamente, como:
 
@@ -22,7 +22,7 @@ Letra A
 
 
 
-#+ATTR_LATEX: :options [points=1.0]
+#+ATTR_LATEX: :options [points=\PQ]
 #+begin_exercise 
 A química é responsável pela melhora em nossa qualidade de vida e está inserida em nosso cotidiano de muitas  formas em substâncias e misturas que constituem diversos materiais. Assinale  a  alternativa  que  apresenta,  respectivamente,  substância  simples,  substância  composta,  mistura homogênea e mistura heterogênea.
     
@@ -40,7 +40,7 @@ LETRA C
 
 
 
-#+ATTR_LATEX: :options [points=1.0]
+#+ATTR_LATEX: :options [points=\PQ]
 #+begin_exercise
 Os  peixes,  como  todos  os  animais,  precisam  de  gás  oxigênio  para  realizar  a respiração. Considerando que o meio em que eles vivem é a água, pode-se afirmar que o oxigênio utilizado pelos peixes na respiração se encontra
 #+begin_choice
@@ -55,7 +55,7 @@ Os  peixes,  como  todos  os  animais,  precisam  de  gás  oxigênio  para  rea
 LETRA A
 #+end_solution
 
-#+ATTR_LATEX: :options [points=1.0]
+#+ATTR_LATEX: :options [points=\PQ]
 #+begin_exercise
 Na preparação do café, a água quente entra em contato com o pó e é separada no coador. As operações envolvidas nessa separação são, respectivamente:
 #+begin_choice
@@ -70,7 +70,7 @@ Na preparação do café, a água quente entra em contato com o pó e é separad
 LETRA D
 #+end_solution
 
-#+ATTR_LATEX: :options [points=1.0]
+#+ATTR_LATEX: :options [points=\PQ]
 #+begin_exercise
 Uma mistura formada por gasolina, água, serragem e sal de cozinha pode ser separada nos seus diversos componentes seguindo-se as seguintes etapas:
 #+begin_choice 
@@ -87,7 +87,7 @@ LETRA A
 
 
 
-#+ATTR_LATEX: :options [points=1.0]
+#+ATTR_LATEX: :options [points=\PQ]
 #+begin_exercise
 Numa das etapas do tratamento da água que abastece uma cidade, a água é mantida durante um certo tempo em tanques para que os sólidos em suspensão se depositem no fundo. A essa operação denominamos:
 #+begin_choice
@@ -105,7 +105,7 @@ LETRA B
 
 
 
-#+ATTR_LATEX: :options [points=1.0]
+#+ATTR_LATEX: :options [points=\PQ]
 #+begin_exercise
 Um sólido A está totalmente dissolvido num líquido B. É possível separar o solvente B da mistura por meio de uma:
 
@@ -122,7 +122,7 @@ LETRA E
 #+end_solution
 
 
-#+ATTR_LATEX: :options [points=1.0]
+#+ATTR_LATEX: :options [points=\PQ]
 #+begin_exercise
 Ao se colocarem hexano (\(d\) = 0,66 g/cm\(^3\)), água (\(d\) = 1 g/cm\(^3\)) e sal (\ch{NaC$\ell$}) em uma vidraria de laboratório conhecida como funil de separação (figura a seguir), assinale o aspecto adequado observado após algum tempo de repouso.
 
@@ -144,7 +144,7 @@ LETRA C
 #+end_solution
 
 
-#+ATTR_LATEX: :options [points=1.0]
+#+ATTR_LATEX: :options [points=\PQ]
 #+begin_exercise
 Para separar os componentes de uma mistura, foi realizada a seguinte seqüência de operações:
 
@@ -165,7 +165,7 @@ LETRA E. A resposta correta é a E. Aquecendo a mistura, separa-se o iodo por su
 
 
 
-#+ATTR_LATEX: :options [points=1.0]
+#+ATTR_LATEX: :options [points=\PQ]
 #+begin_exercise
 Para impedir a contaminação microbiana do suprimento de água, deve-se eliminar as emissões de efluentes e, quando necessário, tratá-los com desinfetante. O ácido hipocloroso (\ch{HC$\ell$O}), produzido pela reação entre cloro e água, é um dos compostos mais empregados como desinfetante. Contudo, ele não atua somente como oxidante, mas também como um ativo agente de cloração. A presença de matéria orgânica dissolvida no suprimento de água clorada pode levar à formação de clorofórmio (\ch{CHC$\ell$3}) e outras espécies orgânicas cloradas tóxicas.
 Visando eliminar da água o clorofórmio e outras moléculas orgânicas, o tratamento adequado é a:
@@ -187,7 +187,7 @@ LETRA A
 
 
 
-#+ATTR_LATEX: :options [points=1.0]
+#+ATTR_LATEX: :options [points=\PQ]
 #+begin_exercise
 Assinale a opção que contém a afirmação ERRADA relativa à curva de resfriamento apresentada a seguir.
 
@@ -232,7 +232,7 @@ LETRA B
 #+end_solution
 
 
-#+ATTR_LATEX: :options [points=1.0]
+#+ATTR_LATEX: :options [points=\PQ]
 #+begin_exercise
 Entre as substâncias usadas para o tratamento de água está o sulfato de alumínio que, em meio alcalino, forma partículas em suspensão na água, às quais as impurezas presentes no meio se aderem.
 
@@ -251,7 +251,7 @@ LETRA A
 #+end_solution
 
 
-#+ATTR_LATEX: :options [points=1.0]
+#+ATTR_LATEX: :options [points=\PQ]
 #+begin_exercise
 Um grupo de pesquisadores desenvolveu um método simples, barato e eficaz de remoção de petróleo contaminante na água, que utiliza um plástico produzido a partir do líquido da castanha-de-caju (LCC).
 

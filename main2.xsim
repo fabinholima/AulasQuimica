@@ -1,42 +1,42 @@
 \providecommand\numberofexercises{}
-\XSIM{solution-body}{}
-\XSIM{exercise-body}{exercise-1=={Leia a tirinha abaixo \par \begin {center} \includegraphics [scale=1.5]{Adaptadas/cientistas.pdf} \end {center} \par Qual dos modelos abaixo representa o modelo citado na imagem \par \begin {choice}(3) \choice \includegraphics [scale=.6]{Adaptadas/thomson.jpg} \choice \includegraphics [scale=.1]{Adaptadas/bilhar.png} \choice \includegraphics [scale=.2]{Adaptadas/ruther.png} \end {choice}}||exercise-2=={O átomo de Rutherfod é semelhante ao modelo planetário, qual a figura representa esse modelo. \par \begin {choice}(3) \choice \includegraphics [scale=.6]{Adaptadas/thomson.jpg} \choice \includegraphics [scale=.1]{Adaptadas/bilhar.png} \choice \includegraphics [scale=.2]{Adaptadas/ruther.png} \end {choice}}||exercise-3=={Qual o quantidades de camadas do átomo a seguir \begin {center} \bohr {11}{Na} \end {center} \begin {choice}(3) \choice 5 \choice 1 \choice 3 \end {choice}}}
+\XSIM{solution-body}{exercise-2=={}||exercise-3=={∆H = –1949}||exercise-4=={\DeltaH =890 kJ}}
+\XSIM{exercise-body}{exercise-1=={Calcule a entalpia de reação para a formação de cloreto de alumínio anidro, usando os dados abaixo: \begin {reactions*} 2 A$\ell $_{\sld } + 6 HC$\ell $_{\aq } -> 2 A$\ell $C$\ell $3_{\aq } + 3 H2_{\gas } & $\quad \enthalpy [unit=\kilo \joule ]{-1049}$\\ HC$\ell $_{\gas } -> HC$\ell $_{\aq } & $\quad \enthalpy [unit=\kilo \joule ]{-74}$\\ H2_{\gas } + C$\ell $2_{\gas } -> 2 HC$\ell $_{\gas } & $\quad \enthalpy [unit=\kilo \joule ]{-185}$\\ A$\ell $C$\ell $3_{\sld } -> A$\ell $C$\ell $3_{\aq } & $\quad \enthalpy [unit=\kilo \joule ]{-323}$ \end {reactions*} \par Calcule o $\Delta $H da reação \begin {reaction*} 2 A$\ell $_{\sld } + 3 C$\ell $2_{g} -> 2 A$\ell $C$\ell $3_{\sld } \end {reaction*} \par \blank [blank-style={\phantom {##1}},width=12\linewidth ]{}}||exercise-2=={Use a Lei de Hess para calcular o $\Delta $H da reação \begin {reaction*} C4H8_{\gas } + 6 O2_{\gas } -> 4 CO2_{\gas } + 4 H2O_{\gas } \end {reaction*} \par A seguir as reações: \par \par \begin {enumerate}[label=\Roman {*}.] \item \ch {2 H2_{\gas } + O2_{\gas } -> 2 H2O_{\gas }} $\qquad \enthalpy [unit=\kilo \joule ]{-571}$ \item \ch {C4H8_{\gas } + H2_{\gas } -> C4H10_{\gas }} $\qquad \enthalpy [unit=\kilo \joule ]{-126}$ \item \ch {2 C4H10_{\gas } + 13 O2_{\gas } -> 8 CO2_{\gas } + 10 H2O_{\gas }} $\qquad \enthalpy [unit=\kilo \joule ]{-5754}$ \end {enumerate} \par \par \blank [blank-style={\phantom {##1}},width=12\linewidth ]{}}||exercise-3=={A seguir as entalpias de reações: \par \begin {enumerate}[label=\Roman {*}.] \item \ch {H2_{\gas } + F2_{\gas } -> 2 HF_{\gas }} $\qquad \enthalpy [unit=\kilo \joule ]{-537}$ \item \ch {C_{\sld } + 2 F2_{\gas } -> CF4_{\gas }} $\qquad \enthalpy [unit=\kilo \joule ]{-680}$ \item \ch {C_{\sld } + 2 H2_{\gas } -> C2H4_{\gas }} $\qquad \enthalpy [unit=\kilo \joule ]{-52}$ \end {enumerate} \par \par Calcule o $\Delta $H para a reação \textbf {NÃO BALANCEADA} abaixo. \begin {reaction*} C2H4_{\gas } + F2_{\gas } -> CF4_{\gas } + HF_{\gas } \end {reaction*} \par \blank [blank-style={\phantom {##1}},width=12\linewidth ]{}}||exercise-4=={O diagrama a seguir \par \begin {center} \tikzset {every picture/.style={line width=1.0pt}} \par \begin {tikzpicture}[x=0.75pt,y=0.75pt,yscale=-0.8,xscale=0.8] \par \draw (108,307) -- (108,7) ; \draw [shift={(108,5)}, rotate = 90] [color={rgb, 255:red, 0; green, 0; blue, 0 } ][line width=0.75] (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29) ; \draw (108,307) -- (575,309.99) ; \draw [shift={(577,310)}, rotate = 180.37] [color={rgb, 255:red, 0; green, 0; blue, 0 } ][line width=0.75] (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29) ; \draw (138,76) -- (313,76) ; \draw (302,179) -- (479,181) ; \draw (142,270) -- (496,272) ; \draw (310,82) -- (308.04,170) ; \draw [shift={(308,172)}, rotate = 271.27] [color={rgb, 255:red, 0; green, 0; blue, 0 } ][line width=0.75] (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29) ; \draw (200,85) -- (200,260) ; \draw [shift={(200,262)}, rotate = 270] [color={rgb, 255:red, 0; green, 0; blue, 0 } ][line width=0.75] (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29) ; \draw (371,185) -- (370.03,260) ; \draw [shift={(370,262)}, rotate = 270.74] [color={rgb, 255:red, 0; green, 0; blue, 0 } ][line width=0.75] (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29) ; \par \draw (75.6,108.52) node [anchor=north west][inner sep=0.75pt] [rotate=-269.87,xscale=0.55,yscale=0.55] [align=left] {\Large Entalpia (KJ)}; \draw (145,44) node [anchor=north west][inner sep=0.75pt] [xscale=0.55,yscale=0.55] [align=left] {\Large \ch {CH4_{\gas } + 2 O2_{\gas }}}; \draw (365,139) node [anchor=north west][inner sep=0.75pt] [xscale=0.55,yscale=0.55] [align=left] {\Large \ch {CO_{\gas } + 2 H2O_{\lqdd } + 1/2 O2_{\gas }}}; \draw (414,245) node [anchor=north west][inner sep=0.75pt] [xscale=0.55,yscale=0.55] [align=left] {\Large \ch {CO2_{\gas } + 2 H2O_{\lqdd }}}; \draw (215,108) node [anchor=north west][inner sep=0.75pt] [xscale=0.55,yscale=0.55] [align=left] {\Large $\enthalpy [unit=\kilo \joule ]{-607}$}; \draw (271,219) node [anchor=north west][inner sep=0.75pt] [xscale=0.55,yscale=0.55] [align=left] {\Large $\enthalpy [unit=\kilo \joule ]{-283}$}; \draw (145,162) node [anchor=north west][inner sep=0.75pt] [xscale=0.55,yscale=0.55] [align=left] {\Large $\Delta $H$_r$ = ?}; \draw (393,318) node [anchor=north west][inner sep=0.75pt] [xscale=0.55,yscale=0.55] [align=left] {\Large coordenada de reação}; \par \par \end {tikzpicture} \end {center} \par Analisando o diagrama qual o valor do $\Delta $H$_r$ para a reação \ch {CO2_{\gas } + 2 H2O_{\lqdd } -> CH4_{\gas } + 2 O2_{\gas }}. \par \blank [blank-style={\phantom {##1}},width=12\linewidth ]{}}}
 \XSIM{goal}{exercise}{points}{0}
 \XSIM{totalgoal}{points}{0}
 \XSIM{goal}{exercise}{bonus-points}{0}
 \XSIM{totalgoal}{bonus-points}{0}
-\XSIM{order}{1||2||3}
+\XSIM{order}{1||2||3||4}
 \XSIM{use}{}
 \XSIM{use!}{}
-\XSIM{used}{exercise-1=={true}||exercise-2=={true}||exercise-3=={true}}
+\XSIM{used}{exercise-1=={true}||exercise-2=={true}||exercise-3=={true}||exercise-4=={true}}
 \XSIM{print}{}
 \XSIM{print!}{}
-\XSIM{printed}{exercise-1=={true}||exercise-2=={true}||exercise-3=={true}}
-\XSIM{total-number}{3}
-\XSIM{exercise}{3}
+\XSIM{printed}{exercise-1=={true}||exercise-2=={true}||exercise-3=={true}||exercise-4=={true}}
+\XSIM{total-number}{4}
+\XSIM{exercise}{4}
 \XSIM{types}{exercise}
-\XSIM{idtypes}{1=={exercise}||2=={exercise}||3=={exercise}}
-\XSIM{collections}{exercise-1=={all exercises,Adaptadas-TeoriaAtomica}||exercise-2=={all exercises,Adaptadas-TeoriaAtomica}||exercise-3=={all exercises,Adaptadas-TeoriaAtomica}}
-\XSIM{collection:all exercises}{exercise-1||exercise-2||exercise-3}
-\setcounter{totalexerciseinall exercises}{3}
-\XSIM{id}{exercise-1=={1}||exercise-2=={2}||exercise-3=={3}}
-\XSIM{ID}{exercise-1=={1}||exercise-2=={2}||exercise-3=={3}}
-\XSIM{counter}{exercise-1=={1}||exercise-2=={2}||exercise-3=={3}}
-\XSIM{counter-value}{exercise-1=={1}||exercise-2=={2}||exercise-3=={3}}
+\XSIM{idtypes}{1=={exercise}||2=={exercise}||3=={exercise}||4=={exercise}}
+\XSIM{collections}{exercise-1=={all exercises,ListaLeiHess}||exercise-2=={all exercises,ListaLeiHess}||exercise-3=={all exercises,ListaLeiHess}||exercise-4=={all exercises,ListaLeiHess}}
+\XSIM{collection:all exercises}{exercise-1||exercise-2||exercise-3||exercise-4}
+\setcounter{totalexerciseinall exercises}{4}
+\XSIM{id}{exercise-1=={1}||exercise-2=={2}||exercise-3=={3}||exercise-4=={4}}
+\XSIM{ID}{exercise-1=={1}||exercise-2=={2}||exercise-3=={3}||exercise-4=={4}}
+\XSIM{counter}{exercise-1=={1}||exercise-2=={2}||exercise-3=={3}||exercise-4=={4}}
+\XSIM{counter-value}{exercise-1=={1}||exercise-2=={2}||exercise-3=={3}||exercise-4=={4}}
 \XSIM{solution}{}
-\XSIM{section-value}{exercise-1=={0}||exercise-2=={0}||exercise-3=={0}}
-\XSIM{section}{exercise-1=={0}||exercise-2=={0}||exercise-3=={0}}
-\XSIM{sectioning}{exercise-1=={{0}{0}{0}{0}{0}}||exercise-2=={{0}{0}{0}{0}{0}}||exercise-3=={{0}{0}{0}{0}{0}}}
+\XSIM{section-value}{exercise-1=={0}||exercise-2=={0}||exercise-3=={0}||exercise-4=={0}}
+\XSIM{section}{exercise-1=={0}||exercise-2=={0}||exercise-3=={0}||exercise-4=={0}}
+\XSIM{sectioning}{exercise-1=={{0}{0}{0}{0}{0}}||exercise-2=={{0}{0}{0}{0}{0}}||exercise-3=={{0}{0}{0}{0}{0}}||exercise-4=={{0}{0}{0}{0}{0}}}
 \XSIM{subtitle}{}
 \XSIM{points}{}
 \XSIM{bonus-points}{}
-\XSIM{page-value}{exercise-1=={1}||exercise-2=={1}||exercise-3=={2}}
-\XSIM{page}{exercise-1=={1}||exercise-2=={1}||exercise-3=={2}}
+\XSIM{page-value}{exercise-1=={1}||exercise-2=={1}||exercise-3=={2}||exercise-4=={2}}
+\XSIM{page}{exercise-1=={1}||exercise-2=={1}||exercise-3=={2}||exercise-4=={2}}
 \XSIM{tags}{}
 \XSIM{topics}{}
 \XSIM{userpoints}{}
 \XSIM{bodypoints}{}
 \XSIM{userbonus-points}{}
 \XSIM{bodybonus-points}{}
-\XSIM{collection:Adaptadas-TeoriaAtomica}{exercise-1||exercise-2||exercise-3}
-\setcounter{totalexerciseinAdaptadas-TeoriaAtomica}{3}
+\XSIM{collection:ListaLeiHess}{exercise-1||exercise-2||exercise-3||exercise-4}
+\setcounter{totalexerciseinListaLeiHess}{4}

@@ -6,7 +6,7 @@ Teoria Atomica
 
 \collectexercises{TeoriaAtomica}
 
-#+ATTR_LATEX: :options [points=1.0]
+#+ATTR_LATEX: :options [points=\PQ]
 #+begin_exercise
  O átomo é a menor partícula que identifica um elemento químico. Ele possui duas partes, a saber: uma delas é o núcleo, constituído por prótons e nêutrons, e a outra é a região externa – a eletrosfera-, por onde circulam os elétrons. Alguns experimentos permitiram a descoberta das características das partículas constituintes do átomo.
 
@@ -25,7 +25,7 @@ LETRA D
 #+end_solution
 
 
-#+ATTR_LATEX: :options [points=1.0]
+#+ATTR_LATEX: :options [points=\PQ]
 #+begin_exercise 
 Os estudos realizados por Rutherford mostraram que o átomo deveria ser constituído por um núcleo positivo com elétrons girando ao seu redor. Os elétrons foram inicialmente levados em consideração no modelo atômico proposto pelo seguinte pesquisador.
 
@@ -42,7 +42,7 @@ LETRA B
 #+end_solution
 
 
-#+ATTR_LATEX: :options [points=1.0]
+#+ATTR_LATEX: :options [points=\PQ]
 #+begin_exercise 
 Comemora-se, neste ano de 2011, o centenário do modelo atômico proposto pelo
 físico neozelandês Ernest Rutherford (1871-1937), prêmio Nobel da Química em 1908. Em 1911,Rutherford, bombardeou uma finíssima lâmina de ouro com partículas alfa, oriundas de uma amostra contendo o elemento químico polônio. De acordo com o seu experimento, Rutherford concluiu que
@@ -61,7 +61,7 @@ LETRA C
 
 
 
-#+ATTR_LATEX: :options [points=1.0]
+#+ATTR_LATEX: :options [points=\PQ]
 #+begin_exercise 
  O filme /"Homem de Ferro 2"/ retrata a jornada de Tony Stark para substituir o metal paládio, que faz parte do reator de seu peito, por um metal atóxico. Após interpretar informações deixadas por seu pai, Tony projeta um holograma do potencial substituto, cuja imagem se assemelha à figura abaixo
 
@@ -97,7 +97,7 @@ LETRA A
 #+end_solution
 
 
-#+ATTR_LATEX: :options [points=1.0]
+#+ATTR_LATEX: :options [points=\PQ]
 #+begin_exercise 
 Para o valor do número quântico principal *n* igual a 4, os tipos de orbitais que podem existir na configuração eletrônica de um átomo podem ser:
 #+begin_choice 
@@ -114,7 +114,7 @@ LETRA A
 
 
 
-#+ATTR_LATEX: :options [points=1.0]
+#+ATTR_LATEX: :options [points=\PQ]
 #+begin_exercise
 O bombardeamento da folha de ouro com partículas alfa, no experimento de Rutherford, mostra que algumas dessas partículas sofrem desvio acentuado do seu trajeto, o que é devido ao fato de que as partículas alfa:
 #+begin_export latex
@@ -133,7 +133,7 @@ LETRA D
 
 
 
-#+ATTR_LATEX: :options [points=1.0]
+#+ATTR_LATEX: :options [points=\PQ]
 #+begin_exercise
 A experiência de Rutherford, que foi, na verdade, realizada por dois de seus orientados, Hans Geiger e Ernest Marsden, serviu para refutar especialmente o modelo atômico:
 #+begin_export latex
@@ -150,9 +150,9 @@ A experiência de Rutherford, que foi, na verdade, realizada por dois de seus or
 LETRA B
 #+end_solution
 
-#+ATTR_LATEX: :options [points=1.0]
+#+ATTR_LATEX: :options [points=\PQ]
 #+begin_exercise
-Assinale a afirmativa que descreve ADEQUADAMENTE a teoria atômica de Dalton. Toda matéria é constituída de átomos:
+Assinale a afirmativa que descreve *ADEQUADAMENTE* a teoria atômica de Dalton. Toda matéria é constituída de átomos:
 #+begin_export latex
 \begin{choice}
 \choice os quais são formados por partículas positivas e negativas.
@@ -169,7 +169,7 @@ LETRA D
 
 
 
-#+ATTR_LATEX: :options [points=1.0]
+#+ATTR_LATEX: :options [points=\PQ]
 #+begin_exercise
 Quem introduziu pela primeira vez o princípio da incerteza?
 
@@ -188,7 +188,7 @@ Letra E
 
 
 
-#+ATTR_LATEX: :options [points=1.0]
+#+ATTR_LATEX: :options [points=\PQ]
 #+begin_exercise
 Qual das alternativas a seguir *NÃO* é uma limitação do modelo de Bohr do átomo?
 
@@ -206,7 +206,7 @@ C
 
 
 
-#+ATTR_LATEX: :options [points=1.0]
+#+ATTR_LATEX: :options [points=\PQ]
 #+begin_exercise
 Qual das seguintes afirmações é *verdadeira* sobre um elétron?
 
@@ -224,7 +224,7 @@ E
 
 
 
-#+ATTR_LATEX: :options [points=1.0]
+#+ATTR_LATEX: :options [points=\PQ]
 #+begin_exercise
 Qual das alternativas a seguir melhor descreve um *elétron*?
 #+begin_choice
@@ -241,7 +241,7 @@ D
 
 
 
-#+ATTR_LATEX: :options [points=1.0]
+#+ATTR_LATEX: :options [points=\PQ]
 #+begin_exercise
 Qual das alternativas a seguir melhor define o *número atômico* ?
 
@@ -261,7 +261,7 @@ B
 
 
 
-#+ATTR_LATEX: :options [points=1.0]
+#+ATTR_LATEX: :options [points=\PQ]
 #+begin_exercise
 Uma moda recente entre as crianças é colecionar figurinhas que brilham no escuro. As figuras apresentam em sua constituição, a substância sulfeto de zinco. O fenômeno ocorre porque alguns elétrons que compõem os átomos de zinco absorvem energia luminosa, saltando para níveis de energia mais externos. No escuro, esses elétrons retornam aos seus níveis de origem, liberando energia luminosa e fazendo a figurinha brilhar.
 
@@ -282,7 +282,7 @@ A
 
 
 
-#+ATTR_LATEX: :options [points=1.0]
+#+ATTR_LATEX: :options [points=\PQ]
 #+begin_exercise
 Qual das imagens a seguir representa melhor o modelo atômico do pudim de passas de Thomson?
 
@@ -369,7 +369,7 @@ Qual das imagens a seguir representa melhor o modelo atômico do pudim de passas
 
 
 
-#+ATTR_LATEX: :options [points=1.0]
+#+ATTR_LATEX: :options [points=\PQ]
 #+begin_exercise
 Qual químico descobriu que os elétrons existem em níveis de energia fixos?
 #+begin_choice 
@@ -385,7 +385,7 @@ A
 #+end_solution
 
 
-#+ATTR_LATEX: :options [points=1.0]
+#+ATTR_LATEX: :options [points=\PQ]
 #+begin_exercise
 Na experiência de Geiger-Marsden supervisionada por Ernest Rutherford (conhecida como a experiência da folha de ouro de Rutherford), que tipo de partícula foi dispersada por uma folha de ouro, provando que os átomos contêm um núcleo denso?
 
@@ -402,7 +402,7 @@ Na experiência de Geiger-Marsden supervisionada por Ernest Rutherford (conhecid
 E
 #+end_solution
 
-#+ATTR_LATEX: :options [points=1.0]
+#+ATTR_LATEX: :options [points=\PQ]
 #+begin_exercise
 Qual é a principal força atrativa entre partículas no núcleo de um átomo?
 
@@ -418,7 +418,7 @@ Qual é a principal força atrativa entre partículas no núcleo de um átomo?
 C
 #+end_solution
 
-#+ATTR_LATEX: :options [points=1.0]
+#+ATTR_LATEX: :options [points=\PQ]
 #+begin_exercise
 Que passo em frente, a partir do modelo atômico das orbitais de Bohr, foi dado por Schrödinger no seu modelo da nuvem eletrónica?
 
@@ -435,7 +435,7 @@ E
 #+end_solution
 
 
- #+ATTR_LATEX: :options [points=1.0]
+ #+ATTR_LATEX: :options [points=\PQ]
 #+begin_exercise
 Em que é que o modelo atômico de Thomson é diferentes do modelo atômico de Dalton?
 

@@ -23,7 +23,10 @@ Substância & $\Delta$ H$^0_f$ (\unit{\kilo\joule\per\mol}) \\
 \ch{Ca(OH)2\sld{}} & -987 \\
 \ch{CaCO3\sld{}} & -1207 \\
 \ch{C2H2\gas{}} & 227 \\
+\ch{C6H6\lqdd{}} & 49 \\
+\ch{CO\gas{}} & -110\\
 \ch{CO2\gas{}} & -394 \\
+\ch{CH4\gas{}} & -75 \\
 \ch{H2\gas{}} & 0 \\
 \ch{H2O\gas{}} & -242 \\
 \ch{H2O\lqdd{}} & -286 \\
@@ -85,7 +88,7 @@ Use os dados da tabela acima para calcular a variação de entalpia da reação.
 #+begin_export latex
 
 \begin{reaction*}
- CaC2\sld{} + NO2\lqdd{} -> 3 Ca(OH)2\gas{} + C2H2\gas{} 
+ CaC2\sld{} + NO2\gas{} -> 3 Ca(OH)2\sld{} + C2H2\gas{} 
 \end{reaction*}
 
 #+end_export 
@@ -128,4 +131,28 @@ A partir dos dados da tabela anterior, a variação de entalpia da reação, em 
 
 #+end_exercise 
 
-\collectexercisesstop{EntalpiaFormacao}
+
+#+begin_exercise
+Usando o benzeno queima na presença de excesso de oxigênio, a quantidade de calor transferida à pressão constante está associada à reação:
+#+begin_export latex
+\begin{reaction*}
+C6H6\lqdd{} + 15/2 O2\gas{} -> 6 CO2\gas{} + 3 H2O\lqdd{}
+\end{reaction*}
+#+end_export
+Calcule a variação de entalpia
+#+end_exercise 
+
+
+
+
+#+begin_exercise
+Essa reação de combustão liberava cerca de 57 Kcal/mol. Se a entalpia de formação do dióxido de carbono é igual a -94 Kcal/mol, qual é o valor da entalpia do monóxido de carbono?
+
+#+begin_export latex
+\begin{reaction*}
+CO\gas{} + 1/2 O2\gas{} -> CO2\gas{}
+\end{reaction*}
+#+end_export
+#+end_exercise 
+
+

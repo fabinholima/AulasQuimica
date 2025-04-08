@@ -118,8 +118,6 @@
 #+LATEX_HEADER:		\node[fill=orange!30,
 #+LATEX_HEADER:		minimum size=1.2em,inner sep=0] (char) {#1};}}
 
-
-#+LATEX_HEADER: %\usepackage{widetext}% needs packages "flushend" & "cuted" of "sttools" % bundle, which perhaps must separately be installed
 #+LATEX_HEADER: \newcommand{\dd}[1]{\hspace{2pt}d#1}
 #+LATEX_HEADER: \definecolor{color1}{RGB}{0,0,90} % Color of the article title and sections
 #+LATEX_HEADER: \definecolor{color2}{RGB}{0,20,20} % Color of the boxes behind the abstract and
@@ -133,7 +131,7 @@
 #+LATEX_HEADER:\usepackage[no-files]{xsim}
 #+LATEX_HEADER:\usepackage{tasks}
 #+LATEX_HEADER: \xsimsetup{
-#+LATEX_HEADER:  goal-print={\pgfmathprintnumber[fixed zerofill,precision=1]{#1}}
+#+LATEX_HEADER:  goal-print={\pgfmathprintnumber[fixed zerofill,precision=2]{#1}}
 #+LATEX_HEADER: }
 #+LATEX_HEADER: \newcommand*\circled[2]{\tikz[baseline=(char.base)]{
 #+LATEX_HEADER:    \node[shape=circle,fill,inner sep=2pt, text=white] (char) {#1};}}

@@ -507,6 +507,12 @@ Um isótopo radioativo de tálio (Tl) emite partícula beta e se transforma em c
 #+end_exercise
 #+begin_solution
 B
+
+Em 9,3 s se passaram 3 meias-vidas e por isso só restam 12,5% da massa original de Talio.Consequentemente 87,5 % da massa original de Tálio se transformou em chumbo.
+7g------------------87,5%
+xg-----------------100%
+x=700/87,5
+x=8g de Tálio(massa inicial)
 #+end_solution
 
 
@@ -692,6 +698,104 @@ B
 #+end_solution
 
 
+#+ATTR_LATEX: :options [points=\PQ]
+#+begin_exercise
+ *(ENEM)* Glicose marcada com nuclídeos de carbono-11 é utilizada na medicina para se obter imagens tridimensionais do cérebro, por meio de tomografia de emissão de pósitrons. A desintegração do carbono-11 gera um pósitron, com tempo de meia-vida de 20,4 min, de acordo com a equação da reação nuclear:
+ #+begin_export latex
+\begin{reactions*}
+\isotope{11,C} -> \isotope{11,B} + e_{0}^1
+\end{reactions*}
+ #+end_export
+
+A partir da injeção de glicose marcada com esse nuclídeo, o tempo de aquisição de uma imagem de tomografia é de *cinco meias-vidas*. Considerando que o medicamento contém 1,00 g do carbono-11, a massa, em miligramas (mg), do nuclídeo restante, após a aquisição da imagem, é mais próxima de
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 0,5.
+\choice 0,25.
+\choice 0,0625.
+\choice 200.
+\choice 31,3.
+#+end_choice
+
+#+end_exercise 
+#+begin_solution
+LETRA E
+#+end_solution
+
+
+
+
+#+ATTR_LATEX: :options [points=\PQ]
+#+begin_exercise
+*(UFSCAR)* Em 1999, foi estudada a ossada do habitante considerado mais antigo do Brasil, uma mulher que a equipe responsável pela pesquisa convencionou chamar Luzia. A idade da ossada foi determinada como sendo igual a 11.500 anos. Suponha que, nesta determinação, foi
+empregado o método de dosagem do isótopo radioativo carbono-14, cujo tempo de meia-vida é de 5.730 anos. Pode-se afirmar que a quantidade de carbono-14
+encontrada atualmente na ossada, comparada com a contida no corpo de Luzia por ocasião de sua morte, é aproximadamente igual a
+#+begin_choice
+\choice 100% do valor original.
+\choice 50% do valor original.
+\choice 25% do valor original.
+\choice 10% do valor original.
+\choice 5% do valor original.
+#+end_choice
+#+end_exercise 
+#+begin_solution
+C
+#+end_solution
+
+
+#+ATTR_LATEX: :options [points=\PQ]
+#+begin_exercise
+*(ENEM)* A duração do efeito de alguns fármacos está relacionada à sua meiavida, tempo necessário para que a quantidade original do fármaco no organismo se reduza à metade. A cada intervalo de tempo correspondente a uma meiavida, a quantidade de fármaco existente no organismo no final do intervalo é igual a 50% da quantidade no início desse intervalo.
+O gráfico acima representa, de forma genérica, o que acontece com a quantidade de fármaco no organismo humano ao longo do tempo.
+
+/@@latex: {\scriptsize F. D. Fuchs e Cher l. Wannma. Farmacologia Clínica. Rio de Janeiro: Guanabara Koogan,1992, p. 40.}@@/
+
+#+begin_center
+#+begin_export latex
+\begin{tikzpicture}
+		\begin{axis}[axis equal=false, grid=major,
+			ylabel={\bfseries \% de fármaco no organismo},
+			xlabel={\bfseries números de meias-vidas}]
+			\addplot[smooth,color=black,mark=*] coordinates {
+			(0,100)
+			(1,50)
+			(2,25)
+			(3,12.5)
+			(4,6.25)
+			(5,3.125)
+                        (6,1.5625)
+                        (7,0.78125)
+                        (8,0.390625)
+			};
+		\end{axis}
+\end{tikzpicture}
+#+end_export
+#+end_center   
+
+A meia-vida do antibiótico amoxicilina é de 1 hora. Assim, se uma dose desse antibiótico for injetada às 12 h em um paciente, o percentual dessa dose que restará em seu organismo às 13 h 30 min será aproximadamente de
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 10%.
+\choice 15%.
+\choice 25%.
+\choice 35%.
+\choice 50%.
+#+end_choice
+#+end_exercise 
+#+begin_solution
+D
+#+end_solution 
+
+
+
+
+
+
+
+
+
 
 
 
@@ -704,11 +808,13 @@ B
 
 \collectexercises{RadioatividadeIIOpen}
 
-#+ATTR_LATEX: :options [points=1.0]
+#+ATTR_LATEX: :options [points=\PQA]
 #+begin_exercise
 Glenn T. Seaborg é um renomado cientista que foi agraciado com o Prêmio Nobel de Química em 1951, por seus trabalhos em radioquímica. Em 1974 foi sintetizado, nos Estados Unidos, o elemento de número atômico 106 que, em sua homenagem, teve como nome proposto Seaborgium (\isotope{Sg}).
+
 #+begin_choice 
 \choice O bombardeio do \isotope{249,Cf} por um elemento X produz o \isotope{263,Sg} e 4 nêutrons. Determine o número atômico e o número de massa do elemento X.
+
 
 
 #+begin_export latex
@@ -716,7 +822,7 @@ Glenn T. Seaborg é um renomado cientista que foi agraciado com o Prêmio Nobel 
 #+end_export 
 
 
-\choice Sabendo que um determinado isótopo do 106Sg perde 50% de sua massa inicial em 10 segundos, calcule a massa final de uma amostra de 800 gramas deste isótopo após 30 segundos.
+\choice Sabendo que um determinado isótopo do \isotope{106,Sg} perde 50% de sua massa inicial em 10 segundos, calcule a massa final de uma amostra de 800 gramas deste isótopo após 30 segundos.
 #+end_choice
 
 
@@ -761,7 +867,7 @@ Xfinal= 100g            OU
 
 
 
-#+ATTR_LATEX: :options [points=1.0]
+#+ATTR_LATEX: :options [points=\PQA]
 #+begin_exercise
 A Tomografia PET permite obter imagens do corpo humano com maiores detalhes, e menor exposição à radiação, do que as técnicas tomográficas atualmente em uso. A técnica PET utiliza compostos marcados com \isotope{11,C}. Este isótopo emite um pósitron, $_{+1}e^0$, formando um novo núcleo, em um processo com tempo de meia-vida de 20,4 minutos. O pósitron emitido captura rapidamente um elétron, $_1e^0$, e se aniquila, emitindo energia na forma de radiação gama.
 
@@ -787,12 +893,12 @@ A Tomografia PET permite obter imagens do corpo humano com maiores detalhes, e m
 #+end_exercise
 
 
-#+ATTR_LATEX: :options [points=1.0]
+#+ATTR_LATEX: :options [points=\PQA]
 #+begin_exercise
 Para diagnósticos de anomalias da glândula tireóide, por cintilografia, deve ser introduzido, no paciente, iodeto de sódio, em que o ânion iodeto é proveniente de um radioisótopo do iodo (número atômico 53 e número de massa 131). A meia-vida efetiva desse isótopo (tempo que decorre para que metade da quantidade do isótopo deixe de estar presente na glândula) é de aproximadamente 5 dias.
 
 #+begin_choice
-\choice O radioisótopo em questão emite radiação . O elemento formado nessa emissão é \isotope{52,Te}, \isotope{127,I} ou \isotope{54,Xe}? Justifique. Escreva a equação nuclear correspondente.
+\choice O radioisótopo em questão emite radiação @@latex: $_{-1}^{0}\upbeta$ @@ . O elemento formado nessa emissão é \isotope{131,Xe}? Justifique. Escreva a equação nuclear correspondente.
 
 
 #+begin_export latex
@@ -802,7 +908,7 @@ Para diagnósticos de anomalias da glândula tireóide, por cintilografia, deve 
 \choice Suponha que a quantidade inicial do isótopo na glândula (no tempo zero) seja de 1,000 g e se reduza, após certo tempo, para 0,125 g. Com base nessas informações, trace a curva que dá a quantidade do radioisótopo na glândula em função do tempo, colocando os valores nas coordenadas adequadamente escolhidas.
 
 
-
+ 
 #+end_choice
 
 #+begin_export latex
@@ -816,7 +922,12 @@ Para diagnósticos de anomalias da glândula tireóide, por cintilografia, deve 
 
 #+end_exercise
 
-#+ATTR_LATEX: :options [points=1.0]
+
+
+
+
+
+#+ATTR_LATEX: :options [points=\PQA]
 #+begin_exercise
 A bomba atômica se baseia na fissão de núcleos pesados, formando dois núcleos mais leves. O urânio-235 pode sofrer fissão de acordo com a equação:
 #+begin_export latex
@@ -837,7 +948,7 @@ Qual o número de nêutrons do nuclídeo $\prescript{}{Z}{\mathrm{X}^A}$
 
 
 
-#+ATTR_LATEX: :options [points=1.0]
+#+ATTR_LATEX: :options [points=\PQA]
 #+begin_exercise
 Recentemente, a imprensa noticiou o caso do envenenamento por polônio-210 de um exagente secreto soviético. Sabe-se, em relação a esse isótopo, que:
 
@@ -855,7 +966,7 @@ Calcule o tempo de meia-vida do polônio-210.
 #+end_exercise
 
 
-#+ATTR_LATEX: :options [points=1.0]
+#+ATTR_LATEX: :options [points=\PQA]
 #+begin_exercise
 "(...) A Mir está deixando os cientistas intrigados: minúsculas partículas de urânio empobrecido foram detectadas na estação. Três hipóteses foram levantadas pela equipe de pesquisadores: o urânio seria de armas nucleares testadas no espaço na década de 60, restos de satélites, ou vestígios de uma supernova. (...) Foram descobertos sinais de dois isótopos radioativos - \isotope{214,Pb} e \isotope{214,Bi} - ambos resultantes do \isotope{238,U}"
 

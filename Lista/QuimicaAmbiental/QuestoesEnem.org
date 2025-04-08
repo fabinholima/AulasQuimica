@@ -1,0 +1,198 @@
+
+
+#+BEGIN_COMMENT
+
+https://projetomedicina.com.br/material-de-estudo/desequilibrios-ambientais-no-enem/
+
+#+END_COMMENT
+
+
+
+
+#+ATTR_LATEX: :options [points=\PQ]
+#+begin_exercise
+*(ENEM)* Uma escola iniciou o processo educativo para implantação da coleta seletiva e destino de materiais recicláveis. Para atingir seus objetivos, a instituição planejou:
+
+1. sensibilizar a comunidade escolar, desenvolvendo atividades em sala e extraclasse de maneira contínua;
+2. capacitar o pessoal responsável pela limpeza da escola quanto aos novos procedimentos adotados com a coleta seletiva; e
+3. distribuir coletores de materiais recicláveis específicos nas salas, pátio e outros ambientes para acondicionamento dos resíduos.
+
+Para completar a ação proposta no ambiente escolar, o que falta ser inserido no planejamento?
+
+#+begin_choice
+\choice Realizar campanhas educativas de sensibilização em bairros vizinhos para fortalecer a coleta seletiva.
+
+\choice Firmar parceria com a prefeitura ou cooperativa de catadores para recolhimento dos materiais recicláveis e destinação apropriada.
+
+\choice Organizar visitas ao lixão ou aterro local para identificar aspectos importantes sobre a disposição final do lixo.
+
+\choice Divulgar na rádio local, no jornal impresso e nas redes sociais que a escola está realizando a coleta seletiva.
+
+\choice Colocar recipientes coletores de lixo reciclável fora da escola para entrega voluntária pela população.
+#+end_choice 
+#+end_exercise 
+
+
+Questão-02 – (ENEM MEC) 
+#+ATTR_LATEX: :options [points=\PQ]
+#+begin_exercise 
+Alunos de um curso de ciências biológicas, em uma aula de campo, avaliaram as características dos ecossistemas aquáticos. Dentre as anotações realizadas pelo grupo de alunos estavam as seguintes afirmações sobre um lago:
+
+#+ATTR_LATEX: :options [label=\Roman*]
+1. Grande quantidade de peixes mortos, com intensa decomposição da matéria orgânica.
+2. Número elevado de algas impedindo a chegada da luz às camadas inferiores da coluna-d’água.
+3. Esgoto doméstico sendo lançado no lago.
+4. Bolhas emergindo do fundo do lago.
+5. O lago é isolado do oceano por um extenso cordão arenoso.
+
+Com base nas afirmações dos alunos, conclui-se que esse lago está passando por um processo de
+#+ATTR_LATEX: :options (2)
+#+begin_choice 
+\choice autodepuração.
+\choice potabilização.
+\choice eutrofização.
+\choice oxigenação.
+\choice salinização.
+#+end_choice
+#+end_exercise 
+
+Questão-03 – (ENEM MEC) 
+
+O Protocolo de Montreal é um tratado internacional que diz respeito à defesa do meio ambiente. Uma de suas recomendações é a redução da utilização de substâncias propelentes, como os CFCs (Cloro-Flúor-Carbono), em aerossóis e aparelhos de refrigeração.
+
+Essa recomendação visa
+
+a)      evitar a chuva ácida.
+
+b)      prevenir a inversão térmica.
+
+c)      preservar a camada de ozônio.
+
+d)      controlar o aquecimento global.
+
+e)      impedir a formação de ilhas de calor.
+
+Questão-04 – (ENEM MEC) 
+
+Uma atividade que vem crescendo e tem se tornado uma fonte de renda para muitas pessoas é o recolhimento das embalagens feitas com alumínio. No Brasil, atualmente, mais de 95% dessas embalagens são recicladas para fabricação de outras novas.
+
+Disponível em: http://abal.org.br. Acesso em: 11 mar. 2013.
+
+O interesse das fábricas de embalagens no uso desse material reciclável ocorre porque o(a)
+
+a)      reciclagem resolve o problema de desemprego da população local.
+
+b)      produção de embalagens a partir de outras já usadas é mais fácil e rápida.
+
+c)      alumínio das embalagens feitas de material reciclado é de melhor qualidade.
+
+d)      compra de matéria-prima para confecção de embalagens de alumínio não será mais necessária.
+
+e)      custo com a compra de matéria-prima para a produção de embalagens de alumínio é reduzido.
+
+Questão-05 – (ENEM MEC) 
+
+O descarte inadequado do lixo é um problema que necessita ser solucionado urgentemente. Segundo o Ministério do Meio Ambiente, apenas 25% dos municípios brasileiros dispõem adequadamente seus resíduos. Para regulamentar essa questão, o Projeto de Lei 4 162/2019, que institui o marco regulatório do saneamento básico, estabeleceu um prazo até agosto de 2024 para que todos os lixões existentes no Brasil sejam transformados em aterros sanitários, entre outras providências.
+
+Disponível em: www.gov.br/casacivil. Acesso em: 5 out. 2020 (adaptado).
+
+A medida apontada no texto é necessária porque
+
+a)      a poluição causada pelos aterros sanitários é reduzida pela impermeabilização do solo e tratamento do chorume.
+
+b)      a criação dos aterros sanitários viabilizará o reaproveitamento da matéria orgânica descartada no lixo.
+
+c)      a construção dos lixões envolve um custo mais elevado do que a manutenção dos aterros sanitários.
+
+d)      nos lixões não há a possibilidade de separação de material para reaproveitamento e reciclagem.
+
+e)      as áreas dos lixões desativados poderão ser imediatamente usadas para plantação.
+
+Questão-06 – (ENEM MEC) 
+
+O uso de equipamentos elétricos custa dinheiro e libera carbono na atmosfera. Entretanto, diferentes usinas de energia apresentam custos econômicos e ambientais distintos. O gráfico mostra o custo, em centavo de real, e a quantidade de carbono liberado, dependendo da fonte utilizada para converter energia. Considera-se apenas o custo da energia produzida depois de instalada a infraestrutura necessária para sua produção.
+desequilíbrios ambientais - Enem
+
+CAVALCANTE, R. O vilão virou herói. Superinteressante, jul. 2007.
+
+Em relação aos custos associados às fontes energéticas apresentadas, a energia obtida a partir do vento é
+
+a)      mais cara que a energia nuclear e emite maior quantidade de carbono.
+
+b)      a segunda fonte mais cara e é livre de emissões de carbono.
+
+c)      mais cara que a energia solar e ambas são livres de emissões de carbono.
+
+d)      mais barata que as demais e emite grandes quantidades de carbono.
+
+e)      a fonte que gera energia mais barata e livre de emissões de carbono.
+
+Questão-07 – (ENEM MEC) 
+
+As plantas, em sua fase de crescimento, necessitam de grande quantidade de carbono, sequestrado pela fotossíntese, para a produção de biomassa.
+
+O sequestro de carbono pelas plantas é aumentado
+
+a)      reciclando papel.
+
+b)      mantendo intactas as florestas nativas.
+
+c)      fazendo o replantio das áreas degradadas.
+
+d)      evitando a queima de madeira e de áreas de floresta.
+
+e)      substituindo a madeira de bens duráveis por materiais alternativos.
+
+Questão-08 – (ENEM MEC) 
+
+Algumas espécies de bactérias do gênero Pseudomonas desenvolvem-se em ambientes contaminados com hidrocarbonetos, pois utilizam essas moléculas como substratos para transformação em energia metabólica. Esses microrganismos são capazes de transformar o octano em moléculas menos tóxicas, tornando o ambiente mais propício para desenvolvimento de fauna e flora.
+
+Essas bactérias poderiam ser utilizadas para recuperar áreas contaminadas com
+
+a)      petróleo.
+
+b)      pesticidas.
+
+c)      lixo nuclear.
+
+d)      gases tóxicos.
+
+e)      metais pesados.
+
+Questão-09 – (ENEM MEC) 
+
+Algumas toneladas de medicamentos para uso humano e veterinário são produzidas por ano. Os fármacos são desenvolvidos para serem estáveis, mantendo suas propriedades químicas de forma a atender a um propósito terapêutico. Após o consumo de fármacos, parte de sua dosagem é excretada de forma inalterada, persistindo no meio ambiente. Em todo o mundo, antibióticos, hormônios, anestésicos, anti-inflamatórios, entre outros, são detectados em concentrações preocupantes no esgoto doméstico, em águas superficiais e de subsolo. Dessa forma, a ocorrência de fármacos residuais no meio ambiente pode apresentar efeitos adversos em organismos aquáticos e terrestres.
+
+BILA, D. M.; DEZOTTI, M. Fármacos no meio ambiente.
+Química Nova, v. 26, n. 4, ago. 2003 (adaptado).
+
+Qual ação minimiza a permanência desses contaminantes nos recursos hídricos?
+
+a)      Utilização de esterco como fertilizante na agricultura.
+
+b)      Ampliação das redes de coleta de esgoto na zona urbana.
+
+c)      Descarte dos medicamentos fora do prazo de validade em lixões.
+
+d)      Desenvolvimento de novos processos nas estações de tratamento de efluentes.
+
+e)      Reúso dos lodos provenientes das estações de tratamento de esgoto na agricultura.
+
+Questão-10 – (ENEM MEC) 
+
+As larvas do inseto do bicho-da-farinha (Tenebrio molitor) conseguem se alimentar de isopor descartado (poliestireno expandido), transformando-o em dióxido de carbono e outros componentes. Dessa forma, essas larvas contribuem para a redução dos impactos negativos causados pelo acúmulo de isopor no ambiente.
+
+Disponível em: www.bbc.com.
+Acesso em: 29 out. 2015 (adaptado).
+
+A redução dos impactos causados pelo acúmulo de isopor é resultante de qual processo desempenhado pelas larvas do bicho-da-farinha?
+
+a)      Bioindicação.
+
+b)      Biomarcação.
+
+c)      Biodegradação.
+
+d)      Bioacumulação.
+
+e)      Biomonitoramento.

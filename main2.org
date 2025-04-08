@@ -58,6 +58,8 @@
 
 
 
-#+INCLUDE: "Adaptadas/TeoriaAtomica.org"
 
-\printcollection{Adaptadas-TeoriaAtomica}
+#+INCLUDE: "Lista/Termoquimica/TermoquimicaIII.org"
+\printcollection{ListaLeiHess}
+
+

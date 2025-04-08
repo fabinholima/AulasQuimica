@@ -1,6 +1,6 @@
 #+OPTIONS: H:2 toc:nil num:t
 #+LATEX_CLASS:koma-article
-#+LATEX_CLASS_OPTIONS: [9qpt]
+#+LATEX_CLASS_OPTIONS: [9 pt]
 #+INCLUDE: "packages.org"
 
 
@@ -12,23 +12,26 @@
 #+LATEX_HEADER: \def\disciplina{Química}
 #+LATEX_HEADER: %%\def\disciplina{UC III}
 #+LATEX_HEADER: %%\def\disciplina{R.A.}
-#+LATEX_HEADER: \def\turma{3 Ano }
-#+LATEX_HEADER: %%\def\tipo{{\bfseries Avaliação Bimestral}}
-#+LATEX_HEADER: \def\tipo{\bfseries Simulado }
+#+LATEX_HEADER: \def\turma{1 Ano }
+#+LATEX_HEADER: \def\tipo{{\bfseries Avaliação Bimestral}}
+#+LATEX_HEADER: %\def\tipo{\bfseries Simulado }
 #+LATEX_HEADER: %\def\tipo{\bfseries Atividade Avaliativa}
 #+LATEX_HEADER: \def\bimestre{1 Bimestre}
 #+LATEX_HEADER: %\def\escola{E.E. 26 de Agosto}
-#+LATEX_HEADER: %\def\escola{E.E. José Mamede de Aquino}
-#+LATEX_HEADER: \def\escola{E.E. Joaquim Murtinho}
+#+LATEX_HEADER: \def\escola{E.E. José Mamede de Aquino}
+#+LATEX_HEADER: %\def\escola{E.E. Joaquim Murtinho}
 #+LATEX_HEADER: \def\dataprova{}
+#+LATEX_HEADER: \def\PQ{0.84} % Question multiple choice 
+#+LATEX_HEADER: \def\PQA{2.0} % Question open 
+
 
 
 #+begin_export latex
 \selectlanguage{portuguese}
 \twocolumn[
-%\input{../Modelos/CabeOficial}
+%%\input{../Modelos/CabeOficial}
 \input{../Modelos/cabenovo}
-%\input{../Modelos/mamede}
+%\input{../Modelos/mamede} 
 %\input{../Modelos/26agosto}
 %% \input{../Modelos/geral}
 %Cada questão vale {\textbf 2,0}
@@ -42,24 +45,56 @@
 
 %\input{../Modelos/gabarito}
 
-%%Total Prova: \printpoints
+Total Prova: \printpoints
 \smallbreak
 \medbreak
-\par\vspace{2ex}]%%%%\input{../Modelos/mamede}
+\par\vspace{2ex}]
+
+%%%%\input{../Modelos/mamede}
 
 #+end_export
 
 
-#+INCLUDE: "Quimica_Geral/TeoriaAtomica/TeoriaAtomica.org"
-#+INCLUDE: "Quimica_Geral/GeometriaMolecular/GeometriaMolecular.org"
-#+INCLUDE: "Quimica_Geral/LigacoesQuimicas/LigacaoQuimicaI.org"
-#+INCLUDE: "Fisico_Quimica/Eletroquimica/Eletroquimica.org"
+#+INCLUDE: "Quimica_Geral/SeparacaoMisturas/Misturas.org"
+\printrandomexercises[collection=Misturas]{7}
+
+
+
+#+BEGIN_COMMENT
+%%%========= QUIMICA GERAL ========= %%%%%
+#+END_COMMENT
+
+#+INCLUDE: "Quimica_Geral/TeoriaAtomica/TeoriaAtomicaI.org"
+#+INCLUDE: "Quimica_Geral/TeoriaAtomica/TeoriaAtomicaII.org"
+#+INCLUDE: "Quimica_Geral/TeoriaAtomica/NumerosQuanticos.org"
+#+INCLUDE: "Quimica_Geral/TeoriaAtomica/DistribuicaoEletronica.org"
+
+
+
+#+begin_export latex
+%\printrandomexercises[collection=TeoriaAtomica]{1}
+\printrandomexercises[collection=TeoriaAtomicaII]{5}
+%\printrandomexercises[collection=DistribuicaoEletronica]{4}
+%\printrandomexercises[collection=NumerosQuanticos]{3}
+#+end_export
+
+
+
+#+INCLUDE: "Quimica_Geral/Estequiometria/Balanceamento.org"
 #+INCLUDE: "Fisico_Quimica/Termoquimica/TermoquimicaI.org"
 
+#+begin_export latex
+%\printrandomexercises[collection=Balan,exclude=two]{8}
+%\printrandomexercises[collection=TermoquimicaI,exclude=two]{8}
+#+end_export 
 
 
+#+INCLUDE: "Fisico_Quimica/Radioatividade/RadioatividadeI.org"
+#+INCLUDE: "Fisico_Quimica/Radioatividade/RadioatividadeII.org"
 
-\printrandomexercises[collection=LigacaoQuimica]{2}
-\printrandomexercises[collection=TeoriaAtomica]{2}
-\printrandomexercises[collection=PilhasI]{3}
-\printrandomexercises[collection=TermoquimicaI]{3}
+
+#+begin_export latex
+%\printrandomexercises[collection=RadioatividadeI,exclude=four]{4}
+%\printrandomexercises[collection=RadioatividadeII,exclude=four]{4}
+%\printrandomexercises[collection=RadioatividadeIIOpen]{1}
+#+end_export

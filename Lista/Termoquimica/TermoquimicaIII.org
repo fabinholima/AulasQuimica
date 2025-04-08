@@ -155,6 +155,8 @@ Analisando o diagrama qual o valor do $\Delta$H$_r$ para a reação \ch{CO2_{\ga
 #+end_solution
 
 
+#+BEGIN_COMMENT
+
 #+begin_exercise
 A oxidação do etanol leva à formação de ácido acético, levando ao vinagre é:
 
@@ -174,7 +176,7 @@ H2O_{\lqdd} ->  H2O_{\gas} &  $\qquad \enthalpy{44}$
 \end{reactions}
 #+end_export
 #+end_exercise 
-
+#+END_COMMENT
 
 
 \collectexercisesstop{ListaLeiHess}

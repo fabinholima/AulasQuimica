@@ -1,0 +1,193 @@
+#+LATEX_HEADER: \DeclareExerciseCollection{NumerosQuanticos}
+
+ \collectexercises{NumerosQuanticos}
+
+#+ATTR_LATEX: :options [points=\PQ]
+#+begin_exercise
+Qual é o conjunto dos quatro números quânticos que caracteriza o elétron mais energético do @@latex: $_{35}$Br@@?
+#+begin_choice 
+\choice n = 3, $l$ = 2, m_s = +2, s = +1/2.
+\choice n = 4, $l$ = 0, m_s = 0, s = +1/2.
+\choice n = 3, $l$ = 1, m_s = +2, s = +1/2.
+\choice n = 4, $l$ = 1, m_s = 0, s = +1/2.
+\choice n = 4, $l$ = 3, m_s = +2, s = +1/2. 
+#+end_choice
+#+end_exercise
+#+begin_solution
+D
+#+end_solution 
+
+
+
+#+ATTR_LATEX: :options [points=\PQ]
+#+begin_exercise
+*(Uespi)* Dado o átomo @@latex:$_{17}$@@X, o conjunto dos quatro números quânticos para o 11º elétron do subnível *$p$* é:
+#+begin_choice 
+\choice 3, 1, 0 e – 1/2.
+\choice 3, 1, 1 e – 1/2.
+\choice 3, 1, 0 e + 1/2.
+\choice 3, 2, 0 e – 1/2.
+\choice 3, 2, 0 e + 1/2.
+#+end_choice
+#+end_exercise
+#+begin_solution
+C
+#+end_solution 
+
+
+
+
+
+
+#+ATTR_LATEX: :options [points=\PQ]
+#+begin_exercise
+*(PUC)* Assinale a alternativa *FALSA*.
+#+begin_choice 
+\choice O número máximo de elétrons em cada orbital é 2.
+\choice No nível de número quântico principal 2 há quatro orbitais.
+\choice No subnível 5f há 7 orbitais.
+\choice Os elétrons de um mesmo átomo podem ter no máximo três números quânticos iguais.
+\choice 5, 1, 0 e – @@latex: \sfrac{1}{2}@@ são quatro números quânticos do elétron de maior energia de um átomo elemento que apresenta 6 elétrons na camada de valência.
+#+end_choice
+#+end_exercise
+#+begin_solution
+E
+#+end_solution 
+
+
+
+
+
+
+
+#+ATTR_LATEX: :options [points=\PQ]
+#+begin_exercise
+*(UECE)* Na distribuição eletrônica do \isotope{88,Sr}, o 17º par (dois elétrons) eletrônico possui os seguintes valores dos números quânticos (principal, secundário, magnético e spin):
+
+#+begin_choice 
+\choice 4, 2, 0, -\sfrac{1}{2} +\sfrac{1}{2}
+\choice 4, 1, +1, -\sfrac{1}{2} +\sfrac{1}{2}
+\choice 4, 1, 0, -\sfrac{1}{2} +\sfrac{1}{2}
+\choice 4, 2, -1, -\sfrac{1}{2} +\sfrac{1}{2}
+\choice 4, 3, -3, -\sfrac{1}{2} +\sfrac{1}{2}
+
+#+end_choice 
+#+end_exercise
+#+begin_solution
+C
+#+end_solution 
+
+
+
+
+#+ATTR_LATEX: :options [points=\PQ]
+#+begin_exercise
+*(CESCEM)* Para o valor do número quântico principal *n* igual a 4, os tipos de orbitais que podem existir na configuração eletrônica de um átomo podem ser:
+#+begin_choice 
+\choice somente s.
+\choice somente s e p.
+\choice somente s, p, d.
+\choice somente f.
+\choice s, p, d, f.
+#+end_choice
+#+end_exercise
+#+begin_solution
+E
+#+end_solution 
+
+
+#+ATTR_LATEX: :options [points=\PQ]
+#+begin_exercise
+*(UFPA-PA)* Os valores de n e $\ell$, para o elétron do último nível de um átomo cujo número atômico é 19, são, respectivamente:
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 3 e 1
+\choice 3 e 2
+\choice 4 e 0
+\choice 4 e 1
+\choice 4 e 2
+#+end_choice
+#+end_exercise
+#+begin_solution
+C
+#+end_solution 
+
+
+
+#+ATTR_LATEX: :options [points=\PQ]
+#+begin_exercise
+*(ESPCEX)* Considere a distribuição energética crescente, pelos orbitais, dos elétrons de um átomo representativo de elemento de número atômico 26. O último elétron distribuído terá o número quântico magnético igual a zero
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice -1
+\choice -2
+\choice +1
+\choice +2
+\choice +3
+#+end_choice
+#+end_exercise
+#+begin_solution
+C
+#+end_solution 
+
+
+
+#+ATTR_LATEX: :options [points=\PQ]
+#+begin_exercise
+Os números quânticos são números atribuídos aos elétrons em um átomo para descrever as suas características orbitais. Eles incluem o número quântico principal (*n*), o número quântico secundário ($\ell$), o número quântico magnético (*m_s*) e o spin quântico (*s*). Esses números determinam a energia, o formato e a orientação das órbitas eletrônicas em tomo do núcleo de um átomo. Identifique o átomo com os seguintes números quânticos:
+
+número quântico principal (n) = 3
+
+número quântico secundário ($\ell$) = 2
+
+número quântico magnético (m) =-1
+
+número quântico spin (s) = +1/2 
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice 
+\choice Ferro.
+\choice Cobalto.
+\choice Niquel.
+\choice Magnésio.
+\choice flúor.
+#+end_choice 
+#+end_exercise
+#+begin_solution
+B
+#+end_solution 
+
+
+
+#+ATTR_LATEX: :options [points=\PQ]
+#+begin_exercise
+*(Espcex)* Considere três átomos cujos símbolos são M, X e Z, e que estão nos seus estados fundamentais. Os átomos M e Z são isótopos, isto é, pertencem ao mesmo elemento químico; os átomos X e Z são isóbaros e os átomos M e X são isótonos. Sabendo que o átomo M tem 23 prótons e número de massa 45 e que o átomo Z tem 20 nêutrons, então os números quânticos do elétron mais energético do átomo X são:
+
+*Observação:* Adote a convenção de que o primeiro elétron a ocupar um orbital possui o número quântico de spin igual a -1/2.
+
+#+begin_export latex
+
+\begin{tblr}{
+colspec={ccccc},
+}
+{\itshape (a)} &n = 3; & I = 0; & m = 2; & s = \sfrac{-1}{2}. \\
+{\itshape (b)} &n = 3; & I = 2; & m = 0; & s = \sfrac{-1}{2}.\\
+{\itshape (c)} &n = 3; & I = 2; & m = -2; & s = \sfrac{-1}{2}.\\
+{\itshape (d)} &n = 3; & I = 2; & m = -2; & s = \sfrac{1}{2}.\\
+{\itshape (e)} &n = 4; & I = 1; & m = 0; & s = \sfrac{-1}{2}.\\
+\end{tblr}
+
+#+end_export 
+#+end_exercise
+#+begin_solution
+C
+#+end_solution 
+
+
+
+
+
+ \collectexercisesstop{NumerosQuanticos}
+
+ 

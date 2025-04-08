@@ -1,0 +1,264 @@
+#+LATEX_HEADER: \DeclareExerciseCollection{DistribuicaoEletronica}
+
+ \collectexercises{DistribuicaoEletronica}
+
+#+ATTR_LATEX: :options [points=\PQ]
+#+begin_exercise
+*(OSEC-SP)* Sendo o subnível 4s^1 (com um elétron) o mais energético de um átomo podemos afirmar que:
+
+#+ATTR_LATEX: :options [label=\Roman*]
+1. O número total de elétrons deste átomo é igual a 19.
+2. Este átomo apresenta 4 camadas eletrônicas.
+3. Sua configuração eletrônica é  1s^2 2s^2 2p^6 3s^2 3d@@latex:$^10$@@ 4s^1
+
+#+begin_choice
+\choice  apenas a afirmação I é correta.
+\choice  apenas a afirmação II é correta.
+\choice  apenas a afirmação III é correta.
+\choice as afirmações I e II são corretas.
+\choice as afirmações II e III são corretas.
+ #+end_choice
+#+end_exercise
+#+begin_solution
+D
+#+end_solution 
+
+
+
+#+ATTR_LATEX: :options [points=\PQ]
+#+begin_exercise
+*(UFAL-AL)* Dentre os seguintes elementos, qual apresenta 16 elétrons no terceiro nível energético? (Dados: números atômicos S = 16, Ni = 28, Zn = 30, Br = 35, Zr = 40.)
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice 
+\choice S
+\choice Ni
+\choice Zn
+\choice Br
+\choice Zr
+#+end_choice 
+#+end_exercise
+#+begin_solution
+B
+#+end_solution 
+
+
+
+
+
+
+#+ATTR_LATEX: :options [points=\PQ]
+#+begin_exercise
+*(ITA)* A configuração eletrônica do átomo de cálcio no seu estado fundamental é:
+Dado: Ca (Z= 20)
+#+begin_choice 
+\choice 1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 .
+\choice 1s^2 2s^2 2p^6 3s^2 3p^6 3d^2.
+\choice 1s^2 2s^2 2p^6 3s^2 3d^2 3p^6.
+\choice 1s^2 2s^2 2p^6 3s^2 4s^2 3d^6 .
+\choice nenhuma das respostas anteriores.
+#+end_choice
+#+end_exercise
+#+begin_solution
+A
+#+end_solution 
+
+
+
+
+
+
+
+#+ATTR_LATEX: :options [points=\PQ]
+#+begin_exercise
+*(UFMG-MG)* Os nomes abaixo estão relacionados diretamente com o modelo atômico atual (Orbital), exceto:
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice De Broglie
+\choice Thomson
+\choice Heisenberg
+\choice Schrödinger
+\choice Saitama
+#+end_choice
+#+end_exercise
+#+begin_solution
+D
+#+end_solution 
+
+
+
+
+#+ATTR_LATEX: :options [points=\PQ]
+#+begin_exercise
+*(UFMG-MG)* Na crosta terrestre, o segundo elemento mais abundante, em massa, tem, no estado fundamental, a seguinte configuração eletrônica: nível 1: completo; nível 2: completo; nível 3: 4 elétrons.
+
+A alternativa que indica corretamente esse elemento é:
+#+begin_choice 
+\choice Alumínio (Z = 13)
+\choice Ferro (Z = 26)
+\choice Nitrogênio (Z = 7)
+\choice Oxigênio (Z = 8)
+\choice Silício (Z = 14)
+#+end_choice
+#+end_exercise
+#+begin_solution
+C
+#+end_solution 
+
+#+ATTR_LATEX: :options [points=\PQ]
+#+begin_exercise 
+*(UNIRIO-RJ)* Os implantes dentários estão mais seguros no Brasil e já atendem às normas internacionais de qualidade. O grande salto de qualidade aconteceu no processo de confecção dos parafusos e pinos de titânio, que compõem as próteses. Feitas com ligas de titânio, essas próteses são usadas para fixar coroas dentárias, aparelhos ortodônticos e dentaduras, nos ossos da mandíbula e do maxilar.
+/Jornal do Brasil, outubro 1996./
+
+Considerando que o número atômico do titânio é 22, sua configuração eletrônica será:
+
+#+begin_choice
+\choice 1s^2 2s^2 2p^6 3s^2 3p^6
+\choice 1s^2 2s^2 2p^6 3s^2 3p^5
+\choice 1s^2 2s^2 2p^6 3s^2 3p^6 4s^2
+\choice 1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d^2
+\choice 1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d@@latex:$^{10}$@@ 4p^6
+#+end_choice
+#+end_exercise
+#+begin_solution
+D
+#+end_solution 
+
+#+ATTR_LATEX: :options [points=\PQ]
+#+begin_exercise
+*(FMU-SP)* O DDT (p-dicloro-difenil-tricloroetano), composto químico, controlou  população de insetos do mundo a tal ponto que a Terra é agora capaz de produzir comida suficiente para alimentar a população humana. Mas esse resultado positivo tem seu lado negativo: os níveis de DDT na comida estão atingindo proporções perigosas para a saúde, por ser bio-acumulativo.
+Considerando um átomo do elemento cloro, que entra na composição do DDT, este apresenta na sua camada de valência:
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice 17 elétrons
+\choice 5 elétrons
+\choice 2 elétrons
+\choice 7 elétrons
+\choice 3 elétrons
+#+end_choice
+#+end_exercise
+#+begin_solution
+D
+#+end_solution
+
+
+#+ATTR_LATEX: :options [points=\PQ]
+#+begin_exercise
+No decorrer de uma experiência no laboratório de química, você foi desafiado a analisar a distribuição eletrônica do átomo de cobre (Cu), que é um caso especial por apresentar uma configuração eletrônica anômala. Sabendo que o cobre possui número atômico 29, qual seria a distribuição eletrônica desse átomo, respeitando o princípio da máxima multiplicidade de Hund?
+#+begin_choice
+\choice 1s^2 2s^2 2p^6 3s^2 3p^6 3d@@latex:$^{10}$@@ 4s^1
+\choice 1s^2 2s^2 2p^6 3s^2 3p^6 4s1 3d@@latex:$^{10}$@@
+\choice 1s^2 2s^2 2p^6 3s^2 3p^6 4s2 3d^9
+\choice 1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 3d@@latex:$^{10}$@@
+\choice 1s^2 2s^2 2p^6 3s^2 3p^6 3d^9 4s^2
+#+end_choice
+#+end_exercise 
+#+begin_solution
+C
+#+end_solution
+
+
+
+
+#+ATTR_LATEX: :options [points=\PQ]
+#+begin_exercise
+Atualmente, a distribuição eletrônica é realizada por meio do Diagrama de Linus Pauling, mas é fundamental conhecer as camadas eletrônicas e seus respectivos subníveis. Considere um átomo genérico com número atômico igual a 37. Determine a distribuição eletrônica do átomo e assinale a alternativa que representa corretamente a ordem dos subníveis preenchidos:
+#+begin_choice
+\choice 1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 3f¹⁴ 4s² 4p⁶ 5s¹
+\choice 1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 4p⁶ 4d¹⁰ 5s¹
+\choice  1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s¹
+\choice 1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 5s¹
+\choice 1s² 2s² 3p⁶ 3d¹⁰ 4s² 4p⁶ 4d¹⁰ 5s¹ 5p⁶
+#+end_choice
+#+end_exercise 
+#+begin_solution
+C
+#+end_solution
+
+
+
+
+
+
+#+ATTR_LATEX: :options [points=\PQ]
+#+begin_exercise
+Conhece-se, atualmente, mais de cem elementos químicos que são, em sua maioria, elementos
+naturais e, alguns poucos, sintetizados pelo homem. Esses elementos estão reunidos na Tabela Periódica segundo suas características e propriedades químicas.
+Em particular, os halogênios (coluna 17) apresentam:
+#+begin_choice 
+\choice o elétron diferenciador no antepenúltimo nível
+\choice subnível *f* incompleto
+\choice o elétron diferenciador no penúltimo nível
+\choice subnível *p* incompleto
+\choice subnível *d* incompleto
+#+end_choice
+#+end_exercise 
+#+begin_solution
+D
+#+end_solution
+
+
+
+#+ATTR_LATEX: :options [points=\PQ]
+#+begin_exercise
+Os elétrons de valência também determinam a forma como os átomos reagem quimicamente e, consequentemente, as propriedades físicas e químicas das substâncias formadas por estes átomos. Quando um elemento químico possui 8 elétrons na camada de valência, ele apresenta características peculiares que o tornam muito importante na química. Assinale a alternativa que apresenta um elemento que contenha 8 elétrons na camada de valência:
+
+#+ATTR_LATEX: :options (2)
+#+begin_choice
+\choice Carbono (C)
+\choice Neônio (Ne)
+\choice Oxigênio (O)
+\choice Hidrogênio (H)
+\choice Nitrogênio (N)
+#+end_choice
+#+end_exercise
+#+begin_solution
+B
+#+end_solution
+
+
+
+
+
+#+ATTR_LATEX: :options [points=\PQ]
+#+begin_exercise
+*(ITA)* Considere as seguintes configurações
+eletrônicas de espécies no estado gasoso:
+#+ATTR_LATEX: :options [label=\Roman*]
+1. 1s^2 2s^2 2p^1.
+2. 1s^2 2s^2 2p^3.
+3. 1s^2 2s^2 2p^4.
+4. 1s^2 2s^2 2p^5.
+5. 1s^2 2s^2 2p^5 3s^1.
+
+Assinale a alternativa *ERRADA*.
+
+#+begin_choice 
+\choice As configurações I e IV podem representar estados
+fundamentais de cátions do segundo período da Tabela
+Periódica.
+\choice As configurações II e III podem representar tanto um
+estado fundamental como um estado excitado de átomos
+neutros do segundo período da Tabela Períodica.
+\choice A configuração V pode representar um estado excitado
+de um átomo neutro do segundo período da Tabela
+Periódica.
+\choice As configurações II e IV podem representar estados
+excitados de átomos neutros do segundo período da Tabela
+Periódica.
+\choice As configurações II, III e V podem representar estados
+excitados de átomos neutros do segundo período da Tabela Periódica
+#+end_choice 
+#+end_exercise 
+#+begin_solution
+D
+#+end_solution
+
+
+
+
+
+\collectexercisesstop{DistribuicaoEletronica}
+
+ 
